@@ -13,7 +13,7 @@ const Destination =()=>{
                 <img src={Destination1} alt="Destinations" className="rounded-md"/>
                 <div className=" absolute bg-white bottom-[-40px] shadow-md w-[90%] left-[5%] py-3 flex flex-col items-center justify-center">
                     <div>
-                        <p className=" text-red-600 text-xs"> 9 days/night tour</p>
+                        <p className=" text-red-600 text-xs"> 9 days/nights tour</p>
                         <h1 className=" font-bold"> Mara Serengeti Deluxe</h1>
                         <p className=" text-xs text-gray-500">  From $9,000</p>
                     </div>
@@ -28,7 +28,7 @@ const Destination =()=>{
                 <img src={Destination2} alt="Destinations" className="rounded-md"/>
                 <div className=" absolute bg-white bottom-[-40px] shadow-md w-[90%] left-[5%] py-3 flex flex-col items-center justify-center">
                     <div>
-                        <p className=" text-red-600 text-xs"> 9 days/night tour</p>
+                        <p className=" text-red-600 text-xs"> 9 days/nights tour</p>
                         <h1 className=" font-bold"> Great Migration Safari</h1>
                         <p className=" text-xs text-gray-500">  From $9,000</p>
                     </div>
@@ -43,7 +43,7 @@ const Destination =()=>{
                 <img src={Destination3} alt="Destinations" className="rounded-md "/>
                 <div className=" absolute bg-white bottom-[-40px] shadow-md w-[90%] left-[5%] py-3 flex flex-col items-center justify-center">
                     <div>
-                        <p className=" text-red-600 text-xs"> 12 days/night tour</p>
+                        <p className=" text-red-600 text-xs"> 12 days/nights tour</p>
                         <h1 className=" font-bold"> Honeymoon Safari</h1>
                         <p className=" text-xs text-gray-500">  From $13,055</p>
                     </div>
@@ -58,9 +58,9 @@ const Destination =()=>{
                 <img src={Destination1} alt="Destinations" className=" rounded-md"/>
                 <div className=" absolute bg-white bottom-[-40px] shadow-md w-[90%] left-[5%] py-3 flex flex-col items-center justify-center">
                     <div>
-                        <p className=" text-red-600 text-xs"> 9 days/night tour</p>
-                        <h1 className=" font-bold"> Mara Serengeti Deluxe</h1>
-                        <p className=" text-xs text-gray-500">  From $9,000</p>
+                        <p className=" text-red-600 text-xs"> 11 days/10 nights tour</p>
+                        <h1 className=" font-bold"> Amboseli</h1>
+                        <p className=" text-xs text-gray-500">  From $13,241</p>
                     </div>
                     <span className=" my-4 border border-red-600 rounded-md p-1 text-red-600 hover:bg-red-600 hover:text-white text-sm">
                       Learn More

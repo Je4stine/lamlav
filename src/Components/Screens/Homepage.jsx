@@ -1,4 +1,5 @@
 import React,{ useState} from "react";
+import ChatBot from "../ChatBot/ChatBot";
 // import ControlledCarousel from "../Carousel/Carousel";
 
 import Countries from "../Destination/Countries";
@@ -36,6 +37,7 @@ const Homepage =()=>{
             <Countries/>
             <Destination/>
             <Testimonials/>
+            <ChatBot/>
             <div>
                 <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             </div>
