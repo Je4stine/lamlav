@@ -1,4 +1,5 @@
 import React,{ useState} from "react";
+import GetInTouch from '../Contact/Contacts'
 import ChatBot from "../ChatBot/ChatBot";
 // import ControlledCarousel from "../Carousel/Carousel";
 
@@ -37,6 +38,7 @@ const Homepage =()=>{
             <Countries/>
             <Destination/>
             <Testimonials/>
+            <GetInTouch/>
             <ChatBot/>
             <div>
                 <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
