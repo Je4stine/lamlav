@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: "SourceSerifPro-Regular";
+  src: local("SourceSerifPro-Regular"),
+   url("./Fonts/SourceSerifPro-Regular.ttf") format("truetype");
+  
+  }
+
+  @font-face {
+    font-family: "SourceSerifPro-Black";
+    src: local("SourceSerifPro-Black"),
+     url("./Fonts/SourceSerifPro-Black.ttf") format("truetype");
+    
+    }
+
 body {
   margin: 0;
   background-color: rgb(236, 233, 233);
@@ -21,4 +35,7 @@ code {
 
 html {
   scroll-behavior: smooth;
+}
+.font-link {
+  font-family: 'Kanit', cursive;
 }
