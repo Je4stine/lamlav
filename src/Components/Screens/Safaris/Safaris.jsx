@@ -33,10 +33,10 @@ const Safaris =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
            <div className=' parallax1'>
-                <div className=" absolute top-[40%] left-[45%] max-[768px]:left-[32%]">
-                    <h1 className=" text-white text-6xl font-bold max-[768px]:text-4xl ">SAFARIS</h1>
+                <div className=" absolute top-[40%] md:left-[45%] left-[32%]">
+                    <h1 className=" text-white md:text-6xl font-bold text-4xl ">SAFARIS</h1>
                 </div>
-                <div className=" absolute top-[90%] left-[50%] max-[768px]:left-[40%] animate-bounce">
+                <div className=" absolute top-[90%] md:left-[50%] left-[40%] animate-bounce">
                       <a href="#destinations">  <AiOutlineArrowDown size={60} color="white"/></a>
                 </div>
            </div>

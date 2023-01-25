@@ -12,16 +12,16 @@ const Navbar =()=>{
     }
 
     return (
-        <nav className=" w-full absolute top-0 z-[1] min-[768px]:flex min-[768px]:justify-between max-[768px]:bg-white px-5 max-[768px]:h-[60px]">
-            <div className=' max-[768px]:flex max-[768px]:justify-between items-center' >
-                <h1 className=" mx-4 my-6 font-bold text-2xl text-white max-[768px]:text-black max-[768px]:my-3">Lamlav</h1>
-                <span  className=' cursor-pointer block min-[768px]:hidden' onClick={Toggle}>
+        <nav className=" w-full absolute top-0 z-[1] md:flex md:justify-between md:bg-transparent bg-white px-5 h-[60px]">
+            <div className=' flex justify-between items-center' >
+                <h1 className=" mx-4 md:my-6 font-bold text-2xl text-black md:text-white my-3">Lamlav</h1>
+                <span  className=' cursor-pointer block md:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>
             </div>
             {
                 isOpen ? 
-                    <ul className=" min-[768px]:flex min-[768px]:items-center z-[-1] min-[768px]:z-auto min-[768px]:static absolute max-[768px]:bg-white w-full left-0 min-[768px]:w-auto min-[768px]:opacity-100 opacity-100 transition-all ease-in duration-500">
+                    <ul className="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:opacity-100 opacity-100 transition-all ease-in duration-500">
                         <li className=" mx-4 my-6 "> 
                         <a href="/" className=" hover:text-[#f15d30] duration-500">Home</a>  
                         </li>
@@ -36,7 +36,7 @@ const Navbar =()=>{
                         </li>
                     </ul> 
                 :
-                    <ul className=" min-[768px]:flex min-[768px]:items-center z-[-1] min-[768px]:z-auto min-[768px]:static absolute max-[768px]:bg-white w-full left-0 min-[768px]:w-auto min-[768px]:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                    <ul className=" md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                         <li className=" mx-4 my-6 "> 
                         <a href="/" className=" hover:text-yellow-400 duration-500 text-white font-bold">Home</a>  
                         </li>

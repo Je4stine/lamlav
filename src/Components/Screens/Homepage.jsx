@@ -34,7 +34,7 @@ const Homepage =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
             <Hero/>
-            <Why/>
+            <Why/> 
             <Countries/>
             <Destination/>
             <Testimonials/>
