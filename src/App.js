@@ -17,7 +17,7 @@ import Contacts from './Components/Screens/Contacts/ContactUs';
 function App() {
   return (
     <div>
-      <Router >
+      <Router basename='/lamlav'>
         <Routes>
           <Route path ="/" element={<Homepage/>}/>
           <Route path ="/about" element={<AboutUs/>}/>
