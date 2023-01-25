@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lamlav/static/css/main.bd6f1ed9.css",
-    "main.js": "/lamlav/static/js/main.1220cbee.js",
+    "main.js": "/lamlav/static/js/main.6ddbc976.js",
     "static/js/787.0002ab42.chunk.js": "/lamlav/static/js/787.0002ab42.chunk.js",
     "static/media/Honeymoon.jpg": "/lamlav/static/media/Honeymoon.9970fe48117b149eae1a.jpg",
     "static/media/Tanzania2.jpg": "/lamlav/static/media/Tanzania2.677941f6e93920601d50.jpg",
@@ -21,11 +21,11 @@
     "static/media/kanairo-black.svg": "/lamlav/static/media/kanairo-black.f7a2c9276cc7ebc7489247d74c0335cc.svg",
     "index.html": "/lamlav/index.html",
     "main.bd6f1ed9.css.map": "/lamlav/static/css/main.bd6f1ed9.css.map",
-    "main.1220cbee.js.map": "/lamlav/static/js/main.1220cbee.js.map",
+    "main.6ddbc976.js.map": "/lamlav/static/js/main.6ddbc976.js.map",
     "787.0002ab42.chunk.js.map": "/lamlav/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd6f1ed9.css",
-    "static/js/main.1220cbee.js"
+    "static/js/main.6ddbc976.js"
   ]
 }
