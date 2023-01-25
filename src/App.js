@@ -17,12 +17,12 @@ import Contacts from './Components/Screens/Contacts/ContactUs';
 function App() {
   return (
     <div>
-      <Router basename='/lamlav'>
+      <Router >
         <Routes>
           <Route path ="/" element={<Homepage/>}/>
-          <Route path ="/about" element={<AboutUs/>}/>
-          <Route path ="/safaris" element={<Safaris/>}/>
-          <Route path ="/contacts" element={<Contacts/>}/>
+          <Route path ="/lamlav/about" element={<AboutUs/>}/>
+          <Route path ="/lamlav/safaris" element={<Safaris/>}/>
+          <Route path ="/lamlav/contacts" element={<Contacts/>}/>
         </Routes>
       </Router>
     </div>
