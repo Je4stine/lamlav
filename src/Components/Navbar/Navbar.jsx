@@ -23,31 +23,31 @@ const Navbar =()=>{
                 isOpen ? 
                     <ul className="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:opacity-100 opacity-100 transition-all ease-in duration-500">
                         <li className=" mx-4 my-6 "> 
-                        <a href="/" className=" hover:text-[#f15d30] duration-500">Home</a>  
+                        <a href="/lamlav" className=" hover:text-[#f15d30] duration-500">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                         <a href="/safaris" className=" hover:text-[#f15d30] duration-500">Safaris</a> 
+                         <a href="/lamlav/safaris" className=" hover:text-[#f15d30] duration-500">Safaris</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/about" className=" hover:text-[#f15d30] duration-500">About</a> 
+                            <a href="/lamlav/about" className=" hover:text-[#f15d30] duration-500">About</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/contacts" className=" hover:text-[#f15d30] duration-500">Contacts</a> 
+                            <a href="/lamlav/contacts" className=" hover:text-[#f15d30] duration-500">Contacts</a> 
                         </li>
                     </ul> 
                 :
                     <ul className=" md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                         <li className=" mx-4 my-6 "> 
-                        <a href="/" className=" hover:text-yellow-400 duration-500 text-white font-bold">Home</a>  
+                        <a href="/lamlav" className=" hover:text-yellow-400 duration-500 text-white font-bold">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-bold">Safaris</a> 
+                            <a href="/lamlav/safaris" className=" hover:text-yellow-400 duration-500 text-white font-bold">Safaris</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-bold">About</a> 
+                            <a href="/lamlav/about" className=" hover:text-yellow-400 duration-500 text-white font-bold">About</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-bold">Contacts</a> 
+                            <a href="/lamlav/contacts" className=" hover:text-yellow-400 duration-500 text-white font-bold">Contacts</a> 
                         </li>
                     </ul>
             }
