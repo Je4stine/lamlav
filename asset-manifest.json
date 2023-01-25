@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/lamlav/static/css/main.bd6f1ed9.css",
+    "main.js": "/lamlav/static/js/main.ec7f6fb4.js",
+    "static/js/787.0002ab42.chunk.js": "/lamlav/static/js/787.0002ab42.chunk.js",
+    "static/media/Honeymoon.jpg": "/lamlav/static/media/Honeymoon.9970fe48117b149eae1a.jpg",
+    "static/media/Tanzania2.jpg": "/lamlav/static/media/Tanzania2.677941f6e93920601d50.jpg",
+    "static/media/uganda.jpg": "/lamlav/static/media/uganda.de405137c7b6c446a3c6.jpg",
+    "static/media/Kenya.jpg": "/lamlav/static/media/Kenya.101feee560dda7eb1d2e.jpg",
+    "static/media/Migration.jpg": "/lamlav/static/media/Migration.3203260da759b0b1b8bc.jpg",
+    "static/media/Rwanda2.jpg": "/lamlav/static/media/Rwanda2.5a2cfe0d478aa7461934.jpg",
+    "static/media/Mara .jpg": "/lamlav/static/media/Mara .d45a3f8c905c870c1f63.jpg",
+    "static/media/Nairobipa.jpg": "/lamlav/static/media/Nairobipa.f18c564b861253c28363.jpg",
+    "static/media/Lion1.jpg": "/lamlav/static/media/Lion1.34eeb595f42212e13ef4.jpg",
+    "static/media/SourceSerifPro-Black.ttf": "/lamlav/static/media/SourceSerifPro-Black.54cb3526b59ed4f35e9c.ttf",
+    "static/media/SourceSerifPro-Regular.ttf": "/lamlav/static/media/SourceSerifPro-Regular.a43f8192fdd94b8968c6.ttf",
+    "static/media/hotel-resto-7.jpg": "/lamlav/static/media/hotel-resto-7.ba775c80d7f11499c80a.jpg",
+    "static/media/aboutimg.jpg": "/lamlav/static/media/aboutimg.9e41987fd50233ee8c4c.jpg",
+    "static/media/beach.jpg": "/lamlav/static/media/beach.c1953f33c838d2d93f0b.jpg",
+    "static/media/angry.jpg": "/lamlav/static/media/angry.e08dc9f3a7e42a44645a.jpg",
+    "static/media/kanairo-black.svg": "/lamlav/static/media/kanairo-black.f7a2c9276cc7ebc7489247d74c0335cc.svg",
+    "index.html": "/lamlav/index.html",
+    "main.bd6f1ed9.css.map": "/lamlav/static/css/main.bd6f1ed9.css.map",
+    "main.ec7f6fb4.js.map": "/lamlav/static/js/main.ec7f6fb4.js.map",
+    "787.0002ab42.chunk.js.map": "/lamlav/static/js/787.0002ab42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd6f1ed9.css",
+    "static/js/main.ec7f6fb4.js"
+  ]
+}
