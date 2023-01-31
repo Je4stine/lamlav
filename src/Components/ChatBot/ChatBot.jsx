@@ -6,16 +6,11 @@ const steps = [
     {
         id: '0',
         message: 'Hey there!',
- 
-        // This calls the next id
-        // i.e. id 1 in this case
         trigger: '1',
-    }, {
+    }, 
+    {
         id: '1',
- 
-        // This message appears in
-        // the bot chat bubble
-        message: 'Please write your username',
+        message: 'Please write your Name',
         trigger: '2'
     }, {
         id: '2',

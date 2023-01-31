@@ -3,7 +3,7 @@ import Adventure from '../../Assets/hotel-resto-7.jpg'
 
 const Why =()=>{
     return (
-        <div className=' md:my-10 md:flex md:flex-row bg-fuchsia-50 rounded-md mr-10 md:p-8 p-1 flex flex-col-reverse m-auto items-center ' id='why'>
+        <div className=' md:my-10 md:flex md:flex-row bg-fuchsia-50 rounded-md md:p-8 p-1 flex flex-col-reverse m-auto items-center justify-center' id='why'>
             <div className=' flex flex-col max-[768px]:items-center'>
                 <img src={Adventure} alt="Adventure" className="w-3/4 mb-5"/>                              
             </div>
