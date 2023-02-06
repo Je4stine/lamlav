@@ -14,7 +14,7 @@ const Navbar =()=>{
     return (
         <nav className=" w-full top-0 z-[1] md:flex md:justify-between md:bg-white bg-white px-5 h-[60px] sticky shadow-md">
             <div className=' flex justify-between items-center' >
-                <h1 className=" mx-4 md:my-6 font-bold text-2xl text-black md:text-black my-3">Lamlav</h1>
+                <h1 className=" mx-4 md:my-6 font-bold text-2xl text-black md:text-black my-3"><a href='/'>Lamlav</a></h1>
                 <span  className=' cursor-pointer block md:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>

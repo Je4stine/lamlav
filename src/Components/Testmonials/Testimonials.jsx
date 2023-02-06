@@ -1,55 +1,59 @@
-import { Parallax } from 'react-parallax';
+import React, { Component } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import './Testimonials.css';
 
-import Beach from '../../Assets/beach.jpg';
+import Profile from "../../Assets/profile.jpg"
 
-import Profile from "../../Assets/angry.jpg";
+const Testimonials =()=> {
 
-const Testimonials =()=>{
     return (
+      <Carousel
+        showArrows={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        showStatus={false}
+        autoPlay={true}
+        interval={6100}
+      >
         <div>
-            <Parallax bgImage={Beach} bgImageAlt="the cat" strength={500} >
-                <div className=' w-full h-[400px] flex flex-col items-center justify-center'>
-                    <h1 className=' text-xl font-bold mb-5'>
-                        Testimonials
-                    </h1>
-                    <div className=' flex justify-around'>
-                        <div className=' bg-white w-[280px] h-[160px] p-4 rounded mr-5'>
-                            <p className=' text-sm text-gray-500 font-thin'> "I'm glad I got to know Lamlav Safaris, exquisite services I would 100% reccomend. My honeymoon was such a blast"</p>
-                            <div className=' flex items-center justify-center'>
-                                <img src={Profile} alt='profilePhoto' className=' w-[60px] h-[60px] rounded-full mr-5'/>
-                                <div>
-                                    <p className=' text-sm'> Clarence Mianoo</p>
-                                    <p className='text-red-500 text-xs'> Uganda</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className=' bg-white w-[280px] h-[160px] p-4 rounded mr-5'>
-                            <p className=' text-sm text-gray-500 font-thin'> "I'm glad I got to know Lamlav Safaris, exquisite services I would 100% reccomend. My honeymoon was such a blast"</p>
-                            <div className=' flex items-center justify-center'>
-                                <img src={Profile} alt='profilePhoto' className=' w-[60px] h-[60px] rounded-full mr-5'/>
-                                <div>
-                                    <p className=' text-sm'> Clarence Mianoo</p>
-                                    <p className='text-red-500 text-xs'> Uganda</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className=' bg-white w-[280px] h-[160px] p-4 rounded mr-5'>
-                            <p className=' text-sm text-gray-500 font-thin'> "I'm glad I got to know Lamlav Safaris, exquisite services I would 100% reccomend. My honeymoon was such a blast"</p>
-                            <div className=' flex items-center justify-center'>
-                                <img src={Profile} alt='profilePhoto' className=' w-[60px] h-[60px] rounded-full mr-5'/>
-                                <div>
-                                    <p className=' text-sm'> Clarence Mianoo</p>
-                                    <p className='text-red-500 text-xs'> Uganda</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Parallax>
+          <img src={Profile} />
+          <div className="myCarousel">
+            <h3>Shirley Fultz</h3>
+            <h4>Designer</h4>
+            <p>
+              Best tour company in the region, they deliver just as they had promised. 
+              I fully recommend them, expecially for your honeymoons
+            </p>
+          </div>
         </div>
-    )
-};
 
-export default Testimonials;
+        <div>
+          <img src={Profile} />
+          <div className="myCarousel">
+            <h3>Daniel Keystone</h3>
+            <h4>Designer</h4>
+            <p>
+            Best tour company in the region, they deliver just as they had promised. 
+              I fully recommend them, expecially for your honeymoons
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <img src={Profile}/>
+          <div className="myCarousel">
+            <h3>Theo Sorel</h3>
+            <h4>Designer</h4>
+            <p>
+            Best tour company in the region, they deliver just as they had promised. 
+              I fully recommend them, expecially for your honeymoons
+            </p>
+          </div>
+        </div>
+      </Carousel>
+    );
+  
+}
+
+export default Testimonials
