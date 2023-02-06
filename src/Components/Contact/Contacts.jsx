@@ -1,6 +1,6 @@
 const GetInTouch =()=>{
     return (
-        <div className=" p-10 flex flex-col justify-center items-center">
+        <div className=" md:p-10 flex flex-col justify-center items-center">
             <h1 className="my-[50px] font-bold text-5xl max-[768px]:text-xl max-[768px]:my-10">Get in touch with us</h1>
             <div className=" flex flex-col flex-1 p-10">
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" id="Contact">
@@ -18,7 +18,7 @@ const GetInTouch =()=>{
                     <textarea rows="4" cols="50" name="message" form="Contact" className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
                         Message here...
                     </textarea>
-                    <input type='Submit'/>
+                    <input type='Submit'/> 
                 </form>
             </div>
         </div>

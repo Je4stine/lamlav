@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
@@ -6,7 +6,7 @@ import Mara1 from '../../../Assets/Mara1.jpg';
 
 import Footer from "../../Footer/Footer";
 
-import {MdKeyboardArrowDown} from 'react-icons/md';
+
 
 
 import Faq from "react-faq-component";

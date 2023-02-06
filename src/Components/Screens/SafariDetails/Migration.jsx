@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
@@ -6,7 +6,6 @@ import Mara1 from '../../../Assets/Mara1.jpg';
 
 import Footer from "../../Footer/Footer";
 
-import {MdKeyboardArrowDown} from 'react-icons/md';
 
 
 import Faq from "react-faq-component";
@@ -17,61 +16,91 @@ const Migration =()=>{
         title: "Iteneraries",
         rows: [
             {
-                title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">Day 1: Nairobi</h1></strong>,
+                title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">Day 1 Arrival in Nairobi || <em> Grand Welcome to kenya</em></h1></strong>,
                 content: <div className=" md:flex md:items-center">
                     <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
                     <div> 
-                        <p className=" p-5">Arrival and transfer to one of Kenya’s most luxurious hotels in the city; The Norfolk hotel Nairobi <br/>
-                           <strong> Included:</strong>
-                            Full board accommodation; Bed, dinner breakfast and lunch
+                        <p className=" p-5">Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.<br/>
+                                    <strong>Norfolk hotel</strong> is a luxury hotel located in the heart of the city. It boasts of 27 signature suits and 147 rooms with heated outdoor swimming pool, a health club and sybaritic spa facilities- all to  combine classic elegance and modern design with discreet technology . The luxurious suits offer an excellent choice for guests seeking to experience luxury intertwined with the rich history of the city.
+
                         </p>
                     </div>
                 </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 2: NAIROBI –David Shieldrick wildlife trust and the giraffe center </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2:  NAIROBI || <em>Game viewing in the city</em> </strong>,
                 content: <div className=" md:flex md:items-center">
                             <img src={Mara1} alt="Mara1" className=" md:w-[1000px] "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a leisurely breakfast, you will drive to David Shieldrick wildlife trust located near the Nairobi national park where you will be accorded an opportunity to get up close with orphaned elephants and even adopt one baby elephant. 
-                            David Shieldric wild life trust is a haven to elephant’s orphans, rhinos and other animals, where they receive specialized treatment and care from a highly dedicated staff. It is managed by Daphine Shieldrick, the widow of one of Kenya’s best known game warden.
-                            From the trust, we will navigate our way to the giraffe center, a home to the endangered Rothschild’s giraffe, where you will spend the rest of your afternoon interacting with the world’s tallest species. It is the only wildlife sanctuary in the world that is located in a city - approximately 5k from the city center. Finish your day at the national museums of Kenya before you settle for dinner at Norfolk hotel 
-
+                            After a hearty morning breakfast, combine wildlife and culture with a trip to the giraffe center and David Shieldrick Wildlife Trust and later to the Kazuri bead factory/national museums.<br/>
+                             The Giraffe Centre is located approximately 5km from the city center and is home to the endangered Rothschild’s giraffes. At the giraffes center, you will get an opportunity interact with the world’s tallest species at close range and even feed them by hand on a raised observation platform. We shall then navigate our way to the nearby David Sheldrick Wildlife Trust; an important conservation center with an orphanage for baby elephants and rhinos.<br/>
+                            Explore the better part of the afternoon with visits to the Kazuri bead factory where you will see how classic pottery beads are made, following the process from beginning to end. End the day at the national museums before returning to Norfolk hotel in the evening.
                             </p>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 3-5:  MAASAI MARA GAME RESERVE</strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3 LEWA WILDLIFE CONSERVANCY || <em>In the wilderness of Laikipia Plateau</em></strong>,
                 content: <div className=" md:flex md:items-center">
                             <img src={Mara1} alt="Mara1" className=" md:w-[1000px]"/>
                             <div>
-                                <em className=" p-5  font-[SourceSerifPro-Regular]">Home to the highest concentration of savanna wildlife species, decorated with the great migration spectacle.</em>
+                               
                                 <p className=" p-5  font-[SourceSerifPro-Regular]">
-                                After a leisurely breakfast, you will be transferred to Wilson airport to catch a morning flight to the Maasai Mara national reserve. Upon arrival, you will be warmly received by our representative who will then transfer you to the Luxe Keekorok lodge for a three night expedition. Set out for an afternoon game drive after a delicious lunch in the bush, and return back to the lodge as the sun sets.
-                                For the two next days,  venture out on  early morning and afternoon game drives in the vast Mara conservancy as you keep your eye peeled to catch a plethora of animal species that will forever remain the most fascinating experience in your life. Experience the great migration of wildebeest and the breathless wildlife spectacles, aboard comfy 4x4 vehicles. At an additional cost, you may choose to go on a hot air balloon ride above the plains of Mara for a more wonderful catch of the wildlife. You can  also pay a visit to the Manyattas and experience the unique and authentic culture of the Maasai community living around the park. Share your experiences with other guests as you enjoy an evening capped with a sundowner followed by a leisurely dinner in the camp  
+                                Catch a flight at Wilson airport and fly over the Laikipia plateau, with a stunning view of the lordly Mt Kenya, to the Lewa wildlife conservancy. On touch down at Lewa airstrip you will enjoy a game drive transfer to the famous Lewa Safari Camp where you will spend three amazing nights. Arrive in time for lunch and have time to relax before setting out for an afternoon game drive to dusk. <br/>
+                                <strong>Lewa safari camp </strong>offers very comfortable accommodation, with excellent food and elegant surroundings to match the views and unsurpassed game viewing of Lewa Wildlife Conservancy.
+  
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 6 - 8 SERENGETI NATIONAL PARK</strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: LEWA CONSERVANCY || <em>Classic game viewing</em></strong>,
                 content: <div className=" md:flex md:items-center">
                             <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            We fly to Serengeti via Migori airstrip, then do a road connection to Tarime and fly express to Serengeti. On touch down, you will be transferred to the amazing four seasons safari lodge, for three night stay and expedition. 
-                            Spend the next two days adventuring the bush, with a series of activities ranging from classic game viewing on scheduled day and night game drives, to hot air balloon rides and cultural visits to the Manyattas. Return back to the lodge in the evening to enjoy a sundowner and an elegant dinner.
-                            Serengeti national park is iconic, vast and golden. It is a world heritage site located in the northern Tanzania and extends into southern Kenya where it connects with the great Maasai Mara. It is renowned for its large lion population, together with approximately over 70 mammals and 500 species of birds. At Serengeti, you will weather an epic spectacle of the great migration of millions of wildebeest, zebras, gazelles, buffalos, giraffes and other animal species crossing the Mara River in search of the sprouting pasture on the Kenyan Maasai Mara.
-                            “No one can return from Serengeti  unchanged, for the lions will forever prowl our memory and great heard throng our imaginations’’. 
+                            Lewa wildlife conservancy is a world heritage center and home to diverse array of game mammals and birds. It is a vital stronghold for the approximately 400 Grevy’s Zebras and more than 120 rhinos, and  second to Maasai Mara in terms of wildlife densities. Visitors to Lewa are privy to some of the most spectacular wildlife viewing that Kenya has to offer. Prides of lion, leopard and jackal thrive on the rich diversity of prey that inhabits the area. Spend this day exploring the landscapes on scheduled morning and afternoon game drives, returning to the camp In between the drives for lunch and relaxation, before setting out for another game drive 
                             </p>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 9. BACK TO NAIROBI AND CONNECT TO OTHER PARTS OF THE WORLD.
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: LEWA CONSERVANCY || <em>Bush walks, horse or camel rides, and cultural visits</em>
                 </strong>,
                 content: <div className=" md:flex md:items-center">
                             <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a hearty morning breakfast, you will depart for a flight to Kenya’s capital Nairobi and subsequent transfer to Norfolk hotel day room service and a meal before you catch a flight back. 
+                                After a sumptuous Champaign breakfast in the bush, you will head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides or camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a campfire. 
+                            </p>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: MAASAI MARA NATIONAL RESERVE || <em>Face to face with the great migration!</em>
+                </strong>,
+                content: <div className=" md:flex md:items-center">
+                            <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
+                            <p className=" p-5  font-[SourceSerifPro-Regular]">
+                            After a leisurely bush breakfast, you will be transferred to Lewa airstrip for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip.<br/>
+                            Arrive in time for a hearty lunch and relax while enjoying the camp’s amenities. Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
+ 
+                            </p>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]"> DAY 7: MAASAI MARA NATIONAL RESERVE || <em>Breath- taking wildlife encounters</em>
+                </strong>,
+                content: <div className=" md:flex md:items-center">
+                            <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
+                            <p className=" p-5  font-[SourceSerifPro-Regular]">
+                            Maasai Mara National Reserve boasts of some the spectacular wildlife viewing in the word. All major safari animals can be found roaming in Maasai Mara, which is also home to the great migration. Every year over 1.5 million wildebeest migrate between the vast Serengeti in Tanzania and Kenya as they search for green pasture. This migration is often characterized by breathless crossings of Mara and Talek Rivers, accompanied with adrenaline charged spectacles whose drama is heightened by the crocodiles that weave gape-mouthed through the crossing herd, ready to snatch any individual that makes a false move. Spend this day exploring the Mara ecosystem on unlimited game drives, for a chance to experience these breathtaking spectacles that will always leave you breathless!
+                            Brace yourself for  a spectacular wildlife migration experience and keep your eye peeled (throughout) to catch a plethora of game mammals including the big fives ( lion, elephant, rhino, leopard, buffalos) and several bird species that inhabit the expansive park.
+                            </p>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8: MAASAI MARA NATIONAL RESERVE || <em>Hippo pool bush breakfast, game drives, Maasai cultural </em>
+                </strong>,
+                content: <div className=" md:flex md:items-center">
+                            <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
+                            <p className=" p-5  font-[SourceSerifPro-Regular]">
+                            This morning, you will crown your game viewing experience with a leisurely Bush Breakfast by the Mara River Hippo Pools, before heading out for a morning game drive. Return to the lodge for lunch and indulge in spa, or a muscle relieving massage, before making a grand visit (optional) to the maasai village cget to learn their proud heritage and how they peacefully coexist with the wild animals. 
                             </p>
                         </div>,
             },
@@ -100,27 +129,45 @@ const Migration =()=>{
         <div className=" bg-white flex flex-col flex-1 items-center justify-center">
             <Navbar/>
             <div className=" flex flex-col items-center">
-                <p>Mara 1</p>
                 <div>
                     <img src={Mara1} alt=" Mara Camping" className=" m-auto rounded-lg p-5 md:px-[400px]"/>
                     <div className=" md:px-[400px] p-10">
-                        <h1>Itenerary Highlight</h1>
+                        <h1 className=" font-bold">Itenerary Highlight</h1>
                         <p className=" font-[SourceSerifPro-Regular]">
-                            <strong>DAY I. NAIROBI</strong> <br/>
-                            Arrival and transfer to the luxurious Norfolk Hotel Nairobi for overnight stay.<br/>
-                            <strong>DAY 2. NAIROBI </strong> <br/>
-                            Excursions in the city with visits to David shieldrick wildlife trust, the giraffe center and national museums of Kenya. Return back to Norfolk hotel in the evening<br/>
-                            <strong>DAY 3. MAASAI MARA GAME RESERVES.</strong> <br/>
-                            Transfer to Wilson Airport, after morning breakfast, for a flight to maasai mara. Upon touch down at keekorok airstrip, you will be transferred to the iconic keekorock lodge for check in. Enjoy game drive en route and in the afternoon after a hearty lunch. Return back in the evening for dinner and relaxation.<br/>
-                            <strong>DAY 4-5. MAASAI MARA </strong><br/>
-                            Spend the next two days adventuring the bush, with a series of activities ranging from classic game viewing on scheduled day and night game drives, to hot air balloon rides and cultural visits to the manyattas. Return back to the lodge in the evening to enjoy a sundowner and an elegant dinner.<br/>
-                            <strong>DAY 6 SERENGETI NATIONAL PARK. </strong><br/>
-                            Fly to Serengeti and be transferred to the amazing four seasons safari camp.<br/>
-                            <strong>DAY 7-8 SERENGETI NATIONAL PARK.</strong><br/>
-                            Spend two days and nights searching for wildlife in the fascinating ecosystem of Serengeti, on unlimited day and night game drives. Experience the great migration and the breathless wildlife spectacles.<br/>
-                            <strong>DAY 9. NAIROBI</strong><br/>
-                            Depart for a flight to Kenya’s capital Nairobi, after a leisurely breakfast and transfer to Norfolk for day room service before you catch a flight back.<br/>
+                        An unabashedly  luxurious  safari, favoured  by many who  desire to to explore Africa's  legendary  savannahs,  and witness -first hand - the  breath-taking  wildebeest  migrations. This classic  Safari  covers three of Kenya’s great wildlife havens: The Nairobi National  Park, The Lewa Conservancy, in the dramatic  Laikipia Plateau,  and the iconic Maasai Mara game reserve, which is the centerpiece  of wildlife spectacles. Three exhilarating  flights between  the luxury camps and lodges  (and  back to the city) are meant  to expedite  your  travel.
+                        Your leisurely stay in places like the fairmount  Norfolk  hotel at the heart of  the  city;
+                         Elewana  Lewa  Safari Camp in Laikipia; and the charmingly  luxe Mara Serena lodge in Maasai Mara, will make your safari adventure  comfortable  throughout. <br/>
+                         <div className=" mt-5"></div>
+                         <strong className=" mt-5"> 9days/8nights,from $9000 per person</strong>
                         </p>
+                    </div>
+                    <div className=" md:px-[400px] p-10">
+                        <h1><strong>Included:</strong></h1>
+                        <ul className=" list-disc">
+                            <li>Luxury accommodation  and all meals.</li>
+                            <li>Spectacular hot air balloon  Safari.</li>
+                            <li>Unlimited game drives in  4  4 vehicles with roof hatches for game viewing.</li>
+                            <li>Optional activities and excursions Individualised for you by your Safari Director.</li>
+                            <li>Transport using 4  4 vehicle with experienced English/French/spanish speaking driver/guide.</li>
+                            <li>Accommodation as shown in the itinerary. </li>
+                            <li>Internet  access.</li>
+                            <li> soft drinks, beer, house wines and selected spirits,</li>
+                            <li> Airport and Airstrip transfers.</li>
+                            <li> Park/conservancy fees.</li>
+                            <li>Flying Doctors emergency evacuation cover.</li>
+                            <li> Mineral water on  game drives.</li>
+                            <li> Scheduled flights; Lewa/maasai mara/Nairobi.</li>
+                            <li> Daily valet laundry service.</li>
+                            <li> 24hour Lamlav on call support.</li>
+                        </ul>
+                        <h1><strong> Excluded:</strong></h1>
+                        <ul className=" list-disc">
+                            <li>Visa fees and International flight</li>
+                            <li> Regional flights and departure taxes</li>
+                            <li> Medical, Travel and baggie insurance</li>
+                            <li> Inoculations and personal insurance</li>
+                            <li> Tips for driver/guide/lodge/camp staff</li>
+                        </ul>
                     </div>
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>

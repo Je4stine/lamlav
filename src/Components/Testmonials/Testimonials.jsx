@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import './Testimonials.css';
@@ -17,7 +17,7 @@ const Testimonials =()=> {
         interval={6100}
       >
         <div>
-          <img src={Profile} />
+          <img src={Profile} alt="Profile 1" />
           <div className="myCarousel">
             <h3>Shirley Fultz</h3>
             <h4>Designer</h4>
@@ -29,7 +29,7 @@ const Testimonials =()=> {
         </div>
 
         <div>
-          <img src={Profile} />
+          <img src={Profile} alt="Profile 1"/>
           <div className="myCarousel">
             <h3>Daniel Keystone</h3>
             <h4>Designer</h4>
@@ -41,7 +41,7 @@ const Testimonials =()=> {
         </div>
 
         <div>
-          <img src={Profile}/>
+          <img src={Profile} alt="Profile 1"/>
           <div className="myCarousel">
             <h3>Theo Sorel</h3>
             <h4>Designer</h4>
