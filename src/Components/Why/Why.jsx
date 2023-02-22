@@ -1,11 +1,13 @@
-import Adventure from '../../Assets/hotel-resto-7.jpg'
+import Adventure from '../../Assets/logo1.png';
+
+
 
 
 const Why =()=>{
     return (
-        <div className=' md:my-10 md:flex md:flex-row bg-fuchsia-50 rounded-md md:p-8 p-1 flex flex-col-reverse m-auto items-center justify-center' id='why'>
+        <div className=' md:my-10 md:flex md:flex-row bg-fuchsia-50 rounded-md md:p-2 p-1 flex flex-col-reverse m-auto items-center justify-center' id='why'>
             <div className=' flex flex-col max-[768px]:items-center'>
-                <img src={Adventure} alt="Adventure" className="w-3/4 mb-5"/>                              
+                <img src={Adventure} alt="Adventure" className="w-1/2"/>                              
             </div>
             <div className='p-5 w-3/4 max-[768px]:p-1 flex flex-col justify-center'>
                 <h1 className=' mb-5 text-2xl text-[#f15d30] max-[768px]:text-xl mt-5'> Welcome to Lamlav Leisure Safaris</h1>

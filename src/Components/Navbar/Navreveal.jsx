@@ -34,6 +34,9 @@ const Navbar =()=>{
                         <li className=" mx-4 my-6 ">
                             <a href="/contacts" className=" hover:text-[#f15d30] duration-500 md:text-black">Contacts</a> 
                         </li>
+                        <li className=" mx-4 my-6 ">
+                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500 md:text-black">FAQs</a> 
+                        </li>
                     </ul> 
                 :
                     <ul className=" md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
@@ -48,6 +51,9 @@ const Navbar =()=>{
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-bold md:text-black">Contacts</a> 
+                        </li>
+                        <li className=" mx-4 my-6 ">
+                            <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-bold md:text-black">FAQs</a> 
                         </li>
                     </ul>
             }

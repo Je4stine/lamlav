@@ -100,7 +100,7 @@ const Mara =()=>{
         <div className=" bg-white flex flex-col flex-1 items-center justify-center">
             <Navbar/>
             <div className=" flex flex-col items-center">
-                <p>Mara 1</p>
+                <p>Mara Serengeti</p>
                 <div>
                     <img src={Mara1} alt=" Mara Camping" className=" m-auto rounded-lg p-5 md:px-[400px]"/>
                     <div className=" md:px-[400px] p-10">

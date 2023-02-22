@@ -104,6 +104,26 @@ const Migration =()=>{
                             </p>
                         </div>,
             },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: MAASAI MARA NATIONAL RESERVE|| <em>Hot air balloon safari, star –lit bush diner</em>
+                </strong>,
+                content: <div className=" md:flex md:items-center">
+                            <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
+                            <p className=" p-5  font-[SourceSerifPro-Regular]">
+                                This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors).  
+                            </p>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 10 NAIROBI
+                </strong>,
+                content: <div className=" md:flex md:items-center">
+                            <img src={Mara1} alt=" Mara1" className=" md:w-[1000px]"/>
+                            <p className=" p-5  font-[SourceSerifPro-Regular]">
+                            After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home..  
+                            </p>
+                        </div>,
+            },
         ],
     };
 

@@ -3,6 +3,8 @@ import React, {useState} from 'react';
 import {HiMenu} from 'react-icons/hi';
 
 
+
+
 const Navbar =()=>{
     const [isOpen, setIsopen]=useState(false);
 
@@ -14,7 +16,10 @@ const Navbar =()=>{
     return (
         <nav className=" w-full absolute top-0 z-[1] md:flex md:justify-between md:bg-transparent bg-white px-5 h-[60px]">
             <div className=' flex justify-between items-center' >
-                <h1 className=" mx-4 md:my-6 font-bold text-2xl text-black md:text-white my-3"><a href='/'>Lamlav</a></h1>
+                <div className=' flex justify-around items-center  '>
+                   
+                    <h1 className=" mx-4 md:my-6 font-bold text-2xl text-black md:text-white my-3"><a href='/'>Lamlav</a></h1>
+                </div>
                 <span  className=' cursor-pointer block md:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>
@@ -34,6 +39,9 @@ const Navbar =()=>{
                         <li className=" mx-4 my-6 ">
                             <a href="/contacts" className=" hover:text-[#f15d30] duration-500">Contacts</a> 
                         </li>
+                        <li className=" mx-4 my-6 ">
+                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500">FAQs</a> 
+                        </li>
                     </ul> 
                 :
                     <ul className=" md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
@@ -48,6 +56,9 @@ const Navbar =()=>{
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-bold">Contacts</a> 
+                        </li>
+                        <li className=" mx-4 my-6 ">
+                            <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-bold ">FAQs</a> 
                         </li>
                     </ul>
             }
