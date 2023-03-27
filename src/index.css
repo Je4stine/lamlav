@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "SourceSerifPro-Regular";
+  src: local("SourceSerifPro-Regular"),
+   url("./Fonts/SourceSerifPro-Regular.ttf") format("truetype");
+  
+  }
+
+  @font-face {
+    font-family: "SourceSerifPro-Black";
+    src: local("SourceSerifPro-Black"),
+     url("./Fonts/SourceSerifPro-Black.ttf") format("truetype");
+    
+    }
+
+body {
+  margin: 0;
+  background-color: rgb(236, 233, 233);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.font-link {
+  font-family: 'Kanit', cursive;
+}
