@@ -31,7 +31,7 @@ const Homepage =()=>{
 
     return (
         <div className=" relative" >
-            <Top/>
+            {/* <Top/> */}
             {/* <Top/> */}
             {
                 colorChanged ? <Navreveal/> : <Navbar/>

@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 
 import {HiMenu} from 'react-icons/hi';
 
+import {AiOutlinePhone} from 'react-icons/ai';
+
 
 const Navbar =()=>{
     const [isOpen, setIsopen]=useState(false);
@@ -18,6 +20,15 @@ const Navbar =()=>{
                 <span  className=' cursor-pointer block lg:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>
+                <div className=' hidden lg:inline ml-[400px] border-black border-x-[1px] px-5'>
+                    <div className=' flex flex-col justify-center items-center'>
+                    <div className=' flex justify-center items-center'>
+                            <AiOutlinePhone color='#000'/>
+                         <h1 className=' font-bold'> +254716251932 </h1>
+                    </div>
+                    <h1 className=' font-bold'>Plan for a safari</h1>
+                    </div>
+                </div>
             </div>
             {
                 isOpen ? 
@@ -37,6 +48,9 @@ const Navbar =()=>{
                         <li className=" mx-4 my-6 ">
                             <a href="/faqs" className=" hover:text-[#f15d30] duration-500 lg:text-black">Contacts/Inquiry</a> 
                         </li>
+                        <li className=" mx-4 my-6 ">
+                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500 lg:text-black">Plan for a trip call +254716251932</a> 
+                        </li>
                     </ul> 
                 :
                     <ul className=" lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute w-full left-0 lg:w-auto lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
@@ -55,6 +69,7 @@ const Navbar =()=>{
                         <li className=" mx-4 my-6 ">
                             <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-bold lg:text-black">Contacts/Inquiry</a> 
                         </li>
+                      
                     </ul>
             }
             

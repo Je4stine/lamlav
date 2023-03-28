@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
 import {HiMenu} from 'react-icons/hi';
+import {AiOutlinePhone} from 'react-icons/ai'
 
 
 
@@ -23,6 +24,15 @@ const Navbar =()=>{
                 <span  className=' cursor-pointer block lg:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>
+                <div className=' hidden lg:inline ml-[400px] border-white border-x-[1px] px-5'>
+                    <div className=' flex flex-col justify-center items-center'>
+                    <div className=' flex justify-center items-center'>
+                            <AiOutlinePhone color='#fff'/>
+                         <h1 className=' font-bold text-white'> +254716251932 </h1>
+                    </div>
+                    <h1 className=' font-bold text-white'>Plan for a safari</h1>
+                    </div>
+                </div>
             </div>
             {
                 isOpen ? 
@@ -41,6 +51,9 @@ const Navbar =()=>{
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/faqs" className=" hover:text-[#f15d30] duration-500">Contacts/Inquiry</a> 
+                        </li>
+                        <li className=" mx-4 my-6 ">
+                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500">Plan for a trip call +254716251932 </a> 
                         </li>
                     </ul> 
                 :

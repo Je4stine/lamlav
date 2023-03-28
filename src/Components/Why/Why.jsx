@@ -1,11 +1,8 @@
 import Adventure from '../../Assets/cranes.jpg';
 
-
-
-
 const Why =()=>{
     return (
-        <div className=' lg:flex lg:flex-row bg-white rounded-md lg:p-2 p-1 flex flex-col-reverse m-auto items-center justify-center' id='why'>
+        <div className=' lg:flex lg:flex-row bg-white rounded-md lg:p-2 p-1 flex flex-col m-auto items-center justify-center' id='why'>
             <div className=' flex flex-col max-[768px]:items-center'>
                 <img src={Adventure} alt="Adventure" className=" rounded-md my-5 mx-10"/>                              
             </div>

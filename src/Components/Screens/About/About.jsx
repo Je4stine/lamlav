@@ -32,8 +32,8 @@ const AboutUs =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
            <div className=' parallax2'>
-                <div className=" absolute top-[40%] lg:left-[45%] left-[32%]">
-                    <h1 className=" text-white md:text-6xl font-bold text-4xl ">WHY US?</h1>
+                <div className=" absolute top-[40%] lg:left-[32%] left-[8%]">
+                    <h1 className=" text-white md:text-6xl font-bold text-4xl text-center ">WHY LAMLAV SAFARIS?</h1>
                 </div>
                 <div className=" absolute top-[90%] md:left-[50%] left-[40%] animate-bounce">
                       <a href="#about">  <AiOutlineArrowDown size={60} color="white"/></a>
