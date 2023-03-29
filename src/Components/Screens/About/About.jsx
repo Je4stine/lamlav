@@ -49,7 +49,7 @@ const AboutUs =()=>{
                
                 <h1 className=" text-4xl font-[SourceSerifPro-Black] mb-3">What really  sets us apart from others? </h1>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mt-5 mx-[50px]">
-                     1. It's  our iron clad commitment  to providing  the best possible experiences for our clients. 
+                     It's  our iron clad commitment  to providing  the best possible experiences for our clients. 
                 </p>
 
                 <div className="lg:flex flex flex-col justify-center items-center bg-white mt-[50px] mx-[50px]">
@@ -60,7 +60,7 @@ const AboutUs =()=>{
                </div>
                 <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  You will always be treated  like a family  from the moment you book your Safari with us.</p>
 
-                <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  2. Our team of knowledgeable  and professional  guides will go above and beyond to make sure your trip is safe, comfortable and unabashedly indulgent.</p>
+                <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  Our team of knowledgeable  and professional  guides will go above and beyond to make sure your trip is safe, comfortable and unabashedly indulgent.</p>
 
                 <div className="lg:flex flex flex-col justify-center items-center bg-white mx-[50px]">
                     <div className=" lg:flex mr-5 ">
@@ -70,14 +70,17 @@ const AboutUs =()=>{
                </div>
              <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]"> We pride  ourselves  on  our  attention to details, and take great care in selecting  only the finest accommodation and transport  options for our tours.</p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
-                    3.Our intimate  group  sizes allows  us to provide  a more personalised  experience, and our focus on sustainability  means  that we operate  in a way that is both responsible  and respectful  of the local communities  and the environment.                </p>
+                    Our intimate  group  sizes allows  us to provide  a more personalised  experience, and our focus on sustainability  means  that we operate  in a way that is both responsible  and respectful  of the local communities  and the environment.                </p>
                 <div className="lg:flex flex flex-col justify-center items-center bg-white mt-[50px] mx-[50px]">
                     <div className=" lg:flex mr-5 ">
                         <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2 mr-5 w-full"/>
                         <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2"/>
                     </div>
                </div>
-
+               <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
+                    We will continously improve our skills and expertise because we are dedicated to providing excellent service, ensuring high standards and fullfilling our social obligations. 
+                    This devotion to hospitality, quality and social responsibility is unwavering, and is the reasons why we will never stop refining our craft
+                </p>
                 <h1 className=" text-4xl font-[SourceSerifPro-Black] mb-3 mx-[50px]">
                     Our trips
                 </h1>
@@ -91,15 +94,12 @@ const AboutUs =()=>{
                     These specialists are professional who go extra miles to give you the finest, most unique and unforgetable safari experience in East Africa. You are indeed in safe hands when you plan your trip with us 
                     because we listen keenly to you desires and carefully design a stylish and original trip that perfectly matches your desires... 
                 </p>
-                <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
-                    We will continously improve our skills and expertise because we are dedicated to providing excellent service, ensuring high standards and fullfilling our social obligations. 
-                    This devotion to hospitality, quality and social responsibility is unwavering, and is the reasons why we will never stop refining our craft
-                </p>
-                <h1 className=" text-4xl font-[SourceSerifPro-Black] mb-3 mx-[50px]">
-                    Our Partners
-                </h1>
+               
            </div>
            <Callfor/>
+           <h1 className=" text-4xl font-[SourceSerifPro-Black] mb-3 mx-[50px]">
+                    Our Partners
+                </h1>
            <ChatBot/>
            <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
