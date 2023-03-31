@@ -49,7 +49,7 @@ const AboutUs =()=>{
                
                 <h1 className=" md:text-4xl text-2xl font-[SourceSerifPro-Black] mb-3">What really  sets us apart from others? </h1>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mt-5 md:mx-[50px]">
-                     Simply, put it's  our ironclad commitment  to providing  the best possible experiences for our clients. 
+                     Simply put, It's our ironclad commitment  to providing  the best possible experiences for our clients. 
                 </p>
                 <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]">  You will always be treated  like a family  from the moment you book your Safari with us.</p>
 
@@ -89,10 +89,10 @@ const AboutUs =()=>{
                     Lamlav's ability to deliver meticulously planned tailor-made trips around the tastes and interests of every client, with a record-breaking satisfaction, is unsurpassed.
                 </p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]">
-                    Our team of specialist staff work cooporate to design three trips for our guests to their finest details around their tastes, ineterest, preference and budget; without compromising on quality.
+                    Our team of specialist staff work corporately in designing the trips for our guests to their finest details around their tastes, interest, preference and budget; without compromising on quality.
                 </p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]">
-                    These specialists are professional who go extra miles to give you the finest, most unique and unforgetable safari experience in East Africa. You are indeed in safe hands when you plan your trip with us 
+                    These specialists are professional who go extra miles to give you the finest, most unique and unforgetable safari experience in East Africa and beyond.You are indeed in safe hands when you plan your trip with us 
                     because we listen keenly to your desires and carefully design a stylish and original trip that perfectly matches your desires.
                 </p>
                
