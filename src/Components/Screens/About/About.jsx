@@ -49,7 +49,7 @@ const AboutUs =()=>{
                
                 <h1 className=" text-4xl font-[SourceSerifPro-Black] mb-3">What really  sets us apart from others? </h1>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mt-5 mx-[50px]">
-                     It's  our iron clad commitment  to providing  the best possible experiences for our clients. 
+                     It's  our ironclad commitment  to providing  the best possible experiences for our clients. 
                 </p>
                 <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  You will always be treated  like a family  from the moment you book your Safari with us.</p>
 
@@ -61,7 +61,7 @@ const AboutUs =()=>{
                </div>
                 
 
-                <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  Our team of knowledgeable  and professional  guides will go above and beyond to make sure your trip is safe, comfortable and unabashedly indulgent.</p>
+                <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  Our team of knowledgeable  and professional  guides will go above and beyond what is possible to make sure your trip is safe, comfortable and unabashedly indulgent.</p>
 
                 <div className="lg:flex flex flex-col justify-center items-center bg-white mx-[50px]">
                     <div className=" flex mr-5 ">
