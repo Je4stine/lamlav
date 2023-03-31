@@ -51,30 +51,31 @@ const AboutUs =()=>{
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mt-5 mx-[50px]">
                      It's  our iron clad commitment  to providing  the best possible experiences for our clients. 
                 </p>
+                <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  You will always be treated  like a family  from the moment you book your Safari with us.</p>
 
                 <div className="lg:flex flex flex-col justify-center items-center bg-white mt-[50px] mx-[50px]">
-                    <div className=" lg:flex mr-5 ">
-                        <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2 mr-5 w-full"/>
-                        <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2"/>
+                    <div className=" flex mr-5 ">
+                        <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2 mr-5 "/>
+                        <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2"/>
                     </div>
                </div>
-                <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  You will always be treated  like a family  from the moment you book your Safari with us.</p>
+                
 
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">  Our team of knowledgeable  and professional  guides will go above and beyond to make sure your trip is safe, comfortable and unabashedly indulgent.</p>
 
                 <div className="lg:flex flex flex-col justify-center items-center bg-white mx-[50px]">
-                    <div className=" lg:flex mr-5 ">
-                        <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2 mr-5 w-full"/>
-                        <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2"/>
+                    <div className=" flex mr-5 ">
+                        <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2 mr-5 "/>
+                        <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2"/>
                     </div>
                </div>
              <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]"> We pride  ourselves  on  our  attention to details, and take great care in selecting  only the finest accommodation and transport  options for our tours.</p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
                     Our intimate  group  sizes allows  us to provide  a more personalised  experience, and our focus on sustainability  means  that we operate  in a way that is both responsible  and respectful  of the local communities  and the environment.                </p>
                 <div className="lg:flex flex flex-col justify-center items-center bg-white mt-[50px] mx-[50px]">
-                    <div className=" lg:flex mr-5 ">
-                        <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2 mr-5 w-full"/>
-                        <img src={Luxury} alt='Luxury' className="mb-5 lg:w-1/2"/>
+                    <div className=" flex mr-5 ">
+                        <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2 mr-5"/>
+                        <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2"/>
                     </div>
                </div>
                <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
@@ -85,14 +86,14 @@ const AboutUs =()=>{
                     Our trips
                 </h1>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
-                    Lamlav's ability to deliver meticulously planned tailor-made trips around the tastes and interests of every client, with a record breaking satisfaction is unsurpassed.
+                    Lamlav's ability to deliver meticulously planned tailor-made trips around the tastes and interests of every client, with a record-breaking satisfaction, is unsurpassed.
                 </p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
-                    Our team of specialist staff work corporate to design three trips for our guests to their finest details around their tastes, ineterest, preference and budget; withought compromising on quality
+                    Our team of specialist staff work cooporate to design three trips for our guests to their finest details around their tastes, ineterest, preference and budget; without compromising on quality.
                 </p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md mx-[50px]">
                     These specialists are professional who go extra miles to give you the finest, most unique and unforgetable safari experience in East Africa. You are indeed in safe hands when you plan your trip with us 
-                    because we listen keenly to you desires and carefully design a stylish and original trip that perfectly matches your desires... 
+                    because we listen keenly to your desires and carefully design a stylish and original trip that perfectly matches your desires.
                 </p>
                
            </div>
