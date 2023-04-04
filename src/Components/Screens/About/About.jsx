@@ -69,9 +69,9 @@ const AboutUs =()=>{
                         <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2"/>
                     </div>
                </div>
-             <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]"> We pride  ourselves  on  our  attention to details, and take great care in selecting  only the finest accommodation and transport  options for our tours.</p>
+             <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]"> We pride  ourselves  on  our  attention to details and take great care in selecting  only the finest accommodation and transport  options for our tours.</p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]">
-                    Our intimate  group  sizes allows  us to provide  a more personalised  experience; and our focus on sustainability  means  that we operate  in a way that is both responsible  and respectful  of the local communities  and the environment.                </p>
+                    Our intimate  group  sizes allows  us to provide  a more personalised  experience, and our focus on sustainability  means  that we operate  in a way that is both responsible  and respectful  of the local communities  and the environment.                </p>
                 <div className="lg:flex flex flex-col justify-center items-center bg-white md:mt-[50px] md:mx-[50px]">
                     <div className=" md:flex mr-5 ">
                         <img src={Luxury} alt='Luxury' className="mb-5 md:w-1/2 mr-5"/>
@@ -92,7 +92,8 @@ const AboutUs =()=>{
                     Our team of specialist staff work corporately in designing the trips for our guests to their finest details around their tastes, interest, preference and budget; without compromising on quality.
                 </p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]">
-                    These specialists are professional who go extra miles to give you the finest, most unique and unforgetable safari experience in East Africa and beyond.You are indeed in safe hands when you plan your trip with us 
+                    These specialists are professional who go extra miles to give you the finest, most unique and unforgetable safari experience in East Africa and beyond.<br/>
+                    <br/>You are indeed in safe hands when you plan your trip with us 
                     because we listen keenly to your desires and carefully design a stylish and original trip that perfectly matches your desires.
                 </p>
                
