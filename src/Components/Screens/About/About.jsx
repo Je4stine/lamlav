@@ -89,7 +89,7 @@ const AboutUs =()=>{
                     Lamlav's ability to deliver meticulously planned tailor-made trips around the tastes and interests of every client, with a record-breaking satisfaction, is unsurpassed.
                 </p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]">
-                    Our team of specialist staff work corporately in designing the trips for our guests to their finest details around their tastes, interest, preference and budget; without compromising on quality.
+                    Our team of specialist staff work corporately in designing the trips for our guests to their finest details around their tastes, interests, preferences and budget; without compromising on quality.
                 </p>
                 <p className="mb-6 font-[SourceSerifPro-Regular] md:text-xl text-md md:mx-[50px]">
                     These specialists are professional who go extra miles to give you the finest, most unique and unforgetable safari experience in East Africa and beyond.<br/>
