@@ -3,6 +3,7 @@ import Destination1 from "../../Assets/leo.jpg";
 import Destination2 from "../../Assets/moon.jpg";
 import Destination3 from "../../Assets/migr.jpg";
 import Destination4 from "../../Assets/ambo.jpg";
+import Destination5 from '../../Assets/wildness.jpg'
 
 import {useNavigate} from 'react-router-dom';
 
@@ -64,6 +65,19 @@ const Destination =()=>{
                 Bush and beach is one of Lamlav's  most  comprehensive  safari  package  that  matchlessly introduces you to the country's most  treasured  and exhilarating  savannahs:  the city's Nairobi  National  park,  the Iconic Maasai  Mara Game  Reserve and Tsavo West and East National  Parks. The adventure  is then crowned with five days relaxations and explorations  of the pristine Kenyan coastline and beaches, while enjoying luxurious  stays at the magnificent Medina  Palms  Resort,  in the  bewitching Watamu.
                 </p>
                 <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-green-900'> 14Days/13Nights tour from $17,400 per person.</p>
+                <a href='/amboseli' className=' text-green-900 border border-green-900 rounded-md p-3 hover:bg-green-900 hover:text-white duration-500 left-16'>
+                    <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
+                </a>
+            </div>
+
+            <div className=" w-full mb-20 relative bg-white lg:w-[90%] m-auto p-5 flex flex-col justify-center items-center rounded-md shadow-md">
+                <img src={Destination5}/>
+                <h1 className=' font-[SourceSerifPro-Black] text-2xl my-5 text-green-900'> LAMLAV GREAT WILDERNESS  SAFARI.  </h1>
+                <p className=' font-[SourceSerifPro-Regular] lg:px-[100px]'>
+                A truly compelling and quintessential  Kenyan Safari experience.  
+                Great Wilderness  safari  package offers you a chance  to explore  the Kenyan legendary  savannahs in the Amboseli  National  Park ,  Lewa Conservancy  in the dramatic Laikipia  plateau, and the famed Maasai  Mara Game Reserve, all while  enjoying  leisurely  stays at the  most refined  and lavishly  elegant  resorts. 
+                </p>
+                <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-green-900'> 10days/9nights, from $13,241.00 per person.</p>
                 <a href='/amboseli' className=' text-green-900 border border-green-900 rounded-md p-3 hover:bg-green-900 hover:text-white duration-500 left-16'>
                     <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                 </a>

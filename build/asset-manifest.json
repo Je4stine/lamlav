@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.080f48df.css",
-    "main.js": "/static/js/main.3e3f799e.js",
+    "main.js": "/static/js/main.57dab793.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/ug1.jpg": "/static/media/ug1.7100cd4196942869838f.jpg",
     "static/media/rwan.jpg": "/static/media/rwan.4f29fbf0872efc8827e1.jpg",
     "static/media/kilima.jpg": "/static/media/kilima.33c5e9019bb3347e464d.jpg",
     "static/media/Nairobipa.jpg": "/static/media/Nairobipa.f18c564b861253c28363.jpg",
+    "static/media/wildness.jpg": "/static/media/wildness.5ea7a8fde052f894f2f6.jpg",
     "static/media/migr.jpg": "/static/media/migr.7925d47db08455ad03f6.jpg",
     "static/media/beast1.jpg": "/static/media/beast1.913fcb2087b4f80f0c62.jpg",
     "static/media/SourceSerifPro-Black.ttf": "/static/media/SourceSerifPro-Black.54cb3526b59ed4f35e9c.ttf",
@@ -27,11 +28,11 @@
     "static/media/kanairo-black.svg": "/static/media/kanairo-black.f7a2c9276cc7ebc7489247d74c0335cc.svg",
     "index.html": "/index.html",
     "main.080f48df.css.map": "/static/css/main.080f48df.css.map",
-    "main.3e3f799e.js.map": "/static/js/main.3e3f799e.js.map",
+    "main.57dab793.js.map": "/static/js/main.57dab793.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.080f48df.css",
-    "static/js/main.3e3f799e.js"
+    "static/js/main.57dab793.js"
   ]
 }
