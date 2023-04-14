@@ -22,9 +22,7 @@ const Destination =()=>{
                 <h1 className=' font-[SourceSerifPro-Black] text-2xl my-5 text-green-900'> LAMLAV  MARA SERENGETI DELUXE</h1>
                 <h2 className=' text-xl italic font-bold mb-10'> Experience  a truly  memorable and  unapologetically  indulging Safari  in the Mara and Serengeti  ecosystems </h2>
                 <p className=' font-[SourceSerifPro-Regular] lg:px-[100px]'>
-                   
-                <br/>Begining with an amazing  wildlife  excursions  in Nairobi city, then straight to  two slum-dunk  destinations at the heart of the world’s  most important  animal migration corridors, experience  the most immersive  and authentic  adventure, with three scheduled  flights  to expedite  your  travel  between the camps.
-                </p>
+                    An immersive  and most authentic  adventure  that begins  with amazing  wildlife  excursions  in the city, before  heading  to the two slum-dunk  destinations  at  the heart  of the world’s  most  important  animal  migration  corridors.                </p>
                 <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-green-900'> 10days/9 nights from $ 9,700 per person.</p>
                 <a href='/mara' className=' text-green-900 border border-green-900 rounded-md p-3 hover:bg-green-900 hover:text-white duration-500 left-16'>
                     <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
