@@ -2,13 +2,15 @@ import React from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
-import Mara1 from '../../../Assets/beast1.jpg';
+import Mara1 from '../../../Assets/serengeti1.jpg';
 
 import Kanairo from '../../../Assets/kanairo.jpeg';
 
 import Giraffe from '../../../Assets/giraffe.jpg'
 
 import Footer from "../../Footer/Footer";
+
+import Site1 from "../../../Assets/sitemap1.png";
 
 
 
@@ -101,15 +103,31 @@ const Mara =()=>{
 
 
     return (
-        <div className=" bg-white flex flex-col flex-1 items-center justify-center">
+        <div className=" bg-white">
             <Navbar/>
-            <div className=" flex flex-col items-center">
-                <p>Mara Serengeti</p>
+            <div className=" relative bg-[#3c0008]">
+                <img src={Mara1} alt=" Mara Camping" className=" m-auto w-full"/>
+                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Lamlav Mara Serengeti Deluxe</h1>
+            </div>
+            <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div>
-                    <img src={Mara1} alt=" Mara Camping" className=" m-auto rounded-lg p-5 lg:px-[400px]"/>
-                    <div className=" lg:px-[400px] p-10">
-                        <h1>Itenerary Highlight</h1>
-                        <p className=" font-[SourceSerifPro-Regular]">
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Kenya: Nairobi, Maasai Mara Game reserve, Serengeti National Park</p>
+                </div>
+                <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">10days/9 nights</p>
+                </div>
+                <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">$ 9,700 per person</p>
+                </div>
+            </div>
+            <div className=" flex flex-col items-center">
+                <div className=" lg:flex lg:justify-around">
+                    <div className=" p-10 flex flex-col flex-2">
+                        <h1 className="lg:px-[200px] text-2xl mb-10">Highlights</h1>
+                        <p className=" font-[SourceSerifPro-Regular] lg:px-[200px]">
                             <strong>DAY I. NAIROBI</strong> <br/>
                             Arrival and transfer to the luxurious Norfolk Hotel Nairobi for overnight stay.<br/>
                             <strong>DAY 2. NAIROBI </strong> <br/>
@@ -126,11 +144,14 @@ const Mara =()=>{
                             Depart for a flight to Kenya’s capital Nairobi, after a leisurely breakfast and transfer to Norfolk for day room service before you catch a flight back.<br/>
                         </p>
                     </div>
+                    <div>
+                        <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
+                    </div>
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
                 <div className=" flex justify-center items-center flex-col ">
                     
-                    <div className=" p-5">
+                    <div className=" p-5 lg:px-[200px]">
                         <Faq
                             data={data}
                             styles={styles}

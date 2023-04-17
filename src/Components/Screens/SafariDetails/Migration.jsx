@@ -6,17 +6,14 @@ import Mara1 from '../../../Assets/Mara1.jpg';
 
 import Footer from "../../Footer/Footer";
 
-
-
 import Faq from "react-faq-component";
-
 
 const Migration =()=>{
     const data = {
         title: "Iteneraries",
         rows: [
             {
-                title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">Day 1 Arrival in Nairobi || <em> Grand Welcome to kenya</em></h1></strong>,
+                title: <strong> <h1 className="font-[SourceSerifPro-Regular]">Day 1 Arrival in Nairobi || <em> Grand Welcome to kenya</em></h1></strong>,
                 content: <div className=" lg:flex md:items-center">
                     <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
                     <div> 
@@ -208,4 +205,4 @@ const Migration =()=>{
     )
 }
 
-export default Migration
+export default Migration;
