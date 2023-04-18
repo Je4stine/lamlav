@@ -123,30 +123,125 @@ const Mara =()=>{
                     <p className="font-[SourceSerifPro-Regular] text-white">$ 9,700 per person</p>
                 </div>
             </div>
+            <div className=" p-5 lg:px-[300px]">
+                <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10">ACCOMMODATION OVERVIEW</h1>
+                <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+                    <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                            <tr>
+                                <th scope="col" className="px-6 py-3">
+                                    Destination
+                                </th>
+                                <th scope="col" className="px-6 py-3">
+                                    Night
+                                </th>
+                                <th scope="col" className="px-6 py-3">
+                                    Accomodation
+                                </th>
+                                <th scope="col" className="px-6 py-3">
+                                    Category
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Nairobi  
+                                </th>
+                                <td className="px-6 py-4">
+                                    2
+                                </td>
+                                <td className="px-6 py-4">
+                                    Norfolk hotel Nairobi  
+                                </td>
+                                <td className="px-6 py-4">
+                                    Full board
+                                </td>
+                            </tr>
+                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Maasai Mara 
+                                </th>
+                                <td className="px-6 py-4">
+                                    3
+                                </td>
+                                <td className="px-6 py-4">
+                                    Keekorok camp  
+                                </td>
+                                <td className="px-6 py-4">
+                                    Full board
+                                </td>
+                            </tr>
+                            <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Serengeti  
+                                </th>
+                                <td className="px-6 py-4">
+                                    4
+                                </td>
+                                <td className="px-6 py-4">
+                                Four seasons safari lodge  
+                                </td>
+                                <td className="px-6 py-4">
+                                    Full board
+                                </td>
+                            </tr>
+                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Nairobi 
+                                </th>
+                                <td className="px-6 py-4">
+                                    ___
+                                </td>
+                                <td className="px-6 py-4">
+                                Norfolk hotel Nairobi  
+                                </td>
+                                <td className="px-6 py-4">
+                                Day Room/ Half  board
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
             <div className=" flex flex-col items-center">
                 <div className=" lg:flex lg:justify-around">
                     <div className=" p-10 flex flex-col flex-2">
-                        <h1 className="lg:px-[200px] text-2xl mb-10">Highlights</h1>
-                        <p className=" font-[SourceSerifPro-Regular] lg:px-[200px]">
-                            <strong>DAY I. NAIROBI</strong> <br/>
-                            Arrival and transfer to the luxurious Norfolk Hotel Nairobi for overnight stay.<br/>
-                            <strong>DAY 2. NAIROBI </strong> <br/>
-                            Excursions in the city with visits to David shieldrick wildlife trust, the giraffe center and national museums of Kenya. Return back to Norfolk hotel in the evening<br/>
-                            <strong>DAY 3. MAASAI MARA GAME RESERVES.</strong> <br/>
-                            Transfer to Wilson Airport, after morning breakfast, for a flight to maasai mara. Upon touch down at keekorok airstrip, you will be transferred to the iconic keekorock lodge for check in. Enjoy game drive en route and in the afternoon after a hearty lunch. Return back in the evening for dinner and relaxation.<br/>
-                            <strong>DAY 4-5. MAASAI MARA </strong><br/>
-                            Spend the next two days adventuring the bush, with a series of activities ranging from classic game viewing on scheduled day and night game drives, to hot air balloon rides and cultural visits to the manyattas. Return back to the lodge in the evening to enjoy a sundowner and an elegant dinner.<br/>
-                            <strong>DAY 6 SERENGETI NATIONAL PARK. </strong><br/>
-                            Fly to Serengeti and be transferred to the amazing four seasons safari camp.<br/>
-                            <strong>DAY 7-8 SERENGETI NATIONAL PARK.</strong><br/>
-                            Spend two days and nights searching for wildlife in the fascinating ecosystem of Serengeti, on unlimited day and night game drives. Experience the great migration and the breathless wildlife spectacles.<br/>
-                            <strong>DAY 9. NAIROBI</strong><br/>
-                            Depart for a flight to Kenya’s capital Nairobi, after a leisurely breakfast and transfer to Norfolk for day room service before you catch a flight back.<br/>
-                        </p>
+                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black]">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-disc">
+                            <li>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city </li>
+                            <br/>
+                            <li> Seven exhilarating  nights  at the epicentre  of great wildebeest  migration  spectacle - the great maasai mara and Serengeti </li>
+                            <br/>
+                            <li> Three exhilarating  flights  to expedite  your  travel between  the camps</li>
+                            <br/>
+                            <li>Accommodations  at East Africa’s  most luxurious tented  camps and lodges including,  the iconic  Keekorok  lodge and the beguiling  Four  Seasons  Safari  Lodge.</li>
+                            <br/>
+                        </ul>
                     </div>
                     <div>
                         <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
                     </div>
+                </div>
+                <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black]">Included</h1>
+                <div className=" lg:flex lg: justify-between p-5">
+                        <div className=" lg:p-5">
+                            <li className=" font-[SourceSerifPro-Regular]">Bush breakfast, Sundowner and all beverages  as provided</li>
+                            <li className=" font-[SourceSerifPro-Regular]">House wines and local beers/spirits</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Unlimited game drives in camps 4 X 4 vehicles with roof hatches for game viewing</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Airport and Airstrip transfers</li>
+                        </div>
+                        <div className=" lg:p-5">
+                            <li className=" font-[SourceSerifPro-Regular]">Park/conservancy fees</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Flying Doctors emergency evacuation cover</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Mineral water on  game drives</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Scheduled flights;maasai mara/serengeti/Nairobi</li>
+                            <li className=" font-[SourceSerifPro-Regular]">24hour Lamlav Safaris on call support</li>
+                            <li className=" font-[SourceSerifPro-Regular]">Optional activities  and excursions </li>
+                            <li className=" font-[SourceSerifPro-Regular]">Telephone  calls and laundry services </li>
+                        </div>                   
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
                 <div className=" flex justify-center items-center flex-col ">

@@ -12,7 +12,7 @@ const Why =()=>{
                     <img src={Adventure} alt="Adventure" className=" rounded-md mx-10"/>                              
                 </div>
                 <div className=' p-5'>
-                    <p className=' font-[SourceSerifPro-Regular] lg:text-lg text-md mb-5'>
+                    <p className=' font-[SourceSerifPro-Regular] lg:text-lg text-md mb-5 lg:px-[250px]'>
                         Lamlav Leisure Safaris is globally renowned for operating some of the most luxurious and distinct Safaris in Kenya, Tanzania, Uganda and Rwanda.<br/>
                         <br/>
                         We take pride in taking our esteemed guests to some of the most elegant and experimental camps and lodges, where each lodge or camp impeccably captures the true essence of the wild and its natural surroundings.                 
