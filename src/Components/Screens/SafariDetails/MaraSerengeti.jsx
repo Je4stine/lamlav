@@ -100,8 +100,6 @@ const Mara =()=>{
     };
 
 
-
-
     return (
         <div className=" bg-white">
             <Navbar/>
@@ -110,9 +108,9 @@ const Mara =()=>{
                 <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Lamlav Mara Serengeti Deluxe</h1>
             </div>
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
-                <div>
+                <div className=" md:mr-10 md:py-20">
                     <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white">Kenya: Nairobi, Maasai Mara Game reserve, Serengeti National Park</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white md:flex-wrap">Kenya: Nairobi, Maasai Mara Game reserve, Serengeti National Park</p>
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
@@ -120,25 +118,25 @@ const Mara =()=>{
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white">$ 9,700 per person</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">From $ 9,700 per person</p>
                 </div>
             </div>
             <div className=" p-5 lg:px-[300px]">
-                <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10">ACCOMMODATION OVERVIEW</h1>
+                <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                             <tr>
-                                <th scope="col" className="px-6 py-3">
+                                <th scope="col" className="px-6 py-3 md:text-xl">
                                     Destination
                                 </th>
-                                <th scope="col" className="px-6 py-3">
+                                <th scope="col" className="px-6 py-3 md:text-xl">
                                     Night
                                 </th>
-                                <th scope="col" className="px-6 py-3">
+                                <th scope="col" className="px-6 py-3 md:text-xl">
                                     Accomodation
                                 </th>
-                                <th scope="col" className="px-6 py-3">
+                                <th scope="col" className="px-6 py-3 md:text-xl">
                                     Category
                                 </th>
                             </tr>
@@ -146,57 +144,57 @@ const Mara =()=>{
                         <tbody>
                             <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    Nairobi  
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Nairobi</a>
                                 </th>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     2
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     Norfolk hotel Nairobi  
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     Full board
                                 </td>
                             </tr>
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    Maasai Mara 
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#maasaimara" className=" hover:text-red-900 md:text-xl">Maasai Mara </a>
                                 </th>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     3
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     Keekorok camp  
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     Full board
                                 </td>
                             </tr>
                             <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    Serengeti  
+                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Serengeti</a>
                                 </th>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     4
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                 Four seasons safari lodge  
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     Full board
                                 </td>
                             </tr>
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    Nairobi 
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Nairobi</a> 
                                 </th>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                     ___
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                 Norfolk hotel Nairobi  
                                 </td>
-                                <td className="px-6 py-4">
+                                <td className="px-6 py-4 md:text-xl">
                                 Day Room/ Half  board
                                 </td>
                             </tr>
@@ -207,8 +205,8 @@ const Mara =()=>{
             <div className=" flex flex-col items-center">
                 <div className=" lg:flex lg:justify-around">
                     <div className=" p-10 flex flex-col flex-2">
-                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black]">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-disc">
+                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-disc md:text-xl">
                             <li>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city </li>
                             <br/>
                             <li> Seven exhilarating  nights  at the epicentre  of great wildebeest  migration  spectacle - the great maasai mara and Serengeti </li>
@@ -219,28 +217,29 @@ const Mara =()=>{
                             <br/>
                         </ul>
                     </div>
-                    <div>
+                    <div className=" flex flex-col items-center text-2xl my-10">
+                        <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
                         <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
                     </div>
                 </div>
-                <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black]">Included</h1>
+                <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
                 <div className=" lg:flex lg: justify-between p-5">
                         <div className=" lg:p-5">
-                            <li className=" font-[SourceSerifPro-Regular]">Bush breakfast, Sundowner and all beverages  as provided</li>
-                            <li className=" font-[SourceSerifPro-Regular]">House wines and local beers/spirits</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Unlimited game drives in camps 4 X 4 vehicles with roof hatches for game viewing</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Airport and Airstrip transfers</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Bush breakfast, Sundowner and all beverages  as provided</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">House wines and local beers/spirits</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Unlimited game drives in camps 4 X 4 vehicles with roof hatches for game viewing</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Airport and Airstrip transfers</li>
                         </div>
                         <div className=" lg:p-5">
-                            <li className=" font-[SourceSerifPro-Regular]">Park/conservancy fees</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Flying Doctors emergency evacuation cover</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Mineral water on  game drives</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Scheduled flights;maasai mara/serengeti/Nairobi</li>
-                            <li className=" font-[SourceSerifPro-Regular]">24hour Lamlav Safaris on call support</li>
-                            <li className=" font-[SourceSerifPro-Regular]">Optional activities  and excursions </li>
-                            <li className=" font-[SourceSerifPro-Regular]">Telephone  calls and laundry services </li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Park/conservancy fees</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Flying Doctors emergency evacuation cover</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Mineral water on  game drives</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Scheduled flights;maasai mara/serengeti/Nairobi</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">24hour Lamlav Safaris on call support</li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Optional activities  and excursions </li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Telephone  calls and laundry services </li>
                         </div>                   
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
@@ -261,4 +260,4 @@ const Mara =()=>{
     )
 }
 
-export default Mara
+export default Mara;
