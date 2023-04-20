@@ -12,22 +12,19 @@ import Footer from "../../Footer/Footer";
 
 import Site1 from "../../../Assets/sitemap1.png";
 
-
-
-
 import Faq from "react-faq-component";
-
 
 const Mara =()=>{
     const data = {
         title: "Iteneraries",
         rows: [
             {
-                title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">Day 1: Nairobi</h1></strong>,
+                title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">Day 1: Nairobi - Welcome to Africa’s 4th largest city </h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
                     <img src={Kanairo} alt=" Mara1" className=" lg:w-[800px]"/>
                     <div> 
-                        <p className=" p-5">Arrival and transfer to one of Kenya’s most luxurious hotels in the city; The Norfolk hotel Nairobi <br/>
+                        <p className="p-5 font-[SourceSerifPro-Black]">Welcome to Africa’s 4th largest city </p>
+                        <p className=" p-5">Arrival and transfer to one of Kenya’s most luxurious hotels in the city; <strong><a href="/naorobi">The Norfolk hotel Nairobi</a></strong> <br/>
                            <strong> Included:</strong>
                             Full board accommodation; Bed, dinner breakfast and lunch
                         </p>
@@ -39,6 +36,7 @@ const Mara =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Giraffe} alt="Mara1" className=" lg:w-[900px] "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
+                            <p className="font-[SourceSerifPro-Black]">Fascinating excursions and game viewing in the city </p>
                             After a leisurely breakfast, you will drive to David Shieldrick wildlife trust located near the Nairobi national park where you will be accorded an opportunity to get up close with orphaned elephants and even adopt one baby elephant. 
                             David Shieldric wild life trust is a haven to elephant’s orphans, rhinos and other animals, where they receive specialized treatment and care from a highly dedicated staff. It is managed by Daphine Shieldrick, the widow of one of Kenya’s best known game warden.
                             From the trust, we will navigate our way to the giraffe center, a home to the endangered Rothschild’s giraffe, where you will spend the rest of your afternoon interacting with the world’s tallest species. It is the only wildlife sanctuary in the world that is located in a city - approximately 5k from the city center. Finish your day at the national museums of Kenya before you settle for dinner at Norfolk hotel 
@@ -47,7 +45,7 @@ const Mara =()=>{
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 3-5:  MAASAI MARA GAME RESERVE</strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 3-5:  MAASAI MARA GAME RESERVE -Into the untamed  wilderness </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
@@ -60,7 +58,7 @@ const Mara =()=>{
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 6 - 8 SERENGETI NATIONAL PARK</strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 6 - 8 SERENGETI NATIONAL PARK - Constant exploration </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
@@ -105,7 +103,7 @@ const Mara =()=>{
             <Navbar/>
             <div className=" relative bg-[#3c0008]">
                 <img src={Mara1} alt=" Mara Camping" className=" m-auto w-full"/>
-                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Lamlav Mara Serengeti Deluxe</h1>
+                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Lamlav Mara-Serengeti Deluxe</h1>
             </div>
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div className=" md:mr-10 md:py-20">
@@ -206,14 +204,14 @@ const Mara =()=>{
                 <div className=" lg:flex lg:justify-around">
                     <div className=" p-10 flex flex-col flex-2">
                         <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-disc md:text-xl">
-                            <li>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city </li>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl">
+                            <li className=" before:content-['✔']">Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city </li>
                             <br/>
-                            <li> Seven exhilarating  nights  at the epicentre  of great wildebeest  migration  spectacle - the great maasai mara and Serengeti </li>
+                            <li className=" before:content-['✔']"> Seven exhilarating  nights  at the epicentre  of great wildebeest  migration  spectacle - the great maasai mara and Serengeti </li>
                             <br/>
-                            <li> Three exhilarating  flights  to expedite  your  travel between  the camps</li>
+                            <li className=" before:content-['✔']"> Three exhilarating  flights  to expedite  your  travel between  the camps</li>
                             <br/>
-                            <li>Accommodations  at East Africa’s  most luxurious tented  camps and lodges including,  the iconic  Keekorok  lodge and the beguiling  Four  Seasons  Safari  Lodge.</li>
+                            <li className=" before:content-['✔']">Accommodations  at East Africa’s  most luxurious tented  camps and lodges including,  the iconic  Keekorok  lodge and the beguiling  Four  Seasons  Safari  Lodge.</li>
                             <br/>
                         </ul>
                     </div>
@@ -224,23 +222,35 @@ const Mara =()=>{
                 </div>
                 <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
                 <div className=" lg:flex lg: justify-between p-5">
-                        <div className=" lg:p-5">
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Bush breakfast, Sundowner and all beverages  as provided</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">House wines and local beers/spirits</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Unlimited game drives in camps 4 X 4 vehicles with roof hatches for game viewing</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Airport and Airstrip transfers</li>
-                        </div>
-                        <div className=" lg:p-5">
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Park/conservancy fees</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Flying Doctors emergency evacuation cover</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Mineral water on  game drives</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Scheduled flights;maasai mara/serengeti/Nairobi</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">24hour Lamlav Safaris on call support</li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Optional activities  and excursions </li>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl">Telephone  calls and laundry services </li>
-                        </div>                   
+                        <ul className=" lg:p-5">
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Bush breakfast, Sundowner and all beverages  as provided</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">House wines and local beers/spirits</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Unlimited game drives in camps 4 X 4 vehicles with roof hatches for game viewing</li>
+                            <br/>                           
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Airport and Airstrip transfers</li>
+                        </ul>
+
+                        <ul className=" lg:p-5">
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Park/conservancy fees</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Flying Doctors emergency evacuation cover</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Mineral water on  game drives</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Scheduled flights;maasai mara/serengeti/Nairobi</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">24hour Lamlav Safaris on call support</li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Optional activities  and excursions </li>
+                            <br/>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Telephone  calls and laundry services </li>
+                        </ul>                   
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
                 <div className=" flex justify-center items-center flex-col ">
