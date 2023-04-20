@@ -24,9 +24,10 @@ const Mara =()=>{
                     <img src={Kanairo} alt=" Mara1" className=" lg:w-[800px]"/>
                     <div> 
                         <p className="p-5 font-[SourceSerifPro-Black]">Welcome to Africa’s 4th largest city </p>
-                        <p className=" p-5">Arrival and transfer to one of Kenya’s most luxurious hotels in the city; <strong><a href="/naorobi">The Norfolk hotel Nairobi</a></strong> <br/>
-                           <strong> Included:</strong>
-                            Full board accommodation; Bed, dinner breakfast and lunch
+                        <p className=" p-5">
+                        Arrival and transfer to one of Kenya’s most luxurious hotels in the city, the Norfolk Hotel Nairobi, for a leisurely two-night  stay.             <br/>
+                        <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
+                        <strong>Meals:</strong> Breakfast, lunch & dinner 
                         </p>
                     </div>
                 </div>,
@@ -37,46 +38,129 @@ const Mara =()=>{
                             <img src={Giraffe} alt="Mara1" className=" lg:w-[900px] "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             <p className="font-[SourceSerifPro-Black]">Fascinating excursions and game viewing in the city </p>
-                            After a leisurely breakfast, you will drive to David Shieldrick wildlife trust located near the Nairobi national park where you will be accorded an opportunity to get up close with orphaned elephants and even adopt one baby elephant. 
-                            David Shieldric wild life trust is a haven to elephant’s orphans, rhinos and other animals, where they receive specialized treatment and care from a highly dedicated staff. It is managed by Daphine Shieldrick, the widow of one of Kenya’s best known game warden.
-                            From the trust, we will navigate our way to the giraffe center, a home to the endangered Rothschild’s giraffe, where you will spend the rest of your afternoon interacting with the world’s tallest species. It is the only wildlife sanctuary in the world that is located in a city - approximately 5k from the city center. Finish your day at the national museums of Kenya before you settle for dinner at Norfolk hotel 
+                            After a leisurely morning breakfast, you will drive to the David Shieldrick Wildlife Trust, located near the Nairobi National Park, where you will be accorded an opportunity to get up close with orphaned elephants and even adopt one baby elephant. 
 
+                            The David Shieldrick Wild Life Trust is a haven for elephant orphans, rhinos, and other animals, where they receive specialized treatment and care from a highly dedicated staff. It is managed by Daphine Shieldrick, the widow of one of Kenya’s best-known game wardens.
+
+                            Spend the rest of your afternoon interacting with the world’s tallest species at the famous Giraffe Center, home to the endangered Rothschild’s giraffe. It is the only wildlife sanctuary in the world that is located in a city—approximately 5 kilometers from the city center. Finish your day at the national museums of Kenya before your dinner and relaxation at the Norfolk hotel.<br/>
+                            <br/>
+                            <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
+                            <strong>Meals:</strong> Breakfast, lunch & dinner 
                             </p>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 3-5:  MAASAI MARA GAME RESERVE -Into the untamed  wilderness </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 3:  MAASAI MARA GAME RESERVE -Into the untamed  wilderness </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
-                                <em className=" p-5  font-[SourceSerifPro-Regular]">Home to the highest concentration of savanna wildlife species, decorated with the great migration spectacle.</em>
-                                <p className=" p-5  font-[SourceSerifPro-Regular]">
-                                After a leisurely breakfast, you will be transferred to Wilson airport to catch a morning flight to the Maasai Mara national reserve. Upon arrival, you will be warmly received by our representative who will then transfer you to the Luxe Keekorok lodge for a three night expedition. Set out for an afternoon game drive after a delicious lunch in the bush, and return back to the lodge as the sun sets.
-                                For the two next days,  venture out on  early morning and afternoon game drives in the vast Mara conservancy as you keep your eye peeled to catch a plethora of animal species that will forever remain the most fascinating experience in your life. Experience the great migration of wildebeest and the breathless wildlife spectacles, aboard comfy 4x4 vehicles. At an additional cost, you may choose to go on a hot air balloon ride above the plains of Mara for a more wonderful catch of the wildlife. You can  also pay a visit to the Manyattas and experience the unique and authentic culture of the Maasai community living around the park. Share your experiences with other guests as you enjoy an evening capped with a sundowner followed by a leisurely dinner in the camp  
+                                <em className=" p-5 font-[SourceSerifPro-Regular]"> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
+                                <p className=" p-5 font-[SourceSerifPro-Regular]">
+                                After a leisurely breakfast, you will be transferred to Wilson airport to catch a morning flight to the Maasai Mara national reserve. Upon arrival, you will be warmly received by our representative, who will then transfer you to the Luxe Keekorok lodge for a three-night expedition. Set out for an afternoon game drive after a delicious lunch in the bush, and return back to the lodge as the sun sets.
+                                <br/><br/>
+                                <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a><br/>
+                                <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 6 - 8 SERENGETI NATIONAL PARK - Constant exploration </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 4:  MAASAI MARA -Constant exploration  </strong>,
+                content: <div className=" lg:flex lg:items-center">
+                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <div>
+                                <p className=" p-5 font-[SourceSerifPro-Regular]">
+                                Set out on early morning and afternoon game drives to discover an area that spans more than 600 square miles of savannas, woodlands, and rivers lined with trees. Keep your eye peeled during these drives to catch a plethora of animal species that will forever remain the most fascinating experience of your life. Experience the great migration of wildebeest and the breathless wildlife spectacles aboard comfy 4x4 vehicles. You will witness crocodiles soaking up the sun, vigilant hippos relaxing in the muddy water, and enjoy the playful activities of mischievous monkeys overhead. You'll also have the opportunity to watch African elephants moving along the edge of the forest and see giraffes stretching their necks to grab leaves from high branches                                <br/>
+                                <br/><br/>
+                                <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a> <br/>
+                                <strong>Meals:</strong> Breakfast, Lunch and dinner 
+                                </p>
+                            </div>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: MAASAI MARA-Create your own day plan  </strong>,
+                content: <div className=" lg:flex lg:items-center">
+                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <div>
+                                <p className=" p-5 font-[SourceSerifPro-Regular]">
+                                Go for a morning game drive and then choose from one of the following activities: A spectacular hot air balloon ride across the Mara Plains, Join a guided bird walk to spot some of the many bird species in the area, learn the art of beading from the Maasai tribe and make your own jewelry, or test your skills with the Maasai warriors and throw their traditional hunting club. 
+                                Afterward, go on a late-afternoon game drive before enjoying a scenic sundowner with traditional cocktails while admiring the beautiful open plains at dusk. Share your experiences with other guests as you enjoy an evening capped with a sundowner followed by a leisurely dinner in the camp.
+                                <br/>
+                                <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a> <br/>
+                                <strong>Meals:</strong> Breakfast, Lunch and dinner
+                                </p>
+                            </div>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 6 SERENGETI NATIONAL PARK -  Golden  plains </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             We fly to Serengeti via Migori airstrip, then do a road connection to Tarime and fly express to Serengeti. On touch down, you will be transferred to the amazing four seasons safari lodge, for three night stay and expedition. 
                             Spend the next two days adventuring the bush, with a series of activities ranging from classic game viewing on scheduled day and night game drives, to hot air balloon rides and cultural visits to the Manyattas. Return back to the lodge in the evening to enjoy a sundowner and an elegant dinner.
                             Serengeti national park is iconic, vast and golden. It is a world heritage site located in the northern Tanzania and extends into southern Kenya where it connects with the great Maasai Mara. It is renowned for its large lion population, together with approximately over 70 mammals and 500 species of birds. At Serengeti, you will weather an epic spectacle of the great migration of millions of wildebeest, zebras, gazelles, buffalos, giraffes and other animal species crossing the Mara River in search of the sprouting pasture on the Kenyan Maasai Mara.
-                            “No one can return from Serengeti  unchanged, for the lions will forever prowl our memory and great heard throng our imaginations’’. 
+                            <em>“No one can return from Serengeti  unchanged, for the lions will forever prowl our memory and great heard throng our imaginations’’.</em><br/>
+                            <br/>
+                            <stong>Accomodations:</stong><a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                            <strong>Meals:</strong> Breakfast, Lunch and Dinner 
                             </p>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 9. BACK TO NAIROBI AND CONNECT TO OTHER PARTS OF THE WORLD.
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7: SERENGETI NATIONAL PARK- Make friends  with tree climbing  lions of Serengeti   </strong>,
+                content: <div className=" lg:flex lg:items-center">
+                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <div>
+                                <p className=" p-5 font-[SourceSerifPro-Regular]">
+                                    Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand. 
+                                <br/><br/>
+                                <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                                <strong>Meals:</strong> Breakfast, Lunch and dinner
+                                </p>
+                            </div>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 8 : SERENGETI NATIONAL PARK - Visit " the lost world"  of Ngorongoro and the Mara river  </strong>,
+                content: <div className=" lg:flex lg:items-center">
+                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <div>
+                                <p className=" p-5 font-[SourceSerifPro-Regular]">
+                                    Spend this day on an excursion visit to the great wildlife haven of Ngorongoro Crater and the famed Mara River, to observe wildlife in their most active state. The crater floor, which spans over 100 square miles, is an ideal location for observing the numerous species that inhabit the area, including buffalo and elephants. You may also be lucky enough to spot flamingos (during their season) or the elusive black rhino.
+                                <br/><br/>
+                                <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                                <strong>Meals:</strong> Breakfast, Lunch and dinner
+                                </p>
+                            </div>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 9: SERENGETI NATIONAL PARK - Create  your  own day plan </strong>,
+                content: <div className=" lg:flex lg:items-center">
+                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <div>
+                                <p className=" p-5 font-[SourceSerifPro-Regular]">
+                                Set out for an early morning game drive and return to the lodge to sample the various activities on offer: guided nature walks, bird watching, riding on horseback, cultural visits at the manyattas, and the spectacular hot air balloon rides.                                <br/>
+                                <br/>
+                                <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                                <strong>Meals:</strong> Breakfast, Lunch and dinner
+                                </p>
+                            </div>
+                        </div>,
+            },
+            {
+                title: <strong className="  font-[SourceSerifPro-Regular]">Day 9: NAIROBI - Wayward  connection  back home
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a hearty morning breakfast, you will depart for a flight to Kenya’s capital Nairobi and subsequent transfer to Norfolk hotel day room service and a meal before you catch a flight back. 
-                            </p>
+                            After a hearty morning breakfast, you will depart for a flight to Kenya’s capital, Nairobi, and a subsequent transfer to the Norfolk Hotel for day room service and a meal before you catch a flight back.                           
+                            ,<br /> <br/>
+                            <strong>Accomodations:</strong> <a href="#jhjh">Norfolk  hotel  Nairobi</a> <br/>
+                            <strong>Meals:</strong>  Lunch and Dinner 
+                             </p>
                         </div>,
             },
         ],
