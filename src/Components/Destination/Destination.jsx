@@ -78,7 +78,7 @@ const Destination =()=>{
                     Great Wilderness  safari  package offers you a chance  to explore  the Kenyan legendary  savannahs in the Amboseli  National  Park ,  Lewa Conservancy  in the dramatic Laikipia  plateau, and the famed Maasai  Mara Game Reserve, all while  enjoying  leisurely  stays at the  most refined  and lavishly  elegant  resorts. 
                 </p>
                 <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights, from $13,241.00 per person.</p>
-                <a href='/amboseli' className=' text-red-900 border border-red-900 rounded-md p-3 hover:bg-red-900 hover:text-white duration-500 left-16'>
+                <a href='/wilderness' className=' text-red-900 border border-red-900 rounded-md p-3 hover:bg-red-900 hover:text-white duration-500 left-16'>
                     <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                 </a>
             </div>

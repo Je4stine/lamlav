@@ -22,6 +22,7 @@ import Honeymoon from './Components/Screens/SafariDetails/Honeymoon';
 import Amboseli from './Components/Screens/SafariDetails/Amboseli';
 
 import FAQs from './Components/Screens/FAQS/FAQS'
+import Wilderness from './Components/Screens/SafariDetails/Wilderness';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
             <Route path ='/migration' element={<Migration/>}/>
             <Route path ='/honeymoon' element={<Honeymoon/>}/>
             <Route path ='/amboseli' element={<Amboseli/>}/>
+            <Route path='/wilderness' element={<Wilderness/>}/>
           </Routes>
         </Wrapper>
       </Router>

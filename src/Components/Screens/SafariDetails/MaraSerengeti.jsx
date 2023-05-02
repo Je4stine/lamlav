@@ -187,7 +187,7 @@ const Mara =()=>{
             <Navbar/>
             <div className=" relative bg-[#3c0008]">
                 <img src={Mara1} alt=" Mara Camping" className=" m-auto w-full"/>
-                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Lamlav Mara-Serengeti Deluxe</h1>
+                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Mara-Serengeti Great Migration Safari</h1>
             </div>
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div className=" md:mr-10 md:py-20">
@@ -288,15 +288,26 @@ const Mara =()=>{
                 <div className=" lg:flex lg:justify-around">
                     <div className=" p-10 flex flex-col flex-2">
                         <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl">
-                            <li className=" before:content-['✔']">Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city </li>
-                            <br/>
-                            <li className=" before:content-['✔']"> Seven exhilarating  nights  at the epicentre  of great wildebeest  migration  spectacle - the great maasai mara and Serengeti </li>
-                            <br/>
-                            <li className=" before:content-['✔']"> Three exhilarating  flights  to expedite  your  travel between  the camps</li>
-                            <br/>
-                            <li className=" before:content-['✔']">Accommodations  at East Africa’s  most luxurious tented  camps and lodges including,  the iconic  Keekorok  lodge and the beguiling  Four  Seasons  Safari  Lodge.</li>
-                            <br/>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city </span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Seven exhilarating  nights  at the epicentre  of great wildebeest  migration  spectacle - the great maasai mara and Serengeti</span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Three exhilarating  flights  to expedite  your  travel between  the camps</span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Accommodations  at East Africa’s  most luxurious tented  camps and lodges including,  the iconic  Keekorok  lodge and the beguiling  Four  Seasons  Safari  Lodge.</span></li>
+                            
                         </ul>
                     </div>
                     <div className=" flex flex-col items-center text-2xl my-10">
@@ -306,34 +317,77 @@ const Mara =()=>{
                 </div>
                 <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
                 <div className=" lg:flex lg: justify-between p-5">
-                        <ul className=" lg:p-5">
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Bush breakfast, Sundowner and all beverages  as provided</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">House wines and local beers/spirits</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Unlimited game drives in camps 4 X 4 vehicles with roof hatches for game viewing</li>
-                            <br/>                           
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Airport and Airstrip transfers</li>
+                        <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Bush breakfast, Sundowner and all beverages  as provided</span>
+                            </li>
+                        
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span> House wines and local beers/spirits</span>
+                            </li>
+
+                        
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span> game drives in camps 4 X 4 vehicles with roof hatches for game viewing</span>
+                            </li>
+                          
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</span>
+
+                            </li>
+            
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</span>
+                            </li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-centee space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Airport and Airstrip transfers</span>
+                            </li>
                         </ul>
 
-                        <ul className=" lg:p-5">
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Park/conservancy fees</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Flying Doctors emergency evacuation cover</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Mineral water on  game drives</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Scheduled flights;maasai mara/serengeti/Nairobi</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">24hour Lamlav Safaris on call support</li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Optional activities  and excursions </li>
-                            <br/>
-                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl before:content-['✔']">Telephone  calls and laundry services </li>
+                        <ul className=" lg:p-5 space-y-4 text-left text-black">
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Park/conservancy fees</span>
+                            </li>
+                          
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Flying Doctors emergency evacuation cover</span>
+                            </li>
+                           
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Mineral water on  game drives</span>
+                            </li>
+                         
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Scheduled flights;maasai mara/serengeti/Nairobi</span>
+                            </li>
+                           
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>24 hour Lamlav Safaris on call support</span></li>
+                        
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Optional activities  and excursions </span></li>
+                          
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Telephone  calls and laundry services </span></li>
                         </ul>                   
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
