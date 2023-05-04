@@ -12,7 +12,19 @@ import Footer from "../../Footer/Footer";
 
 import Site1 from "../../../Assets/sitemap1.png";
 
+import Kicheche from "../../../Assets/Kicheche.jpg";
+
+import Olpe from "../../../Assets/olpejeta.jpg";
+
 import Faq from "react-faq-component";
+
+import Rhino from '../../../Assets/rhino.jpg';
+
+import Chipol from '../../../Assets/chipol.jpg';
+
+import Olseki from '../../../Assets/olseki.jpg';
+
+import Naboisho from '../../../Assets/naboisho.jpg';
 
 const Honeymoon =()=>{
     const data = {
@@ -38,7 +50,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2: OL PEJETA CONSERVANCY || Deep into the Laikipia wilderness </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Giraffe} alt="Mara1" className=" lg:w-[900px] "/>
+                            <img src={Kicheche} alt="Mara1" className=" lg:w-[900px] "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             <p className="font-[SourceSerifPro-Black]"> </p>
                                 After enjoying a private morning breakfast, you will be transferred to the nearby Wilson aerodrome for a flight to Ol pejeta conservancy, in Laikipia south. Enjoy game drive en route to the amazing Kicheche safari camp, at the heart of Ol Pejeta conservancy, where you will spend four romantic nights! Spend the rest of the day relaxing in camp, while enjoying stunning views of the arresting sceneries and wildlife, all from the comfort of your tent. A late afternoon game drive around the conservancy will give you the first taste of safari, as you will get a chance to spot the lion, rhino, elephant, buffalo, cheetah and the elusive leopard.                            
@@ -52,7 +64,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3: OL PEJETA CONSERVANCY || Excellent game viewing </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Olpe} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Ol Pejeta, located in southern Laikipia, is a wildlife sanctuary that is home to a significant population of black rhinos, along with other animals such as elephants, cheetahs, lions, leopards, and some rare species like wild dogs, Grevy's zebras, and reticulated giraffes. This region is an ideal wildlife viewing destination, as it serves as a migration corridor for elephants and thousands of other wild animals. The day can be spent exploring the area on scheduled game drives to witness breathtaking wildlife encounters and scenic views, with breaks in between for meals and relaxation. In the evening, before a romantic dinner, guests can enjoy cocktails and local drinks while admiring the stunning sunset and starry skie                                
@@ -66,7 +78,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: OL PEJETA CONSERVANCY || Plan your day  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Rhino} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Today, you'll have the opportunity to enjoy a variety of activities offered at the camp. Begin with a delicious breakfast in the bush, then choose from guided walking safaris, camel rides, bird watching, canoeing, hiking, mountain biking, and wildlife tracking for a thrilling adventure. In the afternoon, engage in your preferred activity, and later in the evening, savor an elegant alfresco bush dinner around a cozy campfire.                                 <br/><br/>
@@ -79,7 +91,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5:  OL PEJETA CONSERVANCY || Armchair game viewing; day and night game drives; visit chimpanzee sanctuary </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Chipol} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 After morning bush breakfast, you will have a chance to relax in the camp, enjoying its amenities, stunning hospitality and spectacular views, from the comfort of your tent. Head out on a late afternoon scenic drive and excursion to the only chimpanzee sanctuary. Return to the camp in the evening to indulge in local drinks and a delightful dinner at the camp, followed by an optional night time game drive to catch a glimpse of the elusive leopard and other nocturnal creatures like bush babies, aardvarks, and servals
@@ -93,7 +105,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: NABOISHO CONSERVANCY || within the wilderness of Maasai Mara north conservancy</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Olseki} alt=" Mara1" className=" lg:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                                 After enjoying a leisurely champagne breakfast in the bush, you will have a chance to relax at the camp or set out on a fascinating tour of the surrounding, perhaps on a horse ride, before lunch. After lunch, you may indulge in the swimming pool or spa treatment, as you wait for your flight transfer to the magnificent Maasai Mara National Reserve.  Upon arrival, at Naboishio conservancy, you will be warmly received and driven to the exquisite Ol Seki Hemingway’s camp, in Mara north conservancy, where you will relax in your tent with refreshing cocktails, as you enjoy armchair viewing of wildlife gathering on the banks of Mara River to drink water. You will later set out on an exploration tour of the Mara ecosystem on a late afternoon game drive in the conservancy.
                             <br/>
@@ -106,7 +118,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7. NABOISHO CONSERVANCY || Ultimate wildlife spectacle  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Naboisho} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Naboisho in mara north conservancy, boarders the great Maasai Mara national reserve to the south. The conservancy is an important migration corridor for hundred thousand animals between Maasai Mara game reserve and the Loita plains in the east.This region boasts of higher wildlife density than maasai mara and is home to the highest density of lion In Africa. Spend this day exploring the terrains of the Maasai Mara National Reserve and the Mara triangle, with a romantic picnic hamper.  Experience firsthand, the great wildebeest migration and some breathtaking wildlife spectacles that this region is famed for. Return back in time and enjoy an evening capped with   refreshing local drinks and sundowner, followed by a sumptuous al fresco dinner around an intimate camp fire.                                <br/><br/>

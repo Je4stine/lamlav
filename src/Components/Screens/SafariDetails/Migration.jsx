@@ -12,6 +12,16 @@ import Footer from "../../Footer/Footer";
 
 import Site1 from "../../../Assets/sitemap1.png";
 
+import Keekorok from "../../../Assets/keekorok.jpg";
+
+import Fours from '../../../Assets/4seasons.jpg';
+
+import Hot from '../../../Assets/Hotbaloon.jpg';
+
+import Ngoro from '../../../Assets/Ngoro.jpg';
+
+import Loudge from "../../../Assets/Loudge.jpg";
+
 import Faq from "react-faq-component";
 
 const Migration =()=>{
@@ -67,7 +77,7 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">Day 4:  MAASAI MARA -Constant exploration  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Keekorok} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Set out on early morning and afternoon game drives to discover an area that spans more than 600 square miles of savannas, woodlands, and rivers lined with trees. Keep your eye peeled during these drives to catch a plethora of animal species that will forever remain the most fascinating experience of your life. Experience the great migration of wildebeest and the breathless wildlife spectacles aboard comfy 4x4 vehicles. You will witness crocodiles soaking up the sun, vigilant hippos relaxing in the muddy water, and enjoy the playful activities of mischievous monkeys overhead. You'll also have the opportunity to watch African elephants moving along the edge of the forest and see giraffes stretching their necks to grab leaves from high branches                                <br/>
@@ -81,7 +91,7 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: MAASAI MARA-Create your own day plan  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Loudge} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Go for a morning game drive and then choose from one of the following activities: A spectacular hot air balloon ride across the Mara Plains, Join a guided bird walk to spot some of the many bird species in the area, learn the art of beading from the Maasai tribe and make your own jewelry, or test your skills with the Maasai warriors and throw their traditional hunting club. 
@@ -96,7 +106,7 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">Day 6 SERENGETI NATIONAL PARK -  Golden  plains </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Fours} alt=" Mara1" className=" lg:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             We fly to Serengeti via Migori airstrip, then do a road connection to Tarime and fly express to Serengeti. On touch down, you will be transferred to the amazing four seasons safari lodge, for three night stay and expedition. 
                             Spend the next two days adventuring the bush, with a series of activities ranging from classic game viewing on scheduled day and night game drives, to hot air balloon rides and cultural visits to the Manyattas. Return back to the lodge in the evening to enjoy a sundowner and an elegant dinner.
@@ -111,7 +121,7 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7: SERENGETI NATIONAL PARK- Make friends  with tree climbing  lions of Serengeti   </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Hot} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                     Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand. 
@@ -125,7 +135,7 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">Day 8 : SERENGETI NATIONAL PARK - Visit " the lost world"  of Ngorongoro and the Mara river  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Ngoro} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                     Spend this day on an excursion visit to the great wildlife haven of Ngorongoro Crater and the famed Mara River, to observe wildlife in their most active state. The crater floor, which spans over 100 square miles, is an ideal location for observing the numerous species that inhabit the area, including buffalo and elephants. You may also be lucky enough to spot flamingos (during their season) or the elusive black rhino.
@@ -139,7 +149,7 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">Day 9: SERENGETI NATIONAL PARK - Create  your  own day plan </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Loudge} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Set out for an early morning game drive and return to the lodge to sample the various activities on offer: guided nature walks, bird watching, riding on horseback, cultural visits at the manyattas, and the spectacular hot air balloon rides.                                <br/>
