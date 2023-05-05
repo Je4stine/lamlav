@@ -26,6 +26,16 @@ import Olseki from '../../../Assets/olseki.jpg';
 
 import Naboisho from '../../../Assets/naboisho.jpg';
 
+import Watamu1 from '../../../Assets/watamu1.jpg';
+
+import Cruise from '../../../Assets/cruise.jpg';
+
+import Scuba from '../../../Assets/Scuba.jpg';
+
+import HemNai from '../../../Assets/HemNai.jpg';
+
+import Arabuko from '../../../Assets/Arabuko.jpg';
+
 const Honeymoon =()=>{
     const data = {
         title: "Iteneraries",
@@ -129,9 +139,9 @@ const Honeymoon =()=>{
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8.WATAMU BAY|| commingle with the maasai culture and later fly to watamu bay. </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8.WATAMU BAY|| Commingle with the maasai culture and later fly to watamu bay. </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Watamu1} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 On this day, you will set out on an early morning exploration of this remarkable park on a sunrise hot air balloon ride and enjoy a stunning bird’s eye view of some of its arresting sceneries and wildlife. After a leisurely breakfast, you will have a chance to relax in your luxurious tent and later make a maasai cultural visit in the manyattas, for some enthralling camaraderie with the maasai community who live around this park.  After lunch, you will fly to Hemingways Watamu in Malindi, arriving in the evening to enjoy a sundowner on the pristine white sand beaches of Watamu.                                <br/><br/>
@@ -144,7 +154,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: WATAMU BAY || Romantic sunset dhow to Mida Creek!</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Cruise} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Hemingways Watamu is an iconic tropical paradise on the Kenyan coast sitting right in the middle of the pristine Watamu Marine National Park with its idyllic white sand beach and turquoise waters. Spend this day on the immaculate white sand beaches of Watamu bay, unwinding and relaxing as you walk your way throughout the cocktail menu. In the evening, take a sunset dhow cruise on Mida Creek- a mangrove ecosystem that is a paradise for national waterfowls and migrating birds from Europe and Eurasia.                                <br/>
@@ -158,7 +168,7 @@ const Honeymoon =()=>{
                 title: <strong className="  font-[SourceSerifPro-Regular]"> DAY 10. WATAMDAYU BAY || Snorkeling, scuba diving and Golfing
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Scuba} alt=" Mara1" className=" lg:w-[1000px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             You will spend this day sampling some of the numerous activities offered by the resort including; snorkeling over the coral reef, master kite-surfing, diving and scuba diving. Another sunset dhow cruise on Mida Creek is another option you can revisit, as well as  golfing in the nearby world class golf course, vipingo ridge                            ,<br /> <br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Hemingways  Watamu</a> <br/>
@@ -169,7 +179,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 11. MALINDI ||game viewing at Arabuko Sokoke Forest, deep sea fishing and humpback whale excursion</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Arabuko} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 This morning, you will venture out on deep sea fishing, and humpback whale excursion, where you will watch the majestic humpbacks migrating along the coast of east Africa. If time allows, you may take an exhilarating trip to the extraordinary Arabuko Sokoke Forest - home to some of Kenya’s rarest mammals, elephant, brilliant butterflies and saltwater mangroves                                
@@ -183,7 +193,7 @@ const Honeymoon =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 12 NAIROBI || Departure</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={HemNai} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Spend this morning visiting the nearby National Marine Park and Watamu turtle sanctuary, before you catch a late afternoon flight to Wilson airport Nairobi. Upon arrival, you will be transferred to hemingways hotel for day room, and later transferred to Jomo Kenyatta international airport for onward connection abroad. 
