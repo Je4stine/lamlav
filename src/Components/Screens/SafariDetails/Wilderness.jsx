@@ -282,7 +282,7 @@ The great migration is one of the most impressive natural events involving 2mill
                                     2
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Elewana Tortilis camp  
+                                Lewa Safari Camp 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Full board

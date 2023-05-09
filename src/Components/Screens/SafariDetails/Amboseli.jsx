@@ -2,21 +2,21 @@ import React from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
-import Mara1 from '../../../Assets/lion2.jpg';
+import Mara1 from '../../../Assets/Day4.1.jpeg';
 
 import Kanairo from '../../../Assets/kanairo.jpeg';
 
-import Giraffe from '../../../Assets/giraffe.jpg'
+import Giraffe from '../../../Assets/Day2.3.jpeg'
 
 import Footer from "../../Footer/Footer";
 
 import Site1 from "../../../Assets/sitemap1.png";
 
-import  Hemingways2 from '../../../Assets/Hemingways2.jpg';
+import  Hemingways2 from '../../../Assets/Day14.1.jpeg';
 
-import Mzima from '../../../Assets/Mzima.jpg';
+import Mzima from '../../../Assets/Day7.1.jpg';
 
-import Tsavo1 from '../../../Assets/Tsavo1.jpg';
+import Tsavo1 from '../../../Assets/FinchH.jpg';
 
 import Creek from '../../../Assets/Creek.jpg';
 
@@ -28,15 +28,15 @@ import Kicheche from '../../../Assets/Kicheche-Laikipia.jpg';
 
 import Heming from '../../../Assets/Hemingways2.jpg';
 
-import Plan from '../../../Assets/plan1.jpg';
+import Plan from '../../../Assets/Day5.1.jpeg';
 
 import Faq from "react-faq-component";
 
 import Gedi from '../../../Assets/Gedi.jpg';
-
+ 
 import Surf from '../../../Assets/Surf.jpg';
 
-import Lava from '../../../Assets/Lavaflow.jpg';
+import Lava from '../../../Assets/Day8.1.jpg';
 
 const Amboseli =()=>{
     const data = {
@@ -123,13 +123,13 @@ const Amboseli =()=>{
                             After a champagne breakfast in the bush, you will have time to venture out on a final game drive for some classic views, before departing to Tsavo west national park in the afternoon via a scheduled flight. Upon arrival you will be transferred to the luxurious Finch Hatton’s Luxury Tented Camp and the rest of the day is for you to enjoy the Camp's comprehensive facilities, with a five star hospitality around.
                             <br/>
                             <br/>
-                            <stong>Accomodations:</stong><a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                            <stong>Accomodations:</stong><a href="/gour">Finch Hatton's</a> <br/>
                             <strong>Meals:</strong> Breakfast, Lunch and Dinner 
                             </p>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7: TSAVO WEST NATIONAL PARK|| day long game drives| Shetani lava flows| Shiamu crater</strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7: TSAVO WEST NATIONAL PARK|| Day long game drives| Shetani lava flows| Shiamu crater</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Lava} alt="Mara1" className=" lg:w-[700px]"/>
                             <div>

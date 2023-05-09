@@ -24,7 +24,7 @@ const Destination =()=>{
                     <p className=' font-[SourceSerifPro-Regular] lg:px-[100px]'>
                         An immersive  and most authentic  adventure  that begins  with amazing  wildlife  excursions  in the city, before  heading  to the two slum-dunk  destinations  at  the heart  of the world’s  most  important  animal  migration  corridors.                </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9 nights from $ 9,700 per person.</p>
-                <a href='/mara' className=' text-red-900 border border-red-900 rounded-md p-3 hover:bg-red-900 hover:text-white duration-500 left-16'>
+                <a href='/migration' className=' text-red-900 border border-red-900 rounded-md p-3 hover:bg-red-900 hover:text-white duration-500 left-16'>
                     <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                 </a>
             </div>

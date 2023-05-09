@@ -2,25 +2,29 @@ import React from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
-import Mara1 from '../../../Assets/kenyamig.jpg';
+import Mara1 from '../../../Assets/Day33.jpeg';
 
-import Kanairo from '../../../Assets/kanairo.jpeg';
+import Kanairo from '../../../Assets/Day11.jpeg';
 
-import Giraffe from '../../../Assets/giraffe.jpg'
+import Kanairo1 from '../../../Assets/Hero11.jpg';
+
+import Giraffe from '../../../Assets/Day1.1.jpg'
 
 import Footer from "../../Footer/Footer";
 
 import Site1 from "../../../Assets/sitemap1.png";
 
-import Keekorok from "../../../Assets/keekorok.jpg";
+import Keekorok from "../../../Assets/Day44.jpg";
 
-import Fours from '../../../Assets/4seasons.jpg';
+import Fours from '../../../Assets/Day66.jpeg';
 
-import Hot from '../../../Assets/Hotbaloon.jpg';
+import Hot from '../../../Assets/Day77.jpeg';
 
-import Ngoro from '../../../Assets/Ngoro.jpg';
+import Ngoro from '../../../Assets/Day88.jpg';
 
-import Loudge from "../../../Assets/Loudge.jpg";
+import Ngoro1 from '../../../Assets/Day99.jpg';
+
+import Loudge from "../../../Assets/Day55.jpeg";
 
 import Faq from "react-faq-component";
 
@@ -62,9 +66,9 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">Day 3:  MAASAI MARA GAME RESERVE -Into the untamed  wilderness </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
-                            <div>
-                                <em className=" p-5 font-[SourceSerifPro-Regular]"> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
+                            <img src={Mara1} alt="Mara1" className=" lg:w-[800px]"/>
+                            <div >
+                                <em className=" p-5 font-[SourceSerifPro-Regular] "> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 After a leisurely breakfast, you will be transferred to Wilson airport to catch a morning flight to the Maasai Mara national reserve. Upon arrival, you will be warmly received by our representative, who will then transfer you to the Luxe Keekorok lodge for a three-night expedition. Set out for an afternoon game drive after a delicious lunch in the bush, and return back to the lodge as the sun sets.
                                 <br/><br/>
@@ -149,7 +153,7 @@ const Migration =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">Day 9: SERENGETI NATIONAL PARK - Create  your  own day plan </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Loudge} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Ngoro1} alt="Mara1" className=" lg:w-[1000px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Set out for an early morning game drive and return to the lodge to sample the various activities on offer: guided nature walks, bird watching, riding on horseback, cultural visits at the manyattas, and the spectacular hot air balloon rides.                                <br/>
@@ -196,7 +200,7 @@ const Migration =()=>{
         <div className=" bg-white">
             <Navbar/>
             <div className=" relative bg-[#3c0008]">
-                <img src={Mara1} alt=" Mara Camping" className=" m-auto w-full"/>
+                <img src={Kanairo1} alt=" Mara Camping" className=" m-auto w-full"/>
                 <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">GREAT MIGRATION  SAFARI</h1>
             </div>
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
