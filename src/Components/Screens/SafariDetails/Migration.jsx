@@ -201,7 +201,7 @@ const Migration =()=>{
             <Navbar/>
             <div className=" relative bg-[#3c0008]">
                 <img src={Kanairo1} alt=" Mara Camping" className=" m-auto w-full"/>
-                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">GREAT MIGRATION  SAFARI</h1>
+                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Mara-Serengeti Great Migration Safari</h1>
             </div>
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div className=" md:mr-10 md:py-20">

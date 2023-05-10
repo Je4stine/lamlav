@@ -6,7 +6,27 @@ import Mara1 from '../../../Assets/serengeti1.jpg';
 
 import Kanairo from '../../../Assets/kanairo.jpeg';
 
-import Giraffe from '../../../Assets/giraffe.jpg'
+import Giraffe from '../../../Assets/giraffe.jpg';
+
+import Day1 from '../../../Assets/Day111.jpeg';
+
+import Day2 from '../../../Assets/Day222.jpeg';
+
+import Day3 from '../../../Assets/Day333.jpeg';
+
+import Day4 from '../../../Assets/Day444.jpeg';
+
+import Day5 from '../../../Assets/Day555.jpeg';
+
+import Day6 from '../../../Assets/Day666.jpeg';
+
+import Day7 from '../../../Assets/Day777.jpeg';
+
+import Day8 from '../../../Assets/Day888.jpeg';
+
+import Day9 from '../../../Assets/Day999.jpeg';
+
+import Day10 from '../../../Assets/Day1010.jpeg';
 
 import Footer from "../../Footer/Footer";
 
@@ -19,13 +39,14 @@ const Mara =()=>{
         title: "Iteneraries",
         rows: [
             {
-                title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">Day 1: Nairobi - Welcome to Africa’s 4th largest city </h1></strong>,
+                title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1 ARRIVAL IN NAIROBI ||Grand Welcome to kenya</h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
-                    <img src={Kanairo} alt=" Mara1" className=" lg:w-[800px]"/>
+                    <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
                     <div> 
-                        <p className="p-5 font-[SourceSerifPro-Black]">Welcome to Africa’s 4th largest city </p>
                         <p className=" p-5">
-                        Arrival and transfer to one of Kenya’s most luxurious hotels in the city, the Norfolk Hotel Nairobi, for a leisurely two-night  stay.             <br/>
+                        Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.
+                        <br/> <strong>Norfolk hotel</strong> is a luxury hotel located in the heart of the city. It boasts of 27 signature suits and 147 rooms with heated outdoor swimming pool, a health club and sybaritic spa facilities- all to  combine classic elegance and modern design with discreet technology . The luxurious suits offer an excellent choice for guests seeking to experience luxury intertwined with the rich history of the city.
+                        <br/><br/>
                         <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
                         <strong>Meals:</strong> Breakfast, lunch & dinner 
                         </p>
@@ -33,16 +54,12 @@ const Mara =()=>{
                 </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 2: NAIROBI –David Shieldrick wildlife trust and the giraffe center </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2:  NAIROBI || Commingle  with  giraffes  and baby  elephants </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Giraffe} alt="Mara1" className=" lg:w-[900px] "/>
+                            <img src={Day2} alt="Mara1" className=" lg:w-[800px] "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            <p className="font-[SourceSerifPro-Black]">Fascinating excursions and game viewing in the city </p>
-                            After a leisurely morning breakfast, you will drive to the David Shieldrick Wildlife Trust, located near the Nairobi National Park, where you will be accorded an opportunity to get up close with orphaned elephants and even adopt one baby elephant. 
-
-                            The David Shieldrick Wild Life Trust is a haven for elephant orphans, rhinos, and other animals, where they receive specialized treatment and care from a highly dedicated staff. It is managed by Daphine Shieldrick, the widow of one of Kenya’s best-known game wardens.
-
-                            Spend the rest of your afternoon interacting with the world’s tallest species at the famous Giraffe Center, home to the endangered Rothschild’s giraffe. It is the only wildlife sanctuary in the world that is located in a city—approximately 5 kilometers from the city center. Finish your day at the national museums of Kenya before your dinner and relaxation at the Norfolk hotel.<br/>
+                                Combine wildlife and culture with morning trips to the <strong>giraffe center, David Shieldrick Wildlife Trust,</strong> the <strong>Karen Blixen Muesum</strong> and later to the <strong>Kazuri bead factory</strong> where you will see how classic pottery beads are made, following the process from beginning to end. Return  to Norfolk  hotel  for evening  dinner  dinner  and relaxation. 
+                            <br/>
                             <br/>
                             <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
                             <strong>Meals:</strong> Breakfast, lunch & dinner 
@@ -50,116 +67,119 @@ const Mara =()=>{
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 3:  MAASAI MARA GAME RESERVE -Into the untamed  wilderness </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3 LEWA WILDLIFE CONSERVANCY || In the wilderness of Laikipia Plateau </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day3} alt="Mara1" className=" lg:w-[800px]"/>
                             <div>
-                                <em className=" p-5 font-[SourceSerifPro-Regular]"> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                After a leisurely breakfast, you will be transferred to Wilson airport to catch a morning flight to the Maasai Mara national reserve. Upon arrival, you will be warmly received by our representative, who will then transfer you to the Luxe Keekorok lodge for a three-night expedition. Set out for an afternoon game drive after a delicious lunch in the bush, and return back to the lodge as the sun sets.
+                                Catch a flight at Wilson airport and fly over the Laikipia plateau, enjoying the stunning view of the lordly Mt Kenya, to the Lewa wildlife conservancy. Upon touch down at Lewa airstrip, you will enjoy a game drive transfer to the famous Lewa Safari Camp, where you will spend three amazing nights. Arrive in time for lunch and have time to relax before setting out for an afternoon game drive to dusk.
                                 <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a><br/>
+                                <strong>Accomodations:</strong> <a href="/keekorok">Lewa Safari  Camp </a><br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 4:  MAASAI MARA -Constant exploration  </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: LEWA CONSERVANCY || Classic game viewing  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day4} alt="Mara1" className=" lg:w-[800px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Set out on early morning and afternoon game drives to discover an area that spans more than 600 square miles of savannas, woodlands, and rivers lined with trees. Keep your eye peeled during these drives to catch a plethora of animal species that will forever remain the most fascinating experience of your life. Experience the great migration of wildebeest and the breathless wildlife spectacles aboard comfy 4x4 vehicles. You will witness crocodiles soaking up the sun, vigilant hippos relaxing in the muddy water, and enjoy the playful activities of mischievous monkeys overhead. You'll also have the opportunity to watch African elephants moving along the edge of the forest and see giraffes stretching their necks to grab leaves from high branches                                <br/>
+                                Spend this day exploring the landscapes on scheduled morning and afternoon game drives, returning to the camp In between the drives for lunch and relaxation, before setting out for another game drive.
+                                <br/>Lewa wildlife conservancy is a world heritage center and home to diverse array of game mammals and birds. It is a vital stronghold for the approximately 400 Grevy’s Zebras and more than 120 rhinos, and  second to Maasai Mara in terms of wildlife densities. Visitors to Lewa are privy to some of the most spectacular wildlife viewing that Kenya has to offer. Prides of lion, leopard and jackal thrive on the rich diversity of prey that inhabits the area.
+
                                 <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a> <br/>
+                                <strong>Accomodations:</strong> <a href="/keekorok"> Lewa Safari  Camp </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner 
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: MAASAI MARA-Create your own day plan  </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: LEWA CONSERVANCY || Plan your  day   </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day5} alt="Mara1" className=" lg:w-[800px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Go for a morning game drive and then choose from one of the following activities: A spectacular hot air balloon ride across the Mara Plains, Join a guided bird walk to spot some of the many bird species in the area, learn the art of beading from the Maasai tribe and make your own jewelry, or test your skills with the Maasai warriors and throw their traditional hunting club. 
-                                Afterward, go on a late-afternoon game drive before enjoying a scenic sundowner with traditional cocktails while admiring the beautiful open plains at dusk. Share your experiences with other guests as you enjoy an evening capped with a sundowner followed by a leisurely dinner in the camp.
+                                This morning,  you  will enjoy a sumptuous Champaign breakfast in the bush, and then head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides, camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a warm campfire.
                                 <br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a> <br/>
+                                <br/>
+                                <strong>Accomodations:</strong> <a href="/keekorok">Lewa Safari Camp </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 6 SERENGETI NATIONAL PARK -  Golden  plains </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: MAASAI MARA || Face to face with the great migration!</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day6} alt=" Mara1" className=" lg:w-[800px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            We fly to Serengeti via Migori airstrip, then do a road connection to Tarime and fly express to Serengeti. On touch down, you will be transferred to the amazing four seasons safari lodge, for three night stay and expedition. 
-                            Spend the next two days adventuring the bush, with a series of activities ranging from classic game viewing on scheduled day and night game drives, to hot air balloon rides and cultural visits to the Manyattas. Return back to the lodge in the evening to enjoy a sundowner and an elegant dinner.
-                            Serengeti national park is iconic, vast and golden. It is a world heritage site located in the northern Tanzania and extends into southern Kenya where it connects with the great Maasai Mara. It is renowned for its large lion population, together with approximately over 70 mammals and 500 species of birds. At Serengeti, you will weather an epic spectacle of the great migration of millions of wildebeest, zebras, gazelles, buffalos, giraffes and other animal species crossing the Mara River in search of the sprouting pasture on the Kenyan Maasai Mara.
-                            <em>“No one can return from Serengeti  unchanged, for the lions will forever prowl our memory and great heard throng our imaginations’’.</em><br/>
+                            Transfer to Lewa airstrip, this morning, for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip, and rrive in time for a hearty lunch and relaxation.
+                            <br/>Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
+
+                           <br/>
                             <br/>
-                            <stong>Accomodations:</stong><a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                            <stong>Accomodations:</stong><a href="/gour">Mara Serena camp</a> <br/>
                             <strong>Meals:</strong> Breakfast, Lunch and Dinner 
                             </p>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7: SERENGETI NATIONAL PARK- Make friends  with tree climbing  lions of Serengeti   </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">  DAY 7: MAASAI MARA  || Breath- taking wildlife encounters</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day7} alt="Mara1" className=" lg:w-[800px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                    Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand. 
+                                Maasai Mara National Reserve boasts of some the spectacular wildlife viewing in the word. More than 1.5 million wildebeest migrate annually from the expansive Serengeti in Tanzania to Kenya in search of fresh grass. This migration is known for the thrilling crossings of the Mara and Talek Rivers, where the wildebeest rush across in a frenzied manner, and crocodiles lurk in the water, ready to attack any unfortunate animal that makes a mistake. These events are always full of excitement and danger.  
+                                Spend this day exploring the Mara ecosystem on unlimited game drives, for a chance to experience these breathtaking and unforgettable spectacles that will always leave you breathless!
+ 
                                 <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                                <strong>Accomodations:</strong> <a href="/gour">Mara Serena camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 8 : SERENGETI NATIONAL PARK - Visit " the lost world"  of Ngorongoro and the Mara river  </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8: MAASAI MARA NATIONAL RESERVE || hippo pool bush breakfast, game drives, Maasai cultural visit  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day8} alt="Mara1" className=" lg:w-[800px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                    Spend this day on an excursion visit to the great wildlife haven of Ngorongoro Crater and the famed Mara River, to observe wildlife in their most active state. The crater floor, which spans over 100 square miles, is an ideal location for observing the numerous species that inhabit the area, including buffalo and elephants. You may also be lucky enough to spot flamingos (during their season) or the elusive black rhino.
+                                This morning, you will crown your game viewing experience with a leisurely Bush Breakfast by the Mara River Hippo Pools, before heading out for a morning game drive. Return to the lodge for lunch and indulge in spa, or a muscle relieving massage, before making a grand visit (optional) to the maasai villages for an opportunity to learn their proud heritage and how they peacefully coexist with the wild animals.
                                 <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                                <strong>Accomodations:</strong> <a href="/gour"> Mara Serena camp </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 9: SERENGETI NATIONAL PARK - Create  your  own day plan </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: MAASAI MARA NATIONAL RESERVE|| Hot air balloon safari, star –lit bush diner </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day9} alt="Mara1" className=" lg:w-[800px]"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Set out for an early morning game drive and return to the lodge to sample the various activities on offer: guided nature walks, bird watching, riding on horseback, cultural visits at the manyattas, and the spectacular hot air balloon rides.                                <br/>
+                                This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors)
                                 <br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
+                                <br/>
+                                <strong>Accomodations:</strong> <a href="/gour"> Mara Serena Camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
                             </div>
                         </div>,
             },
             {
-                title: <strong className="  font-[SourceSerifPro-Regular]">Day 9: NAIROBI - Wayward  connection  back home
-                </strong>,
+                title: <strong className="  font-[SourceSerifPro-Regular]">DAY 10 NAIROBI</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt=" Mara1" className=" lg:w-[1000px]"/>
+                            <img src={Day10} alt=" Mara1" className=" lg:w-[800px]"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a hearty morning breakfast, you will depart for a flight to Kenya’s capital, Nairobi, and a subsequent transfer to the Norfolk Hotel for day room service and a meal before you catch a flight back.                           
-                            ,<br /> <br/>
+                            After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home.                           
+                            <br /> <br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Norfolk  hotel  Nairobi</a> <br/>
-                            <strong>Meals:</strong>  Lunch and Dinner 
+                            <strong>Meals:</strong> Breakfast and Lunch 
                              </p>
                         </div>,
             },
@@ -183,16 +203,16 @@ const Mara =()=>{
 
 
     return (
-        <div className=" bg-white">
+        <div className=" bg-white"> 
             <Navbar/>
             <div className=" relative bg-[#3c0008]">
                 <img src={Mara1} alt=" Mara Camping" className=" m-auto w-full"/>
-                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Mara-Serengeti Great Migration Safari</h1>
+                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">Great Migration Safari</h1>
             </div>
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div className=" md:mr-10 md:py-20">
                     <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white md:flex-wrap">Kenya: Nairobi, Maasai Mara Game reserve, Serengeti National Park</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white md:flex-wrap">Kenya: Nairobi, Lewa Conservancy, Maasai Mara</p>
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
@@ -200,7 +220,7 @@ const Mara =()=>{
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white">From $ 9,700 per person</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">From $ 9,127  per person</p>
                 </div>
             </div>
             <div className=" p-5 lg:px-[300px]">
@@ -219,7 +239,7 @@ const Mara =()=>{
                                     Accomodation
                                 </th>
                                 <th scope="col" className="px-6 py-3 md:text-xl">
-                                    Category
+                                    Meal
                                 </th>
                             </tr>
                         </thead>
@@ -235,35 +255,35 @@ const Mara =()=>{
                                     Norfolk hotel Nairobi  
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Full board
+                                    All meals 
                                 </td>
                             </tr>
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#maasaimara" className=" hover:text-red-900 md:text-xl">Maasai Mara </a>
+                                    <a href="#maasaimara" className=" hover:text-red-900 md:text-xl">Lewa Conservancy </a>
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
                                     3
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Keekorok camp  
+                                    Lewa Safari Camp  
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Full board
+                                    All Meals
                                 </td>
                             </tr>
                             <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Serengeti</a>
+                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Maasai Mara</a>
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
                                     4
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Four seasons safari lodge  
+                                    Mara Serena lodge  
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Full board
+                                    All meals 
                                 </td>
                             </tr>
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
@@ -271,13 +291,13 @@ const Mara =()=>{
                                     <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Nairobi</a> 
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
-                                    ___
+                                    0
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Norfolk hotel Nairobi  
+                                    Norfolk hotel Nairobi  
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Day Room/ Half  board
+                                Day Room
                                 </td>
                             </tr>
                         </tbody>
@@ -291,22 +311,22 @@ const Mara =()=>{
                         <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
                             <li className=" flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city </span></li>
+                                <span>Seven nights game viewing thrill at Kenya's  top wildlife  destinations.</span></li>
                             <li className="flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span> Seven exhilarating  nights  at the epicentre  of great wildebeest  migration  spectacle - the great maasai mara and Serengeti</span>
+                                <span>Spectacular  wildebeest  migration  experience  in Maasai  Mara </span>
                             </li>
                           
                             <li className=" flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Three exhilarating  flights  to expedite  your  travel between  the camps</span></li>
+                                <span>Three exhilarating  flights  to expedite  your  travel  between  the camps</span></li>
                            
                             <li className=" flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Accommodations  at East Africa’s  most luxurious tented  camps and lodges including,  the iconic  Keekorok  lodge and the beguiling  Four  Seasons  Safari  Lodge.</span></li>
+                                <span>Accommodation at high end camps  and lodges </span></li>
                             
                         </ul>
                     </div>
@@ -320,74 +340,85 @@ const Mara =()=>{
                         <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Bush breakfast, Sundowner and all beverages  as provided</span>
+                                <span>Luxury accommodation  and all meals.</span>
                             </li>
                         
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span> House wines and local beers/spirits</span>
+                                <span> Spectacular hot air balloon  Safari.</span>
                             </li>
 
                         
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span> game drives in camps 4 X 4 vehicles with roof hatches for game viewing</span>
+                                <span> Optional activities and excursions Individualised for you by your Safari Director.</span>
                             </li>
                           
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide</span>
+                                <span>Unlimited game drives in  4  4 vehicles with roof hatches for game viewing.</span>
 
                             </li>
             
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</span>
+                                <span>Transport using 4 X 4 vehicle with experienced English/French/spanish speaking driver/guide</span>
                             </li>
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-centee space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Airport and Airstrip transfers</span>
+                                <span>Accommodation as shown in the itinerary. </span>
                             </li>
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Daily valet laundry service.</span></li>
+
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Tips for driver/guide/lodge/camp staff</span></li>
                         </ul>
 
                         <ul className=" lg:p-5 space-y-4 text-left text-black">
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Park/conservancy fees</span>
+                                <span>Internet  access.</span>
                             </li>
                           
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Flying Doctors emergency evacuation cover</span>
+                                <span>Soft drinks, beer, house wines and selected spirits</span>
                             </li>
                            
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Mineral water on  game drives</span>
+                                <span>Airport and Airstrip transfers. </span>
                             </li>
                          
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Scheduled flights;maasai mara/serengeti/Nairobi</span>
+                                <span>Park/conservancy fees.</span>
                             </li>
                            
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>24 hour Lamlav Safaris on call support</span></li>
+                                <span>Flying Doctors emergency evacuation cover.</span></li>
                         
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Optional activities  and excursions </span></li>
+                                <span>Mineral water on  game drives. </span></li>
                           
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                             <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Telephone  calls and laundry services </span></li>
+                                <span>Scheduled flights; Lewa/maasai mara/Nairobi.</span></li>
+                            
+                            <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                            <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>24hour Lamlav on call support.</span></li>
+                            
                         </ul>                   
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>

@@ -37,7 +37,7 @@ const Destination =()=>{
                 This is a high-end Kenyan safari that's very popular among those who want to experience Africa's renowned savannahs and witness the awe-inspiring wildebeest migrations up close. The safari covers three of Kenya's top wildlife sanctuaries: Nairobi National Park, Lewa Conservancy in the Laikipia Plateau, and the famous Maasai Mara game reserve, which is known for its incredible wildlife sightings. 
                 </p>
                 <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights, from $9,127 per person.</p>
-                <a href='/migration' className=' text-red-900 border border-red-900 rounded-md p-3 hover:bg-red-900 hover:text-white duration-500 left-16'>
+                <a href='/mara' className=' text-red-900 border border-red-900 rounded-md p-3 hover:bg-red-900 hover:text-white duration-500 left-16'>
                     <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                 </a>
             </div>
