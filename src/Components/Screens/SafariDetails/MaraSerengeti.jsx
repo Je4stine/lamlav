@@ -1,5 +1,13 @@
 import React from "react";
 
+import { Carousel } from 'react-responsive-carousel';
+
+import Slider from "react-slick";
+
+import "slick-carousel/slick/slick.css";
+
+import "slick-carousel/slick/slick-theme.css";
+
 import Navbar from "../../Navbar/Navreveal";
 
 import Mara1 from '../../../Assets/serengeti1.jpg';
@@ -34,14 +42,24 @@ import Site1 from "../../../Assets/sitemap1.png";
 
 import Faq from "react-faq-component";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 const Mara =()=>{
+    
     const data = {
         title: "Iteneraries",
         rows: [
             {
                 title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1 ARRIVAL IN NAIROBI ||Grand Welcome to kenya</h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
-                    <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
+                    
+                    <Carousel showThumbs={false} className=" w-full">
+                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
+                    </Carousel>
+                    
                     <div> 
                         <p className=" p-5">
                         Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.

@@ -40,15 +40,17 @@ const steps = [
  
 // Creating our own theme
 const theme = {
-    background: '#C9FF8F',
-    headerBgColor: '#197B22',
+    background: '#ffffff',
+    fontFamily: 'Arial, sans-serif',
+    headerBgColor: '#075e54',
+    headerFontColor: '#ffffff',
     headerFontSize: '20px',
-    botBubbleColor: '#0F3789',
-    headerFontColor: 'white',
-    botFontColor: 'white',
-    userBubbleColor: '#FF5733',
-    userFontColor: 'white',
-};
+    botBubbleColor: '#DCF8C6',
+    botFontColor: '#000000',
+    userBubbleColor: '#ECE5DD',
+    userFontColor: '#000000',
+  };
+  
  
 // Set some properties of the bot
 const config = {

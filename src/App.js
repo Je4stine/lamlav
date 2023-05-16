@@ -23,6 +23,7 @@ import Amboseli from './Components/Screens/SafariDetails/Amboseli';
 
 import FAQs from './Components/Screens/FAQS/FAQS'
 import Wilderness from './Components/Screens/SafariDetails/Wilderness';
+import Kenya from './Components/Kenya/Kenya';
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
             <Route path ='/honeymoon' element={<Honeymoon/>}/>
             <Route path ='/amboseli' element={<Amboseli/>}/>
             <Route path='/wilderness' element={<Wilderness/>}/>
+            <Route path ='/kenya' element ={<Kenya/>}/>
           </Routes>
         </Wrapper>
       </Router>
