@@ -52,13 +52,8 @@ const Mara =()=>{
             {
                 title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1 ARRIVAL IN NAIROBI ||Grand Welcome to kenya</h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
-                    
-                    <Carousel showThumbs={false} className=" w-full">
                             <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
-                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
-                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
-                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
-                    </Carousel>
+                       
                     
                     <div> 
                         <p className=" p-5">
