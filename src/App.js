@@ -24,6 +24,7 @@ import Amboseli from './Components/Screens/SafariDetails/Amboseli';
 import FAQs from './Components/Screens/FAQS/FAQS'
 import Wilderness from './Components/Screens/SafariDetails/Wilderness';
 import Kenya from './Components/Kenya/Kenya';
+import DestAmboseli from './Components/Kenya/DestAmboseli';
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
             <Route path ='/amboseli' element={<Amboseli/>}/>
             <Route path='/wilderness' element={<Wilderness/>}/>
             <Route path ='/kenya' element ={<Kenya/>}/>
+            <Route path ='/destamboseli' element ={<DestAmboseli/>}/>
           </Routes>
         </Wrapper>
       </Router>

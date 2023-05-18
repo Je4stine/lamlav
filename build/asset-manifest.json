@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c73eb1cb.css",
-    "main.js": "/static/js/main.16b34da7.js",
+    "main.css": "/static/css/main.23868868.css",
+    "main.js": "/static/js/main.5bde7e66.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/ug1.jpg": "/static/media/ug1.7100cd4196942869838f.jpg",
     "static/media/lion1.jpg": "/static/media/lion1.c4c818701a9645f0f6f1.jpg",
@@ -16,6 +16,8 @@
     "static/media/Gedi.jpg": "/static/media/Gedi.c259918529860e3b1681.jpg",
     "static/media/Nairobipa.jpg": "/static/media/Nairobipa.f18c564b861253c28363.jpg",
     "static/media/wildness.jpg": "/static/media/wildness.5ea7a8fde052f894f2f6.jpg",
+    "static/media/game.jpg": "/static/media/game.ec1b65f3fc738913f858.jpg",
+    "static/media/lodge1.jpg": "/static/media/lodge1.d4726eecd2bf5c2e7d0b.jpg",
     "static/media/migr.jpg": "/static/media/migr.7925d47db08455ad03f6.jpg",
     "static/media/cruise.jpg": "/static/media/cruise.5397852670eff5ee9f36.jpg",
     "static/media/Day222.jpeg": "/static/media/Day222.e69fbf0a2eeb34fbf217.jpeg",
@@ -36,6 +38,7 @@
     "static/media/Nairobi1.jpg": "/static/media/Nairobi1.d308e3f9ea76e7e420f3.jpg",
     "static/media/SourceSerifPro-Regular.ttf": "/static/media/SourceSerifPro-Regular.a43f8192fdd94b8968c6.ttf",
     "static/media/HemNai.jpg": "/static/media/HemNai.270b61babb477980f44b.jpg",
+    "static/media/lodge4.jpg": "/static/media/lodge4.f07837ec4c50fe124195.jpg",
     "static/media/Day999.jpeg": "/static/media/Day999.c8ca002b8db83d577ccc.jpeg",
     "static/media/kilimanjaro.jpg": "/static/media/kilimanjaro.ae2ed944eecc30781aec.jpg",
     "static/media/Hero11.jpg": "/static/media/Hero11.6663f4a76bab1e620d81.jpg",
@@ -44,6 +47,7 @@
     "static/media/moon2.jpg": "/static/media/moon2.db7421d232235aa29809.jpg",
     "static/media/cranes.jpg": "/static/media/cranes.d00fda3012a563055843.jpg",
     "static/media/Day88.jpg": "/static/media/Day88.8b89d4d9c7ca4bed6c9c.jpg",
+    "static/media/lodge5.jpg": "/static/media/lodge5.9bd59747ae0e3a769ae3.jpg",
     "static/media/naboisho.jpg": "/static/media/naboisho.dfbaf40b4bbf40e5e11a.jpg",
     "static/media/Day444.jpeg": "/static/media/Day444.a883082ca3920d83f7bb.jpeg",
     "static/media/Day1010.jpeg": "/static/media/Day1010.c47f8c607a0e66943b51.jpeg",
@@ -70,6 +74,7 @@
     "static/media/FinchH.jpg": "/static/media/FinchH.e066c265a7d62a82f729.jpg",
     "static/media/giraffe.jpg": "/static/media/giraffe.5447414d192311df91c1.jpg",
     "static/media/Day4.1.jpeg": "/static/media/Day4.1.52d666d4add20f00284d.jpeg",
+    "static/media/olpe1.jpg": "/static/media/olpe1.c66890e56081cb3b9c62.jpg",
     "static/media/serengeti1.jpg": "/static/media/serengeti1.c3c77bde492e96c15603.jpg",
     "static/media/Day14.1.jpeg": "/static/media/Day14.1.8d10bab05d314b2c88c2.jpeg",
     "static/media/olpejeta.jpg": "/static/media/olpejeta.293482bb562c45612f55.jpg",
@@ -77,6 +82,7 @@
     "static/media/Finch1.jpg": "/static/media/Finch1.3ed7af329ba5157a5f89.jpg",
     "static/media/Giraf.jpg": "/static/media/Giraf.07ba9875771038b6cb0f.jpg",
     "static/media/Day7.1.jpg": "/static/media/Day7.1.9a9991491eb1f7c6ecd2.jpg",
+    "static/media/chyullu.jpg": "/static/media/chyullu.7a0a411721f09a2e5f39.jpg",
     "static/media/Day77.jpeg": "/static/media/Day77.7988a5b1040c421d3a9d.jpeg",
     "static/media/Day55.jpeg": "/static/media/Day55.86049f0aeab758f1c838.jpeg",
     "static/media/Day777.jpeg": "/static/media/Day777.85f29584c4b38fd40a09.jpeg",
@@ -90,12 +96,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.c73eb1cb.css.map": "/static/css/main.c73eb1cb.css.map",
-    "main.16b34da7.js.map": "/static/js/main.16b34da7.js.map",
+    "main.23868868.css.map": "/static/css/main.23868868.css.map",
+    "main.5bde7e66.js.map": "/static/js/main.5bde7e66.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c73eb1cb.css",
-    "static/js/main.16b34da7.js"
+    "static/css/main.23868868.css",
+    "static/js/main.5bde7e66.js"
   ]
 }

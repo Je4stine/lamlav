@@ -5,6 +5,10 @@ import Lion from '../../Assets/lion1.jpg';
 import AmboseliN from '../../Assets/Natpa.jpg';
 import Tsavo from '../../Assets/tsavo11.jpg';
 import Lewaco from '../../Assets/lewacon.jpg';
+import Footer from "../Footer/Footer";
+import Olpe from '../../Assets/olpe1.jpg';
+import Game1 from '../../Assets/game.jpg';
+import Chyulu from '../../Assets/chyullu.jpg';
 
 const Kenya = ()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -28,10 +32,13 @@ const Kenya = ()=>{
                <hi className=" absolute top-[50%] lg:left-[35%] left-[20%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Bold] text-center ">
                     Why Kenya is Magical
                 </hi>
+                <p className=" absolute bottom-[6%] lg:left-[10%] text-white lg:text-4xl text-2xl font-[SourceSerifPro-Bold] text-center" >
+                  <em>"You know you are trliy alive when you are living among lions." ~ Karen Blixen</em>
+                </p>
             </div>
-            <section className=" bg-white w-[100%] m-auto lg:px-[600px] px-10">
+            <section className=" bg-white w-[100%] m-auto lg:px-[400px] px-10">
               <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
-                Visitors worldwide are drawn to the bustling atmosphere and modern architecture of Nairobi, as well as its fine dining options. However, in the countryside, specifically in the treasured national parks and conservancies, the focus shifts from human activity to the awe-inspiring wildlife. Observing the Big Five becomes a natural experience in this region. These magnificent creatures captivate visitors with their numbers and opportunities for close-up observation.The thrilling events of the Great Migration, which take place annually in the Masai Mara, is one striking example. "You know you are trliy alive when you are living among lions." ~ Karen Blixen
+                Visitors worldwide are drawn to the bustling atmosphere and modern architecture of Nairobi, as well as its fine dining options. However, in the countryside, specifically in the treasured national parks and conservancies, the focus shifts from human activity to the awe-inspiring wildlife. Observing the Big Five becomes a natural experience in this region. These magnificent creatures captivate visitors with their numbers and opportunities for close-up observation.The thrilling events of the Great Migration, which take place annually in the Masai Mara, is one striking example.
                 <br/><br/>For those seeking a more secluded safari experience, the Laikipia Plateau, with its endangered species such as the white rhinoceroses, Grévy's zebra and wild dog; and the sun-soaked Samburu National Reserve, with its cooling elephants in the Ewaso Ng'iro River, offer a different perspective. 
                 <br/> <br/>In addition to wildlife viewing, a trip to Kenya presents the chance to learn about the Maasai cliture and to unwind on the idyllic beaches along the country's extensive coastline.
                 <br/> <br/><strong>LAMLAV LEISURE  SAFARIS</strong> provides exclusive, inspiring, and authentic safari experiences through its Private Safaris, Custom Safaris, and Small group Classic Safaris that are always built  around  the tastes, preferences, and budget of every client.  
@@ -55,7 +62,7 @@ const Kenya = ()=>{
                       <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
                           Located in the Southern  part of Kenya, near the boarder with Tanzania,  the Amboseli National Park, is famed for its large herds of elephants and its spectacular views of Mount Kilimanjaro, the highest mountain in Africa, which can be seen in the background. It is only 392Km2 in size, and  an hour's  flight  or four hours drive from Nairobi City.
                       </p>
-                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                      <a href='/destamboseli'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
                                 <span >Explore more</span>
                       </div></a> 
                   </div>
@@ -92,8 +99,58 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Olpe} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Ol Pejeta  Conservancy  </h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>With a size of 36,400 hectares, Ol Pejeta is home to the world's largest population of black rhinos and the last two remaining white rhinos. This Conservancy is a non-profit wildlife organization located in Laikipia County, Central Kenya. </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      This protected area and a great tourists destination is situated near the equator, to the west of Nanyuki, near the foothills of Mount Kenya and the Aberdares. It was founded with the goal of preserving wildlife, providing a habitat for great apes, and generating revenue through wildlife-related activities.                         
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Game1} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">The Maasai Mara National Reserve  </h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>With its diverse and attractive scenery and its well-known abundance of wild animals, Maasai Mara is the centerpiece of spectacular  wildlife  encounters and  is a perfect representation of what attracts people to Africa. </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      The Masai Mara National Reserve is a highly-regarded safari destination in Africa known for its vast open plains and diverse wildlife, including elephants, buffalo, zebra, giraffe, hyenas, and the famous big cats like lions, leopards, and cheetahs.                          
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Chyulu} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Chyullu hills </h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>"Green Hills of Africa" <br/> <br/>
+                        The Chyulu Hills, a relatively new range in the world, extend across eastern Kenya, with a view of expansive grasslands. 
+                        </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      Comprising of over 750,000 acres managed for wildlife, the Chyulu Hills are considered to be one of the finest wilderness areas in Africa, featuring rainforests and lush meadows.The hills and the nearby plains with their forested areas and river sources, are secluded and teeming with wildlife that is not frequently disturbed. Mount Kilimanjaro, which can be seen on the East side, is constantly present during safaris to the Chyulu Hills, just across the Kenya-Tanzania border.                          
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
             </section>
+            <Footer/>
         </div>
     )
 };
