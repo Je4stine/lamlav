@@ -13,7 +13,7 @@ const Countries =()=>{
 
             <div className=' flex flex-col items-center justify-center'>
                 
-                <a href='/safaris' className='lg:flex flex-1 mb-5 lg:w-[98%] bg-white'>
+                <a href='/kenya' className='lg:flex flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Kenya} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                         <div className=' p-10 flex flex-col justify-center'> 
                             <h1 className=' font-bold text-2xl '>
@@ -29,7 +29,7 @@ const Countries =()=>{
                             </p>
                             <a href='/kenya'>
                                 <div className=' border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto mt-10'>
-                                    <span className=' font-[SourceSerifPro-Regular]'>Discover more</span>
+                                    <span className=' font-[SourceSerifPro-Regular]'>Explore more</span>
                                 </div>
                             </a>
                         </div>
