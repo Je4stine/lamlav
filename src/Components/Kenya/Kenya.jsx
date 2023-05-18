@@ -9,6 +9,13 @@ import Footer from "../Footer/Footer";
 import Olpe from '../../Assets/olpe1.jpg';
 import Game1 from '../../Assets/game.jpg';
 import Chyulu from '../../Assets/chyullu.jpg';
+import Zebra from '../../Assets/GrevyZebra 2.jpg';
+import Naivasha from '../../Assets/Naivasha.jpg';
+import Dik from '../../Assets/dikdik.jpg';
+import Mount from '../../Assets/Mtkenya.jpg';
+import Suncity from '../../Assets/sunsity.jpg';
+import Mombasani from '../../Assets/Mombasani.jpg';
+import Tatol from '../../Assets/Tatol.jpg';
 
 const Kenya = ()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,7 +60,7 @@ const Kenya = ()=>{
             <section className=" bg-white flex flex-col items-center pt-20 ">
               <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Kenya </h1>
               <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
-                  <img src={AmboseliN} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <img src={AmboseliN} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Amboseli  National  Reserve </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
@@ -69,7 +76,7 @@ const Kenya = ()=>{
               </div>
 
               <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
-                  <img src={Tsavo} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <img src={Tsavo} alt=" Tsavo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Tsavo  National  park </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
@@ -84,7 +91,7 @@ const Kenya = ()=>{
               </div>
 
               <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
-                  <img src={Lewaco} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <img src={Lewaco} alt=" Lewa Conservancy" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Lewa Conservancy </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
@@ -100,7 +107,7 @@ const Kenya = ()=>{
               </div>
 
               <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
-                  <img src={Olpe} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <img src={Olpe} alt=" Ol Pejeta" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Ol Pejeta  Conservancy  </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
@@ -116,7 +123,7 @@ const Kenya = ()=>{
               </div>
 
               <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
-                  <img src={Game1} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <img src={Game1} alt=" The game" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">The Maasai Mara National Reserve  </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
@@ -132,7 +139,7 @@ const Kenya = ()=>{
               </div>
 
               <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
-                  <img src={Chyulu} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto"/>
+                  <img src={Chyulu} alt=" Chyullu hills" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Chyullu hills </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
@@ -149,7 +156,129 @@ const Kenya = ()=>{
                   </div>
               </div>
 
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Zebra} alt=" Zebra" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Meru National Park </h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>Home to Elsa the Lioness</em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      Meru National Park is located in the Central Highlands of Kenya, near Mount Kenya and straddles the equator. The park is known for its diverse wildlife, including elephants, hippos, cheetahs, giraffes, buffalos, and over 400 species of birds.                           
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Naivasha} alt="Flamingo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Lake Nakuru & Lake Naivasha </h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>Tete-a- tete  with  the flamingos of Nakuru</em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      Located on the floor of the Great Rift Valley, and  surrounded by bushy grasslands and woods, Nakuru  and  Naivasha  offers a diverse range of habitats, including the lakes, escarpment, and ridges, which make them  excellent destinations for visitors interested in ecology.                            
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Dik} alt=" Dik Dik" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Samburu National Park</h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>The Samburu region is characterized by the beautiful Ewaso Nyiro River and is known for its rugged and serene landscape, reminiscent of the traditional Africa. </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      The riverine forest is a popular gathering place for various species of mammals, including large herds of elephants. One can often witness groups of 40-50 elephants visiting the river to wash and play.                             
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Mount} alt=" Mt. Kenya" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mount Kenya</h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>The Lordly, "Majestic  and tender  Mountain"  in Africa that is visible from many parts of central Kenya. </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      Mount Kenyan is considered the home of Ngai - the God. It is Africa's second highest mountain, standing at 17,057 feet and is known for being difficult to climb. The mountain rises dramatically from the already high plains, starting slowly and gracefully, before reaching its jagged, glaciated peak.                              
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Suncity} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Nairobi</h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>Around  and About the only "City in  the  Sun "<br/>
+                        Nairobi is not only known as the "Safari capital of the world," but it is also one of the most vibrant cities in Africa. It is definitely worth spending a few days exploring the "City in the Sun" of Kenya before or after your safari.
+                        </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                         Nairobi, the capital city of Kenya, is often considered by travelers as a mere stopover during their safari or beach holiday. However, a stay in Nairobi at the beginning or end of a trip can be an enjoyable experience. The city offers a range of opportunities to buy local souvenirs at vibrant Maasai markets, try the delicious street food, or visit the historic colonial home of Karen Blixen, the Danish writer who wrote the famous book "Out of Africa".                              
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Mombasani} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mombasa</h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>
+                        Mombasa is a city with a rich history of cultural fusion, evident in its blend of Arab, Portuguese, and British influences that can still be seen in its cuisine, buildings, and the people. This stunning coastal region of Kenya,  is known for its pristine beaches, breathtaking coral reefs, and historic Swahili towns, some of which date back to the Middle Ages.
+                        </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      The Kenya's coastline, stretching for 480 kilometers from the northern border to Tanzania, is a popular tourist destination known for its warm waters and sandy beaches fringed by coconut palms. The coral reefs provide protection for swimming and water sports, and the area has become a prime kitesurfing spot in recent years.                               
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
+              <div className=" lg:flex lg:justify-around mt-20 lg:px-[250px]">
+                  <img src={Tatol} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <div className="p-5">
+                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Watamu</h1>
+                      <p className=" font-[SourceSerifPro-Regular] text-lg">
+                        <em>
+                        Beguiling,  tempting,  and  bewitching Watamu.
+                        </em>
+                      </p>
+                      <br/><p className=" font-[SourceSerifPro-Regular] text-lg">
+                      Watamu offers the best of both worlds, with the backdrop of the lush Arabuko-Sokoke Forest and the mysterious ruins of Gedi, a 13th century Swahili city. Whether you're looking for adventure or a peaceful escape, Watamu has something for everyone.
+                               
+                      </p>
+                      <a href='/kenya'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+                                <span >Explore more</span>
+                      </div></a> 
+                  </div>
+              </div>
+
             </section>
+            <div className=" bg-white pt-20">
+                <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
+            </div>
             <Footer/>
         </div>
     )

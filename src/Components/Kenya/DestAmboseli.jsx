@@ -69,15 +69,15 @@ const DestAmboseli =()=>{
                         pagination={{ clickable: true }}
                         scrollbar={{ draggable: true }}
                         >
-                        <SwiperSlide><img src={Lodge1} alt="Roaring lion" className=" "/></SwiperSlide>
-                        <SwiperSlide><img src={Lodge2} alt="Roaring lion" className=" "/></SwiperSlide>
-                        <SwiperSlide><img src={Lodge3} alt="Roaring lion" className=" "/></SwiperSlide>
+                        <SwiperSlide><img src={Lodge1} alt="Roaring lion" className=" " loading="lazy"/></SwiperSlide>
+                        <SwiperSlide><img src={Lodge2} alt="Roaring lion" className=" " loading="lazy"/></SwiperSlide>
+                        <SwiperSlide><img src={Lodge3} alt="Roaring lion" className=" " loading="lazy"/></SwiperSlide>
                     </Swiper>
                 </div>
                 
             </section>
             <div>
-                <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
+                <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>
             <Footer/>
         </div>

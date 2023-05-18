@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.23868868.css",
-    "main.js": "/static/js/main.5bde7e66.js",
+    "main.css": "/static/css/main.e0c59d3f.css",
+    "main.js": "/static/js/main.efffa149.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/ug1.jpg": "/static/media/ug1.7100cd4196942869838f.jpg",
     "static/media/lion1.jpg": "/static/media/lion1.c4c818701a9645f0f6f1.jpg",
     "static/media/rwan.jpg": "/static/media/rwan.4f29fbf0872efc8827e1.jpg",
     "static/media/Creek.jpg": "/static/media/Creek.03586c2836ea2e61f6e1.jpg",
     "static/media/Game1.jpg": "/static/media/Game1.bdbb6b1d5c27718f7f98.jpg",
+    "static/media/Mtkenya.jpg": "/static/media/Mtkenya.9a05b642d71c7aa35890.jpg",
+    "static/media/sunsity.jpg": "/static/media/sunsity.4e9c8472a8a52fa17163.jpg",
     "static/media/kilima.jpg": "/static/media/kilima.33c5e9019bb3347e464d.jpg",
     "static/media/Day1.1.jpg": "/static/media/Day1.1.b1680662cea2cbd49634.jpg",
     "static/media/Palm.jpg": "/static/media/Palm.33917426f5effbcbd200.jpg",
@@ -23,6 +25,7 @@
     "static/media/Day222.jpeg": "/static/media/Day222.e69fbf0a2eeb34fbf217.jpeg",
     "static/media/Arabuko.jpg": "/static/media/Arabuko.90b0a7a225ff7e78dae4.jpg",
     "static/media/lewacon.jpg": "/static/media/lewacon.67cc6cfa93b1fa365163.jpg",
+    "static/media/Tatol.jpg": "/static/media/Tatol.38cb55e626e3652956f2.jpg",
     "static/media/Day99.jpg": "/static/media/Day99.2c37ff13193ba800b445.jpg",
     "static/media/Lewa.jpg": "/static/media/Lewa.eb05c3e1700382b5589a.jpg",
     "static/media/Day44.jpg": "/static/media/Day44.df3630b9ac836dced8e4.jpg",
@@ -55,7 +58,9 @@
     "static/media/luxury.jpg": "/static/media/luxury.08f6c5632f469cc2c3a8.jpg",
     "static/media/Natpa.jpg": "/static/media/Natpa.c33a6db928112c1da0a3.jpg",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.9e41987fd50233ee8c4c.jpg",
+    "static/media/Mombasani.jpg": "/static/media/Mombasani.bb5d3702591e9e8fa91b.jpg",
     "static/media/Kilima1.jpg": "/static/media/Kilima1.c6b889d0513a00412c9b.jpg",
+    "static/media/Naivasha.jpg": "/static/media/Naivasha.cea87cbea83df0653364.jpg",
     "static/media/Day33.jpeg": "/static/media/Day33.6006296ba978094b54f4.jpeg",
     "static/media/tsavoo.jpg": "/static/media/tsavoo.071c7b3659749171dac2.jpg",
     "static/media/olseki.jpg": "/static/media/olseki.16e59e7d3f89398437f7.jpg",
@@ -67,11 +72,13 @@
     "static/media/about2.jpg": "/static/media/about2.2d3de5b94e46f2f51ff9.jpg",
     "static/media/Medina.jpg": "/static/media/Medina.b8a585bc5f2f491bcee1.jpg",
     "static/media/tsavo11.jpg": "/static/media/tsavo11.d92d75a5b03346c064f1.jpg",
+    "static/media/dikdik.jpg": "/static/media/dikdik.93684d73322e16bba3f4.jpg",
     "static/media/Day8.1.jpg": "/static/media/Day8.1.606b22bb4233e2e2e518.jpg",
     "static/media/leo.jpg": "/static/media/leo.b016e56cbca8a2c19011.jpg",
     "static/media/Day555.jpeg": "/static/media/Day555.c9ae4bcaac8f650a4410.jpeg",
     "static/media/chipol.jpg": "/static/media/chipol.ce9d7671b1e8998f3e55.jpg",
     "static/media/FinchH.jpg": "/static/media/FinchH.e066c265a7d62a82f729.jpg",
+    "static/media/GrevyZebra 2.jpg": "/static/media/GrevyZebra 2.2de25bbc76976ef646d1.jpg",
     "static/media/giraffe.jpg": "/static/media/giraffe.5447414d192311df91c1.jpg",
     "static/media/Day4.1.jpeg": "/static/media/Day4.1.52d666d4add20f00284d.jpeg",
     "static/media/olpe1.jpg": "/static/media/olpe1.c66890e56081cb3b9c62.jpg",
@@ -96,12 +103,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.23868868.css.map": "/static/css/main.23868868.css.map",
-    "main.5bde7e66.js.map": "/static/js/main.5bde7e66.js.map",
+    "main.e0c59d3f.css.map": "/static/css/main.e0c59d3f.css.map",
+    "main.efffa149.js.map": "/static/js/main.efffa149.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23868868.css",
-    "static/js/main.5bde7e66.js"
+    "static/css/main.e0c59d3f.css",
+    "static/js/main.efffa149.js"
   ]
 }
