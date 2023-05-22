@@ -38,7 +38,7 @@ const Wilderness =()=>{
             {
                 title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1 ARRIVE IN NAIROBI KENYA</h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
-                    <img src={Nairobi1} alt=" Mara1" className=" lg:w-[800px]"/>
+                    <img src={Nairobi1} alt=" Mara1" className=" lg:w-1/2"/>
                     <div> 
                         <p className=" p-5">
                         Your expedition begins as you touch down at Jomo Kenyatta International Airport in Nairobi. You will be warmly met and received by your Safari  Director who will thereafter transfer to the elegant Hemmingways hotel, where you will spend  two leisurely nights.
@@ -54,7 +54,7 @@ const Wilderness =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2 NAIROBI || Up-close Giraffes and baby  Elephants  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Giraf} alt="Mara1" className=" lg:w-[700px] "/>
+                            <img src={Giraf} alt="Mara1" className=" lg:w-1/2 "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             Spend this day  touring the Karen  Blixen  Muesum,  Daphine Shieldrick Wildlife Trust and the famous Giraffe Center, which is the home of the highly endangered Rothchild giraffe, and the only wildlife sanctuary in the world located within a capital city. 
                             The giraffe center started as a rehabilitation project to rescue the Rothschild giraffe,  original founded by  Jock Leslie Melville, the Kenyan grandson of a Scottish Earl, when he and his wife betty captured two baby giraffe to start a program of breeding giraffe on the Langata facility.  It is an amazing place to visit as offers visitors the opportunity to get up close and personal with these friendly giants.
@@ -70,7 +70,7 @@ const Wilderness =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3  AMBOSELI NATIONAL PARK || At the Snows of Mt Kilimanjaro</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Kilima} alt="Mara1" className=" lg:w-[700px]"/>
+                            <img src={Kilima} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <em className=" p-5 font-[SourceSerifPro-Regular]"> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
@@ -86,7 +86,7 @@ const Wilderness =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4:  AMBOSELI NATIONAL PARK || Classic  game  viewing   </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Game1} alt="Mara1" className=" lg:w-[700px]"/>
+                            <img src={Game1} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Full day (and night) adventure in the park, loaded with unlimited game viewing, cultural visits and guided park walks culminating to an evening capped with a sundowner.
@@ -101,7 +101,7 @@ const Wilderness =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5 : LEWA WILDLIFE CONSERVANCY || Home to the ‘Grand lady’  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Lewa} alt="Mara1" className=" lg:w-[700px]"/>
+                            <img src={Lewa} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Fly over to Laikipia plateau, as you enjoy the captivating  view of Mt Kenya, to the Lewa conservancy. Upon arrival, you will be transferred Lewa Safari camp for a leisurely two night stay.
@@ -118,7 +118,7 @@ const Wilderness =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6:  LEWA WILDLIFE CONSERVANCY || Deep into the Laikipia  wilderness </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Conserve1} alt=" Mara1" className=" lg:w-[700px]"/>
+                            <img src={Conserve1} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                                 Today, you have the opportunity to spend the morning and afternoon exploring a beautiful wildlife reserve, on game drives,  horseback rides,  and guided bush-walks. Be on the lookout for various wild animals such as lions, black and white rhinoceroses, elephants, oryxes, and sitatungas. Return  to the camp after your adventure, to relax on your private deck while enjoying delicious  meals and drinks.
                             <br/>
@@ -131,7 +131,7 @@ const Wilderness =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7:  MAASAI MARA || a slum dunk destination    </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Palm} alt="Mara1" className=" lg:w-[700px]"/>
+                            <img src={Palm} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Fly over the Great Rift Valley to the great maasai Mara national reserve and check  in at the elegant Plains Camp for a two night intimate  stay and relaxation. 
@@ -145,7 +145,7 @@ The great migration is one of the most impressive natural events involving 2mill
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8: MAASAI MARA ||  Big game exploration  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Maara} alt="Mara1" className=" lg:w-[700px]"/>
+                            <img src={Maara} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Game viewing is never dull in the Maasai Mara, and you will spend this day  exploring the  mara eco-system on morning  and afternoon and night  game drives. Keep your  eyes  peeled  for  an opportunity  to spot the iconic " Big Fives" which includes: lions, rhinos,  elephants,  buffalos and leopards; as well as some  rare creatures  like the copper  tailed  monkeys, crested  porcupine, bushbaby etc.                                
@@ -159,7 +159,7 @@ The great migration is one of the most impressive natural events involving 2mill
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: MAASAI MARA || Plan your  day  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-[700px]"/>
+                            <img src={Mara1} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Design  your day by sampling  some of the optional  activities that the camp provides. You may choose  to:
@@ -177,7 +177,7 @@ The great migration is one of the most impressive natural events involving 2mill
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 10: NAIROBI || Wayward  connection to other parts of the world 
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Kanairo} alt=" Mara1" className=" lg:w-[700px]"/>
+                            <img src={Kanairo} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             Return to Nairobi and enjoy some free time in the afternoon in the dayroom  reserved for you at the hemmingways  hotel  Nairobi. Afterwards, proceed to the  Jomo  Kenyatta  International  Airport for your international flight.                            <br /> <br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Hemingways hotel Nairobi </a> <br/>

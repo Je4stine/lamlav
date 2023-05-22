@@ -52,7 +52,7 @@ const Mara =()=>{
             {
                 title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1 ARRIVAL IN NAIROBI ||Grand Welcome to kenya</h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day1} alt=" Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day1} alt=" Mara1" className=" lg:w-1/2"/>
                        
                     
                     <div> 
@@ -69,7 +69,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2:  NAIROBI || Commingle  with  giraffes  and baby  elephants </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day2} alt="Mara1" className=" lg:w-[800px] "/>
+                            <img src={Day2} alt="Mara1" className=" lg:w-1/2 "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                                 Combine wildlife and culture with morning trips to the <strong>giraffe center, David Shieldrick Wildlife Trust,</strong> the <strong>Karen Blixen Muesum</strong> and later to the <strong>Kazuri bead factory</strong> where you will see how classic pottery beads are made, following the process from beginning to end. Return  to Norfolk  hotel  for evening  dinner  dinner  and relaxation. 
                             <br/>
@@ -82,7 +82,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3 LEWA WILDLIFE CONSERVANCY || In the wilderness of Laikipia Plateau </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day3} alt="Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day3} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Catch a flight at Wilson airport and fly over the Laikipia plateau, enjoying the stunning view of the lordly Mt Kenya, to the Lewa wildlife conservancy. Upon touch down at Lewa airstrip, you will enjoy a game drive transfer to the famous Lewa Safari Camp, where you will spend three amazing nights. Arrive in time for lunch and have time to relax before setting out for an afternoon game drive to dusk.
@@ -96,7 +96,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: LEWA CONSERVANCY || Classic game viewing  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day4} alt="Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day4} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Spend this day exploring the landscapes on scheduled morning and afternoon game drives, returning to the camp In between the drives for lunch and relaxation, before setting out for another game drive.
@@ -112,7 +112,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: LEWA CONSERVANCY || Plan your  day   </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day5} alt="Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day5} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 This morning,  you  will enjoy a sumptuous Champaign breakfast in the bush, and then head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides, camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a warm campfire.
@@ -127,7 +127,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: MAASAI MARA || Face to face with the great migration!</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day6} alt=" Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day6} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             Transfer to Lewa airstrip, this morning, for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip, and rrive in time for a hearty lunch and relaxation.
                             <br/>Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
@@ -142,7 +142,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">  DAY 7: MAASAI MARA  || Breath- taking wildlife encounters</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day7} alt="Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day7} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Maasai Mara National Reserve boasts of some the spectacular wildlife viewing in the word. More than 1.5 million wildebeest migrate annually from the expansive Serengeti in Tanzania to Kenya in search of fresh grass. This migration is known for the thrilling crossings of the Mara and Talek Rivers, where the wildebeest rush across in a frenzied manner, and crocodiles lurk in the water, ready to attack any unfortunate animal that makes a mistake. These events are always full of excitement and danger.  
@@ -158,7 +158,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8: MAASAI MARA NATIONAL RESERVE || hippo pool bush breakfast, game drives, Maasai cultural visit  </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day8} alt="Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day8} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 This morning, you will crown your game viewing experience with a leisurely Bush Breakfast by the Mara River Hippo Pools, before heading out for a morning game drive. Return to the lodge for lunch and indulge in spa, or a muscle relieving massage, before making a grand visit (optional) to the maasai villages for an opportunity to learn their proud heritage and how they peacefully coexist with the wild animals.
@@ -172,7 +172,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: MAASAI MARA NATIONAL RESERVE|| Hot air balloon safari, star –lit bush diner </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day9} alt="Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day9} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors)
@@ -187,7 +187,7 @@ const Mara =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 10 NAIROBI</strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Day10} alt=" Mara1" className=" lg:w-[800px]"/>
+                            <img src={Day10} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home.                           
                             <br /> <br/>
