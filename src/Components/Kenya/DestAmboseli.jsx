@@ -44,7 +44,7 @@ const DestAmboseli =()=>{
             }
             <secttion>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
-                    <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Amboselli National Park</h1>
+                    <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Amboseli National Park</h1>
                     <img src={AmboseliN} alt="Roaring lion" className=" "/>
                 </div>
             </secttion>
@@ -59,7 +59,7 @@ const DestAmboseli =()=>{
                 <br/>The park also has a rich cultural history and the Maasai community who live near the park. Visitors can learn about the Maasai's way of life, including their customs, traditions, and beliefs.
                 </p>
                 <div className=" mb-20 m-auto">
-                    <h1 className=" font-[SourceSerifPro-Bold] pt-[50px] text-xl lg:text-4xl m-auto mb-20">Camps and Loudge in Amboselli</h1>
+                    <h1 className=" font-[SourceSerifPro-Bold] pt-[50px] text-xl lg:text-4xl m-auto mb-20">Camps and Lodge in Amboselli</h1>
                      <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
                         slidesPerView={1}
@@ -69,9 +69,30 @@ const DestAmboseli =()=>{
                         pagination={{ clickable: true }}
                         scrollbar={{ draggable: true }}
                         >
-                        <SwiperSlide><img src={Lodge1} alt="Roaring lion" className=" " loading="lazy"/></SwiperSlide>
-                        <SwiperSlide><img src={Lodge2} alt="Roaring lion" className=" " loading="lazy"/></SwiperSlide>
-                        <SwiperSlide><img src={Lodge3} alt="Roaring lion" className=" " loading="lazy"/></SwiperSlide>
+                        <SwiperSlide>
+                            <div className=" relative z-[7]">
+                                <img src={Lodge1} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
+                                <h1 className=" absolute top-[20%] left-[40%] text-white font-bold text-2xl">TORTILIS CAMP </h1>
+                                <p className=" absolute top-[50%] text-white m-auto left-[10%]">
+                                    Tortilis is an exceptional tented camp located on the border of Amboseli National Park in Africa. 
+                                </p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="relative z-[7]">
+                                <img src={Lodge2} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
+                                <h1 className=" absolute top-[20%] left-[40%] text-white font-bold text-2xl">OL TUKAI LODGE</h1>
+                                <p className=" absolute top-[50%] text-white m-auto left-[10%]">
+                                    Tortilis is an exceptional tented camp located on the border of Amboseli National Park in Africa. 
+                                </p>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <img src={Lodge3} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
+                                <h1></h1>
+                            </div>
+                        </SwiperSlide>
                     </Swiper>
                 </div>
                 
