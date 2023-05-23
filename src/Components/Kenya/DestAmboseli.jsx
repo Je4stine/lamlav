@@ -9,11 +9,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/Amboselli22.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/Amboseli33.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/Amboseli44.jpg';
+
+import Tortolis from '../../Assets/totolis1.jpg';
+
+import Olka from '../../Assets/lodge1.jpg';
 
 
 const DestAmboseli =()=>{
@@ -49,7 +53,7 @@ const DestAmboseli =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
-                <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Located in the Southern  part of Kenya, near the boarder with Tanzania,  the Amboseli National Park, is famed for its large herds of elephants and its spectacular views of Mount Kilimanjaro, the highest mountain in Africa, which can be seen in the background. It is only 392Km2 in size, and  an hour's  flight  or four hours drive from Nairobi City.
                 <br/>This reserve has been made even more notable through the work and wildlife documentaries of Dr. Cynthia Moss and the Elephant Trust, who have been studying the elephants in Amboseli for more than 30 years. Due to protection from tourists and researchers and support from the local Maasai people, the Amboseli elephants have lived a natural existence, making it one of the few places where you can see elephants of all ages, including the famous old bulls with their long tusks.
 
@@ -58,9 +62,9 @@ const DestAmboseli =()=>{
                 <br/><br/>In addition, The park's grasslands and wetlands are home to over 400 bird species, and the park is also home to several large swamps, including the Amboseli Swamp, which is an important breeding ground for many species of waterfowl.
                 <br/>The park also has a rich cultural history and the Maasai community who live near the park. Visitors can learn about the Maasai's way of life, including their customs, traditions, and beliefs.
                 </p>
-                <div className=" mb-20 m-auto">
-                    <h1 className=" font-[SourceSerifPro-Bold] pt-[50px] text-xl lg:text-4xl m-auto mb-20">Camps and Lodge in Amboselli</h1>
-                     <Swiper
+
+                <div className="relative mt-20 z-[0]">
+                <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
                         slidesPerView={1}
                         onSlideChange={() => console.log('slide change')}
@@ -70,30 +74,51 @@ const DestAmboseli =()=>{
                         scrollbar={{ draggable: true }}
                         >
                         <SwiperSlide>
-                            <div className=" relative z-[7]">
-                                <img src={Lodge1} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
-                                <h1 className=" absolute top-[20%] left-[40%] text-white font-bold text-2xl">TORTILIS CAMP </h1>
-                                <p className=" absolute top-[50%] text-white m-auto left-[10%]">
-                                    Tortilis is an exceptional tented camp located on the border of Amboseli National Park in Africa. 
-                                </p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="relative z-[7]">
-                                <img src={Lodge2} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
-                                <h1 className=" absolute top-[20%] left-[40%] text-white font-bold text-2xl">OL TUKAI LODGE</h1>
-                                <p className=" absolute top-[50%] text-white m-auto left-[10%]">
-                                    Tortilis is an exceptional tented camp located on the border of Amboseli National Park in Africa. 
-                                </p>
+                            <div >
+                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge3} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
-                                <h1></h1>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>
+                </div>
+                <hr/>
+                <div className=" mb-20 m-auto">
+                    <div className=" flex justify-center items-center">
+                        <hr className="border-black border-[1px]" />
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Amboselli</h1>
+                        <hr className="border-black border-[1px]" />
+                    </div>
+                    <div className=" lg:flex">
+                        <div className=" mr-10 lg:w-1/2">
+                            <img src={Tortolis} alt="Tortolis Camp" loading ="lazy"/>
+                            <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Tortolis Camp</h1></a> 
+                            <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+                                        <span >Amboseli National Park Kenya</span>
+                            </div></a> 
+                        </div>
+                        
+
+                        <div className="lg:w-1/2">
+                            <img src={Olka} alt="Ol Tukai" loading ="lazy"/>
+                            <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Ol Tukai  Lodge</h1></a> 
+                            <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                                        <span >Amboseli National Park Kenya</span>
+                            </div></a> 
+                        </div>
+                    </div>
+                    <a href='/kenya/destamboseli'><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
+                                <span className="">View all Kenya Camps and lodges</span>
+                      </div></a>            
+
                 </div>
                 
             </section>

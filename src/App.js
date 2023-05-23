@@ -34,6 +34,8 @@ import DestMtK from './Components/Kenya/DestMtKenya';
 import DestNairobi from './Components/Kenya/DestNairobi';
 import DestMombasa from './Components/Kenya/DestMombasa';
 import DestWatamu from './Components/Kenya/DestWatamu';
+import Tortolis from './Components/Kenya/Lodges/Tortolis';
+import Olkatai from './Components/Kenya/Lodges/Olkatai';
 
 
 function App() {
@@ -76,6 +78,8 @@ function App() {
             <Route path ='/kenya/nairobi' element ={<DestNairobi/>}/>
             <Route path ='/kenya/mombasa' element ={<DestMombasa/>}/>
             <Route path ='/kenya/watamu' element ={<DestWatamu/>}/>
+            <Route path ='/kenya/amboseli/tortolis' element ={<Tortolis/>}/>
+            <Route path ='/kenya/amboseli/oltukai' element ={<Olkatai/>}/>
           </Routes>
         </Wrapper>
       </Router>

@@ -39,9 +39,9 @@ const Kenya = ()=>{
                <hi className=" absolute top-[50%] lg:left-[35%] left-[20%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Bold] text-center ">
                     Why Kenya is Magical
                 </hi>
-                <p className=" absolute bottom-[6%] lg:left-[10%] text-white lg:text-4xl text-2xl font-[SourceSerifPro-Bold] text-center" >
+                {/* <p className=" absolute bottom-[6%] lg:left-[10%] text-white lg:text-4xl text-2xl font-[SourceSerifPro-Bold] text-center" >
                   <em>"You know you are trliy alive when you are living among lions." ~ Karen Blixen</em>
-                </p>
+                </p> */}
             </div>
             <section className=" bg-white w-[100%] m-auto lg:px-[400px] px-10">
               <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
@@ -61,7 +61,7 @@ const Kenya = ()=>{
               <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Kenya </h1>
               <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[250px]">
                   <img src={AmboseliN} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
-                  <div className="p-5">
+                  <div className="p-5 lg:justify-between lg:w-1/2">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Amboseli  National  Reserve </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         The name "Amboseli" means "salty dust" in reference to the ancient volcanic ash that creates shimmering mirages and dust devils in the dry season, especially around seasonal Lake Amboseli
