@@ -56,9 +56,8 @@ const DestMaasai =()=>{
                 <br/> <br/>The popularity of the Maasai Mara attracts a lot of tourists, which  results in large  crowds. To address this, private conservancies have been established around the main reserve over the past 15 years, offering a more intimate and exclusive safari experience. Nine of these conservancies are dedicated to wildlife conservation, and they are collectively nearly the same size as the Mara reserve itself. Staying  in a private conservancy  can make a safari  more enjoyable,  while supporting  conservation  efforts  too.
 
                 </p>
-                <div className=" mb-20 m-auto">
-                    <h1 className=" font-[SourceSerifPro-Bold] pt-[50px] text-xl lg:text-4xl m-auto mb-20">Camps and Lodge in Maasai Mara</h1>
-                     <Swiper
+                <div className="relative mt-20 z-[0]">
+                <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
                         slidesPerView={1}
                         onSlideChange={() => console.log('slide change')}
@@ -68,30 +67,51 @@ const DestMaasai =()=>{
                         scrollbar={{ draggable: true }}
                         >
                         <SwiperSlide>
-                            <div className=" relative z-[7]">
-                                <img src={Lodge1} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
-                                <h1 className=" absolute top-[20%] left-[40%] text-white font-bold text-2xl">MARA SERENA  LODGE</h1>
-                                {/* <p className=" absolute top-[50%] text-white m-auto left-[10%]">
-                                    Tortilis is an exceptional tented camp located on the border of Amboseli National Park in Africa. 
-                                </p> */}
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="relative z-[7]">
-                                <img src={Lodge2} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
-                                <h1 className=" absolute top-[20%] left-[40%] text-white font-bold text-2xl">MARA PLAINS  CAMP </h1>
-                                <p className=" absolute top-[50%] text-white m-auto left-[10%]">
-                                    Tortilis is an exceptional tented camp located on the border of Amboseli National Park in Africa. 
-                                </p>
+                            <div >
+                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge3} alt="Roaring lion" className="blur-[2px]" loading="lazy"/>
-                                <h1></h1>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>
+                </div>
+                <hr/>
+                <div className=" mb-20 m-auto">
+                    <div className=" flex justify-center items-center">
+                        <hr className="border-black border-[1px]" />
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Maasai Mara</h1>
+                        <hr className="border-black border-[1px]" />
+                    </div>
+                    <div className=" lg:flex">
+                        <div className=" mr-10 lg:w-1/2">
+                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Serena Lodge</h1></a> 
+                            <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+                                        <span >Maasai Mara National Park Kenya</span>
+                            </div></a> 
+                        </div>
+                        
+
+                        <div className="lg:w-1/2">
+                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Plain Camps</h1></a> 
+                            <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                                        <span >Maasai Mara National Park Kenya</span>
+                            </div></a> 
+                        </div>
+                    </div>
+                    <a href='/kenya/destamboseli'><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
+                                <span className="">View all Kenya Camps and lodges</span>
+                      </div></a>            
+
                 </div>
                 
             </section>
