@@ -94,8 +94,8 @@ const DestNairobi =()=>{
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/3">
                             <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
-                            <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >House of Waine</h1></a> 
-                            <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/waine'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >House of Waine</h1></a> 
+                            <a href='/kenya/waine'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Nairobi Kenya</span>
                             </div></a> 
                         </div>
@@ -103,16 +103,16 @@ const DestNairobi =()=>{
 
                         <div className="lg:w-1/3 mr-10">
                             <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
-                            <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Giraffe Manor</h1></a> 
-                            <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/giraffe'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Giraffe Manor</h1></a> 
+                            <a href='/kenya/giraffe'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Nairobi Kenya</span>
                             </div></a> 
                         </div>
 
                         <div className="lg:w-1/3">
                             <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
-                            <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount  Norfolk Hotel</h1></a> 
-                            <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/norfolk'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount  Norfolk Hotel</h1></a> 
+                            <a href='/kenya/norfolk'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Nairobi Kenya</span>
                             </div></a> 
                         </div>

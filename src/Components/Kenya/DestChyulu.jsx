@@ -92,8 +92,8 @@ const DestChyulu =()=>{
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
                             <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
-                            <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kampi ya Kazi</h1></a> 
-                            <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/kampi'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kampi ya Kazi</h1></a> 
+                            <a href='/kenya/kampi'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Chyullu Hills, Kenya</span>
                             </div></a> 
                         </div>
@@ -101,8 +101,8 @@ const DestChyulu =()=>{
 
                         <div className="lg:w-1/2">
                             <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
-                            <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Ol Donyo Lodge</h1></a> 
-                            <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/oldonyo'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Ol Donyo Lodge</h1></a> 
+                            <a href='/kenya/oldonyo'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Chyullu Hills, Kenya</span>
                             </div></a> 
                         </div>

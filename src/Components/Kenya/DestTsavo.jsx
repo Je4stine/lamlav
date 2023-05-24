@@ -96,8 +96,8 @@ const DesTsavo =()=>{
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
                             <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
-                            <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Finch Hatton's Luxury Camp</h1></a> 
-                            <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/finch'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Finch Hatton's Luxury Camp</h1></a> 
+                            <a href='/kenya/finch'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Tsavo National Park Kenya</span>
                             </div></a> 
                         </div>
@@ -105,8 +105,8 @@ const DesTsavo =()=>{
 
                         <div className="lg:w-1/2">
                             <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
-                            <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kilanguni Serena Safari Lodge</h1></a> 
-                            <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/finch'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kilanguni Serena Safari Lodge</h1></a> 
+                            <a href='/kenya/finch'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Tsavo National Park Kenya</span>
                             </div></a> 
                         </div>

@@ -36,6 +36,31 @@ import DestMombasa from './Components/Kenya/DestMombasa';
 import DestWatamu from './Components/Kenya/DestWatamu';
 import Tortolis from './Components/Kenya/Lodges/Tortolis';
 import Olkatai from './Components/Kenya/Lodges/Olkatai';
+import Almanara from './Components/Kenya/Lodges/Almanara';
+import Elephant from './Components/Kenya/Lodges/Elephant';
+import Elsa from './Components/Kenya/Lodges/Elsa';
+import FairmountMt from './Components/Kenya/Lodges/FairMountmt';
+import Finch from './Components/Kenya/Lodges/Finch';
+import Giraffe from './Components/Kenya/Lodges/Giraffe';
+import Hemingways from './Components/Kenya/Lodges/Hemingways';
+import Kampi from './Components/Kenya/Lodges/Kampi';
+import Kicheche from './Components/Kenya/Lodges/Kicheche';
+import Kifaru from './Components/Kenya/Lodges/Kifaru';
+import Kinondo from './Components/Kenya/Lodges/Kinondo';
+import Larsen from './Components/Kenya/Lodges/Larsen';
+import Lewa from './Components/Kenya/Lodges/Lewa';
+import Loldia from './Components/Kenya/Lodges/Loldia';
+import MaraPlains from './Components/Kenya/Lodges/Maraplains';
+import Mbweha from './Components/Kenya/Lodges/Mbweha';
+import Medina from './Components/Kenya/Lodges/Medina';
+import Neptune from './Components/Kenya/Lodges/Neptune';
+import Norfolk from './Components/Kenya/Lodges/Norfolk';
+import Oldonyo from './Components/Kenya/Lodges/odonyo';
+import Porini from './Components/Kenya/Lodges/Porini';
+import Sands from './Components/Kenya/Lodges/Sands';
+import Sasaab from './Components/Kenya/Lodges/Sasaab';
+import Waine from './Components/Kenya/Lodges/Waine';
+import Watamu from './Components/Kenya/Lodges/Watamu';
 
 
 function App() {
@@ -80,6 +105,32 @@ function App() {
             <Route path ='/kenya/watamu' element ={<DestWatamu/>}/>
             <Route path ='/kenya/amboseli/tortolis' element ={<Tortolis/>}/>
             <Route path ='/kenya/amboseli/oltukai' element ={<Olkatai/>}/>
+            <Route path ='/kenya/almanara' element ={<Almanara/>}/>
+            <Route path ='/kenya/elephant' element ={<Elephant/>}/>
+            <Route path ='/kenya/elsa' element ={<Elsa/>}/>
+            <Route path ='/kenya/fairmount' element ={<FairmountMt/>}/>
+            <Route path ='/kenya/finch' element ={<Finch/>}/>
+            <Route path ='/kenya/giraffe' element ={<Giraffe/>}/>
+            <Route path ='/kenya/hemingways' element ={<Hemingways/>}/>
+            <Route path ='/kenya/campi' element ={<Kampi/>}/>
+            <Route path ='/kenya/kicheche' element ={<Kicheche/>}/>
+            <Route path ='/kenya/kifaru' element ={<Kifaru/>}/>
+            <Route path ='/kenya/kinondo' element ={<Kinondo/>}/>
+            <Route path ='/kenya/larsen' element ={<Larsen/>}/>
+            <Route path ='/kenya/lewa' element ={<Lewa/>}/>
+            <Route path ='/kenya/loldia' element ={<Loldia/>}/>
+            <Route path ='/kenya/mara' element ={<Mara/>}/>
+            <Route path ='/kenya/maraplains' element ={<MaraPlains/>}/>
+            <Route path ='/kenya/mbweha' element ={<Mbweha/>}/>
+            <Route path ='/kenya/medina' element ={<Medina/>}/>
+            <Route path ='/kenya/neptune' element ={<Neptune/>}/>
+            <Route path ='/kenya/norfolk' element ={<Norfolk/>}/>
+            <Route path ='/kenya/oldonyo' element ={<Oldonyo/>}/>
+            <Route path ='/kenya/porini' element ={<Porini/>}/>
+            <Route path ='/kenya/sands' element ={<Sands/>}/>
+            <Route path ='/kenya/sasaab' element ={<Sasaab/>}/>
+            <Route path ='/kenya/waine' element ={<Waine/>}/>
+            <Route path ='/kenya/hemwatamu' element ={<Watamu/>}/>
           </Routes>
         </Wrapper>
       </Router>

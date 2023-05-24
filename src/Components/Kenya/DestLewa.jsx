@@ -95,8 +95,8 @@ const DestLewa =()=>{
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
                             <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
-                            <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Lewa Safari  Camp. </h1></a> 
-                            <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/lewa'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Lewa Safari  Camp. </h1></a> 
+                            <a href='/kenya/lewa'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Lewa Conservancy Kenya</span>
                             </div></a> 
                         </div>
@@ -104,8 +104,8 @@ const DestLewa =()=>{
 
                         <div className="lg:w-1/2">
                             <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
-                            <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kifaru House</h1></a> 
-                            <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/kifaru'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kifaru House</h1></a> 
+                            <a href='/kenya/kifaru'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Lewa Conservancy Kenya</span>
                             </div></a> 
                         </div>

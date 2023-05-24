@@ -94,8 +94,8 @@ const DestMtK =()=>{
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
                             <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
-                            <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount Mount Kenya</h1></a> 
-                            <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/fairmount'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount Mount Kenya</h1></a> 
+                            <a href='/kenya/fairmount'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Mount Kenya</span>
                             </div></a> 
                         </div>
