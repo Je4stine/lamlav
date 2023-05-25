@@ -9,13 +9,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/maasai.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/maasai2.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/maasai3.jpg';
 
 import Game1 from '../../Assets/game.jpg';
+
+import Serena from '../../Assets/maraserena.jpg';
+
+import Plains from '../../Assets/maraplains.jpg';
 
 
 const DestMaasai =()=>{
@@ -92,7 +96,7 @@ const DestMaasai =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Serena} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/mara'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Serena Lodge</h1></a> 
                             <a href='/kenya/mara'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Maasai Mara National Park Kenya</span>
@@ -101,7 +105,7 @@ const DestMaasai =()=>{
                         
 
                         <div className="lg:w-1/2">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Plains} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/maraplains'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Plain Camps</h1></a> 
                             <a href='/kenya/maraplains'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Maasai Mara National Park Kenya</span>

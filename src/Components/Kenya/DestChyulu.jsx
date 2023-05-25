@@ -9,13 +9,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/chyul2.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/chyull.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/Chyull3.jpg';
 
-import Chyulu from '../../Assets/chyullu.jpg';
+import Kampi from '../../Assets/kampi.jpg';
+
+import Oldonyo from '../../Assets/oldonyo1.jpg';
 
 const DestChyulu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -46,7 +48,7 @@ const DestChyulu =()=>{
             <secttion>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">The Chyullu Hills</h1>
-                    <img src={Chyulu} alt="Roaring lion" className=" "/>
+                    <img src={Lodge2} alt="Roaring lion" className=" "/>
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
@@ -91,7 +93,7 @@ const DestChyulu =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Kampi} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/kampi'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kampi ya Kazi</h1></a> 
                             <a href='/kenya/kampi'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Chyullu Hills, Kenya</span>
@@ -100,7 +102,7 @@ const DestChyulu =()=>{
                         
 
                         <div className="lg:w-1/2">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Oldonyo} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/oldonyo'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Ol Donyo Lodge</h1></a> 
                             <a href='/kenya/oldonyo'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Chyullu Hills, Kenya</span>

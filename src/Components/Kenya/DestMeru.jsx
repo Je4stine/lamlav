@@ -9,13 +9,16 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/meru1.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/meru2.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/meru3.jpg';
 
 import Zebra from '../../Assets/GrevyZebra 2.jpg';
+
+import Elsa from '../../Assets/elsa.jpg';
+
 
 
 const DestMeru =()=>{
@@ -92,7 +95,7 @@ const DestMeru =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Elsa} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/elsa'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Elsa's Kopje</h1></a> 
                             <a href='/kenya/amboseli/elsa'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Meru National Park Kenya</span>

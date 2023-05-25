@@ -66,6 +66,7 @@ const DestAmboseli =()=>{
                 <div className="relative mt-20 z-[0]">
                 <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
+                        loop
                         slidesPerView={1}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
@@ -128,6 +129,6 @@ const DestAmboseli =()=>{
             <Footer/>
         </div>
     )
-}
+};
 
 export default DestAmboseli;
