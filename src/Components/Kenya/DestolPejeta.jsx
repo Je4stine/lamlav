@@ -9,13 +9,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/olpe2.jpeg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/olpe1.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/olpe3.jpg';
 
 import Olpe from '../../Assets/olpe1.jpg';
+
+import Kicheche from '../../Assets/Kicheche.jpg';
+
+import Porini from '../../Assets/porini.jpg';
 
 
 const DestOlpe =()=>{
@@ -91,7 +95,7 @@ const DestOlpe =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Kicheche} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/kicheche'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kicheche Laikipia Camp</h1></a> 
                             <a href='/kenya/kicheche'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Ol Pejeta Kenya</span>
@@ -100,7 +104,7 @@ const DestOlpe =()=>{
                         
 
                         <div className="lg:w-1/2">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Porini} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/porini'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Porini Rhino Camp</h1></a> 
                             <a href='/kenya/porini'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Ol Pejeta Park Kenya</span>

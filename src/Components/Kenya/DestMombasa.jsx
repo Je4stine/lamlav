@@ -9,14 +9,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/mombasa.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/mombasa3.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/mombasa2.jpg';
 
 import Mombasani from '../../Assets/Mombasani.jpg';
 
+import Sands from  '../../Assets/sands.jpg';
+
+import Kinondo from '../../Assets/kinindo.jpg'
 
 const DestMombasa =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -93,7 +96,7 @@ const DestMombasa =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Sands} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/sands'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >The Sands of Nomad</h1></a> 
                             <a href='/kenya/sands'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Mombasa Kenya</span>
@@ -102,7 +105,7 @@ const DestMombasa =()=>{
                         
 
                         <div className="lg:w-1/2">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Kinondo} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/kinondo'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kinindo Kwetu</h1></a> 
                             <a href='/kenya/kinondo'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Mombasa Kenya</span>

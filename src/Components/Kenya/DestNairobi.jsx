@@ -9,13 +9,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/Nairobipa.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/kanairo.jpeg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/Kanairo3.jpg';
 
 import Suncity from '../../Assets/sunsity.jpg';
+
+import Waine from '../../Assets/waine.jpg';
+
+import Fair2 from '../../Assets/fairnai.jpg';
+
+import Giraffe2 from '../../Assets/giraffe2.jpg';
 
 
 const DestNairobi =()=>{
@@ -93,7 +99,7 @@ const DestNairobi =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/3">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Waine} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/waine'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >House of Waine</h1></a> 
                             <a href='/kenya/waine'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Nairobi Kenya</span>
@@ -102,7 +108,7 @@ const DestNairobi =()=>{
                         
 
                         <div className="lg:w-1/3 mr-10">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Giraffe2} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/giraffe'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Giraffe Manor</h1></a> 
                             <a href='/kenya/giraffe'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Nairobi Kenya</span>
@@ -110,7 +116,7 @@ const DestNairobi =()=>{
                         </div>
 
                         <div className="lg:w-1/3">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Fair2} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/norfolk'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount  Norfolk Hotel</h1></a> 
                             <a href='/kenya/norfolk'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Nairobi Kenya</span>

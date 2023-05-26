@@ -9,13 +9,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/nakuru.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/nakuru2.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/nakuru3.jpg';
 
 import Naivasha from '../../Assets/Naivasha.jpg';
+
+import Mbweha from '../../Assets/mbweha.jpg';
+
+import Lodia from '../../Assets/lodia.jpg'
 
 
 const DestNakuru =()=>{
@@ -90,7 +94,7 @@ const DestNakuru =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Lodia} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/loldia'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Loldia House & Cottages</h1></a> 
                             <a href='/kenya/loldia'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Nakuru Kenya</span>
@@ -99,7 +103,7 @@ const DestNakuru =()=>{
                         
 
                         <div className="lg:w-1/2">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Mbweha} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/mbweha'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mbweha Camp</h1></a> 
                             <a href='/kenya/mbweha'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >NakuruKenya</span>

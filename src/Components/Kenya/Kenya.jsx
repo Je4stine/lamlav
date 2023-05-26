@@ -43,7 +43,7 @@ const Kenya = ()=>{
                   <em>"You know you are trliy alive when you are living among lions." ~ Karen Blixen</em>
                 </p> */}
             </div>
-            <section className=" bg-white w-[100%] m-auto lg:px-[400px] px-10">
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10">
               <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Visitors worldwide are drawn to the bustling atmosphere and modern architecture of Nairobi, as well as its fine dining options. However, in the countryside, specifically in the treasured national parks and conservancies, the focus shifts from human activity to the awe-inspiring wildlife. Observing the Big Five becomes a natural experience in this region. These magnificent creatures captivate visitors with their numbers and opportunities for close-up observation.The thrilling events of the Great Migration, which take place annually in the Masai Mara, is one striking example.
                 <br/><br/>For those seeking a more secluded safari experience, the Laikipia Plateau, with its endangered species such as the white rhinoceroses, Grévy's zebra and wild dog; and the sun-soaked Samburu National Reserve, with its cooling elephants in the Ewaso Ng'iro River, offer a different perspective. 
@@ -72,7 +72,7 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
                   <img src={Tsavo} alt=" Tsavo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Tsavo  National  park </h1>
@@ -84,6 +84,8 @@ const Kenya = ()=>{
                       </div></a> 
                   </div>
               </div>
+
+
 
               <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
                   <img src={Lewaco} alt=" Lewa Conservancy" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
@@ -99,7 +101,7 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
                   <img src={Olpe} alt=" Ol Pejeta" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Ol Pejeta  Conservancy  </h1>
@@ -127,7 +129,7 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
                   <img src={Chyulu} alt=" Chyullu hills" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Chyullu hills </h1>
@@ -157,7 +159,7 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
                   <img src={Naivasha} alt="Flamingo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Lake Nakuru & Lake Naivasha </h1>
@@ -187,7 +189,7 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
                   <img src={Mount} alt=" Mt. Kenya" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mount Kenya</h1>
@@ -216,7 +218,7 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
                   <img src={Mombasani} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mombasa</h1>

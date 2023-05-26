@@ -9,13 +9,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/tsavv.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/tsavv2.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/tsavv3.jpg';
 
 import Tsavo from '../../Assets/tsavo11.jpg';
+
+import Kilanguni from '../../Assets/kilanguni.jpg';
+
+import Finch from '../../Assets/finch11.jpg';
 
 
 const DesTsavo =()=>{
@@ -95,7 +99,7 @@ const DesTsavo =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Finch} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/finch'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Finch Hatton's Luxury Camp</h1></a> 
                             <a href='/kenya/finch'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Tsavo National Park Kenya</span>
@@ -104,7 +108,7 @@ const DesTsavo =()=>{
                         
 
                         <div className="lg:w-1/2">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={Kilanguni} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/finch'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kilanguni Serena Safari Lodge</h1></a> 
                             <a href='/kenya/finch'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Tsavo National Park Kenya</span>

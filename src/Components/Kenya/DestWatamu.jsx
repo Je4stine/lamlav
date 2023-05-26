@@ -9,13 +9,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lodge1.jpg';
+import Lodge1 from '../../Assets/watamu11.jpg';
 
-import Lodge2 from '../../Assets/lodge4.jpg';
+import Lodge2 from '../../Assets/watamu22.jpg';
 
-import Lodge3 from '../../Assets/lodge5.jpg';
+import Lodge3 from '../../Assets/watamu33.jpg';
 
 import Tatol from '../../Assets/Tatol.jpg';
+
+import HemWat from '../../Assets/hemwatamu.jpg';
+
+import Medina from '../../Assets/medina333.jpg';
 
 const DestWatamu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -89,7 +93,7 @@ const DestWatamu =()=>{
                     </div>
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
-                            <img src={Lodge1} alt="Tortolis Camp" loading ="lazy"/>
+                            <img src={Medina} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/medina'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Medina Palms</h1></a> 
                             <a href='/kenya/medina'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Watamu Kenya</span>
@@ -98,7 +102,7 @@ const DestWatamu =()=>{
                         
 
                         <div className="lg:w-1/2">
-                            <img src={Lodge2} alt="Ol Tukai" loading ="lazy"/>
+                            <img src={HemWat} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/hemwatamu'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Hemingways Hotel Watamu</h1></a> 
                             <a href='/kenya/hemwatamu'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Watamu Kenya</span>
