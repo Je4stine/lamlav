@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a26a400d.css",
-    "main.js": "/static/js/main.460b3919.js",
+    "main.js": "/static/js/main.fb4ae0a5.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/ug1.jpg": "/static/media/ug1.7100cd4196942869838f.jpg",
     "static/media/oldonyo1.jpg": "/static/media/oldonyo1.ca1383308eefd33f6bd5.jpg",
@@ -9,6 +9,7 @@
     "static/media/safariccamp.jpg": "/static/media/safariccamp.9739b95e1068fe649577.jpg",
     "static/media/rwan.jpg": "/static/media/rwan.4f29fbf0872efc8827e1.jpg",
     "static/media/samburu.jpg": "/static/media/samburu.5d1e2d06768c55044ebb.jpg",
+    "static/media/kifaru.jpg": "/static/media/kifaru.656084b3a8ce13715a04.jpg",
     "static/media/Creek.jpg": "/static/media/Creek.03586c2836ea2e61f6e1.jpg",
     "static/media/Game1.jpg": "/static/media/Game1.bdbb6b1d5c27718f7f98.jpg",
     "static/media/Mtkenya.jpg": "/static/media/Mtkenya.9a05b642d71c7aa35890.jpg",
@@ -164,11 +165,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.a26a400d.css.map": "/static/css/main.a26a400d.css.map",
-    "main.460b3919.js.map": "/static/js/main.460b3919.js.map",
+    "main.fb4ae0a5.js.map": "/static/js/main.fb4ae0a5.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a26a400d.css",
-    "static/js/main.460b3919.js"
+    "static/js/main.fb4ae0a5.js"
   ]
 }

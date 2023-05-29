@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/lodge1.jpg';
+import Lodge1 from '../../../Assets/medina333.jpg';
 
 import Lodge2 from '../../../Assets/lodge4.jpg';
 
@@ -90,7 +90,33 @@ const Medina =()=>{
 
                 </p>
                 
-                
+                <div className="relative mt-20 z-[0]">
+                <Swiper
+                        modules={[Navigation, Pagination, Scrollbar, A11y]}
+                        slidesPerView={1}
+                        onSlideChange={() => console.log('slide change')}
+                        onSwiper={(swiper) => console.log(swiper)}
+                        navigation
+                        pagination={{ clickable: true }}
+                        scrollbar={{ draggable: true }}
+                        >
+                        <SwiperSlide>
+                            <div >
+                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
+                    </div>
             </section>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
