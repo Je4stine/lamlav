@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Kicheche-Laikipia.jpg';
+import Lodge1 from '../../../Assets/kicheche-laikipia-banner-slider-2.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/Kicheche-Laikipia-Tent-in-to-Out.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/banner-3-1.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/banner-3a.jpg';
 
 const Kicheche =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Kicheche =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Kicheche is a small, high-end tented camp that has received recognition for its eco-friendly practices. It is situated near the base of an indigenous forest and overlooks a watering hole, with Mount Kenya visible in the distance. The camp's stylish and environmentally conscious design blends seamlessly with the natural environment of the Ol Pejeta wilderness area.
                 <br/><br/>  The camp is expertly managed to ensure a superior guest experience and has six exclusive  high-end tents, each creating an intimate and personalized atmosphere for guests. One of the tents is a family suite that includes two bedrooms, each with its own private bathroom. The two bedrooms are connected by a lounge area that is furnished with a sofa and a small table, making it suitable for private dining.
@@ -88,17 +88,17 @@ const Kicheche =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

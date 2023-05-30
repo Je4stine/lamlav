@@ -119,7 +119,7 @@ function App() {
             <Route path ='/kenya/larsen' element ={<Larsen/>}/>
             <Route path ='/kenya/lewa' element ={<Lewa/>}/>
             <Route path ='/kenya/loldia' element ={<Loldia/>}/>
-            <Route path ='/kenya/mara' element ={<Mara/>}/>
+            <Route path ='/kenya/marares' element ={<Mara/>}/>
             <Route path ='/kenya/maraplains' element ={<MaraPlains/>}/>
             <Route path ='/kenya/mbweha' element ={<Mbweha/>}/>
             <Route path ='/kenya/medina' element ={<Medina/>}/>

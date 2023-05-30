@@ -48,7 +48,7 @@ const Medina =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Medina Palms is a beautiful property situated in Turtle Bay, a serene location away from the bustling Watamu center, within a marine reserve where guests can enjoy the beach and ocean without any distractions. The property comprises of 50 suites including luxury apartments, penthouses, and villas that can accommodate up to ten people. These suites are set in lush tropical gardens and have modern designs mixed with locally crafted wooden furnishings. They feature en suite bathrooms, lounges, verandas, small kitchenettes, Wi-Fi, and satellite TV.
                 <br/><br/> The luxurious Swahili-style lodging at Medina surpasses traditional hotels and resorts in terms of space and sophistication. Guests can enjoy elegant suites with garden views, penthouses with high ceilings and inner courtyards, and beach villas with exceptional and exclusive spaces. The oceanfront villas have breathtaking panoramic sea views and come with chic plunge pools on the rooftop

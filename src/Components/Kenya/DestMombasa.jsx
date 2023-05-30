@@ -53,7 +53,7 @@ const DestMombasa =()=>{
                     <img src={Mombasani} alt="Roaring lion" className=" "/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 The Kenya's coastline, stretching for 480 kilometers from the northern border to Tanzania, is a popular tourist destination known for its warm waters and sandy beaches fringed by coconut palms. The coral reefs provide protection for swimming and water sports, and the area has become a prime kitesurfing spot in recent years. 
                 With an average temperature of 28°C and short rains in November and long rains in May, the area is ideal for diving, with March and November being the hottest months. The culture along the coast reflects the history of the Swahili people - a blend of Arab, Indian, and indigenous cultures - and is evident in the architecture of towns like Lamu and Mombasa. 

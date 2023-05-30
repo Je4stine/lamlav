@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/olseki.jpg';
+import Lodge1 from '../../../Assets/dining_restaurants2.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/weddings_honeymoon_banner.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/rooms_banner.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/excursions-and-ectivities_banner.jpg';
 
 const Olkatai =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -45,10 +45,10 @@ const Olkatai =()=>{
             <secttion>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Ol Tukai  Lodge</h1>
-                    <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
+                    <img src={Chyulu} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                     Ol Tukai is an exceptional location to witness elephants in their natural habitat and is considered one of the top spots in the world for this experience. Visitors can observe the elephants from the terrace of their chalet or any other area on the property, which features wide open fields with well-manicured lawns and gardens surrounded by a picturesque African acacia forest. A subtle fence surrounds the property, enabling you to watch different wildlife as they go about their daily routines. The main lodge is unique in its design and includes a tranquil library, a large deck for outdoor dining, a beautifully crafted Elephant Bar, and a big swimming pool where you can unwind while admiring the clouds on Mount Kilimanjaro. Ol Tukai also offers delightful champagne breakfasts, sunset drinks on the observation hill Noomotio, and lantern-lit forest dinners, making it a special and cherished place.
                    <br/><br/> At Ol Tukai, guests can enjoy the comfort and style of modern twin rooms with breathtaking views of either the wildlife-rich wetlands of Amboseli or the towering Mount Kilimanjaro. Despite its updated facilities, the chalet retains a classic African feel, reminiscent of the traditional game reserve experience

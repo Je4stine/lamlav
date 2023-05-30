@@ -47,12 +47,12 @@ const DestAmboseli =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
             <secttion>
-                <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
+                <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[100px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Amboseli National Park</h1>
                     <img src={AmboseliN} alt="Roaring lion" className=" "/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Located in the Southern  part of Kenya, near the boarder with Tanzania,  the Amboseli National Park, is famed for its large herds of elephants and its spectacular views of Mount Kilimanjaro, the highest mountain in Africa, which can be seen in the background. It is only 392Km2 in size, and  an hour's  flight  or four hours drive from Nairobi City.
                 <br/>This reserve has been made even more notable through the work and wildlife documentaries of Dr. Cynthia Moss and the Elephant Trust, who have been studying the elephants in Amboseli for more than 30 years. Due to protection from tourists and researchers and support from the local Maasai people, the Amboseli elephants have lived a natural existence, making it one of the few places where you can see elephants of all ages, including the famous old bulls with their long tusks.

@@ -51,7 +51,7 @@ const DestChyulu =()=>{
                     <img src={Lodge2} alt="Roaring lion" className=" "/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Comprising of over 750,000 acres managed for wildlife, the Chyulu Hills are considered to be one of the finest wilderness areas in Africa, featuring rainforests and lush meadows.The hills and the nearby plains with their forested areas and river sources, are secluded and teeming with wildlife that is not frequently disturbed. Mount Kilimanjaro, which can be seen on the East side, is constantly present during safaris to the Chyulu Hills, just across the Kenya-Tanzania border.
                 <br/><br/>This area is ideal for hikers who enjoy ascending hills and creating unforgettable memories.
@@ -94,8 +94,8 @@ const DestChyulu =()=>{
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
                             <img src={Kampi} alt="Tortolis Camp" loading ="lazy"/>
-                            <a href='/kenya/kampi'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kampi ya Kazi</h1></a> 
-                            <a href='/kenya/kampi'><div className='hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/campi'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kampi ya Kazi</h1></a> 
+                            <a href='/kenya/campi'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Chyullu Hills, Kenya</span>
                             </div></a> 
                         </div>

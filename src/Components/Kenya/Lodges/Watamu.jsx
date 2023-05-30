@@ -48,7 +48,7 @@ const Watamu =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Hemingways is a privately owned hotel located on the beachfront with stunning ocean views visible from most of its rooms. The hotel's appearance is characterized by pristine white exteriors and spacious stone terraces that are surrounded by numerous palm trees and two sparkling blue swimming pools. Hemingways is an elegant and upscale hotel that is popular with both British Kenyans and international visitors. Its bar, dining room, and reception are housed in large white round buildings with high, dramatic roofs. The hotel is particularly renowned for its emphasis on fine dining, which is reflected in the elegant dining room's decor and candlelit ambience. The hotel has two wings: the original sea-view wing with smaller but quieter double rooms that offer spectacular ocean views, and a newer "superior" wing with larger and more luxurious rooms that offer views of the sea beyond the hotel's gardens and swimming pools. All rooms were recently refurbished to ensure maximum comfort for guests.
 

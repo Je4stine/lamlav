@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/porini.jpg';
+import Lodge1 from '../../../Assets/porini-rhino-camp-gallery-image-10-1444934857.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/porini-rhino-camp-gallery-image-11-1444934868.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/porini-rhino-camp-gallery-image-12-1444934879.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/porini-rhino-camp-gallery-image-16-1444934915.jpg';
 
 const Porini =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Porini =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Porini Rhino Camp is a luxurious and environmentally friendly safari camp located in a remote valley in Ol Pejeta, Kenya. The camp offers eight spacious and comfortable guest tents, each tastefully furnished and equipped with solar-powered lighting, hot showers, and flush toilets. The newest tent is a family unit consisting of two rooms and a lounge area, making it ideal for families or groups of friends. The camp's design has minimal impact on the environment and includes a wildlife viewing hide that allows guests to safely observe and photograph the local wildlife. The hide is strategically located to provide a close-up view of animals in their natural habitat, allowing guests to fully immerse themselves in the natural surroundings.
 
@@ -88,17 +88,17 @@ const Porini =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

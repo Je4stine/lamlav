@@ -10,11 +10,11 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/lodge1.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/2014-03-26.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/2020-10-22 (4).jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/2020-10-22.jpg';
 
 const Almanara =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Almanara =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Diani Beach is situated on the east coast of Africa, south of Mombasa, Kenya. It is surrounded by the Indian Ocean's crystal-clear waters and the open plains of the Shimba Hills National Reserve. The coastline stretches for 25 kilometers and is characterized by pristine white sands and verdant forests, creating a tranquil and idyllic atmosphere.
 

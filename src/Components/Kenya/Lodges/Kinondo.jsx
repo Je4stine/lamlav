@@ -48,7 +48,7 @@ const Kinondo =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Kinondo Kwetu in Dian boasts of a  private and serene beach surrounded by a sacred forest of baobab trees. Each of the lodge's rooms is unique but all share a Swahili-style reminiscent of the East African coast.
                 <br/><br/>The lodge has five cottages and two villas named Mama Taa and Mama Tina. Two new suites have been added, including the honeymoon-designed Andersson Room and the family-friendly Borelius Room. Mama Taa Villa features six suites, three upstairs and three downstairs, with en suite bathrooms and a second room that can be utilized as a sitting room or extra bedroom. Mama Tina is the original house with an en suite double room and two twin rooms with shared bathrooms.

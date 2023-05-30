@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/mbweha.jpg';
+import Lodge1 from '../../../Assets/9f8600_b83dd23ec6774596b2a3974bfc375e43.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/9f8600_0b6ecfecdb624702be4a17cc1ba2df4d.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/9f8600_a149b4ef286e47ada8cc8e42d17fec57.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/9f8600_e5ae843764834f049beb30283757ec81.jpg';
 
 const Mbweha =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Mbweha =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Mbweha Camp is located near the southern boundary of Lake Nakuru National Park and offers stunning views of the Eburru and Mau mountain ranges. It is situated in the Congreve Conservancy, which is part of the larger Soysambu Conservancy. The camp features ten cottages built of rustic lava stone with thatched roofs and is surrounded by indigenous trees such as the euphorbia candelabra and yellow barked acacia. Despite being only a few hours away from Nairobi, Mbweha Camp has a relaxing atmosphere and offers a range of activities, including walking tours, mountain biking, and night game drives. Guests can also visit Nakuru National Park for a day trip and enjoy a gourmet bush lunch with magnificent views of the lake and park. Soysambu Conservancy is a World Heritage Site and Ramsar Site with a diverse array of flora and fauna, including 12,000 wildlife species, including the endangered colossus monkey.Tourists can observe wildlife just 16 kilometers away from the camp at Lake Elementaita, which is a breeding habitat for the great white pelican and visited by both the lesser and greater flamingo. 
 
@@ -96,17 +96,17 @@ const Mbweha =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

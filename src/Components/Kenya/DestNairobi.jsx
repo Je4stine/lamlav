@@ -56,7 +56,7 @@ const DestNairobi =()=>{
                     <img src={Suncity} alt="Roaring lion" className="lg:m-auto lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Nairobi, the capital city of Kenya, is often considered by travelers as a mere stopover during their safari or beach holiday. However, a stay in Nairobi at the beginning or end of a trip can be an enjoyable experience. The city offers a range of opportunities to buy local souvenirs at vibrant Maasai markets, try the delicious street food, or visit the historic colonial home of Karen Blixen, the Danish writer who wrote the famous book "Out of Africa".
                 <br/><br/>The Nairobi National Park, located 7 kilometers from the city, is a must-visit destination. It boasts an impressive density of black rhinos, lions, giraffes, and zebras, making it one of the world's largest habitats for black rhinos, thanks to the efforts of Daphine and David Shieldrick. 

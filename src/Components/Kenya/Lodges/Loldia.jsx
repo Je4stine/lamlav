@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/lodia.jpg';
+import Lodge1 from '../../../Assets/FR.-Loldia-House-8-992x695.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/FR.-Loldia-Top-Cottage-9-992x695.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/lake-nakuru-national.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/loldia-house.jpg';
 
 const Loldia =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Loldia =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Loldia House and Cottages is a private retreat located on a 6,000 acre ranch on the western side of Lake Naivasha. Upon arrival, guests are welcomed by friendly children and immediately feel relaxed and at home. The property features a stunning location on the lake shore with picturesque fever trees and a magnificent ancient fig tree providing shade for the green lawns and Loldia House. 
                 <br/><br/>Built in 1930, Loldia House has retained its original charm and character. Its stone veranda offers fantastic views of the lake, and a cosy living room includes a grand piano, plush sofas, an open fireplace, rugs, and interesting reference books about Kenya. The dining room features a polished wooden table, vases of flowers, and gleaming silver cutlery. The food at Loldia is exceptional. 
@@ -95,17 +95,17 @@ const Loldia =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

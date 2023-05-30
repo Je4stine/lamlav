@@ -48,7 +48,7 @@ const Hemingways =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Tailored and customized for individual preferences, while also ensuring privacy and ease of use.
                 <br/><br/>Hemingways Nairobi is a boutique hotel located in the quiet Nairobi suburb of Karen, which is beautifully decorated in a high colonial plantation style. The hotel's amenities are luxurious and of the highest quality, including a premier restaurant, individually decorated spacious rooms, and a sparkling spa. Hemingways prides itself on providing expert, amiable, and 24-hour-constant service, which includes a dedicated butler who is attentive to guests' preferences and needs, such as remembering which type of tea they prefer and how they like their trousers pressed. 

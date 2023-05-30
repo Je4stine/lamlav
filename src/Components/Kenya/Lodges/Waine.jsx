@@ -48,7 +48,7 @@ const Waine=()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 House of Waine is a high-end boutique hotel situated on a spacious 2.5-acre property that combines the sophistication of luxurious living with the essence of contemporary Africa, providing a secluded and tranquil atmosphere. The hotel features 11 bedrooms, each designed to reflect a unique style and ambiance,and  is centrally located near the best of Nairobi's attractions such as the Karen Blixen Muesum, the Kazuri beads, The Giraffe centre and The world famous David Sheldrick Wildlife Trust amongst others.
                 <br/><br/>House of Waine is a unique boutique hotel, resembling a villa with a vibrant peach-colored exterior. The hotel boasts an ornate design, showcasing the designer's refined taste. The reception area features a stunning chandelier crafted from ostrich eggs, the bar has feather lampshades, and the living room is adorned with oversized leather sofas and sturdy wooden tables. Upstairs, each bedroom has a distinct character, including an Indian room with opulent gold fabrics, a coastal room with bright colors and seashell accents, and several African-themed rooms with bedspreads boasting African prints.

@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/oldonyo1.jpg';
+import Lodge1 from '../../../Assets/great-plains-conservation-ol-donyo-lodge-horseback-safari-gallery-4-600x400.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/great-plains-conservation-ol-donyo-lodge-camp1-600x400.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/great-plains-conservation-ol-donyo-lodge-main-area-600x400.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/great-plains-conservation-ol-donyo-lodge-star-bed-champagne-600x400.jpg';
 
 const Oldonyo =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Oldonyo =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Ol Donyo Lodge is an exceptionally luxurious safari lodge, situated in the Chyulu Hills of Kenya. It covers more than 111,000 hectares of private land and nestled between Tsavo and Amboseli National Parks. The lodge's location, which was formed from ancient lava rock ejected from Kilimanjaro hundreds of thousands of years ago, provides a timeless atmosphere that captivates all who visit. .
                 <br/><br/>Ol Donyo Lodge offers unique and individually designed suites and lodges. Guests can enjoy lavish accommodations with ample personal space, and some lodges can even serve as a private retreat with a personal pool, vehicle, guide, and chef for in-villa dining. Additionally, the lodge offers an exclusive experience with Star Beds, which are custom-made beds placed on raised wooden platforms with thatched roofs. These beds can be rolled out onto the rooftop, providing guests with complete privacy to enjoy a night under the stars, with only 
@@ -90,17 +90,17 @@ const Oldonyo =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

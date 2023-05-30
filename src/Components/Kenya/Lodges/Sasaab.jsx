@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/sasaab.jpg';
+import Lodge1 from '../../../Assets/The-Safari-Collection-Sasaab-AFRICA-SAFARI-CAMP-spa.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/The-Safari-Collection-Sasaab-Pool.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/The-Safari-Collection-Sasaab-Reception.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/The-Safari-Collection-Sasaab-SAMBURU-SAFARI-CAMP-Reception.jpg';
 
 const Sasaab =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Sasaab =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Sasaab is a remarkably beautiful accommodation with nine spacious and luxurious rooms that offer complete privacy and breathtaking views, including from the en-suite bathroom. Guests can enjoy their own private plunge pool and veranda, providing a comfortable and relaxing spot to observe passing wildlife. 
                 <br/><br/>Located on the outskirts of the Samburu National Reserve in Kenya's Northern Frontier District, the lodge is modeled after a Moroccan palace, featuring a bright, airy and pristine white design. The rooms are furnished with elegant four-poster beds adorned with exquisite drapes, low couches decorated with silk pillows, and calming blue lanterns, all contributing to the lodge's serene and tranquil atmosphere.
@@ -98,17 +98,17 @@ const Sasaab =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

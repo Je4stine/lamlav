@@ -54,7 +54,7 @@ const DestMaasai =()=>{
                     <img src={Game1} alt="The Maasai Mara" className=" lg:m-auto lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 The Masai Mara National Reserve is a highly-regarded safari destination in Africa known for its vast open plains and diverse wildlife, including elephants, buffalo, zebra, giraffe, hyenas, and the famous big cats like lions, leopards, and cheetahs. The Maasai Mara shares a border with the Serengeti  National Park  in Tanzania,  and the wildlife  move freely between  the  two.Every year from August to November, it serves as a resting place for large herds of wildebeest during their perilous 2,900-kilometer (1,800-mile) migration in search of water and food. Widely touted as the ' greatest  show on earth' the chance of a ringside seat for a perilous  river crossing draws thousands  of visitors  every year.
                 <br/> <br/>The popularity of the Maasai Mara attracts a lot of tourists, which  results in large  crowds. To address this, private conservancies have been established around the main reserve over the past 15 years, offering a more intimate and exclusive safari experience. Nine of these conservancies are dedicated to wildlife conservation, and they are collectively nearly the same size as the Mara reserve itself. Staying  in a private conservancy  can make a safari  more enjoyable,  while supporting  conservation  efforts  too.
@@ -97,12 +97,13 @@ const DestMaasai =()=>{
                     <div className=" lg:flex">
                         <div className=" mr-10 lg:w-1/2">
                             <img src={Serena} alt="Tortolis Camp" loading ="lazy"/>
-                            <a href='/kenya/mara'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Serena Lodge</h1></a> 
-                            <a href='/kenya/mara'><div className='hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/marares'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Serena Lodge</h1></a> 
+                            <a href='/kenya/marares'><div className='hover:text-[#f15d30] lg:text-lg'>
                                         <span >Maasai Mara National Park Kenya</span>
                             </div></a> 
                         </div>
                         
+
 
                         <div className="lg:w-1/2">
                             <img src={Plains} alt="Ol Tukai" loading ="lazy"/>

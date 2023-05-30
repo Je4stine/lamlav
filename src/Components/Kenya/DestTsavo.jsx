@@ -19,7 +19,7 @@ import Tsavo from '../../Assets/tsavo11.jpg';
 
 import Kilanguni from '../../Assets/kilanguni.jpg';
 
-import Finch from '../../Assets/finch11.jpg';
+import Finch from '../../Assets/Tent-02.jpg';
 
 
 const DesTsavo =()=>{
@@ -54,7 +54,7 @@ const DesTsavo =()=>{
                     <img src={Tsavo} alt="Roaring lion" className=" "/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Tsavo National Park is a major tourist destination in Kenya located in the south-western part of the country. It consists of two separate parks, Tsavo East and Tsavo West, which are separated by a railway line. The park is famous for its man-eating lions, which were known for attacking construction workers during the building of the railway. The park spans an area of 13,747 square kilometers and offers visitors a diverse landscape, including rugged mountains in Tsavo West and semi-arid grasslands and savannah in Tsavo East, where visitors can see various wildlife species.
                 <br/><br/>Although the park is home to the "big 5" animals, the dense bush and hilly terrain can make wildlife viewing a bit challenging. However, there are fewer crowds in this wilderness area, making the safari experience more authentic.

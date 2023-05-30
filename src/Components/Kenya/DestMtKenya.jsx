@@ -52,7 +52,7 @@ const DestMtK =()=>{
                     <img src={Mount} alt="Roaring lion" className="lg:m-auto lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Mount Kenyan is considered the home of Ngai - the God. It is Africa's second highest mountain, standing at 17,057 feet and is known for being difficult to climb. The mountain rises dramatically from the already high plains, starting slowly and gracefully, before reaching its jagged, glaciated peak. In the mornings, it is often clearly visible, but during the afternoons, it is hidden by clouds created by warm air from the plains, which Hemingway described as "look[ing] like you could have scooped them up with a spoon."
 

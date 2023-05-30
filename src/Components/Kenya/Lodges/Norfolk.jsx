@@ -48,7 +48,7 @@ const Norfolk =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <em>Fairmont The Norfolk provides a serene and tranquil retreat for all visitors to Nairobi, whether they are stopping over for work, or embarking on a Kenyan safari journey. The hotel offers luxurious accommodation in Nairobi, creating a peaceful oasis for all guests.</em>
 

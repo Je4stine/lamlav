@@ -48,7 +48,7 @@ const Mara =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Mara Serena Safari Lodge offers an unforgettable safari holiday destination with breathtaking landscapes of the Masai Mara National Reserve and stunning views of the Mara River. The lodge's design is inspired by the traditional Maasai Manyatta, and its 74 guest rooms, including a suite, reflect the local Maasai heritage and natural surroundings. The rooms are arranged to provide sweeping views of the river and savannah and feature Maasai-inspired design patterns, King or twin beds, all-encompassing mosquito-curtaining, and marble bathrooms with walk-in showers. The rooms also include modern amenities such as complimentary internet and satellite TV, as well as personalized touches like ceiling fans to enhance the guest experience. Overall, the lodge offers a unique blend of Africa's wild beauty and modern sophistication.
 

@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/finch11.jpg';
+import Lodge1 from '../../../Assets/bar.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/FinchHattons-Camp3-1024x426.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/FinchHattons-Camp7.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/FinchHattons-Camp8.jpg';
 
 const Finch =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Finch =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Finch Hattons is a tented safari camp that embodies luxury and a deep appreciation for the natural beauty of Tsavo. The camp is situated in a secluded location, giving the feeling of being completely disconnected from the outside world. It is a place where guests can immerse themselves in the vast and diverse landscape, surrounded by the many wildlife species that inhabit the area.This magical destination is situated within 35 acres of land in the southwestern corner of Tsavo West, and covers 9000 square kilometers of unspoiled African wilderness. 
                 <br/><br/> This area is characterized by natural fresh water springs, rainforests, volcanoes, lava flows, and a diverse range of flora and fauna. While staying at this camp, guests will have the opportunity to see elephants, lions, leopards, hippos, crocodiles, buffalos, and a wide variety of birds, among other treasured wildlife.
@@ -91,17 +91,17 @@ const Finch =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

@@ -48,7 +48,7 @@ const Giraffe =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 The Giraffe  Manor offers you a chance unwind and de-stress  in a peaceful and calming place in the middle of a residential area in Nairobi.
                 <br/><br/>Giraffe Manor, owned by The Safari Collection, is a popular and luxurious boutique hotel located in the Langata suburb of Nairobi. The manor is situated in a 12-acre private land surrounded by 140 acres of indigenous forest. It is a historic building that dates back to the 1930s and is reminiscent of the era when people came to East Africa for safaris. The hotel has a stately façade, beautiful interiors, green gardens, sunny terraces, and courtyards that give it a classic and elegant appeal. One of the unique attractions of Giraffe Manor is its resident herd of Rothschild's giraffes that often visit the hotel and poke their necks into the windows in search of food before retreating back to the forest. The hotel has twelve rooms, one of which is named after the author Karen Blixen. Guests can book Giraffe Manor for a night or as part of a customized Kenya safari package offered by The Safari Collection.

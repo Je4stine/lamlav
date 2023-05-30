@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/kifaru.jpg';
+import Lodge1 from '../../../Assets/Elewana-Kifaru-2018-35.1.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/Elewana-Kifaru-2018-117.1.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/Elewana-Kifaru-2018-165.1.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/Elewana-Kifaru-2018-5.1.jpg';
 
 const Kifaru =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const Kifaru =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Visiting Elewana Kifaru House means experiencing the serene and timeless atmosphere of Africa.The Camp offers luxurious accommodations in a bush setting, with friendly staff and a comfortable lounge, bar, and dining area. Guests can enjoy breakfast on the terrace with views of the waterhole, or relax by the infinity pool with distant plain views. 
                 <br/><br/>Set in the  beautiful  and lush gardens, that are home  to many  birds,  are five lovely cottages with thatched roofs, each having nicely furnished bedrooms with comfortable four-poster beds and large private bathrooms
@@ -92,17 +92,17 @@ const Kifaru =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

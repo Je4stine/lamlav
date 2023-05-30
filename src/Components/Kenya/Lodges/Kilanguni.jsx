@@ -48,7 +48,7 @@ const Kilanguni =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Kilaguni Serena Safari Lodge, located in the breathtaking Chyulu Hills and surrounded by Mount Kilimanjaro and the lush green volcanic landscapes of Tsavo West National Park, offers a peaceful and comfortable escape into stunning natural beauty and exciting adventures. Upon arrival, guests will be captivated by the lodge's classic stone design and views of wildlife such as elephants and buffalo drinking at the nearby water hole.
 

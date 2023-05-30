@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/fairmount.jpg';
+import Lodge1 from '../../../Assets/Janv 23 (3).png';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/Janv 23 (6).png';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/Janv 23 (8).png';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/Janv 23 (9).png';
 
 const FairmountMt =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -48,7 +48,7 @@ const FairmountMt =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[500px] px-10" >
+            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 The Fairmont Mount Kenya Safari Club is a well-known vacation spot that offers numerous activities, but one of its most unique and thrilling features is the animal orphanage run by the William Holden Wildlife Foundation. This sanctuary serves as a home and provides care to young wildlife, some of which have grown accustomed to human interaction and can be fed and played with by guests. The Club was established by the famous actor William Holden over half a century ago and has since transformed into a lavish retreat for prominent individuals in fields such as politics, cinema, and theatre. The Club's picturesque setting, including Africa's second-highest mountain, has made it a favoured destination for notable figures such as Winston Churchill, Lord Mountbatten, Clark Gable, and John Wayne.
                 <br/><br/> The lounge walls of the Club are adorned with black and white photographs that suggest the interesting discussions that may have taken place in the past when famous figures like Winston Churchill and Lord Mountbattan would visit and talk politics while smoking cigars. The Trophy Room has mounted heads of animals like lions, buffalos, and zebras, adding to the overall ambiance.
@@ -110,17 +110,17 @@ const FairmountMt =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>
