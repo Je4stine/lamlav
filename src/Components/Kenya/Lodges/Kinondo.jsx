@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/kinindo.jpg';
+import Lodge1 from '../../../Assets/Kinondo+Kwetu+Hotel+Traditional+Sailing,+Galu+Beach,+Diani+Beach,+Kenya+kopia.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/starbed.2133x1423.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/Photo+Dan+Kullberg+to+Kinondu+Kwetu+2018-2025+7053.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/Family+Room+Interconnecting,+Kinondo+Kwetu+Hotel,+Galu+Beach,+Diani+Beach,+Kenya.jpg';
 
 const Kinondo =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -105,17 +105,17 @@ const Kinondo =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

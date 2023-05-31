@@ -10,11 +10,11 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/waine.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/hw-cottage-gallery-19.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/hw-cottage-gallery-20.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/hw-manyatta-gallery-1.jpg';
 
 const Waine=()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -99,17 +99,17 @@ const Waine=()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

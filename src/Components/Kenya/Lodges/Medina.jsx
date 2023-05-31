@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/medina333.jpg';
+import Lodge1 from '../../../Assets/Medina-Main.png';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/Medina.png';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/backdrop.png';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/aerial.png';
 
 const Medina =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -102,17 +102,17 @@ const Medina =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>

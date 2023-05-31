@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Nairobi22.jpg';
+import Lodge1 from '../../../Assets/NRF_490702_Courtyard.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/NRF_490679_Abraham-suite.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/NRF_490693_Swimming-Pool.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/NRF_490686_Delamere-Wing---Deluxe.jpg';
 
 const Norfolk =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -98,17 +98,17 @@ const Norfolk =()=>{
                         >
                         <SwiperSlide>
                             <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
+                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
                             </div>
                         </SwiperSlide>
                     </Swiper>
