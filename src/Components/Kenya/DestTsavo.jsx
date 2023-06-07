@@ -17,10 +17,13 @@ import Lodge3 from '../../Assets/tsavv3.jpg';
 
 import Tsavo from '../../Assets/tsavo11.jpg';
 
-import Kilanguni from '../../Assets/kilanguni.jpg';
+import Kilanguni from '../../Assets/dining-room-at-kilaguni-serena.jpg';
 
 import Finch from '../../Assets/Tent-02.jpg';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const DesTsavo =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -63,32 +66,21 @@ const DesTsavo =()=>{
                 Bird watching in Tsavo is exceptional, with over 400 species on the checklist, including many dry-country specials. The Finch Hatton's luxury tented camp provides a great base for exploring the park and visitors may see a variety of birds such as the African wood owl,Green wood-hoopoe, Kori, Yellow-throated and Black-faced sandgrouse, Martial eagle, Von der Decken's hornbill, Purple grenadiers, Northern carmine bee-eater, Red-and-yellow barbet, Retz' helmet-shrike, Red-faced crombec, Northern brownbul, Violet-backed and Ruppell's starlings, Silverbird, Bronze sunbird, and and Black-bellied bustards,
 
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Kilanguni}/>
+                    </div>
+                    </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">

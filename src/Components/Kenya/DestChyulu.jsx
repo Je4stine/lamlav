@@ -19,6 +19,10 @@ import Kampi from '../../Assets/kampi.jpg';
 
 import Oldonyo from '../../Assets/oldonyo1.jpg';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const DestChyulu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
 
@@ -57,32 +61,21 @@ const DestChyulu =()=>{
                 <br/><br/>This area is ideal for hikers who enjoy ascending hills and creating unforgettable memories.
 
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">

@@ -21,6 +21,10 @@ import Larsen from '../../Assets/larsens.jpg';
 
 import Sasaab from '../../Assets/sasaab.jpg';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const DestSamburu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
 
@@ -59,32 +63,21 @@ const DestSamburu =()=>{
                 <br/><br/>However, the highlight of this region is not just the wildlife but also the Samburu people. They are closely related to the Maasai and are known for their proud and friendly nature. The Samburu people make a lasting impression on visitors and often become their fondest memories of the safari experience, reminding us that while we may have come to Africa to see its animals, it is its people that leave a lasting impact.
 
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">

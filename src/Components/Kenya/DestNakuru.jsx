@@ -19,7 +19,11 @@ import Naivasha from '../../Assets/Naivasha.jpg';
 
 import Mbweha from '../../Assets/mbweha.jpg';
 
-import Lodia from '../../Assets/lodia.jpg'
+import Lodia from '../../Assets/lodia.jpg';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 const DestNakuru =()=>{
@@ -58,32 +62,21 @@ const DestNakuru =()=>{
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Lake Nakuru, located in its namesake national park, is famous for the large number of flamingos that gather there to feed on algae. The lake was featured in the movie "Out of Africa," where it was depicted as a breathtaking sight as hundreds of thousands of flamingos take flight in a pink cloud. The protected  area also supports  a healthy  number of black and white  rhinos,  as well as tree- climbing lion, leopard and the usual plains game.This is just one of the many dramatic natural events that can be experienced in Africa.
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">

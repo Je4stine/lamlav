@@ -7,7 +7,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination'
+import 'swiper/css/pagination';
+import ImageGallery from 'react-image-gallery';
 // import Slider from "react-slick";
 import Lodge1 from '../../Assets/Amboselli22.jpg';
 
@@ -15,13 +16,19 @@ import Lodge2 from '../../Assets/Amboseli33.jpg';
 
 import Lodge3 from '../../Assets/Amboseli44.jpg';
 
-import Tortolis from '../../Assets/totolis1.jpg';
+import Tortolis from '../../Assets/274932-tortilis-camp-amboseli-national-park.jpg';
 
-import Olka from '../../Assets/lodge1.jpg';
+import Olka from '../../Assets/ol-tukai-lodge3.jpg';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 
 
 const DestAmboseli =()=>{
     const [colorChanged, setColorChanged]= useState(false);
+
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -63,33 +70,21 @@ const DestAmboseli =()=>{
                 <br/>The park also has a rich cultural history and the Maasai community who live near the park. Visitors can learn about the Maasai's way of life, including their customs, traditions, and beliefs.
                 </p>
 
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        loop
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">

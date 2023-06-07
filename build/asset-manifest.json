@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0eb66b6a.css",
-    "main.js": "/static/js/main.9d489c77.js",
+    "main.css": "/static/css/main.77eaeb29.css",
+    "main.js": "/static/js/main.b790f830.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Janv 23 (3).png": "/static/media/Janv 23 (3).0bcdf118fcaa30dd1bf3.png",
     "static/media/Janv 23 (8).png": "/static/media/Janv 23 (8).7d33cba958c02b0e83a1.png",
@@ -69,6 +69,7 @@
     "static/media/lewacon.jpg": "/static/media/lewacon.67cc6cfa93b1fa365163.jpg",
     "static/media/Tatol.jpg": "/static/media/Tatol.38cb55e626e3652956f2.jpg",
     "static/media/unrivalled-views-of-kilimanjaro.jpg": "/static/media/unrivalled-views-of-kilimanjaro.49c9267d99b4ce4bf6d5.jpg",
+    "static/media/274932-tortilis-camp-amboseli-national-park.jpg": "/static/media/274932-tortilis-camp-amboseli-national-park.5ffd74446c1184f5eb1e.jpg",
     "static/media/maasai2.jpg": "/static/media/maasai2.037df7df40dcef7e833e.jpg",
     "static/media/elsa.jpg": "/static/media/elsa.92be62b877a44e5764db.jpg",
     "static/media/Day99.jpg": "/static/media/Day99.2c37ff13193ba800b445.jpg",
@@ -76,7 +77,6 @@
     "static/media/maraplains.jpg": "/static/media/maraplains.66b68792e3c8ab782157.jpg",
     "static/media/Lewa.jpg": "/static/media/Lewa.eb05c3e1700382b5589a.jpg",
     "static/media/Lewa-Safari-Camp---Family-Tent-2.jpg": "/static/media/Lewa-Safari-Camp---Family-Tent-2.9a3933ffff8c642feb09.jpg",
-    "static/media/kilanguni.jpg": "/static/media/kilanguni.16852e1430157a904a19.jpg",
     "static/media/Day44.jpg": "/static/media/Day44.df3630b9ac836dced8e4.jpg",
     "static/media/IMG_1863.jpg": "/static/media/IMG_1863.0b111f23e4f21284d88e.jpg",
     "static/media/Day111.jpeg": "/static/media/Day111.ab6058a819cbc6b8722d.jpeg",
@@ -163,6 +163,7 @@
     "static/media/olseki.jpg": "/static/media/olseki.16e59e7d3f89398437f7.jpg",
     "static/media/2018-10-17.jpg": "/static/media/2018-10-17.5291fe368ae64beecdb3.jpg",
     "static/media/watamu1.jpg": "/static/media/watamu1.2ddd5bfef69bef7de752.jpg",
+    "static/media/ol-tukai-lodge3.jpg": "/static/media/ol-tukai-lodge3.34ef33218e71b110be3a.jpg",
     "static/media/Day66.jpeg": "/static/media/Day66.77f68a5996a4cc67d016.jpeg",
     "static/media/Day5.1.jpeg": "/static/media/Day5.1.e91549a1bce154242983.jpeg",
     "static/media/Day333.jpeg": "/static/media/Day333.3924f2aad097759df4d8.jpeg",
@@ -221,6 +222,7 @@
     "static/media/great-plains-conservation-mara-plains-honeymoon-room-600x400.jpg": "/static/media/great-plains-conservation-mara-plains-honeymoon-room-600x400.d21d413aaecbad763bc8.jpg",
     "static/media/kanairo.jpeg": "/static/media/kanairo.1ff467fc7823c5b489d3.jpeg",
     "static/media/2020-10-22 (4).jpg": "/static/media/2020-10-22 (4).cf8b77c9d7f2dea3c27a.jpg",
+    "static/media/dining-room-at-kilaguni-serena.jpg": "/static/media/dining-room-at-kilaguni-serena.9e26f69b2fb4747f680e.jpg",
     "static/media/Finch1.jpg": "/static/media/Finch1.3ed7af329ba5157a5f89.jpg",
     "static/media/Giraf.jpg": "/static/media/Giraf.07ba9875771038b6cb0f.jpg",
     "static/media/Day7.1.jpg": "/static/media/Day7.1.9a9991491eb1f7c6ecd2.jpg",
@@ -245,12 +247,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.0eb66b6a.css.map": "/static/css/main.0eb66b6a.css.map",
-    "main.9d489c77.js.map": "/static/js/main.9d489c77.js.map",
+    "main.77eaeb29.css.map": "/static/css/main.77eaeb29.css.map",
+    "main.b790f830.js.map": "/static/js/main.b790f830.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eb66b6a.css",
-    "static/js/main.9d489c77.js"
+    "static/css/main.77eaeb29.css",
+    "static/js/main.b790f830.js"
   ]
 }

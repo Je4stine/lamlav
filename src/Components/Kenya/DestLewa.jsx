@@ -21,6 +21,9 @@ import Safari from '../../Assets/safariccamp.jpg';
 
 import Kifaru from '../../Assets/Kifaru2.jpg';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const DestLewa =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -62,32 +65,21 @@ const DestLewa =()=>{
                 The Lewa Safari Camp is a luxurious camping experience located within the privately-owned Lewa Wildlife Conservancy. It features 12 tents, each designed to resemble a luxurious bungalow and equipped with thatched roofs, private verandas with stunning views of the surrounding plains and roaming wildlife, and en-suite bathrooms. When Prince William visits, he stays in the private property of the reserve's owners.Lewa is an intimate and private destination known for its peaceful and romantic atmosphere, and it's  the location of Prince William's proposal to Kate Middleton in 2010.
 
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lewaco}/>
+                    </div>
+                    </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">

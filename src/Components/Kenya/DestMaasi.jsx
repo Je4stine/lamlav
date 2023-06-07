@@ -20,6 +20,9 @@ import Game1 from '../../Assets/game.jpg';
 import Serena from '../../Assets/maraserena.jpg';
 
 import Plains from '../../Assets/maraplains.jpg';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 const DestMaasai =()=>{
@@ -60,32 +63,21 @@ const DestMaasai =()=>{
                 <br/> <br/>The popularity of the Maasai Mara attracts a lot of tourists, which  results in large  crowds. To address this, private conservancies have been established around the main reserve over the past 15 years, offering a more intimate and exclusive safari experience. Nine of these conservancies are dedicated to wildlife conservation, and they are collectively nearly the same size as the Mara reserve itself. Staying  in a private conservancy  can make a safari  more enjoyable,  while supporting  conservation  efforts  too.
 
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge1} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">

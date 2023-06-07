@@ -15,6 +15,9 @@ import Lodge2 from '../../../Assets/FinchHattons-Camp3-1024x426.jpg';
 import Lodge3 from '../../../Assets/FinchHattons-Camp7.jpg';
 
 import Chyulu from '../../../Assets/FinchHattons-Camp8.jpg';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Finch =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -79,33 +82,22 @@ const Finch =()=>{
                     <li>Cultural visits & excursions </li>
                     <li>Sundowners</li>
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[250px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge1}/>
                     </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Chyulu}/>
+                    </div>
+                    </Slider>
+                </div>
                 
             </section>
             <div>
