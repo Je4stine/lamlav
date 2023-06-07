@@ -16,6 +16,10 @@ import Lodge3 from '../../../Assets/2018-10-17.jpg';
 
 import Chyulu from '../../../Assets/2019-11-30.jpg';
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const Elsa =()=>{
     const [colorChanged, setColorChanged]= useState(false);
 
@@ -57,7 +61,7 @@ const Elsa =()=>{
                 <br/><br/>The park also features great forests, giant baobab trees, and rare species such as the caracal, Lesser Kudu, and aardwolf. Returning to the boutique luxury lodge after each expedition is a delightful experience, with options to relax by the infinity pool on the hillside, enjoy a delicious lunch in the open air, or indulge in a massage or reading a book on the private balcony, where curious and harmless hyrax may visit.
                 <br/><br/> Elsa's Kopje offers a selection of uniquely luxurious and dreamlike cottages that are built into and around the beautiful red rocks, also known as "kopje" in Afrikaans, and boast spacious bedrooms, sitting rooms, bathrooms, and verandas with stunning views of the expansive plains of Meru National Park. Some cottages even feature romantic outdoor baths for an added touch of luxury. For families on safari, a new, larger cottage with two bedrooms, a living room, and a private deck is available. Additionally, Elsa's Private House provides a particularly lavish experience with its large dining and sitting rooms, private garden, and infinity swimming pool. The spa offers impeccable massage and mani-pedi treatments to keep your skin glowing and your body feeling great. Dinner at Elsa's Kopje is a truly regal and relaxing experience, with delectable courses served under the starry African sky in the elegantly set garden tables illuminated by candles.
 
-
+ 
 
                 <br/><br/> <strong>Amenities at Elsa's Kopje  </strong>
                 <li>Shared pool</li>
@@ -85,33 +89,22 @@ const Elsa =()=>{
 
 
                 </p>
-                <div className="relative mt-20 z-[0]">
-                <Swiper
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
-                        slidesPerView={1}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        navigation
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        >
-                        <SwiperSlide>
-                            <div >
-                                <img src={Lodge2} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Lodge3} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div>
-                                <img src={Chyulu} alt="Roaring lion" loading="lazy"/>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge2}/>
                     </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Chyulu}/>
+                    </div>
+                    <div>
+                    <img src={Lodge1}/>
+                    </div>
+                    </Slider>
+                </div>
                 
             </section>
             <div>
