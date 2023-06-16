@@ -63,7 +63,7 @@ const DestMaasai =()=>{
                 <br/> <br/>The popularity of the Maasai Mara attracts a lot of tourists, which  results in large  crowds. To address this, private conservancies have been established around the main reserve over the past 15 years, offering a more intimate and exclusive safari experience. Nine of these conservancies are dedicated to wildlife conservation, and they are collectively nearly the same size as the Mara reserve itself. Staying  in a private conservancy  can make a safari  more enjoyable,  while supporting  conservation  efforts  too.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

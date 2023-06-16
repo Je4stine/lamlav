@@ -62,7 +62,7 @@ const DestNakuru =()=>{
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Lake Nakuru, located in its namesake national park, is famous for the large number of flamingos that gather there to feed on algae. The lake was featured in the movie "Out of Africa," where it was depicted as a breathtaking sight as hundreds of thousands of flamingos take flight in a pink cloud. The protected  area also supports  a healthy  number of black and white  rhinos,  as well as tree- climbing lion, leopard and the usual plains game.This is just one of the many dramatic natural events that can be experienced in Africa.
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

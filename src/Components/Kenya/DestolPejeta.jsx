@@ -63,7 +63,7 @@ const DestOlpe =()=>{
                 This protected area and a great tourists destination is situated near the equator, to the west of Nanyuki, near the foothills of Mount Kenya and the Aberdares. It was founded with the goal of preserving wildlife, providing a habitat for great apes, and generating revenue through wildlife-related activities. 
                 <br/><br/>At Ol Pejeta Conservancy, you don't have to limit yourself to game viewing by vehicle. Other options include game walks, horseback or camel rides, and night drives. The conservancy, has had a rich history, with previous owners ranging from Lord Delamere to Roussel Onassis and Adnan Khashoggi. Originally established as a cattle ranch, the frequent destruction of fences by elephant herds made intensive cattle farming difficult, but cattle still plays a role in the conservancy today as a managed livestock. Ol Pejeta is also dedicated to education, hosting an Environmental and Conservation Centre that annually welcomes around 100 Kenyan schools, and offers opportunities to learn about the local culture and traditions of the Samburu, Turkana, Pokot, and Maasai peoples.
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

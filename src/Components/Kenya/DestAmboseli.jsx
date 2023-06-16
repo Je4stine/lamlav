@@ -10,11 +10,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import ImageGallery from 'react-image-gallery';
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/Amboselli22.jpg';
+import Lodge1 from '../../Assets/ol-tukai-lodge-amboseli_153098540519.jpg';
 
-import Lodge2 from '../../Assets/Amboseli33.jpg';
+import Lodge2 from '../../Assets/ol-tukai-lodge-amboseli_153098540928.jpg';
 
-import Lodge3 from '../../Assets/Amboseli44.jpg';
+import Lodge3 from '../../Assets/ol-tukai-lodge-amboseli_153098541131.jpg';
+
+import Lodge4 from '../../Assets/ol-tukai-lodge-amboseli_153098541132.jpg';
 
 import Tortolis from '../../Assets/274932-tortilis-camp-amboseli-national-park.jpg';
 
@@ -70,7 +72,7 @@ const DestAmboseli =()=>{
                 <br/>The park also has a rich cultural history and the Maasai community who live near the park. Visitors can learn about the Maasai's way of life, including their customs, traditions, and beliefs.
                 </p>
 
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>
@@ -82,7 +84,7 @@ const DestAmboseli =()=>{
                     <img src={Lodge3}/>
                     </div>
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge4}/>
                     </div>
                     </Slider>
                 </div>

@@ -62,7 +62,7 @@ const DestMeru =()=>{
                 <br/><br/>The park was once home to the famous lioness Elsa, who was adopted by George and Joy Admanson and was the subject of the popular book and song "Born Free." Spending a peaceful afternoon in Meru, surrounded by birdsong, and revisiting the story of Elsa is a great way to spend the day.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

@@ -63,7 +63,7 @@ const DestMtK =()=>{
                 <br/><br/>This "majestic and tender" mountain, as Hemingway referred to it, becomes a source of inspiration for guests on Lamlav Safaris, reminding them of Africa's beauty and balance. Kenya is the only country named after a mountain and Mount Kenya holds a special place in the lives of those who live in its vicinity, being not just a symbol but an integral part of their lives.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

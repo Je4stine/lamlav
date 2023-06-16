@@ -64,7 +64,7 @@ const DestMombasa =()=>{
                 <br/><br/>The old city of Mombasa is characterized by its narrow streets and intricate carvings, while the Gedi ruins south of Malindi are some of the most impressive examples of the area's history. The Kenya coast is rich in the remains of old Swahili settlements.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

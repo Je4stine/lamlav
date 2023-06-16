@@ -10,11 +10,13 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/tortilis-22.jpg';
 
-import Lodge2 from '../../../Assets/tortilis-1.jpg';
+import Lodge2 from '../../../Assets/tortilis-3.jpg';
 
 import Lodge3 from '../../../Assets/tortilis-2.jpg';
 
-import Chyulu from '../../../Assets/tortilis-3.jpg';
+import Lodge4 from '../../../Assets/tortilis-main-1.jpg';
+
+import Chyulu from '../../../Assets/little-tortilis-.jpg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -87,7 +89,7 @@ const Tortolis =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
                     </div>
                     </Slider>
                     </div>

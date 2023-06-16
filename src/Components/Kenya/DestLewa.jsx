@@ -65,7 +65,7 @@ const DestLewa =()=>{
                 The Lewa Safari Camp is a luxurious camping experience located within the privately-owned Lewa Wildlife Conservancy. It features 12 tents, each designed to resemble a luxurious bungalow and equipped with thatched roofs, private verandas with stunning views of the surrounding plains and roaming wildlife, and en-suite bathrooms. When Prince William visits, he stays in the private property of the reserve's owners.Lewa is an intimate and private destination known for its peaceful and romantic atmosphere, and it's  the location of Prince William's proposal to Kate Middleton in 2010.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>
