@@ -8,13 +8,18 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/bar.jpg';
+import Lodge1 from '../../../Assets/images (2).jpeg';
 
-import Lodge2 from '../../../Assets/FinchHattons-Camp3-1024x426.jpg';
+import Lodge2 from '../../../Assets/finch_hattons_camp_fire_at_night_0071c13acc7ebc5a56d7604277c286f3.jpg';
 
-import Lodge3 from '../../../Assets/FinchHattons-Camp7.jpg';
+import Lodge3 from '../../../Assets/finch_hattons_guests_area_0071c13acc7ebc5a56d7604277c286f3.jpg';
+
+import Lodge4 from '../../../Assets/finch_hattons_luxury_bathroom_0071c13acc7ebc5a56d7604277c286f3.jpg';
+
+import Lodge5 from '../../../Assets/finch_hattons_pool_0071c13acc7ebc5a56d7604277c286f3.jpg';
 
 import Chyulu from '../../../Assets/FinchHattons-Camp8.jpg';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -85,7 +90,7 @@ const Finch =()=>{
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
-                        <img src={Lodge1}/>
+                        <img src={Lodge4}/>
                     </div>
                     <div>
                     <img src={Lodge2}/>
@@ -95,6 +100,9 @@ const Finch =()=>{
                     </div>
                     <div>
                     <img src={Chyulu}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
                     </div>
                     </Slider>
                 </div>

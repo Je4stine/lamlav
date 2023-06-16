@@ -8,11 +8,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Lewa-Safari-Camp---Camel-Trekking.jpg';
+import Lodge1 from '../../../Assets/64888bd65340c231b3581874_lewa-wilderness.jpg';
 
-import Lodge2 from '../../../Assets/Lewa-Safari-Camp---Breakfast-2.jpg';
+import Lodge2 from '../../../Assets/6268077461ce941da705a5af_Lewa Wilderness8.jpeg';
 
-import Lodge3 from '../../../Assets/Lewa-Safari-Camp---Bush-Walk---Rhino.jpg';
+import Lodge3 from '../../../Assets/62680784f81a327310ac0b08_Lewa Wilderness1.jpeg';
+
+import Lodge4 from '../../../Assets/62680784f81a327310ac0b08_Lewa Wilderness1.jpeg';
+
+import Lodge5 from '../../../Assets/626807da704b340b24bdce62_Lewa Wilderness23.jpeg';
+
+import Lodge6 from '../../../Assets/626807fa6d041c82742c266d_Lewa Wilderness11.jpeg';
 
 import Chyulu from '../../../Assets/Lewa-Safari-Camp---Family-Tent-2.jpg';
 
@@ -96,7 +102,13 @@ const Lewa =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
                     </div>
                     </Slider>
                 </div>
