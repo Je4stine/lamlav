@@ -56,7 +56,7 @@ const Porini =()=>{
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Porini Rhino Camp is a luxurious and environmentally friendly safari camp located in a remote valley in Ol Pejeta, Kenya. The camp offers eight spacious and comfortable guest tents, each tastefully furnished and equipped with solar-powered lighting, hot showers, and flush toilets. The newest tent is a family unit consisting of two rooms and a lounge area, making it ideal for families or groups of friends. The camp's design has minimal impact on the environment and includes a wildlife viewing hide that allows guests to safely observe and photograph the local wildlife. The hide is strategically located to provide a close-up view of animals in their natural habitat, allowing guests to fully immerse themselves in the natural surroundings.
 
-                <br/><br/> <strong>Amenities at Porini Rhino </strong>
+                <br/><br/> <strong>Amenities at Porini Rhino Camp </strong>
                     <li>Shared pool</li>
                     <li> Restaurant</li>
                     <li> Bar and Lodges</li>
@@ -67,7 +67,7 @@ const Porini =()=>{
                     <li>En-suite  bathroom</li> 
 
 
-                    <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
+                    <br/><br/> <strong>Activities  at Porini Rhino Camp </strong>
 
                     <li>Lion tracking </li>
                     <li>Rhino Riding </li>

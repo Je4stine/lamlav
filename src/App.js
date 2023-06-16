@@ -51,6 +51,7 @@ import Larsen from './Components/Kenya/Lodges/Larsen';
 import Lewa from './Components/Kenya/Lodges/Lewa';
 import Loldia from './Components/Kenya/Lodges/Loldia';
 import MaraPlains from './Components/Kenya/Lodges/Maraplains';
+import Mara1 from './Components/Kenya/Lodges/Mara';
 import Mbweha from './Components/Kenya/Lodges/Mbweha';
 import Medina from './Components/Kenya/Lodges/Medina';
 import Neptune from './Components/Kenya/Lodges/Neptune';
@@ -120,7 +121,7 @@ function App() {
             <Route path ='/kenya/larsen' element ={<Larsen/>}/>
             <Route path ='/kenya/lewa' element ={<Lewa/>}/>
             <Route path ='/kenya/loldia' element ={<Loldia/>}/>
-            <Route path ='/kenya/marares' element ={<Mara/>}/>
+            <Route path ='/kenya/marares' element ={<Mara1/>}/>
             <Route path ='/kenya/maraplains' element ={<MaraPlains/>}/>
             <Route path ='/kenya/mbweha' element ={<Mbweha/>}/>
             <Route path ='/kenya/medina' element ={<Medina/>}/>

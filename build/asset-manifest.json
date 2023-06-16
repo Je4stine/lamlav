@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8cc4a21.css",
-    "main.js": "/static/js/main.f09fc420.js",
+    "main.js": "/static/js/main.65f76e27.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Janv 23 (3).png": "/static/media/Janv 23 (3).0bcdf118fcaa30dd1bf3.png",
     "static/media/Janv 23 (8).png": "/static/media/Janv 23 (8).7d33cba958c02b0e83a1.png",
@@ -27,6 +27,7 @@
     "static/media/tortilis-main-2.jpg": "/static/media/tortilis-main-2.f80ce68a56832ad96774.jpg",
     "static/media/mtk3.jpg": "/static/media/mtk3.7b33b8d997382fd5a9e0.jpg",
     "static/media/Elsas_Kopje_8.png": "/static/media/Elsas_Kopje_8.517e6a0569fbb84220ba.png",
+    "static/media/Mara .jpg": "/static/media/Mara .d45a3f8c905c870c1f63.jpg",
     "static/media/tsavv2.jpg": "/static/media/tsavv2.0ecb5fd4615109ec0653.jpg",
     "static/media/Day1.1.jpg": "/static/media/Day1.1.b1680662cea2cbd49634.jpg",
     "static/media/mtk2.jpg": "/static/media/mtk2.56ab531731d2e4532c4f.jpg",
@@ -224,12 +225,10 @@
     "static/media/mombasa.jpg": "/static/media/mombasa.20eef6eb5475932d0e87.jpg",
     "static/media/serengeti1.jpg": "/static/media/serengeti1.c3c77bde492e96c15603.jpg",
     "static/media/great-plains-conservation-ol-donyo-lodge-camp1-600x400.jpg": "/static/media/great-plains-conservation-ol-donyo-lodge-camp1-600x400.fa0ea8896d3ffed6c77b.jpg",
-    "static/media/Photo+Dan+Kullberg+to+Kinondu+Kwetu+2018-2025+7053.jpg": "/static/media/Photo+Dan+Kullberg+to+Kinondu+Kwetu+2018-2025+7053.37c0af2f4da08965a225.jpg",
     "static/media/Loldi4.jpeg": "/static/media/Loldi4.28c081a00af7ae949015.jpeg",
     "static/media/great-plains-conservation-mara-plains-spa-600x400.jpg": "/static/media/great-plains-conservation-mara-plains-spa-600x400.4e411d2a934e19438a25.jpg",
     "static/media/nakuru.jpg": "/static/media/nakuru.203e70de1e1e854165ff.jpg",
     "static/media/Day14.1.jpeg": "/static/media/Day14.1.8d10bab05d314b2c88c2.jpeg",
-    "static/media/Chyulu_Wilderness_Camp_Lodge_luxury_twin.jpg": "/static/media/Chyulu_Wilderness_Camp_Lodge_luxury_twin.be2eada19c960dd71c4a.jpg",
     "static/media/great-plains-conservation-ol-donyo-lodge-horseback-safari-gallery-4-600x400.jpg": "/static/media/great-plains-conservation-ol-donyo-lodge-horseback-safari-gallery-4-600x400.f82561b0ee4283d4b13c.jpg",
     "static/media/mtk.jpg": "/static/media/mtk.9ef31ad7049cc0026af5.jpg",
     "static/media/olpejeta.jpg": "/static/media/olpejeta.293482bb562c45612f55.jpg",
@@ -243,7 +242,6 @@
     "static/media/Giraf.jpg": "/static/media/Giraf.07ba9875771038b6cb0f.jpg",
     "static/media/Day7.1.jpg": "/static/media/Day7.1.9a9991491eb1f7c6ecd2.jpg",
     "static/media/great-plains-conservation-ol-donyo-lodge-main-area-600x400.jpg": "/static/media/great-plains-conservation-ol-donyo-lodge-main-area-600x400.e0fd4d35e999c350f1b4.jpg",
-    "static/media/Chyulu_Wilderness_Camp_quadruple_tent_jp.jpg": "/static/media/Chyulu_Wilderness_Camp_quadruple_tent_jp.12772f72087a493ec15d.jpg",
     "static/media/chyullu.jpg": "/static/media/chyullu.7a0a411721f09a2e5f39.jpg",
     "static/media/Day77.jpeg": "/static/media/Day77.7988a5b1040c421d3a9d.jpeg",
     "static/media/kinindo.jpg": "/static/media/kinindo.9082dc8a7842767f4452.jpg",
@@ -265,11 +263,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.a8cc4a21.css.map": "/static/css/main.a8cc4a21.css.map",
-    "main.f09fc420.js.map": "/static/js/main.f09fc420.js.map",
+    "main.65f76e27.js.map": "/static/js/main.65f76e27.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8cc4a21.css",
-    "static/js/main.f09fc420.js"
+    "static/js/main.65f76e27.js"
   ]
 }

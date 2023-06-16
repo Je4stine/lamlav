@@ -10,9 +10,9 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/Photo-26-11-2020-17-38-07.jpg';
 
-import Lodge2 from '../../../Assets/Chyulu_Wilderness_Camp_Lodge_luxury_twin.jpg';
 
-import Lodge3 from '../../../Assets/Chyulu_Wilderness_Camp_quadruple_tent_jp.jpg';
+
+// import Lodge3 from '../../../Assets/Chyulu_Wilderness_Camp_quadruple_tent_jp.jpg';
 
 import Chyulu from '../../../Assets/IMG_1863.jpg';
 
@@ -78,12 +78,10 @@ const Kampi =()=>{
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
-                    <div>
-                        <img src={Lodge2}/>
-                    </div>
-                    <div>
+                    
+                    {/* <div>
                     <img src={Lodge3}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Chyulu}/>
                     </div>

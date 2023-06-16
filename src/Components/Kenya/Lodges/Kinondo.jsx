@@ -12,7 +12,7 @@ import Lodge1 from '../../../Assets/Kinondo+Kwetu+Hotel+Traditional+Sailing,+Gal
 
 import Lodge2 from '../../../Assets/starbed.2133x1423.jpg';
 
-import Lodge3 from '../../../Assets/Photo+Dan+Kullberg+to+Kinondu+Kwetu+2018-2025+7053.jpg';
+// import Lodge3 from '../../../Assets/Photo+Dan+Kullberg+to+Kinondu+Kwetu+2018-2025+7053.jpg';
 
 import Chyulu from '../../../Assets/Family+Room+Interconnecting,+Kinondo+Kwetu+Hotel,+Galu+Beach,+Diani+Beach,+Kenya.jpg';
 
@@ -102,9 +102,9 @@ const Kinondo =()=>{
                     <div>
                         <img src={Lodge2}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge3}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Chyulu}/>
                     </div>
