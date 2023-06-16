@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b10787d.css",
-    "main.js": "/static/js/main.7a4637ac.js",
+    "main.css": "/static/css/main.5ec01746.css",
+    "main.js": "/static/js/main.40d8b066.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Janv 23 (3).png": "/static/media/Janv 23 (3).0bcdf118fcaa30dd1bf3.png",
     "static/media/Janv 23 (8).png": "/static/media/Janv 23 (8).7d33cba958c02b0e83a1.png",
@@ -96,6 +96,7 @@
     "static/media/FinchHattons-Camp8.jpg": "/static/media/FinchHattons-Camp8.99e00ef0964b643e569f.jpg",
     "static/media/weddings_honeymoon_banner.jpg": "/static/media/weddings_honeymoon_banner.3f7d20c9084abb6d1850.jpg",
     "static/media/banner-3-1.jpg": "/static/media/banner-3-1.4dc9231788390479bddf.jpg",
+    "static/media/ooltukai.jpeg": "/static/media/ooltukai.6cae3b098c3ce7a7b7f2.jpeg",
     "static/media/FinchHattons-Camp7.jpg": "/static/media/FinchHattons-Camp7.b9cf2ffc606517a6a2a5.jpg",
     "static/media/Amboseli44.jpg": "/static/media/Amboseli44.67b6e8cb60afbab27014.jpg",
     "static/media/SourceSerifPro-Black.ttf": "/static/media/SourceSerifPro-Black.54cb3526b59ed4f35e9c.ttf",
@@ -116,6 +117,7 @@
     "static/media/wildebeests1.jpg": "/static/media/wildebeests1.e9d9c920df2acfe5ff99.jpg",
     "static/media/2020-10-22.jpg": "/static/media/2020-10-22.32cd916fb707e2a3613d.jpg",
     "static/media/Amboselli22.jpg": "/static/media/Amboselli22.820054adbc84137ed354.jpg",
+    "static/media/chyulus-kili-behind.jpg": "/static/media/chyulus-kili-behind.0ac3290a385e886a7b85.jpg",
     "static/media/moon2.jpg": "/static/media/moon2.db7421d232235aa29809.jpg",
     "static/media/mombasa3.jpg": "/static/media/mombasa3.f5148649328a70784c30.jpg",
     "static/media/Elewana-Kifaru-2018-165.1.jpg": "/static/media/Elewana-Kifaru-2018-165.1.941c03b1d38e599a18b8.jpg",
@@ -149,7 +151,6 @@
     "static/media/09A_KE0_swimmingpoolxxx_003004.jpg": "/static/media/09A_KE0_swimmingpoolxxx_003004.22d2dcd4398cd2fbf508.jpg",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.9e41987fd50233ee8c4c.jpg",
     "static/media/Mann08WL041_GSmWRG1.2e16d0ba.fill-1200x600.jpg": "/static/media/Mann08WL041_GSmWRG1.2e16d0ba.fill-1200x600.e8a47da67138dc29ecee.jpg",
-    "static/media/chyull.jpg": "/static/media/chyull.308b5893e89ba3b93e20.jpg",
     "static/media/Mombasani.jpg": "/static/media/Mombasani.bb5d3702591e9e8fa91b.jpg",
     "static/media/larsens-16.2e16d0ba.fill-1200x600.jpg": "/static/media/larsens-16.2e16d0ba.fill-1200x600.9446e224d41a5ffa9d32.jpg",
     "static/media/nakuru3.jpg": "/static/media/nakuru3.44bc7f4be84bb89b4f46.jpg",
@@ -248,12 +249,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.8b10787d.css.map": "/static/css/main.8b10787d.css.map",
-    "main.7a4637ac.js.map": "/static/js/main.7a4637ac.js.map",
+    "main.5ec01746.css.map": "/static/css/main.5ec01746.css.map",
+    "main.40d8b066.js.map": "/static/js/main.40d8b066.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b10787d.css",
-    "static/js/main.7a4637ac.js"
+    "static/css/main.5ec01746.css",
+    "static/js/main.40d8b066.js"
   ]
 }

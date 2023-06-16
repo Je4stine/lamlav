@@ -75,7 +75,7 @@ const Tortolis =()=>{
 
                 </p>
                 
-                <div className="relative mt-20 z-[0] lg:mx-[250px]">
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
                  <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge2}/>

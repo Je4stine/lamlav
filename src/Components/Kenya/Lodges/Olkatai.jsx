@@ -8,6 +8,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
+import Lodge0 from '../../../Assets/ooltukai.jpeg';
+
 import Lodge1 from '../../../Assets/dining_restaurants2.jpg';
 
 import Lodge2 from '../../../Assets/weddings_honeymoon_banner.jpg';
@@ -18,6 +20,7 @@ import Chyulu from '../../../Assets/excursions-and-ectivities_banner.jpg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import Slider from "react-slick";
 
 const Olkatai =()=>{
@@ -77,8 +80,11 @@ const Olkatai =()=>{
 
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[250px]">
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Lodge0}/>
+                    </div>
                     <div>
                         <img src={Lodge1}/>
                     </div>
