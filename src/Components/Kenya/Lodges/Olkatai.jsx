@@ -10,13 +10,21 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge0 from '../../../Assets/ooltukai.jpeg';
 
-import Lodge1 from '../../../Assets/dining_restaurants2.jpg';
+import Lodge1 from '../../../Assets/ol-tukai-lodge-amboseli_153098540211.jpg';
 
-import Lodge2 from '../../../Assets/weddings_honeymoon_banner.jpg';
+import Lodge2 from '../../../Assets/ol-tukai-lodge-amboseli_153098540313.jpg';
 
-import Lodge3 from '../../../Assets/rooms_banner.jpg';
+import Lodge3 from '../../../Assets/ol-tukai-lodge-amboseli_153098540314.jpg';
 
-import Chyulu from '../../../Assets/excursions-and-ectivities_banner.jpg';
+import Chyulu from '../../../Assets/ol-tukai-lodge-amboseli_153098540416.jpg';
+
+import Chyulu1 from '../../../Assets/ol-tukai-lodge-amboseli_153098540518.jpg';
+
+import Chyulu2 from '../../../Assets/ol-tukai-lodge-amboseli_153098540417.jpg';
+
+import Chyulu3 from '../../../Assets/ol-tukai-lodge-amboseli_153098540724.jpg';
+
+import Chyulu4 from '../../../Assets/ol-tukai-lodge-amboseli_153098540826.jpg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -61,7 +69,7 @@ const Olkatai =()=>{
                    <br/><br/> At Ol Tukai, guests can enjoy the comfort and style of modern twin rooms with breathtaking views of either the wildlife-rich wetlands of Amboseli or the towering Mount Kilimanjaro. Despite its updated facilities, the chalet retains a classic African feel, reminiscent of the traditional game reserve experience
 
 
-                <br/><br/> <strong>Amenities at Tortilis  Camp</strong>
+                <br/><br/> <strong>Amenities at Ol Tukai Lodge</strong>
                     <li>Shared pool</li>
                     <li> Massage services</li>
                     <li> Wi-Fi</li>
@@ -69,7 +77,7 @@ const Olkatai =()=>{
                     <li> En-suite bathrooms</li>
                     <li>Private veranda</li>
 
-                    <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
+                    <br/><br/> <strong>Activities  at Ol Tukai Lodge </strong>
 
                     <li>Game drives </li>
                     <li>Bird walk</li>
@@ -96,6 +104,18 @@ const Olkatai =()=>{
                     </div>
                     <div>
                     <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Chyulu1}/>
+                    </div>
+                    <div>
+                    <img src={Chyulu2}/>
+                    </div>
+                    <div>
+                    <img src={Chyulu3}/>
+                    </div>
+                    <div>
+                    <img src={Chyulu4}/>
                     </div>
                     </Slider>
                 </div>
