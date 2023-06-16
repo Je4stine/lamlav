@@ -101,8 +101,8 @@ const DesTsavo =()=>{
 
                         <div className="lg:w-1/2">
                             <img src={Kilanguni} alt="Ol Tukai" loading ="lazy"/>
-                            <a href='/kenya/finch'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kilanguni Serena Safari Lodge</h1></a> 
-                            <a href='/kenya/finch'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                            <a href='/kenya/kilanguni'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kilanguni Serena Safari Lodge</h1></a> 
+                            <a href='/kenya/kilanguni'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Tsavo National Park Kenya</span>
                             </div></a> 
                         </div>

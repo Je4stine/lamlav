@@ -8,13 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/FR.-Loldia-House-8-992x695.jpg';
+import Lodge1 from '../../../Assets/Loldi2.jpeg';
 
-import Lodge2 from '../../../Assets/FR.-Loldia-Top-Cottage-9-992x695.jpg';
+import Lodge2 from '../../../Assets/Loldi3.jpeg';
 
-import Lodge3 from '../../../Assets/lake-nakuru-national.jpg';
+import Lodge3 from '../../../Assets/Loldi4.jpeg';
 
-import Chyulu from '../../../Assets/loldia-house.jpg';
+import Chyulu from '../../../Assets/loldi.jpeg';
 
 
 import "slick-carousel/slick/slick.css";
@@ -50,7 +50,7 @@ const Loldia =()=>{
             <secttion>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Loldia House and Cottages  </h1>
-                    <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
+                    <img src={Chyulu} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >

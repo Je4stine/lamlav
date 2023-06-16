@@ -61,6 +61,7 @@ import Sands from './Components/Kenya/Lodges/Sands';
 import Sasaab from './Components/Kenya/Lodges/Sasaab';
 import Waine from './Components/Kenya/Lodges/Waine';
 import Watamu from './Components/Kenya/Lodges/Watamu';
+import Kilanguni from './Components/Kenya/Lodges/Kilanguni';
 
 
 function App() {
@@ -131,6 +132,7 @@ function App() {
             <Route path ='/kenya/sasaab' element ={<Sasaab/>}/>
             <Route path ='/kenya/waine' element ={<Waine/>}/>
             <Route path ='/kenya/hemwatamu' element ={<Watamu/>}/>
+            <Route path ='/kenya/kilanguni' element ={<Kilanguni/>}/>
           </Routes>
         </Wrapper>
       </Router>

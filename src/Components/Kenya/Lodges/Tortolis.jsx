@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/unrivalled-views-of-kilimanjaro.jpg';
+import Lodge1 from '../../../Assets/tortilis-22.jpg';
 
 import Lodge2 from '../../../Assets/tortilis-1.jpg';
 

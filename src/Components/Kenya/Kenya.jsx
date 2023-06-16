@@ -36,7 +36,7 @@ const Kenya = ()=>{
             }
             <div className=" relative">
                <img src={Lion} loading="lazy" className=" w-[100vw] h-[100vh] object-cover" alt="Lion"/>
-               <hi className=" absolute top-[50%] lg:left-[35%] left-[20%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Bold] text-center ">
+               <hi className=" absolute top-[50%] lg:left-[35%] left-15%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Bold] text-center ">
                     Why Kenya is Magical
                 </hi>
                 {/* <p className=" absolute bottom-[6%] lg:left-[10%] text-white lg:text-4xl text-2xl font-[SourceSerifPro-Bold] text-center" >
@@ -44,7 +44,7 @@ const Kenya = ()=>{
                 </p> */}
             </div>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10">
-              <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
+              <p className=" font-[SourceSerifPro-Regluar] pt-[50px] lg:text-xl">
                 Visitors worldwide are drawn to the bustling atmosphere and modern architecture of Nairobi, as well as its fine dining options. However, in the countryside, specifically in the treasured national parks and conservancies, the focus shifts from human activity to the awe-inspiring wildlife. Observing the Big Five becomes a natural experience in this region. These magnificent creatures captivate visitors with their numbers and opportunities for close-up observation.The thrilling events of the Great Migration, which take place annually in the Masai Mara, is one striking example.
                 <br/><br/>For those seeking a more secluded safari experience, the Laikipia Plateau, with its endangered species such as the white rhinoceroses, Grévy's zebra and wild dog; and the sun-soaked Samburu National Reserve, with its cooling elephants in the Ewaso Ng'iro River, offer a different perspective. 
                 <br/> <br/>In addition to wildlife viewing, a trip to Kenya presents the chance to learn about the Maasai cliture and to unwind on the idyllic beaches along the country's extensive coastline.

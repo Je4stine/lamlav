@@ -11,7 +11,7 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../Assets/chyul2.jpg';
 
-import Lodge2 from '../../Assets/chyull.jpg';
+import Lodge2 from '../../Assets/chyulus-kili-behind.jpg';
 
 import Lodge3 from '../../Assets/Chyull3.jpg';
 
