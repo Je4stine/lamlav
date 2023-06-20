@@ -9,11 +9,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/watamu11.jpg';
+import Lodge1 from '../../Assets/watamu1.jpeg';
 
-import Lodge2 from '../../Assets/watamu22.jpg';
+import Lodge2 from '../../Assets/watamu2.jpeg';
 
-import Lodge3 from '../../Assets/watamu33.jpg';
+import Lodge3 from '../../Assets/watamu3.jpeg';
+
+import Lodge4 from '../../Assets/watamu4.jpeg';
 
 import Tatol from '../../Assets/Tatol.jpg';
 
@@ -59,22 +61,22 @@ const DestWatamu =()=>{
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
-                Watamu in the North-Coast is a magical, charming, and timeless place that enchants all who visit. Perched on a small peninsula, surrounded by the serene Mida Creek and dotted with rocky coves and shimmering lagoons, Watamu is a paradise. The turquoise waters, protected by Kenya's barrier reef, are crystal clear and warm all year, making it an ideal location for swimming and relaxing. The area is surrounded by towering baobab trees and boasts three great stretches of silver sand, making it  a true escape from the hustle and bustle of everyday life.
+                    Watamu in the North-Coast is a magical, charming, and timeless place that enchants all who visit. Perched on a small peninsula, surrounded by the serene Mida Creek and dotted with rocky coves and shimmering lagoons, Watamu is a paradise. The turquoise waters, protected by Kenya's barrier reef, are crystal clear and warm all year, making it an ideal location for swimming and relaxing. The area is surrounded by towering baobab trees and boasts three great stretches of silver sand, making it  a true escape from the hustle and bustle of everyday life.
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                <div className="relative mt-20 z-[0] lg:mx-[100px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>
                     </div>
-                    {/* <div>
+                    <div>
                     <img src={Lodge2}/>
-                    </div> */}
+                    </div>
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge2}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
                     </Slider>
                 </div>
                 <hr/>

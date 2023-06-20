@@ -69,15 +69,15 @@ const DestNairobi =()=>{
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
-                    <div>
+                    {/* <div>
                         <img src={Lodge1}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge2}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge3}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge2}/>
                     </div>
