@@ -10,11 +10,13 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/giraffe.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/613a6c222429c5127f83ef15_Nelson-Travel-Giraffe-Manor-1.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/613a6c229ecd8b59d188cafb_Nelson-Travel-Giraffe-Manor-5.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Lodge4 from '../../../Assets/613a6df04e3ebaf8b33adc96_GiraffeManor.jpg';
+
+import Chyulu from '../../../Assets/637faf40805ff81f2a0b6e6c_Giraffe-Manor-2.jpg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -96,7 +98,7 @@ const Giraffe =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
                     </div>
                     </Slider>
                 </div>

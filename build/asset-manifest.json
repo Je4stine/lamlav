@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b2d58270.css",
-    "main.js": "/static/js/main.cbc074e6.js",
+    "main.js": "/static/js/main.c08ae221.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Janv 23 (3).png": "/static/media/Janv 23 (3).0bcdf118fcaa30dd1bf3.png",
     "static/media/Janv 23 (8).png": "/static/media/Janv 23 (8).7d33cba958c02b0e83a1.png",
@@ -70,6 +70,7 @@
     "static/media/Day99.jpg": "/static/media/Day99.2c37ff13193ba800b445.jpg",
     "static/media/2020-11-21 (1).jpg": "/static/media/2020-11-21 (1).8b5ddb48d375c346b1ff.jpg",
     "static/media/maraplains.jpg": "/static/media/maraplains.66b68792e3c8ab782157.jpg",
+    "static/media/_Giraffe-Manor-2.jpg": "/static/media/637faf40805ff81f2a0b6e6c_Giraffe-Manor-2.3a0445a06b376262d980.jpg",
     "static/media/Lewa.jpg": "/static/media/Lewa.eb05c3e1700382b5589a.jpg",
     "static/media/Lewa-Safari-Camp---Family-Tent-2.jpg": "/static/media/Lewa-Safari-Camp---Family-Tent-2.9a3933ffff8c642feb09.jpg",
     "static/media/Day44.jpg": "/static/media/Day44.df3630b9ac836dced8e4.jpg",
@@ -116,6 +117,7 @@
     "static/media/rianta2.jpg": "/static/media/rianta2.8ee833565e0a2516905e.jpg",
     "static/media/_Lewa Wilderness1.jpeg": "/static/media/62680784f81a327310ac0b08_Lewa Wilderness1.fb826607810d4c0e94b4.jpeg",
     "static/media/9f8600_jpg": "/static/media/9f8600_0b6ecfecdb624702be4a17cc1ba2df4d.2c8d57c71113d353a5fb.jpg",
+    "static/media/_GiraffeManor.jpg": "/static/media/613a6df04e3ebaf8b33adc96_GiraffeManor.da7c21ba4d25c5167614.jpg",
     "static/media/_Lewa Wilderness11.jpeg": "/static/media/626807fa6d041c82742c266d_Lewa Wilderness11.2d84d5ee265f073aeff0.jpeg",
     "static/media/wildebeests1.jpg": "/static/media/wildebeests1.e9d9c920df2acfe5ff99.jpg",
     "static/media/2020-10-22.jpg": "/static/media/2020-10-22.32cd916fb707e2a3613d.jpg",
@@ -124,6 +126,7 @@
     "static/media/Almanara-2018-15.jpg": "/static/media/Almanara-2018-15.2a309ab80fed872aa938.jpg",
     "static/media/mombasa3.jpg": "/static/media/mombasa3.f5148649328a70784c30.jpg",
     "static/media/ol-tukai-lodge-amboseli_153098540211.jpg": "/static/media/ol-tukai-lodge-amboseli_153098540211.433898316b7a656ada2d.jpg",
+    "static/media/_Nelson-Travel-Giraffe-Manor-1.jpg": "/static/media/613a6c222429c5127f83ef15_Nelson-Travel-Giraffe-Manor-1.64ea35f2da3a0868a845.jpg",
     "static/media/Elewana-Kifaru-2018-165.1.jpg": "/static/media/Elewana-Kifaru-2018-165.1.941c03b1d38e599a18b8.jpg",
     "static/media/lewaslide2.jpg": "/static/media/lewaslide2.941c03b1d38e599a18b8.jpg",
     "static/media/mbweha.jpg": "/static/media/mbweha.f7567d45feb044fbf29b.jpg",
@@ -155,6 +158,7 @@
     "static/media/_Lewa Wilderness8.jpeg": "/static/media/6268077461ce941da705a5af_Lewa Wilderness8.0cfa2dc98b4e3cb69a1e.jpeg",
     "static/media/luxury.jpg": "/static/media/luxury.08f6c5632f469cc2c3a8.jpg",
     "static/media/Natpa.jpg": "/static/media/Natpa.c33a6db928112c1da0a3.jpg",
+    "static/media/_Nelson-Travel-Giraffe-Manor-5.jpg": "/static/media/613a6c229ecd8b59d188cafb_Nelson-Travel-Giraffe-Manor-5.7ba116cd0ee605364e58.jpg",
     "static/media/meru3.jpg": "/static/media/meru3.a0b0612bb2ac9dce4a0b.jpg",
     "static/media/09A_KE0_swimmingpoolxxx_003004.jpg": "/static/media/09A_KE0_swimmingpoolxxx_003004.22d2dcd4398cd2fbf508.jpg",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.9e41987fd50233ee8c4c.jpg",
@@ -275,11 +279,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.b2d58270.css.map": "/static/css/main.b2d58270.css.map",
-    "main.cbc074e6.js.map": "/static/js/main.cbc074e6.js.map",
+    "main.c08ae221.js.map": "/static/js/main.c08ae221.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2d58270.css",
-    "static/js/main.cbc074e6.js"
+    "static/js/main.c08ae221.js"
   ]
 }
