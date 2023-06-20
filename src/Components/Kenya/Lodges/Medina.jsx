@@ -10,11 +10,17 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/Medina-Main.png';
 
-import Lodge2 from '../../../Assets/Medina.png';
+// import Lodge2 from '../../../Assets/Medina.png';
 
-import Lodge3 from '../../../Assets/backdrop.png';
+// import Lodge3 from '../../../Assets/backdrop.png';
 
-import Chyulu from '../../../Assets/aerial.png';
+// import Chyulu from '../../../Assets/aerial.png';
+
+import Lodge2 from '../../../Assets/images (21).jpeg';
+
+import Lodge3 from '../../../Assets/images (6).jpeg';
+
+import Chyulu from '../../../Assets/images (9).jpeg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -90,12 +96,12 @@ const Medina =()=>{
                     <li>Dolphin watching</li>
                     <li>Humpback whale watching (seasonal)</li>
                     <li>Dine in a mangrove restaurant</li>
-                    <li>Lunch at Rock n Sea Restaurant</li>
+                    <li>Lunch at Rock on Sea Restaurant</li>
 
 
                 </p>
                 
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[100px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge2}/>
@@ -106,9 +112,7 @@ const Medina =()=>{
                     <div>
                     <img src={Chyulu}/>
                     </div>
-                    <div>
-                    <img src={Lodge1}/>
-                    </div>
+                    
                     </Slider>
                 </div>
             </section>

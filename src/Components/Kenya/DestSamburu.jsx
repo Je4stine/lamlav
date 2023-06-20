@@ -21,6 +21,8 @@ import Larsen from '../../Assets/larsens.jpg';
 
 import Sasaab from '../../Assets/sasaab.jpg';
 
+import Elephant from '../../Assets/safari-in-samburu-by-muthaiga-travel-11-900x500.jpg';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -63,7 +65,7 @@ const DestSamburu =()=>{
                 <br/><br/>However, the highlight of this region is not just the wildlife but also the Samburu people. They are closely related to the Maasai and are known for their proud and friendly nature. The Samburu people make a lasting impression on visitors and often become their fondest memories of the safari experience, reminding us that while we may have come to Africa to see its animals, it is its people that leave a lasting impact.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                <div className="relative mt-20 z-[0] lg:mx-[100px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>
@@ -87,7 +89,7 @@ const DestSamburu =()=>{
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
-                        <div className=" mr-10 lg:w-1/2">
+                        <div className=" mr-10 lg:w-1/3">
                             <img src={Larsen} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/larsen'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Larsens Camp</h1></a> 
                             <a href='/kenya/larsen'><div className='hover:text-[#f15d30] lg:text-lg'>
@@ -96,10 +98,18 @@ const DestSamburu =()=>{
                         </div>
                         
 
-                        <div className="lg:w-1/2">
+                        <div className="mr-10 lg:w-1/3">
                             <img src={Sasaab} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/sasaab'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Sasaab Samburu</h1></a> 
                             <a href='/kenya/sasaab'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                                        <span >Samburu National Park Kenya</span>
+                            </div></a> 
+                        </div>
+
+                        <div className="lg:w-1/3">
+                            <img src={Elephant} alt="Ol Tukai" loading ="lazy"/>
+                            <a href='/kenya/elephant'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Elephant Bedroom Samburu</h1></a> 
+                            <a href='/kenya/elephant'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Samburu National Park Kenya</span>
                             </div></a> 
                         </div>

@@ -8,9 +8,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Mara .jpg';
+import Lodge1 from '../../../Assets/lodge4.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/lodge5.jpg';
 
 import Lodge3 from '../../../Assets/lodge5.jpg';
 

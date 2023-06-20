@@ -64,7 +64,7 @@ const Finch =()=>{
 
 
                 <br/><br/> <strong>Amenities  at Finch  Hatton’s  Luxury </strong>
-                    <li></li>Exceptional conferencing facilities
+                    <li>Exceptional conferencing facilities</li>
                     <li>Wi-fi</li>
                     <li>Infinity  pool</li>
                     <li>Library  and Research  centre </li>
@@ -92,15 +92,15 @@ const Finch =()=>{
                     <div>
                         <img src={Lodge4}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge2}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Chyulu}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge5}/>
                     </div>

@@ -96,12 +96,12 @@ const Sands =()=>{
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Chyulu}/>
                     </div>
                     <div>
                     <img src={Lodge1}/>
-                    </div>
+                    </div> */}
                     </Slider>
                 </div>
                 

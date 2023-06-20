@@ -21,6 +21,8 @@ import Sands from  '../../Assets/sands.jpg';
 
 import Kinondo from '../../Assets/kinindo.jpg';
 
+import Almanara from '../../Assets/Almanara-2018-15.jpg';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -64,7 +66,7 @@ const DestMombasa =()=>{
                 <br/><br/>The old city of Mombasa is characterized by its narrow streets and intricate carvings, while the Gedi ruins south of Malindi are some of the most impressive examples of the area's history. The Kenya coast is rich in the remains of old Swahili settlements.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                <div className="relative mt-20 z-[0] lg:mx-[100px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>
@@ -72,9 +74,9 @@ const DestMombasa =()=>{
                     <div>
                     <img src={Lodge2}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge3}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge2}/>
                     </div>
@@ -88,7 +90,7 @@ const DestMombasa =()=>{
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
-                        <div className=" mr-10 lg:w-1/2">
+                        <div className=" mr-10 lg:w-1/3">
                             <img src={Sands} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/sands'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >The Sands of Nomad</h1></a> 
                             <a href='/kenya/sands'><div className='hover:text-[#f15d30] lg:text-lg'>
@@ -97,10 +99,18 @@ const DestMombasa =()=>{
                         </div>
                         
 
-                        <div className="lg:w-1/2">
+                        <div className="mr-10 lg:w-1/3">
                             <img src={Kinondo} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/kinondo'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kinindo Kwetu</h1></a> 
                             <a href='/kenya/kinondo'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                                        <span >Mombasa Kenya</span>
+                            </div></a> 
+                        </div>
+
+                        <div className="lg:w-1/3">
+                            <img src={Almanara} alt="Ol Tukai" loading ="lazy"/>
+                            <a href='/kenya/almanara'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Almanara</h1></a> 
+                            <a href='/kenya/almanara'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Mombasa Kenya</span>
                             </div></a> 
                         </div>

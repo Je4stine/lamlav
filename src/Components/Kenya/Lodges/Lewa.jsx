@@ -104,9 +104,9 @@ const Lewa =()=>{
                     <div>
                     <img src={Lodge4}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge5}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge6}/>
                     </div>

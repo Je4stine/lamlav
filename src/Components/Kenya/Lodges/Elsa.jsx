@@ -89,7 +89,7 @@ const Elsa =()=>{
 
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] lg:mx-[150px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge2}/>

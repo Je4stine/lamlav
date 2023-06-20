@@ -73,9 +73,9 @@ const DestLewa =()=>{
                     <div>
                     <img src={Lodge2}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge3}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lewaco}/>
                     </div>

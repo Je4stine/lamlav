@@ -8,13 +8,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/lodge1.jpg';
+import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
 
-import Lodge2 from '../../../Assets/2014-03-26.jpg';
+import Lodge2 from '../../../Assets/Untitled-HDR-04.1-1140x600-1.jpg';
 
-import Lodge3 from '../../../Assets/2020-10-22 (4).jpg';
+import Lodge3 from '../../../Assets/Untitled-HDR-09.1-1140x600-1.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Almanara =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -88,7 +92,22 @@ const Almanara =()=>{
 
 
                 </p>
-                
+                <div className="relative mt-20 z-[0] lg:mx-[100px]">
+                    <Slider {...settings} autoplay arrows>
+                        <div>
+                            <img src={Lodge1}/>
+                        </div>
+                        <div>
+                        <img src={Lodge2}/>
+                        </div>
+                        {/* <div>
+                        <img src={Lodge3}/>
+                        </div> */}
+                        <div>
+                        <img src={Lodge3}/>
+                        </div>
+                    </Slider>
+                </div>
                 
             </section>
             <div>

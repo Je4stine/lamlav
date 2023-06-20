@@ -8,17 +8,18 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/naboisho.jpg';
+import Lodge1 from '../../../Assets/rianta2.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/rianta1.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/rianta2.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/rianta4.jpg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+
 
 const Neptune =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -96,9 +97,9 @@ const Neptune =()=>{
                     <div>
                     <img src={Chyulu}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge1}/>
-                    </div>
+                    </div> */}
                     </Slider>
                 </div>
                 

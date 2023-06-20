@@ -97,9 +97,9 @@ const Mbweha =()=>{
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Chyulu}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge1}/>
                     </div>

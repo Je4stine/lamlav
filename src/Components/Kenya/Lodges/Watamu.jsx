@@ -10,11 +10,11 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/watamu1.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/images (22).jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/images (23).jpeg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/images (24).jpeg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -90,17 +90,17 @@ const Watamu =()=>{
                 
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
-                    <div>
+                    {/* <div>
                         <img src={Lodge1}/>
+                    </div> */}
+                    <div>
+                    <img src={Lodge2}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge3}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
-                    </div>
-                    <div>
-                    <img src={Lodge1}/>
+                    <img src={Chyulu}/>
                     </div>
                     </Slider>
                 </div>

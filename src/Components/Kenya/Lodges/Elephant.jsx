@@ -8,13 +8,18 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/lodge1.jpg';
+import Lodge1 from '../../../Assets/elephantus.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/ele1.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/ele3.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Chyulu from '../../../Assets/ele4.jpg';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 
 const Elephant =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -78,7 +83,22 @@ const Elephant =()=>{
 
 
                 </p>
-                
+                <div className="relative mt-20 z-[0] lg:mx-[100px]">
+                <Slider {...settings} autoplay arrows>
+                    <div>
+                        <img src={Chyulu}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    <div>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
+                    </Slider>
+                </div>
                 
             </section>
             <div>

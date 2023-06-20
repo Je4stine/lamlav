@@ -19,6 +19,9 @@ import Game1 from '../../Assets/game.jpg';
 
 import Serena from '../../Assets/maraserena.jpg';
 
+import Rianta from '../../Assets/rianta2.jpg';
+
+
 import Plains from '../../Assets/maraplains.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -65,9 +68,9 @@ const DestMaasai =()=>{
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
-                    <div>
+                    {/* <div>
                         <img src={Lodge1}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge2}/>
                     </div>
@@ -87,7 +90,7 @@ const DestMaasai =()=>{
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
-                        <div className=" mr-10 lg:w-1/2">
+                        <div className=" mr-10 lg:w-1/3">
                             <img src={Serena} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/marares'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Serena Lodge</h1></a> 
                             <a href='/kenya/marares'><div className='hover:text-[#f15d30] lg:text-lg'>
@@ -95,12 +98,21 @@ const DestMaasai =()=>{
                             </div></a> 
                         </div>
                         
+                        
 
 
-                        <div className="lg:w-1/2">
+                        <div className=" mr-10 lg:w-1/3">
                             <img src={Plains} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/maraplains'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Plain Camps</h1></a> 
                             <a href='/kenya/maraplains'><div className=' hover:text-[#f15d30] lg:text-lg'>
+                                        <span >Maasai Mara National Park Kenya</span>
+                            </div></a> 
+                        </div>
+
+                        <div className="lg:w-1/3">
+                            <img src={Rianta} alt="Ol Tukai" loading ="lazy"/>
+                            <a href='/kenya/neptune'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Neptune Mara Rianta Luxury Tented Camps</h1></a> 
+                            <a href='/kenya/neptune'><div className=' hover:text-[#f15d30] lg:text-lg'>
                                         <span >Maasai Mara National Park Kenya</span>
                             </div></a> 
                         </div>

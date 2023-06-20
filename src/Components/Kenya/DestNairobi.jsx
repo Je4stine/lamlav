@@ -11,7 +11,7 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../Assets/Nairobipa.jpg';
 
-import Lodge2 from '../../Assets/kanairo.jpeg';
+import Lodge2 from '../../Assets/Nairo.jpeg';
 
 import Lodge3 from '../../Assets/Kanairo3.jpg';
 
@@ -67,7 +67,7 @@ const DestNairobi =()=>{
                 You can spend a day at the Wildlife Trust, where you can interact with baby elephants and rhinos, or visit the Giraffe Center, which focuses on preserving the endangered Rothschild's giraffe. For a unique experience, stay at Giraffe Manor, a colonial-style property where resident giraffes roam the grounds and sometimes even join you for breakfast on the terrace.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

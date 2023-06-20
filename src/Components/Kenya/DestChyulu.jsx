@@ -66,15 +66,15 @@ const DestChyulu =()=>{
                     <div>
                         <img src={Lodge1}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge2}/>
-                    </div>
+                    </div> */}
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge2}/>
-                    </div>
+                    </div> */}
                     </Slider>
                 </div>
                 <hr/>
