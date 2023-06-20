@@ -9,11 +9,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/Nairobipa.jpg';
+import Lodge1 from '../../Assets/nai1.jpeg';
 
 import Lodge2 from '../../Assets/Nairo.jpeg';
 
-import Lodge3 from '../../Assets/Kanairo3.jpg';
+import Lodge3 from '../../Assets/nai2.jpeg';
 
 import Suncity from '../../Assets/sunsity.jpg';
 
@@ -73,13 +73,13 @@ const DestNairobi =()=>{
                         <img src={Lodge1}/>
                     </div> */}
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge1}/>
                     </div>
                     {/* <div>
                     <img src={Lodge3}/>
                     </div> */}
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge3}/>
                     </div>
                     </Slider>
                 </div>
