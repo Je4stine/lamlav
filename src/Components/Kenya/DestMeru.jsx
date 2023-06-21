@@ -50,13 +50,13 @@ const DestMeru =()=>{
              {
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
-            <secttion>
+            <section>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Meru National Park</h1>
                     <img src={Zebra} alt="Roaring lion" className=" "/>
                 </div>
-            </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            </section>
+            <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Meru National Park is located in the Central Highlands of Kenya, near Mount Kenya and straddles the equator. The park is known for its diverse wildlife, including elephants, hippos, cheetahs, giraffes, buffalos, and over 400 species of birds. 
                 <br/><br/>The park was once home to the famous lioness Elsa, who was adopted by George and Joy Admanson and was the subject of the popular book and song "Born Free." Spending a peaceful afternoon in Meru, surrounded by birdsong, and revisiting the story of Elsa is a great way to spend the day.

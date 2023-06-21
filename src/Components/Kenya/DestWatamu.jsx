@@ -53,13 +53,13 @@ const DestWatamu =()=>{
              {
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
-            <secttion>
+            <section>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Watamu</h1>
                     <img src={Tatol} alt="Roaring lion" className="lg:m-auto lg:w-[70%]"/>
                 </div>
-            </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            </section>
+            <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                     Watamu in the North-Coast is a magical, charming, and timeless place that enchants all who visit. Perched on a small peninsula, surrounded by the serene Mida Creek and dotted with rocky coves and shimmering lagoons, Watamu is a paradise. The turquoise waters, protected by Kenya's barrier reef, are crystal clear and warm all year, making it an ideal location for swimming and relaxing. The area is surrounded by towering baobab trees and boasts three great stretches of silver sand, making it  a true escape from the hustle and bustle of everyday life.
                 </p>

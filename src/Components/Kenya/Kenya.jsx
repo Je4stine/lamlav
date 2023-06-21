@@ -43,23 +43,27 @@ const Kenya = ()=>{
                   <em>"You know you are trliy alive when you are living among lions." ~ Karen Blixen</em>
                 </p> */}
             </div>
-            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10">
-              <p className=" font-[SourceSerifPro-Regluar] pt-[50px] lg:text-xl">
-                Visitors worldwide are drawn to the bustling atmosphere and modern architecture of Nairobi, as well as its fine dining options. However, in the countryside, specifically in the treasured national parks and conservancies, the focus shifts from human activity to the awe-inspiring wildlife. Observing the Big Five becomes a natural experience in this region. These magnificent creatures captivate visitors with their numbers and opportunities for close-up observation.The thrilling events of the Great Migration, which take place annually in the Masai Mara, is one striking example.
-                <br/><br/>For those seeking a more secluded safari experience, the Laikipia Plateau, with its endangered species such as the white rhinoceroses, Grévy's zebra and wild dog; and the sun-soaked Samburu National Reserve, with its cooling elephants in the Ewaso Ng'iro River, offer a different perspective. 
-                <br/> <br/>In addition to wildlife viewing, a trip to Kenya presents the chance to learn about the Maasai cliture and to unwind on the idyllic beaches along the country's extensive coastline.
-                <br/> <br/><strong>LAMLAV LEISURE  SAFARIS</strong> provides exclusive, inspiring, and authentic safari experiences through its Private Safaris, Custom Safaris, and Small group Classic Safaris that are always built  around  the tastes, preferences, and budget of every client.  
-                <br/><br/>We showcase the diverse landscapes of Kenya including:
-                <li>The world-famous Maasai Mara, which is the northern part of the Serengeti-Maasai Mara ecosystem and the greatest wildlife show on the planet.</li>
-                <li>The breathtaking Amboseli National Park with views of Kilimanjaro.</li>
-                <li>The brush and riverine areas of Samburu, Laikipia Plateau and  Mount Kenya. </li>
-                <li>The stunning Lake Turkana, in the northern  district. </li>
-                <li>The iconic  Tsavo West and Tsavo  East wildlife  sanctuaries </li>
-              </p>
+            <section className=" bg-white w-[100%] m-auto lg:px-[50px] px-10">
+              <div className=" lg:px-[100px]">
+                <p className=" font-[SourceSerifPro-Regluar] pt-[50px] lg:text-xl">
+                  Visitors worldwide are drawn to the bustling atmosphere and modern architecture of Nairobi, as well as its fine dining options. However, in the countryside, specifically in the treasured national parks and conservancies, the focus shifts from human activity to the awe-inspiring wildlife. Observing the Big Five becomes a natural experience in this region. These magnificent creatures captivate visitors with their numbers and opportunities for close-up observation.The thrilling events of the Great Migration, which take place annually in the Masai Mara, is one striking example.
+                  <br/><br/>For those seeking a more secluded safari experience, the Laikipia Plateau, with its endangered species such as the white rhinoceroses, Grévy's zebra and wild dog; and the sun-soaked Samburu National Reserve, with its cooling elephants in the Ewaso Ng'iro River, offer a different perspective. 
+                  <br/> <br/>In addition to wildlife viewing, a trip to Kenya presents the chance to learn about the Maasai cliture and to unwind on the idyllic beaches along the country's extensive coastline.
+                  <br/> <br/><strong>LAMLAV LEISURE  SAFARIS</strong> provides exclusive, inspiring, and authentic safari experiences through its Private Safaris, Custom Safaris, and Small group Classic Safaris that are always built  around  the tastes, preferences, and budget of every client.  
+                  <br/><br/>We showcase the diverse landscapes of Kenya including:
+                  <li>The world-famous Maasai Mara, which is the northern part of the Serengeti-Maasai Mara ecosystem and the greatest wildlife show on the planet.</li>
+                  <li>The breathtaking Amboseli National Park with views of Kilimanjaro.</li>
+                  <li>The brush and riverine areas of Samburu, Laikipia Plateau and  Mount Kenya. </li>
+                  <li>The stunning Lake Turkana, in the northern  district. </li>
+                  <li>The iconic  Tsavo West and Tsavo  East wildlife  sanctuaries </li>
+                </p>
+              </div>
+             
             </section>
             <section className=" bg-white flex flex-col items-center pt-20 ">
               <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Kenya </h1>
-              <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[250px]">
+
+              <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
                   <img src={AmboseliN} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5 lg:justify-between lg:w-1/2">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Amboseli  National  Reserve </h1>
@@ -71,8 +75,9 @@ const Kenya = ()=>{
                       </div></a> 
                   </div>
               </div>
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
 
-              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Tsavo} alt=" Tsavo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Tsavo  National  park </h1>
@@ -85,9 +90,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
 
-
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Lewaco} alt=" Lewa Conservancy" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Lewa Conservancy </h1>
@@ -101,7 +106,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Olpe} alt=" Ol Pejeta" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Ol Pejeta  Conservancy  </h1>
@@ -115,7 +122,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Game1} alt=" The game" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">The Maasai Mara National Reserve  </h1>
@@ -129,7 +138,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Chyulu} alt=" Chyullu hills" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Chyullu hills </h1>
@@ -143,7 +154,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Zebra} alt=" Zebra" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Meru National Park </h1>
@@ -159,7 +172,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Naivasha} alt="Flamingo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Lake Nakuru & Lake Naivasha </h1>
@@ -175,7 +190,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Dik} alt=" Dik Dik" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Samburu National Park</h1>
@@ -188,8 +205,9 @@ const Kenya = ()=>{
                       </div></a> 
                   </div>
               </div>
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
 
-              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Mount} alt=" Mt. Kenya" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mount Kenya</h1>
@@ -203,7 +221,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Suncity} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Nairobi</h1>
@@ -218,7 +238,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Mombasani} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mombasa</h1>
@@ -232,7 +254,9 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[250px]">
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+
+              <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Tatol} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Watamu</h1>
@@ -250,6 +274,8 @@ const Kenya = ()=>{
                       </div></a> 
                   </div>
               </div>
+
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
 
             </section>
             <div className=" bg-white pt-20">

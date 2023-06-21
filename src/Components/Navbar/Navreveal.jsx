@@ -15,12 +15,12 @@ const Navbar =()=>{
 
     return (
         <nav className=" w-full top-0 z-[1] lg:flex lg:justify-between lg:bg-white bg-white px-5 h-[60px] sticky shadow-lg">
-            <div className=' flex justify-between items-center' >
+            <div className=' flex justify-between items-center relative' >
                 <h1 className=" mx-4 lg:my-6 font-bold text-xl text-black lg:text-black my-3"><a href='/'>Lamlav Leisure Safaris</a></h1>
                 <span  className=' cursor-pointer block lg:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>
-                <div className=' hidden lg:inline ml-[400px] border-black border-x-[1px] px-5'>
+                <div className=' hidden lg:inline absolute left-[300px] border-black border-x-[1px] px-5'>
                     <div className=' flex flex-col justify-center items-center'>
                     <div className=' flex justify-center items-center'>
                             <AiOutlinePhone color='#000'/>

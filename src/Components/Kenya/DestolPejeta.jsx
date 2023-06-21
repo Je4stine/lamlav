@@ -52,13 +52,13 @@ const DestOlpe =()=>{
              {
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
-            <secttion>
+            <section>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Ol Pejeta Conservancy</h1>
                     <img src={Olpe} alt="Roaring lion" className=" "/>
                 </div>
-            </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            </section>
+            <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 This protected area and a great tourists destination is situated near the equator, to the west of Nanyuki, near the foothills of Mount Kenya and the Aberdares. It was founded with the goal of preserving wildlife, providing a habitat for great apes, and generating revenue through wildlife-related activities. 
                 <br/><br/>At Ol Pejeta Conservancy, you don't have to limit yourself to game viewing by vehicle. Other options include game walks, horseback or camel rides, and night drives. The conservancy, has had a rich history, with previous owners ranging from Lord Delamere to Roussel Onassis and Adnan Khashoggi. Originally established as a cattle ranch, the frequent destruction of fences by elephant herds made intensive cattle farming difficult, but cattle still plays a role in the conservancy today as a managed livestock. Ol Pejeta is also dedicated to education, hosting an Environmental and Conservation Centre that annually welcomes around 100 Kenyan schools, and offers opportunities to learn about the local culture and traditions of the Samburu, Turkana, Pokot, and Maasai peoples.

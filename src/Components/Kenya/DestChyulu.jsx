@@ -49,13 +49,13 @@ const DestChyulu =()=>{
              {
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
-            <secttion>
+            <section>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">The Chyullu Hills</h1>
                     <img src={Lodge2} alt="Roaring lion" className=" "/>
                 </div>
-            </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            </section>
+            <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Comprising of over 750,000 acres managed for wildlife, the Chyulu Hills are considered to be one of the finest wilderness areas in Africa, featuring rainforests and lush meadows.The hills and the nearby plains with their forested areas and river sources, are secluded and teeming with wildlife that is not frequently disturbed. Mount Kilimanjaro, which can be seen on the East side, is constantly present during safaris to the Chyulu Hills, just across the Kenya-Tanzania border.
                 <br/><br/>This area is ideal for hikers who enjoy ascending hills and creating unforgettable memories.

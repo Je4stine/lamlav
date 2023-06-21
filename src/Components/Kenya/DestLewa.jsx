@@ -51,13 +51,13 @@ const DestLewa =()=>{
              {
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
-            <secttion>
+            <section>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Lewa Conservancy</h1>
                     <img src={Lewaco} alt="Roaring lion" className=" lg:m-auto lg:w-[70%]"/>
                 </div>
-            </secttion>
-            <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            </section>
+            <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 The Lewa Wildlife Conservancy is a safe haven for a wide range of wildlife species, including the big five. The conservancy is also home to various plains game species that are well-adapted to the semi-desert environment, such as Grevy's Zebra and Reticulated Giraffe. The Beisa Oryx and Greater Kudu, which are seasonal visitors, and the Guenther's Dikdik, Gerenuk and Somali Ostrich, which are residents all year round, are also present in the conservancy. .
                 <br/><br/>The swamp in the conservancy is a haven for the rare Sitatunga Antelope and its primary predator, the Leopard. The conservancy is also home  to a rich birdlife, including numerous species of Bustard, Plover, Coursers, and birds of prey. 
