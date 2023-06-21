@@ -55,7 +55,7 @@ const Waine=()=>{
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 House of Waine is a high-end boutique hotel situated on a spacious 2.5-acre property that combines the sophistication of luxurious living with the essence of contemporary Africa, providing a secluded and tranquil atmosphere. The hotel features 11 bedrooms, each designed to reflect a unique style and ambiance,and  is centrally located near the best of Nairobi's attractions such as the Karen Blixen Muesum, the Kazuri beads, The Giraffe centre and The world famous David Sheldrick Wildlife Trust amongst others.
-                <br/><br/>House of Waine is a unique boutique hotel, resembling a villa with a vibrant peach-colored exterior. The hotel boasts an ornate design, showcasing the designer's refined taste. The reception area features a stunning chandelier crafted from ostrich eggs, the bar has feather lampshades, and the living room is adorned with oversized leather sofas and sturdy wooden tables. Upstairs, each bedroom has a distinct character, including an Indian room with opulent gold fabrics, a coastal room with bright colors and seashell accents, and several African-themed rooms with bedspreads boasting African prints.
+                <br/><br/>The hotel boasts an ornate design, showcasing the designer's refined taste. The reception area features a stunning chandelier crafted from ostrich eggs, the bar has feather lampshades, and the living room is adorned with oversized leather sofas and sturdy wooden tables. Upstairs, each bedroom has a distinct character, including an Indian room with opulent gold fabrics, a coastal room with bright colors and seashell accents, and several African-themed rooms with bedspreads boasting African prints.
 
                 <br/><br/>While the decor may not appeal to everyone, the hotel provides exceptional comfort. Each bedroom is exceptionally spacious and equipped with air conditioning, satellite television, minibars, safes, and sizable en suite bathrooms.
 
@@ -71,7 +71,7 @@ const Waine=()=>{
                 <li>Bar</li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>En-suite  Bathroom </li>
                 <li>Flatscreen TV</li>
                 <li>Telephone </li>

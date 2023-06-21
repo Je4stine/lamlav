@@ -58,24 +58,32 @@ const Finch =()=>{
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                Finch Hattons is a tented safari camp that embodies luxury and a deep appreciation for the natural beauty of Tsavo. The camp is situated in a secluded location, giving the feeling of being completely disconnected from the outside world. It is a place where guests can immerse themselves in the vast and diverse landscape, surrounded by the many wildlife species that inhabit the area.This magical destination is situated within 35 acres of land in the southwestern corner of Tsavo West, and covers 9000 square kilometers of unspoiled African wilderness. 
-                <br/><br/> This area is characterized by natural fresh water springs, rainforests, volcanoes, lava flows, and a diverse range of flora and fauna. While staying at this camp, guests will have the opportunity to see elephants, lions, leopards, hippos, crocodiles, buffalos, and a wide variety of birds, among other treasured wildlife.
+                Finch Hattons is a tented safari camp that embodies luxury and a deep appreciation for the natural beauty of Tsavo. The camp is situated in a secluded location, giving the feeling of being completely disconnected from the outside world. It is a place where guests can immerse themselves in the vast and diverse landscape, surrounded by the many wildlife species that inhabit the area.<br/><br/>This magical destination is situated within 35 acres of land in the southwestern corner of Tsavo West, and covers 9000 square kilometers of unspoiled African wilderness. 
+                <br/><br/> The area is characterized by natural fresh water springs, rainforests, volcanoes, lava flows, and a diverse range of flora and fauna. While staying at this camp, guests will have the opportunity to see elephants, lions, leopards, hippos, crocodiles, buffalos, and a wide variety of birds, among other treasured wildlife.
                 <br/><br/> The Camp features 17 luxurious tents that blend the beauty of Africa with sophistication and comfort. These tents are elevated to provide stunning views of the surrounding area and ensure complete privacy for guests. The open-plan design of the tents allows for a refreshing flow of air from the nearby springs, bringing the sights and fragrances of the wilderness directly to you
 
 
                 <br/><br/> <strong>Amenities  at Finch  Hatton’s  Luxury </strong>
-                    <li>Exceptional conferencing facilities</li>
-                    <li>Wi-fi</li>
-                    <li>Infinity  pool</li>
-                    <li>Library  and Research  centre </li>
-                    <li>Airstrip  with helipad </li>
-                    <li>Safari  shop</li>
-                    <li>Chyulu  Spa & massage </li>
-                    <li>Fitness  center </li>
-                    <li>Room  features </li>
-                    <li>Private  veranda </li>
-                    <li>En-suite  bathrooms </li>
-                    <li>Battler  service </li>
+                    <div className=" lg:flex justify-between" >
+                        <div>
+                            <li>Exceptional conferencing facilities</li>
+                            <li>Wi-fi</li>
+                            <li>Infinity  pool</li>
+                            <li>Library  and Research  centre </li>
+                            <li>Airstrip  with helipad </li>
+                            <li>Safari  shop</li>
+                        </div>
+                        <div>
+                            <li>Chyulu  Spa & massage </li>
+                            <li>Fitness  center </li>
+                            <br/><br/><strong>Room  features </strong>
+                            <li>Private  veranda </li>
+                            <li>En-suite  bathrooms </li>
+                            <li>Battler  service </li>
+                        </div>
+                    </div>
+                    
+                    
 
 
                     <br/><br/> <strong>Activities  at Finch Hattons </strong>

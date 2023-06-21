@@ -86,7 +86,7 @@ const DestMaasai =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Maasai Mara</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Maasai Mara</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -94,7 +94,7 @@ const DestMaasai =()=>{
                             <img src={Serena} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/marares'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Serena Lodge</h1></a> 
                             <a href='/kenya/marares'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Maasai Mara National Park Kenya</span>
+                                        <span >Maasai Mara - Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -105,7 +105,7 @@ const DestMaasai =()=>{
                             <img src={Plains} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/maraplains'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mara Plain Camps</h1></a> 
                             <a href='/kenya/maraplains'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Maasai Mara National Park Kenya</span>
+                                        <span >Maasai Mara, Kenya</span>
                             </div></a> 
                         </div>
 
@@ -113,7 +113,7 @@ const DestMaasai =()=>{
                             <img src={Rianta} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/neptune'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Neptune Mara Rianta Luxury Tented Camps</h1></a> 
                             <a href='/kenya/neptune'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Maasai Mara National Park Kenya</span>
+                                        <span >Maasai Mara, Kenya</span>
                             </div></a> 
                         </div>
                     </div>

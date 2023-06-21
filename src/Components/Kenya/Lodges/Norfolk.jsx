@@ -54,9 +54,10 @@ const Norfolk =()=>{
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <em>Fairmont The Norfolk provides a serene and tranquil retreat for all visitors to Nairobi, whether they are stopping over for work, or embarking on a Kenyan safari journey. The hotel offers luxurious accommodation in Nairobi, creating a peaceful oasis for all guests.</em>
+                Fairmont The Norfolk provides a serene and tranquil retreat for all visitors to Nairobi, whether they are stopping over for work, or embarking on a Kenyan safari journey. The hotel offers luxurious accommodation in Nairobi, creating a peaceful oasis for all guests.
 
-                <br/><br/>Fairmont The Norfolk, a well-known and beloved landmark that has been around since 1904, has played an important part in Kenya's history, especially as the town of Nairobi grew and developed into a modern city. With a mix of traditional charm and modern design, the hotel is a delightful surprise and provides guests with a stylish and refined haven in the heart of the city. It is conveniently located near key business districts like Gigiri, Westlands, and Upperhill, as well as popular leisure spots and the emerging Nairobi art scene.
+                <br/><br/>Fairmont The Norfolk, a well-known and beloved landmark that has been around since 1904, has played an important part in Kenya's history, especially as the town of Nairobi grew and developed into a modern city. 
+                <br/><br/>With a mix of traditional charm and modern design, the hotel is a delightful surprise and provides guests with a stylish and refined haven in the heart of the city. It is conveniently located near key business districts like Gigiri, Westlands, and Upperhill, as well as popular leisure spots and the emerging Nairobi art scene.
                 <br/><br/>The hotel has a total of 108 rooms and 17 suites, which are located around peaceful tropical gardens. Guests can can enjoy the heated outdoor swimming pool and the health club, which includes a fitness centre and spa facilities. The rooms are a blend of timeless sophistication and contemporary style, featuring unobtrusive modern technology. Several rooms offer stunning views of the landscaped courtyard from elevated positions. For those looking for an opulent stay that connects with the city's cultural heritage, the signature suites are an exceptional choice.
 
 
@@ -72,7 +73,7 @@ const Norfolk =()=>{
                 <li>Electricity </li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>En-suite  bathroom </li>
                 <li>Minibars</li>
                 <li> Satellite  TV </li>

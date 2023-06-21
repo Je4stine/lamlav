@@ -59,7 +59,7 @@ const Elsa =()=>{
                 <br/><br/>The original campsite where George Adamson raised and released orphan lions is located below the lodge, and guests can explore the same stunning surroundings where Elsa and her family once roamed. Activities at Elsa's Kopje include morning and afternoon game drives, walking tours, and fishing. Meru National Park is home to an incredible variety of wildlife, including hippopotamus, lions, large elephant herds, and over 60 black and white rhinoceroses, as well as a diverse bird population.
 
                 <br/><br/>The park also features great forests, giant baobab trees, and rare species such as the caracal, Lesser Kudu, and aardwolf. Returning to the boutique luxury lodge after each expedition is a delightful experience, with options to relax by the infinity pool on the hillside, enjoy a delicious lunch in the open air, or indulge in a massage or reading a book on the private balcony, where curious and harmless hyrax may visit.
-                <br/><br/> Elsa's Kopje offers a selection of uniquely luxurious and dreamlike cottages that are built into and around the beautiful red rocks, also known as "kopje" in Afrikaans, and boast spacious bedrooms, sitting rooms, bathrooms, and verandas with stunning views of the expansive plains of Meru National Park. Some cottages even feature romantic outdoor baths for an added touch of luxury. For families on safari, a new, larger cottage with two bedrooms, a living room, and a private deck is available. Additionally, Elsa's Private House provides a particularly lavish experience with its large dining and sitting rooms, private garden, and infinity swimming pool. The spa offers impeccable massage and mani-pedi treatments to keep your skin glowing and your body feeling great. Dinner at Elsa's Kopje is a truly regal and relaxing experience, with delectable courses served under the starry African sky in the elegantly set garden tables illuminated by candles.
+                <br/><br/> Elsa's Kopje offers a selection of uniquely luxurious and dreamlike cottages that are built into and around the beautiful red rocks, also known as "kopje" in Afrikaans, and boast spacious bedrooms, sitting rooms, bathrooms, and verandas with stunning views of the expansive plains of Meru National Park. Some cottages even feature romantic outdoor baths for an added touch of luxury. For families on safari, a new, larger cottage with two bedrooms, a living room, and a private deck is available. <br/><br/>Additionally, Elsa's Private House provides a particularly lavish experience with its large dining and sitting rooms, private garden, and infinity swimming pool. The spa offers impeccable massage and mani-pedi treatments to keep your skin glowing and your body feeling great. Dinner at Elsa's Kopje is a truly regal and relaxing experience, with delectable courses served under the starry African sky in the elegantly set garden tables illuminated by candles.
 
  
 
@@ -70,7 +70,7 @@ const Elsa =()=>{
                 <li>Laundry  services </li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features</strong>
                 <li>Room service</li>
                 <li>Private Veranda </li>
                 <li>En-suite bathroom </li>

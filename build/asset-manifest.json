@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1fbe6288.css",
-    "main.js": "/static/js/main.3a516a07.js",
+    "main.js": "/static/js/main.b4357558.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Janv 23 (3).png": "/static/media/Janv 23 (3).0bcdf118fcaa30dd1bf3.png",
     "static/media/Janv 23 (8).png": "/static/media/Janv 23 (8).7d33cba958c02b0e83a1.png",
@@ -38,7 +38,6 @@
     "static/media/Kicheche-Laikipia-Tent-in-to-Out.jpg": "/static/media/Kicheche-Laikipia-Tent-in-to-Out.260000ffc7dd91dcf51c.jpg",
     "static/media/IMG_1859_1600_900-1.jpg": "/static/media/IMG_1859_1600_900-1.7b62c7875d725f290ee9.jpg",
     "static/media/Kinondo+Kwetu+Hotel+Traditional+Sailing,+Galu+Beach,+Diani+Beach,+Kenya+kopia.jpg": "/static/media/Kinondo+Kwetu+Hotel+Traditional+Sailing,+Galu+Beach,+Diani+Beach,+Kenya+kopia.4c4ffeb12fed31602df8.jpg",
-    "static/media/Tent-02.jpg": "/static/media/Tent-02.b1422463dda6c4c399ed.jpg",
     "static/media/Family+Room+Interconnecting,+Kinondo+Kwetu+Hotel,+Galu+Beach,+Diani+Beach,+Kenya.jpg": "/static/media/Family+Room+Interconnecting,+Kinondo+Kwetu+Hotel,+Galu+Beach,+Diani+Beach,+Kenya.e52d9e60f69e6a1b166e.jpg",
     "static/media/porini-rhino-camp-gallery-image-12-1444934879.jpg": "/static/media/porini-rhino-camp-gallery-image-12-1444934879.8cfc4834a0c23cb1df4e.jpg",
     "static/media/maraserena.jpg": "/static/media/maraserena.ca404799820e4d901eaa.jpg",
@@ -62,6 +61,7 @@
     "static/media/lewacon.jpg": "/static/media/lewacon.67cc6cfa93b1fa365163.jpg",
     "static/media/Tatol.jpg": "/static/media/Tatol.38cb55e626e3652956f2.jpg",
     "static/media/little-tortilis-.jpg": "/static/media/little-tortilis-.4ca490a79bc0ab01bfbb.jpg",
+    "static/media/finch-hattons-tsavo-star-gazing.jpg": "/static/media/finch-hattons-tsavo-star-gazing.5bf76910b6a785432aaf.jpg",
     "static/media/274932-tortilis-camp-amboseli-national-park.jpg": "/static/media/274932-tortilis-camp-amboseli-national-park.5ffd74446c1184f5eb1e.jpg",
     "static/media/maasai2.jpg": "/static/media/maasai2.037df7df40dcef7e833e.jpg",
     "static/media/elsa.jpg": "/static/media/elsa.92be62b877a44e5764db.jpg",
@@ -279,11 +279,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.1fbe6288.css.map": "/static/css/main.1fbe6288.css.map",
-    "main.3a516a07.js.map": "/static/js/main.3a516a07.js.map",
+    "main.b4357558.js.map": "/static/js/main.b4357558.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fbe6288.css",
-    "static/js/main.3a516a07.js"
+    "static/js/main.b4357558.js"
   ]
 }

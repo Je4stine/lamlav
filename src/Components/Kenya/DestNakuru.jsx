@@ -60,7 +60,7 @@ const DestNakuru =()=>{
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
-                Lake Nakuru, located in its namesake national park, is famous for the large number of flamingos that gather there to feed on algae. The lake was featured in the movie "Out of Africa," where it was depicted as a breathtaking sight as hundreds of thousands of flamingos take flight in a pink cloud. The protected  area also supports  a healthy  number of black and white  rhinos,  as well as tree- climbing lion, leopard and the usual plains game.This is just one of the many dramatic natural events that can be experienced in Africa.
+                Lake Nakuru, located in its namesake national park, is famous for the large number of flamingos that gather there to feed on algae. The lake is a breathtaking sight as hundreds of thousands of flamingos take flight in a pink cloud. The protected  area also supports  a healthy  number of black and white  rhinos,  as well as tree- climbing lion, leopard and the usual plains game.This is just one of the many dramatic natural events that can be experienced in Africa.
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[100px]">
                 <Slider {...settings} autoplay arrows>
@@ -82,7 +82,7 @@ const DestNakuru =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Nakuru</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Lake Nakuru & Naivasha</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -90,7 +90,7 @@ const DestNakuru =()=>{
                             <img src={Lodia} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/loldia'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Loldia House & Cottages</h1></a> 
                             <a href='/kenya/loldia'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Nakuru Kenya</span>
+                                        <span >Lake Nakuru, Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -99,7 +99,7 @@ const DestNakuru =()=>{
                             <img src={Mbweha} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/mbweha'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Mbweha Camp</h1></a> 
                             <a href='/kenya/mbweha'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >NakuruKenya</span>
+                                        <span >Lake Nakuru, Kenya</span>
                             </div></a> 
                         </div>
                     </div>

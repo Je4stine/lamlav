@@ -71,7 +71,7 @@ const Sasaab =()=>{
                 <li> Laundry  services </li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>Private Pool</li>
                 <li>Private balcony </li>
                 <li>En-suite bathroom </li>

@@ -70,7 +70,7 @@ const Loldia =()=>{
                 <li>Laundry  service </li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>Room service</li>
                 <li>Private balcony </li>
                 <li>En-suite bathroom </li>

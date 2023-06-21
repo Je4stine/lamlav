@@ -70,7 +70,7 @@ const Kinondo =()=>{
                 <li>Laundry  services </li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>Air conditioned</li>
                 <li>Ensuite Bathrooms</li>
                 <li>Private furnished veranda</li>

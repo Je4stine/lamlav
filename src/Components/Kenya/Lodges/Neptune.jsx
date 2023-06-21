@@ -55,7 +55,8 @@ const Neptune =()=>{
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                The ideal starting point for an exclusive Safari experience is the Neptune Mara Rianta Luxury Tented Camp, situated in the heart of the Masai Mara. This luxurious camp is surrounded by indigenous vegetation and trees, providing a genuine bush experience. The camp's 20 luxury tents offer spectacular views of the Mara River, which flows gently around the camp and is home to an array of wildlife, including numerous groups of hippos. You can unwind at the Earth & Rain Spa, which offers a range of relaxing and invigorating massages. Alternatively, you can savor an outdoor lunch or evening barbecue by the pool, accompanied by Masai dancing performances (once a month) and talks on the Masai culture.
+                The ideal starting point for an exclusive Safari experience is the Neptune Mara Rianta Luxury Tented Camp, situated in the heart of the Masai Mara. This luxurious camp is surrounded by indigenous vegetation and trees, providing a genuine bush experience. 
+                <br/><br/>The camp's 20 luxury tents offer spectacular views of the Mara River, which flows gently around the camp and is home to an array of wildlife, including numerous groups of hippos. You can unwind at the Earth & Rain Spa, which offers a range of relaxing and invigorating massages. Alternatively, you can savor an outdoor lunch or evening barbecue by the pool, accompanied by Masai dancing performances (once a month) and talks on the Masai culture.
                 <br/><br/>The tents at the camp are very modern and luxurious, and they don't look like ordinary tents. They have a large bathroom and a comfortable sitting area. The tents have a traditional safari design and the riverside wall can be rolled up to enjoy the beautiful view and fresh air. The common areas of the camp are connected by wooden walkways and include a spa, a bar, dining areas with great views, and a small pool where you can have a barbecue in the evening.
 
 
@@ -69,7 +70,7 @@ const Neptune =()=>{
                 <li>Laundry Services</li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>Private Veranda </li>
                 <li>En-suite bathroom </li>
         

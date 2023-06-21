@@ -54,7 +54,8 @@ const Kampi =()=>{
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                Campi ya Kanzi is a luxury safari camp that offers six thatched roof cottages and two tented suites, all designed in the traditional safari style. Each accommodation has a personal Maasai attendant and provides stunning views of Kilimanjaro and the surrounding forests and plains. The camp also includes a villa called Kanzi House, which is suitable for larger groups and families who prefer private dining, and a Pool Cottage with a large swimming pool overlooking Kilimanjaro. The main lodge is elegant and welcoming, and the dining experience is exceptional, with a creative Italian twist on local cuisine overseen by Antonella.
+                Campi ya Kanzi is a luxury safari camp that offers six thatched roof cottages and two tented suites, all designed in the traditional safari style. Each accommodation has a personal Maasai attendant and provides stunning views of Kilimanjaro and the surrounding forests and plains. 
+                <br/><br/> The camp also includes a villa called Kanzi House, which is suitable for larger groups and families who prefer private dining, and a Pool Cottage with a large swimming pool overlooking Kilimanjaro. The main lodge is elegant and welcoming, and the dining experience is exceptional, with a creative Italian twist on local cuisine overseen by Antonella.
 
                 <br/><br/> <strong>Amenities at Campi  Ya Kanzi</strong>
                     <li>Electricity</li>

@@ -54,7 +54,8 @@ const FairmountMt =()=>{
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                The Fairmont Mount Kenya Safari Club is a well-known vacation spot that offers numerous activities, but one of its most unique and thrilling features is the animal orphanage run by the William Holden Wildlife Foundation. This sanctuary serves as a home and provides care to young wildlife, some of which have grown accustomed to human interaction and can be fed and played with by guests. The Club was established by the famous actor William Holden over half a century ago and has since transformed into a lavish retreat for prominent individuals in fields such as politics, cinema, and theatre. The Club's picturesque setting, including Africa's second-highest mountain, has made it a favoured destination for notable figures such as Winston Churchill, Lord Mountbatten, Clark Gable, and John Wayne.
+                The Fairmont Mount Kenya Safari Club is a well-known vacation spot that offers numerous activities, but one of its most unique and thrilling features is the animal orphanage run by the William Holden Wildlife Foundation. This sanctuary serves as a home and provides care to young wildlife, some of which have grown accustomed to human interaction and can be fed and played with by guests. 
+                <br/><br/>The Club was established by the famous actor William Holden over half a century ago and has since transformed into a lavish retreat for prominent individuals in fields such as politics, cinema, and theatre. The Club's picturesque setting, including Africa's second-highest mountain, has made it a favoured destination for notable figures such as Winston Churchill, Lord Mountbatten, Clark Gable, and John Wayne.
                 <br/><br/> The lounge walls of the Club are adorned with black and white photographs that suggest the interesting discussions that may have taken place in the past when famous figures like Winston Churchill and Lord Mountbattan would visit and talk politics while smoking cigars. The Trophy Room has mounted heads of animals like lions, buffalos, and zebras, adding to the overall ambiance.
 
                 <br/><br/> The luxurious rooms at the Club have been renovated to perfection by Fairmont, offering amenities such as woodburning fireplaces, private verandas, and comfortable furniture. The rooms provide all the necessary comforts to feel like a home away from home, including hairdryers, minibars, and large rainshowers.
@@ -77,7 +78,7 @@ const FairmountMt =()=>{
 
                 <li>Conference  center</li>
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>En-suite bathrooms</li>
                 <li>WiFi</li>
                 <li>Minibar</li>

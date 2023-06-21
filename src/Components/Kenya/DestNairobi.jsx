@@ -64,7 +64,8 @@ const DestNairobi =()=>{
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 Nairobi, the capital city of Kenya, is often considered by travelers as a mere stopover during their safari or beach holiday. However, a stay in Nairobi at the beginning or end of a trip can be an enjoyable experience. The city offers a range of opportunities to buy local souvenirs at vibrant Maasai markets, try the delicious street food, or visit the historic colonial home of Karen Blixen, the Danish writer who wrote the famous book "Out of Africa".
                 <br/><br/>The Nairobi National Park, located 7 kilometers from the city, is a must-visit destination. It boasts an impressive density of black rhinos, lions, giraffes, and zebras, making it one of the world's largest habitats for black rhinos, thanks to the efforts of Daphine and David Shieldrick. 
-                You can spend a day at the Wildlife Trust, where you can interact with baby elephants and rhinos, or visit the Giraffe Center, which focuses on preserving the endangered Rothschild's giraffe. For a unique experience, stay at Giraffe Manor, a colonial-style property where resident giraffes roam the grounds and sometimes even join you for breakfast on the terrace.
+                You can spend a day at the Wildlife Trust, where you can interact with baby elephants and rhinos, or visit the Giraffe Center, which focuses on preserving the endangered Rothschild's giraffe. 
+                <br/><br/>For a unique experience, stay at Giraffe Manor, a colonial-style property where resident giraffes roam the grounds and sometimes even join you for breakfast on the terrace.
 
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
@@ -87,7 +88,7 @@ const DestNairobi =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Nairobi</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Nairobi</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -95,7 +96,7 @@ const DestNairobi =()=>{
                             <img src={Waine} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/waine'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >House of Waine</h1></a> 
                             <a href='/kenya/waine'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Nairobi Kenya</span>
+                                        <span >Nairobi, Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -104,7 +105,7 @@ const DestNairobi =()=>{
                             <img src={Giraffe2} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/giraffe'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Giraffe Manor</h1></a> 
                             <a href='/kenya/giraffe'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Nairobi Kenya</span>
+                                        <span >Nairobi, Kenya</span>
                             </div></a> 
                         </div>
 
@@ -112,7 +113,7 @@ const DestNairobi =()=>{
                             <img src={Fair2} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/norfolk'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount  Norfolk Hotel</h1></a> 
                             <a href='/kenya/norfolk'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Nairobi Kenya</span>
+                                        <span >Nairobi, Kenya</span>
                             </div></a> 
                         </div>
                     </div>

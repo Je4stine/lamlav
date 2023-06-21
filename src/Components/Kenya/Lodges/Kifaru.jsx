@@ -60,7 +60,7 @@ const Kifaru =()=>{
 
 
                 <br/><br/> <strong>Amenities  at  Kifaru House  </strong>
-                    <li></li>Infinity Pool
+                    <li>Infinity Pool</li>
                     <li>Wi-fi</li>
                     <li>Infinity  pool</li>
                     <li>Library </li>

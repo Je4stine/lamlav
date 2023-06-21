@@ -61,7 +61,7 @@ const DestOlpe =()=>{
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 This protected area and a great tourists destination is situated near the equator, to the west of Nanyuki, near the foothills of Mount Kenya and the Aberdares. It was founded with the goal of preserving wildlife, providing a habitat for great apes, and generating revenue through wildlife-related activities. 
-                <br/><br/>At Ol Pejeta Conservancy, you don't have to limit yourself to game viewing by vehicle. Other options include game walks, horseback or camel rides, and night drives. The conservancy, has had a rich history, with previous owners ranging from Lord Delamere to Roussel Onassis and Adnan Khashoggi. Originally established as a cattle ranch, the frequent destruction of fences by elephant herds made intensive cattle farming difficult, but cattle still plays a role in the conservancy today as a managed livestock. Ol Pejeta is also dedicated to education, hosting an Environmental and Conservation Centre that annually welcomes around 100 Kenyan schools, and offers opportunities to learn about the local culture and traditions of the Samburu, Turkana, Pokot, and Maasai peoples.
+                <br/><br/>At Ol Pejeta Conservancy, you don't have to limit yourself to game viewing by vehicle. Other options include game walks, horseback or camel rides, and night drives. The conservancy, has had a rich history, with previous owners ranging from Lord Delamere to Roussel Onassis and Adnan Khashoggi. Originally established as a cattle ranch, the frequent destruction of fences by elephant herds made intensive cattle farming difficult, but cattle still plays a role in the conservancy today as a managed livestock. <br/><br/>Ol Pejeta is also dedicated to education, hosting an Environmental and Conservation Centre that annually welcomes around 100 Kenyan schools, and offers opportunities to learn about the local culture and traditions of the Samburu, Turkana, Pokot, and Maasai peoples.
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
@@ -83,7 +83,7 @@ const DestOlpe =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Ol Pejeta Conservancy</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Ol Pejeta Conservancy</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -91,7 +91,7 @@ const DestOlpe =()=>{
                             <img src={Kicheche} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/kicheche'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kicheche Laikipia Camp</h1></a> 
                             <a href='/kenya/kicheche'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Ol Pejeta Kenya</span>
+                                        <span >Ol Pejeta, Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -100,7 +100,7 @@ const DestOlpe =()=>{
                             <img src={Porini} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/porini'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Porini Rhino Camp</h1></a> 
                             <a href='/kenya/porini'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Ol Pejeta Park Kenya</span>
+                                        <span >Ol Pejeta Park, Kenya</span>
                             </div></a> 
                         </div>
                     </div>

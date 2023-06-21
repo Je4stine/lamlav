@@ -86,7 +86,7 @@ const DestMombasa =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Mombasa</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Mombasa</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -94,7 +94,7 @@ const DestMombasa =()=>{
                             <img src={Sands} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/sands'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >The Sands of Nomad</h1></a> 
                             <a href='/kenya/sands'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Mombasa Kenya</span>
+                                        <span >Mombasa, Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -103,7 +103,7 @@ const DestMombasa =()=>{
                             <img src={Kinondo} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/kinondo'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Kinindo Kwetu</h1></a> 
                             <a href='/kenya/kinondo'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Mombasa Kenya</span>
+                                        <span >Mombasa, Kenya</span>
                             </div></a> 
                         </div>
 
@@ -111,7 +111,7 @@ const DestMombasa =()=>{
                             <img src={Almanara} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/almanara'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Almanara</h1></a> 
                             <a href='/kenya/almanara'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Mombasa Kenya</span>
+                                        <span >Mombasa, Kenya</span>
                             </div></a> 
                         </div>
                     </div>

@@ -85,7 +85,7 @@ const DestSamburu =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Samburu</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Samburu</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -93,7 +93,7 @@ const DestSamburu =()=>{
                             <img src={Larsen} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/larsen'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Larsens Camp</h1></a> 
                             <a href='/kenya/larsen'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Samburu National Park Kenya</span>
+                                        <span >Samburu National Park, Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -102,7 +102,7 @@ const DestSamburu =()=>{
                             <img src={Sasaab} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/sasaab'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Sasaab Samburu</h1></a> 
                             <a href='/kenya/sasaab'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Samburu National Park Kenya</span>
+                                        <span >Samburu National Park, Kenya</span>
                             </div></a> 
                         </div>
 
@@ -110,7 +110,7 @@ const DestSamburu =()=>{
                             <img src={Elephant} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/elephant'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Elephant Bedroom Samburu</h1></a> 
                             <a href='/kenya/elephant'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Samburu National Park Kenya</span>
+                                        <span >Samburu National Park, Kenya</span>
                             </div></a> 
                         </div>
                     </div>

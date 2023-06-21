@@ -92,7 +92,7 @@ const DestAmboseli =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Amboselli</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Amboselli</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -100,7 +100,7 @@ const DestAmboseli =()=>{
                             <img src={Tortolis} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Tortolis Camp</h1></a> 
                             <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Amboseli National Park Kenya</span>
+                                        <span >Amboseli National Park, Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -109,7 +109,7 @@ const DestAmboseli =()=>{
                             <img src={Olka} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Ol Tukai  Lodge</h1></a> 
                             <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Amboseli National Park Kenya</span>
+                                        <span >Amboseli National Park, Kenya</span>
                             </div></a> 
                         </div>
                     </div>

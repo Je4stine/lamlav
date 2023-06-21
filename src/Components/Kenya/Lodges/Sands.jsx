@@ -54,8 +54,10 @@ const Sands =()=>{
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                Located on one of the most beautiful beaches in Africa, The Sands at Nomad provides a hassle-free beach vacation experience with exceptional service on Kenya's southern coast.The accommodation at this resort consists of 30 lavish rooms and suites as well as seven exclusive cottages, each with a distinct style and decorated with traditional Swahili carved furniture. All the rooms are equipped with air conditioning, entertainment systems, private bars, and certain rooms have the added benefit of a private Jacuzzi and panoramic  terraces.
-                <br/><br/>This lavish boutique resort has won awards and is an excellent choice for anyone seeking to explore the stunning Diani Beach. Guests can savor top-notch dining, choose from an extensive collection of new and old world wines from the owner's wine cellar, go scuba diving on pristine reefs with Kenya's top PADI dive center, or simply relax and enjoy the warm hospitality for which the south coast of Kenya is known. The resort is committed to sustainable practices, making it a leader in Kenya in its efforts to conserve, safeguard, and educate about the precious natural environment of the country's southern coast. It's an ideal place to escape from the bustle of city life and a perfect end to a Kenyan safari, completing the ultimate African holiday.
+                Located on one of the most beautiful beaches in Africa, The Sands at Nomad provides a hassle-free beach vacation experience with exceptional service on Kenya's southern coast.
+                <br/><br/>The accommodation at this resort consists of 30 lavish rooms and suites as well as seven exclusive cottages, each with a distinct style and decorated with traditional Swahili carved furniture. All the rooms are equipped with air conditioning, entertainment systems, private bars, and certain rooms have the added benefit of a private Jacuzzi and panoramic  terraces.
+                <br/><br/>This lavish boutique resort has won awards and is an excellent choice for anyone seeking to explore the stunning Diani Beach. Guests can savor top-notch dining, choose from an extensive collection of new and old world wines from the owner's wine cellar, go scuba diving on pristine reefs with Kenya's top PADI dive center, or simply relax and enjoy the warm hospitality for which the south coast of Kenya is known. 
+                <br/><br/>The resort is committed to sustainable practices, making it a leader in Kenya in its efforts to conserve, safeguard, and educate about the precious natural environment of the country's southern coast. It's an ideal place to escape from the bustle of city life and a perfect end to a Kenyan safari, completing the ultimate African holiday.
 
 
                 <br/><br/> <strong>Amenities at The Sands at Nomad </strong>
@@ -66,7 +68,7 @@ const Sands =()=>{
                 <li>Fitness  & Yoga</li>
 
 
-                <br/><br/>Room features 
+                <br/><br/><strong>Room features </strong>
                 <li>Air conditioning </li>
                 <li>Private  Jacuzzi </li>
                 <li>Panoramic  terrace</li>

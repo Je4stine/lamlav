@@ -83,7 +83,7 @@ const DestMtK =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Mount Kenya</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Mount Kenya</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -91,7 +91,7 @@ const DestMtK =()=>{
                             <img src={Fairmount} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/fairmount'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount Mount Kenya</h1></a> 
                             <a href='/kenya/fairmount'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Mount Kenya</span>
+                                        <span >Mount Kenya, Kenya</span>
                             </div></a> 
                         </div>
                         

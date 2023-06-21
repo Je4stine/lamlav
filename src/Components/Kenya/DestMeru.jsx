@@ -82,7 +82,7 @@ const DestMeru =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Meru National Park</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Meru National Park</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -90,7 +90,7 @@ const DestMeru =()=>{
                             <img src={Elsa} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/elsa'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Elsa's Kopje</h1></a> 
                             <a href='/kenya/amboseli/elsa'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Meru National Park Kenya</span>
+                                        <span >Meru National Park, Kenya</span>
                             </div></a> 
                         </div>
                         

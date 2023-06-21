@@ -83,7 +83,7 @@ const DestWatamu =()=>{
                 <div className=" mb-20 m-auto">
                     <div className=" flex justify-center items-center">
                         <hr className="border-black border-[1px]" />
-                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodge in Watamu</h1>
+                            <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in Watamu</h1>
                         <hr className="border-black border-[1px]" />
                     </div>
                     <div className=" lg:flex">
@@ -91,7 +91,7 @@ const DestWatamu =()=>{
                             <img src={Medina} alt="Tortolis Camp" loading ="lazy"/>
                             <a href='/kenya/medina'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Medina Palms</h1></a> 
                             <a href='/kenya/medina'><div className='hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Watamu Kenya</span>
+                                        <span >Watamu, Kenya</span>
                             </div></a> 
                         </div>
                         
@@ -100,7 +100,7 @@ const DestWatamu =()=>{
                             <img src={HemWat} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/hemwatamu'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Hemingways Hotel Watamu</h1></a> 
                             <a href='/kenya/hemwatamu'><div className=' hover:text-[#f15d30] lg:text-lg'>
-                                        <span >Watamu Kenya</span>
+                                        <span >Watamu, Kenya</span>
                             </div></a> 
                         </div>
                     </div>
