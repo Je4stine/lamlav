@@ -12,11 +12,11 @@ import Lodge1 from '../../../Assets/images (2).jpeg';
 
 import Lodge2 from '../../../Assets/finch_hattons_camp_fire_at_night_0071c13acc7ebc5a56d7604277c286f3.jpg';
 
-import Lodge3 from '../../../Assets/finch_hattons_guests_area_0071c13acc7ebc5a56d7604277c286f3.jpg';
+import Lodge3 from '../../../Assets/finch-hattons-tsavo-double-suite-deck-1024x576.jpg';
 
-import Lodge4 from '../../../Assets/finch_hattons_luxury_bathroom_0071c13acc7ebc5a56d7604277c286f3.jpg';
+import Lodge4 from '../../../Assets/finch-hattons-tsavo-observation-deck-1024x576.jpg';
 
-import Lodge5 from '../../../Assets/finch_hattons_pool_0071c13acc7ebc5a56d7604277c286f3.jpg';
+import Lodge5 from '../../../Assets/finch-hattons-tsavo-star-gazing-1024x576.jpg';
 
 import Chyulu from '../../../Assets/FinchHattons-Camp8.jpg';
 

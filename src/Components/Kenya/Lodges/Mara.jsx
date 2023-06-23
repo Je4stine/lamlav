@@ -10,9 +10,15 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/lodge4.jpg';
 
-import Lodge2 from '../../../Assets/lodge5.jpg';
+import Lodge2 from '../../../Assets/001-reception-entrance.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/01-exterior-view-with-pool-and-plains.jpg';
+
+import Lodge4 from '../../../Assets/083-lobby-area-balcony.jpg';
+
+import Lodge5 from '../../../Assets/dining-3.jpg';
+
+import Lodge6 from '../../../Assets/lunch-spread.jpg';
 
 import Chyulu from '../../../Assets/totolis1.jpg';
 
@@ -66,6 +72,7 @@ const Mara =()=>{
                 <li>Gift Shop</li>
                 <li>Conference  center</li>
 
+
                 <br/><br/><strong>Room features </strong>
                 <li>Room service</li>
                 <li>Private balcony </li>
@@ -102,7 +109,13 @@ const Mara =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
                     </div>
                     </Slider>
                 </div>

@@ -9,11 +9,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/nakuru.jpg';
+import Lodge1 from '../../Assets/Lake-Naivasha-Sopa-Resort-5-scaled.jpg';
 
-import Lodge2 from '../../Assets/nakuru2.jpg';
+import Lodge2 from '../../Assets/Lake-Naivasha-Sopa-Resort-6-scaled.jpg';
 
-import Lodge3 from '../../Assets/nakuru3.jpg';
+import Lodge3 from '../../Assets/Lake-Naivasha-Sopa-Resort-63.jpg';
+
 
 import Naivasha from '../../Assets/Naivasha.jpg';
 

@@ -9,11 +9,20 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/chyul2.jpg';
+import Lodge1 from '../../Assets/CYK-Camp-layout-with-Chyulu-backdrop-Ian-Johnson_preview.jpg';
 
 import Lodge2 from '../../Assets/chyulus-kili-behind.jpg';
 
-import Lodge3 from '../../Assets/Chyull3.jpg';
+import Lodge3 from '../../Assets/CYK-Flights.jpg';
+
+import Lodge4 from '../../Assets/CYK-Walking-in-the-mist-with-Chyulu-background.jpg';
+
+import Lodge5 from '../../Assets/CYK-sundowner.jpg';
+
+import Lodge6 from '../../Assets/IMG_0180-compressor.jpg';
+
+import Lodge7 from '../../Assets/IMG_0688-compressor.jpg';
+
 
 import Kampi from '../../Assets/kampi.jpg';
 
@@ -66,15 +75,21 @@ const DestChyulu =()=>{
                     <div>
                         <img src={Lodge1}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge2}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge2}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
+                    </div>
+                    <div>
+                    <img src={Lodge7}/>
+                    </div>
                     </Slider>
                 </div>
                 <hr/>

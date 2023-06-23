@@ -10,9 +10,13 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
 
-import Lodge2 from '../../../Assets/Untitled-HDR-04.1-1140x600-1.jpg';
+import Lodge2 from '../../../Assets/Almanara1.jpg';
 
-import Lodge3 from '../../../Assets/Untitled-HDR-09.1-1140x600-1.jpg';
+import Lodge3 from '../../../Assets/Almanara2.jpg';
+
+import Lodge4 from '../../../Assets/Almanara3.jpg';
+
+import Lodge5 from '../../../Assets/Almanara4.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
 
@@ -96,14 +100,14 @@ const Almanara =()=>{
                 <div className="relative mt-20 z-[0] lg:mx-[100px]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge1}/>
+                            <img src={Lodge4}/>
                         </div>
                         <div>
                         <img src={Lodge2}/>
                         </div>
-                        {/* <div>
-                        <img src={Lodge3}/>
-                        </div> */}
+                        <div>
+                        <img src={Lodge5}/>
+                        </div>
                         <div>
                         <img src={Lodge3}/>
                         </div>

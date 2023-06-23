@@ -10,11 +10,17 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/great-plains-conservation-ol-donyo-lodge-horseback-safari-gallery-4-600x400.jpg';
 
-import Lodge2 from '../../../Assets/great-plains-conservation-ol-donyo-lodge-camp1-600x400.jpg';
+import Lodge2 from '../../../Assets/download (6).jpeg';
 
-import Lodge3 from '../../../Assets/great-plains-conservation-ol-donyo-lodge-main-area-600x400.jpg';
+import Lodge3 from '../../../Assets/download (7).jpeg';
 
-import Chyulu from '../../../Assets/great-plains-conservation-ol-donyo-lodge-star-bed-champagne-600x400.jpg';
+import Lodge4 from '../../../Assets/download (8).jpeg';
+
+import Lodge5 from '../../../Assets/download (9).jpeg';
+
+import Chyulu from '../../../Assets/download (10).jpeg';
+
+import Lodge6 from '../../../Assets/download (11).jpeg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -86,7 +92,7 @@ const Oldonyo =()=>{
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
-                    {/* <div>
+                    <div>
                         <img src={Lodge2}/>
                     </div>
                     <div>
@@ -96,8 +102,14 @@ const Oldonyo =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
-                    </div> */}
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
+                    </div>
                     </Slider>
                 </div>
                 

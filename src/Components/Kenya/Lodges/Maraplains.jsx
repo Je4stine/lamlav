@@ -10,11 +10,17 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/great-plains-conservation-mara-plains-bridge-600x400.jpg';
 
-import Lodge2 from '../../../Assets/great-plains-conservation-mara-plains-honeymoon-room-600x400.jpg';
+import Lodge2 from '../../../Assets/mara-plains-camp-1.jpg.webp';
 
-import Lodge3 from '../../../Assets/great-plains-conservation-mara-plains-spa-600x400.jpg';
+import Lodge3 from '../../../Assets/mara-plains-camp-11.jpg.webp';
 
-import Chyulu from '../../../Assets/great-plains-conservation-mara-plains-wine-cellar-600x400.jpg';
+import Lodge4 from '../../../Assets/mara-plains-camp-12.jpg.webp';
+
+import Lodge5 from '../../../Assets/mara-plains-camp-13.jpg.webp';
+
+import Lodge6 from '../../../Assets/mara-plains-camp-2.jpg.webp';
+
+import Chyulu from '../../../Assets/mara-plains-camp-5.jpg.webp';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -90,7 +96,7 @@ const MaraPlains=()=>{
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[200px]">
                 <Slider {...settings} autoplay arrows>
-                    {/* <div>
+                    <div>
                         <img src={Lodge2}/>
                     </div>
                     <div>
@@ -100,8 +106,14 @@ const MaraPlains=()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
-                    </div> */}
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
+                    </div>
                     </Slider>
                 </div>
                 

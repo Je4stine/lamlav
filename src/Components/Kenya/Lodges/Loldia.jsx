@@ -8,11 +8,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Loldi2.jpeg';
+import Lodge1 from '../../../Assets/FR.-Loldia-House-11-992x695.jpg';
 
-import Lodge2 from '../../../Assets/Loldi3.jpeg';
+import Lodge2 from '../../../Assets/FR.-Loldia-House-16-992x695.jpg';
 
-import Lodge3 from '../../../Assets/Loldi4.jpeg';
+import Lodge3 from '../../../Assets/FR.-Loldia-House-35-992x695.jpg';
+
+import Lodge4 from '../../../Assets/FR.-Loldia-House-39-992x695.jpg';
+
+import Lodge5 from '../../../Assets/FR.-Loldia-House-8-992x695.jpg';
+
+import Lodge6 from '../../../Assets/FR.-Loldia-Top-Cottage-9-992x695.jpg';
 
 import Chyulu from '../../../Assets/loldi.jpeg';
 
@@ -94,13 +100,19 @@ const Loldia =()=>{
                         <img src={Lodge2}/>
                     </div>
                     <div>
-                    <img src={Lodge3}/>
+                        <img src={Lodge3}/>
                     </div>
                     <div>
-                    <img src={Chyulu}/>
+                        <img src={Lodge4}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                        <img src={Lodge1}/>
+                    </div>
+                    <div>
+                        <img src={Lodge5}/>
+                    </div>
+                    <div>
+                        <img src={Lodge6}/>
                     </div>
                     </Slider>
                 </div>

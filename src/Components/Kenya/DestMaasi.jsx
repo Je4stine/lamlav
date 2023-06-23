@@ -9,11 +9,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/maasai.jpg';
+import Lodge1 from '../../Assets/ABW_12_06_18_Two-lionesses-1_zmvl1r-768x512.jpg.jpeg';
 
-import Lodge2 from '../../Assets/maasai2.jpg';
+import Lodge2 from '../../Assets/Angama_Mara_2018_086_rbludk-1-768x512.jpg.jpeg';
 
-import Lodge3 from '../../Assets/maasai3.jpg';
+import Lodge3 from '../../Assets/angama-tented-camp-768x432.jpg.jpeg';
+
+import Lodge4 from '../../Assets/A-tent-with-a-view-1_v2jbgu-1-768x470.jpg.jpeg';
 
 import Game1 from '../../Assets/game.jpg';
 
@@ -68,9 +70,9 @@ const DestMaasai =()=>{
                 </p>
                 <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
-                    {/* <div>
+                    <div>
                         <img src={Lodge1}/>
-                    </div> */}
+                    </div>
                     <div>
                     <img src={Lodge2}/>
                     </div>
@@ -78,7 +80,7 @@ const DestMaasai =()=>{
                     <img src={Lodge3}/>
                     </div>
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge4}/>
                     </div>
                     </Slider>
                 </div>

@@ -8,13 +8,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/HemNai.jpg';
+import Lodge1 from '../../../Assets/Hem1.jpg';
 
-import Lodge2 from '../../../Assets/lodge4.jpg';
+import Lodge2 from '../../../Assets/hemingway-23.jpg';
 
-import Lodge3 from '../../../Assets/lodge5.jpg';
+import Lodge3 from '../../../Assets/hemingway-3.jpg';
 
-import Chyulu from '../../../Assets/totolis1.jpg';
+import Lodge4 from '../../../Assets/hemingway-5.jpg';
+
+import Lodge5 from '../../../Assets/hemingway-7.jpg';
+
+import Lodge6 from '../../../Assets/hemingway-8.jpg';
+
+import Chyulu from '../../../Assets/Hemingways-2017-02-41.jpg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -94,7 +100,13 @@ const Hemingways =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
                     </div>
                     </Slider>
                 </div>

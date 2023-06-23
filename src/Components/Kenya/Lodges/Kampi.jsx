@@ -10,9 +10,15 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/Photo-26-11-2020-17-38-07.jpg';
 
+import Lodge2 from '../../../Assets/6R1A6271-compressor.jpg';
 
+import Lodge4 from '../../../Assets/6R1A6278-compressor.jpg';
 
-// import Lodge3 from '../../../Assets/Chyulu_Wilderness_Camp_quadruple_tent_jp.jpg';
+import Lodge5 from '../../../Assets/bush-dinner-chyulu.jpg';
+
+import Lodge6 from '../../../Assets/DSC_5294.jpg';
+
+import Lodge3 from '../../../Assets/IMG_0683-compressor-1.jpg';
 
 import Chyulu from '../../../Assets/IMG_1863.jpg';
 
@@ -80,14 +86,23 @@ const Kampi =()=>{
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
                     
-                    {/* <div>
-                    <img src={Lodge3}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge2}/>
+                    </div>
                     <div>
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
                     </div>
                     </Slider>
                 </div>

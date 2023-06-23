@@ -8,13 +8,19 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/9f8600_b83dd23ec6774596b2a3974bfc375e43.jpg';
+import Lodge1 from '../../../Assets/mbwe1.jpg';
 
-import Lodge2 from '../../../Assets/9f8600_0b6ecfecdb624702be4a17cc1ba2df4d.jpg';
+import Lodge2 from '../../../Assets/mbwe2.jpg';
 
-import Lodge3 from '../../../Assets/9f8600_a149b4ef286e47ada8cc8e42d17fec57.jpg';
+import Lodge3 from '../../../Assets/mbwe3.jpg';
 
-import Chyulu from '../../../Assets/9f8600_e5ae843764834f049beb30283757ec81.jpg';
+import Lodge4 from '../../../Assets/mbwe4.jpg';
+
+import Lodge5 from '../../../Assets/mbwe5.jpg';
+
+import Lodge6 from '../../../Assets/mbwe6.jpg';
+
+import Lodge7 from '../../../Assets/mbwe7.jpg';
 
 
 import "slick-carousel/slick/slick.css";
@@ -70,6 +76,7 @@ const Mbweha =()=>{
                 <li> Bar & Restaurant </li>
 
 
+
                 <br/><br/><strong>Room features </strong>
                 <li>Room service</li>
                 <li>En-suite bathroom </li>
@@ -100,11 +107,17 @@ const Mbweha =()=>{
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    {/* <div>
-                    <img src={Chyulu}/>
-                    </div> */}
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
+                    </div>
+                    <div>
+                    <img src={Lodge7}/>
                     </div>
                     </Slider>
                 </div>

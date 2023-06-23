@@ -10,9 +10,13 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/2020-11-21 (1).jpg';
 
-import Lodge2 from '../../../Assets/IMG_1859_1600_900-1.jpg';
+import Lodge2 from '../../../Assets/sands4.jpg';
 
-import Lodge3 from '../../../Assets/IMG_1863.jpg';
+import Lodge3 from '../../../Assets/sands1.jpg';
+
+import Lodge4 from '../../../Assets/sands2.jpg';
+
+import Lodge5 from '../../../Assets/sands3.jpg';
 
 import Chyulu from '../../../Assets/nomad-bb-seafood-1600x900-705x397.jpg';
 
@@ -98,12 +102,12 @@ const Sands =()=>{
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    {/* <div>
-                    <img src={Chyulu}/>
+                    <div>
+                    <img src={Lodge4}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
-                    </div> */}
+                    <img src={Lodge5}/>
+                    </div>
                     </Slider>
                 </div>
                 

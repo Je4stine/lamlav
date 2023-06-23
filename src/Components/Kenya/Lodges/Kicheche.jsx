@@ -10,11 +10,11 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/kicheche-laikipia-banner-slider-2.jpg';
 
-import Lodge2 from '../../../Assets/Kicheche-Laikipia-Tent-in-to-Out.jpg';
+import Lodge2 from '../../../Assets/images (11).jpeg';
 
-import Lodge3 from '../../../Assets/banner-3-1.jpg';
+import Lodge3 from '../../../Assets/images (13).jpeg';
 
-import Chyulu from '../../../Assets/banner-3a.jpg';
+import Chyulu from '../../../Assets/images (14).jpeg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -91,9 +91,9 @@ const Kicheche =()=>{
                     <div>
                     <img src={Chyulu}/>
                     </div>
-                    <div>
+                    {/* <div>
                     <img src={Lodge1}/>
-                    </div>
+                    </div> */}
                     </Slider>
                 </div>
 

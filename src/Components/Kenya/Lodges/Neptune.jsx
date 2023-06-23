@@ -10,9 +10,17 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/rianta2.jpg';
 
-import Lodge2 from '../../../Assets/rianta1.jpg';
+import Lodge2 from '../../../Assets/Neptune.jpg';
 
-import Lodge3 from '../../../Assets/rianta2.jpg';
+import Lodge3 from '../../../Assets/Neptune2.jpg';
+
+import Lodge4 from '../../../Assets/Neptune3.jpg';
+
+import Lodge5 from '../../../Assets/Neptune4.jpg';
+
+import Lodge6 from '../../../Assets/Neptune5.jpg';
+
+import Lodge7 from '../../../Assets/Neptune6.jpg';
 
 import Chyulu from '../../../Assets/rianta4.jpg';
 
@@ -98,9 +106,18 @@ const Neptune =()=>{
                     <div>
                     <img src={Chyulu}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge1}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
+                    </div>
+                    <div>
+                    <img src={Lodge7}/>
+                    </div>
                     </Slider>
                 </div>
                 

@@ -10,9 +10,17 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/Elsas_Kopje_8.png';
 
-import Lodge2 from '../../../Assets/09A_KE0_swimmingpoolxxx_003004.jpg';
+import Lodge2 from '../../../Assets/Elsa-s-Cottage---View-from-private-veranda.jpg';
 
-import Lodge3 from '../../../Assets/2018-10-17.jpg';
+import Lodge3 from '../../../Assets/Elsa-s-Honeymoon-Cottage-2.jpg';
+
+import Lodge4 from '../../../Assets/Elsa-s-Honeymoon-Cottage-outdoor-bath.jpg';
+
+import Lodge5 from '../../../Assets/Elsa-s-Kopje---accommodation---private-house---living-room-2.jpg';
+
+import Lodge6 from '../../../Assets/Elsa-s-Kopje---accommodation---private-house---living-room.jpg';
+
+import Lodge7 from '../../../Assets/Elsa-s-Kopje---activities---views-from-Mughwangho-hill.jpg';
 
 import Chyulu from '../../../Assets/2019-11-30.jpg';
 
@@ -101,7 +109,16 @@ const Elsa =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
+                    </div>
+                    <div>
+                    <img src={Lodge7}/>
                     </div>
                     </Slider>
                 </div>

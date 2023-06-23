@@ -10,11 +10,15 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/Janv 23 (3).png';
 
-import Lodge2 from '../../../Assets/Janv 23 (6).png';
+import Lodge2 from '../../../Assets/Property gallery 975X600 (1).jpg';
 
-import Lodge3 from '../../../Assets/Janv 23 (8).png';
+import Lodge3 from '../../../Assets/Property gallery 975X600 (2).jpg';
 
-import Chyulu from '../../../Assets/Janv 23 (9).png';
+import Chyulu from '../../../Assets/Property gallery 975X600 (5).jpg';
+
+import Lodge4 from '../../../Assets/Property gallery 975X600 (6).jpg';
+
+import Lodge5 from '../../../Assets/Property gallery 975X600 (9).jpg';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -115,7 +119,10 @@ const FairmountMt =()=>{
                     <img src={Chyulu}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
                     </div>
                     </Slider>
                 </div>

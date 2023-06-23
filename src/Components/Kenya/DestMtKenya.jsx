@@ -11,9 +11,13 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../Assets/mtk3.jpg';
 
-import Lodge2 from '../../Assets/mtk2.jpg';
+import Lodge2 from '../../Assets/FMKSC Animals 975X600 (5).jpg';
 
-import Lodge3 from '../../Assets/mtk.jpg';
+import Lodge3 from '../../Assets/FMKSC Animals 975X600 (6).jpg';
+
+import Lodge4 from '../../Assets/Property gallery 975X600 (3).jpg';
+
+import Lodge5 from '../../Assets/Property gallery 975X600 (7).jpg';
 
 import Mount from '../../Assets/Mtkenya.jpg';
 
@@ -66,16 +70,16 @@ const DestMtK =()=>{
                 <div className="relative mt-20 z-[0] lg:mx-[20px]">
                 <Slider {...settings} autoplay arrows>
                     <div>
-                        <img src={Lodge1}/>
+                        <img src={Lodge4}/>
                     </div>
                     <div>
                     <img src={Lodge2}/>
                     </div>
-                    {/* <div>
+                    <div>
                     <img src={Lodge3}/>
-                    </div> */}
+                    </div>
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge5}/>
                     </div>
                     </Slider>
                 </div>

@@ -10,9 +10,15 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/Kinondo+Kwetu+Hotel+Traditional+Sailing,+Galu+Beach,+Diani+Beach,+Kenya+kopia.jpg';
 
-import Lodge2 from '../../../Assets/starbed.2133x1423.jpg';
+import Lodge2 from '../../../Assets/image-asset (1).jpeg';
 
-// import Lodge3 from '../../../Assets/Photo+Dan+Kullberg+to+Kinondu+Kwetu+2018-2025+7053.jpg';
+import Lodge3 from '../../../Assets/image-asset (2).jpeg';
+
+import Lodge4 from '../../../Assets/image-asset (3).jpeg';
+
+import Lodge5 from '../../../Assets/image-asset (4).jpeg';
+
+import Lodge6 from '../../../Assets/image-asset.jpeg';
 
 import Chyulu from '../../../Assets/Family+Room+Interconnecting,+Kinondo+Kwetu+Hotel,+Galu+Beach,+Diani+Beach,+Kenya.jpg';
 
@@ -102,14 +108,17 @@ const Kinondo =()=>{
                     <div>
                         <img src={Lodge2}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge3}/>
-                    </div> */}
                     <div>
-                    <img src={Chyulu}/>
+                    <img src={Lodge3}/>
                     </div>
                     <div>
-                    <img src={Lodge1}/>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
                     </div>
                     </Slider>
                     </div>
