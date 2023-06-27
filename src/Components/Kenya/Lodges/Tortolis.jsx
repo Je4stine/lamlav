@@ -6,7 +6,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination'
+import 'swiper/css/pagination';
+
+
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/tortilis-22.jpg';
 
@@ -21,6 +23,27 @@ import Chyulu from '../../../Assets/af50da6f-1200x767.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+
+import ShowMoreText from "react-show-more-text";
+
+
+const ReadMore = ({ children }) => {
+    const text = children;
+    const [isReadMore, setIsReadMore] = useState(true);
+    const toggleReadMore = () => {
+      setIsReadMore(!isReadMore);
+    };
+    return (
+      <p className=" inline w-full">
+        {isReadMore ? text.slice(0, 150) : text}
+        <span onClick={toggleReadMore} className=" ">
+          {isReadMore ? "...read more" : " show less"}
+        </span>
+      </p>
+    );
+  };
+
+
 
 const Tortolis =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -55,28 +78,45 @@ const Tortolis =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+              
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Tortilis is an exceptional tented camp located on the border of Amboseli National Park in Africa. The camp upholds traditional safari customs while incorporating modern amenities and luxurious touches, which is a hallmark of Lamlav's camping and lodging facilities. <br/><br/>Tortilis stands out for its commitment to sustainability and conservation. It is powered entirely by solar energy, and its solar panels are discreetly hidden from view. Additionally, the camp is a leader in the East African conservancy movement, paying substantial rent to the local Maasai owners of the land and working closely with them to maintain the health of the Kitirua Conservancy, a 30,000-acre wildlife corridor connecting Amboseli with Tanzania's gamelands to the south. Staying at Tortilis offers guests the opportunity to be a part of African conservation solutions, adding to the camp's allure.
                 <br/><br/>The Camp has 15 spacious and well-lit tents that offer magnificent views of Mount Kilimanjaro and privacy from one another, creating a cozy atmosphere. The tents are designed to feel like a step back in time, with thatched roof verandas that allow you to gaze at the beautiful mountain and watch the wildlife on the surrounding plains.
-
-                <br/><br/> <strong>Amenities at Tortilis  Camp</strong>
-                    <li>Shared pool</li>
-                    <li> Massage services only</li>
-                    
-                    <br/><br/><strong>Room features </strong>
-                    <li> En-suite bathrooms</li>
-                    <li>Private veranda</li>
-
-                    <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
-
-                    <li>Game drives </li>
-                    <li>Guiding  </li>
-                    <li>Guided  walks </li>
-                    <li>Bush breakfast  and Sundowners</li>
-                    <li>Cultural  visits </li>
-
-
                 </p>
+              </ShowMoreText>
+              
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
+                    <br/><br/> <strong>Amenities at Tortilis  Camp</strong>
+                        <li>Shared pool</li>
+                        <li> Massage services only</li>
+                        
+                        <br/><br/><strong>Room features </strong>
+                        <li> En-suite bathrooms</li>
+                        <li>Private veranda</li>
+
+                        <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
+
+                        <li>Game drives </li>
+                        <li>Guiding  </li>
+                        <li>Guided  walks </li>
+                        <li>Bush breakfast  and Sundowners</li>
+                        <li>Cultural  visits </li>
+                </p>
+                
+
+
+                
                 
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                  <Slider {...settings} autoplay arrows>

@@ -25,6 +25,7 @@ import Chyulu from '../../../Assets/mara-plains-camp-5.jpg.webp';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const MaraPlains=()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -59,15 +60,27 @@ const MaraPlains=()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Mara Plains Camp provides a unique and intimate safari experience for those who want to get up close and personal with nature. Located in the Maasai Mara eco-system, the luxurious  Campsite  has exclusive access to all the main areas in the region, allowing guests to witness a lot of wildlife, including predatory cats.
                 <br/><br/>The camp has only seven rooms and is built to blend with the environment while providing a luxury experience. The rooms are raised on platforms above a creek, surrounded by wildlife, and offer stunning views from the verandahs.
                 <br/><br/>The tents at Mara Plains Camp are octagonal in shape and uniquely designed, each decorated with hurricane lanterns, hand-carved furnishings, and warm-toned fabrics that blend in with the natural colors of the bush. Every tent has its own en-suite bathroom, dressing area, and viewing terrace. The luxury tents are built on raised decks and offer the option to open up three of the canvas walls for a closer connection to nature. 
                 <br/><br/>The center of the camp consists of three open-air marquee-style tents that serve as a lounge, library, writing room, and dining area. A campfire is located nearby, surrounded by comfortable chairs, perfect for relaxing with a drink and stargazing at night. Mara Plains Camp provides guests with a comfortable and luxurious safari experience, while still being mindful of their surroundings.
+                </p>
+                </ShowMoreText>
 
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Mara Plains Camp  </strong>
                 <li>Butler service</li>
                 <li>Library</li>

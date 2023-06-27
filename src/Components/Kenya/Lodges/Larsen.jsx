@@ -19,6 +19,7 @@ import Chyulu from '../../../Assets/Mann08WL041_GSmWRG1.2e16d0ba.fill-1200x600.j
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Larsen =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,13 +54,25 @@ const Larsen =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 The staff at Larsens Camp provides excellent service with a warm and welcoming approach, making guests feel at home. One example of this is a Samburu warrior stationed in the dining tent who scares away monkeys eyeing the fruit with a slingshot, eliciting cheers from guests. 
                 <br/><br/>The Samburu National Reserve is a scenic and remote region, famous for its unique wildlife such as the gerenuk antelope,reticulated giraffe,Somali ostrich , and Grevy's zebra. Guests may also spot other animals like elephants,various species of antelope,birds,  leopards, and  cheetahs in the striking landscape of red and green earth beneath the blue sky. Guests will enjoy the friendly and hospitable staff so much that they will be reluctant to leave.
                 Larsens Camp can be found by the Ewaso Nyiro River, where various animals such as, vervet monkeys, birds, and dik diks can be seen wandering around freely. The camp exudes a classic safari ambiance that is simple yet elegant, with wooden floors, oriental rugs, and hurricane lamps in the rooms that provide a cozy and comfortable atmosphere. Guests can enjoy watching game  in the river from the private deck of their tent or from the dining tent's  comfortable setting.
+                </p>
+                </ShowMoreText>
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Larsens Camp  </strong>
                 <li>Wireless  Internet</li> 
                 <li>Spa</li>

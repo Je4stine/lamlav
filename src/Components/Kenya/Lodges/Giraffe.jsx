@@ -21,6 +21,8 @@ import Chyulu from '../../../Assets/637faf40805ff81f2a0b6e6c_Giraffe-Manor-2.jpg
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
+
 const Giraffe =()=>{
     const [colorChanged, setColorChanged]= useState(false);
 
@@ -54,15 +56,27 @@ const Giraffe =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 
                 Giraffe Manor, owned by The Safari Collection, is a popular and luxurious boutique hotel located in the Langata suburb of Nairobi. 
                 <br/><br/>The manor is situated in a 12-acre private land surrounded by 140 acres of indigenous forest. It is a historic building that dates back to the 1930s and is reminiscent of the era when people came to East Africa for safaris. The hotel has a stately façade, beautiful interiors, green gardens, sunny terraces, and courtyards that give it a classic and elegant appeal. 
                 <br/><br/>One of the unique attractions of Giraffe Manor is its resident herd of Rothschild's giraffes that often visit the hotel and poke their necks into the windows in search of food before retreating back to the forest. 
                 <br/><br/>The hotel has twelve rooms, one of which is named after the author Karen Blixen. Guests can book Giraffe Manor for a night or as part of a customized Kenya safari package offered by The Safari Collection.
+                </p>
+                </ShowMoreText>
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at The Giraffe  Manor  </strong>
                 <li>Massage & Spa</li>
                 <li>Laundry  services </li>

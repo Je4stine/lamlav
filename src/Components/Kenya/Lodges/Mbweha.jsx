@@ -26,6 +26,7 @@ import Lodge7 from '../../../Assets/mbwe7.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Mbweha =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -60,13 +61,26 @@ const Mbweha =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Mbweha Camp is located near the southern boundary of Lake Nakuru National Park and offers stunning views of the Eburru and Mau mountain ranges. It is situated in the Congreve Conservancy, which is part of the larger Soysambu Conservancy. 
                 <br/><br/>The camp features ten cottages built of rustic lava stone with thatched roofs and is surrounded by indigenous trees such as the euphorbia candelabra and yellow barked acacia. 
                 <br/><br/>Despite being only a few hours away from Nairobi, Mbweha Camp has a relaxing atmosphere and offers a range of activities, including walking tours, mountain biking, and night game drives. Guests can also visit Nakuru National Park for a day trip and enjoy a gourmet bush lunch with magnificent views of the lake and park. 
                 <br/><br/>Soysambu Conservancy is a World Heritage Site and Ramsar Site with a diverse array of flora and fauna, including 12,000 wildlife species, including the endangered colossus monkey.Tourists can observe wildlife just 16 kilometers away from the camp at Lake Elementaita, which is a breeding habitat for the great white pelican and visited by both the lesser and greater flamingo. 
+                </p>
+                </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Mara Mbweha Camp </strong>
                 <li>24hr  Electricity </li>
                 <li>Shared pool </li>

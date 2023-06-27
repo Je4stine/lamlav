@@ -26,8 +26,11 @@ import Chyulu3 from '../../../Assets/ol-tukai-lodge-amboseli_153098540724.jpg';
 
 import Chyulu4 from '../../../Assets/ol-tukai-lodge-amboseli_153098540826.jpg';
 
+import ShowMoreText from "react-show-more-text";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 import Slider from "react-slick";
 
@@ -64,25 +67,38 @@ const Olkatai =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+                <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                     Ol Tukai is an exceptional location to witness elephants in their natural habitat and is considered one of the top spots in the world for this experience. Visitors can observe the elephants from the terrace of their chalet or any other area on the property, which features wide open fields with well-manicured lawns and gardens surrounded by a picturesque African acacia forest. A subtle fence surrounds the property, enabling you to watch different wildlife as they go about their daily routines.   <br/><br/>The main lodge is unique in its design and includes a tranquil library, a large deck for outdoor dining, a beautifully crafted Elephant Bar, and a big swimming pool where you can unwind while admiring the clouds on Mount Kilimanjaro. Ol Tukai also offers delightful champagne breakfasts, sunset drinks on the observation hill Noomotio, and lantern-lit forest dinners, making it a special and cherished place.
                    <br/><br/> At Ol Tukai, guests can enjoy the comfort and style of modern twin rooms with breathtaking views of either the wildlife-rich wetlands of Amboseli or the towering Mount Kilimanjaro. Despite its updated facilities, the chalet retains a classic African feel, reminiscent of the traditional game reserve experience
+                </p>
+                </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Ol Tukai Lodge</strong>
                     <li>Shared pool</li>
                     <li> Massage services</li>
                     <li> Wi-Fi</li>
 
                     <br/><br/><strong>Room features </strong>
-                    <div className=" lg:flex lg:justify-between">
+                    <div className=" ">
                         <li> En-suite bathrooms</li>
                         <li>Private veranda</li>
                     </div>
                     
 
                     <br/><br/> <strong>Activities  at Ol Tukai Lodge </strong>
-                    <div className=" lg:flex justify-between" >
+                    <div className=" " >
                         <div>
                             <li>Game drives </li>
                             <li>Bird walk</li>
@@ -95,10 +111,10 @@ const Olkatai =()=>{
                         </div>
                     </div>
                     
-                    
+                    </p>
 
 
-                </p>
+              
                 <div className="relative mt-20 z-[0] lg:mx-[80px]">
                 <Slider {...settings} autoplay arrows>
                     <div>

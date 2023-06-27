@@ -25,6 +25,7 @@ import Chyulu from '../../../Assets/IMG_1863.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Kampi =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -59,10 +60,24 @@ const Kampi =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Campi ya Kanzi is a luxury safari camp that offers six thatched roof cottages and two tented suites, all designed in the traditional safari style. Each accommodation has a personal Maasai attendant and provides stunning views of Kilimanjaro and the surrounding forests and plains. 
                 <br/><br/> The camp also includes a villa called Kanzi House, which is suitable for larger groups and families who prefer private dining, and a Pool Cottage with a large swimming pool overlooking Kilimanjaro. The main lodge is elegant and welcoming, and the dining experience is exceptional, with a creative Italian twist on local cuisine overseen by Antonella.
+            </p>
+            </ShowMoreText>
 
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Campi  Ya Kanzi</strong>
                     <li>Electricity</li>
                     <li> Laundry Room</li>

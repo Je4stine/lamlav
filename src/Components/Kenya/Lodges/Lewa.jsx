@@ -25,6 +25,7 @@ import Chyulu from '../../../Assets/Lewa-Safari-Camp---Family-Tent-2.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Lewa =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -59,11 +60,24 @@ const Lewa =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Lewa Safari camp provides a comfortable and authentic experience for its guests with spacious tented rooms that have private balconies and luxurious bathrooms. The camp also features a cozy lounge area with a log fireplace, perfect for unwinding after a day exploring the 65,000-acre private reserve. Visitors of the exclusive retreat will have privileged access to this protected wilderness.
                 <br/><br/> The Camp has 11 luxurious safari tents, each with its own private bathroom. The tents can be arranged as either double or twin rooms, with three of them capable of accommodating three people, but only if they are under 16 years old. The tents are covered by thatched roofs and include a main bedroom, a private bathroom, and a large deck area. Additionally, there are 2 family suites available, each consisting of two safari tents (one with a double bed and one with twin beds) connected by a shared veranda.
+                </p>
+                </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Lewa Safari  Camp </strong>
                     <li>Outdoor pool</li>
                     <li> Massage services</li>

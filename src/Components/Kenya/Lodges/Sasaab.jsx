@@ -19,6 +19,7 @@ import Chyulu from '../../../Assets/The-Safari-Collection-Sasaab-SAMBURU-SAFARI-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Sasaab =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,13 +54,25 @@ const Sasaab =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Sasaab is a remarkably beautiful accommodation with nine spacious and luxurious rooms that offer complete privacy and breathtaking views, including from the en-suite bathroom. Guests can enjoy their own private plunge pool and veranda, providing a comfortable and relaxing spot to observe passing wildlife. 
                 <br/><br/>Located on the outskirts of the Samburu National Reserve in Kenya's Northern Frontier District, the lodge is modeled after a Moroccan palace, featuring a bright, airy and pristine white design. The rooms are furnished with elegant four-poster beds adorned with exquisite drapes, low couches decorated with silk pillows, and calming blue lanterns, all contributing to the lodge's serene and tranquil atmosphere.
                 <br/><br/>The area is characterized by a rugged landscape adorned with mountains, teeming wildlife, and a fascinating cultural legacy. It boasts an exceptional range of flora and fauna, featuring a remarkable array of animals, such as elephants, cheetahs, wild dogs, and the 'Samburu Special Five' - five species of animals that are exclusive to the region, namely the Beisa oryx, reticulated giraffe, Grevy's zebra, Gerenuk antelope and Somali ostrich. 
+                </p>
+                </ShowMoreText>
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Sasaab  </strong>
                 <li>Spa</li>
                 <li>Shared  pool</li>

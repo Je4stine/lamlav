@@ -19,6 +19,7 @@ import Chyulu from '../../../Assets/NRF_490686_Delamere-Wing---Deluxe.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Norfolk =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,14 +54,27 @@ const Norfolk =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Fairmont The Norfolk provides a serene and tranquil retreat for all visitors to Nairobi, whether they are stopping over for work, or embarking on a Kenyan safari journey. The hotel offers luxurious accommodation in Nairobi, creating a peaceful oasis for all guests.
 
                 <br/><br/>Fairmont The Norfolk, a well-known and beloved landmark that has been around since 1904, has played an important part in Kenya's history, especially as the town of Nairobi grew and developed into a modern city. 
                 <br/><br/>With a mix of traditional charm and modern design, the hotel is a delightful surprise and provides guests with a stylish and refined haven in the heart of the city. It is conveniently located near key business districts like Gigiri, Westlands, and Upperhill, as well as popular leisure spots and the emerging Nairobi art scene.
                 <br/><br/>The hotel has a total of 108 rooms and 17 suites, which are located around peaceful tropical gardens. Guests can can enjoy the heated outdoor swimming pool and the health club, which includes a fitness centre and spa facilities. The rooms are a blend of timeless sophistication and contemporary style, featuring unobtrusive modern technology. Several rooms offer stunning views of the landscaped courtyard from elevated positions. For those looking for an opulent stay that connects with the city's cultural heritage, the signature suites are an exceptional choice.
+                </p>
+                </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Fairmont The Norfolk</strong>
                 <li>Gift shop</li>
                 <li>High-speed  Internet </li>

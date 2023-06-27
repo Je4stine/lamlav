@@ -25,6 +25,7 @@ import Chyulu from '../../../Assets/images (9).jpeg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 
 const Medina =()=>{
@@ -60,6 +61,17 @@ const Medina =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Medina Palms is a beautiful property situated in Turtle Bay, a serene location away from the bustling Watamu center, within a marine reserve where guests can enjoy the beach and ocean without any distractions. 
                 <br/><br/>The property comprises of 50 suites including luxury apartments, penthouses, and villas that can accommodate up to ten people. These suites are set in lush tropical gardens and have modern designs mixed with locally crafted wooden furnishings. They feature en suite bathrooms, lounges, verandas, small kitchenettes, Wi-Fi, and satellite TV.
@@ -67,8 +79,10 @@ const Medina =()=>{
                 <br/><br/> Guests can relax in different areas of the property such as the coffee garden, rooftop lounge, and private beach where they can enjoy meals under the stars. The property also has a fantastic spa with a relaxation terrace and spa pool, a fitness center, and a juice bar. 
                 <br/><br/> For the active guests, Medina Palms offers plenty of activities to choose from including snorkeling, diving, fishing, kitesurfing, and stand-up paddleboarding. Guests can also go for a round of golf at a championship golf course, which is an hour away, or go for a safari at Tsavo National Park, which is two hours away, with arrangements made by the hotel. 
                 <br/><br/> The Medina lifestyle is truly unique and unmatched anywhere else on the Indian Ocean coast.
+                </p>
+                </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Medina Palms  </strong>
                 <li>Spa</li>
                 <li>Shared pool</li>

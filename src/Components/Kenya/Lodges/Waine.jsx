@@ -19,6 +19,7 @@ import Chyulu from '../../../Assets/hw-manyatta-gallery-1.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Waine=()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,14 +54,26 @@ const Waine=()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 House of Waine is a high-end boutique hotel situated on a spacious 2.5-acre property that combines the sophistication of luxurious living with the essence of contemporary Africa, providing a secluded and tranquil atmosphere. The hotel features 11 bedrooms, each designed to reflect a unique style and ambiance,and  is centrally located near the best of Nairobi's attractions such as the Karen Blixen Muesum, the Kazuri beads, The Giraffe centre and The world famous David Sheldrick Wildlife Trust amongst others.
                 <br/><br/>The hotel boasts an ornate design, showcasing the designer's refined taste. The reception area features a stunning chandelier crafted from ostrich eggs, the bar has feather lampshades, and the living room is adorned with oversized leather sofas and sturdy wooden tables. Upstairs, each bedroom has a distinct character, including an Indian room with opulent gold fabrics, a coastal room with bright colors and seashell accents, and several African-themed rooms with bedspreads boasting African prints.
 
                 <br/><br/>While the decor may not appeal to everyone, the hotel provides exceptional comfort. Each bedroom is exceptionally spacious and equipped with air conditioning, satellite television, minibars, safes, and sizable en suite bathrooms.
+                </p>
+                </ShowMoreText>
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at House of Waine  </strong>
                 <li>Shared pool </li>
                 <li>Complementary  Wi-Fi</li>

@@ -26,6 +26,8 @@ import Chyulu from '../../../Assets/loldi.jpeg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
+
 
 const Loldia =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -60,13 +62,25 @@ const Loldia =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Loldia House and Cottages is a private retreat located on a 6,000 acre ranch on the western side of Lake Naivasha. Upon arrival, guests are welcomed by friendly children and immediately feel relaxed and at home. The property features a stunning location on the lake shore with picturesque fever trees and a magnificent ancient fig tree providing shade for the green lawns and Loldia House. 
                 <br/><br/>Built in 1930, Loldia House has retained its original charm and character. Its stone veranda offers fantastic views of the lake, and a cosy living room includes a grand piano, plush sofas, an open fireplace, rugs, and interesting reference books about Kenya. The dining room features a polished wooden table, vases of flowers, and gleaming silver cutlery. The food at Loldia is exceptional. 
                 <br/><br/>There are a total of nine rooms, three in the main house and six in the gardens, all still furnished with the original household furniture and bursting with character and charm. Each room has an en suite bathroom with a large bathtub. In addition, there is a private cottage located a four-minute drive up the hill, which has three bedrooms, breathtaking views, and is perfect for families or groups of friends.
+                </p>
+                </ShowMoreText>
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Loldia  House   </strong>
                 <li>Massage  and  Spa </li>
                 <li>Wi-fi</li>

@@ -19,6 +19,7 @@ import Chyulu from '../../../Assets/images (14).jpeg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Kicheche =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,11 +54,25 @@ const Kicheche =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Kicheche is a small, high-end tented camp that has received recognition for its eco-friendly practices. It is situated near the base of an indigenous forest and overlooks a watering hole, with Mount Kenya visible in the distance. The camp's stylish and environmentally conscious design blends seamlessly with the natural environment of the Ol Pejeta wilderness area.
                 <br/><br/>  The camp is expertly managed to ensure a superior guest experience and has six exclusive  high-end tents, each creating an intimate and personalized atmosphere for guests. One of the tents is a family suite that includes two bedrooms, each with its own private bathroom. The two bedrooms are connected by a lounge area that is furnished with a sofa and a small table, making it suitable for private dining.
+                </p>
+                </ShowMoreText>
 
 
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Kicheche  Laikipia  Camp </strong>
                     <li>Shared pool</li>
                     <li> Wi-Fi</li>

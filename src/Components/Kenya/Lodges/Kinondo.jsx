@@ -25,6 +25,7 @@ import Chyulu from '../../../Assets/Family+Room+Interconnecting,+Kinondo+Kwetu+H
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Kinondo =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -59,14 +60,26 @@ const Kinondo =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Kinondo Kwetu in Dian boasts of a  private and serene beach surrounded by a sacred forest of baobab trees. Each of the lodge's rooms is unique but all share a Swahili-style reminiscent of the East African coast.
                 <br/><br/>The lodge has five cottages and two villas named Mama Taa and Mama Tina. Two new suites have been added, including the honeymoon-designed Andersson Room and the family-friendly Borelius Room. Mama Taa Villa features six suites, three upstairs and three downstairs, with en suite bathrooms and a second room that can be utilized as a sitting room or extra bedroom. Mama Tina is the original house with an en suite double room and two twin rooms with shared bathrooms.
                 <br/><br/>There are also five cottages, three of which have en suite double rooms, while one has a double and single room sharing a bathroom, and the other has a double en suite room as well as a double and single room sharing a bathroom. The rooms feature cool white walls, elegant mosquito nets, and hand-carved Swahili furniture.
                 <br/><br/>The Andersson Room is a roomy suite with an en suite bedroom, stylish lounge, air conditioning, and balconies overlooking the gorgeous beach and ocean. Finally, the new family suite, the Borelius Room, consists of two large en suite bedrooms with a spacious veranda providing a stunning view of the Indian Ocean.
+                </p>
+                </ShowMoreText>
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Kinondo Kwetu  </strong>
                 <li>Yoga & fitness  facilities </li>
                 <li>Bar/ lounge </li>

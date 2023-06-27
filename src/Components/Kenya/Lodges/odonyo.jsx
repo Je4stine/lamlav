@@ -25,6 +25,8 @@ import Lodge6 from '../../../Assets/download (11).jpeg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
+
 
 const Oldonyo =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -59,13 +61,26 @@ const Oldonyo =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Ol Donyo Lodge is an exceptionally luxurious safari lodge, situated in the Chyulu Hills of Kenya. It covers more than 111,000 hectares of private land and nestled between Tsavo and Amboseli National Parks. The lodge's location, which was formed from ancient lava rock ejected from Kilimanjaro hundreds of thousands of years ago, provides a timeless atmosphere that captivates all who visit. .
                 <br/><br/>Ol Donyo Lodge offers unique and individually designed suites and lodges. Guests can enjoy lavish accommodations with ample personal space, and some lodges can even serve as a private retreat with a personal pool, vehicle, guide, and chef for in-villa dining. Additionally, the lodge offers an exclusive experience with Star Beds, which are custom-made beds placed on raised wooden platforms with thatched roofs. 
                 <br/><br/>These beds can be rolled out onto the rooftop, providing guests with complete privacy to enjoy a night under the stars, with only the vast equatorial night sky as their ceiling.
- 
+                </p>
+                </ShowMoreText>
 
 
+                < p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Ol Donyo  Lodge </strong>
                     <li>Chef Services</li>
                     <li> 24hr Security</li>

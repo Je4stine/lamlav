@@ -23,6 +23,7 @@ import Chyulu from '../../../Assets/FinchHattons-Camp8.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Finch =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -57,12 +58,25 @@ const Finch =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Finch Hattons is a tented safari camp that embodies luxury and a deep appreciation for the natural beauty of Tsavo. The camp is situated in a secluded location, giving the feeling of being completely disconnected from the outside world. It is a place where guests can immerse themselves in the vast and diverse landscape, surrounded by the many wildlife species that inhabit the area.<br/><br/>This magical destination is situated within 35 acres of land in the southwestern corner of Tsavo West, and covers 9000 square kilometers of unspoiled African wilderness. 
                 <br/><br/> The area is characterized by natural fresh water springs, rainforests, volcanoes, lava flows, and a diverse range of flora and fauna. While staying at this camp, guests will have the opportunity to see elephants, lions, leopards, hippos, crocodiles, buffalos, and a wide variety of birds, among other treasured wildlife.
                 <br/><br/> The Camp features 17 luxurious tents that blend the beauty of Africa with sophistication and comfort. These tents are elevated to provide stunning views of the surrounding area and ensure complete privacy for guests. The open-plan design of the tents allows for a refreshing flow of air from the nearby springs, bringing the sights and fragrances of the wilderness directly to you
+                </p>
+            </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities  at Finch  Hatton’s  Luxury </strong>
                     <div className=" lg:flex justify-between" >
                         <div>

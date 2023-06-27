@@ -19,6 +19,7 @@ import Chyulu from '../../../Assets/images (24).jpeg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const Watamu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,12 +54,24 @@ const Watamu =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Hemingways is a privately owned hotel located on the beachfront with stunning ocean views visible from most of its rooms. The hotel's appearance is characterized by pristine white exteriors and spacious stone terraces that are surrounded by numerous palm trees and two sparkling blue swimming pools. 
                 <br/><br/>The elegant and upscale hotel popular with both British, Kenyans and international visitors. Its bar, dining room, and reception are housed in large white round buildings with high, dramatic roofs. The hotel is particularly renowned for its emphasis on fine dining, which is reflected in the elegant dining room's decor and candlelit ambience. The hotel has two wings: the original sea-view wing with smaller but quieter double rooms that offer spectacular ocean views, and a newer "superior" wing with larger and more luxurious rooms that offer views of the sea beyond the hotel's gardens and swimming pools. All rooms were recently refurbished to ensure maximum comfort for guests.
+                </p>
+                </ShowMoreText>
 
-
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Hemingways  Hotel  Watamu  </strong>
                <li>Spa </li>
                <li>Butler  service </li>

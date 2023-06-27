@@ -20,6 +20,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import ShowMoreText from "react-show-more-text";
 
 const Elephant =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -54,13 +55,26 @@ const Elephant =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 The Elephant Bedroom Camp provides opulent accommodations amidst stunning natural surroundings. It is situated by the Ewaso Nyiro River, and is covered by a green area of forest consisting of Doum palms and other trees that create shade in the Samburu National Reserve.
                 <br/><br/>The Samburu National Reserve is an incredibly beautiful area with dry plains that are crossed by a winding river and set against the stunning backdrop of Africa's mountains, including Mt. Kenya. 
                 <br/><br/>The camp features 14 spacious tents that are adorned with colorful African decor, providing all the modern amenities such as hot and cold running water, electricity, and even a private plunge pool on the deck. The lounge and dining area has a safari-style decoration, with soft and warm lighting to create a comfortable and relaxing atmosphere. 
                 <br/><br/>The camp is frequently visited by wild animals like elephants, monkeys, and impalas, and the reserve is home to many lions and leopards, as well as other species native to northern Kenya. Exciting game drives are offered for guests to explore the wildlife and experience the natural beauty 
+                </p>
+                </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at The Elephant Bedroom Camp </strong>
                 <li>Wi-fi</li> 
                 <li>24hr Electricity</li>

@@ -19,6 +19,8 @@ import Chyulu from '../../../Assets/Elewana-Kifaru-2018-5.1.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
+
 
 const Kifaru =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -53,12 +55,25 @@ const Kifaru =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Visiting Elewana Kifaru House means experiencing the serene and timeless atmosphere of Africa.The Camp offers luxurious accommodations in a bush setting, with friendly staff and a comfortable lounge, bar, and dining area. Guests can enjoy breakfast on the terrace with views of the waterhole, or relax by the infinity pool with distant plain views. 
                 <br/><br/>Set in the  beautiful  and lush gardens, that are home  to many  birds,  are five lovely cottages with thatched roofs, each having nicely furnished bedrooms with comfortable four-poster beds and large private bathrooms
                 <br/><br/>With a library and log fires, guests can enjoy cosy comfort during cool evenings and the peaceful African night.
+                </p>
+                </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities  at  Kifaru House  </strong>
                     <li>Infinity Pool</li>
                     <li>Wi-fi</li>

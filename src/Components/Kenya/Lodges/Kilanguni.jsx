@@ -23,6 +23,7 @@ import Chyulu from '../../../Assets/283406fb.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 
 const Kilanguni =()=>{
@@ -58,6 +59,17 @@ const Kilanguni =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Kilaguni Serena Safari Lodge, located in the breathtaking Chyulu Hills and surrounded by Mount Kilimanjaro and the lush green volcanic landscapes of Tsavo West National Park, offers a peaceful and comfortable escape into stunning natural beauty and exciting adventures. Upon arrival, guests will be captivated by the lodge's classic stone design and views of wildlife such as elephants and buffalo drinking at the nearby water hole.
 
@@ -65,7 +77,10 @@ const Kilanguni =()=>{
                 <br/><br/>The lodge can arrange unforgettable experiences such as private game drives in Tsavo West National Park with a dedicated guide, soothing massages, or trips to see the hippos and aquatic life at Mzima Springs.
 
                 <br/><br/>Embrace the wild and ancient beauty of Tsavo West, the land of lions and lava, at Kilaguni Serena Safari Lodge.
+                </p>
+                </ShowMoreText>
 
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities  at Kilaguni  Serena  Safari  Lodge </strong>
                         
                         <li>Swimming  pool  and sundeck </li>

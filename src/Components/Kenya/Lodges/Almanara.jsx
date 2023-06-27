@@ -20,6 +20,8 @@ import Lodge5 from '../../../Assets/Almanara4.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
 
+import ShowMoreText from "react-show-more-text";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -57,6 +59,17 @@ const Almanara =()=>{
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Diani Beach is situated on the east coast of Africa, south of Mombasa, Kenya. It is surrounded by the Indian Ocean's crystal-clear waters and the open plains of the Shimba Hills National Reserve. The coastline stretches for 25 kilometers and is characterized by pristine white sands and verdant forests, creating a tranquil and idyllic atmosphere.
 
@@ -65,8 +78,10 @@ const Almanara =()=>{
                 <br/><br/>Each villa is fully air-conditioned and comprises three double bedrooms, each with its own en-suite bathroom, and a downstairs cloakroom. The open-plan dining and living area is perfect for relaxing and dining indoors and opens onto a covered veranda. The central swimming pool is accompanied by a sunken pool bar that serves cocktails and refreshments all day.
                 <br/><br/>Casa Bella, it's  boutique  hotel, provide guests with luxury service and stunning views through its 3 Ocean View Rooms and 2 Ocean View Suites. It is decorated with Italian Marble & Mosaic and the open plan layout allows guests to relax in a generous space. The entrance hall leads to a veranda that overlooks the swimming pool and ocean. All suites and rooms are en-suite and equipped with air-conditioning for guest comfort.
 
+                </p>
+            </ShowMoreText>
 
-
+                <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities at Almanara Luxury Villa</strong>
                 <li>Complementary  Wi-Fi</li>
                 <li>Ocean  view</li>
