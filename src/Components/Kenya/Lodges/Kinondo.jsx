@@ -80,22 +80,23 @@ const Kinondo =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Kinondo Kwetu  </strong>
-                <li>Yoga & fitness  facilities </li>
-                <li>Bar/ lounge </li>
-                <li>Shared pool</li>
-                <li>High speed  Internet </li>
-                <li>Babysitting</li>
-                <li>Laundry  services </li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>Air conditioned</li>
-                <li>Ensuite Bathrooms</li>
-                <li>Private furnished veranda</li>
-
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                                    <br/><br/> <strong>Amenities at Kinondo Kwetu  </strong>
+                            <li>Yoga & fitness  facilities </li>
+                            <li>Bar/ lounge </li>
+                            <li>Shared pool</li>
+                            <li>High speed  Internet </li>
+                            <li>Babysitting</li>
+                            <li>Laundry  services </li>
+                        </div>
+                        <div>
+                                    <br/><br/><strong>Room features </strong>
+                            <li>Air conditioned</li>
+                            <li>Ensuite Bathrooms</li>
+                            <li>Private furnished veranda</li>
+                        </div>
+                    </div>           
 
                     <br/><br/> <strong>Activities  at Kinondo Kwetu   </strong>
 

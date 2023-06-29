@@ -74,17 +74,25 @@ const Kifaru =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities  at  Kifaru House  </strong>
-                    <li>Infinity Pool</li>
-                    <li>Wi-fi</li>
-                    <li>Infinity  pool</li>
-                    <li>Library </li>
-                    <li>Bar</li>
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities  at  Kifaru House  </strong>
+                            <li>Infinity Pool</li>
+                            <li>Wi-fi</li>
+                            <li>Infinity  pool</li>
+                            <li>Library </li>
+                            <li>Bar</li>
+                        </div>
+                        <div>
+                            <br/><br/> <strong> Room features </strong>
+                            <li>En-suite  bathrooms  with Victorian-style bath </li>
+                            <li>Room service </li>
+                            <li>Private  veranda </li>
+                            
+                        </div>
+                    </div>
+              
 
-                    <br/><br/> <strong> Room features </strong>
-                    <li>En-suite  bathrooms  with Victorian-style bath </li>
-                    <li>Room service </li>
-                    <li>Private  veranda </li>
 
                     
 

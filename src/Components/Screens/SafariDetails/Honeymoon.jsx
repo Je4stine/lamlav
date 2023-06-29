@@ -46,7 +46,7 @@ const Honeymoon =()=>{
                     <img src={Kanairo} alt=" Mara1" className=" lg:w-1/2"/>
                     <div> 
                         <p className="p-5 font-[SourceSerifPro-Black]">Welcome to Africa’s 4th largest city </p>
-                        <p className=" p-5">
+                        <p className=" p-5 font-[SourceSerifPro-Regular]">
                             Your honeymoon begins as you touch down in Kenya’s capital Nairobi. You will be met and received by your Lamlaw Safari director, who will brief you on your safari as you transfer to the lavishly elegant and refined Hemingways hotel, for overnight stay.
                             Hemingways hotel is an exclusive boutique in the peaceful and exclusive Nairobi’s Karen suburbs, just 40 minutes drive from Jomo kenyata International Airport, and is perfectly placed for trips to the Nairobi national park and the capital. It has 45 luxurious suites of generous size, each with a private terrace, from which you can make magnificent views of the iconic silhouette of the Ngong hills as you enjoy a sundowner. Arrive and relax while enjoying the Hotel's excellent amenities.
                             <br/>

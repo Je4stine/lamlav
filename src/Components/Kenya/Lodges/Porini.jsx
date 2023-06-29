@@ -71,16 +71,21 @@ const Porini =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Porini Rhino Camp </strong>
-                    <li>Shared pool</li>
-                    <li> Restaurant</li>
-                    <li> Bar and Lodges</li>
-                
+                    <div className=" lg:flex justify-between">
+                        <div>
+                             <br/><br/> <strong>Amenities at Porini Rhino Camp </strong>
+                            <li>Shared pool</li>
+                            <li> Restaurant</li>
+                            <li> Bar and Lodges</li>
 
-                <br/><br/> <strong>Room features </strong>
-                    <li>Laundry  service</li>
-                    <li>En-suite  bathroom</li> 
-
+                        </div>
+                        <div>
+                                <br/><br/> <strong>Room features </strong>
+                            <li>Laundry  service</li>
+                            <li>En-suite  bathroom</li> 
+                        </div>
+                    </div>
+               
 
                     <br/><br/> <strong>Activities  at Porini Rhino Camp </strong>
 

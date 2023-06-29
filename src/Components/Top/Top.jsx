@@ -9,10 +9,10 @@ const Top =()=>{
         <div className=' bg-black flex w-full h-[25px] justify-around items-center'>
             <div className=' flex justify-around'>
                 <div className=' mr-5'><MdCall color='white'/> </div>
-                <p className=' text-white text-xs mr-8'> Call:</p>
-                <p className=' text-white text-xs mr-8'> +254716251932 {""} </p>
-                <p className=' text-white text-xs mr-8'>+254743937388</p>
-                <p className=' text-white text-xs'>info@lamalavsafaris.com</p>
+                <p className=' text-white text-xs mr-8 font-[SourceSerifPro-Regular]'> Call:</p>
+                <p className=' text-white text-xs mr-8 font-[SourceSerifPro-Regular]'> +254716251932 {""} </p>
+                <p className=' text-white text-xs mr-8 font-[SourceSerifPro-Regular]'>+254743937388</p>
+                <p className=' text-white text-xs font-[SourceSerifPro-Regular]'>info@lamalavsafaris.com</p>
             </div>
             <div className=' flex'>
                 <div className=' mr-3'>

@@ -73,20 +73,21 @@ const Larsen =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Larsens Camp  </strong>
-                <li>Wireless  Internet</li> 
-                <li>Spa</li>
-                <li>Shared pool </li>
-               
-
-                <br/><br/><strong>Room features </strong>
-               
-                <li>Private balcony </li>
-                <li>En-suite bathroom </li>
-             
-
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Larsens Camp  </strong>
+                            <li>Wireless  Internet</li> 
+                            <li>Spa</li>
+                            <li>Shared pool </li>
+                        </div>
+                        <div>
+                                <br/><br/><strong>Room features </strong>
+                            
+                            <li>Private balcony </li>
+                            <li>En-suite bathroom </li>
+                        </div>
+                    </div>
+              
                     <br/><br/> <strong>Activities  at Larsens Camp   </strong>
                     <li>Game drives</li>
                     <li>Sundowners </li>

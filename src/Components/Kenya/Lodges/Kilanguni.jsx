@@ -81,23 +81,26 @@ const Kilanguni =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities  at Kilaguni  Serena  Safari  Lodge </strong>
-                        
-                        <li>Swimming  pool  and sundeck </li>
-                        <li>Wi-Fi</li>
-                        <li>Gift shop</li>
-                        <li>Stand alone  conference  facilities </li>
-                        <li> Spa facilities </li>
-                        <li> Honeymoon  suite </li>
-                        <li>Library </li>
-
-
-                <br/><br/> <strong>Room features</strong>
-                        <li>Housekeeping  services </li>
-                        <li> En-suite  bathrooms </li>
-                        <li>Private  veranda </li>
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities  at Kilaguni  Serena  Safari  Lodge </strong>
+                            
+                            <li>Swimming  pool  and sundeck </li>
+                            <li>Wi-Fi</li>
+                            <li>Gift shop</li>
+                            <li>Stand alone  conference  facilities </li>
+                            <li> Spa facilities </li>
+                            <li> Honeymoon  suite </li>
+                            <li>Library </li>
+                        </div>
+                        <div>
+                            
+                        <br/><br/> <strong>Room features</strong>
+                                <li>Housekeeping  services </li>
+                                <li> En-suite  bathrooms </li>
+                                <li>Private  veranda </li>
+                        </div>
+                    </div>
 
                     <br/><br/> <strong>Activities  at Kilaguni  Serena  Safari  Lodge.  </strong>
 

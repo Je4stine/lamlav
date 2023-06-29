@@ -20,7 +20,7 @@ const Navbar =()=>{
             <div className=' flex justify-between items-center relative' >
                 <div className=' flex items-center  '>
                    
-                    <h1 className=" mx-4 lg:my-6 font-bold text-xl text-black lg:text-white my-3"><a href='/'>Lamlav Leisure Safaris</a></h1>
+                    <h1 className=" mx-4 lg:my-6 font-[SourceSerifPro-Black] text-xl text-black lg:text-white my-3"><a href='/'>Lamlav Leisure Safaris</a></h1>
                 </div>
                 <span  className=' cursor-pointer block lg:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
@@ -39,40 +39,40 @@ const Navbar =()=>{
                 isOpen ? 
                     <ul className="lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute bg-white w-full left-0 lg:w-auto lg:opacity-100 opacity-100 transition-all ease-in duration-500">
                         <li className=" mx-4 my-6 "> 
-                        <a href="/" className=" hover:text-[#f15d30] duration-500">Home</a>  
+                        <a href="/" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                         <a href="/safaris" className=" hover:text-[#f15d30] duration-500">Destinations</a> 
+                         <a href="/safaris" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Destinations</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/lamlav/about" className=" hover:text-[#f15d30] duration-500">Luxury Safaris</a> 
+                            <a href="/lamlav/about" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Luxury Safaris</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/contacts" className=" hover:text-[#f15d30] duration-500">FAQs</a> 
+                            <a href="/contacts" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">FAQs</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500">Contacts/Inquiry</a> 
+                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500">Plan for a trip call +254716251932 </a> 
+                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Plan for a trip call +254716251932 </a> 
                         </li>
                     </ul> 
                 :
                     <ul className=" lg:flex lg:items-center z-[-1] lg:z-auto lg:static absolute w-full left-0 lg:w-auto lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                         <li className=" mx-4 my-6 "> 
-                        <a href="/" className=" hover:text-yellow-400 duration-500 text-white font-bold">Home</a>  
+                        <a href="/" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-bold">Destinations</a> 
+                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Destinations</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-bold">Luxury Safaris</a> 
+                            <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Luxury Safaris</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-bold">FAQS</a> 
+                            <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">FAQS</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-bold ">Contacts/Inquiry</a> 
+                            <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
                         </li>
                     </ul>
             }

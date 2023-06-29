@@ -56,7 +56,7 @@ const Mara =()=>{
                        
                     
                     <div> 
-                        <p className=" p-5">
+                        <p className=" p-5 font-[SourceSerifPro-Regular]">
                         Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.
                         <br/> <strong>Norfolk hotel</strong> is a luxury hotel located in the heart of the city. It boasts of 27 signature suits and 147 rooms with heated outdoor swimming pool, a health club and sybaritic spa facilities- all to  combine classic elegance and modern design with discreet technology . The luxurious suits offer an excellent choice for guests seeking to experience luxury intertwined with the rich history of the city.
                         <br/><br/>

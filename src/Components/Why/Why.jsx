@@ -19,7 +19,7 @@ const Why =()=>{
                                 We take pride in taking our esteemed guests to some of the most elegant and experimental camps and lodges, where each lodge or camp impeccably captures the true essence of the wild and its natural surroundings.                 
                             </p>
                             <a href='/about'><div className=' border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
-                                <span >Discover more</span>
+                                <span className='font-[SourceSerifPro-Regular]'>Discover more</span>
                             </div></a> 
                         </div>                       
                 </div>

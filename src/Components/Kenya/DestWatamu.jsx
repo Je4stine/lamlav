@@ -26,6 +26,7 @@ import Medina from '../../Assets/medina333.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const DestWatamu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -63,7 +64,7 @@ const DestWatamu =()=>{
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                     Watamu in the North-Coast is a magical, charming, and timeless place that enchants all who visit. Perched on a small peninsula, surrounded by the serene Mida Creek and dotted with rocky coves and shimmering lagoons, Watamu is a paradise. The turquoise waters, protected by Kenya's barrier reef, are crystal clear and warm all year, making it an ideal location for swimming and relaxing. The area is surrounded by towering baobab trees and boasts three great stretches of silver sand, making it  a true escape from the hustle and bustle of everyday life.
                 </p>
-                <div className="relative mt-20 z-[0] m-auto w-[70%]">
+                <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

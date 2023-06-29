@@ -40,7 +40,7 @@ const Wilderness =()=>{
                 content: <div className=" lg:flex lg:items-center">
                     <img src={Nairobi1} alt=" Mara1" className=" lg:w-1/2"/>
                     <div> 
-                        <p className=" p-5">
+                        <p className=" p-5 font-[SourceSerifPro-Regular]">
                         Your expedition begins as you touch down at Jomo Kenyatta International Airport in Nairobi. You will be warmly met and received by your Safari  Director who will thereafter transfer to the elegant Hemmingways hotel, where you will spend  two leisurely nights.
                         Hemmingways hotel is an elegant boutique  hotel  situated in the leafy suburbs of Nairobi   in the Karen area. Karen is named after Karen Christensen von Blixen -the author of the Oscar award winning film, ‘Out of Africa’, an account of her life while living in Kenya. 
                         Hemingways hotel   is designed for leisure and offers the full facilities expected in a modern day luxury boutique hotel.

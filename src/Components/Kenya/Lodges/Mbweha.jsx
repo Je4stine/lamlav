@@ -81,22 +81,24 @@ const Mbweha =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Mara Mbweha Camp </strong>
-                <li>24hr  Electricity </li>
-                <li>Shared pool </li>
-                <li>Spa services </li>
-                <li>Wi-Fi</li>
-                <li> Laundry  services</li>
-                <li> Bar & Restaurant </li>
-
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>Room service</li>
-                <li>En-suite bathroom </li>
-             
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                             <br/><br/> <strong>Amenities at Mara Mbweha Camp </strong>
+                            <li>24hr  Electricity </li>
+                            <li>Shared pool </li>
+                            <li>Spa services </li>
+                            <li>Wi-Fi</li>
+                            <li> Laundry  services</li>
+                            <li> Bar & Restaurant </li>
+                        </div>
+                        <div>
+                            
+                            <br/><br/><strong>Room features </strong>
+                            <li>Room service</li>
+                            <li>En-suite bathroom </li>
+                            
+                        </div>
+                    </div>
 
                     <br/><br/> <strong>Activities  at Mbweha Camp   </strong>
 

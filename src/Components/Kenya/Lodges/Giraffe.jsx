@@ -77,22 +77,24 @@ const Giraffe =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at The Giraffe  Manor  </strong>
-                <li>Massage & Spa</li>
-                <li>Laundry  services </li>
-                <li>Gym </li>
-                <li>Library </li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>En-suite  bathroom </li>
-                <li>Wi-Fi</li>
-                <li>Hairdryers </li>
-                <li>Coffee/Tea facilities</li>
-                <li>Coffee/Tea facilities</li>
-
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at The Giraffe  Manor  </strong>
+                            <li>Massage & Spa</li>
+                            <li>Laundry  services </li>
+                            <li>Gym </li>
+                            <li>Library </li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>En-suite  bathroom </li>
+                            <li>Wi-Fi</li>
+                            <li>Hairdryers </li>
+                            <li>Coffee/Tea facilities</li>
+                            <li>Coffee/Tea facilities</li>
+                        </div>
+                    </div>
+             
 
                     <br/><br/> <strong>Activities  at The Giraffe  Manor   </strong>
 

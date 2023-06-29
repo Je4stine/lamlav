@@ -81,21 +81,23 @@ const MaraPlains=()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Mara Plains Camp  </strong>
-                <li>Butler service</li>
-                <li>Library</li>
-                <li>24-hour electricity</li>
-                <li>Laundry services</li>
-                <li>Gift shop</li>
-
-
-                <br/><br/>Room features 
-                <li>Room service</li>
-                <li>Private Veranda </li>
-                <li>En-suite bathroom </li>
-          
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Mara Plains Camp  </strong>
+                            <li>Butler service</li>
+                            <li>Library</li>
+                            <li>24-hour electricity</li>
+                            <li>Laundry services</li>
+                            <li>Gift shop</li>
+                        </div>
+                        <div>
+                                <br/><br/>Room features 
+                                <li>Room service</li>
+                                <li>Private Veranda </li>
+                                <li>En-suite bathroom </li>
+                        </div>
+                    </div>
+              
 
                     <br/><br/> <strong>Activities  at Mara Plains Camp   </strong>
 

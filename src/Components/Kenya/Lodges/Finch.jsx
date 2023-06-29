@@ -84,22 +84,20 @@ const Finch =()=>{
                             <li>Wi-fi</li>
                             <li>Infinity  pool</li>
                             <li>Library  and Research  centre </li>
-                           
-                        </div>
-                        <div>
                             <li>Chyulu  Spa & massage </li>
                             <li>Fitness  center </li>
                              <li>Airstrip  with helipad </li>
                             <li>Safari  shop</li>
                            
                         </div>
-                    </div>
-                    
-                     <br/><br/><strong>Room  features </strong>
+                        <div>
+                            <br/><br/><strong>Room  features </strong>
                             <li>Private  veranda </li>
                             <li>En-suite  bathrooms </li>
                             <li>Battler  service </li>
-                    
+                           
+                        </div>
+                    </div>               
 
 
                     <br/><br/> <strong>Activities  at Finch Hattons </strong>

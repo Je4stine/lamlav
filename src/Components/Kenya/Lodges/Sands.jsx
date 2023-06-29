@@ -78,24 +78,27 @@ const Sands =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-
-                <br/><br/> <strong>Amenities at The Sands at Nomad </strong>
-                <li>Bar and restaurant </li>
-                <li>Swimming  pool </li>
-                <li>Wi-Fi</li>
-                <li>Spa services </li>
-                <li>Fitness  & Yoga</li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>Air conditioning </li>
-                <li>Private  Jacuzzi </li>
-                <li>Panoramic  terrace</li>
-                <li>Private bar</li>
-                <li>En-suite  bathroom </li>
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at The Sands at Nomad </strong>
+                            <li>Bar and restaurant </li>
+                            <li>Swimming  pool </li>
+                            <li>Wi-Fi</li>
+                            <li>Spa services </li>
+                            <li>Fitness  & Yoga</li>
 
 
-
+                        </div>
+                        <div>
+                                    <br/><br/><strong>Room features </strong>
+                            <li>Air conditioning </li>
+                            <li>Private  Jacuzzi </li>
+                            <li>Panoramic  terrace</li>
+                            <li>Private bar</li>
+                            <li>En-suite  bathroom </li>
+                            
+                        </div>
+                    </div>
 
                     <br/><br/> <strong>Activities  at The Sands at Nomad   </strong>
 

@@ -81,19 +81,22 @@ const Oldonyo =()=>{
 
 
                 < p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Ol Donyo  Lodge </strong>
-                    <li>Chef Services</li>
-                    <li> 24hr Security</li>
-                    <li> Wi-Fi</li>
-                    <li>Laundry services</li>
-
-                   <br/><br/> <strong>Room features </strong>
-                    <li>En-suite bathrooms</li>
-                    <li>Private deck/veranda</li>
-                    <li>Private pool</li>
-                    <li>In-room massage</li>
-
-                    
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Ol Donyo  Lodge </strong>
+                            <li>Chef Services</li>
+                            <li> 24hr Security</li>
+                            <li> Wi-Fi</li>
+                            <li>Laundry services</li>
+                        </div>
+                        <div>
+                                <br/><br/> <strong>Room features </strong>
+                            <li>En-suite bathrooms</li>
+                            <li>Private deck/veranda</li>
+                            <li>Private pool</li>
+                            <li>In-room massage</li>
+                        </div>
+                    </div>
 
                     <br/><br/> <strong>Activities  at Ol Donyo  Lodge </strong>
 

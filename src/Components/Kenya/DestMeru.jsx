@@ -75,7 +75,7 @@ const DestMeru =()=>{
 
                 </p>
                 </ShowMoreText>
-                <div className="relative mt-20 z-[0] m-auto w-[70%]">
+                <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

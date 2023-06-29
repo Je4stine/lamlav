@@ -38,7 +38,7 @@ const Migration =()=>{
                     <img src={Kanairo} alt=" Mara1" className=" lg:w-1/2"/>
                     <div> 
                         <p className="p-5 font-[SourceSerifPro-Black]">Welcome to Africa’s 4th largest city </p>
-                        <p className=" p-5">
+                        <p className=" p-5 font-[SourceSerifPro-Regular]">
                         Arrival and transfer to one of Kenya’s most luxurious hotels in the city, the Norfolk Hotel Nairobi, for a leisurely two-night  stay.             <br/>
                         <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
                         <strong>Meals:</strong> Breakfast, lunch & dinner 

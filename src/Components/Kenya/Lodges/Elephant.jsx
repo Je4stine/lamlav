@@ -75,16 +75,22 @@ const Elephant =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at The Elephant Bedroom Camp </strong>
-                <li>Wi-fi</li> 
-                <li>24hr Electricity</li>
-                <li>Shared pool </li>
-         
-                <br/><br/><strong>Room features </strong>
-                <li>Private  deck</li>
-                <li>Private pool</li>
-                <li>En-suite  bathroom </li>
-                <li>Room service </li>
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at The Elephant Bedroom Camp </strong>
+                            <li>Wi-fi</li> 
+                            <li>24hr Electricity</li>
+                            <li>Shared pool </li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>Private  deck</li>
+                            <li>Private pool</li>
+                            <li>En-suite  bathroom </li>
+                            <li>Room service </li>
+                        </div>
+                    </div>
+                
 
 
 

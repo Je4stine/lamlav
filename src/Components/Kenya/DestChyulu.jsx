@@ -71,7 +71,7 @@ const DestChyulu =()=>{
                 <br/><br/>This area is ideal for hikers who enjoy ascending hills and creating unforgettable memories.
 
                 </p>
-                <div className="relative mt-20 z-[0] m-auto w-[70%]">
+                <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

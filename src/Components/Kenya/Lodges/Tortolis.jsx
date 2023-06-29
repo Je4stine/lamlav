@@ -97,16 +97,20 @@ const Tortolis =()=>{
               </ShowMoreText>
               
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <br/><br/> <strong>Amenities at Tortilis  Camp</strong>
+                  <div className=" lg:flex justify-between">
+                    <div>
+                        <br/><br/> <strong>Amenities at Tortilis  Camp</strong>
                         <li>Shared pool</li>
                         <li> Massage services only</li>
-                        
+                    </div>
+                    <div>
                         <br/><br/><strong>Room features </strong>
                         <li> En-suite bathrooms</li>
                         <li>Private veranda</li>
+                    </div> 
+                    </div>
 
                         <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
-
                         <li>Game drives </li>
                         <li>Guiding  </li>
                         <li>Guided  walks </li>
@@ -118,7 +122,7 @@ const Tortolis =()=>{
 
                 
                 
-                <div className="relative mt-20 z-[0] m-auto w-[80%]">
+                <div className="relative mt-20 z-[0] m-auto lg:w-[80%]">
                  <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge2}/>

@@ -81,23 +81,24 @@ const Loldia =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Loldia  House   </strong>
-                <li>Massage  and  Spa </li>
-                <li>Wi-fi</li>
-                <li>Shared  pool</li>
-                <li>Bar</li>
-                <li>Gift  shop </li>
-                <li>Laundry  service </li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>Room service</li>
-                <li>Private balcony </li>
-                <li>En-suite bathroom </li>
-            
-
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Loldia  House   </strong>
+                            <li>Massage  and  Spa </li>
+                            <li>Wi-fi</li>
+                            <li>Shared  pool</li>
+                            <li>Bar</li>
+                            <li>Gift  shop </li>
+                            <li>Laundry  service </li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>Room service</li>
+                            <li>Private balcony </li>
+                            <li>En-suite bathroom </li>
+                        </div>
+                    </div>
+          
                     <br/><br/> <strong>Activities  at Loldia  House   </strong>
 
                     <li>Horse riding </li>

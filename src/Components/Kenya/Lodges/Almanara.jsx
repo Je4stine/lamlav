@@ -61,7 +61,7 @@ const Almanara =()=>{
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
             <ShowMoreText
                     /* Default options */
-                    lines={7}
+                    lines={4}
                     more='Show more'
                     less='Show less'
                     anchorClass='pt-[50px]'
@@ -82,23 +82,28 @@ const Almanara =()=>{
             </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Almanara Luxury Villa</strong>
-                <li>Complementary  Wi-Fi</li>
-                <li>Ocean  view</li>
-                <li>Infinity  pool</li>
-                <li>Butler service </li>
-                <li>Gym & Games room</li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>Personal chef</li>
-                <li>Air conditioned </li>
-                <li>Satellite TV </li>
-                <li>Minibar</li>
-                <li>En-suite  bathroom </li>
-                <li>En-suite  double  bedroom </li>
-                <li> Private Dining  </li>
-                <li>Rooftop  terrace </li>
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Almanara Luxury Villa</strong>
+                            <li>Complementary  Wi-Fi</li>
+                            <li>Ocean  view</li>
+                            <li>Infinity  pool</li>
+                            <li>Butler service </li>
+                            <li>Gym & Games room</li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>Personal chef</li>
+                            <li>Air conditioned </li>
+                            <li>Satellite TV </li>
+                            <li>Minibar</li>
+                            <li>En-suite  bathroom </li>
+                            <li>En-suite  double  bedroom </li>
+                            <li> Private Dining  </li>
+                            <li>Rooftop  terrace </li>
+                        </div>
+                    </div>
+                
 
 
 

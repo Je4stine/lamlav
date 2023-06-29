@@ -78,26 +78,28 @@ const Mara =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Mara Serena Safari Lodge </strong>
-                <li>Wireless  Internet</li> 
-                <li>Satellite  TV</li>
-                <li>Private pool </li>
-                <li> Bar & Restaurant </li>
-                <li>Gym & Spa</li>
-                <li>Gift Shop</li>
-                <li>Conference  center</li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>Room service</li>
-                <li>Private balcony </li>
-                <li>En-suite bathroom </li>
-                <li>Dedicated  room steward</li>
-                <li>Laundry  service </li>
-                <li>Ceiling fans</li>
-
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Mara Serena Safari Lodge </strong>
+                            <li>Wireless  Internet</li> 
+                            <li>Satellite  TV</li>
+                            <li>Private pool </li>
+                            <li> Bar & Restaurant </li>
+                            <li>Gym & Spa</li>
+                            <li>Gift Shop</li>
+                            <li>Conference  center</li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>Room service</li>
+                            <li>Private balcony </li>
+                            <li>En-suite bathroom </li>
+                            <li>Dedicated  room steward</li>
+                            <li>Laundry  service </li>
+                            <li>Ceiling fans</li>
+                        </div>
+                    </div>
+               
                     <br/><br/> <strong>Activities  at Mara Serena Safari Lodge  </strong>
 
                     <li> Ololoolo  escarpment hike Expeditions</li>

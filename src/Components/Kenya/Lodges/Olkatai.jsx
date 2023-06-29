@@ -85,17 +85,23 @@ const Olkatai =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Ol Tukai Lodge</strong>
-                    <li>Shared pool</li>
-                    <li> Massage services</li>
-                    <li> Wi-Fi</li>
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Ol Tukai Lodge</strong>
+                            <li>Shared pool</li>
+                            <li> Massage services</li>
+                            <li> Wi-Fi</li>
 
-                    <br/><br/><strong>Room features </strong>
-                    <div className=" ">
-                        <li> En-suite bathrooms</li>
-                        <li>Private veranda</li>
+                        </div>
+                        <div>
+                                <br/><br/><strong>Room features </strong>
+                            <div className=" ">
+                                <li> En-suite bathrooms</li>
+                                <li>Private veranda</li>
+                            </div>
+                        </div>
                     </div>
-                    
+                
 
                     <br/><br/> <strong>Activities  at Ol Tukai Lodge </strong>
                     <div className=" " >

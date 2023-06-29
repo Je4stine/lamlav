@@ -83,19 +83,27 @@ const Neptune =()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Neptune  Mara  Rianta  Luxury  Tented  Camps </strong>
-                <li>Shared pool</li>
-                <li>Wi-Fi</li>
-                <li>Library</li>
-                <li>Gift shop</li>
-                <li>Spa</li>
-                <li>Butler service</li>
-                <li>Laundry Services</li>
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Neptune  Mara  Rianta  Luxury  Tented  Camps </strong>
+                            <li>Shared pool</li>
+                            <li>Wi-Fi</li>
+                            <li>Library</li>
+                            <li>Gift shop</li>
+                            <li>Spa</li>
+                            <li>Butler service</li>
+                            <li>Laundry Services</li>
+                        </div>
+                        <div>
+                                    <br/><br/><strong>Room features </strong>
+                            <li>Private Veranda </li>
+                            <li>En-suite bathroom </li>
+                        </div>
+                    </div>
+              
 
 
-                <br/><br/><strong>Room features </strong>
-                <li>Private Veranda </li>
-                <li>En-suite bathroom </li>
+              
         
 
                     <br/><br/> <strong>Activities  at Neptune  Mara  Rianta  Luxury  Tented  Camps </strong>

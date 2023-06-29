@@ -73,24 +73,26 @@ const Sasaab =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Sasaab  </strong>
-                <li>Spa</li>
-                <li>Shared  pool</li>
-                <li>Gift shop</li>
-                <li>Bush gym</li>
-                <li> Wi-Fi</li>
-                <li>Massage </li>
-                <li>Electricity </li>
-                <li> Laundry  services </li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>Private Pool</li>
-                <li>Private balcony </li>
-                <li>En-suite bathroom </li>
-              
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                             <br/><br/> <strong>Amenities at Sasaab  </strong>
+                            <li>Spa</li>
+                            <li>Shared  pool</li>
+                            <li>Gift shop</li>
+                            <li>Bush gym</li>
+                            <li> Wi-Fi</li>
+                            <li>Massage </li>
+                            <li>Electricity </li>
+                            <li> Laundry  services </li>
+                        </div>
+                        <div>
+                                <br/><br/><strong>Room features </strong>
+                        <li>Private Pool</li>
+                        <li>Private balcony </li>
+                        <li>En-suite bathroom </li>
+                            
+                        </div>
+                    </div>
 
                     <br/><br/> <strong>Activities  at Sasaab  </strong>
 

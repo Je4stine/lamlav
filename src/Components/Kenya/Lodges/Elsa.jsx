@@ -84,20 +84,22 @@ const Elsa =()=>{
                 </ShowMoreText>
  
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Elsa's Kopje  </strong>
-                <li>Shared pool</li>
-                <li>Massage  services </li>
-                <li>Gift shop </li>
-                <li>Laundry  services </li>
-
-
-                <br/><br/><strong>Room features</strong>
-                <li>Room service</li>
-                <li>Private Veranda </li>
-                <li>En-suite bathroom </li>
-                
-
-
+                <div className=" lg:flex justify-between">
+                    <div>
+                            <br/><br/> <strong>Amenities at Elsa's Kopje  </strong>
+                        <li>Shared pool</li>
+                        <li>Massage  services </li>
+                        <li>Gift shop </li>
+                        <li>Laundry  services </li>
+                    </div>
+                    <div>
+                        
+                        <br/><br/><strong>Room features</strong>
+                        <li>Room service</li>
+                        <li>Private Veranda </li>
+                        <li>En-suite bathroom </li>
+                    </div>
+                </div>            
 
                     <br/><br/> <strong>Activities  at Elsa's Kopje  </strong>
 

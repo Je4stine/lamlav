@@ -9,18 +9,18 @@ import Rwanda from '../../Assets/rwan.jpg'
 const Countries =()=>{
     return (
         <div className=' flex flex-col items-center justify-center'>
-            <h1 className=' m-auto font-bold lg:text-5xl my-20 text-xl '> Destinations </h1>
+            <h1 className=' m-auto font-[SourceSerifPro-Black] lg:text-5xl my-20 text-xl '> Destinations </h1>
 
             <div className=' flex flex-col items-center justify-center'>
                 
                 <a href='/kenya' className='lg:flex flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Kenya} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                         <div className=' p-10 flex flex-col justify-center'> 
-                            <h1 className=' font-bold text-2xl '>
+                            <h1 className=' font-[SourceSerifPro-Black] text-2xl '>
                                     Kenya
                             </h1>
                             <br/>
-                            <h1 className=' font-bold text-xl'>
+                            <h1 className=' font-[SourceSerifPro-Black] text-xl'>
                                     Home of Adventure
                             </h1>
                             <br/>

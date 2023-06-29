@@ -47,7 +47,7 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                     <img src={Heming} alt=" Mara1" className=" lg:w-1/2"/>
                     <div> 
-                        <p className=" p-5">
+                        <p className=" p-5 font-[SourceSerifPro-Regular]">
                         Your safari expedition begins immediately you touch down in Kenya’s capital Nairobi. You will be received by our Safari  director who will brief you on your safari as you transfer you to Hemingways hotel, for overnight stay.
                         Hemingways hotel is an exclusive boutique in the peaceful and exclusive Nairobi’s Karen suburbs, just 40 minutes’ drive from Jomo Kenyata International Airport, and perfectly placed for trips to the Nairobi national park and the capital. It has 45 luxurious suites of generous size, each with a private terrace, from which you can make magnificent views of the iconic silhouette of the Ngong hills as you enjoy a sundowner. 
                         <br/>

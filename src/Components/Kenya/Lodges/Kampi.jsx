@@ -78,15 +78,18 @@ const Kampi =()=>{
             </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Campi  Ya Kanzi</strong>
-                    <li>Electricity</li>
-                    <li> Laundry Room</li>
-                
-                    <br/><br/> <strong>Room features</strong>
-                    <li>En-suite  bathroom</li>
-                    <li>Private  veranda </li>
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                                <br/><br/> <strong>Amenities at Campi  Ya Kanzi</strong>
+                            <li>Electricity</li>
+                            <li> Laundry Room</li>
+                        </div>
+                        <div>
+                            <br/><br/> <strong>Room features</strong>
+                            <li>En-suite  bathroom</li>
+                            <li>Private  veranda </li>
+                        </div>
+                    </div>
 
                     <br/><br/> <strong>Activities  at Kampi  Ya Kanzi </strong>
 

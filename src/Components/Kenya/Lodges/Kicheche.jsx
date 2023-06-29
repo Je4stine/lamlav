@@ -73,13 +73,20 @@ const Kicheche =()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Kicheche  Laikipia  Camp </strong>
-                    <li>Shared pool</li>
-                    <li> Wi-Fi</li>
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Kicheche  Laikipia  Camp </strong>
+                            <li>Shared pool</li>
+                            <li> Wi-Fi</li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>En-suite  bathrooms </li>
+                            <li>Room service / housekeeping </li>
+                        </div>
+                    </div>
+                
                     
-                    <br/><br/><strong>Room features </strong>
-                    <li>En-suite  bathrooms </li>
-                    <li>Room service / housekeeping </li>
 
 
                     <br/><br/> <strong>Activities  at Kicheche  Laikipia  Camp </strong>

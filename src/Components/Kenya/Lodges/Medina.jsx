@@ -83,25 +83,27 @@ const Medina =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Medina Palms  </strong>
-                <li>Spa</li>
-                <li>Shared pool</li>
-                <li>Fitness  centre </li>
-                <li> A juice bar</li>
-                <li>Private beach</li>
-                <li>Ocean view</li>
-                <li>Wi-Fi</li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>En-suite  bathroom </li>
-                <li>Room service </li>
-                <li>Air conditioned </li>
-                <li>Rooftop  terrace </li>
-
-
-
-
+                    <div>
+                        <div>
+                            <br/><br/> <strong>Amenities at Medina Palms  </strong>
+                            <li>Spa</li>
+                            <li>Shared pool</li>
+                            <li>Fitness  centre </li>
+                            <li> A juice bar</li>
+                            <li>Private beach</li>
+                            <li>Ocean view</li>
+                            <li>Wi-Fi</li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>En-suite  bathroom </li>
+                            <li>Room service </li>
+                            <li>Air conditioned </li>
+                            <li>Rooftop  terrace </li>
+                            
+                        </div>
+                    </div>
+                    
                     <br/><br/> <strong>Activities  at Medina Palms   </strong>
 
                     <li>Visits  to  Watamu  turtle  sanctuary </li>

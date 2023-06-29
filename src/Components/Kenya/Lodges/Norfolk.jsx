@@ -75,28 +75,31 @@ const Norfolk =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Fairmont The Norfolk</strong>
-                <li>Gift shop</li>
-                <li>High-speed  Internet </li>
-                <li>Babysitting </li>
-                <li>Laundry  services </li>
-                <li>Infinity  pool</li>
-                <li>Butler  service </li>
-                <li>Spa</li>
-                <li>Fitness  centre </li>
-                <li>Electricity </li>
-
-
-                <br/><br/><strong>Room features </strong>
-                <li>En-suite  bathroom </li>
-                <li>Minibars</li>
-                <li> Satellite  TV </li>
-                <li>Wi-Fi</li>
-                <li>Hairdryers</li>
-                <li>In-room safe deposit box</li>
-                <li>Hairdryers</li>
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at Fairmont The Norfolk</strong>
+                            <li>Gift shop</li>
+                            <li>High-speed  Internet </li>
+                            <li>Babysitting </li>
+                            <li>Laundry  services </li>
+                            <li>Infinity  pool</li>
+                            <li>Butler  service </li>
+                            <li>Spa</li>
+                            <li>Fitness  centre </li>
+                            <li>Electricity </li>
+                        </div>
+                        <div>
+                                    <br/><br/><strong>Room features </strong>
+                            <li>En-suite  bathroom </li>
+                            <li>Minibars</li>
+                            <li> Satellite  TV </li>
+                            <li>Wi-Fi</li>
+                            <li>Hairdryers</li>
+                            <li>In-room safe deposit box</li>
+                            <li>Hairdryers</li>
+                            
+                        </div>
+                    </div>
 
                     <br/><br/> <strong>Activities  at Fairmont The Norfolk  </strong>
 

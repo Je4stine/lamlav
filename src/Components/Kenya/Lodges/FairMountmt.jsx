@@ -80,33 +80,34 @@ const FairmountMt =()=>{
             </ShowMoreText>
                 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at The Fairmont Mount Kenya Safari Club </strong>
-                    <li>24-hour electricity</li>
-                    <li>Spa</li>
-                    <li>Laundry services</li>
-                    <li>Butler service</li>
-                    <li>Fitness room/gym</li>
-                    <li>Shared pool</li>
-                    <li>Library</li>
-                    <li>Laundry  services </li>
-                    <li>Babysitting </li>
-                    <li>Gift shop</li>
-                    <li> Medical  Services </li>
-                    <li>Massage  and Spa</li>
-
-                <li>Conference  center</li>
-
-                <br/><br/><strong>Room features </strong>
-                <li>En-suite bathrooms</li>
-                <li>WiFi</li>
-                <li>Minibar</li>
-                <li>Private deck/veranda</li>
-                <li>Air conditioning</li>
-                <li>Hairdryers</li>
-
-
-
-
+                    <div className=" lg:flex justify-between">
+                        <div>
+                            <br/><br/> <strong>Amenities at The Fairmont Mount Kenya Safari Club </strong>
+                            <li>24-hour electricity</li>
+                            <li>Spa</li>
+                            <li>Laundry services</li>
+                            <li>Butler service</li>
+                            <li>Fitness room/gym</li>
+                            <li>Shared pool</li>
+                            <li>Library</li>
+                            <li>Laundry  services </li>
+                            <li>Babysitting </li>
+                            <li>Gift shop</li>
+                            <li> Medical  Services </li>
+                            <li>Massage  and Spa</li>
+                            <li>Conference  center</li>
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>En-suite bathrooms</li>
+                            <li>WiFi</li>
+                            <li>Minibar</li>
+                            <li>Private deck/veranda</li>
+                            <li>Air conditioning</li>
+                            <li>Hairdryers</li>
+                        </div>
+                    </div>
+               
                     <br/><br/> <strong>Activities  at The Fairmont Mount Kenya Safari Club </strong>
 
                     <li>Golfing </li>
