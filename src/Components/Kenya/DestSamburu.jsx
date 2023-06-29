@@ -26,6 +26,7 @@ import Elephant from '../../Assets/safari-in-samburu-by-muthaiga-travel-11-900x5
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const DestSamburu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -60,12 +61,25 @@ const DestSamburu =()=>{
                 </div>
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
+                
+            <ShowMoreText
+                    /* Default options */
+                    lines={3}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 The riverine forest is a popular gathering place for various species of mammals, including large herds of elephants. One can often witness groups of 40-50 elephants visiting the river to wash and play. 
                 <br/><br/>However, the highlight of this region is not just the wildlife but also the Samburu people. They are closely related to the Maasai and are known for their proud and friendly nature. The Samburu people make a lasting impression on visitors and often become their fondest memories of the safari experience, reminding us that while we may have come to Africa to see its animals, it is its people that leave a lasting impact.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[100px]">
+                </ShowMoreText>
+                <div className="relative mt-20 z-[0] m-auto w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

@@ -25,7 +25,7 @@ import Olka from '../../Assets/ol-tukai-lodge3.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import ShowMoreText from "react-show-more-text";
 
 
 const DestAmboseli =()=>{
@@ -62,6 +62,17 @@ const DestAmboseli =()=>{
                 </div>
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={7}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Located in the Southern  part of Kenya, near the boarder with Tanzania,  the Amboseli National Park, is famed for its large herds of elephants and its spectacular views of Mount Kilimanjaro, the highest mountain in Africa, which can be seen in the background. It is only 392Km2 in size, and  an hour's  flight  or four hours drive from Nairobi City.
                 <br/>This reserve has been made even more notable through the work and wildlife documentaries of Dr. Cynthia Moss and the Elephant Trust, who have been studying the elephants in Amboseli for more than 30 years. Due to protection from tourists and researchers and support from the local Maasai people, the Amboseli elephants have lived a natural existence, making it one of the few places where you can see elephants of all ages, including the famous old bulls with their long tusks.
@@ -71,8 +82,9 @@ const DestAmboseli =()=>{
                 <br/><br/>In addition, The park's grasslands and wetlands are home to over 400 bird species, and the park is also home to several large swamps, including the Amboseli Swamp, which is an important breeding ground for many species of waterfowl.
                 <br/>The park also has a rich cultural history and the Maasai community who live near the park. Visitors can learn about the Maasai's way of life, including their customs, traditions, and beliefs.
                 </p>
+                </ShowMoreText>
 
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                <div className="relative mt-20 z-[0] m-auto w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

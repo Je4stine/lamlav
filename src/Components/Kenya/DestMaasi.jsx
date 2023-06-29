@@ -28,6 +28,7 @@ import Plains from '../../Assets/maraplains.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 
 const DestMaasai =()=>{
@@ -63,12 +64,24 @@ const DestMaasai =()=>{
                 </div>
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
-                <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
-                The Masai Mara National Reserve is a highly-regarded safari destination in Africa known for its vast open plains and diverse wildlife, including elephants, buffalo, zebra, giraffe, hyenas, and the famous big cats like lions, leopards, and cheetahs. The Maasai Mara shares a border with the Serengeti  National Park  in Tanzania,  and the wildlife  move freely between  the  two.Every year from August to November, it serves as a resting place for large herds of wildebeest during their perilous 2,900-kilometer (1,800-mile) migration in search of water and food. Widely touted as the ' greatest  show on earth' the chance of a ringside seat for a perilous  river crossing draws thousands  of visitors  every year.
-                <br/> <br/>The popularity of the Maasai Mara attracts a lot of tourists, which  results in large  crowds. To address this, private conservancies have been established around the main reserve over the past 15 years, offering a more intimate and exclusive safari experience. Nine of these conservancies are dedicated to wildlife conservation, and they are collectively nearly the same size as the Mara reserve itself. Staying  in a private conservancy  can make a safari  more enjoyable,  while supporting  conservation  efforts  too.
+                <ShowMoreText
+                        /* Default options */
+                        lines={7}
+                        more='Show more'
+                        less='Show less'
+                        anchorClass='pt-[50px]'
+                        className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                        // onClick={this.executeOnClick}
+                        expanded={false}
+                        truncatedEndingComponent={"..... "}
+                    >
+                    <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
+                    The Masai Mara National Reserve is a highly-regarded safari destination in Africa known for its vast open plains and diverse wildlife, including elephants, buffalo, zebra, giraffe, hyenas, and the famous big cats like lions, leopards, and cheetahs. The Maasai Mara shares a border with the Serengeti  National Park  in Tanzania,  and the wildlife  move freely between  the  two.Every year from August to November, it serves as a resting place for large herds of wildebeest during their perilous 2,900-kilometer (1,800-mile) migration in search of water and food. Widely touted as the ' greatest  show on earth' the chance of a ringside seat for a perilous  river crossing draws thousands  of visitors  every year.
+                    <br/> <br/>The popularity of the Maasai Mara attracts a lot of tourists, which  results in large  crowds. To address this, private conservancies have been established around the main reserve over the past 15 years, offering a more intimate and exclusive safari experience. Nine of these conservancies are dedicated to wildlife conservation, and they are collectively nearly the same size as the Mara reserve itself. Staying  in a private conservancy  can make a safari  more enjoyable,  while supporting  conservation  efforts  too.
 
-                </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                    </p>
+                </ShowMoreText>
+                <div className="relative mt-20 z-[0] m-auto w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

@@ -24,6 +24,7 @@ import Kifaru from '../../Assets/Kifaru2.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const DestLewa =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -58,6 +59,17 @@ const DestLewa =()=>{
                 </div>
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={7}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 The Lewa Wildlife Conservancy is a safe haven for a wide range of wildlife species, including the big five. The conservancy is also home to various plains game species that are well-adapted to the semi-desert environment, such as Grevy's Zebra and Reticulated Giraffe. The Beisa Oryx and Greater Kudu, which are seasonal visitors, and the Guenther's Dikdik, Gerenuk and Somali Ostrich, which are residents all year round, are also present in the conservancy. .
                 <br/><br/>The swamp in the conservancy is a haven for the rare Sitatunga Antelope and its primary predator, the Leopard. The conservancy is also home  to a rich birdlife, including numerous species of Bustard, Plover, Coursers, and birds of prey. 
@@ -65,7 +77,9 @@ const DestLewa =()=>{
                 <br/><br/>The Lewa Safari Camp is a luxurious camping experience located within the privately-owned Lewa Wildlife Conservancy. It features 12 tents, each designed to resemble a luxurious bungalow and equipped with thatched roofs, private verandas with stunning views of the surrounding plains and roaming wildlife, and en-suite bathrooms. When Prince William visits, he stays in the private property of the reserve's owners.Lewa is an intimate and private destination known for its peaceful and romantic atmosphere, and it's  the location of Prince William's proposal to Kate Middleton in 2010.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                </ShowMoreText>
+
+                <div className="relative mt-20 z-[0] m-auto w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

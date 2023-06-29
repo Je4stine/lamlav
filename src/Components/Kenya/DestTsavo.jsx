@@ -24,6 +24,7 @@ import Finch from '../../Assets/finch-hattons-tsavo-star-gazing.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const DesTsavo =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -58,6 +59,17 @@ const DesTsavo =()=>{
                 </div>
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={7}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                  Tsavo is famous is famous for its man-eating lions, which were known for attacking construction workers during the building of the railway. The park spans an area of 13,747 square kilometers and offers visitors a diverse landscape, including rugged mountains in Tsavo West and semi-arid grasslands and savannah in Tsavo East, where visitors can see various wildlife species.
                 <br/> <br/>Tsavo boasts some spectacular scenic highlights, including the dramatic black lava fields, imposing cones, and Mzima Springs, where visitors can see hippos underwater. The majestic Mt Kilimanjaro can be seen in the background on clear days, and a forest walk in the undulating Chyulu Hills is a delightful experience.
@@ -65,7 +77,8 @@ const DesTsavo =()=>{
                 Bird watching in Tsavo is exceptional, with over 400 species on the checklist, including many dry-country specials. <br/><br/>The Finch Hatton's luxury tented camp provides a great base for exploring the park and visitors may see a variety of birds such as the African wood owl,Green wood-hoopoe, Kori, Yellow-throated and Black-faced sandgrouse, Martial eagle, Von der Decken's hornbill, Purple grenadiers, Northern carmine bee-eater, Red-and-yellow barbet, Retz' helmet-shrike, Red-faced crombec, Northern brownbul, Violet-backed and Ruppell's starlings, Silverbird, Bronze sunbird, and and Black-bellied bustards,
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                </ShowMoreText>
+                <div className="relative mt-20 z-[0] m-auto w-[80%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

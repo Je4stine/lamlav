@@ -61,7 +61,7 @@ const Kilanguni =()=>{
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
             <ShowMoreText
                     /* Default options */
-                    lines={3}
+                    lines={7}
                     more='Show more'
                     less='Show less'
                     anchorClass='pt-[50px]'
@@ -110,7 +110,7 @@ const Kilanguni =()=>{
 
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[80px]">
+                <div className="relative mt-20 z-[0] m-auto w-[80%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge2}/>

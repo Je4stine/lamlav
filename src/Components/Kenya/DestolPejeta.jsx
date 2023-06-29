@@ -24,6 +24,7 @@ import Porini from '../../Assets/porini.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 
 const DestOlpe =()=>{
@@ -59,11 +60,23 @@ const DestOlpe =()=>{
                 </div>
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={4}
+                    more='Show more'
+                    less='Show less'
+                    anchorClass='pt-[50px]'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regliar] pt-[50px] text-xl">
                 This protected area and a great tourists destination is situated near the equator, to the west of Nanyuki, near the foothills of Mount Kenya and the Aberdares. It was founded with the goal of preserving wildlife, providing a habitat for great apes, and generating revenue through wildlife-related activities. 
                 <br/><br/>At Ol Pejeta Conservancy, you don't have to limit yourself to game viewing by vehicle. Other options include game walks, horseback or camel rides, and night drives. The conservancy, has had a rich history, with previous owners ranging from Lord Delamere to Roussel Onassis and Adnan Khashoggi. Originally established as a cattle ranch, the frequent destruction of fences by elephant herds made intensive cattle farming difficult, but cattle still plays a role in the conservancy today as a managed livestock. <br/><br/>Ol Pejeta is also dedicated to education, hosting an Environmental and Conservation Centre that annually welcomes around 100 Kenyan schools, and offers opportunities to learn about the local culture and traditions of the Samburu, Turkana, Pokot, and Maasai peoples.
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                </ShowMoreText>
+                <div className="relative mt-20 z-[0] m-auto w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>

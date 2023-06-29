@@ -31,6 +31,7 @@ import Oldonyo from '../../Assets/oldonyo1.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
 
 const DestChyulu =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -70,7 +71,7 @@ const DestChyulu =()=>{
                 <br/><br/>This area is ideal for hikers who enjoy ascending hills and creating unforgettable memories.
 
                 </p>
-                <div className="relative mt-20 z-[0] lg:mx-[20px]">
+                <div className="relative mt-20 z-[0] m-auto w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
                         <img src={Lodge1}/>
