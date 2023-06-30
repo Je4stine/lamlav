@@ -65,7 +65,7 @@ const DestOlpe =()=>{
                     lines={4}
                     more='Show more'
                     less='Show less'
-                    anchorClass='pt-[50px]'
+                    anchorClass='font-[SourceSerifPro-Regular] pt-[50px] text-red-600'
                     className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
                     // onClick={this.executeOnClick}
                     expanded={false}
@@ -79,7 +79,7 @@ const DestOlpe =()=>{
                 <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
-                        <img src={Lodge1}/>
+                        <img src={Lodge1} className="object-cover"/>
                     </div>
                     {/* <div>
                     <img src={Lodge2}/>

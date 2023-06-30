@@ -81,10 +81,10 @@ const Tortolis =()=>{
               
             <ShowMoreText
                     /* Default options */
-                    lines={7}
+                    lines={5}
                     more='Show more'
                     less='Show less'
-                    anchorClass='pt-[50px]'
+                    anchorClass='font-[SourceSerifPro-Regular] pt-[50px] text-red-600'
                     className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
                     // onClick={this.executeOnClick}
                     expanded={false}
@@ -125,16 +125,16 @@ const Tortolis =()=>{
                 <div className="relative mt-20 z-[0] m-auto lg:w-[80%]">
                  <Slider {...settings} autoplay arrows>
                     <div>
-                        <img src={Lodge2}/>
+                        <img src={Lodge2} className=" object-cover"/>
                     </div>
                     <div>
-                    <img src={Lodge3}/>
+                    <img src={Lodge3} className=" object-cover"/>
                     </div>
                     <div>
-                    <img src={Chyulu}/>
+                    <img src={Chyulu} className=" object-cover"/>
                     </div>
                     <div>
-                    <img src={Lodge4}/>
+                    <img src={Lodge4} className=" object-cover"/>
                     </div>
                     </Slider>
                     </div>

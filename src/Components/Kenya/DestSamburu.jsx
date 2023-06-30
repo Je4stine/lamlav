@@ -67,7 +67,7 @@ const DestSamburu =()=>{
                     lines={3}
                     more='Show more'
                     less='Show less'
-                    anchorClass='pt-[50px]'
+                    anchorClass='font-[SourceSerifPro-Regular] pt-[50px] text-red-600'
                     className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
                     // onClick={this.executeOnClick}
                     expanded={false}
@@ -81,19 +81,18 @@ const DestSamburu =()=>{
                 </ShowMoreText>
                 <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
                 <Slider {...settings} autoplay arrows>
-                    <div>
-                        <img src={Lodge1}/>
-                    </div>
-                    <div>
-                    <img src={Lodge2}/>
-                    </div>
-                    <div>
-                    <img src={Lodge3}/>
-                    </div>
-                    <div>
-                    <img src={Lodge2}/>
-                    </div>
-                    </Slider>
+                    
+                    <img src={Lodge1} className=" object-cover"/>
+                   
+                    <img src={Lodge2} className=" object-cover"/>
+                   
+                    
+                    <img src={Lodge3} className=" object-cover"/>
+                    
+                    
+                    <img src={Lodge2} className=" object-cover"/>
+                   
+                </Slider>
                 </div>
                 <hr/>
                 <div className=" mb-20 m-auto">
