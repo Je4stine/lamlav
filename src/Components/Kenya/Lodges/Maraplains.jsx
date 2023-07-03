@@ -63,8 +63,8 @@ const MaraPlains=()=>{
             <ShowMoreText
                     /* Default options */
                     lines={5}
-                    more='Show more'
-                    less='Show less'
+                    more='READ MORE'
+                    less='READ LESS'
                     anchorClass='font-[SourceSerifPro-Regular] pt-[50px] text-red-600'
                     className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
                     // onClick={this.executeOnClick}

@@ -37,7 +37,7 @@ const ReadMore = ({ children }) => {
       <p className=" inline w-full">
         {isReadMore ? text.slice(0, 150) : text}
         <span onClick={toggleReadMore} className=" ">
-          {isReadMore ? "...read more" : " show less"}
+          {isReadMore ? "...read more" : " READ LESS"}
         </span>
       </p>
     );
@@ -82,8 +82,8 @@ const Tortolis =()=>{
             <ShowMoreText
                     /* Default options */
                     lines={5}
-                    more='Show more'
-                    less='Show less'
+                    more='READ MORE'
+                    less='READ LESS'
                     anchorClass='font-[SourceSerifPro-Regular] pt-[50px] text-red-600'
                     className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
                     // onClick={this.executeOnClick}
