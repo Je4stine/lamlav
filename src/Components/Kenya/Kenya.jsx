@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
-import Lion from '../../Assets/lion1.jpg';
+import Lion from '../../Assets/elfyn-evans-scott-martin-toyot.jpg';
 import AmboseliN from '../../Assets/Natpa.jpg';
 import Tsavo from '../../Assets/tsavo11.jpg';
 import Lewaco from '../../Assets/lewacon.jpg';
