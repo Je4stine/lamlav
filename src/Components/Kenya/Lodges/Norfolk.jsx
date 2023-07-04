@@ -75,7 +75,7 @@ const Norfolk =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Fairmont The Norfolk</strong>
                             <li>Gift shop</li>
@@ -99,12 +99,15 @@ const Norfolk =()=>{
                             <li>Hairdryers</li>
                             
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Fairmont The Norfolk  </strong>
+
+                            <li>Events and weddings </li>
+                            <li>Visits to Karen  Blixen Muesum,  Daphne Shieldrick  wildlife  trust,  Giraffe Center, Kenya  National  Museums  etc</li>
+                        </div>
                     </div>
 
-                    <br/><br/> <strong>Activities  at Fairmont The Norfolk  </strong>
-
-                   <li>Events and weddings </li>
-                    <li>Visits to Karen  Blixen Muesum,  Daphne Shieldrick  wildlife  trust,  Giraffe Center, Kenya  National  Museums  etc</li>
+                  
 
                 </p>
                 

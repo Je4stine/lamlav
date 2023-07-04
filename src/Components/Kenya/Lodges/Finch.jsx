@@ -78,7 +78,7 @@ const Finch =()=>{
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities  at Finch  Hatton’s  Luxury </strong>
-                    <div className=" lg:flex justify-between" >
+                    <div className=" lg:flex justify-around" >
                         <div>
                             <li>Exceptional conferencing facilities</li>
                             <li>Wi-fi</li>
@@ -97,17 +97,20 @@ const Finch =()=>{
                             <li>Battler  service </li>
                            
                         </div>
+                        <div>
+                            
+                            <br/><br/> <strong>Activities  at Finch Hattons </strong>
+
+                            <li>Day & night  game drives</li>
+                            <li>Bush walks and crater climbs</li>
+                            <li>Bush breakfast</li>
+                            <li>Tsavo explorer adventures</li>
+                            <li>Cultural visits & excursions </li>
+                            <li>Sundowners</li>
+                        </div>
                     </div>               
 
 
-                    <br/><br/> <strong>Activities  at Finch Hattons </strong>
-
-                    <li>Day & night  game drives</li>
-                    <li>Bush walks and crater climbs</li>
-                    <li>Bush breakfast</li>
-                    <li>Tsavo explorer adventures</li>
-                    <li>Cultural visits & excursions </li>
-                    <li>Sundowners</li>
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                 <Slider {...settings} autoplay arrows>

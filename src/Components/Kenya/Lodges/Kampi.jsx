@@ -78,7 +78,7 @@ const Kampi =()=>{
             </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                                 <br/><br/> <strong>Amenities at Campi  Ya Kanzi</strong>
                             <li>Electricity</li>
@@ -89,14 +89,17 @@ const Kampi =()=>{
                             <li>En-suite  bathroom</li>
                             <li>Private  veranda </li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Kampi  Ya Kanzi </strong>
+
+                            <li>Guided walks</li>
+                            <li>Game drives</li>
+                            <li>Sundowners </li>
+                            <li>Excursions </li>
+                        </div>
                     </div>
 
-                    <br/><br/> <strong>Activities  at Kampi  Ya Kanzi </strong>
-
-                    <li>Guided walks</li>
-                    <li>Game drives</li>
-                    <li>Sundowners </li>
-                    <li>Excursions </li>
+                 
 
 
 

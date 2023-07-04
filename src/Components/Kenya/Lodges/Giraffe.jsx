@@ -77,7 +77,7 @@ const Giraffe =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at The Giraffe  Manor  </strong>
                             <li>Massage & Spa</li>
@@ -93,15 +93,18 @@ const Giraffe =()=>{
                             <li>Coffee/Tea facilities</li>
                             <li>Coffee/Tea facilities</li>
                         </div>
+                        <div>
+                             <br/><br/> <strong>Activities  at The Giraffe  Manor   </strong>
+
+                            <li>Bucket-list breakfast </li>
+                            <li>Horseriding in Nairobi </li>
+                            <li>Visits to Nairobi  National  Park, Daphne  Shieldrick  wildlife  trust,  Giraffe  Center,  Karen  Blixen  Muesum etc</li>
+                            <li> Manor Games  of croquet, boules or chess</li>
+                        </div>
                     </div>
              
 
-                    <br/><br/> <strong>Activities  at The Giraffe  Manor   </strong>
-
-                    <li>Bucket-list breakfast </li>
-                    <li>Horseriding in Nairobi </li>
-                    <li>Visits to Nairobi  National  Park, Daphne  Shieldrick  wildlife  trust,  Giraffe  Center,  Karen  Blixen  Muesum etc</li>
-                    <li> Manor Games  of croquet, boules or chess</li>
+                 
 
 
                 </p>

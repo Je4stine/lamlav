@@ -78,7 +78,7 @@ const Mara =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Mara Serena Safari Lodge </strong>
                             <li>Wireless  Internet</li> 
@@ -98,19 +98,22 @@ const Mara =()=>{
                             <li>Laundry  service </li>
                             <li>Ceiling fans</li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Mara Serena Safari Lodge  </strong>
+
+                            <li> Ololoolo  escarpment hike Expeditions</li>
+                            <li>Weddings Honeymoon  and Special  occasions </li>
+                            <li>Mara Sundowner </li>
+                            <li>Bush barbeque  dinner </li>
+                            <li>Night game  drives </li>
+                            <li>Hot-air balloon  safari </li>
+                            <li>Pool barbeque  dinner </li>
+                            <li>Star lit dinner  Cultural  visits </li>
+                            <li>Hippo pool breakfast </li>
+                        </div>
                     </div>
                
-                    <br/><br/> <strong>Activities  at Mara Serena Safari Lodge  </strong>
-
-                    <li> Ololoolo  escarpment hike Expeditions</li>
-                    <li>Weddings Honeymoon  and Special  occasions </li>
-                    <li>Mara Sundowner </li>
-                    <li>Bush barbeque  dinner </li>
-                    <li>Night game  drives </li>
-                    <li>Hot-air balloon  safari </li>
-                    <li>Pool barbeque  dinner </li>
-                    <li>Star lit dinner  Cultural  visits </li>
-                    <li>Hippo pool breakfast </li>
+                    
 
                 </p>
                 

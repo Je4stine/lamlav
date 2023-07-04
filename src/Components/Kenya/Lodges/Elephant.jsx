@@ -75,7 +75,7 @@ const Elephant =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at The Elephant Bedroom Camp </strong>
                             <li>Wi-fi</li> 
@@ -89,20 +89,18 @@ const Elephant =()=>{
                             <li>En-suite  bathroom </li>
                             <li>Room service </li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at The Elephant Bedroom Camp  </strong>
+
+                            <li>Game drives </li>
+                            <li>Bush breakfast</li> 
+                            <li>Cultural  visits and excursions </li>
+                            <li>Sundowners </li>
+                            <li>Guided  bush  walks </li>
+
+                        </div>
                     </div>
-                
-
-
-
-
-                    <br/><br/> <strong>Activities  at The Elephant Bedroom Camp  </strong>
-
-                    <li>Game drives </li>
-                    <li>Bush breakfast</li> 
-                    <li>Cultural  visits and excursions </li>
-                    <li>Sundowners </li>
-                    <li>Guided  bush  walks </li>
-
+              
 
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">

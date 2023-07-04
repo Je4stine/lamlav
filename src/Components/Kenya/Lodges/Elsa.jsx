@@ -84,7 +84,7 @@ const Elsa =()=>{
                 </ShowMoreText>
  
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <div className=" lg:flex justify-between">
+                <div className=" lg:flex justify-around">
                     <div>
                             <br/><br/> <strong>Amenities at Elsa's Kopje  </strong>
                         <li>Shared pool</li>
@@ -101,16 +101,16 @@ const Elsa =()=>{
                     </div>
                 </div>            
 
-                    <br/><br/> <strong>Activities  at Elsa's Kopje  </strong>
+                    <div>
+                        <br/><br/> <strong>Activities  at Elsa's Kopje  </strong>
 
-                    <li> Game drives </li>
-                   <li> Guided  walks </li>
-                   <li> Bush breakfast </li>
-                   <li> Excursions </li>
-                   <li> River fishing </li>
-                   <li> Honeymoons  and  Weddings </li>
-
-
+                        <li> Game drives </li>
+                        <li> Guided  walks </li>
+                        <li> Bush breakfast </li>
+                        <li> Excursions </li>
+                        <li> River fishing </li>
+                        <li> Honeymoons  and  Weddings </li>
+                    </div>
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                 <Slider {...settings} autoplay arrows>

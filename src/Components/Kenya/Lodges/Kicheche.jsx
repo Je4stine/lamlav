@@ -73,7 +73,7 @@ const Kicheche =()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Kicheche  Laikipia  Camp </strong>
                             <li>Shared pool</li>
@@ -84,19 +84,22 @@ const Kicheche =()=>{
                             <li>En-suite  bathrooms </li>
                             <li>Room service / housekeeping </li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Kicheche  Laikipia  Camp </strong>
+                            <li>Day and night game  drives </li>
+                            <li>Canoeing </li>
+                            <li>Horse and Camel  rides </li>
+                            <li>Guided guided bush walks</li>
+                            <li>Cultural  visits </li>
+                            <li> Mountain  biking </li>
+                            <li>Excursions  - Chipanzee sunctuary,  Morani center, Anti- poaching  dogs visits.</li>
+                        </div>
                     </div>
                 
                     
 
 
-                    <br/><br/> <strong>Activities  at Kicheche  Laikipia  Camp </strong>
-                    <li>Day and night game  drives </li>
-                    <li>Canoeing </li>
-                    <li>Horse and Camel  rides </li>
-                    <li>Guided guided bush walks</li>
-                    <li>Cultural  visits </li>
-                    <li> Mountain  biking </li>
-                    <li>Excursions  - Chipanzee sunctuary,  Morani center, Anti- poaching  dogs visits.</li>
+                    
 
 
 

@@ -80,7 +80,7 @@ const Kinondo =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                                     <br/><br/> <strong>Amenities at Kinondo Kwetu  </strong>
                             <li>Yoga & fitness  facilities </li>
@@ -96,25 +96,28 @@ const Kinondo =()=>{
                             <li>Ensuite Bathrooms</li>
                             <li>Private furnished veranda</li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Kinondo Kwetu   </strong>
+
+                                <li>Horse riding</li>
+                                <li>Game drives within Shimba Hills</li>
+                                <li>Tennis sports</li>
+                                <li>Golfing</li>
+                                <li>Cultural  visits  to Kinondo village & Kinondo Kwetu Community works  </li>
+                                <li>Shopping / sight-seeing trips to Ukunda or Mombasa </li>
+                                <li>Kite surfing</li>
+                                <li> Deep-sea fishing  </li>
+                                <li> Wind surfing  </li>
+                                <li> Water skiing  </li>
+                                <li>Boat Excursions to ‘Paradise Lost’ island </li>
+                                <li>Scuba diving (ranging from first PADI diving les-son to advanced reef dives and international diving ‘passport’) </li> 
+                                <li>Snorkelling  </li>
+                                <li>Sailing & Canoeing  </li>
+                                <li>Wood-fired Sauna </li>
+                        </div>
                     </div>           
 
-                    <br/><br/> <strong>Activities  at Kinondo Kwetu   </strong>
-
-                    <li>Horse riding</li>
-                    <li>Game drives within Shimba Hills</li>
-                    <li>Tennis sports</li>
-                    <li>Golfing</li>
-                    <li>Cultural  visits  to Kinondo village & Kinondo Kwetu Community works  </li>
-                    <li>Shopping / sight-seeing trips to Ukunda or Mombasa </li>
-                    <li>Kite surfing</li>
-                    <li> Deep-sea fishing  </li>
-                    <li> Wind surfing  </li>
-                    <li> Water skiing  </li>
-                    <li>Boat Excursions to ‘Paradise Lost’ island </li>
-                    <li>Scuba diving (ranging from first PADI diving les-son to advanced reef dives and international diving ‘passport’) </li> 
-                    <li>Snorkelling  </li>
-                    <li>Sailing & Canoeing  </li>
-                    <li>Wood-fired Sauna </li>
+                    
 
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">

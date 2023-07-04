@@ -74,7 +74,7 @@ const Kifaru =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities  at  Kifaru House  </strong>
                             <li>Infinity Pool</li>
@@ -90,21 +90,24 @@ const Kifaru =()=>{
                             <li>Private  veranda </li>
                             
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Kifaru  House</strong>
+
+                                <li>Game drives</li>
+                                <li>Guided walks</li>
+                                <li>Horse and Camel Riding</li>
+                                <li>Bush breakfast  and Sundowners </li>
+                                <li>Cultural  and Conservancy  visits</li>
+                                <li>Ngare Ndare forest visit</li>
+                                <li>Honeymoon  and Weddings </li>
+                        </div>
                     </div>
               
 
 
                     
 
-                    <br/><br/> <strong>Activities  at Kifaru  House</strong>
-
-                    <li>Game drives</li>
-                    <li>Guided walks</li>
-                    <li>Horse and Camel Riding</li>
-                    <li>Bush breakfast  and Sundowners </li>
-                    <li>Cultural  and Conservancy  visits</li>
-                    <li>Ngare Ndare forest visit</li>
-                    <li>Honeymoon  and Weddings </li>
+                   
 
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">

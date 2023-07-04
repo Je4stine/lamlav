@@ -80,7 +80,7 @@ const FairmountMt =()=>{
             </ShowMoreText>
                 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at The Fairmont Mount Kenya Safari Club </strong>
                             <li>24-hour electricity</li>
@@ -106,19 +106,22 @@ const FairmountMt =()=>{
                             <li>Air conditioning</li>
                             <li>Hairdryers</li>
                         </div>
+                        <div>
+                                 <br/><br/> <strong>Activities  at The Fairmont Mount Kenya Safari Club </strong>
+
+                                <li>Golfing </li>
+                                <li>Fishing </li>
+                                <li>Equator  ceremony </li>
+                                <li>Horse riding</li>
+                                <li>Biking</li>
+                                <li>Excursions </li>
+                                <li>Game drives </li>
+                                <li>Bird watching </li>
+                                <li>Honeymoons  and  Weddings </li>
+                        </div>
                     </div>
                
-                    <br/><br/> <strong>Activities  at The Fairmont Mount Kenya Safari Club </strong>
-
-                    <li>Golfing </li>
-                    <li>Fishing </li>
-                    <li>Equator  ceremony </li>
-                    <li>Horse riding</li>
-                    <li>Biking</li>
-                    <li>Excursions </li>
-                    <li>Game drives </li>
-                    <li>Bird watching </li>
-                    <li>Honeymoons  and  Weddings </li>
+                   
 
 
                 </p>

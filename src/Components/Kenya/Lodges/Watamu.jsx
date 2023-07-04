@@ -72,33 +72,38 @@ const Watamu =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at Hemingways  Hotel  Watamu  </strong>
-               <li>Spa </li>
-               <li>Butler  service </li>
-               <li>Laundry  services </li>
-               <li>Bar</li>
-               <li>Botanical  pool</li>
-               <li>Wi-Fi</li>
-               <li>Ocean View </li>
+                    <div className=" lg:flex justify-around">
+                        <div>
+                            <br/><br/> <strong>Amenities at Hemingways  Hotel  Watamu  </strong>
+                            <li>Spa </li>
+                            <li>Butler  service </li>
+                            <li>Laundry  services </li>
+                            <li>Bar</li>
+                            <li>Botanical  pool</li>
+                            <li>Wi-Fi</li>
+                            <li>Ocean View </li>
 
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>Air conditioned </li>
+                            <li>Private terrace </li>
+                            <li>En-suite  bathroom </li>
+                            <li>Room  service </li>
+                                        
+                        </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Hemingways  Hotel  Watamu  </strong>
 
-                <br/><br/><strong>Room features </strong>
-                <li>Air conditioned </li>
-                <li>Private terrace </li>
-                <li>En-suite  bathroom </li>
-                <li>Room  service </li>
-
-
-
-
-                    <br/><br/> <strong>Activities  at Hemingways  Hotel  Watamu  </strong>
-
-                    <li>Sundowners  bitings </li>
-                    <li>Watersports </li>
-                    <li>Excursions </li>
-                    <li>Whale/ Dolphin  watching </li>
-                    <li>Deep Sea fishing </li>
-
+                            <li>Sundowners  bitings </li>
+                            <li>Watersports </li>
+                            <li>Excursions </li>
+                            <li>Whale/ Dolphin  watching </li>
+                            <li>Deep Sea fishing </li>
+                            
+                        </div>
+                    </div>
+            
 
                 </p>
                 

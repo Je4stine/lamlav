@@ -81,7 +81,7 @@ const Oldonyo =()=>{
 
 
                 < p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Ol Donyo  Lodge </strong>
                             <li>Chef Services</li>
@@ -96,16 +96,15 @@ const Oldonyo =()=>{
                             <li>Private pool</li>
                             <li>In-room massage</li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Ol Donyo  Lodge </strong>
+
+                            <li>Horseback safaris</li>
+                            <li>Mountain bike safaris</li>
+                            <li>Guided walking safaris </li>
+                            <li>Open vehicle game drives</li>
+                        </div>
                     </div>
-
-                    <br/><br/> <strong>Activities  at Ol Donyo  Lodge </strong>
-
-                    <li>Horseback safaris</li>
-                    <li>Mountain bike safaris</li>
-                    <li>Guided walking safaris </li>
-                    <li>Open vehicle game drives</li>
-
-
 
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">

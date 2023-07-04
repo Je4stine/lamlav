@@ -81,7 +81,7 @@ const Loldia =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Loldia  House   </strong>
                             <li>Massage  and  Spa </li>
@@ -97,14 +97,17 @@ const Loldia =()=>{
                             <li>Private balcony </li>
                             <li>En-suite bathroom </li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Loldia  House   </strong>
+
+                            <li>Horse riding </li>
+                            <li>Boating</li>
+                            <li> Walking  tours</li>
+                            <li>Bird watching </li>
+                        </div>
                     </div>
           
-                    <br/><br/> <strong>Activities  at Loldia  House   </strong>
-
-                    <li>Horse riding </li>
-                    <li>Boating</li>
-                    <li> Walking  tours</li>
-                    <li>Bird watching </li>
+                    
 
 
                 </p>

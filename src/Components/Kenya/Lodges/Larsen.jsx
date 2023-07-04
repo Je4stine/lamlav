@@ -73,7 +73,7 @@ const Larsen =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Larsens Camp  </strong>
                             <li>Wireless  Internet</li> 
@@ -86,14 +86,17 @@ const Larsen =()=>{
                             <li>Private balcony </li>
                             <li>En-suite bathroom </li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Larsens Camp   </strong>
+                            <li>Game drives</li>
+                            <li>Sundowners </li>
+                            <li>Bush breakfast </li>
+                            <li>Cultural  visits</li>
+
+                        </div>
                     </div>
               
-                    <br/><br/> <strong>Activities  at Larsens Camp   </strong>
-                    <li>Game drives</li>
-                    <li>Sundowners </li>
-                    <li>Bush breakfast </li>
-                    <li>Cultural  visits</li>
-
+                   
 
                 </p>
                 

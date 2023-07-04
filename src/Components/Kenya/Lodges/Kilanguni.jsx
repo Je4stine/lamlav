@@ -81,7 +81,7 @@ const Kilanguni =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities  at Kilaguni  Serena  Safari  Lodge </strong>
                             
@@ -100,16 +100,19 @@ const Kilanguni =()=>{
                                 <li> En-suite  bathrooms </li>
                                 <li>Private  veranda </li>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Kilaguni  Serena  Safari  Lodge.  </strong>
+
+                            <li>Game drives </li>
+                            <li>Roaring  rocks </li>
+                            <li>Field excursions  with visits  to Mzima Springs  and to the Shetani  caves and lava flows </li>
+                            <li>Lion Rock breakfast </li>
+                            <li> Bush  barbeque  dinner </li>
+                            <li>Bubbly  Sundowner at Lion Rock</li>
+                        </div>
                     </div>
 
-                    <br/><br/> <strong>Activities  at Kilaguni  Serena  Safari  Lodge.  </strong>
-
-                    <li>Game drives </li>
-                    <li>Roaring  rocks </li>
-                    <li>Field excursions  with visits  to Mzima Springs  and to the Shetani  caves and lava flows </li>
-                    <li>Lion Rock breakfast </li>
-                    <li> Bush  barbeque  dinner </li>
-                    <li>Bubbly  Sundowner at Lion Rock</li>
+                   
 
 
                 </p>

@@ -85,7 +85,7 @@ const Olkatai =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Ol Tukai Lodge</strong>
                             <li>Shared pool</li>
@@ -100,22 +100,25 @@ const Olkatai =()=>{
                                 <li>Private veranda</li>
                             </div>
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Ol Tukai Lodge </strong>
+                                <div className=" " >
+                                    <div>
+                                        <li>Game drives </li>
+                                        <li>Bird walk</li>
+                                        <li>Tree planting </li>
+                                    </div>
+                                    <div>
+                                        <li>Swimming</li>
+                                        <li>Maasai Village visit</li>
+                                        <li>Table tennis</li>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
                 
 
-                    <br/><br/> <strong>Activities  at Ol Tukai Lodge </strong>
-                    <div className=" " >
-                        <div>
-                            <li>Game drives </li>
-                            <li>Bird walk</li>
-                            <li>Tree planting </li>
-                        </div>
-                        <div>
-                            <li>Swimming</li>
-                            <li>Maasai Village visit</li>
-                            <li>Table tennis</li>
-                        </div>
-                    </div>
+                   
                     
                     </p>
 

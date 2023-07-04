@@ -78,7 +78,7 @@ const Lewa =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Lewa Safari  Camp </strong>
                             <li>Outdoor pool</li>
@@ -94,12 +94,8 @@ const Lewa =()=>{
                                 <li>Room service</li>
                                 <li>Private bathroom</li>
                         </div>
-                    </div>
-              
-
-
-
-                    <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
+                        <div>
+                            <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
 
                             <li>Game drives</li>
                             <li>Guided walks</li>
@@ -108,6 +104,13 @@ const Lewa =()=>{
                             <li>Cultural  and Conservancy  visits</li>
                             <li>Ngare Ndare forest visit</li>
                             <li>Honeymoon  and Weddings </li>
+                        </div>
+                    </div>
+              
+
+
+
+                 
 
 
 

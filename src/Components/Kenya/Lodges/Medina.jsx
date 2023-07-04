@@ -83,7 +83,7 @@ const Medina =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div>
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Medina Palms  </strong>
                             <li>Spa</li>
@@ -102,20 +102,20 @@ const Medina =()=>{
                             <li>Rooftop  terrace </li>
                             
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Medina Palms   </strong>
+
+                            <li>Visits  to  Watamu  turtle  sanctuary </li>
+                            <li>Watersports </li>
+                            <li>Mountain  biking </li>
+                            <li>Visit the BioKen Snake Farm</li>
+                            <li>Dolphin watching</li>
+                            <li>Humpback whale watching (seasonal)</li>
+                            <li>Dine in a mangrove restaurant</li>
+                            <li>Lunch at Rock on Sea Restaurant</li>
+                                                    </div>
                     </div>
-                    
-                    <br/><br/> <strong>Activities  at Medina Palms   </strong>
-
-                    <li>Visits  to  Watamu  turtle  sanctuary </li>
-                    <li>Watersports </li>
-                    <li>Mountain  biking </li>
-                    <li>Visit the BioKen Snake Farm</li>
-                    <li>Dolphin watching</li>
-                    <li>Humpback whale watching (seasonal)</li>
-                    <li>Dine in a mangrove restaurant</li>
-                    <li>Lunch at Rock on Sea Restaurant</li>
-
-
+             
                 </p>
                 
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">

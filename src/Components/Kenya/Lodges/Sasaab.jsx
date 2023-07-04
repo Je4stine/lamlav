@@ -73,7 +73,7 @@ const Sasaab =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                              <br/><br/> <strong>Amenities at Sasaab  </strong>
                             <li>Spa</li>
@@ -92,16 +92,19 @@ const Sasaab =()=>{
                         <li>En-suite bathroom </li>
                             
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at Sasaab  </strong>
+
+                            <li>Quad biking</li>
+                            <li>Sundowners </li>
+                            <li>Bush breakfast </li>
+                            <li>Cultural  visits  and excursions </li>
+                            <li>Helicopter  rides</li>
+                            <li>Game drives </li>
+                        </div>
                     </div>
 
-                    <br/><br/> <strong>Activities  at Sasaab  </strong>
-
-                    <li>Quad biking</li>
-                    <li>Sundowners </li>
-                    <li>Bush breakfast </li>
-                    <li>Cultural  visits  and excursions </li>
-                    <li>Helicopter  rides</li>
-                    <li>Game drives </li>
+                    
 
                 </p>
                 

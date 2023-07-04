@@ -83,7 +83,7 @@ const Neptune =()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at Neptune  Mara  Rianta  Luxury  Tented  Camps </strong>
                             <li>Shared pool</li>
@@ -99,22 +99,20 @@ const Neptune =()=>{
                             <li>Private Veranda </li>
                             <li>En-suite bathroom </li>
                         </div>
+                        <div>
+                            
+                        <br/><br/> <strong>Activities  at Neptune  Mara  Rianta  Luxury  Tented  Camps </strong>
+
+                                <li>Hot air balloon  safari </li>
+                                <li>Sundowners</li>
+                                <li>Bush  breakfast </li>
+                                <li>Bird watching </li>
+                                <li> Game drives </li>
+                                <li>Cultural  visits</li>
+                                <li>Guided  nature  walk </li>
+
+                        </div>
                     </div>
-              
-
-
-              
-        
-
-                    <br/><br/> <strong>Activities  at Neptune  Mara  Rianta  Luxury  Tented  Camps </strong>
-
-                    <li>Hot air balloon  safari </li>
-                    <li>Sundowners</li>
-                    <li>Bush  breakfast </li>
-                    <li>Bird watching </li>
-                    <li> Game drives </li>
-                    <li>Cultural  visits</li>
-                    <li>Guided  nature  walk </li>
 
 
                 </p>

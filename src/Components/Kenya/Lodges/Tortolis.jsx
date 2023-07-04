@@ -97,7 +97,7 @@ const Tortolis =()=>{
               </ShowMoreText>
               
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                  <div className=" lg:flex justify-between">
+                  <div className=" lg:flex justify-around">
                     <div>
                         <br/><br/> <strong>Amenities at Tortilis  Camp</strong>
                         <li>Shared pool</li>
@@ -108,14 +108,17 @@ const Tortolis =()=>{
                         <li> En-suite bathrooms</li>
                         <li>Private veranda</li>
                     </div> 
-                    </div>
-
-                        <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
+                    <div>
+                    <br/><br/> <strong>Activities  at Tortilis  Camp </strong>
                         <li>Game drives </li>
                         <li>Guiding  </li>
                         <li>Guided  walks </li>
                         <li>Bush breakfast  and Sundowners</li>
                         <li>Cultural  visits </li>
+                    </div>
+                    </div>
+
+                       
                 </p>
                 
 

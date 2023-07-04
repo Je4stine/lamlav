@@ -78,7 +78,7 @@ const Sands =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" lg:flex justify-around">
                         <div>
                             <br/><br/> <strong>Amenities at The Sands at Nomad </strong>
                             <li>Bar and restaurant </li>
@@ -98,18 +98,21 @@ const Sands =()=>{
                             <li>En-suite  bathroom </li>
                             
                         </div>
+                        <div>
+                            <br/><br/> <strong>Activities  at The Sands at Nomad   </strong>
+
+                            <li>Boat  trips</li>
+                            <li>Big Game fishing </li>
+                            <li>Visit Chale Island </li>
+                            <li>Tsavo  Safaris </li>
+                            <li>Dive with Turtles</li>
+                            <li> Dhow rides</li>
+                            <li>Full moon dinner</li>
+                            <li>Watersports </li>
+                        </div>
                     </div>
 
-                    <br/><br/> <strong>Activities  at The Sands at Nomad   </strong>
-
-                    <li>Boat  trips</li>
-                    <li>Big Game fishing </li>
-                    <li>Visit Chale Island </li>
-                    <li>Tsavo  Safaris </li>
-                    <li>Dive with Turtles</li>
-                    <li> Dhow rides</li>
-                    <li>Full moon dinner</li>
-                    <li>Watersports </li>
+                    
 
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">

@@ -74,33 +74,48 @@ const Waine=()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                <br/><br/> <strong>Amenities at House of Waine  </strong>
-                <li>Shared pool </li>
-                <li>Complementary  Wi-Fi</li>
-                <li>Babysitting </li>
-                <li>Massage  and Spa</li>
-                <li>Laundry  services </li>
-                <li>Gift shop</li>
-                <li>Bar</li>
+                    <div className=" lg:flex justify-around">
+                        <div>
+                            <br/><br/> <strong>Amenities at House of Waine  </strong>
+                            <li>Shared pool </li>
+                            <li>Complementary  Wi-Fi</li>
+                            <li>Babysitting </li>
+                            <li>Massage  and Spa</li>
+                            <li>Laundry  services </li>
+                            <li>Gift shop</li>
+                            <li>Bar</li>
+
+                        </div>
+                        <div>
+                            <br/><br/><strong>Room features </strong>
+                            <li>En-suite  Bathroom </li>
+                            <li>Flatscreen TV</li>
+                            <li>Telephone </li>
+                            <li>Room service  and Housekeeping </li>
+                            <li>Minibar</li>
+                            <li>Hair dryer</li>
+                            <li>Laptop safe</li>
+                            <li>Coffee  and tea making facilities </li>
+                            
+                        </div>
+                        <div>
+                            
+                            <br/><br/> <strong>Activities  at House of Waine  </strong>
+
+                            <li>Biking</li>
+                            <li>Swimming </li>
+                            <li>Visits  to Karen Blixen Muesum, the Kazuri beads, The Giraffe centre and The world famous David Sheldrick Wildlife Trust amongst others.</li>
+                            
+                        </div>
+
+                    </div>
+                
 
 
-                <br/><br/><strong>Room features </strong>
-                <li>En-suite  Bathroom </li>
-                <li>Flatscreen TV</li>
-                <li>Telephone </li>
-                <li>Room service  and Housekeeping </li>
-                <li>Minibar</li>
-                <li>Hair dryer</li>
-                <li>Laptop safe</li>
-                <li>Coffee  and tea making facilities </li>
+                
 
 
 
-                    <br/><br/> <strong>Activities  at House of Waine  </strong>
-
-                    <li>Biking</li>
-                    <li>Swimming </li>
-                    <li>Visits  to Karen Blixen Muesum, the Kazuri beads, The Giraffe centre and The world famous David Sheldrick Wildlife Trust amongst others.</li>
 
 
                 </p>
