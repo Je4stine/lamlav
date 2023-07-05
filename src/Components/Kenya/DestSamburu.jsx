@@ -15,7 +15,7 @@ import Lodge2 from '../../Assets/samburu2.jpg';
 
 import Lodge3 from '../../Assets/samburu3.jpeg';
 
-import Dik from '../../Assets/dikdik.jpg';
+import Dik from '../../Assets/Elelphant-samburu-northern-frontier.jpg';
 
 import Larsen from '../../Assets/larsens.jpg';
 

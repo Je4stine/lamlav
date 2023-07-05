@@ -15,7 +15,7 @@ import Lodge2 from '../../Assets/lewaslide2.jpg';
 
 import Lodge3 from '../../Assets/lewaslide3.jpg';
 
-import Lewaco from '../../Assets/lewacon.jpg';
+import Lewaco from '../../Assets/Lewa-black-rhino-by-Stefan-Menzi-24072014.jpg';
 
 import Safari from '../../Assets/safariccamp.jpg';
 

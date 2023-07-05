@@ -16,7 +16,7 @@ import Lodge2 from '../../Assets/Lake-Naivasha-Sopa-Resort-6-scaled.jpg';
 import Lodge3 from '../../Assets/Lake-Naivasha-Sopa-Resort-63.jpg';
 
 
-import Naivasha from '../../Assets/Naivasha.jpg';
+import Naivasha from '../../Assets/Lake Nakuru National Park group of zebra.jpg';
 
 import Mbweha from '../../Assets/mbweha.jpg';
 

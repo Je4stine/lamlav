@@ -15,7 +15,7 @@ import Lodge2 from '../../Assets/olpe1.jpg';
 
 import Lodge3 from '../../Assets/olpe3.jpg';
 
-import Olpe from '../../Assets/olpe1.jpg';
+import Olpe from '../../Assets/220598_6117b95ec4c4c.jpg';
 
 import Kicheche from '../../Assets/Kicheche.jpg';
 

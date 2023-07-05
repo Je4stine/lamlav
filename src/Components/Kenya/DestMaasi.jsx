@@ -17,7 +17,7 @@ import Lodge3 from '../../Assets/angama-tented-camp-768x432.jpg.jpeg';
 
 import Lodge4 from '../../Assets/A-tent-with-a-view-1_v2jbgu-1-768x470.jpg.jpeg';
 
-import Game1 from '../../Assets/game.jpg';
+import Game1 from '../../Assets/6-Days-Masai-Mara-safari-750x450.jpg';
 
 import Serena from '../../Assets/maraserena.jpg';
 

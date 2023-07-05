@@ -15,7 +15,7 @@ import Lodge2 from '../../Assets/tsavv2.jpg';
 
 import Lodge3 from '../../Assets/tsavv3.jpg';
 
-import Tsavo from '../../Assets/tsavo11.jpg';
+import Tsavo from '../../Assets/f9.jpg';
 
 import Kilanguni from '../../Assets/dining-room-at-kilaguni-serena.jpg';
 

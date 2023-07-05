@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from "../Footer/Footer";
-import AmboseliN from '../../Assets/Natpa.jpg';
+import AmboseliN from '../../Assets/aa5-min_1024x576.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';

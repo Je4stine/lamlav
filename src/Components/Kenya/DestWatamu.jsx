@@ -17,7 +17,7 @@ import Lodge3 from '../../Assets/watamu3.jpeg';
 
 import Lodge4 from '../../Assets/watamu4.jpeg';
 
-import Tatol from '../../Assets/Tatol.jpg';
+import Tatol from '../../Assets/502213485_maldives.jpg';
 
 import HemWat from '../../Assets/hemwatamu.jpg';
 

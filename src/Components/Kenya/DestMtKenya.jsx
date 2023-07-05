@@ -19,7 +19,7 @@ import Lodge4 from '../../Assets/Property gallery 975X600 (3).jpg';
 
 import Lodge5 from '../../Assets/Property gallery 975X600 (7).jpg';
 
-import Mount from '../../Assets/Mtkenya.jpg';
+import Mount from '../../Assets/Visit-Mount-Kenya-National-Park-in-2021.jpg';
 
 import Fairmount from '../../Assets/fairmount.jpg';
 

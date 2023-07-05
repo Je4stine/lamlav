@@ -15,7 +15,7 @@ import Lodge2 from '../../Assets/mombasa3.jpg';
 
 import Lodge3 from '../../Assets/mombasa2.jpg';
 
-import Mombasani from '../../Assets/Mombasani.jpg';
+import Mombasani from '../../Assets/00-best-safari-parks-and-game-reserves-near-mombasa-BW-header1200px.jpg';
 
 import Sands from  '../../Assets/sands.jpg';
 

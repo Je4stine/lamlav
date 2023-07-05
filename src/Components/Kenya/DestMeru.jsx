@@ -15,7 +15,7 @@ import Lodge2 from '../../Assets/meru2.jpg';
 
 import Lodge3 from '../../Assets/meru3.jpg';
 
-import Zebra from '../../Assets/GrevyZebra 2.jpg';
+import Zebra from '../../Assets/lioness-mount-meru-national-park.jpg';
 
 import Elsa from '../../Assets/elsa.jpg';
 
