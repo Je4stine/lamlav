@@ -77,7 +77,7 @@ const Giraffe =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at The Giraffe  Manor  </strong>
                             <li>Massage & Spa</li>

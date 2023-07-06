@@ -73,7 +73,7 @@ const Kicheche =()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at Kicheche  Laikipia  Camp </strong>
                             <li>Shared pool</li>

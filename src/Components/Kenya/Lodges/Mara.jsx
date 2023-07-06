@@ -78,7 +78,7 @@ const Mara =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at Mara Serena Safari Lodge </strong>
                             <li>Wireless  Internet</li> 

@@ -82,7 +82,7 @@ const Almanara =()=>{
             </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-between">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at Almanara Luxury Villa</strong>
                             <li>Complementary  Wi-Fi</li>

@@ -83,7 +83,7 @@ const Medina =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at Medina Palms  </strong>
                             <li>Spa</li>

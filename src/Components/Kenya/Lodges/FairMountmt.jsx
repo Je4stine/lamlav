@@ -80,7 +80,7 @@ const FairmountMt =()=>{
             </ShowMoreText>
                 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at The Fairmont Mount Kenya Safari Club </strong>
                             <li>24-hour electricity</li>

@@ -83,7 +83,7 @@ const Neptune =()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at Neptune  Mara  Rianta  Luxury  Tented  Camps </strong>
                             <li>Shared pool</li>

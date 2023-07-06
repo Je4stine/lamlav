@@ -81,7 +81,7 @@ const Kilanguni =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities  at Kilaguni  Serena  Safari  Lodge </strong>
                             

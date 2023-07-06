@@ -75,7 +75,7 @@ const Norfolk =()=>{
                 </ShowMoreText>
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at Fairmont The Norfolk</strong>
                             <li>Gift shop</li>

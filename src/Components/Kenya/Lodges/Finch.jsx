@@ -78,7 +78,7 @@ const Finch =()=>{
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 <br/><br/> <strong>Amenities  at Finch  Hatton’s  Luxury </strong>
-                    <div className=" lg:flex justify-around" >
+                    <div className=" " >
                         <div>
                             <li>Exceptional conferencing facilities</li>
                             <li>Wi-fi</li>

@@ -81,7 +81,7 @@ const MaraPlains=()=>{
 
 
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                    <div className=" lg:flex justify-around">
+                    <div className=" ">
                         <div>
                             <br/><br/> <strong>Amenities at Mara Plains Camp  </strong>
                             <li>Butler service</li>
