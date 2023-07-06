@@ -59,7 +59,7 @@ const DestMtK =()=>{
             <section>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Mount Kenya</h1>
-                    <img src={Mount} alt="Roaring lion" className="lg:m-auto lg:w-[70%]"/>
+                    <img src={Mount} alt="Roaring lion" className=" w-[100vw] h-[100vh] object-cover"/>
                 </div>
             </section>
             <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10" >
