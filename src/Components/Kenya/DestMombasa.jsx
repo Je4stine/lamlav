@@ -9,11 +9,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/mombasa.jpg';
+import Lodge1 from '../../Assets/voyager-beach-resort-galleryvoyager-family-65.jpg';
 
-import Lodge2 from '../../Assets/mombasa3.jpg';
+import Lodge2 from '../../Assets/voyager-beach-resort-gallery18417031619_4ba0dd8323_o.jpg';
 
-import Lodge3 from '../../Assets/mombasa2.jpg';
+import Lodge3 from '../../Assets/voyager-beach-resort-gallerydscf8965.jpg';
+
+import Lodge4 from '../../Assets/mbsa1.jpg';
 
 import Mombasani from '../../Assets/00-best-safari-parks-and-game-reserves-near-mombasa-BW-header1200px.jpg';
 
@@ -87,11 +89,11 @@ const DestMombasa =()=>{
                     <div>
                     <img src={Lodge2}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge3}/>
-                    </div> */}
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge3}/>
+                    </div>
+                    <div>
+                    <img src={Lodge4}/>
                     </div>
                     </Slider>
                 </div>

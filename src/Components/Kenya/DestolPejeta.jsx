@@ -9,11 +9,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/olpe2.jpeg';
+import Lodge1 from '../../Assets/Reolpe5.jpg';
 
-import Lodge2 from '../../Assets/olpe1.jpg';
+import Lodge2 from '../../Assets/Reolpe1.jpg';
 
-import Lodge3 from '../../Assets/olpe3.jpg';
+import Lodge3 from '../../Assets/Reolpe3.jpg';
+import Lodge4 from '../../Assets/Reolpe4.jpg';
+import Lodge5 from '../../Assets/Reolpe2.jpg';
 
 import Olpe from '../../Assets/220598_6117b95ec4c4c.jpg';
 
@@ -81,15 +83,18 @@ const DestOlpe =()=>{
                     <div>
                         <img src={Lodge1} className="object-cover"/>
                     </div>
-                    {/* <div>
+                    <div>
                     <img src={Lodge2}/>
-                    </div> */}
+                    </div>
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge2}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
                     </Slider>
                 </div>
                 <hr/>

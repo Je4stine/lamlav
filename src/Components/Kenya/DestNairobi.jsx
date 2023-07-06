@@ -9,11 +9,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/nai1.jpeg';
+import Lodge1 from '../../Assets/nairobi-8.jpg';
 
-import Lodge2 from '../../Assets/Nairo.jpeg';
+import Lodge2 from '../../Assets/Uhuru_Park_Lake_20220621194047.jpg';
 
-import Lodge3 from '../../Assets/nai2.jpeg';
+import Lodge3 from '../../Assets/nairobi-2.jpg';
+
+import Lodge4 from '../../Assets/attr_2096.jpg';
+
+import Lodge5 from '../../Assets/attr_2100.jpg';
 
 import Suncity from '../../Assets/sunsity.jpg';
 
@@ -83,17 +87,20 @@ const DestNairobi =()=>{
                 </ShowMoreText>
                 <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
                 <Slider {...settings} autoplay arrows>
-                    {/* <div>
-                        <img src={Lodge1}/>
-                    </div> */}
+                    <div>
+                        <img src={Lodge2}/>
+                    </div>
                     <div>
                     <img src={Lodge1}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge3}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
                     <div>
                     <img src={Lodge3}/>
+                    </div>
+                     <div>
+                    <img src={Lodge5}/>
                     </div>
                     </Slider>
                 </div>

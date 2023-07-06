@@ -9,13 +9,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/lewaslide4.jpeg';
+import Lodge1 from '../../Assets/lewa-conservancy-watering-hole-1110x700.jpg';
 
-import Lodge2 from '../../Assets/lewaslide2.jpg';
+import Lodge2 from '../../Assets/lewa-conservancy-oryx-1110x700.jpg';
 
 import Lodge3 from '../../Assets/lewaslide3.jpg';
 
-import Lewaco from '../../Assets/Lewa-black-rhino-by-Stefan-Menzi-24072014.jpg';
+import Lewaco from '../../Assets/lewa-conservancy-cheetah-1110x700.jpg';
 
 import Safari from '../../Assets/safariccamp.jpg';
 
