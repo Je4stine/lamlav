@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from "../Footer/Footer";
-import AmboseliN from '../../Assets/aa5-min_1024x576.jpg';
+import AmboseliN from '../../Assets/Zebra.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
@@ -10,13 +10,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import ImageGallery from 'react-image-gallery';
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/ol-tukai-lodge-amboseli_153098540519.jpg';
+import Lodge1 from '../../Assets/Amboseli11.jpg';
 
-import Lodge2 from '../../Assets/ol-tukai-lodge-amboseli_153098540928.jpg';
+import Lodge2 from '../../Assets/Amboselli22.jpg';
 
-import Lodge3 from '../../Assets/ol-tukai-lodge-amboseli_153098541131.jpg';
+import Lodge3 from '../../Assets/Amboselli33.jpg';
 
-import Lodge4 from '../../Assets/ol-tukai-lodge-amboseli_153098541132.jpg';
+import Lodge4 from '../../Assets/Amboselli44.jpg';
 
 import Tortolis from '../../Assets/274932-tortilis-camp-amboseli-national-park.jpg';
 

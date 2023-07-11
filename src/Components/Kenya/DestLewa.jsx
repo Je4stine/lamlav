@@ -15,6 +15,8 @@ import Lodge2 from '../../Assets/lewa-conservancy-oryx-1110x700.jpg';
 
 import Lodge3 from '../../Assets/lewaslide3.jpg';
 
+import Lodge4 from '../../Assets/lewagirraffe.jpg';
+
 import Lewaco from '../../Assets/lewa-conservancy-cheetah-1110x700.jpg';
 
 import Safari from '../../Assets/safariccamp.jpg';
@@ -87,9 +89,9 @@ const DestLewa =()=>{
                     <div>
                     <img src={Lodge2}/>
                     </div>
-                    {/* <div>
-                    <img src={Lodge3}/>
-                    </div> */}
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
                     <div>
                     <img src={Lewaco}/>
                     </div>

@@ -9,11 +9,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/tsavv.jpg';
+import Lodge1 from '../../Assets/Tsavo100.jpg';
 
-import Lodge2 from '../../Assets/tsavv2.jpg';
+import Lodge2 from '../../Assets/Tsavo200.jpg';
 
-import Lodge3 from '../../Assets/tsavv3.jpg';
+import Lodge3 from '../../Assets/Tsavo300.jpg';
+
+import Lodge4 from '../../Assets/Tsavo400.jpg';
+
+import Lodge5 from '../../Assets/Tsavo500.jpg';
+
+import Lodge6 from '../../Assets/Tsavo600.jpg';
 
 import Tsavo from '../../Assets/f9.jpg';
 
@@ -86,12 +92,18 @@ const DesTsavo =()=>{
                     <div>
                     <img src={Lodge2}/>
                     </div>
-                    {/* <div>
+                    <div>
                     <img src={Lodge3}/>
-                    </div> */}
-                    {/* <div>
-                    <img src={Kilanguni}/>
-                    </div> */}
+                    </div>
+                    <div>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
+                    </div>
+                    <div>
+                    <img src={Lodge6}/>
+                    </div>
                     </Slider>
                 </div>
                 <hr/>

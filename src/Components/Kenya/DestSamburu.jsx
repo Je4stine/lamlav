@@ -9,11 +9,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../Assets/samburu.jpg';
+import Lodge1 from '../../Assets/Samburu100.jpg';
 
-import Lodge2 from '../../Assets/samburu2.jpg';
+import Lodge2 from '../../Assets/Samburu200.jpg';
 
-import Lodge3 from '../../Assets/samburu3.jpeg';
+import Lodge3 from '../../Assets/Samburu300.jpg';
+
+import Lodge4 from '../../Assets/Samburu400.jpg';
+
+import Lodge5 from '../../Assets/Samburu500.jpg';
 
 import Dik from '../../Assets/Elelphant-samburu-northern-frontier.jpg';
 
@@ -90,7 +94,9 @@ const DestSamburu =()=>{
                     <img src={Lodge3} className=" object-cover"/>
                     
                     
-                    <img src={Lodge2} className=" object-cover"/>
+                    <img src={Lodge4} className=" object-cover"/>
+
+                    <img src={Lodge5} className=" object-cover"/>
                    
                 </Slider>
                 </div>

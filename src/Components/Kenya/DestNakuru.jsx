@@ -16,6 +16,10 @@ import Lodge2 from '../../Assets/Lake-Naivasha-Sopa-Resort-6-scaled.jpg';
 import Lodge3 from '../../Assets/Lake-Naivasha-Sopa-Resort-63.jpg';
 
 
+import Lodge4 from '../../Assets/LakeNakuru11.jpg';
+
+import Lodge5 from '../../Assets/Lake Nakuru 22.jpg';
+
 import Naivasha from '../../Assets/Lake Nakuru National Park group of zebra.jpg';
 
 import Mbweha from '../../Assets/mbweha.jpg';
@@ -76,7 +80,10 @@ const DestNakuru =()=>{
                     <img src={Lodge3}/>
                     </div>
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge4}/>
+                    </div>
+                    <div>
+                    <img src={Lodge5}/>
                     </div>
                     </Slider>
                 </div>

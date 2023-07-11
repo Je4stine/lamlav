@@ -15,7 +15,7 @@ import Lodge2 from '../../Assets/Elsa-s-Kopje---activities---sundowner.jpg';
 
 import Lodge3 from '../../Assets/elsas-young-at-heart.jpg';
 
-// import Lodge4 from '../../Assets/rhino-sanctuary.jpg';
+import Lodge4 from '../../Assets/rhino-sanctuary.jpg';
 
 import Lodge5 from '../../Assets/Elsa-s-Kopje---activities---Mughwangho-hill-bushwalk-8.jpg';
 
@@ -90,9 +90,9 @@ const DestMeru =()=>{
                     <div>
                     <img src={Lodge3}/>
                     </div>
-                    {/* <div>
+                    <div>
                     <img src={Lodge4}/>
-                    </div> */}
+                    </div>
                     <div>
                     <img src={Lodge5}/>
                     </div>
