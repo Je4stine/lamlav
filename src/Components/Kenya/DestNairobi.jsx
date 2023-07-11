@@ -131,7 +131,7 @@ const DestNairobi =()=>{
                             </div></a> 
                         </div>
 
-                        <div className="lg:w-1/4">
+                        <div className="lg:w-1/4 mr-10">
                             <img src={Fair2} alt="Ol Tukai" loading ="lazy"/>
                             <a href='/kenya/norfolk'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >Fairmount  Norfolk Hotel</h1></a> 
                             <a href='/kenya/norfolk'><div className=' hover:text-[#f15d30] lg:text-lg'>
