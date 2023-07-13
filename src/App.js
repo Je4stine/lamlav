@@ -63,6 +63,7 @@ import Sasaab from './Components/Kenya/Lodges/Sasaab';
 import Waine from './Components/Kenya/Lodges/Waine';
 import Watamu from './Components/Kenya/Lodges/Watamu';
 import Kilanguni from './Components/Kenya/Lodges/Kilanguni';
+import Tanzania from './Components/Tanzania/Tanzania';
 
 
 function App() {
@@ -92,6 +93,7 @@ function App() {
             <Route path ='/amboseli' element={<Amboseli/>}/>
             <Route path='/wilderness' element={<Wilderness/>}/>
             <Route path ='/kenya' element ={<Kenya/>}/>
+            <Route path ='/tanzania' element ={<Tanzania/>}/>
             <Route path ='/kenya/destamboseli' element ={<DestAmboseli/>}/>
             <Route path ='/kenya/tsavonational' element ={<DesTsavo/>}/>
             <Route path ='/kenya/lewaconservancy' element ={<DestLewa/>}/>

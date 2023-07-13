@@ -25,6 +25,8 @@ import Chyulu from '../../../Assets/Hemingways-2017-02-41.jpg';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import ShowMoreText from "react-show-more-text";
+
 
 const Hemingways =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -58,7 +60,20 @@ const Hemingways =()=>{
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
+           
+           
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
+            <ShowMoreText
+                    /* Default options */
+                    lines={5}
+                    more='READ MORE'
+                    less='READ LESS'
+                    anchorClass='font-[SourceSerifPro-Regular] pt-[50px] text-red-600'
+                    className='font-[SourceSerifPro-Regular] pt-[50px] text-xl'
+                    // onClick={this.executeOnClick}
+                    expanded={false}
+                    truncatedEndingComponent={"..... "}
+                >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                 Tailored and customized for individual preferences, while also ensuring privacy and ease of use.
                 <br/><br/>Hemingwa ys Nairobi is a boutique hotel located in the quiet Nairobi suburb of Karen, which is beautifully decorated in a high colonial plantation style. The hotel's amenities are luxurious and of the highest quality, including a premier restaurant, individually decorated spacious rooms, and a sparkling spa. Hemingways prides itself on providing expert, amiable, and 24-hour-constant service, which includes a dedicated butler who is attentive to guests' preferences and needs, such as remembering which type of tea they prefer and how they like their trousers pressed. 
@@ -87,6 +102,7 @@ const Hemingways =()=>{
 
 
                 </p>
+                </ShowMoreText>
                 
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                 <Slider {...settings} autoplay arrows>

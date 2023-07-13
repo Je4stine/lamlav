@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.983c4b2c.css",
-    "main.js": "/static/js/main.00597653.js",
+    "main.css": "/static/css/main.7e211dca.css",
+    "main.js": "/static/js/main.c9453f99.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Janv 23 (3).png": "/static/media/Janv 23 (3).0bcdf118fcaa30dd1bf3.png",
     "static/media/Tsavo600.jpg": "/static/media/Tsavo600.7ff26ade1da2e6b11ad6.jpg",
@@ -34,7 +34,6 @@
     "static/media/nairobi-2.jpg": "/static/media/nairobi-2.65a2126f51a209d80b5d.jpg",
     "static/media/totolis1.jpg": "/static/media/totolis1.e416aca740051737c11b.jpg",
     "static/media/sunsity.jpg": "/static/media/sunsity.4e9c8472a8a52fa17163.jpg",
-    "static/media/kilima.jpg": "/static/media/kilima.33c5e9019bb3347e464d.jpg",
     "static/media/Lake-Naivasha-Sopa-Resort-5-scaled.jpg": "/static/media/Lake-Naivasha-Sopa-Resort-5-scaled.a4edcb7f68ba7e758911.jpg",
     "static/media/nairobi-8.jpg": "/static/media/nairobi-8.5421a6298f90e3b18969.jpg",
     "static/media/tortilis-main-2.jpg": "/static/media/tortilis-main-2.f80ce68a56832ad96774.jpg",
@@ -164,6 +163,7 @@
     "static/media/kicheche-laikipia-banner-slider-2.jpg": "/static/media/kicheche-laikipia-banner-slider-2.f6c64b7804b9664d36e3.jpg",
     "static/media/rhino.jpg": "/static/media/rhino.48bdd76524963d1a9a6b.jpg",
     "static/media/FinchHattons-Camp8.jpg": "/static/media/FinchHattons-Camp8.99e00ef0964b643e569f.jpg",
+    "static/media/tanzania_safari.jpg": "/static/media/tanzania_safari.2d2bb224777d4334cef8.jpg",
     "static/media/833d7db7.jpg": "/static/media/833d7db7.c7a5129af4e89e79974f.jpg",
     "static/media/ooltukai.jpeg": "/static/media/ooltukai.6cae3b098c3ce7a7b7f2.jpeg",
     "static/media/image-asset (4).jpeg": "/static/media/image-asset (4).6c64da2848ad200e976c.jpeg",
@@ -364,12 +364,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.983c4b2c.css.map": "/static/css/main.983c4b2c.css.map",
-    "main.00597653.js.map": "/static/js/main.00597653.js.map",
+    "main.7e211dca.css.map": "/static/css/main.7e211dca.css.map",
+    "main.c9453f99.js.map": "/static/js/main.c9453f99.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.983c4b2c.css",
-    "static/js/main.00597653.js"
+    "static/css/main.7e211dca.css",
+    "static/js/main.c9453f99.js"
   ]
 }
