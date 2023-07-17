@@ -57,16 +57,16 @@ const Tanzania =()=> {
             <section className=" bg-white w-[100%] m-auto lg:px-[50px] px-10">
               <div className=" lg:px-[100px]">
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] lg:text-xl">
-                It is challenging to find a destination that surpasses Tanzania as it  holds a unique position in the affections of both seasoned and novice Africa enthusiasts. Top  attraction spots on one's travel wish-list include: encountering The Big 5 in the animal-thronged Lost World of the Ngorongoro Crater, witnessing The Great Migration, and exploring Serengeti National Park, and tracking chimpanzees in the Mahale Mountains. 
-                <br/><br/>Additionally, you can conquer the continent's highest peak, Mount Kilimanjaro, and witness the breathtaking spectacle of wildebeest herds thundering across the Serengeti during the Great Migration; and even combine your safari adventure with relaxing beach time in Zanzibar, which is just a short and picturesque flight away.The Mafia Islands possess a vibrant local culture and offer scenic stretches of sandy beaches lined with palm trees and crystal-clear azure waters. Here, you can partake in activities like kayaking and whale watching, or simply relax and soak up the sun.
+                It is challenging to find a destination that surpasses Tanzania as it  holds a unique position in the affections of both seasoned and novice Africa enthusiasts. Top  attraction spots on one's travel wish-list include: encountering The Big 5 in the animal-thronged Lost World of the <strong>Ngorongoro Crater</strong>, witnessing The Great Migration, and exploring <strong>Serengeti National Park</strong>, and tracking chimpanzees in the <strong>Mahale Mountains</strong>. 
+                <br/><br/>Additionally, you can conquer the continent's highest peak, Mount Kilimanjaro, and witness the breathtaking spectacle of wildebeest herds thundering across the Serengeti during the Great Migration; and even combine your safari adventure with relaxing beach time in Zanzibar, which is just a short and picturesque flight away.The <strong>Mafia Islands</strong> possess a vibrant local culture and offer scenic stretches of sandy beaches lined with palm trees and crystal-clear azure waters. Here, you can partake in activities like <strong>kayaking</strong> and <strong>whale watching</strong>, or simply relax and soak up the sun.
                 <br/><br/>Furthermore, Tanzania's expansive land, diverse parks, and extensive coastline offer a wide range of accommodations that mirror the diversity of its landscape. Whether you prefer the rustic charm of mobile camping, the luxury of tented camps, or the breathtaking elegance of high-end lodges and resorts, you can find a home that perfectly complements the ecosystem in which it is nestled.
-                <strong>LAMLAV LEISURE  SAFARIS</strong> through Custom Safari, Private Safari, or Small  Group  Classic  Safaris, consistently include a visit to Tanzania, which is recognized as the prominent hub of the world's animal kingdom. We endeavour  to showcase  Tanzania's  diverse  landscapes comprising of:
+                <br/><br/><strong>LAMLAV LEISURE  SAFARIS</strong> through <strong>Custom Safari, Private Safari, or Small  Group  Classic  Safaris</strong>, consistently include a visit to Tanzania, which is recognized as the prominent hub of the world's animal kingdom. We endeavour  to showcase  Tanzania's  diverse  landscapes comprising of:
                 
-                <ul>
-                  <li>The renowned Northern circuit, which encompasses the Serengeti, Lake Manyara, Tarangire,  Mt Kilimanjaro and  the Ngorongoro Conservation Area.</li>
-                  <li>The Southern circuit, which includes the vast  Nyerere  National  Park, renowned for its walking safaris and boat activities.</li>
-                  <li>The untamed wilderness of the Western circuit, which encompasses  the Mahale  Mountains where Tanzania's chimpanzees make their home!</li>
-                </ul>
+                
+                  <li>The renowned <strong>Northern circuit</strong>, which encompasses the Serengeti, Lake Manyara, Tarangire,  Mt Kilimanjaro and  the Ngorongoro Conservation Area.</li>
+                  <li>The <strong>Southern circuit</strong>, which includes the vast  <strong>Nyerere  National  Park</strong>, renowned for its walking safaris and boat activities.</li>
+                  <li>The untamed wilderness of the <strong>Western circuit</strong>, which encompasses  the Mahale  Mountains where Tanzania's chimpanzees make their home!</li>
+                
                 </p>
               </div>
             </section>
@@ -89,7 +89,7 @@ const Tanzania =()=> {
                           <p className="font-[SourceSerifPro-Regular] text-lg">
                             {item.descripton}
                           </p>
-                          <a href="/kenya/destamboseli">
+                          <a href={item.link}>
                             <div className="mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto">
                               <span>Explore more</span>
                             </div>
@@ -107,6 +107,9 @@ const Tanzania =()=> {
               }
             </section>
         </div>
+          <div>
+              <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
+          </div>
         <Footer/>
       </div>
   )
