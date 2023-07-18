@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Tz from '../../Assets/tanzania_safari.jpg';
 import DATA from './data';
-
+import { Link } from "react-router-dom";
 
 const Tanzania =()=> {
   const [colorChanged, setColorChanged]= useState(false);
@@ -89,11 +89,11 @@ const Tanzania =()=> {
                           <p className="font-[SourceSerifPro-Regular] text-lg">
                             {item.descripton}
                           </p>
-                          <a href={item.link}>
+                          <Link to={`/tanzania/${item.id}`}>
                             <div className="mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto">
                               <span>Explore more</span>
                             </div>
-                          </a>
+                          </Link>
                         </div>
 
                      

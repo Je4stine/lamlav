@@ -64,6 +64,7 @@ import Waine from './Components/Kenya/Lodges/Waine';
 import Watamu from './Components/Kenya/Lodges/Watamu';
 import Kilanguni from './Components/Kenya/Lodges/Kilanguni';
 import Tanzania from './Components/Tanzania/Tanzania';
+import DetailsTz from './Components/Tanzania/DetailsTz';
 
 
 function App() {
@@ -136,6 +137,7 @@ function App() {
             <Route path ='/kenya/waine' element ={<Waine/>}/>
             <Route path ='/kenya/hemwatamu' element ={<Watamu/>}/>
             <Route path ='/kenya/kilanguni' element ={<Kilanguni/>}/>
+            <Route path ='/tanzania/:itemId' element={<DetailsTz/>}/>
           </Routes>
         </Wrapper>
       </Router>

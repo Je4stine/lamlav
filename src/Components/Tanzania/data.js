@@ -9,7 +9,7 @@ const DATA = [
     },
     {
         "id":2,
-        "title":"ARUSHA",
+        "title":"Arusha",
         "descripton":"An enchanting entry point to the magnificent wildlife reserves of East Africa. ",
         "image":"",
         "link":"/tanzania/arusha"
@@ -17,7 +17,7 @@ const DATA = [
     },
     {
         "id":3,
-        "title":"MOUNT KILIMANJARO ",
+        "title":"Mount Kilimanjaro ",
         "descripton":"Mount  Kilimanjaro  is Africa's  tallest  summit exuding majestic charisma and an undeniable presence.",
         "image":"",
         "link":"/tanzania/kilimanjaro"
@@ -25,7 +25,7 @@ const DATA = [
     },
     {
         "id":4,
-        "title":"NYERERE  NATIONAL  PARK ",
+        "title":"Nyerere National Park ",
         "descripton":"Nyerere National Park in Southeastern Tanzania is not only Africa's largest standalone national park but also one of the largest in the world, covering approximately 30,000 square kilometers. ",
         "image":"",
         "link":"/tanzania/nyerere"
@@ -33,7 +33,7 @@ const DATA = [
     },
     {
         "id":5,
-        "title":"MAHALE MOUNTAINS.",
+        "title":"Mahale Mountains",
         "descripton":" Mahale National Park is famous for its breathtaking sunsets over Lake Tanganyika, attracting photography enthusiasts and safari lovers alike. It is home  to the largest  community  of  chimpanzees  in the world. ",
         "image":"",
         "link":"/tanzania/mahale"
@@ -41,7 +41,7 @@ const DATA = [
     },
     {
         "id":6,
-        "title":"NGORONGORO  CONSERVATION  AREA",
+        "title":"Ngorongoro conservation area",
         "descripton":"The Lost World of  Ngorongoro is a captivating  realm of nature that must be experienced firsthand to truly comprehend its magical allure. Its lush and vibrant landscape is beyond description and cannot be fully captured through mere words or photographs. ",
         "image":"",
         "link":"/tanzania/ngorongoro"
@@ -49,7 +49,7 @@ const DATA = [
     },
     {
         "id":7,
-        "title":" SERENGETI NATIONAL  PARK",
+        "title":" Serengeti National Park",
         "descripton":"The Serengeti National Park offers an unparalleled wildlife experience, breathtaking scenery, and a myriad of captivating activities. From flying over the Great Rift Valley to encounters with lions, cheetahs, and other remarkable animals, to serene moments under acacia trees and immersive cultural visits, the Serengeti evokes a deep sense of awe and gratitude.",
         "image":"",
         "link":"/tanzania/serengeti"
@@ -57,7 +57,7 @@ const DATA = [
     },
     {
         "id":8,
-        "title":" TARANGIRE NATIONAL PARK.",
+        "title":" Tarangire National Park",
         "descripton":"Tarangire is a serene sanctuary where tranquility harmoniously coexists with the exuberance of nature. It is  paradise  for  those  who  appreciate  breathtaking  landscapes.",
         "image":"",
         "link":"/tanzania/tarangire"
@@ -65,7 +65,7 @@ const DATA = [
     },
     {
         "id":9,
-        "title":"LAKE MANYARA  NATIONAL  PARK ",
+        "title":"Lake Manyara National Park ",
         "image":"",
         "link":"/tanzania/manyara",
         "descripton":"Lake Manyara is a stunning habitat where lions exhibit their unique behavior of climbing trees, while massive flocks of flamingos create a mesmerizing sight. "
