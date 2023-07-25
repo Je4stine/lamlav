@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e211dca.css",
-    "main.js": "/static/js/main.179bd39b.js",
+    "main.css": "/static/css/main.6de5a95f.css",
+    "main.js": "/static/js/main.e3c1ac4e.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Janv 23 (3).png": "/static/media/Janv 23 (3).0bcdf118fcaa30dd1bf3.png",
     "static/media/Tsavo600.jpg": "/static/media/Tsavo600.7ff26ade1da2e6b11ad6.jpg",
-    "static/media/ug1.jpg": "/static/media/ug1.7100cd4196942869838f.jpg",
     "static/media/oldonyo1.jpg": "/static/media/oldonyo1.ca1383308eefd33f6bd5.jpg",
     "static/media/Samburu400.jpg": "/static/media/Samburu400.f5ef8a434d09192c6623.jpg",
     "static/media/Lake Nakuru 22.jpg": "/static/media/Lake Nakuru 22.533d0600294c852b99fa.jpg",
@@ -13,7 +12,6 @@
     "static/media/Samburu200.jpg": "/static/media/Samburu200.36c57577c0b525aa171f.jpg",
     "static/media/safariccamp.jpg": "/static/media/safariccamp.9739b95e1068fe649577.jpg",
     "static/media/Tsavo400.jpg": "/static/media/Tsavo400.6403a9b6b2051583970a.jpg",
-    "static/media/rwan.jpg": "/static/media/rwan.4f29fbf0872efc8827e1.jpg",
     "static/media/Lake-Naivasha-Sopa-Resort-6-scaled.jpg": "/static/media/Lake-Naivasha-Sopa-Resort-6-scaled.0548e8e0d643a6763b90.jpg",
     "static/media/Tsavo200.jpg": "/static/media/Tsavo200.9322a16172abb4c8e68f.jpg",
     "static/media/Samburu500.jpg": "/static/media/Samburu500.7f31452911b2e3316e6a.jpg",
@@ -306,6 +304,7 @@
     "static/media/safari-in-samburu-by-muthaiga-travel-11-900x500.jpg": "/static/media/safari-in-samburu-by-muthaiga-travel-11-900x500.ab4adffe08d5e9573c30.jpg",
     "static/media/finch_hattons_camp_fire_at_night_jpg": "/static/media/finch_hattons_camp_fire_at_night_0071c13acc7ebc5a56d7604277c286f3.8cb502a9a40c8f9951f4.jpg",
     "static/media/giraffe.jpg": "/static/media/giraffe.5447414d192311df91c1.jpg",
+    "static/media/muurchison-750x429-1.jpg": "/static/media/muurchison-750x429-1.bbee91022ee18ca5369b.jpg",
     "static/media/f9.jpg": "/static/media/f9.39efc14d2e32b4ebcd0e.jpg",
     "static/media/Day4.1.jpeg": "/static/media/Day4.1.52d666d4add20f00284d.jpeg",
     "static/media/The-Safari-Collection-Sasaab-SAMBURU-SAFARI-CAMP-Reception.jpg": "/static/media/The-Safari-Collection-Sasaab-SAMBURU-SAFARI-CAMP-Reception.ee3e8d0bc8cef7c4f620.jpg",
@@ -330,6 +329,7 @@
     "static/media/Property gallery 975X600 (1).jpg": "/static/media/Property gallery 975X600 (1).e1cd5ac9644a3a5fcd5d.jpg",
     "static/media/kanairo.jpeg": "/static/media/kanairo.1ff467fc7823c5b489d3.jpeg",
     "static/media/dining-room-at-kilaguni-serena.jpg": "/static/media/dining-room-at-kilaguni-serena.9e26f69b2fb4747f680e.jpg",
+    "static/media/rwanda.jpg": "/static/media/rwanda.7ee920ae30c56383f54e.jpg",
     "static/media/Finch1.jpg": "/static/media/Finch1.3ed7af329ba5157a5f89.jpg",
     "static/media/Giraf.jpg": "/static/media/Giraf.07ba9875771038b6cb0f.jpg",
     "static/media/Day7.1.jpg": "/static/media/Day7.1.9a9991491eb1f7c6ecd2.jpg",
@@ -364,12 +364,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.7e211dca.css.map": "/static/css/main.7e211dca.css.map",
-    "main.179bd39b.js.map": "/static/js/main.179bd39b.js.map",
+    "main.6de5a95f.css.map": "/static/css/main.6de5a95f.css.map",
+    "main.e3c1ac4e.js.map": "/static/js/main.e3c1ac4e.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e211dca.css",
-    "static/js/main.179bd39b.js"
+    "static/css/main.6de5a95f.css",
+    "static/js/main.e3c1ac4e.js"
   ]
 }

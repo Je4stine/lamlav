@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 import ImageGallery from 'react-image-gallery';
 import Slider from "react-slick";
 import ShowMoreText from "react-show-more-text";
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import DATA from './data';
 import DETAILS from "./detailsdata";
 
@@ -29,8 +29,10 @@ import Olka from '../../Assets/ol-tukai-lodge3.jpg';
 
 const DetailsTz = () => {
   const [colorChanged, setColorChanged] = useState(false);
-  const { itemId } = useParams();
+  const { itemId} = useParams();
   const item = DETAILS.find((item) => item.id === parseInt(itemId));
+  
+  
 
   if (!item) {
     return <div>Item not found</div>;
@@ -60,7 +62,7 @@ const DetailsTz = () => {
       {colorChanged ? <Navreveal /> : <Navbar />}
       <section>
         <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[100px]">
-          <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">{item.title}</h1>
+          <h1 className="lg:text-6xl text-4xl font-serif">{item.title}</h1>
           <img src={AmboseliN} alt="Roaring lion" className=" w-[100vw] h-[100vh] object-cover" />
         </div>
       </section>
@@ -112,8 +114,8 @@ const DetailsTz = () => {
           <div className=" lg:flex">
             <div className=" mr-10 lg:w-1/2">
               <img src={Tortolis} alt="Tortolis Camp" loading="lazy" />
-              <a href='/kenya/amboseli/tortolis'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp1}</h1></a>
-              <a href='/kenya/amboseli/tortolis'><div className='hover:text-[#f15d30] lg:text-lg'>
+              <a href={item.campId1}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp1}</h1></a>
+              <a href={item.campId1}><div className='hover:text-[#f15d30] lg:text-lg'>
                 <span>{item.title}, Tanzania</span>
               </div></a>
             </div>
@@ -121,15 +123,16 @@ const DetailsTz = () => {
 
             <div className="lg:w-1/2">
               <img src={Olka} alt="Ol Tukai" loading="lazy" />
-              <a href='/kenya/amboseli/oltukai'><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
-              <a href='/kenya/amboseli/oltukai'><div className=' hover:text-[#f15d30] lg:text-lg'>
+              <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
+              <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
                 <span>{item.title}, Tanzania</span>
               </div></a>
             </div>
           </div>
-          <a href='/kenya/destamboseli'><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
+
+          <Link to={`/tanzania/lodge/${item.campId1}`}><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
             <span className="">View all Tanzanian Camps and lodges</span>
-          </div></a>
+          </div></Link>
 
         </div>
 

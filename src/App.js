@@ -65,6 +65,18 @@ import Watamu from './Components/Kenya/Lodges/Watamu';
 import Kilanguni from './Components/Kenya/Lodges/Kilanguni';
 import Tanzania from './Components/Tanzania/Tanzania';
 import DetailsTz from './Components/Tanzania/DetailsTz';
+import Lodges from './Components/Tanzania/Lodges';
+import Kilindi from './Components/Tanzania/Lodges/Kilindi';
+import Matemwe from './Components/Tanzania/Lodges/Matemwe';
+import Onsea from './Components/Tanzania/Lodges/Onsea';
+import ArushaCoffee from './Components/Tanzania/Lodges/Coffee';
+import Kilimount from './Components/Tanzania/Lodges/Kilimount';
+import Beho from './Components/Tanzania/Lodges/Beho';
+import Kigelia from './Components/Tanzania/Lodges/Kigelia';
+import Greystoke from './Components/Tanzania/Lodges/Greystoke';
+import NeptuneNg from './Components/Tanzania/Lodges/Neptune';
+import Crater from './Components/Tanzania/Lodges/Crater';
+import Manor from './Components/Tanzania/Lodges/Manor';
 
 
 function App() {
@@ -138,6 +150,18 @@ function App() {
             <Route path ='/kenya/hemwatamu' element ={<Watamu/>}/>
             <Route path ='/kenya/kilanguni' element ={<Kilanguni/>}/>
             <Route path ='/tanzania/:itemId' element={<DetailsTz/>}/>
+            <Route path ='/tanzania/lodge/:campId' element={<Lodges/>}/>
+            <Route path='/tanzania/lodges/kilindi' element={<Kilindi/>}/>
+            <Route path='/tanzania/lodges/matemwe' element={<Matemwe/>}/>
+            <Route path='/tanzania/lodges/onsea' element={<Onsea/>}/>
+            <Route path='/tanzania/lodges/coffee' element={<ArushaCoffee/>}/>
+            <Route path='/tanzania/lodges/kilimount' element={<Kilimount/>}/>
+            <Route path='/tanzania/lodges/beho' element={<Beho/>}/>
+            <Route path='/tanzania/lodges/kigelia' element={<Kigelia/>}/>
+            <Route path='/tanzania/lodges/greystoke' element={<Greystoke/>}/>
+            <Route path='/tanzania/lodges/manor' element={<Manor/>}/>
+            <Route path='/tanzania/lodges/crater' element={<Crater/>}/>
+            <Route path='/tanzania/lodges/neptune' element={<NeptuneNg/>}/>
           </Routes>
         </Wrapper>
       </Router>

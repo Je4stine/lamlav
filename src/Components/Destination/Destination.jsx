@@ -17,7 +17,7 @@ const Destination =()=>{
         
         <div className="">
             
-            <div className=" w-full mb-20 relative bg-white lg:w-[90%] m-auto p-5 flex flex-col justify-center items-center rounded-md shadow-md">
+            <div className=" w-full mb-20 relative bg-white lg:w-full m-auto p-5 flex flex-col justify-center items-center rounded-md ">
                 <img src={Destination1}/>
                     <h1 className=' font-[SourceSerifPro-Black] text-2xl my-5 text-red-900'> LAMLAV  MARA SERENGETI DELUXE</h1>
                     <h2 className=' text-xl italic font-bold mb-10 text-red-900'> Experience  a truly  memorable and  unapologetically  indulging Safari  in the Mara and Serengeti  ecosystems </h2>
@@ -29,7 +29,7 @@ const Destination =()=>{
                 </a>
             </div>
 
-            <div className=" w-full mb-20 relative bg-white lg:w-[90%] m-auto p-5 flex flex-col justify-center items-center rounded-md shadow-md">
+            <div className=" w-full mb-20 relative bg-white lg:w-full m-auto p-5 flex flex-col justify-center items-center rounded-md ">
                 <img src={Destination3}/>
                 <h1 className=' font-[SourceSerifPro-Black] text-2xl my-5 text-red-900'> GREAT MIGRATION  SAFARI - Kenyan  Edition </h1>
                 <h2 className=' text-xl italic font-bold mb-10 text-red-900'> Discover the wonders of Kenya with a touch of luxury </h2>
@@ -42,7 +42,7 @@ const Destination =()=>{
                 </a>
             </div>
 
-            <div className=" w-full mb-20 relative bg-white lg:w-[90%] m-auto p-5 flex flex-col justify-center items-center rounded-md shadow-md">
+            <div className=" w-full mb-20 relative bg-white lg:w-full m-auto p-5 flex flex-col justify-center items-center rounded-md ">
                 <img src={Destination2}/>
                 <h1 className=' font-[SourceSerifPro-Black] text-2xl my-5 text-red-900'> LAMLAV  HONEYMOON SAFARI </h1>
                 <h2 className=' text-xl italic font-bold mb-10 text-red-900'> An adventure  that feeds your Soul.</h2>
@@ -56,7 +56,7 @@ const Destination =()=>{
                 </a>
             </div>
 
-            <div className=" w-full mb-20 relative bg-white lg:w-[90%] m-auto p-5 flex flex-col justify-center items-center rounded-md shadow-md">
+            <div className=" w-full mb-20 relative bg-white lg:w-full m-auto p-5 flex flex-col justify-center items-center rounded-md ">
                 <img src={Destination4}/>
                 <h1 className=' font-[SourceSerifPro-Black] text-2xl my-5 text-red-900'> LAMLAV BUSH  AND BEACH SAFARI </h1>
                 <h2 className=' text-xl italic font-bold mb-10 text-red-900'>MARA -TSAVO –WATAMU. Explore the Kenyan  wildlife  havens  in Style.</h2>
@@ -70,7 +70,7 @@ const Destination =()=>{
                 </a>
             </div>
 
-            <div className=" w-full mb-20 relative bg-white lg:w-[90%] m-auto p-5 flex flex-col justify-center items-center rounded-md shadow-md">
+            <div className=" w-full mb-20 relative bg-white lg:w-full m-auto p-5 flex flex-col justify-center items-center rounded-md ">
                 <img src={Destination5}/>
                 <h1 className=' font-[SourceSerifPro-Black] text-2xl my-5 text-red-900'> LAMLAV GREAT WILDERNESS  SAFARI.  </h1>
                 <h2 className=' text-xl italic font-bold mb-10 text-red-900'>A truly compelling and quintessential  Kenyan Safari experience. </h2>
