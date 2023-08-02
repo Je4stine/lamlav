@@ -85,6 +85,7 @@ import ManyaraTree from './Components/Tanzania/Lodges/Manyaratree';
 import Manyarasecrete from './Components/Tanzania/Lodges/Manyarasecrete';
 import Uganda from './Components/Uganda/Uganda';
 import DetailsUg from './Components/Uganda/DetailsUg';
+import Rwanda from './Components/Rwanda/Rwanda';
 
 
 function App() {
@@ -179,6 +180,8 @@ function App() {
 
             <Route path='/uganda' element={<Uganda/>}/>
             <Route path ='/uganda/:itemId' element={<DetailsUg/>}/>
+
+            <Route path='/rwanda' element={<Rwanda/>}/>
           </Routes>
         </Wrapper>
       </Router>

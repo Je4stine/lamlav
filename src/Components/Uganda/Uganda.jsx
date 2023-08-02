@@ -5,6 +5,7 @@ import Navreveal from "../Navbar/Navreveal";
 import Tz from '../../Assets/tanzania_safari.jpg';
 import UDATA from './ugdata';
 import { Link } from "react-router-dom";
+import Ugim from '../../Assets/muurchison-750x429-1.jpg'
 
 const Uganda =()=> {
   const [colorChanged, setColorChanged]= useState(false);
@@ -24,7 +25,7 @@ const Uganda =()=> {
     return(
       <div>
         <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
-                  <img src={Tz} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+                  <img src={Ugim} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5 lg:justify-between lg:w-1/2">
                       <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">{title}</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">

@@ -83,7 +83,7 @@ const Countries =()=>{
 
 
 
-                <a href='/tanzania' className='lg:flex lg:flex-row-reverse flex-1 mb-5 lg:w-[98%] bg-white'>
+                <a href='/rwanda' className='lg:flex lg:flex-row-reverse flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Rwanda} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                     <div className=' p-10 flex flex-col justify-center'> 
                             <h1 className=' font-[SourceSerifPro-Black] text-2xl '>
@@ -91,12 +91,13 @@ const Countries =()=>{
                             </h1>
                             <br/>
                             <h1 className=' font-[SourceSerifPro-Black] text-xl'>
-                                    The quintessential African holiday experience
+                                Welcome  to the "Land of a thousand hills."
                             </h1>
                             <br/>
                             <p className=' font-[SourceSerifPro-Regular] '>
-                                Tanzania encapsulates the quintessential African holiday experience in its rich and diverse essence. From the majestic heights of Kilimanjaro to the awe-inspiring depths of the Ngorongoro; to  the golden landscapes of Serengeti, and idyllic  beaches  of Zanzibar, this sun-drenched land guarantees boundless variety, and unforgettable adventures.                            </p>
-                            <a href='/tanzania'>
+                            Rwanda is a country with three national parks: Volcanoes  National  park, Akagera National Park, and Nyungwe Forest Natiional park. 
+                            </p>
+                            <a href='/rwanda'>
                                 <div className=' border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto mt-10'>
                                     <span className=' font-[SourceSerifPro-Regular]'>Explore more</span>
                                 </div>
