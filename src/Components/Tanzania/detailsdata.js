@@ -94,8 +94,8 @@ const DETAILS =[
         "p1":"Tarangire National Park's appeal lies in its vast  number  of  elephant herds and it's  breathtaking landscapes, featuring golden savannah adorned  acacias, rocky outcrops, and the iconic Baobab trees. The Tarangire River sustains a diverse array of wildlife during the dry season, creating a wildlife spectacle unlike any other.The abundance of herbivores attracts predators such as lions, leopards, and cheetahs, resulting in thrilling wildlife interactions and predator-prey dynamics. Additionally, the park boasts of an impressive variety of 550 bird species and astonishingly tall termite mounds, which may seem unassuming but are certain to amaze any traveler with their sheer size and ingenuity. Exploring the park on foot with  knowledgeable  Lamlav  Safari  guide enhances the safari experience and allows visitors to appreciate the intricacies of this unique ecosystem.",
         "p2":" ",
         "p3":" ",
-        "campId1":"kuro",
-        "campId2":"tangerine",
+        "campId1":"/tanzania/lodges/kuro",
+        "campId2":"/tanzania/lodges/treetop",
         "camp1":"Kuro Tarangire",
         "camp2":"Tarangire  Treetops Lodge",
 
@@ -107,8 +107,8 @@ const DETAILS =[
         "p1":"Lake Manyara National Park in Tanzania's  Northern  Circuit, just a 90-minute drive from Arusha, is a renowned alkaline water lake  conveniently situated en route to the famous Ngorongoro Crater and Serengeti.The park's diverse habitats, abundant vegetation, and the presence of large mammals, reptiles, and birds create a unique wildlife habitat that is well worth visiting.  Whether you're interested in observing the tree-climbing lions, witnessing the spectacle of flamingos, or exploring the park's varied landscapes, a visit to Lake Manyara is sure to be a memorable experience.",
         "p2":" One of the park's main attractions is its population of tree-climbing lions, which is unique to only two locations in the world: Lake Manyara National Park and the Ishasha area of Queen Elizabeth National Park in Uganda. Tourists flock to the park to witness these lions resting on the branches of large fig or acacia trees, seeking shade from the sun. Other frequently sighted animals in the park include buffaloes, giraffes, cheetahs, monkeys, impalas, and olive baboons. With over 400 bird species recorded within the park, it is an ideal destination for bird enthusiasts. ",
         "p3":" ",
-        "campId1":"manyara",
-        "campId2":"secret",
+        "campId1":"/tanzania/lodges/manyaratree",
+        "campId2":"/tanzania/lodges/manayarasecret",
         "camp1":"Lake Manyara Tree Lodge",
         "camp2":"Manyara's  Secret",
 

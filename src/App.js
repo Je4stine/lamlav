@@ -77,6 +77,14 @@ import Greystoke from './Components/Tanzania/Lodges/Greystoke';
 import NeptuneNg from './Components/Tanzania/Lodges/Neptune';
 import Crater from './Components/Tanzania/Lodges/Crater';
 import Manor from './Components/Tanzania/Lodges/Manor';
+import Beyond from './Components/Tanzania/Lodges/Beyond';
+import Lemala from './Components/Tanzania/Lodges/Lemala';
+import Kuro from './Components/Tanzania/Lodges/Kuro';
+import Treetops from './Components/Tanzania/Lodges/Treetops';
+import ManyaraTree from './Components/Tanzania/Lodges/Manyaratree';
+import Manyarasecrete from './Components/Tanzania/Lodges/Manyarasecrete';
+import Uganda from './Components/Uganda/Uganda';
+import DetailsUg from './Components/Uganda/DetailsUg';
 
 
 function App() {
@@ -162,6 +170,15 @@ function App() {
             <Route path='/tanzania/lodges/manor' element={<Manor/>}/>
             <Route path='/tanzania/lodges/crater' element={<Crater/>}/>
             <Route path='/tanzania/lodges/neptune' element={<NeptuneNg/>}/>
+            <Route path='/tanzania/lodges/lemala' element={<Lemala/>}/>
+            <Route path='/tanzania/lodges/beyond' element={<Beyond/>}/>
+            <Route path='/tanzania/lodges/kuro' element={<Kuro/>}/>
+            <Route path='/tanzania/lodges/treetop' element={<Treetops/>}/>
+            <Route path='/tanzania/lodges/manyaratree' element={<ManyaraTree/>}/>
+            <Route path='/tanzania/lodges/manayarasecret' element={<Manyarasecrete/>}/>
+
+            <Route path='/uganda' element={<Uganda/>}/>
+            <Route path ='/uganda/:itemId' element={<DetailsUg/>}/>
           </Routes>
         </Wrapper>
       </Router>
