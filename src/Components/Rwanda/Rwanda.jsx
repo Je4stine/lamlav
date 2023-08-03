@@ -22,25 +22,25 @@ const Rwanda =()=> {
   window.addEventListener('scroll', changeNavbarColor);
   
 
-  const renderItems =({ title, description, })=>{
-    return(
-      <div>
-        <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
-                  <img src={Tz} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
-                  <div className="p-5 lg:justify-between lg:w-1/2">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">{title}</h1>
-                      <p className=" font-[SourceSerifPro-Regular] text-lg">
-                        {description}
-                      </p>
-                      <a href='/kenya/destamboseli'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
-                                <span >Explore more</span>
-                    </div></a> 
-              </div>
-          </div>
-          <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
-      </div>
-    )
-  }
+  // const renderItems =({ title, description, })=>{
+  //   return(
+  //     <div>
+  //       <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
+  //                 <img src={Tz} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+  //                 <div className="p-5 lg:justify-between lg:w-1/2">
+  //                     <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">{title}</h1>
+  //                     <p className=" font-[SourceSerifPro-Regular] text-lg">
+  //                       {description}
+  //                     </p>
+  //                     <a href='/kenya/destamboseli'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+  //                               <span >Explore more</span>
+  //                   </div></a> 
+  //             </div>
+  //         </div>
+  //         <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+  //     </div>
+  //   )
+  // }
  
 
     return (
@@ -86,7 +86,7 @@ const Rwanda =()=> {
                           <p className="font-[SourceSerifPro-Regular] text-lg">
                             {item.descripton}
                           </p>
-                          <Link to={`/uganda/${item.id}`}>
+                          <Link to={`/rwanda/${item.id}`}>
                             <div className="mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto">
                               <span>Explore more</span>
                             </div>

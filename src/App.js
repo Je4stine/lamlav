@@ -86,6 +86,17 @@ import Manyarasecrete from './Components/Tanzania/Lodges/Manyarasecrete';
 import Uganda from './Components/Uganda/Uganda';
 import DetailsUg from './Components/Uganda/DetailsUg';
 import Rwanda from './Components/Rwanda/Rwanda';
+import DetailsRwanda from './Components/Rwanda/DetailsRwanda';
+import Serena from './Components/Uganda/Lodges/Serena';
+import Boma from './Components/Uganda/Lodges/Boma';
+import Mahogany from './Components/Uganda/Lodges/Mahogany';
+import Volacanoes from './Components/Uganda/Lodges/Volcanoes';
+import Mweya from './Components/Uganda/Lodges/Mweya';
+import Ishasha from './Components/Uganda/Lodges/Ishasha';
+import Primate from './Components/Uganda/Lodges/Primate';
+import Kyaninga from './Components/Uganda/Lodges/Kyaninga';
+import Sambiya from './Components/Uganda/Lodges/Sambiya';
+import Bakers from './Components/Uganda/Lodges/Bakers';
 
 
 function App() {
@@ -180,8 +191,21 @@ function App() {
 
             <Route path='/uganda' element={<Uganda/>}/>
             <Route path ='/uganda/:itemId' element={<DetailsUg/>}/>
+            <Route path='/uganda/lodges/serena' element={<Serena/>}/>
+            <Route path='/uganda/lodges/boma' element={<Boma/>}/>
+            <Route path='/uganda/lodges/mahogany' element={<Mahogany/>}/>
+            <Route path='/uganda/lodges/volcanoes' element={<Volacanoes/>}/>
+            <Route path='/uganda/lodges/mweya' element={<Mweya/>}/>
+            <Route path='/uganda/lodges/ishasha' element={<Ishasha/>}/>
+            <Route path='/uganda/lodges/primate' element={<Primate/>}/>
+            <Route path='/uganda/lodges/kyaninga' element={<Kyaninga/>}/>
+            <Route path='/uganda/lodges/sambiya' element={<Sambiya/>}/>
+            <Route path='/uganda/lodges/bakers' element={<Bakers/>}/>
+
 
             <Route path='/rwanda' element={<Rwanda/>}/>
+            <Route path ='/rwanda/:itemId' element={<DetailsRwanda/>}/>
+
           </Routes>
         </Wrapper>
       </Router>

@@ -5,7 +5,11 @@ const UGDETAILS =[
         "title":"Kampala and Entebbe ",
         "p1":"Uganda's Capital Kampala,  is a bustling metropolis in the southern part of Uganda that combines modernity with traditional African culture. The city is known for its diverse architecture, ranging from modern high-rise buildings to historical landmarks such as the Kasubi Tombs and the Uganda Museum. Additionally,  Kampala has a lively cultural and entertainment scene, with art galleries, theaters, music venues, and festivals showcasing local and international talent. Visitors can enjoy the vibrant nightlife, traditional music and dance, as they savor Ugandan cuisine in various restaurants.",
         "p2":"Entebbe, on the other hand, is a picturesque town located on the shores of Lake Victoria. It serves as the gateway to Uganda due to its proximity to the Entebbe International Airport. The town offers beautiful lakefront areas and beaches where visitors can relax, swim, and enjoy water sports. It is home to the Uganda Wildlife Education Centre, where tourists can observe and learn about various animal species. A trip to Ngamba Island in Lake Victoria offers visitors  a chance  to  get up-close  with orphaned  Chipanzees  that call this island  home. ",
-        "p3":"Entebbe also showcases its colonial heritage through historical buildings like the State House and features the Entebbe Botanical Gardens, providing a serene environment for nature lovers"
+        "p3":"Entebbe also showcases its colonial heritage through historical buildings like the State House and features the Entebbe Botanical Gardens, providing a serene environment for nature lovers",
+        "campId1":"/uganda/lodges/serena",
+        "campId2":"/uganda/lodges/boma",
+        "camp1":"Kampala  Serena  Hotel.",
+        "camp2":"The Boma Hotel  Entebbe "
     },
     {
         "id":2,
@@ -13,7 +17,11 @@ const UGDETAILS =[
         "title":"Bwindi Impenetrable Forest",
         "p1":"This forest, located in southwestern Uganda, is a world-renowned national park famous for its mountain gorilla population. Visitors to Bwindi have the incredible opportunity to embark on gorilla trekking expeditions, where they can encounter these majestic creatures up close in their natural habitat. The guided treks through the dense forest offer a thrilling adventure and a chance to observe gorilla families in their daily routines, providing a truly unforgettable wildlife experience.",
         "p2":"Additionally, nature walks and hikes allow visitors to discover the diverse flora and fauna, including numerous bird species, primates, and rare plants. Cultural encounters with the indigenous Batwa people provide insights into their traditional way of life, while community visits offer a chance to engage with local communities and support their livelihoods.",
-        "p3":""
+        "p3":"",
+        "campId1":"/uganda/lodges/volcanoes",
+        "campId2":"/uganda/lodges/mahogany",
+        "camp1":"Volcanoes Bwindi Lodge",
+        "camp2":"Mahogany Springs."
     },
     {
         "id":3,
@@ -21,7 +29,13 @@ const UGDETAILS =[
         "title":"Queen Elizabeth National Park ",
         "p1":"",
         "p2":"",
-        "p3":""
+        "p3":"",
+        "campId1":"/uganda/lodges/ishasha",
+        "campId2":"/uganda/lodges/mweya",
+        "camp1":"Ishasha Wilderness Camp",
+        "camp2":" Mweya Safari Lodge"
+        
+
     },
     {
         "id":4,
@@ -29,7 +43,11 @@ const UGDETAILS =[
         "title":" Kibale Forest,",
         "p1":"Upon entering Kibale Forest, you will immediately be greeted by the fresh dew and the delightful fragrance of distinctive flowers. The air carries the lingering musk left by troops of monkeys that inhabit the treetops. The soundscape is filled with unusual noises, ranging from the resonating hoots of red colobus monkeys to the distinct chirping of rare bird species. Amidst this symphony, you might even catch the sound of an elephant from the park, as it forges a path through the dense foliage.",
         "p2":"",
-        "p3":""
+        "p3":"",
+        "campId1":"/uganda/lodges/primate",
+        "campId2":"/uganda/lodges/kyaninga",
+        "camp1":"Primate Lodge",
+        "camp2":" Kyaninga Lodge"
     },
     {
         "id":5,
@@ -37,7 +55,12 @@ const UGDETAILS =[
         "title":"Murchison Falls",
         "p1":"The top of Murchison Falls is characterized by the Nile forcefully making its way through a mere 7-meter gap in the rocks, plunging down a height of 43 meters , and then continuing its westward flow into Lake Albert. The volume of water flowing over the falls is approximately 300 cubic meters per second, which is forced through a gorge that is less than 10 meters wide.",
         "p2":"Describing his experiences about the Kabalega falls, as it was previously called, Samuel Baker‚ in his book‚ The Albert Nyanza, remarked that: “The fall of water was snow-white‚ which had a superb effect and contrasted with the dark cliffs that walled the river‚ while the graceful palms of the tropics and the wild plantains perfected the view. This was the greatest waterfall of the Nile‚ and in honour of the President of the Royal Geographical Society‚ I named it the Murchison Falls‚ as the most important object throughout the entire course of the river.”",
-        "p3":""
+        "p3":"",
+        "p3":"",
+        "campId1":"/uganda/lodges/sambiya",
+        "campId2":"/uganda/lodges/bakers",
+        "camp1":"Sambiya Lodge",
+        "camp2":" Baker's Lodge"
     },
     {
         "id":6,
@@ -85,7 +108,8 @@ const UGDETAILS =[
         "title":"Jinja town",
         "p1":"The unique setting of this town provides abundant opportunities for engaging in outdoor adventure sports, and Jinja is particularly famous for its exhilarating white water rafting experiences. For those seeking a more relaxed pace, there are leisurely activities to enjoy such as horseback safaris, stand-up paddle-boarding, paragliding, quad biking, and mountain biking.",
         "p2":" After indulging in these activities, visitors can unwind with some beach time on the serene shores of Lake Victoria or explore the local community markets to find unique and interesting souvenirs.",
-        "p3":""
+        "p3":"",
+
     }
 ];
 
