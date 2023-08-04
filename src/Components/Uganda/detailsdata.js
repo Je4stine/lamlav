@@ -56,7 +56,7 @@ const UGDETAILS =[
         "p1":"The top of Murchison Falls is characterized by the Nile forcefully making its way through a mere 7-meter gap in the rocks, plunging down a height of 43 meters , and then continuing its westward flow into Lake Albert. The volume of water flowing over the falls is approximately 300 cubic meters per second, which is forced through a gorge that is less than 10 meters wide.",
         "p2":"Describing his experiences about the Kabalega falls, as it was previously called, Samuel Baker‚ in his book‚ The Albert Nyanza, remarked that: “The fall of water was snow-white‚ which had a superb effect and contrasted with the dark cliffs that walled the river‚ while the graceful palms of the tropics and the wild plantains perfected the view. This was the greatest waterfall of the Nile‚ and in honour of the President of the Royal Geographical Society‚ I named it the Murchison Falls‚ as the most important object throughout the entire course of the river.”",
         "p3":"",
-        "p3":"",
+       
         "campId1":"/uganda/lodges/sambiya",
         "campId2":"/uganda/lodges/bakers",
         "camp1":"Sambiya Lodge",
@@ -69,6 +69,11 @@ const UGDETAILS =[
         "p1":"Located in western Uganda, near the border with Congo, the Rwenzori Mountains are often referred to as the Mountains of the Moon These mountains feature snow-capped peaks along the equator, including the third highest point in Africa. The lower slopes are covered in moorland, bamboo forests, and lush, damp montane forests. The mountainside is adorned with large tree heathers, vibrant mosses, towering lobelias, and enchanting everlasting flowers, creating a picturesque and almost magical ambiance.",
         "p2":"The Rwenzori Mountains are renowned worldwide as a premier destination for hiking and mountaineering. Skilled climbers can embark on a challenging nine to twelve-day trek to reach the summit of Margherita, the highest peak. However, there are also shorter and less technically demanding treks available to explore the surrounding peaks.",
         "p3":"For those seeking a more leisurely experience, nearby Bakonzo villages offer nature walks, visits to local homesteads, cultural performances, and accommodation options, including opportunities to savor homemade local cuisine."
+        ,
+        "campId1":"/uganda/lodges/potea",
+        "campId2":"",
+        "camp1":"Protea Hotel Kampala",
+        
     },
      {
         "id":7,
@@ -76,7 +81,9 @@ const UGDETAILS =[
         "title":"Sipi Falls ",
         "p1":"Situated away from the typical tourist routes, and only 4 hours drive away from Kampala  City, Sipi Falls stands as a captivating natural attraction in the untamed eastern region of Uganda.",
         "p2":"At an altitude of 1,775 meters, Sipi Falls offers a rewarding hiking experience despite the challenging and muddy trails. The three-hour hike takes you along a river, granting easy navigation while passing through farmlands and local communities. The series of waterfalls begins with an 85-meter plunge, followed by a smaller 65-meter cascade where you can stand beneath or seek shelter in the cave behind it. The tallest waterfall, measuring 100 meters, features a spacious plunge pool that invites you to take a refreshing swim. ",
-        "p3":""
+        "p3":"",
+        "campId1":"/uganda/lodges/sipi",
+        "camp1":" Sipi Valley Resort"
     },
      {
         "id":8,
@@ -84,7 +91,9 @@ const UGDETAILS =[
         "title":"Ziwa Rhino and Wildlife Ranch",
         "p1":" Situated in Nakasongola district, the ranch not only offers the opportunity to encounter rhinos but also showcases a diverse array of bird species and other wildlife. It has become a favored destination for adventurous tourists, offering an array of activities such as rhino trekking, birdwatching tours, nature hikes, night-time nature walks, and shoebill trekking along with canoe rides.",
         "p2":"",
-        "p3":""
+        "p3":"",
+        "campId1":"/uganda/lodges/trackers",
+        "camp1":" Trackers Safari Lodge"
     },
      {
         "id":9,
@@ -92,7 +101,9 @@ const UGDETAILS =[
         "title":"Mgahinga National Park ",
         "p1":"In addition to these natural wonders, Lamlav Leisure Safaris travelers can discover other attractions within Mgahinga Gorilla National Park, such as Lake Matunda and the Batwa people, offering an enriching cultural experience. The park  also boasts a diverse vegetation featuring unique plant species found exclusively in this area, making safaris to Mgahinga a truly distinctive adventure for any traveler seeking extraordinary experiences.",
         "p2":"",
-        "p3":""
+        "p3":"",
+        "campId1":"/uganda/lodges/gahinga",
+        "camp1":" Mount Gahinga Lodge"
     },
      {
         "id":10,
@@ -100,7 +111,9 @@ const UGDETAILS =[
         "title":"Kidepo Valley National Park",
         "p1":"Kidepo is renowned for its abundant wildlife, hosting over 77 mammal species. The park is home to the pastoral Karamojong people, similar to the Maasai of Kenya, as well as the IK, a hunter-gatherer tribe facing threats to their survival. During the dry season, the park's two rivers, Kidepo and Narus, recede, leaving behind pools that provide essential water sources for the wildlife. The broad Narus Valley near Apoka becomes a focal point for game viewing, offering a savannah landscape dotted with dense populations of lions, buffalos, elephants, and other ungulates. The park's elephant population has notably increased from around 200 in the 1990s to an estimated 650 to 1000 today, while the African buffalo population stands at 10,000-15,000. The Rothschild Giraffe is also a significant presence, with breeding efforts leading to a substantial increase in numbers from just three individuals in the mid-1990s. The park's diverse birdlife includes over 476 species, featuring notable species like the ostrich, secretary bird, northern carmine bee-eater, little green bee-eater, and Abyssinian scimitar bill.",
         "p2":"The landscape of Kidepo extends far beyond the park's gazetted area, with vast savannah stretching towards distant mountain ranges. Wetlands and remaining pools in the Narus Valley serve as the only permanent water sources in the park during the dry season. These seasonal oases, combined with the open savannah terrain, make the Narus Valley a prime location for observing wildlife. The park's bird checklist is impressive, highlighting a wide range of colorful and visible species.",
-        "p3":""
+        "p3":"",
+        "campId1":"/uganda/lodges/apoka",
+        "camp1":" Apoka Safari Lodge"
     },
     {
         "id":11,
@@ -109,6 +122,8 @@ const UGDETAILS =[
         "p1":"The unique setting of this town provides abundant opportunities for engaging in outdoor adventure sports, and Jinja is particularly famous for its exhilarating white water rafting experiences. For those seeking a more relaxed pace, there are leisurely activities to enjoy such as horseback safaris, stand-up paddle-boarding, paragliding, quad biking, and mountain biking.",
         "p2":" After indulging in these activities, visitors can unwind with some beach time on the serene shores of Lake Victoria or explore the local community markets to find unique and interesting souvenirs.",
         "p3":"",
+        "campId1":"/uganda/lodges/wildwaters",
+        "camp1":" Wildwaters Lodge"
 
     }
 ];

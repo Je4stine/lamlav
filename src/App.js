@@ -97,6 +97,22 @@ import Primate from './Components/Uganda/Lodges/Primate';
 import Kyaninga from './Components/Uganda/Lodges/Kyaninga';
 import Sambiya from './Components/Uganda/Lodges/Sambiya';
 import Bakers from './Components/Uganda/Lodges/Bakers';
+import Protea from './Components/Uganda/Lodges/Protea';
+import Sipi from './Components/Uganda/Lodges/Sipi';
+import Gahinga from './Components/Uganda/Lodges/Gahinga';
+import Trackers from './Components/Uganda/Lodges/Trackers';
+import Wildwaters from './Components/Uganda/Lodges/Wildwaters';
+import Apoka from './Components/Uganda/Lodges/Apoka';
+import Singita from './Components/Rwanda/Lodges/Singita';
+import Bisate from './Components/Rwanda/Lodges/Bisate';
+import Mantis from './Components/Rwanda/Lodges/Mantis';
+import Magashi from './Components/Rwanda/Lodges/Magashi';
+import Forest from './Components/Rwanda/Lodges/Forest';
+import Nyungwe from './Components/Rwanda/Lodges/Nyungwe';
+import Kivuser from './Components/Rwanda/Lodges/Kivuser';
+import Cleo from './Components/Rwanda/Lodges/Cleo';
+import Marriott from './Components/Rwanda/Lodges/Marriott';
+import KigaliSerena from './Components/Rwanda/Lodges/KigaliSerana';
 
 
 function App() {
@@ -201,10 +217,26 @@ function App() {
             <Route path='/uganda/lodges/kyaninga' element={<Kyaninga/>}/>
             <Route path='/uganda/lodges/sambiya' element={<Sambiya/>}/>
             <Route path='/uganda/lodges/bakers' element={<Bakers/>}/>
+            <Route path='/uganda/lodges/protea' element={<Protea/>}/>
+            <Route path='/uganda/lodges/sipi' element={<Sipi/>}/>
+            <Route path='/uganda/lodges/trackers' element={<Trackers/>}/>
+            <Route path='/uganda/lodges/gahinga' element={<Gahinga/>}/>
+            <Route path='/uganda/lodges/wildwaters' element={<Wildwaters/>}/>
+            <Route path='/uganda/lodges/apoka' element={<Apoka/>}/>
 
 
             <Route path='/rwanda' element={<Rwanda/>}/>
             <Route path ='/rwanda/:itemId' element={<DetailsRwanda/>}/>
+            <Route path='/rwanda/lodges/singita' element={<Singita/>}/>
+            <Route path='/rwanda/lodges/bisate' element={<Bisate/>}/>
+            <Route path='/rwanda/lodges/magashi' element={<Magashi/>}/>
+            <Route path='/rwanda/lodges/mantis' element={<Mantis/>}/>
+            <Route path='/rwanda/lodges/nyungwe' element={<Nyungwe/>}/>
+            <Route path='/rwanda/lodges/forest' element={<Forest/>}/>
+            <Route path='/rwanda/lodges/kivu' element={<Kivuser/>}/>
+            <Route path='/rwanda/lodges/cleo' element={<Cleo/>}/>
+            <Route path='/rwanda/lodges/marriott' element={<Marriott/>}/>
+            <Route path='/rwanda/lodges/kigaliserena' element={<KigaliSerena/>}/>
 
           </Routes>
         </Wrapper>
