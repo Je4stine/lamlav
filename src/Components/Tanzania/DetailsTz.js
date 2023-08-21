@@ -63,7 +63,7 @@ const DetailsTz = () => {
       <section>
         <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[100px]">
           <h1 className="lg:text-6xl text-4xl font-serif">{item.title}</h1>
-          <img src={AmboseliN} alt="Roaring lion" className=" w-[100vw] h-[100vh] object-cover" />
+          <img src={item.image} alt="Roaring lion" className=" w-[100vw] h-[100vh] object-cover" />
         </div>
       </section>
       <section className=" bg-white w-[100%] m-auto lg:px-[100px] px-10">
@@ -91,16 +91,16 @@ const DetailsTz = () => {
         <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
           <Slider {...settings} autoplay arrows>
             <div>
-              <img src={Lodge1} alt="Lodge 1" />
+              <img src={item.slider1} alt="Lodge 1" />
             </div>
             <div>
-              <img src={Lodge2} alt="Lodge 2" />
+              <img src={item.slider2} alt="Lodge 2" />
             </div>
             <div>
-              <img src={Lodge3} alt="Lodge 3" />
+              <img src={item.slider3} alt="Lodge 3" />
             </div>
             <div>
-              <img src={Lodge4} alt="Lodge 4" />
+              <img src={item.slider4} alt="Lodge 4" />
             </div>
           </Slider>
         </div>
@@ -113,7 +113,7 @@ const DetailsTz = () => {
           </div>
           <div className=" lg:flex">
             <div className=" mr-10 lg:w-1/2">
-              <img src={Tortolis} alt="Tortolis Camp" loading="lazy" />
+              <img src={item.campImg1} alt="Tortolis Camp" loading="lazy" />
               <a href={item.campId1}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp1}</h1></a>
               <a href={item.campId1}><div className='hover:text-[#f15d30] lg:text-lg'>
                 <span>{item.title}, Tanzania</span>
@@ -122,7 +122,7 @@ const DetailsTz = () => {
 
 
             <div className="lg:w-1/2">
-              <img src={Olka} alt="Ol Tukai" loading="lazy" />
+              <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
               <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
               <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
                 <span>{item.title}, Tanzania</span>
