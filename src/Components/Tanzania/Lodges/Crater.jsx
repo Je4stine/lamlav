@@ -8,15 +8,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
+import Lodge1 from '../../../Assets/628bc79aa224f5ea4de88f24_Ngorongoro Crater Lodge.jpg';
 
-import Lodge2 from '../../../Assets/Almanara1.jpg';
+import Lodge2 from '../../../Assets/628bc9342427b95eb3cf1509_AndBeyond_Ngorongoro Crater Lodge (4)RS.jpg';
 
-import Lodge3 from '../../../Assets/Almanara2.jpg';
+import Lodge3 from '../../../Assets/628bca5c080d547b27b825df_~Suite-interior-andBeyond-Ngorongoro-Crater-Lodge-_2_.jpg';
 
-import Lodge4 from '../../../Assets/Almanara3.jpg';
+import Lodge4 from '../../../Assets/628bcaae0808d321e5754a32_AndBeyond_Ngorongoro Crater Lodge (2)RS.jpg';
 
-import Lodge5 from '../../../Assets/Almanara4.jpg';
+import Lodge5 from '../../../Assets/628bcb24c576b59a12ad18fd_Ngorongoro & Beyond.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
 

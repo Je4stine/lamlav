@@ -40,8 +40,50 @@ import NyeSlider2 from '../../Assets/628b5812d60ac1abe375e3fb_Kigelia-Ruaha-22.j
 import NyeSlider3 from '../../Assets/628b581829afba6c79b12ddb_Kigelia-Ruaha-23.jpg';
 import NyeSlider4 from '../../Assets/640b023ac08d766446670470_Beho-Beho-5.jpg';
 import Kingelia from '../../Assets/628b581d29afba6c74b13088_Kigelia-Ruaha-20.jpg';
+import Beho from '../../Assets/Banda Plunge Pool.jpg';
 
 
+//Mahale
+import MahaleSlider1 from '../../Assets/MM.Mahale.LakeView1.jpg';
+import MahaleSlider2 from '../../Assets/mm.mahale.chimps10.jpg';
+import MahaleSlider3 from '../../Assets/mm.mahale.dhowboat.jpg';
+import MahaleSlider4 from '../../Assets/photo2jpg.jpg';
+import Grey from '../../Assets/62b1bb8e048e2ace60499d7e_Greystoke-Mahale.jpg';
+
+
+//Ngorongoro
+import NgoroSlider1 from '../../Assets/ngorongoro-crater-lodge-4.jpg';
+import NgoroSlider2 from '../../Assets/neptune-ngorongoro-luxury-1-2.jpg';
+import NgoroSlider3 from '../../Assets/neptune-ngorongoro-luxury-3.jpg';
+import NgoroSlider4 from '../../Assets/neptune-ngorongoro-luxury-7.jpg';
+import Manor from '../../Assets/manor-at-ngorongoro-1.jpg';
+import Crater from '../../Assets/ngorongoro-crater-lodge-1-2-2.jpg';
+
+
+//Serengeti
+import SereSlider1 from '../../Assets/MM.Mahale.LakeView1.jpg';
+import SereSlider2 from '../../Assets/MM.Mahale.LakeView1.jpg';
+import SereSlider3 from '../../Assets/MM.Mahale.LakeView1.jpg';
+import SereSlider4 from '../../Assets/MM.Mahale.LakeView1.jpg';
+import Lamela from '../../Assets/MM.Mahale.LakeView1.jpg';
+import Beyond from '../../Assets/MM.Mahale.LakeView1.jpg';
+
+//Tarangire
+import TaraSlider1 from '../../Assets/TarangireTreetops---Game-Drive.jpg';
+import TaraSlider2 from '../../Assets/TarangireTreetops---Room-Verandah.jpg';
+import TaraSlider3 from '../../Assets/TarangireTreetops---Sundowner.jpg';
+import TaraSlider4 from '../../Assets/Tarangire-treetops-elephant-hole.jpg';
+import Kuro from '../../Assets/61fe347e73ba0c25659bc748_KuroTarangire07.jpg';
+import Tree from '../../Assets/TarangireTreetops---Elephant.jpg';
+
+
+//Manyara
+import ManyaSlider1 from '../../Assets/Lesser Kudu in thicket at Manyara Ranch.jpg';
+import ManyaSlider2 from '../../Assets/Walking-with-wildebeest.jpg';
+import ManyaSlider3 from '../../Assets/Elephants drinking at the camp water-hole.jpg';
+import ManyaSlider4 from '../../Assets/IMG_4419.jpg';
+import Lake from '../../Assets/MM.Mahale.LakeView1.jpg';
+import Secret from '../../Assets/357520656.jpg';
 
 
 const DETAILS =[
@@ -119,8 +161,8 @@ const DETAILS =[
         "slider2":NyeSlider2,
         "slider3":NyeSlider3,
         "slider4":NyeSlider4,
-        "campImg1":KiliResort,
-        "campImg2":KiliResort,
+        "campImg1":Kingelia,
+        "campImg2":Beho,
 
     },
     {
@@ -131,9 +173,11 @@ const DETAILS =[
         "campId1":"/tanzania/lodges/greystoke",
         "camp1":"Greystoke Mahale",
         "camp2":"",
-        "slider1":"",
-        "slider2":"",
-        "slider3":""
+        "slider1":MahaleSlider1,
+        "slider2":MahaleSlider2,
+        "slider3":MahaleSlider3,
+        "slider4": MahaleSlider4,
+        "campImg1":Grey
 
     },
     {
@@ -146,9 +190,12 @@ const DETAILS =[
         "campId2":"/tanzania/lodges/crater",
         "camp1":"Manor at Ngorongoro ",
         "camp2":" Ngorongoro  Crater  Lodge",
-        "slider1":"",
-        "slider2":"",
-        "slider3":""
+        "slider1":NgoroSlider1,
+        "slider2":NgoroSlider2,
+        "slider3":NgoroSlider3,
+        "slider4": NgoroSlider4,
+        "campImg1":Manor,
+        "campImg2":Crater
 
     },
     {
@@ -178,9 +225,13 @@ const DETAILS =[
         "campId2":"/tanzania/lodges/treetop",
         "camp1":"Kuro Tarangire",
         "camp2":"Tarangire  Treetops Lodge",
-        "slider1":"",
-        "slider2":"",
-        "slider3":""
+        "slider1": TaraSlider1,
+        "slider2":TaraSlider2,
+        "slider3":TaraSlider3,
+        "slider4": TaraSlider4,
+        "campImg1":Kuro,
+        "campImg2":Tree
+
 
     },
     {
@@ -194,9 +245,13 @@ const DETAILS =[
         "campId2":"/tanzania/lodges/manayarasecret",
         "camp1":"Lake Manyara Tree Lodge",
         "camp2":"Manyara's  Secret",
-        "slider1":"",
-        "slider2":"",
-        "slider3":""
+        "slider1": ManyaSlider1,
+        "slider2":ManyaSlider2,
+        "slider3":ManyaSlider3,
+        "slider4": ManyaSlider4,
+        "campImg1":Lake,
+        "campImg2":Secret
+
 
     }
 ];
