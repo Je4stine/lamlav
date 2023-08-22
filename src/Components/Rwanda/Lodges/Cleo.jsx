@@ -8,15 +8,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
+import Lodge1 from '../../../Assets/DSC_0064-1024x682.jpg';
 
-import Lodge2 from '../../../Assets/Almanara1.jpg';
+import Lodge2 from '../../../Assets/DSC_9862-1024x682.jpg';
 
-import Lodge3 from '../../../Assets/Almanara2.jpg';
+import Lodge3 from '../../../Assets/DSC_9875-1024x682.jpg';
 
-import Lodge4 from '../../../Assets/Almanara3.jpg';
+import Lodge4 from '../../../Assets/DSC_9887-1024x682.jpg';
 
-import Lodge5 from '../../../Assets/Almanara4.jpg';
+import Lodge5 from '../../../Assets/DSC_9925-1024x682.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
 
