@@ -80,7 +80,7 @@ const Uganda =()=> {
                       <div key={item.id} className={`lg:flex lg:justify-around items-center mt-20 lg:px-[80px] ${itemClassName}`}>
                    
                      
-                        <img src={Tz} alt="Lion" className="lg:w-1/2 lg:h-3/4 m-auto" loading="lazy" />
+                        <img src={item.image} alt="Lion" className="lg:w-1/2 lg:h-3/4 m-auto" loading="lazy" />
                         <div className="p-5 lg:justify-between lg:w-1/2">
                           <h1 className="font-[SourceSerifPro-Bold] mb-10 text-3xl">{item.title}</h1>
                           <p className="font-[SourceSerifPro-Regular] text-lg">

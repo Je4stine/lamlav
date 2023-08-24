@@ -69,7 +69,7 @@ const Rwanda =()=> {
             </section>
 
             <section className=" bg-white flex flex-col items-center pt-20 ">
-              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Tanzania </h1>
+              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Rwanda </h1>
               {
                 RWANDADATA.map((item, index)=>{
                   const isEvenIndex = index % 2 === 0;
