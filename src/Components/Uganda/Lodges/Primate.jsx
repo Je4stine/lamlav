@@ -2,27 +2,25 @@ import React, {useState} from "react";
 import Navbar from "../../Navbar/Navbar";
 import Navreveal from "../../Navbar/Navreveal";
 import Footer from "../../Footer/Footer";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
+import Lodge1 from '../../../Assets/Primate-Lodge-double-room.jpg';
 
-import Lodge2 from '../../../Assets/Almanara1.jpg';
+import Lodge2 from '../../../Assets/8007426-lounge-at-primate-lodge.jpg';
 
-import Lodge3 from '../../../Assets/Almanara2.jpg';
+import Lodge3 from '../../../Assets/8007428-luxury-cottage-at-primate-lodge.jpg';
 
-import Lodge4 from '../../../Assets/Almanara3.jpg';
+import Lodge4 from '../../../Assets/8007429-standard-room-at-primate-lodge.jpg';
 
-import Lodge5 from '../../../Assets/Almanara4.jpg';
+import Lodge5 from '../../../Assets/16001618-the-communal-lounge-primate-lodge-kibale.jpg';
 
-import Chyulu from '../../../Assets/2020-10-22.jpg';
 
 import ShowMoreText from "react-show-more-text";
 
-import { useParams, Link } from 'react-router-dom';
+
 
 
 import "slick-carousel/slick/slick.css";
@@ -126,16 +124,16 @@ const Primate =()=>{
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge4}/>
+                            <img src={Lodge4} alt="Primate"/>
                         </div>
                         <div>
-                        <img src={Lodge2}/>
+                        <img src={Lodge2} alt="Primate"/>
                         </div>
                         <div>
-                        <img src={Lodge5}/>
+                        <img src={Lodge5} alt="Primate"/>
                         </div>
                         <div>
-                        <img src={Lodge3}/>
+                        <img src={Lodge3} alt="Primate"/>
                         </div>
                     </Slider>
                 </div>

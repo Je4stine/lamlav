@@ -2,30 +2,17 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from "../Footer/Footer";
-import AmboseliN from '../../Assets/Zebra.jpg';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import ImageGallery from 'react-image-gallery';
+
 import Slider from "react-slick";
 import ShowMoreText from "react-show-more-text";
 import { useParams, Link } from 'react-router-dom';
 
 import DETAILS from "./detailsdata";
 
-import Lodge1 from '../../Assets/Amboseli11.jpg';
-
-import Lodge2 from '../../Assets/Amboselli22.jpg';
-
-import Lodge3 from '../../Assets/Amboselli33.jpg';
-
-import Lodge4 from '../../Assets/Amboselli44.jpg';
-
-import Tortolis from '../../Assets/274932-tortilis-camp-amboseli-national-park.jpg';
-
-import Olka from '../../Assets/ol-tukai-lodge3.jpg';
 
 const DetailsUg = () => {
   const [colorChanged, setColorChanged] = useState(false);
@@ -91,16 +78,16 @@ const DetailsUg = () => {
         <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
           <Slider {...settings} autoplay arrows>
             <div>
-              <img src={Lodge1} alt="Lodge 1" />
+              <img src={item.slider1} alt="Lodge 1" />
             </div>
             <div>
-              <img src={Lodge2} alt="Lodge 2" />
+              <img src={item.slider3} alt="Lodge 2" />
             </div>
             <div>
-              <img src={Lodge3} alt="Lodge 3" />
+              <img src={item.slider2} alt="Lodge 3" />
             </div>
             <div>
-              <img src={Lodge4} alt="Lodge 4" />
+              <img src={item.slider4} alt="Lodge 4" />
             </div>
           </Slider>
         </div>
@@ -113,7 +100,7 @@ const DetailsUg = () => {
           </div>
           <div className=" lg:flex">
             <div className=" mr-10 lg:w-1/2">
-              <img src={Tortolis} alt="Tortolis Camp" loading="lazy" />
+              <img src={item.campImg1} alt="Tortolis Camp" loading="lazy" />
               <a href={item.campId1}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp1}</h1></a>
               <a href={item.campId1}><div className='hover:text-[#f15d30] lg:text-lg'>
                 <span>{item.title}, Uganda</span>
@@ -122,7 +109,7 @@ const DetailsUg = () => {
 
 
             <div className="lg:w-1/2">
-              <img src={Olka} alt="Ol Tukai" loading="lazy" />
+              <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
               <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
               <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
                 <span>{item.title}, Uganda</span>

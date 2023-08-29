@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
-import Tz from '../../Assets/tanzania_safari.jpg';
+import Tz from '../../Assets/muurchison-750x429-1.jpg';
 import UDATA from './ugdata';
 import { Link } from "react-router-dom";
 import Ugim from '../../Assets/muurchison-750x429-1.jpg'

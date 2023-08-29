@@ -2,27 +2,22 @@ import React, {useState} from "react";
 import Navbar from "../../Navbar/Navbar";
 import Navreveal from "../../Navbar/Navreveal";
 import Footer from "../../Footer/Footer";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
+import Lodge1 from '../../../Assets/kyaninga-lodge-breakfast-on-the-terrace-1280.jpg';
 
-import Lodge2 from '../../../Assets/Almanara1.jpg';
+import Lodge2 from '../../../Assets/525203-kyaninga-lodge-fort-portal.jpg';
 
-import Lodge3 from '../../../Assets/Almanara2.jpg';
+import Lodge3 from '../../../Assets/525205-kyaninga-lodge-fort-portal.jpg';
 
-import Lodge4 from '../../../Assets/Almanara3.jpg';
+import Lodge4 from '../../../Assets/525208-kyaninga-lodge-fort-portal.jpg';
 
-import Lodge5 from '../../../Assets/Almanara4.jpg';
-
-import Chyulu from '../../../Assets/2020-10-22.jpg';
+import Lodge5 from '../../../Assets/15971162-view-from-kyaninga-lodge.jpg';
 
 import ShowMoreText from "react-show-more-text";
 
-import { useParams, Link } from 'react-router-dom';
 
 
 import "slick-carousel/slick/slick.css";
@@ -125,16 +120,16 @@ const Kyaninga =()=>{
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge4}/>
+                            <img src={Lodge4} alt="Kyaninga"/>
                         </div>
                         <div>
-                        <img src={Lodge2}/>
+                        <img src={Lodge2} alt="Kyaninga"/>
                         </div>
                         <div>
-                        <img src={Lodge5}/>
+                        <img src={Lodge5} alt="Kyaninga"/>
                         </div>
                         <div>
-                        <img src={Lodge3}/>
+                        <img src={Lodge3} alt="Kyaninga"/>
                         </div>
                     </Slider>
                 </div>

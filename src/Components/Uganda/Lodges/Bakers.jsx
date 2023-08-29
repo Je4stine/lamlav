@@ -2,27 +2,24 @@ import React, {useState} from "react";
 import Navbar from "../../Navbar/Navbar";
 import Navreveal from "../../Navbar/Navreveal";
 import Footer from "../../Footer/Footer";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
+import Lodge1 from '../../../Assets/Bakers-lodge-chalet.jpg';
 
-import Lodge2 from '../../../Assets/Almanara1.jpg';
+import Lodge2 from '../../../Assets/8.jpg';
 
-import Lodge3 from '../../../Assets/Almanara2.jpg';
+import Lodge3 from '../../../Assets/Credit-Marcus-Westburg-Dec-2015-11.jpg';
 
-import Lodge4 from '../../../Assets/Almanara3.jpg';
+import Lodge4 from '../../../Assets/DSC_3683.jpg';
 
-import Lodge5 from '../../../Assets/Almanara4.jpg';
-
-import Chyulu from '../../../Assets/2020-10-22.jpg';
+import Lodge5 from '../../../Assets/DSC_7436.jpg';
 
 import ShowMoreText from "react-show-more-text";
 
-import { useParams, Link } from 'react-router-dom';
+
 
 
 import "slick-carousel/slick/slick.css";
@@ -124,16 +121,16 @@ const Bakers =()=>{
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge4}/>
+                            <img src={Lodge4} alt="Baker"/>
                         </div>
                         <div>
-                        <img src={Lodge2}/>
+                        <img src={Lodge2} alt="Baker"/>
                         </div>
                         <div>
-                        <img src={Lodge5}/>
+                        <img src={Lodge5} alt="Baker"/>
                         </div>
                         <div>
-                        <img src={Lodge3}/>
+                        <img src={Lodge3} alt="Baker"/>
                         </div>
                     </Slider>
                 </div>

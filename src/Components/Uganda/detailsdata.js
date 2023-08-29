@@ -10,6 +10,91 @@ import Mgahinga from '../../Assets/gahinga-batwa-dancers.jpg';
 import Kidepo from '../../Assets/photo_1984.jpeg';
 import Jinja from '../../Assets/5e0142a3.jpg';
 
+//Kampala
+import Kampala1 from '../../Assets/292835065.jpg';
+import Kampala2 from '../../Assets/292835067.jpg';
+import Kampala3 from '../../Assets/292835071.jpg';
+import Kampala4 from '../../Assets/297939527.jpg';
+import Serena from '../../Assets/38253971.jpg';
+import Boma from '../../Assets/four-poster-bed-at-The-Boma-Hotel-entebbe-1024x576.jpg';
+
+//Bwindi
+import Bwindi1 from '../../Assets/cloudsmountaingorillalodge2.jpg';
+import Bwindi2 from '../../Assets/cloudsmountaingorillalodge3.jpg';
+import Bwindi3 from '../../Assets/sanctuarygorillaforestcamp2.jpg';
+import Bwindi4 from '../../Assets/sanctuarygorillaforestcamp3.jpg';
+import Volcanoes from '../../Assets/Bwindi-Lodge-Exterior-1024x576.jpg';
+import Mahogany from '../../Assets/Mahogany.jpg';
+
+
+//Queen
+
+import Queen1 from '../../Assets/434192-topi-queen-elizabeth-national-park.jpg';
+import Queen2 from '../../Assets/434196-queen-elizabeth-national-park-uganda.jpg';
+import Queen3 from '../../Assets/501699-katara-lodgequeen-elizabeth-national-park.jpg';
+import Queen4 from '../../Assets/1004123-katara-lodge-queen-elizabeth-national-park.jpg';
+import Ishasha from '../../Assets/7998644-ishasha-wilderness-camp-ishasha.jpg';
+import Mweya from '../../Assets/Mweya1.jpg';
+
+//Kibale
+import Kibale1 from '../../Assets/1019832-male-chimpanzee-in-kibale-forest-national-park-uganda.jpg';
+import Kibale2 from '../../Assets/15975706-view-from-ndali-lodge.jpg';
+import Kibale3 from '../../Assets/8007427-view-from-lounge-at-primate-lodge.jpg';
+import Kibale4 from '../../Assets/1019838-chimpanzee-relaxing-in-kibale-forest.jpg';
+import Primate from '../../Assets/Primate.jpg';
+import Kyangi from '../../Assets/Kyangi.jpg';
+
+//Murchiso
+import Murchiso1 from '../../Assets/261061-hippo-basking-murchison-falls-national-park.jpg';
+import Murchiso2 from '../../Assets/261063-the-murchison-falls.jpg';
+import Murchiso3 from '../../Assets/351782-uganda-kob-in-murchison-falls-national-park.jpg';
+import Murchiso4 from '../../Assets/415289-elephants-in-murchison-falls-national-park.jpg';
+import Sambiya from '../../Assets/Sambiya.jpg';
+import Baker from '../../Assets/Baker.jpg';
+
+//Rwenzori
+import Rwenzori1 from '../../Assets/rwenzori-mountains-uganda-35.jpg';
+import Rwenzori2 from '../../Assets/rwenzori-roosli-7-min.jpg';
+import Rwenzori3 from '../../Assets/rwenzori-roosli-8.jpg';
+import Rwenzori4 from '../../Assets/rwenzori-roosli-9.jpg';
+import Protea from '../../Assets/461635447.jpg';
+
+//Sipi
+import Sipi1 from '../../Assets/Sipi_Falls_089_06162008.jpg';
+import Sipi2 from '../../Assets/Sipi_Falls_015_06162008.jpg';
+import Sipi3 from '../../Assets/Lacam_Lodge_025_06162008.jpg';
+import Sipi4 from '../../Assets/Lacam_Lodge_023_06162008.jpg';
+import Valley from '../../Assets/323483058.jpg';
+
+
+//Ziwa
+import Ziwa1 from '../../Assets/nature-walks-09.jpg';
+import Ziwa2 from '../../Assets/bird-watching-17.jpg';
+import Ziwa3 from '../../Assets/nature-walks-31.jpg';
+import Ziwa4 from '../../Assets/nature-walks-33.jpg';
+import Trackers from '../../Assets/d525c0a8.jpg';
+
+//Mgahinga
+import Mgahinga1 from '../../Assets/Mgahinga-Gorilla-National-Park-landscape-1024x683.jpeg';
+import Mgahinga2 from '../../Assets/Mgahinga-Gorilla-National-Park-baby-gorilla-1024x682.jpeg';
+import Mgahinga3 from '../../Assets/Mgahinga-Gorilla-National-Park_Gorilla-1024x683.jpeg';
+import Mgahinga4 from '../../Assets/Gahinga.jpg';
+import Gahinga from '../../Assets/volcanoes-safaris-mount-gahinga-lodge-batwa-village-community-centre.jpg';
+
+//Kidepo
+import Kipeo1 from '../../Assets/photo_1975.jpeg';
+import Kipeo2 from '../../Assets/photo_1982.jpeg';
+import Kipeo3 from '../../Assets/photo_1984.jpeg';
+import Kipeo4 from '../../Assets/photo_1979.jpeg';
+import Apoka from '../../Assets/74650326.jpg';
+
+
+//Jinja
+import Jinja1 from '../../Assets/5e0142a3.jpg';
+import Jinja2 from '../../Assets/8da165ad.jpg';
+import Jinja3 from '../../Assets/32eaf50b.jpg';
+import Jinja4 from '../../Assets/45b28ef4.jpg';
+import WildWaters from '../../Assets/249718147.jpg';
 
 const UGDETAILS =[
     {
@@ -22,7 +107,13 @@ const UGDETAILS =[
         "campId1":"/uganda/lodges/serena",
         "campId2":"/uganda/lodges/boma",
         "camp1":"Kampala  Serena  Hotel.",
-        "camp2":"The Boma Hotel  Entebbe "
+        "camp2":"The Boma Hotel  Entebbe ",
+        "slider1":Kampala1,
+        "slider2":Kampala2,
+        "slider3":Kampala3,
+        "slider4":Kampala4,
+        "campImg1":Serena,
+        "campImg2":Boma
     },
     {
         "id":2,
@@ -34,7 +125,13 @@ const UGDETAILS =[
         "campId1":"/uganda/lodges/volcanoes",
         "campId2":"/uganda/lodges/mahogany",
         "camp1":"Volcanoes Bwindi Lodge",
-        "camp2":"Mahogany Springs."
+        "camp2":"Mahogany Springs.",
+        "slider1":Bwindi1,
+        "slider2":Bwindi2,
+        "slider3":Bwindi3,
+        "slider4":Bwindi4,
+        "campImg1":Volcanoes,
+        "campImg2":Mahogany
     },
     {
         "id":3,
@@ -46,7 +143,13 @@ const UGDETAILS =[
         "campId1":"/uganda/lodges/ishasha",
         "campId2":"/uganda/lodges/mweya",
         "camp1":"Ishasha Wilderness Camp",
-        "camp2":" Mweya Safari Lodge"
+        "camp2":" Mweya Safari Lodge",
+        "slider1":Queen1,
+        "slider2":Queen2,
+        "slider3":Queen3,
+        "slider4":Queen4,
+        "campImg1":Ishasha,
+        "campImg2":Mweya
         
 
     },
@@ -60,7 +163,13 @@ const UGDETAILS =[
         "campId1":"/uganda/lodges/primate",
         "campId2":"/uganda/lodges/kyaninga",
         "camp1":"Primate Lodge",
-        "camp2":" Kyaninga Lodge"
+        "camp2":" Kyaninga Lodge",
+        "slider1":Kibale1,
+        "slider2":Kibale2,
+        "slider3":Kibale3,
+        "slider4":Kibale4,
+        "campImg1":Primate,
+        "campImg2":Kyangi
     },
     {
         "id":5,
@@ -73,7 +182,13 @@ const UGDETAILS =[
         "campId1":"/uganda/lodges/sambiya",
         "campId2":"/uganda/lodges/bakers",
         "camp1":"Sambiya Lodge",
-        "camp2":" Baker's Lodge"
+        "camp2":" Baker's Lodge",
+        "slider1":Murchiso1,
+        "slider2":Murchiso2,
+        "slider3":Murchiso3,
+        "slider4":Murchiso4,
+        "campImg1":Sambiya,
+        "campImg2":Baker
     },
     {
         "id":6,
@@ -86,6 +201,12 @@ const UGDETAILS =[
         "campId1":"/uganda/lodges/potea",
         "campId2":"",
         "camp1":"Protea Hotel Kampala",
+        "slider1":Rwenzori1,
+        "slider2":Rwenzori2,
+        "slider3":Rwenzori3,
+        "slider4":Rwenzori4,
+        "campImg1":Protea,
+     
         
     },
      {
@@ -96,7 +217,12 @@ const UGDETAILS =[
         "p2":"At an altitude of 1,775 meters, Sipi Falls offers a rewarding hiking experience despite the challenging and muddy trails. The three-hour hike takes you along a river, granting easy navigation while passing through farmlands and local communities. The series of waterfalls begins with an 85-meter plunge, followed by a smaller 65-meter cascade where you can stand beneath or seek shelter in the cave behind it. The tallest waterfall, measuring 100 meters, features a spacious plunge pool that invites you to take a refreshing swim. ",
         "p3":"",
         "campId1":"/uganda/lodges/sipi",
-        "camp1":" Sipi Valley Resort"
+        "camp1":" Sipi Valley Resort",
+        "slider1":Sipi1,
+        "slider2":Sipi2,
+        "slider3":Sipi3,
+        "slider4":Sipi4,
+        "campImg1":Valley,
     },
      {
         "id":8,
@@ -106,7 +232,12 @@ const UGDETAILS =[
         "p2":"",
         "p3":"",
         "campId1":"/uganda/lodges/trackers",
-        "camp1":" Trackers Safari Lodge"
+        "camp1":" Trackers Safari Lodge",
+        "slider1":Ziwa1,
+        "slider2":Ziwa2,
+        "slider3":Ziwa3,
+        "slider4":Ziwa4,
+        "campImg1":Trackers,
     },
      {
         "id":9,
@@ -116,7 +247,12 @@ const UGDETAILS =[
         "p2":"",
         "p3":"",
         "campId1":"/uganda/lodges/gahinga",
-        "camp1":" Mount Gahinga Lodge"
+        "camp1":" Mount Gahinga Lodge",
+        "slider1":Mgahinga1,
+        "slider2":Mgahinga2,
+        "slider3":Mgahinga3,
+        "slider4":Mgahinga4,
+        "campImg1":Gahinga,
     },
      {
         "id":10,
@@ -126,7 +262,12 @@ const UGDETAILS =[
         "p2":"The landscape of Kidepo extends far beyond the park's gazetted area, with vast savannah stretching towards distant mountain ranges. Wetlands and remaining pools in the Narus Valley serve as the only permanent water sources in the park during the dry season. These seasonal oases, combined with the open savannah terrain, make the Narus Valley a prime location for observing wildlife. The park's bird checklist is impressive, highlighting a wide range of colorful and visible species.",
         "p3":"",
         "campId1":"/uganda/lodges/apoka",
-        "camp1":" Apoka Safari Lodge"
+        "camp1":" Apoka Safari Lodge",
+        "slider1":Kipeo1,
+        "slider2":Kipeo2,
+        "slider3":Kipeo3,
+        "slider4":Kipeo4,
+        "campImg1":Apoka,
     },
     {
         "id":11,
@@ -136,7 +277,12 @@ const UGDETAILS =[
         "p2":" After indulging in these activities, visitors can unwind with some beach time on the serene shores of Lake Victoria or explore the local community markets to find unique and interesting souvenirs.",
         "p3":"",
         "campId1":"/uganda/lodges/wildwaters",
-        "camp1":" Wildwaters Lodge"
+        "camp1":" Wildwaters Lodge",
+        "slider1":Jinja1,
+        "slider2":Jinja2,
+        "slider3":Jinja3,
+        "slider4":Jinja4,
+        "campImg1":WildWaters,
 
     }
 ];
