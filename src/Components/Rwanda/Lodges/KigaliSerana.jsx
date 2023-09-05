@@ -2,27 +2,28 @@ import React, {useState} from "react";
 import Navbar from "../../Navbar/Navbar";
 import Navreveal from "../../Navbar/Navreveal";
 import Footer from "../../Footer/Footer";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/sunset-dinner.jpg';
+import Lodge1 from '../../../Assets/hr-dsc-5630.jpg';
 
-import Lodge2 from '../../../Assets/suite-lounge.jpg';
+import Lodge2 from '../../../Assets/junior-suite.jpg';
 
 import Lodge3 from '../../../Assets/suite-bedroom.jpg';
 
-import Lodge4 from '../../../Assets/cycle-down-avenue.jpg';
+import Lodge4 from '../../../Assets/deluxe-room.jpg';
 
-import Lodge5 from '../../../Assets/double-room.jpg';
+import Lodge5 from '../../../Assets/foodshots7.jpg';
 
-import Chyulu from '../../../Assets/2020-10-22.jpg';
+import Lodge6 from '../../../Assets/presidential-sitting-room-2.jpg';
+
+import Lodge7 from '../../../Assets/prime-room.jpg';
+
 
 import ShowMoreText from "react-show-more-text";
 
-import { useParams, Link } from 'react-router-dom';
+
 
 
 import "slick-carousel/slick/slick.css";
@@ -116,16 +117,22 @@ const KigaliSerena =()=>{
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge4}/>
+                            <img src={Lodge4} alt="Lodge"/>
                         </div>
                         <div>
-                        <img src={Lodge2}/>
+                        <img src={Lodge2} alt="Lodge"/>
                         </div>
                         <div>
-                        <img src={Lodge5}/>
+                        <img src={Lodge5} alt="Lodge"/>
                         </div>
                         <div>
-                        <img src={Lodge3}/>
+                        <img src={Lodge3} alt="Lodge"/>
+                        </div>
+                        <div>
+                        <img src={Lodge6} alt="Lodge"/>
+                        </div>
+                        <div>
+                        <img src={Lodge7} alt="Lodge"/>
                         </div>
                     </Slider>
                 </div>

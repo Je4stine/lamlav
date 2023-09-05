@@ -1,7 +1,7 @@
 import Volacanoes from '../../Assets/parc-national-desk-volcans-3.jpg';
 import Akagera from '../../Assets/cropAkagera-NP-Wildlife-2000x1024.jpg';
 import Nyungwe from '../../Assets/462528563.jpg';
-import Kivu from '../../Assets/parc-national-desk-volcans-3.jpg';
+import Kivu from '../../Assets/WhatsApp Image 2023-08-24 at 3.59.42 PM.jpeg';
 import Kigali from '../../Assets/rwanda-beauty-1.jpg';
 
 

@@ -95,7 +95,7 @@ const Countries =()=>{
                             </h1>
                             <br/>
                             <p className=' font-[SourceSerifPro-Regular] '>
-                            Rwanda is a country with three national parks: Volcanoes  National  park, Akagera National Park, and Nyungwe Forest Natiional park. 
+                            Rwanda is a country with three national parks: <strong>Volcanoes  National  park</strong>, <strong>Akagera National Park</strong>, and <strong>Nyungwe Forest Natiional park</strong>. 
                             </p>
                             <a href='/rwanda'>
                                 <div className=' border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto mt-10'>

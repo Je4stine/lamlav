@@ -52,7 +52,7 @@ const Rwanda =()=> {
         <div className=" relative">
                <img src={Tz} loading="lazy" className=" w-[100vw] h-[100vh] object-cover" alt="Lion"/>
                <hi className=" absolute top-[50%] lg:left-[35%] left-15%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Black] text-center ">
-                    Welcome  to the "Land of a thousand hills."
+                  Magical  land of a thousand hills
                 </hi>
            
             </div>

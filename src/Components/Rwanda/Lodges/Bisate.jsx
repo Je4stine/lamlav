@@ -2,13 +2,11 @@ import React, {useState} from "react";
 import Navbar from "../../Navbar/Navbar";
 import Navreveal from "../../Navbar/Navreveal";
 import Footer from "../../Footer/Footer";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/61d3450930213952d2d4dd3c_Bisate-Nelson-Travel-4.jpg';
+import Lodge1 from '../../../Assets/parc-national-desk-volcans-1.jpg';
 
 import Lodge2 from '../../../Assets/61d345098ce3f8a0a20b2829_Bisate-Nelson-Travel-0.jpg';
 

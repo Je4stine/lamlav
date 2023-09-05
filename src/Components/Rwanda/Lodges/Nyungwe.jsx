@@ -10,19 +10,16 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/462528547.jpg';
 
-import Lodge2 from '../../../Assets/462528533.jpg';
+import Lodge2 from '../../../Assets/462528510.jpg';
 
-import Lodge3 from '../../../Assets/462528516.jpg';
+import Lodge3 from '../../../Assets/462528524.jpg';
 
-import Lodge4 from '../../../Assets/462528558.jpg';
+import Lodge4 from '../../../Assets/479081622.jpg';
 
-import Lodge5 from '../../../Assets/462528501.jpg';
-
-import Chyulu from '../../../Assets/2020-10-22.jpg';
+import Lodge5 from '../../../Assets/479081623.jpg';
 
 import ShowMoreText from "react-show-more-text";
 
-import { useParams, Link } from 'react-router-dom';
 
 
 import "slick-carousel/slick/slick.css";

@@ -10,13 +10,13 @@ import 'swiper/css/pagination'
 // import Slider from "react-slick";
 import Lodge1 from '../../../Assets/329065050.jpg';
 
-import Lodge2 from '../../../Assets/427292005.jpg';
+import Lodge2 from '../../../Assets/445151509.jpg';
 
-import Lodge3 from '../../../Assets/378314577.jpg';
+import Lodge3 from '../../../Assets/427295557.jpg';
 
-import Lodge4 from '../../../Assets/427292675.jpg';
+import Lodge4 from '../../../Assets/427292005.jpg';
 
-import Lodge5 from '../../../Assets/427292683.jpg';
+import Lodge5 from '../../../Assets/378314575.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
 

@@ -17,12 +17,15 @@ import Lodge3 from '../../../Assets/SVNP_ROOM_Kwitonda_Lodge_Bedroom_Ross_Couper
 import Lodge4 from '../../../Assets/SVNP_LODGE_Kwitonda_Lodge_Akarabo_Nursery_Farm_To_Table_Ross_Couper_5__2_.jpg';
 
 import Lodge5 from '../../../Assets/SVNP_ROOM_Kwitonda_Lodge_Lounge_Ross_Couper_2.jpg';
+import Lodge6 from '../../../Assets/Kwitonda_slider_1.jpg';
+import Lodge7 from '../../../Assets/Kwitonda_slider_2.jpg';
 
-import Chyulu from '../../../Assets/2020-10-22.jpg';
+
+
 
 import ShowMoreText from "react-show-more-text";
 
-import { useParams, Link } from 'react-router-dom';
+
 
 
 import "slick-carousel/slick/slick.css";
@@ -142,6 +145,12 @@ const Singita =()=>{
                         </div>
                         <div>
                         <img src={Lodge3} alt="Lodges"/>
+                        </div>
+                        <div>
+                        <img src={Lodge6} alt="Lodges"/>
+                        </div>
+                        <div>
+                        <img src={Lodge7} alt="Lodges"/>
                         </div>
                     </Slider>
                 </div>
