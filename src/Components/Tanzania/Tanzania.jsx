@@ -49,8 +49,8 @@ const Tanzania =()=> {
         <div>
         <div className=" relative">
                <img src={Tz} loading="lazy" className=" w-[100vw] h-[100vh] object-cover" alt="Lion"/>
-               <hi className=" absolute top-[50%] lg:left-[35%] left-15%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Black] text-center ">
-                    Welcome to Tanzania
+               <hi className=" absolute top-[50%] lg:left-[25%] left-15%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Black] text-center ">
+                    A Central hub for Earth wildlife
                 </hi>
            
             </div>

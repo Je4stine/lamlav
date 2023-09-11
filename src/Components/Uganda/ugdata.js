@@ -15,7 +15,7 @@ import Jinja from '../../Assets/5e0142a3.jpg';
 const UDATA = [
     {
         "id":1,
-        "title":" Kampala and Entebe",
+        "title":" Kampala and Entebbe",
         "descripton":"Both Kampala and Entebbe cities contribute to Uganda's allure, offering unique experiences that combine natural beauty, historical landmarks, cultural richness, and warm hospitality.",
         "image":Kamplala,
         "link":"/uganda/Kampala"

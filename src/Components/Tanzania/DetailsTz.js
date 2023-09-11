@@ -15,16 +15,6 @@ import { useParams, Link } from 'react-router-dom';
 import DATA from './data';
 import DETAILS from "./detailsdata";
 
-import Lodge1 from '../../Assets/Amboseli11.jpg';
-
-import Lodge2 from '../../Assets/Amboselli22.jpg';
-
-import Lodge3 from '../../Assets/Amboselli33.jpg';
-
-import Lodge4 from '../../Assets/Amboselli44.jpg';
-
-import Tortolis from '../../Assets/274932-tortilis-camp-amboseli-national-park.jpg';
-
 import Olka from '../../Assets/ol-tukai-lodge3.jpg';
 
 const DetailsTz = () => {

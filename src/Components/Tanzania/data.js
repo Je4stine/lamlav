@@ -14,7 +14,7 @@ const DATA = [
     {
         "id":1,
         "title":" Zanzibar",
-        "descripton":"Zanzibar is-the Spice Island- offers a combination of idyllic beaches, historic charm, and cultural richness; that in essence, makes it a truly enticing destination for travelers seeking a unique and unforgettable experience.",
+        "descripton":"The Spice Island offers a combination of idyllic beaches, historic charm, and cultural richness; that in essence, makes it a truly enticing destination for travelers seeking a unique and unforgettable experience.",
         "image":Zanzibar1,
         "link":"/tanzania/zanzibar"
 

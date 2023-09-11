@@ -44,7 +44,7 @@ const Countries =()=>{
                             </h1>
                             <br/>
                             <h1 className=' font-[SourceSerifPro-Black] text-xl'>
-                                    The quintessential African holiday experience
+                                    Home of Great Migration
                             </h1>
                             <br/>
                             <p className=' font-[SourceSerifPro-Regular] '>

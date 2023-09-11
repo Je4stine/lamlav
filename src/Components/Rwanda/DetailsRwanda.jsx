@@ -107,15 +107,19 @@ const DetailsRwanda= () => {
                 <span>{item.title}, Rwanda</span>
               </div></a>
             </div>
+            {
+              item.campImg2 === ""? <div/>:
+                <div className="lg:w-1/2">
+                    <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
+                    <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
+                    <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
+                    <span>{item.title}, Rwanda</span>
+                 </div></a>
+                </div>
 
+            }
 
-            <div className="lg:w-1/2">
-              <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
-              <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
-              <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
-                <span>{item.title}, Rwanda</span>
-              </div></a>
-            </div>
+            
           </div>
 
           <Link to={`/tanzania/lodge/${item.campId1}`}><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
