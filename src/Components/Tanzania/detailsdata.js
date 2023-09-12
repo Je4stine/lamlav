@@ -61,12 +61,12 @@ import Crater from '../../Assets/ngorongoro-crater-lodge-1-2-2.jpg';
 
 
 //Serengeti
-import SereSlider1 from '../../Assets/MM.Mahale.LakeView1.jpg';
-import SereSlider2 from '../../Assets/MM.Mahale.LakeView1.jpg';
-import SereSlider3 from '../../Assets/MM.Mahale.LakeView1.jpg';
-import SereSlider4 from '../../Assets/MM.Mahale.LakeView1.jpg';
-import Lamela from '../../Assets/MM.Mahale.LakeView1.jpg';
-import Beyond from '../../Assets/MM.Mahale.LakeView1.jpg';
+import SereSlider1 from '../../Assets/SerengetiPioneer---Main-Bar_Lounge-View-3.jpg';
+import SereSlider2 from '../../Assets/SerengetiPioneer-sunrise.jpg';
+import SereSlider3 from '../../Assets/SerengetiPioneer---Tent-Exterior-2.jpg';
+import SereSlider4 from '../../Assets/Silverless_Pioneer_IMG_7906.jpg';
+import Lamela from '../../Assets/250368-lemala-serengeti-camp1.jpg';
+import Beyond from '../../Assets/62893a29ff77c72ef4ab06cd_Kleins-Camp-1.jpg';
 
 //Tarangire
 import TaraSlider1 from '../../Assets/TarangireTreetops---Game-Drive.jpg';
@@ -210,9 +210,12 @@ const DETAILS =[
         "campId2":"/tanzania/lodges/beyond",
         "camp1":"Lemala Ewanjan",
         "camp2":"Beyond Klein's Camp",
-        "slider1":"",
-        "slider2":"",
-        "slider3":""
+        "slider1":SereSlider1,
+        "slider2":SereSlider2,
+        "slider3":SereSlider3,
+        "slider4":SereSlider4,
+        "campImg1":Lamela,
+        "campImg2":Beyond
     },
     {
         "id":8,

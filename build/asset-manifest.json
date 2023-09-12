@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d5dbe631.css",
-    "main.js": "/static/js/main.25b9e0fd.js",
+    "main.js": "/static/js/main.221cc7c7.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Pool2.jpg": "/static/media/Pool2.0e91b0069f3b90d96895.jpg",
     "static/media/Banda Plunge Pool.jpg": "/static/media/Banda Plunge Pool.743067fabfb2d27ade6d.jpg",
@@ -182,6 +182,7 @@
     "static/media/photo_1982.jpeg": "/static/media/photo_1982.87c269b7ac21503659b0.jpeg",
     "static/media/MM.Mahale.LakeView1.jpg": "/static/media/MM.Mahale.LakeView1.0a7b56da00055144352a.jpg",
     "static/media/sands2.jpg": "/static/media/sands2.e2afc95cf9b19b30b888.jpg",
+    "static/media/250368-lemala-serengeti-camp1.jpg": "/static/media/250368-lemala-serengeti-camp1.83fa1519ebe71707282d.jpg",
     "static/media/6R1A6278-compressor.jpg": "/static/media/6R1A6278-compressor.92519bfbbd4be4d36cfb.jpg",
     "static/media/download (11).jpeg": "/static/media/download (11).711f8a12320323dfce0e.jpeg",
     "static/media/e5a9b3d9.jpg": "/static/media/e5a9b3d9.953aae389dc732adc3cc.jpg",
@@ -225,6 +226,7 @@
     "static/media/kilindi-stone-town.jpg": "/static/media/kilindi-stone-town.659b64783d2b6931ffdf.jpg",
     "static/media/mbwe5.jpg": "/static/media/mbwe5.a1d8ab9730f33a4d0866.jpg",
     "static/media/Lesser Kudu in thicket at Manyara Ranch.jpg": "/static/media/Lesser Kudu in thicket at Manyara Ranch.befe14873bf9d8d8f549.jpg",
+    "static/media/_Lemala Ewanjan1.jpg": "/static/media/628e1f430c1ce53ef8dcfa17_Lemala Ewanjan1.f7643d2f28ae49c99c96.jpg",
     "static/media/_AndBeyond_Ngorongoro Crater Lodge (2)RS.jpg": "/static/media/628bcaae0808d321e5754a32_AndBeyond_Ngorongoro Crater Lodge (2)RS.b2760c32485c5931ce7e.jpg",
     "static/media/00-best-safari-parks-and-game-reserves-near-mombasa-BW-header1200px.jpg": "/static/media/00-best-safari-parks-and-game-reserves-near-mombasa-BW-header1200px.d4974df8844a776d3a65.jpg",
     "static/media/mbwe4.jpg": "/static/media/mbwe4.9ba7ffeb8609c41c4b0b.jpg",
@@ -232,6 +234,7 @@
     "static/media/Day44.jpg": "/static/media/Day44.df3630b9ac836dced8e4.jpg",
     "static/media/IMG_1863.jpg": "/static/media/IMG_1863.0b111f23e4f21284d88e.jpg",
     "static/media/_Beho-Beho-5.jpg": "/static/media/640b023ac08d766446670470_Beho-Beho-5.bd8261a19edf358cfdfa.jpg",
+    "static/media/_Lemala EwanjanSingle1.jpg": "/static/media/628e1e5cbab138c5900f4ed4_Lemala EwanjanSingle1.1fd3acdbca433afc11fb.jpg",
     "static/media/32eaf50b.jpg": "/static/media/32eaf50b.2ebe7fa256b6442ef3ab.jpg",
     "static/media/neptune-ngorongoro-luxury-7.jpg": "/static/media/neptune-ngorongoro-luxury-7.2c19868d5bb4c0ab8ed7.jpg",
     "static/media/42a40483.jpg": "/static/media/42a40483.59a4aa917071ba13b823.jpg",
@@ -277,6 +280,7 @@
     "static/media/_Bisate-Nelson-Travel-0.jpg": "/static/media/61d345098ce3f8a0a20b2829_Bisate-Nelson-Travel-0.1024a3bc9d9e4577fb5f.jpg",
     "static/media/_Bisate-Nelson-Travel-1.jpg": "/static/media/61d34509af10c429600f7018_Bisate-Nelson-Travel-1.89ac2587b0b42c4dbc9e.jpg",
     "static/media/_Greystoke Mahale4.jpg": "/static/media/62b097f75e851214892b450b_Greystoke Mahale4.af465d9ca5ea176abae5.jpg",
+    "static/media/_Lemala Ewanjana1.jpg": "/static/media/628e20330c1ce57615dcfa50_Lemala Ewanjana1.672ad6ec1cd7dc96209d.jpg",
     "static/media/833d7db7.jpg": "/static/media/833d7db7.c7a5129af4e89e79974f.jpg",
     "static/media/volcanoes-safaris-mount-gahinga-lodge-main-building-exterior.jpg": "/static/media/volcanoes-safaris-mount-gahinga-lodge-main-building-exterior.d559d4e99a6885df9533.jpg",
     "static/media/rwenzori-roosli-9.jpg": "/static/media/rwenzori-roosli-9.f461759c67216179da1d.jpg",
@@ -285,6 +289,7 @@
     "static/media/TarangireTreetops---Room-Exterior.jpg": "/static/media/TarangireTreetops---Room-Exterior.4322151e8edaceebed9f.jpg",
     "static/media/image-asset (4).jpeg": "/static/media/image-asset (4).6c64da2848ad200e976c.jpeg",
     "static/media/FR.-Loldia-Top-Cottage-9-992x695.jpg": "/static/media/FR.-Loldia-Top-Cottage-9-992x695.584c929326671b8b758c.jpg",
+    "static/media/_Kleins-Camp-1.jpg": "/static/media/62893a29ff77c72ef4ab06cd_Kleins-Camp-1.45a93e112271b0abbe40.jpg",
     "static/media/manor-at-ngorongoro-6.jpg": "/static/media/manor-at-ngorongoro-6.97fdc0ea93b1d9ed5c0d.jpg",
     "static/media/foodshots7.jpg": "/static/media/foodshots7.58203ac24d6c7117c451.jpg",
     "static/media/SourceSerifPro-Black.ttf": "/static/media/SourceSerifPro-Black.54cb3526b59ed4f35e9c.ttf",
@@ -321,6 +326,7 @@
     "static/media/TarangireTreetops---Room-Verandah.jpg": "/static/media/TarangireTreetops---Room-Verandah.886ecf5f11f8a2bff2c6.jpg",
     "static/media/_Bisate-Nelson-Travel-2.jpg": "/static/media/61d345088ce3f863960b2828_Bisate-Nelson-Travel-2.a15d3ce02b36bc52acdd.jpg",
     "static/media/_Lewa Wilderness1.jpeg": "/static/media/62680784f81a327310ac0b08_Lewa Wilderness1.fb826607810d4c0e94b4.jpeg",
+    "static/media/_Lemala Ewanjan3.jpg": "/static/media/628e1fd282294a133c9ba09d_Lemala Ewanjan3.27b361b31fe8cebe2806.jpg",
     "static/media/rwenzori-roosli-8.jpg": "/static/media/rwenzori-roosli-8.e895fbdab6e10d9bb931.jpg",
     "static/media/15975618-aerial-view-of-bwindi-lodge.jpg": "/static/media/15975618-aerial-view-of-bwindi-lodge.8fd941c0071a1261c5ca.jpg",
     "static/media/_GiraffeManor.jpg": "/static/media/613a6df04e3ebaf8b33adc96_GiraffeManor.da7c21ba4d25c5167614.jpg",
@@ -359,6 +365,7 @@
     "static/media/nature-walks-09.jpg": "/static/media/nature-walks-09.580967fff95caae63e19.jpg",
     "static/media/prime-room.jpg": "/static/media/prime-room.6ec61e4aa2a3c1b4434c.jpg",
     "static/media/FR.-Loldia-House-8-992x695.jpg": "/static/media/FR.-Loldia-House-8-992x695.dc98bd12fa7dbfa64156.jpg",
+    "static/media/Silverless_Pioneer_IMG_7906.jpg": "/static/media/Silverless_Pioneer_IMG_7906.aa2b4439ed6d62b7a721.jpg",
     "static/media/naboisho.jpg": "/static/media/naboisho.dfbaf40b4bbf40e5e11a.jpg",
     "static/media/mara-plains-camp-11.jpg.webp": "/static/media/mara-plains-camp-11.jpg.1d1ecec8e8c8eae8aa65.webp",
     "static/media/sanctuarygorillaforestcamp3.jpg": "/static/media/sanctuarygorillaforestcamp3.5eae9bec2d64fbccd20d.jpg",
@@ -376,6 +383,7 @@
     "static/media/junior-suite.jpg": "/static/media/junior-suite.e18f7a25c4c251def873.jpg",
     "static/media/efa04327.jpg": "/static/media/efa04327.b028553f222d925ad611.jpg",
     "static/media/fairnai.jpg": "/static/media/fairnai.8330fb587cd2d1c6ddd4.jpg",
+    "static/media/SerengetiPioneer---Tent-Exterior-2.jpg": "/static/media/SerengetiPioneer---Tent-Exterior-2.d94602aa0536b1d9f654.jpg",
     "static/media/Day444.jpeg": "/static/media/Day444.a883082ca3920d83f7bb.jpeg",
     "static/media/mount-kilimanjaro-6.jpg": "/static/media/mount-kilimanjaro-6.523c7334604eb8aa6660.jpg",
     "static/media/home.jpg": "/static/media/home.40c5ed0df42488d24cb1.jpg",
@@ -433,6 +441,7 @@
     "static/media/Lake Nakuru National Park group of zebra.jpg": "/static/media/Lake Nakuru National Park group of zebra.87e5b691402d3d70584b.jpg",
     "static/media/images (22).jpg": "/static/media/images (22).f50825ae19270b0906dc.jpg",
     "static/media/Naivasha.jpg": "/static/media/Naivasha.cea87cbea83df0653364.jpg",
+    "static/media/SerengetiPioneer---Main-Bar_Lounge-View-3.jpg": "/static/media/SerengetiPioneer---Main-Bar_Lounge-View-3.f4e20d30828d2b4427b4.jpg",
     "static/media/e883b21c.jpg": "/static/media/e883b21c.ccf8dfb4e10313afe6a4.jpg",
     "static/media/60103540.jpg": "/static/media/60103540.5ef193d7fac2c96dba43.jpg",
     "static/media/volcanoes-safaris-mount-gahinga-lodge-sunroom.jpg": "/static/media/volcanoes-safaris-mount-gahinga-lodge-sunroom.3cf2962febb216867543.jpg",
@@ -553,6 +562,7 @@
     "static/media/IMG-20180314-WA0024.jpg": "/static/media/IMG-20180314-WA0024.d6439900ef972ad71768.jpg",
     "static/media/FR.-Loldia-House-39-992x695.jpg": "/static/media/FR.-Loldia-House-39-992x695.0b4473c4fdfb55a595cd.jpg",
     "static/media/neptune-ngorongoro-luxury-1-2.jpg": "/static/media/neptune-ngorongoro-luxury-1-2.5debfe5affe3cd3c3533.jpg",
+    "static/media/SerengetiPioneer-sunrise.jpg": "/static/media/SerengetiPioneer-sunrise.a82436afabf149f68dc9.jpg",
     "static/media/427292005.jpg": "/static/media/427292005.4cc8a0f6711a2e062ff5.jpg",
     "static/media/1322161-mahogany-springs-bwindi-impenetrable-forest-national-park.jpg": "/static/media/1322161-mahogany-springs-bwindi-impenetrable-forest-national-park.488572e3cc1b1a28addd.jpg",
     "static/media/The-Safari-Collection-Sasaab-Pool.jpg": "/static/media/The-Safari-Collection-Sasaab-Pool.56e62ca3fab5b64687d5.jpg",
@@ -702,11 +712,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.d5dbe631.css.map": "/static/css/main.d5dbe631.css.map",
-    "main.25b9e0fd.js.map": "/static/js/main.25b9e0fd.js.map",
+    "main.221cc7c7.js.map": "/static/js/main.221cc7c7.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5dbe631.css",
-    "static/js/main.25b9e0fd.js"
+    "static/js/main.221cc7c7.js"
   ]
 }
