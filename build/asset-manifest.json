@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5dbe631.css",
-    "main.js": "/static/js/main.221cc7c7.js",
+    "main.css": "/static/css/main.478f470d.css",
+    "main.js": "/static/js/main.3742c4dd.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Pool2.jpg": "/static/media/Pool2.0e91b0069f3b90d96895.jpg",
     "static/media/Banda Plunge Pool.jpg": "/static/media/Banda Plunge Pool.743067fabfb2d27ade6d.jpg",
@@ -98,6 +98,7 @@
     "static/media/Kinondo+Kwetu+Hotel+Traditional+Sailing,+Galu+Beach,+Diani+Beach,+Kenya+kopia.jpg": "/static/media/Kinondo+Kwetu+Hotel+Traditional+Sailing,+Galu+Beach,+Diani+Beach,+Kenya+kopia.4c4ffeb12fed31602df8.jpg",
     "static/media/FMKSC Animals 975X600 (5).jpg": "/static/media/FMKSC Animals 975X600 (5).3352e0037c3e5ea9c22b.jpg",
     "static/media/Neptune5.jpg": "/static/media/Neptune5.acdabc39ed4bb0646abf.jpg",
+    "static/media/porini-rhino-camp-gallery-image-13-1444934892.jpg": "/static/media/porini-rhino-camp-gallery-image-13-1444934892.9cd3ca3820a42c2f8cf0.jpg",
     "static/media/Family+Room+Interconnecting,+Kinondo+Kwetu+Hotel,+Galu+Beach,+Diani+Beach,+Kenya.jpg": "/static/media/Family+Room+Interconnecting,+Kinondo+Kwetu+Hotel,+Galu+Beach,+Diani+Beach,+Kenya.e52d9e60f69e6a1b166e.jpg",
     "static/media/porini-rhino-camp-gallery-image-12-1444934879.jpg": "/static/media/porini-rhino-camp-gallery-image-12-1444934879.8cfc4834a0c23cb1df4e.jpg",
     "static/media/Kwitonda_slider_1.jpg": "/static/media/Kwitonda_slider_1.420bb7e4ace87d1b054f.jpg",
@@ -146,6 +147,7 @@
     "static/media/Hemingways-2017-02-41.jpg": "/static/media/Hemingways-2017-02-41.1ad219e368945ef38d61.jpg",
     "static/media/hemingway-23.jpg": "/static/media/hemingway-23.29a890cf6a9ecb726bd4.jpg",
     "static/media/261062-the-murchison-falls.jpg": "/static/media/261062-the-murchison-falls.fa28feb82fcc25450a14.jpg",
+    "static/media/tortilis-1.jpg": "/static/media/tortilis-1.5932cb14412b0e2c3ae9.jpg",
     "static/media/Elelphant-samburu-northern-frontier.jpg": "/static/media/Elelphant-samburu-northern-frontier.0f6439a642bd2a50e146.jpg",
     "static/media/elephantus.jpg": "/static/media/elephantus.bbe9936561f0d00923ca.jpg",
     "static/media/6R1A6271-compressor.jpg": "/static/media/6R1A6271-compressor.dca4d831ac694ede6f42.jpg",
@@ -491,6 +493,7 @@
     "static/media/357520656.jpg": "/static/media/357520656.df906e4920cb20eb8476.jpg",
     "static/media/image-asset (2).jpeg": "/static/media/image-asset (2).2e16f171a1c9761412c6.jpeg",
     "static/media/volcanoes-safaris-mount-gahinga-lodge-standard-room.jpg": "/static/media/volcanoes-safaris-mount-gahinga-lodge-standard-room.850f0f48aed31b1e0dee.jpg",
+    "static/media/Kleins-360-Sept-2020-1024x576.jpg": "/static/media/Kleins-360-Sept-2020-1024x576.8dad879df8525b01cc0d.jpg",
     "static/media/medina333.jpg": "/static/media/medina333.8c531fbcae5c771d1096.jpg",
     "static/media/Day11.jpeg": "/static/media/Day11.2ee1fe4e5238fd6c75d9.jpeg",
     "static/media/249718147.jpg": "/static/media/249718147.d519ae8714a5d7d447be.jpg",
@@ -502,6 +505,7 @@
     "static/media/Elewana-Kifaru-2018-117.1.jpg": "/static/media/Elewana-Kifaru-2018-117.1.7a740ac70092c4699e15.jpg",
     "static/media/261061-hippo-basking-murchison-falls-national-park.jpg": "/static/media/261061-hippo-basking-murchison-falls-national-park.4b555773140fe8146b62.jpg",
     "static/media/292835065.jpg": "/static/media/292835065.95aa43f7ea1cf4db0600.jpg",
+    "static/media/Kleins-camp-serengeti-romantic-dinner-1024x576.jpg": "/static/media/Kleins-camp-serengeti-romantic-dinner-1024x576.40380226c9e6f1ea1792.jpg",
     "static/media/249718178.jpg": "/static/media/249718178.d95cb322ec7f00154dc5.jpg",
     "static/media/volcanoes-safaris-mount-gahinga-lodge-night-time-view-outside.jpg": "/static/media/volcanoes-safaris-mount-gahinga-lodge-night-time-view-outside.81e88a84ed412656454e.jpg",
     "static/media/462528559.jpg": "/static/media/462528559.1cf96f34920e11124f36.jpg",
@@ -523,8 +527,10 @@
     "static/media/5dd9d87e.jpg": "/static/media/5dd9d87e.24f079326ee8c92a8b5c.jpg",
     "static/media/8.jpg": "/static/media/8.41b1801a7f7389033310.jpg",
     "static/media/74650352.jpg": "/static/media/74650352.721f28fc7a6a6e4e63d7.jpg",
+    "static/media/Kleins-camp-serengeti-welcome-1024x576.jpg": "/static/media/Kleins-camp-serengeti-welcome-1024x576.0e59c0b7ac3d620de81b.jpg",
     "static/media/Kifaru2.jpg": "/static/media/Kifaru2.dfbc13c28354605099c9.jpg",
     "static/media/323483059.jpg": "/static/media/323483059.4d78c2d6ef4317b67454.jpg",
+    "static/media/Kleins-camp-serengeti-guest-room-verandah-1024x576.jpg": "/static/media/Kleins-camp-serengeti-guest-room-verandah-1024x576.a06868a576a45095f897.jpg",
     "static/media/the_boma_entebbe__3-1060x707.jpg": "/static/media/the_boma_entebbe__3-1060x707.e8c04380f432663b60c3.jpg",
     "static/media/Mgahinga-Gorilla-National-Park_Gorilla-1024x683.jpeg": "/static/media/Mgahinga-Gorilla-National-Park_Gorilla-1024x683.cc192d75ab94e2cd9584.jpeg",
     "static/media/zanzibar-1.jpg": "/static/media/zanzibar-1.265a2004d5bc0d1b366d.jpg",
@@ -634,6 +640,7 @@
     "static/media/Mgahinga-Gorilla-National-Park-landscape-1024x683.jpeg": "/static/media/Mgahinga-Gorilla-National-Park-landscape-1024x683.347974fb5c76322e6732.jpeg",
     "static/media/525208-kyaninga-lodge-fort-portal.jpg": "/static/media/525208-kyaninga-lodge-fort-portal.a049515e987ccc84fb5c.jpg",
     "static/media/461635424.jpg": "/static/media/461635424.34c01e8804024cff730f.jpg",
+    "static/media/Kleins-camp-serengeti-game-drive-1024x576.jpg": "/static/media/Kleins-camp-serengeti-game-drive-1024x576.354ca1d64504831385b3.jpg",
     "static/media/427295557.jpg": "/static/media/427295557.e1d74b562b8f871e841d.jpg",
     "static/media/323483116.jpg": "/static/media/323483116.604aa718773ed9a6e4a8.jpg",
     "static/media/525203-kyaninga-lodge-fort-portal.jpg": "/static/media/525203-kyaninga-lodge-fort-portal.63d0175d8c14e87669cb.jpg",
@@ -711,12 +718,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.d5dbe631.css.map": "/static/css/main.d5dbe631.css.map",
-    "main.221cc7c7.js.map": "/static/js/main.221cc7c7.js.map",
+    "main.478f470d.css.map": "/static/css/main.478f470d.css.map",
+    "main.3742c4dd.js.map": "/static/js/main.3742c4dd.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5dbe631.css",
-    "static/js/main.221cc7c7.js"
+    "static/css/main.478f470d.css",
+    "static/js/main.3742c4dd.js"
   ]
 }

@@ -48,13 +48,13 @@ const Navbar =()=>{
                             <a href="/lamlav/about" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Luxury Safaris</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/contacts" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">FAQs</a> 
+                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">FAQs</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
+                            <a href="/contacts" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/faqs" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Plan for a trip call +254716251932 </a> 
+                            <a href="/contacts" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Plan for a trip call +254716251932 </a> 
                         </li>
                     </ul> 
                 :
@@ -69,10 +69,10 @@ const Navbar =()=>{
                             <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Luxury Safaris</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">FAQS</a> 
+                            <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">FAQS</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
+                            <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
                         </li>
                     </ul>
             }

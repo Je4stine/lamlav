@@ -29,9 +29,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import ShowMoreText from "react-show-more-text";
+import AllLodges from "../AllLodges";
 
 const DestMombasa =()=>{
     const [colorChanged, setColorChanged]= useState(false);
+    const [open, setOpen] = useState(false)
+
+    const toggleLodges =()=>{
+        setOpen(!open)
+    };
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -130,9 +136,17 @@ const DestMombasa =()=>{
                             </div></a> 
                         </div>
                     </div>
-                    <a href='/kenya/destamboseli'><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
+                    <div onClick={toggleLodges} className=' cursor-pointer mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
                                 <span className="">View all Kenya Camps and lodges</span>
-                      </div></a>            
+                      </div>
+
+                      <div
+                            className={`${
+                            open ? 'opacity-100' : 'opacity-0'
+                            } transition-all duration-500`}
+                        >
+                        {open?<AllLodges/>:<div/>} 
+                      </div>           
 
                 </div>
                 

@@ -3,12 +3,10 @@ import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from "../Footer/Footer";
 import AmboseliN from '../../Assets/Zebra.jpg';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import ImageGallery from 'react-image-gallery';
 // import Slider from "react-slick";
 import Lodge1 from '../../Assets/Amboseli11.jpg';
 
@@ -26,11 +24,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import ShowMoreText from "react-show-more-text";
+import AllLodges from "../AllLodges";
 
 
 const DestAmboseli =()=>{
     const [colorChanged, setColorChanged]= useState(false);
+    const [open, setOpen] = useState(false)
 
+    const toggleLodges =()=>{
+        setOpen(!open)
+    };
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -49,6 +52,8 @@ const DestAmboseli =()=>{
         slidesToShow: 1,
         slidesToScroll: 1
       };
+
+    
 
     return (
         <div className=" bg-white">
@@ -87,16 +92,16 @@ const DestAmboseli =()=>{
                 <div className="relative mt-20 z-[0] m-auto lg:w-[70%]">
                 <Slider {...settings} autoplay arrows>
                     <div>
-                        <img src={Lodge1}/>
+                        <img src={Lodge1} alt="Lodge"/>
                     </div>
                     <div>
-                    <img src={Lodge2}/>
+                    <img src={Lodge2} alt="Lodge"/>
                     </div>
                     <div>
-                    <img src={Lodge3}/>
+                    <img src={Lodge3} alt="Lodge"/>
                     </div>
                     <div>
-                    <img src={Lodge4}/>
+                    <img src={Lodge4} alt="Lodge"/>
                     </div>
                     </Slider>
                 </div>
@@ -125,9 +130,17 @@ const DestAmboseli =()=>{
                             </div></a> 
                         </div>
                     </div>
-                    <a href='/kenya/destamboseli'><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
+                    <div onClick={toggleLodges} className=' cursor-pointer mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
                                 <span className="">View all Kenya Camps and lodges</span>
-                      </div></a>            
+                      </div>
+
+                      <div
+                            className={`${
+                            open ? 'opacity-100' : 'opacity-0'
+                            } transition-all duration-500`}
+                        >
+                        {open?<AllLodges/>:<div/>} 
+                      </div>         
 
                 </div>
                 
