@@ -71,8 +71,8 @@ const Sasakwa =()=>{
             }
             <secttion>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
-                    <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Kilindi</h1>
-                    <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
+                    <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Sasakwa Hill Lodge</h1>
+                    <img src="https://cdn.audleytravel.com/1050/750/79/257948-sasakwa-hill-lodge.webp" alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>
             <section className=" bg-white w-[100%] m-auto lg:px-[300px] px-10" >
@@ -88,9 +88,9 @@ const Sasakwa =()=>{
                     truncatedEndingComponent={"..... "}
                 >
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
-                Kilindi is a remarkable and captivating resort that rests beside the crystal-clear turquoise waters of the Indian Ocean, on the northwest coast of Zanzibar.  The design of the pavilions seamlessly combines Scandinavian elements with subtle touches of Middle Eastern inspiration. 
-                <br/><br/>Every Pavilion suite features wide-arched windows without glass, adorned with white wooden-slatted shutters. These windows offer stunning panoramic views of the Indian Ocean. The design also allows the refreshing ocean breeze to flow freely through the rooms, bringing along the enchanting melodies of Kilindi's vibrant bird population.
-                <br/><br/>Additionally, guests have the option to dine on the open-air terrace or choose to enjoy their meals along the unspoiled white beach that stretches across the entire property. A stay at Kilindi promises to be a sensory delight, captivating your senses with its scenic beauty and captivating soundscape.
+                Sasakwa Hill Lodge stands as one of the most opulent establishments in East Africa. Perched atop a hill, this lodge offers breathtaking vistas of the Serengeti plains, making it an exceptional spot for game viewing, particularly during the Great Migration.
+                <br/><br/>The lodge boasts a selection of air-conditioned guest cottages, each adorned with antique furnishings, exquisite crystal vases filled with roses, and timeless artwork, creating an ambiance reminiscent of the 1920s. This nostalgic atmosphere permeates the entire lodge, with its splendid dining and drawing rooms, a vintage wine cellar, a tennis court, an archery pavilion, a croquet lawn, and even an equestrian center dedicated to housing polo ponies and thoroughbred horses.
+                <br/><br/>Sasakwa presents an ideal destination for those seeking a safari experience immersed in the captivating elegance and style of the colonial era.
 
                 </p>
             </ShowMoreText>
@@ -98,44 +98,55 @@ const Sasakwa =()=>{
                 <p className=" font-[SourceSerifPro-Regular] pt-[50px] text-xl">
                     <div className=" ">
                         <div>
-                            <br/><br/> <strong>Amenities at Kilindi</strong>
-                                <li>Private pool.</li>
-                                <li>Wi-Fi </li>
-                                <li>Butler service </li>
-                                <li>Laundry service </li>
+                            <br/><br/> <strong>Amenities at Sasakwa Hill Lodge</strong>
+                            <li>24hr Electricity </li>
+                            <li>Laundry servicFree High Speed Internet (WiFi)</li>
+                            <li>Infinity Pool</li>
+                            <li>Fitness Center with Gym / Workout Room</li>
+                            <li>Tennis court</li>
+                            <li>Bar / lounge</li>
+                            <li>Restaurant</li>
+                            <li>Spa</li>
+                            <li>Butler service</li>
                         </div>
                         <div>
                             <br/><br/><strong>Room features </strong>
-                            <li>Room service </li>
-                            <li>In Room electronic safe </li>
-                            <li>Adjoining 'rainfall' shower Pavilion</li>
+                            <li>En-suite bathroom </li>
+                            <li>Private veranda</li>
+                            <li>In Room electronic  safe</li>
+                            <li>Air conditioning</li>
+                            <li>Room service</li>
+                            <li>Minibar</li>
+                            <li>Refrigeratorli</li>
                         </div>
                     </div>
                 
 
-                    <br/><br/> <strong>Activities  at Kilindi  </strong>
-                            <li>Deep sea fishing </li>
-                            <li>Island Spice tour </li>
-                            <li>Private sunset  dhow  cruise </li>
-                            <li>Historical stone town tour</li>
-                            <li>Blue dolphin and Snorkeling tour </li>
-                            <li>Spa and Wellness </li>
+                    <br/><br/> <strong>Activities  at Sasakwa Hill Lodge  </strong>
+                        <li>Cultural  visits </li>
+                        <li>Yoga</li>
+                        <li>Balloon  safari </li>
+                        <li>Tennis </li>
+                        <li>Game drives</li>
+                        <li>Romantic  bush  dinner/breakfast </li>
+                        <li>Guided  safari  walks</li>
+                        <li>Wine experiences</li>
 
 
                 </p>
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge4}/>
+                            <img src="https://cdn.audleytravel.com/1050/750/79/139251-bathroom-sasakwa-hill-lodge-serengeti-national-park.webp" alt="Lodge"/>
                         </div>
                         <div>
-                        <img src={Lodge2}/>
+                        <img src="https://cdn.audleytravel.com/1050/750/79/257946-sasakwa-hill-lodge.webp" alt="Lodge"/>
                         </div>
                         <div>
-                        <img src={Lodge5}/>
+                        <img src="https://cdn.audleytravel.com/1050/750/79/257947-sasakwa-hill-lodge.webp" alt="Lodge"/>
                         </div>
                         <div>
-                        <img src={Lodge3}/>
+                        <img src="https://cdn.audleytravel.com/1050/750/79/257944-sasakwa-hill-lodge.webp" alt="Lodge"/>
                         </div>
                     </Slider>
                 </div>

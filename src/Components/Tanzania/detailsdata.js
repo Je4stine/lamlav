@@ -58,6 +58,7 @@ import NgoroSlider3 from '../../Assets/neptune-ngorongoro-luxury-3.jpg';
 import NgoroSlider4 from '../../Assets/neptune-ngorongoro-luxury-7.jpg';
 import Manor from '../../Assets/manor-at-ngorongoro-1.jpg';
 import Crater from '../../Assets/ngorongoro-crater-lodge-1-2-2.jpg';
+import Neptune from '../../Assets/Neptune2.1.jpeg'
 
 
 //Serengeti
@@ -67,6 +68,8 @@ import SereSlider3 from '../../Assets/SerengetiPioneer---Tent-Exterior-2.jpg';
 import SereSlider4 from '../../Assets/Silverless_Pioneer_IMG_7906.jpg';
 import Lamela from '../../Assets/250368-lemala-serengeti-camp1.jpg';
 import Beyond from '../../Assets/62893a29ff77c72ef4ab06cd_Kleins-Camp-1.jpg';
+import Singita from '../../Assets/Singitadodoma.jpeg';
+import Sasakwa from '../../Assets/Sasakwatz.jpg'
 
 //Tarangire
 import TaraSlider1 from '../../Assets/TarangireTreetops---Game-Drive.jpg';
@@ -104,7 +107,8 @@ const DETAILS =[
         "slider3":Zanzibar4,
         "slider4":Zanzibar5,
         "campImg1":Kilindi,
-        "campImg2":Matemwe
+        "campImg2":Matemwe,
+        "count": 2
 
 
     },
@@ -123,7 +127,8 @@ const DETAILS =[
         "slider3":Slider3,
         "slider4":Slider4,
         "campImg1":ArushaCoffee,
-        "campImg2":OnSea
+        "campImg2":OnSea,
+        "count": 2
 
     },
     {
@@ -142,6 +147,7 @@ const DETAILS =[
         "slider3":KiliSlider3,
         "slider4": KiliSlider4,
         "campImg1":KiliResort,
+        "count": 1
        
 
     },
@@ -163,6 +169,7 @@ const DETAILS =[
         "slider4":NyeSlider4,
         "campImg1":Kingelia,
         "campImg2":Beho,
+        "count": 2
 
     },
     {
@@ -177,7 +184,8 @@ const DETAILS =[
         "slider2":MahaleSlider2,
         "slider3":MahaleSlider3,
         "slider4": MahaleSlider4,
-        "campImg1":Grey
+        "campImg1":Grey,
+        "count": 1
 
     },
     {
@@ -188,14 +196,18 @@ const DETAILS =[
         "p2":" While Ngorongoro's geological past is fascinating, its present state as a tranquil haven for flora and fauna offers an unmatched opportunity for travelers to immerse themselves in Africa's finest safari adventures. Ascending to the rim of the Ngorongoro Crater and beholding the breathtaking vista below is a truly unforgettable experience. The sheer size and natural beauty of the crater, combined with its abundant wildlife, makes it a safari destination of unparalleled excellence.",
         "campId1":"/tanzania/lodges/manor",
         "campId2":"/tanzania/lodges/crater",
+        "campId3":"/tanzania/lodges/neptune",
         "camp1":"Manor at Ngorongoro ",
         "camp2":" Ngorongoro  Crater  Lodge",
+        "camp3":"Neptune Ngorongoro Lodge",
         "slider1":NgoroSlider1,
         "slider2":NgoroSlider2,
         "slider3":NgoroSlider3,
         "slider4": NgoroSlider4,
         "campImg1":Manor,
-        "campImg2":Crater
+        "campImg2":Crater,
+        "campImg3":Neptune,
+        "count": 3
 
     },
     {
@@ -208,14 +220,21 @@ const DETAILS =[
         "p4":"Activities such as quad biking, horseback riding, guided walks with knowledgeable Lamlav  Safari  guides, and refreshing dips in the lodge's pool offer further enjoyment. The ethereal experience of a morning balloon flight over the vast plains is simply breathtaking. Observing a cheetah perched on a boulder, its gaze attuned to every movement in the Serengeti, is a remarkable encounter. Relaxing on a deck with sundowners, watching wildlife at a waterhole while being surrounded by majestic cloud formations, creates a sense of tranquility and wonder. Finally, visiting traditional Maasai villages provides an opportunity to connect with local culture in a respectful and heartening manner.",
         "campId1":"/tanzania/lodges/lemala",
         "campId2":"/tanzania/lodges/beyond",
+        "campId3":"/tanzania/lodges/sasakwa",
+        "campId4":"/tanzania/lodges/singita",
         "camp1":"Lemala Ewanjan",
         "camp2":"Beyond Klein's Camp",
+        "camp3": "Sasakwa Hill Lodge",
+         "camp4": "Singita Mara River Tented Camp",
         "slider1":SereSlider1,
         "slider2":SereSlider2,
         "slider3":SereSlider3,
         "slider4":SereSlider4,
         "campImg1":Lamela,
-        "campImg2":Beyond
+        "campImg2":Beyond,
+        "campImg3":Sasakwa,
+        "campImg4":Singita,
+        "count": 4
     },
     {
         "id":8,
@@ -233,7 +252,8 @@ const DETAILS =[
         "slider3":TaraSlider3,
         "slider4": TaraSlider4,
         "campImg1":Kuro,
-        "campImg2":Tree
+        "campImg2":Tree,
+        "count": 2
 
 
     },
@@ -253,7 +273,8 @@ const DETAILS =[
         "slider3":ManyaSlider3,
         "slider4": ManyaSlider4,
         "campImg1":Lake,
-        "campImg2":Secret
+        "campImg2":Secret,
+        "count": 2
 
 
     }

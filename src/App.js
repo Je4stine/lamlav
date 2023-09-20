@@ -113,6 +113,10 @@ import Kivuser from './Components/Rwanda/Lodges/Kivuser';
 import Cleo from './Components/Rwanda/Lodges/Cleo';
 import Marriott from './Components/Rwanda/Lodges/Marriott';
 import KigaliSerena from './Components/Rwanda/Lodges/KigaliSerana';
+import Inquiry from './Components/Inquiry';
+import Sasakwa from './Components/Tanzania/Lodges/Sasakwa';
+import Singita2 from './Components/Tanzania/Lodges/Singita';
+import Sabyinyo from './Components/Rwanda/Lodges/Sabyinyo';
 
 
 function App() {
@@ -136,6 +140,7 @@ function App() {
             <Route path ="/safaris" element={<Safaris/>}/>
             <Route path ="/contacts" element={<Contacts/>}/>
             <Route path ="/faqs" element={<FAQs/>}/>
+            <Route path ="/inquiry" element={<Inquiry/>}/>
             <Route path ='/mara' element={<Mara/>}/>
             <Route path ='/migration' element={<Migration/>}/>
             <Route path ='/honeymoon' element={<Honeymoon/>}/>
@@ -204,6 +209,8 @@ function App() {
             <Route path='/tanzania/lodges/treetop' element={<Treetops/>}/>
             <Route path='/tanzania/lodges/manyaratree' element={<ManyaraTree/>}/>
             <Route path='/tanzania/lodges/manayarasecret' element={<Manyarasecrete/>}/>
+            <Route path='/tanzania/lodges/sasakwa' element={<Sasakwa/>}/>
+            <Route path='/tanzania/lodges/singita' element={<Singita2/>}/>
 
             <Route path='/uganda' element={<Uganda/>}/>
             <Route path ='/uganda/:itemId' element={<DetailsUg/>}/>
@@ -237,6 +244,8 @@ function App() {
             <Route path='/rwanda/lodges/cleo' element={<Cleo/>}/>
             <Route path='/rwanda/lodges/marriott' element={<Marriott/>}/>
             <Route path='/rwanda/lodges/kigaliserena' element={<KigaliSerena/>}/>
+            <Route path='/rwanda/lodges/sabyinyo' element={<Sabyinyo/>}/>
+            
 
           </Routes>
         </Wrapper>

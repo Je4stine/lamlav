@@ -106,10 +106,22 @@ const DetailsRwanda= () => {
             </div>
             {
               item.campImg2 === ""? <div/>:
-                <div className="lg:w-1/2">
+                <div className="lg:w-1/2 mr-10">
                     <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
                     <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
                     <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
+                    <span>{item.title}, Rwanda</span>
+                 </div></a>
+                </div>
+
+            }
+
+          {
+              item.campImg3 === ""? <div/>:
+                <div className="lg:w-1/2">
+                    <img src={item.campImg3} alt="Ol Tukai" loading="lazy" />
+                    <a href={item.campId3}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp3}</h1></a>
+                    <a href={item.campId3}><div className=' hover:text-[#f15d30] lg:text-lg'>
                     <span>{item.title}, Rwanda</span>
                  </div></a>
                 </div>

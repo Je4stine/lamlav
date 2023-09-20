@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from "../Footer/Footer";
-import AmboseliN from '../../Assets/Zebra.jpg';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import ImageGallery from 'react-image-gallery';
 import Slider from "react-slick";
 import ShowMoreText from "react-show-more-text";
 import { useParams, Link } from 'react-router-dom';
@@ -101,8 +98,9 @@ const DetailsTz = () => {
             <h1 className=" font-[SourceSerifPro-Black] pt-[50px] text-xl lg:text-4xl m-auto mb-10">Camps and Lodges in {item.title}</h1>
             <hr className="border-black border-[1px]" />
           </div>
-          <div className=" lg:flex">
-            <div className=" mr-10 lg:w-1/2">
+          
+          <div className=" lg:flex ">
+            <div className='lg:w-1/2 mr-10'>
               <img src={item.campImg1} alt="Tortolis Camp" loading="lazy" />
               <a href={item.campId1}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp1}</h1></a>
               <a href={item.campId1}><div className='hover:text-[#f15d30] lg:text-lg'>
@@ -110,15 +108,44 @@ const DetailsTz = () => {
               </div></a>
             </div>
 
+            {
+              item.campId2 == null ? <div/>:
+              <div className='lg:w-1/2 mr-10'>
+                <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
+                <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
+                <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
+                  <span>{item.title}, Tanzania</span>
+                </div></a>
+              </div>
+            }
+           
 
-            <div className="lg:w-1/2">
-              <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
-              <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
-              <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
-                <span>{item.title}, Tanzania</span>
-              </div></a>
-            </div>
+            {
+              item.campId3 == null ? <div/> :
+                  <div div className='lg:w-1/2 mr-10'>
+                    <img src={item.campImg3} alt="Ol Tukai" loading="lazy" />
+                    <a href={item.campId3}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp3}</h1></a>
+                    <a href={item.campId3}><div className=' hover:text-[#f15d30] lg:text-lg'>
+                      <span>{item.title}, Tanzania</span>
+                    </div></a>
+                  </div>
+            }
+
+            {
+              item.campId4 == null ? <div/> :
+                  <div div className='lg:w-1/2 mr-10'>
+                    <img src={item.campImg4} alt="Ol Tukai" loading="lazy" />
+                    <a href={item.campId4}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp4}</h1></a>
+                    <a href={item.campId4}><div className=' hover:text-[#f15d30] lg:text-lg'>
+                      <span>{item.title}, Tanzania</span>
+                    </div></a>
+                  </div>
+            }
+            
+
           </div>
+
+          
 
           <Link to={`/tanzania/lodge/${item.campId1}`}><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
             <span className="">View all Tanzanian Camps and lodges</span>

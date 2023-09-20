@@ -11,6 +11,7 @@ import VolSlide3 from '../../Assets/236198658.jpg';
 import VolSlide4 from '../../Assets/236198635.jpg';
 import Singita from '../../Assets/Kwitonda_slider_2.jpg';
 import Bisate from '../../Assets/61d3450930213952d2d4dd3c_Bisate-Nelson-Travel-4.jpg';
+import Sabyinyo from '../../Assets/Sabyinyo.jpeg';
 
 
 //Akagera
@@ -58,14 +59,17 @@ const RWANDADETAILS = [
         "p3":"",
         "campId1":"/rwanda/lodges/singita",
         "campId2":"/rwanda/lodges/bisate",
+        "campId3":"/rwanda/lodges/sabyinyo",
         "camp1":"Singita Kwitonda Lodge ",
         "camp2":" Bisate Lodge",
+        "camp3":" Sabyinyo Silverback Lodge",
         "slide1":VolSlide1,
         "slide2":VolSlide2,
         "slide3":VolSlide3,
         "slide4":VolSlide4,
         "campImg1":Singita,
-        "campImg2":Bisate
+        "campImg2":Bisate,
+        "campImg3":Sabyinyo
     },
     {
         "id":2,

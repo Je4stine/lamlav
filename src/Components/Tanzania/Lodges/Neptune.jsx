@@ -8,15 +8,15 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination'
 // import Slider from "react-slick";
-import Lodge1 from '../../../Assets/Almanara-2018-15.jpg';
+import Lodge1 from '../../../Assets/lodge-and-pool-1200x900.jpg';
 
-import Lodge2 from '../../../Assets/Almanara1.jpg';
+import Lodge2 from '../../../Assets/suite2-1200x900.jpg';
 
-import Lodge3 from '../../../Assets/Almanara2.jpg';
+import Lodge3 from '../../../Assets/suite1-1200x900.jpg';
 
-import Lodge4 from '../../../Assets/Almanara3.jpg';
+import Lodge4 from '../../../Assets/suite-terrace-LR-1200x900.jpg';
 
-import Lodge5 from '../../../Assets/Almanara4.jpg';
+import Lodge5 from '../../../Assets/suite-bathroom-1200x900.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
 
@@ -129,16 +129,16 @@ const NeptuneNg =()=>{
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge4}/>
+                            <img src={Lodge4} alt="Lodge1"/>
                         </div>
                         <div>
-                        <img src={Lodge2}/>
+                        <img src={Lodge2} alt="Lodge1"/>
                         </div>
                         <div>
-                        <img src={Lodge5}/>
+                        <img src={Lodge5} alt="Lodge1"/>
                         </div>
                         <div>
-                        <img src={Lodge3}/>
+                        <img src={Lodge3} alt="Lodge1"/>
                         </div>
                     </Slider>
                 </div>
