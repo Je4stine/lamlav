@@ -105,7 +105,7 @@ const DetailsRwanda= () => {
               </div></a>
             </div>
             {
-              item.campImg2 === ""? <div/>:
+              item.campImg2 == null? <div/>:
                 <div className="lg:w-1/2 mr-10">
                     <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
                     <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
@@ -117,7 +117,7 @@ const DetailsRwanda= () => {
             }
 
           {
-              item.campImg3 === ""? <div/>:
+              item.campImg3 == null? <div/>:
                 <div className="lg:w-1/2">
                     <img src={item.campImg3} alt="Ol Tukai" loading="lazy" />
                     <a href={item.campId3}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp3}</h1></a>
