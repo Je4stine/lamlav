@@ -57,7 +57,11 @@ function SampleNextArrow(props) {
     );
   }
   
-
+  const imageStyle = {
+   width: '100%', // Fixed width
+   height: '300px',
+   objectFit: 'cover',
+ };
 
 function AllLodges() {
 
@@ -102,156 +106,156 @@ function AllLodges() {
   return (
                 <div className=" mt-10">
                         <Slider {...settings2}>
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Almanara} alt='All lodges' className=' mr-10'/>
+                        <a href='/kenya/almanara' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Almanara} alt='All lodges' className=' mr-10' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Almanara</h1>
-                        </div>
-                        <div className=' flex flex-col p-10 items-center justify-center'>
+                        </a>
+                      <a href='/kenya/elephant' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
-                           <img src={Elephant} alt='All lodges' className=' mr-10'/>
+                           <img src={Elephant} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Elephant Bedroom Samburu </h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
+                      <a href='/kenya/elsa' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
-                           <img src={Elsa} alt='All lodges' className=' mr-10'/>
+                           <img src={Elsa} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Elsa's Kopjelsa</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
+                      <a href='/kenya/finch' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
-                           <img src={Finch} alt='All lodges'/>
+                           <img src={Finch} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Finch Hatton's Luxury Camp</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
+                      <a href='/kenya/giraffe' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
-                           <img src={Giraffe} alt='All lodges'/>
+                           <img src={Giraffe} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Giraffe Manor</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Hemingways} alt='All lodges'/>
+                      <a href='/kenya/hemingways' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Hemingways} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Heminways Nairobi</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Kampi} alt='All lodges'/>
+                      <a href='/kenya/campi' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Kampi} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Kampi ya Kazi</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Kicheche} alt='All lodges'/>
+                      <a href='/kenya/kicheche' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Kicheche} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Kicheche Laikipia Camp</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Kifaru} alt='All lodges'/>
+                      <a href='/kenya/kifaru' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Kifaru} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Kifaru House</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Kilanguni} alt='All lodges'/>
+                      <a href='/kenya/kilanguni' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Kilanguni} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Kilanguni Serena Safari Lodge</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Kinondo} alt='All lodges'/>
+                      <a href='/kenya/kinondo' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Kinondo} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Kinindo Kwetu</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Larsen} alt='All lodges'/>
+                      <a href='/kenya/larsen' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Larsen} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Larsens Camp</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Loldia} alt='All lodges'/>
+                      <a href='/kenya/loldia' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Loldia} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Loldia House & Cottages</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Lewa} alt='All lodges'/>
+                      <a href='/kenya/lewa' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Lewa} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Lewa Safari  Camp.</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Mara} alt='All lodges'/>
+                      <a href='/kenya/marares' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Mara} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Mara</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={MaraPlains} alt='All lodges'/>
+                      <a href='/kenya/maraplains' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={MaraPlains} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Mara Plain Camps</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Mbweha} alt='All lodges'/>
+                      <a href='/kenya/mbweha' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Mbweha} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Mbweha Camp</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Medina} alt='All lodges'/>
+                      <a href='/kenya/medina' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Medina} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Medina Palms</h1>
-                        </div>
+                       </a>
                         
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Neptune} alt='All lodges'/>
+                      <a href='/kenya/neptune' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Neptune} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Neptune Mara Rianta Luxury Tented Camps</h1>
-                        </div>
+                       </a>
                         
-                         <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Norfolk} alt='All lodges'/>
+                       <a href='/kenya/norfolk' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Norfolk} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Fairmount  Norfolk Hotel</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Odonyo} alt='All lodges'/>
+                      <a href='/kenya/oldonyo' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Odonyo} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Ol Donyo Lodge</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Porini} alt='All lodges'/>
+                      <a href='/kenya/porini' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Porini} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Porini Rhino Camp</h1>
-                        </div>
+                       </a>
                         
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Sands} alt='All lodges'/>
+                      <a href='/kenya/sands' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Sands} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Sands</h1>
-                        </div>
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Saasab} alt='All lodges'/>
+                       </a>
+                      <a href='/kenya/sasaab' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Saasab} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Sasaab Samburu</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Tortilis} alt='All lodges'/>
+                      <a href='/kenya/amboseli/tortolis' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Tortilis} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Tortolis Camp</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Waine} alt='All lodges'/>
+                      <a href='/kenya/waine' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Waine} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Waine</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Watamu} alt='All lodges'/>
+                      <a href='/kenya/hemwatamu' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Watamu} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Watamu</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={Olkatai} alt='All lodges'/>
+                      <a href='/kenya/amboseli/oltukai' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={Olkatai} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Ol Tukai  Lodge</h1>
-                        </div>
+                       </a>
 
-                        <div className=' flex flex-col p-10 items-center justify-center'>
-                           <img src={FairMount} alt='All lodges'/>
+                      <a href='/kenya/fairmount' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
+                           <img src={FairMount} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2">Fairmount Mount Kenya</h1>
-                        </div>
+                       </a>
                         
                         </Slider>
-                    </div> 
+                   </div> 
   )
 };
 
