@@ -139,9 +139,7 @@ const DETAILS =[
         "p2":"While renowned for its daring climbing expeditions that attract adventurers each year, the park also offers remarkable opportunities for wildlife viewing. It boasts  of a diverse array of fauna, including Cape buffalos, African bush elephants, blue monkeys, giraffes, gazelles, and various rodent species.",
         "p3":"Moreover, the park provides avenues for exploration through various activities such as game drives, birdwatching, walking safaris, hiking, and cycling. Visitors can also enjoy visits to the scenic Chala crater lake, the picturesque Shira plateau, and the cultural experience of olpopongi.",
         "campId1":"/tanzania/lodges/kilimount",
-        "campId2":"",
         "camp1":"The Kilimanjaro Mountain Resort",
-        "camp2":"",
         "slider1":KiliSlider1,
         "slider2":KiliSlider2,
         "slider3":KiliSlider3,
@@ -191,7 +189,7 @@ const DETAILS =[
     {
         "id":6,
         "image":Ngorongoro,
-        "title":"Ngorongoro Consercation Area",
+        "title":"Ngorongoro Conservation Area",
         "p1":"The Eighth Wonder of the World is a remarkable experience for any traveler exploring the forested slopes of the ancient volcano, leading to the magnificent rim of the Ngorongoro Crater. Suddenly, a breathtaking sight awaits, as you gaze 2,000 feet below at the astonishing and unparalleled view of the immense caldera, a hidden gem until its discovery in 1892. ",
         "p2":" While Ngorongoro's geological past is fascinating, its present state as a tranquil haven for flora and fauna offers an unmatched opportunity for travelers to immerse themselves in Africa's finest safari adventures. Ascending to the rim of the Ngorongoro Crater and beholding the breathtaking vista below is a truly unforgettable experience. The sheer size and natural beauty of the crater, combined with its abundant wildlife, makes it a safari destination of unparalleled excellence.",
         "campId1":"/tanzania/lodges/manor",
