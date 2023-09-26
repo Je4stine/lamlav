@@ -101,119 +101,119 @@ function AllLodgesTz() {
                         <a href='/tanzania/lodges/beho' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Beho} alt='All lodges' className=' mr-10' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Beho Beho Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Nyerere National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nyerere National Park, Tanzania</h1>
                         </a>
                       <a href='/tanzania/lodges/beyond' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Elephant} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">&Beyond Klein's Camp </h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">The Serengeti National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">The Serengeti National Park, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/coffee' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Elsa} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Arusha Coffee Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Arusha, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Arusha, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/crater' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Finch} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Ngorongoro  Crater  Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Ngorongoro, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Ngorongoro, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/greystoke' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Giraffe} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Greystoke Mahale</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Mahale National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Mahale National Park, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/kigelia' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Hemingways} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kigelia Ruaha</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Nyerere National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nyerere National Park, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/kilimount' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kampi} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kilimanjaro  Mountain  Resort</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Kilimanjaro, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Kilimanjaro, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/kilindi' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kicheche} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kilindi</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Zanzibar, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Zanzibar, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/kuro' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kifaru} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kuro Tarangire</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Tarangire, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Tarangire, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/lemala' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kilanguni} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Lemala Ewanjan</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Serengeti National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Serengeti National Park, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/manor' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kinondo} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Manor At Ngorongoro</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Ngorongoro, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Ngorongoro, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/manayarasecret' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Larsen} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Manyarasecret</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Lake Manyara's National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lake Manyara's National Park, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/manyaratree' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Loldia} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Lake Manyara Tree Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Lake Manyara's National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lake Manyara's National Park, Tanzania</h1>
                        </a>
                         
                       <a href='/tanzania/lodges/matemwe' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Lewa} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Matemwe Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Zanzibar, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Zanzibar, Tanzania</h1>
                        </a>
                         
                       <a href='/tanzania/lodges/neptune' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Mara} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Neptune Ngorongoro  Luxury  Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Ngorongoro, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Ngorongoro, Tanzania</h1>
                        </a>
                         
                       <a href='/tanzania/lodges/onsea' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={MaraPlains} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Onsea House</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Arusha, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Arusha, Tanzania</h1>
                        </a>
                         
                       <a href='/tanzania/lodges/sasakwa' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src="https://cdn.audleytravel.com/1050/750/79/257948-sasakwa-hill-lodge.webp" alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Sasakwa Hill Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">The Serengeti National Park, Tanzania </h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">The Serengeti National Park, Tanzania </h1>
                        </a>
                         
                       <a href='/tanzania/lodges/singita' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Medina} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Singita Mara River Tented Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">The Serengeti National Park, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">The Serengeti National Park, Tanzania</h1>
                        </a>
                         
 
                       <a href='/tanzania/lodges/treetop' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Neptune} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Tarangire  Treetops Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Tarangire, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Tarangire, Tanzania</h1>
                        </a>
                         
                                        

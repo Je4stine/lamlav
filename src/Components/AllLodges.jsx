@@ -109,178 +109,178 @@ function AllLodges() {
                         <a href='/kenya/almanara' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Almanara} alt='All lodges' className=' mr-10' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Almanara</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Mombasa, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Mombasa, Kenya</h1>
                         </a>
                       <a href='/kenya/elephant' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Elephant} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Elephant Bedroom Samburu </h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Samburu National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Samburu National Park, Kenya</h1>
                        </a>
 
                       <a href='/kenya/elsa' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Elsa} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Elsa's Kopjelsa</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Meru , Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Meru , Kenya</h1>
                        </a>
 
                       <a href='/kenya/finch' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Finch} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Finch Hatton's Luxury Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Tsavo National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Tsavo National Park, Kenya</h1>
                        </a>
 
                       <a href='/kenya/giraffe' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Giraffe} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Giraffe Manor</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Nairobi, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nairobi, Kenya</h1>
                        </a>
 
                       <a href='/kenya/hemingways' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Hemingways} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Hemingways Nairobi</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Nairobi, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nairobi, Kenya</h1>
                        </a>
 
                       <a href='/kenya/campi' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kampi} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kampi ya Kazi</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Chyullu Hills, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Chyullu Hills, Kenya</h1>
                        </a>
 
                       <a href='/kenya/kicheche' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kicheche} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kicheche Laikipia Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Ol Pejeta Conservancy, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Ol Pejeta Conservancy, Kenya</h1>
                        </a>
 
                       <a href='/kenya/kifaru' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kifaru} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kifaru House</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Lewa Conservancy, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lewa Conservancy, Kenya</h1>
                        </a>
 
                       <a href='/kenya/kilanguni' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kilanguni} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kilanguni Serena Safari Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Tsavo National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Tsavo National Park, Kenya</h1>
                        </a>
 
                       <a href='/kenya/kinondo' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kinondo} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kinondo Kwetu</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Mombasa, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Mombasa, Kenya</h1>
                        </a>
 
                       <a href='/kenya/larsen' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Larsen} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Larsens Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Samburu National Park</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Samburu National Park</h1>
                        </a>
 
                       <a href='/kenya/loldia' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Loldia} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Loldia House & Cottages</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Lake Nakuru and Naivasha, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lake Nakuru and Naivasha, Kenya</h1>
                        </a>
                         
                       <a href='/kenya/lewa' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Lewa} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Lewa Safari  Camp.</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Lewa Conservancy, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lewa Conservancy, Kenya</h1>
                        </a>
                         
                       <a href='/kenya/marares' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Mara} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Mara Serena Safari Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Maasai Mara National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Maasai Mara National Park, Kenya</h1>
                        </a>
                         
                       <a href='/kenya/maraplains' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={MaraPlains} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Mara Plain Camps</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Maasai Mara National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Maasai Mara National Park, Kenya</h1>
                        </a>
                         
                       <a href='/kenya/mbweha' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Mbweha} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Mbweha Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Lake Nakuru and Naivasha, Kenya </h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lake Nakuru and Naivasha, Kenya </h1>
                        </a>
                         
                       <a href='/kenya/medina' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Medina} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Medina Palms</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Watamu, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Watamu, Kenya</h1>
                        </a>
                         
 
                       <a href='/kenya/neptune' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Neptune} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Neptune Mara Rianta Luxury Tented Camps</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Maasai Mara National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Maasai Mara National Park, Kenya</h1>
                        </a>
                         
                        <a href='/kenya/norfolk' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Norfolk} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Fairmount  Norfolk Hotel</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Nairobi, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nairobi, Kenya</h1>
                        </a>
                         
                       <a href='/kenya/oldonyo' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Odonyo} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Ol Donyo Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Chyullu Hills, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Chyullu Hills, Kenya</h1>
                        </a>
                         
                       <a href='/kenya/porini' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Porini} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Porini Rhino Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Ol pejeta, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Ol pejeta, Kenya</h1>
                        </a>
                         
                       <a href='/kenya/sands' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Sands} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">The Sands at Nomad</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Mombasa, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Mombasa, Kenya</h1>
                        </a>
                       <a href='/kenya/sasaab' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Saasab} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Sasaab Samburu</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Samburu National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Samburu National Park, Kenya</h1>
                        </a>
 
                       <a href='/kenya/amboseli/tortolis' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Tortilis} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Tortolis Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Amboselli National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Amboseli National Park, Kenya</h1>
                        </a>
 
                       <a href='/kenya/waine' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Waine} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">House of Waine</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Nairobi, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nairobi, Kenya</h1>
                        </a>
 
                       <a href='/kenya/hemwatamu' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Watamu} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Hemingways Hotel Watamu</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Watamu, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Watamu, Kenya</h1>
                        </a>
 
                       <a href='/kenya/amboseli/oltukai' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Olkatai} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Ol Tukai  Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Amboselli National Park, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Amboseli National Park, Kenya</h1>
                        </a>
 
                       <a href='/kenya/fairmount' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={FairMount} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Fairmount Mount Kenya</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-400 uppercase">Mount Kenya, Kenya</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Mount Kenya, Kenya</h1>
                        </a>
                         
                         </Slider>
