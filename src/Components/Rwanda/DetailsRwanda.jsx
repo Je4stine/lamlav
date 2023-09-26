@@ -11,11 +11,18 @@ import ShowMoreText from "react-show-more-text";
 import { useParams, Link } from 'react-router-dom';
 
 import DETAILS from "./detailsdata";
+import AllLodgesRw from "../AllLodgesRw";
 
 const DetailsRwanda= () => {
   const [colorChanged, setColorChanged] = useState(false);
   const { itemId} = useParams();
   const item = DETAILS.find((item) => item.id === parseInt(itemId));
+
+  const [open, setOpen] = useState(false)
+
+  const toggleLodges =()=>{
+        setOpen(!open)
+    };
   
   
 
@@ -131,9 +138,17 @@ const DetailsRwanda= () => {
             
           </div>
 
-          <Link to={`/tanzania/lodge/${item.campId1}`}><div className=' mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
-            <span className="">View all Rwandan Camps and lodges</span>
-          </div></Link>
+          <div onClick={toggleLodges} className=' cursor-pointer mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
+                                <span className="">View all Rwanda Camps and lodges</span>
+                      </div>
+
+                      <div
+                            className={`${
+                            open ? 'opacity-100' : 'opacity-0'
+                            } transition-all duration-500`}
+                        >
+                        {open?<AllLodgesRw/>:<div/>} 
+                      </div> 
 
         </div>
 
