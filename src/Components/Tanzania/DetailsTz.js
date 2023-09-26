@@ -156,7 +156,7 @@ const DetailsTz = () => {
 
 
            <div onClick={toggleLodges} className=' cursor-pointer mt-10 border-[#f15d30] border-[1px] text-[#f15d30] font-bold text-lg rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] min-w-[100px] p-10 flex items-center justify-center m-auto'>
-                                <span className="">View all Kenya Camps and lodges</span>
+                                <span className="">View all Tanzania Camps and lodges</span>
                       </div>
 
                       <div
