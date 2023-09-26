@@ -121,7 +121,7 @@ function AllLodges() {
                       <a href='/kenya/elsa' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Elsa} alt='All lodges' className=' mr-10'  style={imageStyle}/>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Elsa's Kopjelsa</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Elsa's Kopje</h1>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Meru , Kenya</h1>
                        </a>
 

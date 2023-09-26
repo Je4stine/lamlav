@@ -237,7 +237,7 @@ const DETAILS =[
     {
         "id":8,
         "image":Tarangire,
-        "title":"Tarangire Naitiona Park",
+        "title":"Tarangire Naitional Park",
         "p1":"Tarangire National Park's appeal lies in its vast  number  of  elephant herds and it's  breathtaking landscapes, featuring golden savannah adorned  acacias, rocky outcrops, and the iconic Baobab trees. The Tarangire River sustains a diverse array of wildlife during the dry season, creating a wildlife spectacle unlike any other.The abundance of herbivores attracts predators such as lions, leopards, and cheetahs, resulting in thrilling wildlife interactions and predator-prey dynamics. Additionally, the park boasts of an impressive variety of 550 bird species and astonishingly tall termite mounds, which may seem unassuming but are certain to amaze any traveler with their sheer size and ingenuity. Exploring the park on foot with  knowledgeable  Lamlav  Safari  guide enhances the safari experience and allows visitors to appreciate the intricacies of this unique ecosystem.",
         "p2":" ",
         "p3":" ",
