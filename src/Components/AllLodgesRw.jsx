@@ -93,70 +93,70 @@ function AllLodgesRw() {
                         <a href='/rwanda/lodges/bisate' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Almanara} alt='All lodges' className=' mr-10' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Bisate Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Volcanoes National Park, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Volcanoes, Rwanda</h1>
                         </a>
                       <a href='/rwanda/lodges/cleo' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Elephant} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Cleo Lake Kivu Hotel </h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lake Kivu, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Lake Kivu, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/forest' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Elsa} alt='All lodges' className=' mr-10'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Nyungwe Forest Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nyungwe Forest National Park, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Nyungwe, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/kigaliserena' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Finch} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kigali Serena Hotel</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Kigali, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Kigali, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/kivu' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
 
                            <img src={Giraffe} alt='All lodges'  style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Lake Kivu Serena Hotel</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Lake Kivu, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Lake Kivu, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/magashi' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Hemingways} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Magashi Camp</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Akagera National Park, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Akagera, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/mantis' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kampi} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Mantis Akagera Game Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Akagera National Park, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Akagera, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/marriott' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kicheche} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Kigali Marriott Hotel</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Kigali, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Kigali, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/nyungwe' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kifaru} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">One&Only Nyungwe House</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Nyungwe Forest National Park, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Nyungwe, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/sabyinyo' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src='https://www.africanwelcomesafaris.com/wp-content/uploads/2019/10/Sabyinyo-Silverback-Lodge-2.jpg' alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Sabyinyo Silverback Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Volcanoes National Park, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Volcanoes, Rwanda</h1>
                        </a>
 
                       <a href='/rwanda/lodges/singita' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Kinondo} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Singita Kwitonda Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-xl mt-2 text-gray-600 uppercase">Volcanoes National Park, Rwanda</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Volcanoes, Rwanda</h1>
                        </a>
 
                     

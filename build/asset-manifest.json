@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a19b43c9.css",
-    "main.js": "/static/js/main.fdbf16d3.js",
+    "main.css": "/static/css/main.7e224aa7.css",
+    "main.js": "/static/js/main.d745ffca.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Pool2.jpg": "/static/media/Pool2.0e91b0069f3b90d96895.jpg",
     "static/media/Banda Plunge Pool.jpg": "/static/media/Banda Plunge Pool.743067fabfb2d27ade6d.jpg",
@@ -513,6 +513,7 @@
     "static/media/Elewana-Kifaru-2018-117.1.jpg": "/static/media/Elewana-Kifaru-2018-117.1.7a740ac70092c4699e15.jpg",
     "static/media/261061-hippo-basking-murchison-falls-national-park.jpg": "/static/media/261061-hippo-basking-murchison-falls-national-park.4b555773140fe8146b62.jpg",
     "static/media/292835065.jpg": "/static/media/292835065.95aa43f7ea1cf4db0600.jpg",
+    "static/media/KENVO.png": "/static/media/KENVO.bf027974383c9ccca2bd.png",
     "static/media/Kleins-camp-serengeti-romantic-dinner-1024x576.jpg": "/static/media/Kleins-camp-serengeti-romantic-dinner-1024x576.40380226c9e6f1ea1792.jpg",
     "static/media/249718178.jpg": "/static/media/249718178.d95cb322ec7f00154dc5.jpg",
     "static/media/volcanoes-safaris-mount-gahinga-lodge-night-time-view-outside.jpg": "/static/media/volcanoes-safaris-mount-gahinga-lodge-night-time-view-outside.81e88a84ed412656454e.jpg",
@@ -689,6 +690,7 @@
     "static/media/watamu4.jpeg": "/static/media/watamu4.8522de63835a3af935d2.jpeg",
     "static/media/chyullu.jpg": "/static/media/chyullu.7a0a411721f09a2e5f39.jpg",
     "static/media/Angama_Mara_2018_086_rbludk-1-768x512.jpg.jpeg": "/static/media/Angama_Mara_2018_086_rbludk-1-768x512.jpg.c3e5874f6e7a82a03b72.jpeg",
+    "static/media/BirdLife_International_logo-700x520.png": "/static/media/BirdLife_International_logo-700x520.1c7be89d171c8aaa9d4a.png",
     "static/media/beachhouse_fresh_meals_5.jpg": "/static/media/beachhouse_fresh_meals_5.a5139b542e59797bca2b.jpg",
     "static/media/502213485_maldives.jpg": "/static/media/502213485_maldives.ad0f7436f60b42fdbdae.jpg",
     "static/media/Day77.jpeg": "/static/media/Day77.7988a5b1040c421d3a9d.jpeg",
@@ -696,6 +698,8 @@
     "static/media/1019832-male-chimpanzee-in-kibale-forest-national-park-uganda.jpg": "/static/media/1019832-male-chimpanzee-in-kibale-forest-national-park-uganda.c5ebef22c5e6ed42938d.jpg",
     "static/media/kinindo.jpg": "/static/media/kinindo.9082dc8a7842767f4452.jpg",
     "static/media/porini.jpg": "/static/media/porini.2ed42b19544d153137d2.jpg",
+    "static/media/north.png": "/static/media/north.b3f4ec9f27b6142f5bac.png",
+    "static/media/Kenya_Airways-Logo.wine.png": "/static/media/Kenya_Airways-Logo.wine.31dfa9f48c02084628fa.png",
     "static/media/Credit-Marcus-Westburg-Dec-2015-11.jpg": "/static/media/Credit-Marcus-Westburg-Dec-2015-11.fa3ccc7da8b5a53e16e7.jpg",
     "static/media/Property gallery 975X600 (3).jpg": "/static/media/Property gallery 975X600 (3).b3babda59bdafd762192.jpg",
     "static/media/378314575.jpg": "/static/media/378314575.20dca1f877cf4dfc60b1.jpg",
@@ -719,20 +723,28 @@
     "static/media/images (14).jpeg": "/static/media/images (14).80e25d365b41dac6276f.jpeg",
     "static/media/Day888.jpeg": "/static/media/Day888.c2ad2f99402af0e27aa8.jpeg",
     "static/media/images (24).jpeg": "/static/media/images (24).ddd957b41e620ed8f43e.jpeg",
+    "static/media/British_Airways-Logo.png": "/static/media/British_Airways-Logo.e6599a098b31208a0095.png",
+    "static/media/expert.png": "/static/media/expert.7546ccb064b96e5c0add.png",
+    "static/media/travel-and-tourism.png": "/static/media/travel-and-tourism.c9b5e62911e462c8a2e8.png",
     "static/media/sitemap1.png": "/static/media/sitemap1.1e0d889c4ee281613a8f.png",
+    "static/media/quality-service.png": "/static/media/quality-service.613b9550865c27f2fa88.png",
     "static/media/profile.jpg": "/static/media/profile.475619cac078c65e4301.jpg",
+    "static/media/ugwildlife.png": "/static/media/ugwildlife.89495be5f68b0721bf80.png",
+    "static/media/RWCA.png": "/static/media/RWCA.d6e0f391ecf13ca94be7.png",
+    "static/media/customer-service.png": "/static/media/customer-service.67861dea931b49eaf748.png",
+    "static/media/lewa.png": "/static/media/lewa.b5a26d15e3a2c8c18687.png",
     "static/media/kanairo-black.svg": "/static/media/kanairo-black.f7a2c9276cc7ebc7489247d74c0335cc.svg",
     "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.a19b43c9.css.map": "/static/css/main.a19b43c9.css.map",
-    "main.fdbf16d3.js.map": "/static/js/main.fdbf16d3.js.map",
+    "main.7e224aa7.css.map": "/static/css/main.7e224aa7.css.map",
+    "main.d745ffca.js.map": "/static/js/main.d745ffca.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a19b43c9.css",
-    "static/js/main.fdbf16d3.js"
+    "static/css/main.7e224aa7.css",
+    "static/js/main.d745ffca.js"
   ]
 }
