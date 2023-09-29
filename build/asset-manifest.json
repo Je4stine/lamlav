@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e224aa7.css",
-    "main.js": "/static/js/main.d745ffca.js",
+    "main.css": "/static/css/main.34451b3d.css",
+    "main.js": "/static/js/main.0240a0b1.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Pool2.jpg": "/static/media/Pool2.0e91b0069f3b90d96895.jpg",
     "static/media/Banda Plunge Pool.jpg": "/static/media/Banda Plunge Pool.743067fabfb2d27ade6d.jpg",
@@ -425,6 +425,7 @@
     "static/media/_Kigelia-Ruaha-23.jpg": "/static/media/628b581829afba6c79b12ddb_Kigelia-Ruaha-23.a8524ccbe033ebab6599.jpg",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.9e41987fd50233ee8c4c.jpg",
     "static/media/236198635.jpg": "/static/media/236198635.ce5fb5a43b9964ee36bb.jpg",
+    "static/media/logo.png": "/static/media/logo.f89db1047e79a7e846f6.png",
     "static/media/ArushaCoffeeLodge---Coffee-Tour.jpg": "/static/media/ArushaCoffeeLodge---Coffee-Tour.24d45e56caee30976729.jpg",
     "static/media/IMG_0995.jpg": "/static/media/IMG_0995.a5e3c4e6f995247e4ba7.jpg",
     "static/media/attr_2096.jpg": "/static/media/attr_2096.3ebd5b448f0389172597.jpg",
@@ -739,12 +740,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.7e224aa7.css.map": "/static/css/main.7e224aa7.css.map",
-    "main.d745ffca.js.map": "/static/js/main.d745ffca.js.map",
+    "main.34451b3d.css.map": "/static/css/main.34451b3d.css.map",
+    "main.0240a0b1.js.map": "/static/js/main.0240a0b1.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e224aa7.css",
-    "static/js/main.d745ffca.js"
+    "static/css/main.34451b3d.css",
+    "static/js/main.0240a0b1.js"
   ]
 }

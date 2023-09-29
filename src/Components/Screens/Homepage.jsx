@@ -17,6 +17,8 @@ import Intro from "../Intro/Intro";
 import Callfor from "../Contact/Callfor";
 import Partners from "../Partners";
 
+import DATA from "../Testmonials/Data";
+
 const Homepage =()=>{
     const [colorChanged, setColorChanged]= useState(false);
 
@@ -43,11 +45,11 @@ const Homepage =()=>{
             <Countries/>
             <Destination/>
             <Callfor/>
-            <Testimonials/>
+            <Testimonials testimonials={DATA}/>
             <GetInTouch/>
             <Partners/>
             <ChatBot/>
-            <div>
+            <div className=" bg-[#fff]">
                 <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             </div>
             <Footer/>

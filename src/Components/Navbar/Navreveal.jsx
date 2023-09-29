@@ -4,6 +4,8 @@ import {HiMenu} from 'react-icons/hi';
 
 import {AiOutlinePhone} from 'react-icons/ai';
 
+import Logo from '../../Assets/Logos/logo.png'
+
 
 const Navbar =()=>{
     const [isOpen, setIsopen]=useState(false);
@@ -14,17 +16,18 @@ const Navbar =()=>{
     }
 
     return (
-        <nav className=" w-full top-0 z-[1] lg:flex lg:justify-between lg:bg-white bg-white px-5 h-[60px] sticky shadow-lg">
+        <nav className=" w-full top-0 z-[1] lg:flex lg:justify-between lg:bg-white bg-white px-5 min-h-[60px] sticky shadow-lg">
             <div className=' flex justify-between items-center relative' >
+                <a href='/'><img src={Logo} alt="Lamlav logo" className=' h-[100px]'/></a>
                 <h1 className=" mx-4 lg:my-6 font-bold text-xl text-black lg:text-black my-3 font-[SourceSerifPro-Black]"><a href='/'>Lamlav Leisure Safaris</a></h1>
                 <span  className=' cursor-pointer block lg:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>
-                <div className=' hidden lg:inline absolute left-[300px] border-black border-x-[1px] px-5'>
+                <div className=' hidden lg:inline absolute lg:left-[400px] border-black border-x-[1px] px-5'>
                     <div className=' flex flex-col justify-center items-center'>
                     <div className=' flex justify-center items-center'>
                             <AiOutlinePhone color='#000'/>
-                         <h1 className=' font-bold'> +254716251932 </h1>
+                         <a href="https://wa.me/+254716251932" className=' cursor-pointer'><h1 className=' font-bold'> +254716251932 </h1></a>
                     </div>
                     <h1 className=' font-bold'>Plan for a safari</h1>
                     </div>
@@ -49,7 +52,7 @@ const Navbar =()=>{
                             <a href="/contacts" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/contacts" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Plan for a trip call +254716251932</a> 
+                            <a href="https://wa.me/+254716251932" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Plan for a trip call +254716251932</a> 
                         </li>
                     </ul> 
                 :

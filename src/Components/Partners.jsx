@@ -19,34 +19,35 @@ import WFP from '../Assets/Logos/WFP.png'
 
 function Partners() {
   return (
-    <div className=' py-5 px-2 bg-[#d3d3d3] flex flex-col justify-center '>
+    <div className=' py-5 px-2 bg-[#fff] flex flex-col justify-center'>
         <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 '>WHY LAMALAV</h1></div>
         <div className='lg:flex justify-around'>
             <div className=' flex flex-col items-center '>
             <div className=' rounded-full bg-gray-300 p-3'><img src={Expert} alt='expert' className=' h-[80px]'/></div>
-                <p className=' font-bold'>Passionate Local Experts </p>
-                <p className=' text-center'> World class  specialists and local guides<br/> who have travelled extensively and<br/> reside in their specialist  regions</p>
+                <p className=' font-bold font-[SourceSerifPro-Regular]'>Passionate Local Experts </p>
+                <p className=' text-center font-[SourceSerifPro-Regular]'> World class  specialists and local guides<br/> who have travelled extensively and<br/> reside in their specialist  regions</p>
             </div>
             <div className=' flex flex-col items-center '>
                 <div className=' rounded-full bg-gray-300 p-3'><img src={Service} alt='expert' className=' h-[80px]'/></div>
-                <p className=' font-bold'>Bespoke Services </p>
-                <p className=' text-center'>Customised Iteneraries crafted exclusively<br/>  for your travel needs, preferences and<br/> budget.</p>
+                <p className=' font-bold font-[SourceSerifPro-Regular]'>Bespoke Services </p>
+                <p className=' text-center font-[SourceSerifPro-Regular]'>Customised Iteneraries crafted exclusively<br/>  for your travel needs, preferences and<br/> budget.</p>
             </div>
             <div className=' flex flex-col items-center'>
                 <div className=' rounded-full bg-gray-300 p-3'><img src={Travel} alt='expert' className=' h-[80px]'/></div>
-                <p className=' font-bold'>Responsible Tourism </p>
-                <p className=' text-center'>Preserving biodiversity  and bolstering <br/>local communities </p>
+                <p className=' font-bold font-[SourceSerifPro-Regular]'>Responsible Tourism </p>
+                <p className=' text-center font-[SourceSerifPro-Regular]'>Preserving biodiversity  and bolstering <br/>local communities </p>
             </div>
             <div className=' flex flex-col items-center'>
                 <div className=' rounded-full bg-gray-300 p-3'><img src={Customer} alt='expert' className=' h-[80px]'/></div>
                 <p className=' font-bold'>Trusted Service </p>
-                <p className=' '>
+                <p className=' font-[SourceSerifPro-Regular]'>
                     <li>24/7 expert advise </li>
                     <li>Specialised 4×4 Safari vehicles </li>
                     <li>Full financial protection </li>
                 </p>
             </div>
         </div>
+        <hr className='mt-10'/>
         <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 mt-10'>Our Prefered Partners</h1></div>
         
         <div className=' flex justify-around flex-wrap mb-10 items-center'>
@@ -105,6 +106,7 @@ function Partners() {
                          
                     </div>
         </div>
+        <hr className=' mb-10'/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 const GetInTouch =()=>{
     return (
-        <div className=" md:p-10 flex flex-col justify-center items-center">
+        <div className=" md:p-10 flex flex-col justify-center items-center bg-[#d3d3d3]">
             <h1 className="my-[50px] font-bold text-5xl max-[768px]:text-xl max-[768px]:my-10">Get in touch with us</h1>
             <div className=" flex flex-col flex-1 p-10">
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" id="Contact">
