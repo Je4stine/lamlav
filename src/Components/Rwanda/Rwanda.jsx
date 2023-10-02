@@ -7,6 +7,7 @@ import Tz from '../../Assets/rwanda.jpg';
 
 import RWANDADATA from "./rwandadata";
 import { Link } from "react-router-dom";
+import Partners from "../Partners";
 
 const Rwanda =()=> {
   const [colorChanged, setColorChanged]= useState(false);
@@ -44,7 +45,7 @@ const Rwanda =()=> {
  
 
     return (
-      <div>
+      <div className=" bg-white">
           {
               colorChanged ? <Navreveal/> : <Navbar/>
           }
@@ -91,10 +92,7 @@ const Rwanda =()=> {
                               <span>Explore more</span>
                             </div>
                           </Link>
-                        </div>
-
-                     
-                           
+                        </div>    
                       </div>
                      
                       <hr className="h-px my-8 border-0 bg-gray-300 w-full" />
@@ -104,6 +102,56 @@ const Rwanda =()=> {
               }
             </section>
         </div>
+
+        <div className="bg-white px-10">
+              <div>
+                <h1 className="font-[SourceSerifPro-Black] text-3xl">Best time to visit Rwanda</h1>
+              </div>
+              <p className="font-[SourceSerifPro-Regular] text-lg py-6">
+              Irrespective of the season, embarking on a trek to witness mountain gorillas and chimpanzees in Rwanda is a truly extraordinary experience, available throughout the year. For the best chances of encountering the country's notable highlight, the mountain gorilla, it is recommended to choose the drier period from June to September when hiking conditions are more favorable. 
+              <br/><br/>The Optimal times for tracking chimpanzees, along with a quieter atmosphere, coincide with the rainy seasons from March to May and in November.
+              </p>
+              <div className=" bg-gray-100 py-10">
+              <div className="  flex justify-around mb-8">
+                <p className="font-[SourceSerifPro-Black]">Jan</p>
+                <p className="font-[SourceSerifPro-Black]">Feb</p>
+                <p className="font-[SourceSerifPro-Black]">Mar</p>
+                <p className="font-[SourceSerifPro-Black]">Apr</p>
+                <p className="font-[SourceSerifPro-Black]">May</p>
+                <p className="font-[SourceSerifPro-Black]">Jun</p>
+                <p className="font-[SourceSerifPro-Black]">Jul</p>
+                <p className="font-[SourceSerifPro-Black]">Aug</p>
+                <p className="font-[SourceSerifPro-Black]">Sep</p>
+                <p className="font-[SourceSerifPro-Black]">Oct</p>
+                <p className="font-[SourceSerifPro-Black]">Nov</p>
+                <p className="font-[SourceSerifPro-Black]">Dec</p>
+              </div>
+              <div className="  flex justify-around">
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+              </div>
+              </div>
+              <div className=" flex justify-evenly my-10"> 
+                 <p>Excellent time</p>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <p>Good</p>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+                  <p>Mixed</p>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+              </div>
+            </div>
+            <hr/>
+            <Partners/>
           <div>
               <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
           </div>

@@ -5,6 +5,7 @@ import Navreveal from "../Navbar/Navreveal";
 import Tz from '../../Assets/tanzania_safari.jpg';
 import DATA from './data';
 import { Link } from "react-router-dom";
+import Partners from "../Partners";
 
 const Tanzania =()=> {
   const [colorChanged, setColorChanged]= useState(false);
@@ -42,7 +43,7 @@ const Tanzania =()=> {
  
 
     return (
-      <div>
+      <div className=" bg-white">
           {
               colorChanged ? <Navreveal/> : <Navbar/>
           }
@@ -107,6 +108,56 @@ const Tanzania =()=> {
               }
             </section>
         </div>
+
+        <div className="bg-white px-10">
+              <div>
+                <h1 className="font-[SourceSerifPro-Black] text-3xl">Best time to visit Tanzania</h1>
+              </div>
+              <p className="font-[SourceSerifPro-Regular] text-lg py-6">
+              The peak months for witnessing the iconic Great Migration river crossings in the Serengeti are from July to September. The dry season, spanning from June to October, marks prime time for optimal game sightings, while the period from November to March offers lush landscapes and a more secluded experience. 
+              <br/><br/>The only period typically avoided is between April and May, when heavy rains may disrupt wildlife viewing. This time, however, is ideal for birdwatching as migratory species arrive, and it offers the opportunity to observe Great Migration herds with their newly born calves.
+              </p>
+              <div className=" bg-gray-100 py-10">
+              <div className="  flex justify-around mb-8">
+                <p className="font-[SourceSerifPro-Black]">Jan</p>
+                <p className="font-[SourceSerifPro-Black]">Feb</p>
+                <p className="font-[SourceSerifPro-Black]">Mar</p>
+                <p className="font-[SourceSerifPro-Black]">Apr</p>
+                <p className="font-[SourceSerifPro-Black]">May</p>
+                <p className="font-[SourceSerifPro-Black]">Jun</p>
+                <p className="font-[SourceSerifPro-Black]">Jul</p>
+                <p className="font-[SourceSerifPro-Black]">Aug</p>
+                <p className="font-[SourceSerifPro-Black]">Sep</p>
+                <p className="font-[SourceSerifPro-Black]">Oct</p>
+                <p className="font-[SourceSerifPro-Black]">Nov</p>
+                <p className="font-[SourceSerifPro-Black]">Dec</p>
+              </div>
+              <div className="  flex justify-around">
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+              </div>
+              </div>
+              <div className=" flex justify-evenly my-10"> 
+                 <p>Excellent time</p>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-green-400"></div>
+                  <p>Good</p>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-yellow-300"></div>
+                  <p>Mixed</p>
+                  <div className=" h-[20px] w-[20px] rounded-full bg-gray-400"></div>
+              </div>
+            </div>
+            <hr/>
+            <Partners/>
           <div>
               <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
           </div>
