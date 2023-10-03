@@ -19,7 +19,7 @@ const Navbar =()=>{
         <nav className=" w-full top-0 z-[1] lg:flex lg:justify-between lg:bg-white bg-white px-5 min-h-[60px] sticky shadow-lg">
             <div className=' flex justify-between items-center relative' >
                 <a href='/'><img src={Logo} alt="Lamlav logo" className=' h-[100px]'/></a>
-                <h1 className=" mx-4 lg:my-6 font-bold text-xl text-black lg:text-black my-3 font-[SourceSerifPro-Black]"><a href='/'>Lamlav Leisure Safaris</a></h1>
+                <h1 className="hidden lg:inline mx-4 lg:my-6 font-bold text-xl text-black lg:text-black my-3 font-[SourceSerifPro-Black]"><a href='/'>Lamlav Leisure Safaris</a></h1>
                 <span  className=' cursor-pointer block lg:hidden' onClick={Toggle}>
                     <HiMenu size={30}/>
                 </span>
