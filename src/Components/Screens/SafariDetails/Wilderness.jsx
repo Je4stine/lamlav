@@ -30,6 +30,7 @@ import Maara from '../../../Assets/Maara.jpg';
 
 
 import Faq from "react-faq-component";
+import Partners from "../../Partners";
 
 const Wilderness =()=>{
     const data = {
@@ -409,7 +410,8 @@ The great migration is one of the most impressive natural events involving 2mill
                         />
                     </div>
                 </div>
-            </div> 
+            </div>
+            <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>
         </div>

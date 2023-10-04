@@ -14,6 +14,8 @@ import ChatBot from '../../ChatBot/ChatBot';
 
 import {AiOutlineArrowDown} from 'react-icons/ai';
 
+import Partners from "../../Partners";
+
 
 const Safaris =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -28,7 +30,7 @@ const Safaris =()=>{
     window.addEventListener('scroll', changeNavbarColor);
 
     return (
-        <div>
+        <div className = " bg-white">
            {
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
@@ -44,6 +46,7 @@ const Safaris =()=>{
                 <Destinations/>
            </div>
            <ChatBot/>
+           <Partners/>
            <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             </div>

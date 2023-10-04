@@ -27,6 +27,7 @@ import Ngoro1 from '../../../Assets/Day99.jpg';
 import Loudge from "../../../Assets/Day55.jpeg";
 
 import Faq from "react-faq-component";
+import Partners from "../../Partners";
 
 const Migration =()=>{
     const data = {
@@ -416,6 +417,7 @@ const Migration =()=>{
                     </div>
                 </div>
             </div> 
+                <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>
         </div>

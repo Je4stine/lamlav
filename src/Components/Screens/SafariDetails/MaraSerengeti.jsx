@@ -43,6 +43,7 @@ import Site1 from "../../../Assets/sitemap1.png";
 import Faq from "react-faq-component";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Partners from "../../Partners";
 
 const Mara =()=>{
     
@@ -446,6 +447,7 @@ const Mara =()=>{
                     </div>
                 </div>
             </div> 
+                <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>
         </div>

@@ -16,6 +16,7 @@ import Luxury from '../../../Assets/luxury.jpg';
 
 import About2 from '../../../Assets/about2.jpg';
 import Callfor from "../../Contact/Callfor";
+import Partners from "../../Partners";
 
 
 
@@ -99,9 +100,7 @@ const AboutUs =()=>{
                
            </div>
            <Callfor/>
-           <h1 className=" text-4xl font-[SourceSerifPro-Black] mb-3 mx-[50px]">
-                    Our Partners
-                </h1>
+           <Partners/>
            <ChatBot/>
            <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Footer from "../../Footer/Footer";
 import Navbar from "../../Navbar/Navbar";
 import Navreveal from "../../Navbar/Navreveal";
+import Partners from '../../Partners';
 
 const FAQs =()=>{
 
@@ -287,7 +288,7 @@ const FAQs =()=>{
         </section>
 
 
-
+            <Partners/>
             <div className=' '>
                 <div class="bg-white dark:bg-gray-900" >
                     <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>

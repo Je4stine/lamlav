@@ -35,6 +35,7 @@ import Scuba from '../../../Assets/Scuba.jpg';
 import HemNai from '../../../Assets/HemNai.jpg';
 
 import Arabuko from '../../../Assets/Arabuko.jpg';
+import Partners from "../../Partners";
 
 const Honeymoon =()=>{
     const data = {
@@ -470,6 +471,7 @@ const Honeymoon =()=>{
                     </div>
                 </div>
             </div> 
+                <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>
         </div>

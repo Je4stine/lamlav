@@ -32,13 +32,13 @@ const Intro =()=>{
                 </div>
             </div>
             <div className=' mt-10 lg:flex justify-around'>
-                <a href='https://wa.me/+254716251932'><div className=" bg-green-600 rounded-md py-3 px-2 flex items-center justify-center mb-10 cursor-pointer">
+                <a href='https://wa.me/+254716251932'><div className=" bg-green-600 rounded-md py-3 px-2 flex items-center justify-center mb-10 cursor-pointer lg:w-[300px]">
                     <RiWhatsappFill color='#fff' size={30} className=' mr-2'/>
-                    <p className=' text-white font-bold'>Call us/ WhatsApp us</p>
+                    <p className=' text-white font-bold'>CALL / WHATSAPP US</p>
                 </div></a>
-                <a href="https://wa.me/+254716251932" ><div className=" bg-green-600 rounded-md py-3 px-2 flex items-center justify-center mb-10 cursor-pointer">
+                <a href="https://wa.me/+254716251932" ><div className=" bg-green-600 rounded-md py-3 px-2 flex items-center justify-center mb-10 cursor-pointer lg:w-[300px]">
                     <BsQuestionCircleFill color='#fff' size={20} className=' mr-2'/>
-                    <p className=' text-white font-bold'>Enquire</p>
+                    <p className=' text-white font-bold'>ENQUIRE</p>
                 </div></a>
             </div>
             <hr className=' mt-10'/>

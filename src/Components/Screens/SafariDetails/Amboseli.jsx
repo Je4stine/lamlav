@@ -37,6 +37,7 @@ import Gedi from '../../../Assets/Gedi.jpg';
 import Surf from '../../../Assets/Surf.jpg';
 
 import Lava from '../../../Assets/Day8.1.jpg';
+import Partners from "../../Partners";
 
 const Amboseli =()=>{
     const data = {
@@ -503,6 +504,7 @@ const Amboseli =()=>{
                     </div>
                 </div>
             </div> 
+            <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>
         </div>
