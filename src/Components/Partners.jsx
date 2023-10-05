@@ -17,10 +17,94 @@ import RWCA from '../Assets/Logos/RWCA.png'
 import UG from '../Assets/Logos/ugwildlife.png'
 import WFP from '../Assets/Logos/WFP.png'
 
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 function Partners() {
+    const logos = [
+        {
+            "id":1,
+            "image":Birdlife
+        },
+        {
+            "id":2,
+            "image":British
+        },
+        {
+            "id":3,
+            "image":Eko
+        },
+        {
+            "id":4,
+            "image":KENVO
+        },
+        {
+            "id":5,
+            "image":Airways
+        },
+        {
+            "id":6,
+            "image":EAWLS
+        },
+        {
+            "id":7,
+            "image":KWS
+        },
+        {
+            "id":8,
+            "image":Lewa
+        },
+
+        {
+            "id":9,
+            "image":NOrth
+        },
+
+        {
+            "id":10,
+            "image":RWCA
+        },
+        {
+            "id":11,
+            "image":UG
+        },
+        {
+            "id":12,
+            "image":WFP
+        },
+    ];
+
+
+    const settings = {
+            dots: false,
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 2000,
+            autoplaySpeed: 2000,
+            cssEase: "linear",
+            // responsive: [
+            // {
+            //     breakpoint: 1024,
+            //     settings: {
+            //     slidesToShow: 3,
+            //     },
+            // },
+            // {
+            //     breakpoint: 640,
+            //     settings: {
+            //     slidesToShow: 2,
+            //     },
+            // },
+            // ],
+      };
+
   return (
     <div className=' py-5 px-2 bg-[#fff] flex flex-col justify-center'>
-        <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 '>WHY LAMALAV</h1></div>
+        <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 '>WHY LAMLAV</h1></div>
         <div className='lg:flex justify-around'>
             <div className=' flex flex-col items-center '>
             <div className=' rounded-full bg-gray-300 p-3'><img src={Expert} alt='expert' className=' h-[80px]'/></div>
@@ -49,62 +133,21 @@ function Partners() {
         </div>
         <hr className='mt-10'/>
         <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 mt-10'>Our Prefered Partners</h1></div>
-        
-        <div className=' flex justify-around flex-wrap mb-10 items-center'>
-            <div className=" flex items-center mb-10 flex-grow">
-                <img src={Birdlife} alt='Partner logo' className=' h-[80px]'/>
-                 
-            </div>
-            <div className=" flex items-center mb-10 flex-grow">
-                <img src={British} alt='Partner logo' className=' h-[80px]'/>
-                 
-            </div>
-            <div className=" flex items-center mb-10 flex-grow">
-                <img src={Eko} alt='Partner logo' className=' h-[80px]'/>
-                 
-            </div>
-
-            <div className=" flex items-center mb-10 flex-grow">
-                <img src={KENVO} alt='Partner logo' className=' h-[80px]'/>
-                 
-            </div>
-            <div className=" flex items-center mb-10 flex-grow">
-                <img src={Airways} alt='Partner logo' className=' h-[80px]'/>
-                 
-            </div>
-            <div className=" flex items-center mb-10 flex-grow">
-                <img src={EAWLS} alt='Partner logo' className=' h-[80px]'/>
-                 
-            </div>
-           
-            
-        </div>
-        <div className=' flex justify-around flex-wrap mb-10 items-center'>
-                    <div className=" flex items-center mb-10 flex-grow">
-                        <img src={KWS} alt='Partner logo' className=' h-[80px]'/>
-                         
+        <div >
+                <Slider {...settings}>
+                {logos.map((item, index) => {
+                    return(
+                        <div >
+                        <img
+                            key={index}
+                            src={item.image}
+                            alt="log"
+                            className="h-[100px]"
+                        />
                     </div>
-                    <div className=" flex items-center mb-10 flex-grow">
-                        <img src={Lewa} alt='Partner logo' className=' h-[80px]'/>
-                         
-                    </div>
-
-                    <div className=" flex items-center mb-10 flex-grow">
-                        <img src={NOrth} alt='Partner logo' className=' h-[80px]'/>
-                         
-                    </div>
-                    <div className=" flex items-center mb-10 flex-grow">
-                        <img src={RWCA} alt='Partner logo' className=' h-[80px]'/>
-                         
-                    </div>
-                    <div className=" flex items-center mb-10 flex-grow">
-                        <img src={UG} alt='Partner logo' className=' h-[80px]'/>
-                         
-                    </div>
-                    <div className=" flex items-center mb-10 flex-grow">
-                        <img src={WFP} alt='Partner logo' className=' h-[80px]'/>
-                         
-                    </div>
+                    )
+                })} 
+                </Slider>
         </div>
         <hr className=' mb-10'/>
     </div>
