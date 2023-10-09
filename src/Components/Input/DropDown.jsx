@@ -1,63 +1,40 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+
+const countries = [
+  "Kenya",
+  "Uganda",
+  "Tanzania",
+  "Rwanda",
+  "Zimbabwe",
+  "South Africa"
+];
 
 const Dropdown = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [selectedCountry, setSelectedCountry] = useState("");
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
+  const handleCountryChange = (e) => {
+    setSelectedCountry(e.target.value);
   };
 
-  const dropdownClass = isOpen
-    ? 'block'
-    : 'hidden';
-
   return (
-    <div className="relative inline-block text-left">
-      <div>
-        <button
-          onClick={toggleDropdown}
-          type="button"
-          className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        >
-          Options
-          <svg
-            className={`w-5 h-5 ml-2 -mr-1 transition-transform transform ${isOpen ? 'rotate-180' : 'rotate-0'}`}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              fillRule="evenodd"
-              d="M6.293 9.293a1 1 0 011.414 0L10 11.586l2.293-2.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </button>
-      </div>
-
-      <div className={`origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 ${dropdownClass}`}>
-        <div className="py-1">
-          <a
-            href="#"
-            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-          >
-            Option 1
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-          >
-            Option 2
-          </a>
-          <a
-            href="#"
-            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-          >
-            Option 3
-          </a>
-        </div>
-      </div>
+    <div className="mt-4">
+      <label htmlFor="country" className="block text-sm font-medium text-gray-700">
+        Select a destination
+      </label>
+      <select
+        id="country"
+        name="country"
+        value={selectedCountry}
+        onChange={handleCountryChange}
+        className="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+      >
+        <option value="">Select a destination</option>
+        {countries.map((country, index) => (
+          <option key={index} value={country}>
+            {country}
+          </option>
+        ))}
+      </select>
     </div>
   );
 };

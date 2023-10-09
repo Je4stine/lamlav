@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a82888f.css",
-    "main.js": "/static/js/main.05a655da.js",
+    "main.css": "/static/css/main.8d981325.css",
+    "main.js": "/static/js/main.4a371afe.js",
     "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
     "static/media/Pool2.jpg": "/static/media/Pool2.0e91b0069f3b90d96895.jpg",
     "static/media/Banda Plunge Pool.jpg": "/static/media/Banda Plunge Pool.743067fabfb2d27ade6d.jpg",
@@ -174,7 +174,9 @@
     "static/media/SVNP_ROOM_Kwitonda_Lodge_Bedroom_Ross_Couper_1.jpg": "/static/media/SVNP_ROOM_Kwitonda_Lodge_Bedroom_Ross_Couper_1.d93d202311c2ab2ac6fc.jpg",
     "static/media/download (6).jpeg": "/static/media/download (6).b4c6deffb55e62fec271.jpeg",
     "static/media/Bakers-lodge-chalet.jpg": "/static/media/Bakers-lodge-chalet.70981cdea84ad747ded2.jpg",
+    "static/media/cheetah-cub.jpg": "/static/media/cheetah-cub.4454144d80356461d098.jpg",
     "static/media/NRF_490693_Swimming-Pool.jpg": "/static/media/NRF_490693_Swimming-Pool.04ac67418351f4a42877.jpg",
+    "static/media/flamingos.jpg": "/static/media/flamingos.fb8110ba6c746022bd5d.jpg",
     "static/media/Day222.jpeg": "/static/media/Day222.e69fbf0a2eeb34fbf217.jpeg",
     "static/media/zanzibar-3.jpg": "/static/media/zanzibar-3.9f34292a15d424168a62.jpg",
     "static/media/Arabuko.jpg": "/static/media/Arabuko.90b0a7a225ff7e78dae4.jpg",
@@ -406,6 +408,7 @@
     "static/media/gahinga-batwa-dancers.jpg": "/static/media/gahinga-batwa-dancers.e7e2f909d00c94a68029.jpg",
     "static/media/Elsa-s-Kopje---activities---sundowner.jpg": "/static/media/Elsa-s-Kopje---activities---sundowner.dbfcc952e80486557f3c.jpg",
     "static/media/cropped-67.2e16d0ba.fill-1200x600.jpg": "/static/media/cropped-67.2e16d0ba.fill-1200x600.5fdeb8c12dd18284a6bc.jpg",
+    "static/media/unsplashlion.jpeg": "/static/media/unsplashlion.d9f3e2a560154d3578ec.jpeg",
     "static/media/3862699_41_z.jpg": "/static/media/3862699_41_z.9be0c92869831a5bf473.jpg",
     "static/media/461635418.jpg": "/static/media/461635418.d74f83eb8ecb6c0cc9fe.jpg",
     "static/media/216350641.jpg": "/static/media/216350641.49752e9932ee00fb92e9.jpg",
@@ -417,13 +420,11 @@
     "static/media/moon.jpg": "/static/media/moon.5e4837d8e3053d6fc6d8.jpg",
     "static/media/cloudsmountaingorillalodge2.jpg": "/static/media/cloudsmountaingorillalodge2.120f112eb568671f641f.jpg",
     "static/media/_Lewa Wilderness8.jpeg": "/static/media/6268077461ce941da705a5af_Lewa Wilderness8.0cfa2dc98b4e3cb69a1e.jpeg",
-    "static/media/luxury.jpg": "/static/media/luxury.08f6c5632f469cc2c3a8.jpg",
     "static/media/Natpa.jpg": "/static/media/Natpa.c33a6db928112c1da0a3.jpg",
     "static/media/444103583.jpg": "/static/media/444103583.c7f7760ee6cb42a6675a.jpg",
     "static/media/_Nelson-Travel-Giraffe-Manor-5.jpg": "/static/media/613a6c229ecd8b59d188cafb_Nelson-Travel-Giraffe-Manor-5.7ba116cd0ee605364e58.jpg",
     "static/media/220598_6117b95ec4c4c.jpg": "/static/media/220598_6117b95ec4c4c.0773bb7c8ac96daf6bd6.jpg",
     "static/media/_Kigelia-Ruaha-23.jpg": "/static/media/628b581829afba6c79b12ddb_Kigelia-Ruaha-23.a8524ccbe033ebab6599.jpg",
-    "static/media/aboutimg.jpg": "/static/media/aboutimg.9e41987fd50233ee8c4c.jpg",
     "static/media/236198635.jpg": "/static/media/236198635.ce5fb5a43b9964ee36bb.jpg",
     "static/media/logo.png": "/static/media/logo.f89db1047e79a7e846f6.png",
     "static/media/ArushaCoffeeLodge---Coffee-Tour.jpg": "/static/media/ArushaCoffeeLodge---Coffee-Tour.24d45e56caee30976729.jpg",
@@ -740,12 +741,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.9a82888f.css.map": "/static/css/main.9a82888f.css.map",
-    "main.05a655da.js.map": "/static/js/main.05a655da.js.map",
+    "main.8d981325.css.map": "/static/css/main.8d981325.css.map",
+    "main.4a371afe.js.map": "/static/js/main.4a371afe.js.map",
     "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a82888f.css",
-    "static/js/main.05a655da.js"
+    "static/css/main.8d981325.css",
+    "static/js/main.4a371afe.js"
   ]
 }

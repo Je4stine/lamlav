@@ -16,7 +16,7 @@ const Intro =()=>{
             <div className=' lg:px-10 mb-10 m-auto text-center'><p className='font-[SourceSerifPro-Regular] text-xl'>Lamlav will simply do things for you.. Whether you're  embarking on your first adventure or a seasoned safari aficionado, we're fully prepared to craft a customized itinerary that suits your preferences perfectly.</p></div>
             <div className=' md:flex justify-around '> 
                 <div className='flex flex-col items-center justify-center text-center mb-10 md:mb-0'>
-                    <BiSolidPhoneCall size={50}/>
+                    <FcOnlineSupport size={50}/>
                     <h1 className='font-[SourceSerifPro-Black]'>1. Connect</h1>
                     <h1 className='font-[SourceSerifPro-Regular] text-center'>Get the inspiration and make a call or enquire online to share your dreams.</h1>
                 </div>
