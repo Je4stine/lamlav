@@ -37,12 +37,16 @@ const Kenya = ()=>{
             }
             <div className=" relative">
                <img src={Lion} loading="lazy" className=" w-[100vw] h-[100vh] object-cover" alt="Lion"/>
-               <hi className=" absolute top-[50%] lg:left-[35%] left-15%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Black] text-center ">
-                    Why Kenya is Magical
-                </hi>
-                {/* <p className=" absolute bottom-[6%] lg:left-[10%] text-white lg:text-4xl text-2xl font-[SourceSerifPro-Bold] text-center" >
-                  <em>"You know you are trliy alive when you are living among lions." ~ Karen Blixen</em>
-                </p> */}
+               <div className=" absolute top-0 w-full h-[100vh] flex flex-col justify-center items-center">
+                  <h1 className="  text-white lg:text-8xl text-6xl font-[SourceSerifPro-Black] text-center mb-10 underline">
+                        KENYA
+                    </h1>
+                  <h1 className=" text-white lg:text-6xl text-4xl font-[SourceSerifPro-Regular] text-center ">
+                        A Magical Destination
+                    </h1>
+               </div>
+               
+                
             </div>
             <section className=" bg-white w-[100%] m-auto lg:px-[50px] px-10">
               <div className=" lg:px-[100px]">

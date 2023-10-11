@@ -52,10 +52,15 @@ const Rwanda =()=> {
         <div>
         <div className=" relative">
                <img src={Tz} loading="lazy" className=" w-[100vw] h-[100vh] object-cover" alt="Lion"/>
-               <hi className=" absolute top-[50%] lg:left-[35%] left-15%] text-white lg:text-6xl text-6xl font-[SourceSerifPro-Black] text-center ">
+               <div className=" absolute top-0 w-full h-[100vh] flex flex-col justify-center items-center">
+                  <h1 className="  text-white lg:text-8xl text-6xl font-[SourceSerifPro-Black] text-center mb-10 underline">
+                        RWANDA
+                    </h1>
+                  <h1 className=" text-white lg:text-6xl text-4xl font-[SourceSerifPro-Regular] text-center ">
                   Magical  land of a thousand hills
-                </hi>
-           
+                    </h1>
+               </div>
+              
             </div>
             <section className=" bg-white w-[100%] m-auto lg:px-[50px] px-10">
               <div className=" lg:px-[100px]">

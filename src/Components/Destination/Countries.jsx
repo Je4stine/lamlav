@@ -67,7 +67,7 @@ const Countries =()=>{
                             </h1>
                             <br/>
                             <h1 className=' font-[SourceSerifPro-Black] text-xl'>
-                                    The "Pearl Of Africa "
+                                    The Pearl Of Africa
                             </h1>
                             <br/>
                             <p className=' font-[SourceSerifPro-Regular] '>
@@ -91,11 +91,11 @@ const Countries =()=>{
                             </h1>
                             <br/>
                             <h1 className=' font-[SourceSerifPro-Black] text-xl'>
-                                Welcome  to the "Land of a thousand hills."
+                                The Land of a thousand hills.
                             </h1>
                             <br/>
                             <p className=' font-[SourceSerifPro-Regular] '>
-                            Rwanda is a country with three national parks: <strong>Volcanoes  National  park</strong>, <strong>Akagera National Park</strong>, and <strong>Nyungwe Forest Natiional park</strong>. 
+                            Rwanda, with just three national parks— <strong>Volcanoes, Akagera, and Nyungwe Forest</strong> —captures attention not only for its awe-inspiring mountain gorillas and breathtaking vistas but also for its diverse biodiversity, captivating local culture, and some of the world's most iconic eco-friendly accommodations.
                             </p>
                             <a href='/rwanda'>
                                 <div className=' border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto mt-10'>

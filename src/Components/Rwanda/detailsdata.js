@@ -133,7 +133,7 @@ const RWANDADETAILS = [
     {
         "id":5,
         "image":Kigali,
-        "title":"Kigali is Africa's Silicon Valley",
+        "title":"Kigali ",
         "p1":"Kigali's safety, cleanliness, cultural heritage, natural beauty, modern infrastructure, culinary offerings, entrepreneurial spirit, and warm hospitality make it a top destination in Africa. Visitors to Kigali can expect to immerse themselves in a city that values its past, embraces its natural surroundings, fosters innovation, and welcomes guests with open arms. Whether one seeks to delve into history, explore the outdoors, or engage in a vibrant urban environment, the Africa's Silicon  Valley - as it  is commonly  referred - offers a diverse range of experiences that leave a lasting impression on travelers.",
         "p3":""
         ,

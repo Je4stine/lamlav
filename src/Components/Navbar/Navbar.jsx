@@ -43,7 +43,7 @@ const Navbar =()=>{
                         <a href="/" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                         <a href="/safaris" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Destinations</a> 
+                         <a href="/safaris" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black] relative">Destinations</a>
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/lamlav/about" className=" hover:text-[#f15d30] duration-500 font-[SourceSerifPro-Black]">Luxury Safaris</a> 
@@ -64,7 +64,10 @@ const Navbar =()=>{
                         <a href="/" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Destinations</a> 
+                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] relative">Destinations</a>
+                            <div className='hidden hover:inline-block absolute bg-red-600 top-[100px] left-0 h-[200px]'>
+                                Jefff
+                            </div>
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Luxury Safaris</a> 

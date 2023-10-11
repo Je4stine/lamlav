@@ -13,7 +13,9 @@ const Intro =()=>{
     return (
         <div className='bg-white w-full p-5 py-10'>
             <div className='m-auto text-center my-10'><h1 className=' font-bold text-2xl'>HOW TO BOOK</h1></div>
-            <div className=' lg:px-10 mb-10 m-auto text-center'><p className='font-[SourceSerifPro-Regular] text-xl'>Lamlav will simply do things for you.. Whether you're  embarking on your first adventure or a seasoned safari aficionado, we're fully prepared to craft a customized itinerary that suits your preferences perfectly.</p></div>
+            <div className=' lg:px-10 mb-10 m-auto text-center'><p className='font-[SourceSerifPro-Regular] text-xl'> Whether you're  embarking on your first adventure or a seasoned safari aficionado, we're fully prepared to craft a customized itinerary that suits your preferences perfectly. 
+            Only 3 steps are involved:
+            </p></div>
             <div className=' md:flex justify-around '> 
                 <div className='flex flex-col items-center justify-center text-center mb-10 md:mb-0'>
                     <FcOnlineSupport size={50}/>

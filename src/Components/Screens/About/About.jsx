@@ -58,7 +58,7 @@ const AboutUs =()=>{
                 <div className="m-auto mb-10 lg:max">
                     <h1 className=" lg:text-2xl text-2xl font-[SourceSerifPro-Black] mb-3">Overview</h1>
                     <p className="mb-10 font-[SourceSerifPro-Regular] md:text-xl text-md"> 
-                        We take immense pride in being recognized as experts in crafting safari holidays in Africa, celebrated for our tailor-made adventures, exhilarating wildlife experiences, intimate cultural engagements, and sustainable practices. Lamlav's team of travel experts is dedicated to curating the ideal safari holiday for you, be it an adventurous escapade, a family retreat, or a romantic honeymoon. We possess a deep understanding of Africa and work closely with sustainable partners to curate an exceptional experience that cultivates a meaningful connection between you and the continent. Whether it's remarkable wildlife encounters, outstanding lodges, breathtaking scenery, or responsible travel, rest assured you are in the safest of hands.
+                    Lamlav's group of travel specialists holds a profound knowledge of Africa, and is committed to crafting an extraordinary experience that fosters a meaningful connection between you and the continent—whether it's an adventurous getaway, a family vacation, or a romantic honeymoon. We take great pride in being acknowledged as authorities in designing safari holidays in Africa, renowned for our customized adventures, thrilling wildlife encounters, intimate cultural immersions, and commitment to sustainable practices
                     </p>
 
                     <em><h1 className=" lg:text-2xl text-2xl font-[SourceSerifPro-Black] mb-3">Feeling Inspired?</h1></em>
