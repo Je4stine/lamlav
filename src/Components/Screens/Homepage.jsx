@@ -18,6 +18,7 @@ import Callfor from "../Contact/Callfor";
 import Partners from "../Partners";
 
 import DATA from "../Testmonials/Data";
+import TestimonialsCarousel from "../Review/Review";
 
 const Homepage =()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -45,7 +46,8 @@ const Homepage =()=>{
             <Countries/>
             <Destination/>
             <Callfor/>
-            <Testimonials testimonials={DATA}/>
+            {/* <Testimonials testimonials={DATA}/> */}
+            <TestimonialsCarousel/>
             <GetInTouch/>
             <Partners/>
             <ChatBot/>
