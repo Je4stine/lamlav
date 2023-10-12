@@ -20,7 +20,7 @@ const Navbar =()=>{
         <nav className=" w-full absolute top-0 z-[1] lg:flex lg:justify-between lg:bg-transparent bg-white px-5 min-h-[60px] lg:items-center">
             <div className=' flex justify-between items-center relative' >
                 <div className=' flex items-center  '>
-                   <img src={Logo} alt="Lamlav Logo" className=' h-[100px]'/>
+                   <a href="/"><img src={Logo} alt="Lamlav Logo" className=' h-[100px] cursor-pointer'/></a>
                     <h1 className="hidden lg:inline mx-4 lg:my-6 font-[SourceSerifPro-Black] text-xl text-black lg:text-white my-3"><a href='/'>Lamlav Leisure Safaris</a></h1>
                 </div>
                 <span  className=' cursor-pointer block lg:hidden' onClick={Toggle}>
@@ -64,10 +64,31 @@ const Navbar =()=>{
                         <a href="/" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] relative">Destinations</a>
-                            <div className='hidden hover:inline-block absolute bg-red-600 top-[100px] left-0 h-[200px]'>
-                                Jefff
-                            </div>
+                             <div className="relative group">
+                                <button className="flex flex-row items-center w-full px-4 py-4 mt-2 text-base font-bold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none text-white font-[SourceSerifPro-Black]">
+                                    <span>Destinations</span>
+                                </button>
+                                <div className="absolute z-10 hidden bg-grey-200 group-hover:block">
+                                    
+                                    <div className="px-2 pt-2 pb-4 bg-gray-200 shadow-lg rounded-sm">
+                                        <div className=" flex flex-col px-5">
+                                        <a href='/kenya' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Kenya
+                                        </a>
+                                        <a href='/uganda' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Uganda
+                                        </a>
+                                        <a href='/tanzania' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Tanzania
+                                        </a>
+                                        <a href='/rwanda' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Rwanda
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black]">Luxury Safaris</a> 

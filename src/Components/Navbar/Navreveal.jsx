@@ -61,7 +61,30 @@ const Navbar =()=>{
                         <a href="/" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">Home</a>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">Destinations</a> 
+                        <div className="relative group">
+                                <button className="flex flex-row items-center w-full px-4 py-4 mt-2 text-base font-bold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none text-black font-[SourceSerifPro-Black]">
+                                    <span>Destinations</span>
+                                </button>
+                                <div className="absolute z-10 hidden bg-grey-200 group-hover:block">
+                                    
+                                    <div className="px-2 pt-2 pb-4 bg-white shadow-lg rounded-sm">
+                                        <div className=" flex flex-col px-5">
+                                        <a href='/kenya' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Kenya
+                                        </a>
+                                        <a href='/uganda' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Uganda
+                                        </a>
+                                        <a href='/tanzania' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Tanzania
+                                        </a>
+                                        <a href='/rwanda' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
+                                            Rwanda
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">Luxury Safaris</a> 

@@ -1,45 +1,105 @@
-import React, {useState} from 'react'
-import Navbar from './Navbar/Navbar';
-import Navreveal from './Navbar/Navreveal';
-import Footer from './Footer/Footer';
+
+import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Dropdown from './Input/DropDown';
 import Radio from './Input/Radio';
 import Textbox from './Input/Textbox';
 import DatePickers from './Input/DatePicker';
 import CountryDropdown from './Input/Drop2';
 import Checkbox from './Input/Checkbox';
-
+import Navbar from './Navbar/Navbar';
+import Navreveal from './Navbar/Navreveal';
+import Footer from './Footer/Footer';
 
 function Inquiry() {
-  const [colorChanged, setColorChanged]= useState(false);
-  const [selectedOption, setSelectedOption] = useState('classic');
-
-  const handleOptionChange = (e) => {
-    setSelectedOption(e.target.value);
-  };
-
+    const [selectedOption, setSelectedOption] = useState('classic');
+    const [colorChanged, setColorChanged]= useState(false);
 
     const changeNavbarColor = () =>{
-        if(window.scrollY >= 80){
-          setColorChanged(true);
-        }
-        else{
-          setColorChanged(false);
-        }
-     };
-    window.addEventListener('scroll', changeNavbarColor);
+      if(window.scrollY >= 80){
+        setColorChanged(true);
+      }
+      else{
+        setColorChanged(false);
+      }
+   };
+  window.addEventListener('scroll', changeNavbarColor);
 
+
+
+    const handleOptionChange = (e) => {
+      setSelectedOption(e.target.value);
+    };
   
 
+  const formArray = [1, 2, 3];
+  const [formNo, setFormNo] = useState(formArray[0])
+  const [state, setState] = useState({
+    name: '',
+    dept: '',
+    batch: '',
+    varsity: '',
+    session: '',
+    address: '',
+    district: '',
+    thana: '',
+    post: ''
+  })
+  const inputHandle = (e) => {
+    setState({
+      ...state,
+      [e.target.name]: e.target.value
+    })
+  }
+  const next = () => {
+    // if (formNo === 1 && state.name && state.dept && state.batch) {
+      setFormNo(formNo + 1)
+    // }
+    // else if (formNo === 2 && state.varsity && state.session && state.address) {
+    //   setFormNo(formNo + 1)
+    // } else {
+    //   toast.error('Please fillup all input field')
+    // }
+  }
+  const pre = () => {
+    setFormNo(formNo - 1)
+  }
+  const finalSubmit = () => {
+    // if (state.district && state.thana && state.post) {
+      toast.success('form submit success')
+    // } else {
+    //   toast.error('Please fillup all input field')
+    // }
+  }
+
+
   return (
-    <div className=' bg-gray-200'>
-       {
-        colorChanged ? <Navreveal/> : <Navbar/>
+    < >
+<div className="bg-white">
+      {
+        colorChanged ? <Navreveal/> : <Navreveal/>
        }
-       <div className='py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 '>
-       <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 mt-10">Inquiry Form</h2>
+       <h2 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 mt-[20px]">Inquiry Form</h2>
         <hr/>
-          <div>
+      <div className=" flex justify-center items-center">
+      <ToastContainer />
+      
+      <div className="w-full h-full rounded-md shadow-md bg-white lg:px-[300px] px-10 py-10">
+        <div className='flex justify-center items-center'>
+          {
+            formArray.map((v, i) => <><div className={`w-[35px] my-3 text-white rounded-full ${formNo - 1 === i || formNo - 1 === i + 1 || formNo === formArray.length ? 'bg-blue-500' : 'bg-slate-400'} h-[35px] flex justify-center items-center`}>
+              {v}
+            </div>
+              {
+                i !== formArray.length - 1 && <div className={`w-[85px] h-[2px] ${formNo === i + 2 || formNo === formArray.length ? 'bg-blue-500' : 'bg-slate-400'}`}></div>
+              }
+            </>)
+          }
+        </div>
+        {
+          formNo === 1 && <div>
+            <div>
             <h1>A. YOUR TRAVEL PLANS </h1>
             <p className=' font-bold'>Destination*</p>
             <div>
@@ -93,7 +153,21 @@ function Inquiry() {
                 </div>
               </div>
             </div>
-            <div className="mt-10">
+            </div>
+                
+
+
+            </div>
+            <div className='mt-4 flex justify-center items-center'>
+              <button onClick={next} className='px-3 py-2 text-lg rounded-md w-full text-white bg-blue-500'>Next</button>
+            </div>
+          </div>
+        }
+
+        {
+          formNo === 2 && <div>
+    
+    <div className="mt-10">
               <h1>B.GUEST INFORMATION  </h1>
               <p> <em>Lamlav Safaris considers the protection and confidentiality of your information as a matter of great importance.</em></p>
             </div>
@@ -145,8 +219,18 @@ function Inquiry() {
                 <h1 className=' font-bold'>Country  of residence*</h1>
                 <CountryDropdown/>
               </div>
+              </div>
 
-              <div className="mt-10">
+            <div className='mt-4 gap-3 flex justify-center items-center'>
+              <button onClick={pre} className='px-3 py-2 text-lg rounded-md w-full text-white bg-blue-500'>Previous</button>
+              <button onClick={next} className='px-3 py-2 text-lg rounded-md w-full text-white bg-blue-500'>Next</button>
+            </div>
+          </div>
+        }
+
+        {
+          formNo === 3 && <div>
+            <div className="mt-10">
                 <h1>C. FURTHER  INFORMATION   </h1>
                 <h1 className=' font-bold'>What was the reason for your reaching out today?</h1>
                 <Radio name="Websearch " safari='email' selectedOption={selectedOption} handleOptionChange={handleOptionChange}/>
@@ -159,18 +243,19 @@ function Inquiry() {
                 <h1 className=' font-bold ml-3'>I am  on board  with  receiving  Lamlav  Safaris  newsletters  and offers</h1>
               </div>
 
-            </div>
-            
-            </div>
 
+            <div className='mt-4 gap-3 flex justify-center items-center'>
+              <button onClick={pre} className='px-3 py-2 text-lg rounded-md w-full text-white bg-blue-500'>Previous</button>
+              <button onClick={finalSubmit} className='px-3 py-2 text-lg rounded-md w-full text-white bg-blue-500'>Submit</button>
+            </div>
           </div>
-       </div>
-        <div>
-          <img src={require('../Assets/kanairo-black.svg').default } alt="Kanairo"/>
-        </div>
-        <Footer/>
+        }
+
+      </div>
     </div>
-  )
-};
+    </div>
+    </>
+  );
+}
 
 export default Inquiry;
