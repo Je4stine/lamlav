@@ -6,6 +6,8 @@ import {AiOutlinePhone} from 'react-icons/ai'
 
 import Logo from '../../Assets/Logos/logo.png'
 
+import {AiOutlineCaretRight} from 'react-icons/ai'
+
 
 
 const Navbar =()=>{
@@ -70,19 +72,33 @@ const Navbar =()=>{
                                 </button>
                                 <div className="absolute z-10 hidden bg-grey-200 group-hover:block">
                                     
-                                    <div className="px-2 pt-2 pb-4 bg-gray-200 shadow-lg rounded-sm">
+                                    <div className="px-2 pt-2 pb-4 bg-black rounded-sm opacity-50">
                                         <div className=" flex flex-col px-5">
-                                        <a href='/kenya' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
-                                            Kenya
+                                        <p className='text-white font-[SourceSerifPro-Black] cursor-pointer'>Destinations</p>
+                                        <hr className="mb-5"/>
+                                        <a href='/kenya' className='text-white font-[SourceSerifPro-Regular] cursor-pointer hover:text-yellow-400 duration-500 mb-2'>
+                                            <div className=' flex justify-around items-center'>
+                                                <p>Kenya</p>
+                                                <AiOutlineCaretRight color="#fff"/>
+                                            </div>
                                         </a>
-                                        <a href='/uganda' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
-                                            Uganda
+                                        <a href='/uganda' className='text-white font-[SourceSerifPro-Regular] cursor-pointer hover:text-yellow-400 duration-500 mb-2'>
+                                            <div className=' flex justify-around items-center'>
+                                                <p>Uganda</p>
+                                                <AiOutlineCaretRight color="#fff"/>
+                                            </div>
                                         </a>
-                                        <a href='/tanzania' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
-                                            Tanzania
+                                        <a href='/tanzania' className='text-white font-[SourceSerifPro-Regular] cursor-pointer hover:text-yellow-400 duration-500 mb-2'>
+                                            <div className=' flex justify-around items-center'>
+                                                <p>Tanzania</p>
+                                                <AiOutlineCaretRight color="#fff"/>
+                                            </div>
                                         </a>
-                                        <a href='/rwanda' className='text-black font-[SourceSerifPro-Black] cursor-pointer'>
-                                            Rwanda
+                                        <a href='/rwanda' className='text-white font-[SourceSerifPro-Regular] cursor-pointer hover:text-yellow-400 duration-500 mb-2'>
+                                            <div className=' flex justify-around items-center'>
+                                                <p>Rwanda</p>
+                                                <AiOutlineCaretRight color="#fff"/>
+                                            </div>
                                         </a>
                                         </div>
                                     </div>
