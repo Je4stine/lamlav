@@ -142,11 +142,11 @@ function Inquiry() {
             </div>
             <div className=' mt-10'>
               <h1 className=' font-bold'>Please provide information about yourself, and  free to ask me any question that you may have.*</h1>
-              <div class="w-96">
+              <div class="w-[70%]">
 
-                <div class="relative w-full min-w-[200px] mt-10">
+                <div class="relative w-full lg:min-w-[500px] mt-10">
                   <textarea
-                    className="peer h-full min-h-[100px] resize-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50"
+                    className="peer h-full min-h-[400px] resize-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50"
                     placeholder=" "
                   ></textarea>
                

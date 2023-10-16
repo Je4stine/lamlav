@@ -11,7 +11,7 @@ const TestimonialsCarousel = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 4500,
+    autoplaySpeed: 30000,
     arrows: true,
   };
 
