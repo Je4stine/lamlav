@@ -28,6 +28,7 @@ import { useParams, Link } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Partners from "../../Partners";
 
 // import DETAILS from "./detailsdata";
 // import LODGES from "./lodgedata";
@@ -155,6 +156,7 @@ const Cleo =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

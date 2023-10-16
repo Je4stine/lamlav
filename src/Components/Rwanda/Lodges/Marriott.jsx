@@ -23,6 +23,7 @@ import Chyulu from '../../../Assets/2020-10-22.jpg';
 import ShowMoreText from "react-show-more-text";
 
 import { useParams, Link } from 'react-router-dom';
+import Partners from "../../Partners";
 
 
 import "slick-carousel/slick/slick.css";
@@ -116,21 +117,22 @@ const Marriott =()=>{
                 <div className="relative mt-20 z-[0] m-auto w-[80%]">
                     <Slider {...settings} autoplay arrows>
                         <div>
-                            <img src={Lodge4}/>
+                            <img src={Lodge4} alt="Lodges"/>
                         </div>
                         <div>
-                        <img src={Lodge2}/>
+                        <img src={Lodge2} alt="Lodges"/>
                         </div>
                         <div>
-                        <img src={Lodge5}/>
+                        <img src={Lodge5} alt="Lodges"/>
                         </div>
                         <div>
-                        <img src={Lodge3}/>
+                        <img src={Lodge3} alt="Lodges"/>
                         </div>
                     </Slider>
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

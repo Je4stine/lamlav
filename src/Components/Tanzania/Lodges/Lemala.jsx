@@ -17,7 +17,7 @@ import Lodge4 from '../../../Assets/628e20330c1ce57615dcfa50_Lemala Ewanjana1.jp
 
 import Lodge5 from '../../../Assets/628e1e5cbab138c5900f4ed4_Lemala EwanjanSingle1.jpg';
 
-
+import Partners from "../../Partners";
 
 import ShowMoreText from "react-show-more-text";
 
@@ -140,6 +140,7 @@ const Lemala =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

@@ -16,6 +16,7 @@ import Lodge4 from '../../../Assets/323483059.jpg';
 
 import Lodge5 from '../../../Assets/323483098.jpg';
 
+import Partners from "../../Partners";
 
 import ShowMoreText from "react-show-more-text";
 
@@ -135,6 +136,7 @@ const Sipi =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

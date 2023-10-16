@@ -24,6 +24,7 @@ import ShowMoreText from "react-show-more-text";
 
 import { useParams, Link } from 'react-router-dom';
 
+import Partners from "../../Partners";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -143,6 +144,7 @@ const Greystoke =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

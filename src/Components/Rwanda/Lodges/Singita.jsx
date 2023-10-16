@@ -20,6 +20,8 @@ import Lodge5 from '../../../Assets/SVNP_ROOM_Kwitonda_Lodge_Lounge_Ross_Couper_
 import Lodge6 from '../../../Assets/Kwitonda_slider_1.jpg';
 import Lodge7 from '../../../Assets/Kwitonda_slider_2.jpg';
 
+import Partners from "../../Partners";
+
 
 
 
@@ -156,6 +158,7 @@ const Singita =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

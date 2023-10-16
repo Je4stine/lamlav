@@ -25,7 +25,7 @@ import Slider from "react-slick";
 
 // import DETAILS from "./detailsdata";
 // import LODGES from "./lodgedata";
-
+import Partners from "../../Partners";
 const Sambiya =()=>{
     const [colorChanged, setColorChanged]= useState(false);
     // const { campId} = useParams();
@@ -134,6 +134,7 @@ const Sambiya =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

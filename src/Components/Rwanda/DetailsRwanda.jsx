@@ -12,6 +12,7 @@ import { useParams, Link } from 'react-router-dom';
 
 import DETAILS from "./detailsdata";
 import AllLodgesRw from "../AllLodgesRw";
+import Partners from "../Partners";
 
 const DetailsRwanda= () => {
   const [colorChanged, setColorChanged] = useState(false);
@@ -153,6 +154,7 @@ const DetailsRwanda= () => {
         </div>
 
       </section>
+      <Partners/>
       <div>
         <img src={require('../../Assets/kanairo-black.svg').default} alt="Kanairo" loading="lazy" />
       </div>

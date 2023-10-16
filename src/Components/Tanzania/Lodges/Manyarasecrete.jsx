@@ -20,6 +20,8 @@ import Lodge5 from '../../../Assets/282266492.jpg';
 
 import Chyulu from '../../../Assets/2020-10-22.jpg';
 
+import Partners from "../../Partners";
+
 import ShowMoreText from "react-show-more-text";
 
 import { useParams, Link } from 'react-router-dom';
@@ -144,6 +146,7 @@ const Manyarasecrete =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

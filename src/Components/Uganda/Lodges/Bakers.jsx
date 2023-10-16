@@ -20,7 +20,7 @@ import Lodge5 from '../../../Assets/DSC_7436.jpg';
 import ShowMoreText from "react-show-more-text";
 
 
-
+import Partners from "../../Partners";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -136,6 +136,7 @@ const Bakers =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

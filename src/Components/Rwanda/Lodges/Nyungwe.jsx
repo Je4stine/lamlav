@@ -20,6 +20,8 @@ import Lodge5 from '../../../Assets/479081623.jpg';
 
 import ShowMoreText from "react-show-more-text";
 
+import Partners from "../../Partners";
+
 
 
 import "slick-carousel/slick/slick.css";
@@ -141,6 +143,7 @@ const Nyungwe =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

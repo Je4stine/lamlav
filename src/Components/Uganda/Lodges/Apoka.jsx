@@ -16,6 +16,8 @@ import Lodge4 from '../../../Assets/74650347.jpg';
 
 import Lodge5 from '../../../Assets/74650345.jpg';
 
+import Partners from "../../Partners";
+
 
 import ShowMoreText from "react-show-more-text";
 
@@ -136,6 +138,7 @@ const Apoka =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

@@ -19,7 +19,7 @@ import Lodge5 from '../../../Assets/7998712-mweya-safari-lodge-queen-elizabeth-n
 
 import ShowMoreText from "react-show-more-text";
 
-
+import Partners from "../../Partners";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -139,6 +139,7 @@ const Mweya =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>

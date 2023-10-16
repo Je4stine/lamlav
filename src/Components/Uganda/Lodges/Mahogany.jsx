@@ -16,7 +16,7 @@ import Lodge4 from '../../../Assets/1322163-superior-suite-mahogany-springs-bwin
 
 import Lodge5 from '../../../Assets/1322164-superior-suite-at-mahogany-springs.jpg';
 
-
+import Partners from "../../Partners";
 
 import ShowMoreText from "react-show-more-text";
 
@@ -133,6 +133,7 @@ const Mahogany =()=>{
                 </div>
                 
             </section>
+            <Partners/>
             <div>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo" loading="lazy"/>
             </div>
