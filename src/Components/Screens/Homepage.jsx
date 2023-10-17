@@ -46,8 +46,8 @@ const Homepage =()=>{
             <Countries/>
             <Destination/>
             <Callfor/>
-            {/* <Testimonials testimonials={DATA}/> */}
-            <TestimonialsCarousel/>
+            <Testimonials testimonials={DATA}/>
+            {/* <TestimonialsCarousel/> */}
             <GetInTouch/>
             <Partners/>
             <ChatBot/>
