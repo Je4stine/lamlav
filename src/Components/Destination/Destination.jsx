@@ -17,7 +17,7 @@ const Destination =()=>{
         
         <div className=" lg:flex lg:flex-wrap lg:justify-center">
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src={Destination1} alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src={Destination1} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav  Mara Serengeti Deluxe</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience  a truly  memorable and  unapologetically  indulging Safari  in the Mara and Serengeti  ecosystems </h2>
@@ -33,7 +33,7 @@ const Destination =()=>{
             </div>
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src={Destination3} alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src={Destination3} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> GREAT MIGRATION  SAFARI - Kenyan  Edition</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Discover the wonders of Kenya with a touch of luxury </h2>
@@ -49,7 +49,7 @@ const Destination =()=>{
             </div>
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src={Destination2} alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src={Destination2} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav Honeymoon Safari</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> An adventure  that feeds your Soul </h2>
@@ -66,7 +66,7 @@ const Destination =()=>{
 
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src={Destination4} alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src={Destination4} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav Bush and Beach Safari</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> MARA -TSAVO –WATAMU. Explore the Kenyan  wildlife  havens  in Style. </h2>
@@ -84,7 +84,7 @@ const Destination =()=>{
 
             
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src={Destination5} alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src={Destination5} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav Great Wilderness Safari</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> A truly compelling and quintessential  Kenyan Safari experience. </h2>
@@ -101,7 +101,7 @@ const Destination =()=>{
             
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src="https://cdn.kimkim.com/files/a/images/4ae80a4bbd736d119a07254e1b141c78a3c28341/original-791d0a79388bd3274678e278870f6d2b.jpg" alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src="https://cdn.kimkim.com/files/a/images/4ae80a4bbd736d119a07254e1b141c78a3c28341/original-791d0a79388bd3274678e278870f6d2b.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Spirit of Uganda</h1>
                     {/* <h2 className=' text-lg italic font-bold mb-10 text-red-900'> A truly compelling and quintessential  Kenyan Safari experience. </h2> */}
@@ -118,7 +118,7 @@ const Destination =()=>{
 
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src="https://i0.wp.com/www.allugandasafaris.com/wp-content/uploads/2022/05/Family-Safaris-Uganda.jpg?w=750&ssl=1" alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src="https://i0.wp.com/www.allugandasafaris.com/wp-content/uploads/2022/05/Family-Safaris-Uganda.jpg?w=750&ssl=1" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Uganda Family Safari</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
@@ -135,7 +135,7 @@ const Destination =()=>{
 
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src="https://www.naturaltoursandsafaris.com/wp-content/uploads/2020/01/Wildebeest-Migration-Maasai-Mara-Natural-World-Kenya-Safaris.jpg" alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src="https://www.naturaltoursandsafaris.com/wp-content/uploads/2020/01/Wildebeest-Migration-Maasai-Mara-Natural-World-Kenya-Safaris.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Ultimate Greate Migration Safari</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
@@ -152,7 +152,7 @@ const Destination =()=>{
 
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src="https://secretafrica.com/wp-content/uploads/2021/10/Best-Time-To-Go-To-Tanzania-36.jpg" alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src="https://secretafrica.com/wp-content/uploads/2021/10/Best-Time-To-Go-To-Tanzania-36.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Splendor of Tanzania</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
@@ -169,7 +169,7 @@ const Destination =()=>{
 
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src="https://live.staticflickr.com/8740/16298396774_e6d631a1e7_b.jpg" alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src="https://live.staticflickr.com/8740/16298396774_e6d631a1e7_b.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Treasures of a thousand hills</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
@@ -186,7 +186,7 @@ const Destination =()=>{
 
 
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src="https://voyagesafriq.com/wp-content/uploads/2021/07/4N5A1011-scaled.jpg" alt="Destination images" className=' h-[300px] object-cover'/>
+                <img src="https://voyagesafriq.com/wp-content/uploads/2021/07/4N5A1011-scaled.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Rwanda Gorilla and Game Vacation</h1>
           
