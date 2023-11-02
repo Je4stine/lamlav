@@ -117,6 +117,12 @@ import Inquiry from './Components/Inquiry';
 import Sasakwa from './Components/Tanzania/Lodges/Sasakwa';
 import Singita2 from './Components/Tanzania/Lodges/Singita';
 import Sabyinyo from './Components/Rwanda/Lodges/Sabyinyo';
+import Gorrilla from './Components/Destination/Gorrilla';
+import ThousandHills from './Components/Destination/ThousandHills';
+import SplendorTanzania from './Components/Destination/SplendorTanzania';
+import UltimateMigration from './Components/Destination/UltimateMigration';
+import UgandaFamily from './Components/Destination/UgandaFamily';
+import SpiritOfUganda from './Components/LuxurySafari/SpiritOfUganda';
 
 
 function App() {
@@ -245,6 +251,13 @@ function App() {
             <Route path='/rwanda/lodges/marriott' element={<Marriott/>}/>
             <Route path='/rwanda/lodges/kigaliserena' element={<KigaliSerena/>}/>
             <Route path='/rwanda/lodges/sabyinyo' element={<Sabyinyo/>}/>
+
+            <Route path='/rwanda/gorilla' element={<Gorrilla/>}/>
+            <Route path='/rwanda/thousandhills' element={<ThousandHills/>}/>
+            <Route path='/tanzania/splendoftz' element={<SplendorTanzania/>}/>
+            <Route path='/tanzania/ultimatemigration' element={<UltimateMigration/>}/>
+            <Route path='/uganda/familysafari' element={<UgandaFamily/>}/>
+            <Route path='/uganda/spiritofug' element={<SpiritOfUganda/>}/>
             
 
           </Routes>

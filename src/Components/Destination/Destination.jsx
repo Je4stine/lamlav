@@ -109,7 +109,7 @@ const Destination =()=>{
                     This expedition is customized specifically for safari enthusiasts seeking a thorough exploration of the diverse  landscapes  of Uganda and it's  amazing  game and/or  primates.  
                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 15days/14nights from $ 17,567 per person.</p>
-                    <a href='/wilderness' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
+                    <a href='/uganda/spiritofug' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                     </a>
                     <p className=''> </p>
@@ -126,7 +126,7 @@ const Destination =()=>{
                     This journey is centered around three of Uganda's most iconic destinations: Jinja town, Queen Elizabeth National Park, and Bwindi Impenetrable Forest. Rest assured, you'll have the opportunity to witness the finest wildlife that Uganda has to offer  
                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 12days/11nights from $ 8,567 per person.</p>
-                    <a href='/wilderness' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
+                    <a href='/uganda/familysafari' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                     </a>
                     <p className=''> </p>
@@ -143,7 +143,7 @@ const Destination =()=>{
                     This expedition is  tailor-made  for safari  aficionados who wish to embark on an adventurous East Africa safari, flying between Kenya and Tanzania's top safari spots, for an incredible chance to witness the renowned wildebeest migration.   
                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 13days/12 nights from $ 15,275 per person.</p>
-                    <a href='/wilderness' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
+                    <a href='/tanzania/ultimatemigration' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                     </a>
                     <p className=''> </p>
@@ -160,7 +160,7 @@ const Destination =()=>{
                         Experience the genuine and lasting safari adventures by Elewana collections in the heart of Tanzania's Northern wilderness.With this safari, you will greatly immerse yourself in the warm and authentic East African hospitality, top-tier cuisine, and exceptional comfort and service   
                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights From $ 11,860 per person.</p>
-                    <a href='/wilderness' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
+                    <a href='/tanzania/splendoftz' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                     </a>
                     <p className=''> </p>
@@ -177,7 +177,7 @@ const Destination =()=>{
                     This adventure encompasses the finest aspects of Rwanda, including stops in the capital, Kigali, the high-altitude cloud forests of Volcanoes National Park, the ancient Lake Kivu, and the Afro montane forests of Nyungwe National Park. During your journey, you'll have the chance to encounter not only the endangered mountain gorillas but also chimpanzees, golden monkeys, and colobus monkeys.   
                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights From $ 11,860 per person.</p>
-                    <a href='/wilderness' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
+                    <a href='/rwanda/thousandhills' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                     </a>
                     <p className=''> </p>
@@ -194,7 +194,7 @@ const Destination =()=>{
                     This exclusive itinerary effortlessly blends a gorilla tracking adventure within the breathtaking Volcanoes National Park with a classic safari in Akagera National Park, which happens to be Rwanda's sole protected area where you can encounter the Big Five.   
                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights From $ 11,860 per person.</p>
-                    <a href='/wilderness' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
+                    <a href='/rwanda/gorilla' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                     </a>
                     <p className=''> </p>
