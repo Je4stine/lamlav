@@ -3,6 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import Partners from '../Partners';
+import {FaHotel} from 'react-icons/fa';
 
 function SpiritOfUganda() {
     const [colorChanged, setColorChanged]= useState(false);
@@ -311,9 +312,334 @@ function SpiritOfUganda() {
                 </ul>
               </div>
         </div>
-
         <div>
-          
+        </div>
+
+        <div className=' lg:px-[200px] px-[70px]'>
+          <h1 className=' text-2xl font-bold mb-5'>Itinerary</h1>
+          <div>
+              <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 1
+              </h1>
+              <p className='font-bold mb-2'>ENTEBBE || Arrival.</p>
+              <hr/>
+              <div className='lg:flex items-center justify-center'>
+              
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Upon your arrival at Entebbe Airport, we will meet you and transfer  you to your Hotel for a leisurely evening stay. 
+                </p>
+              
+                <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                
+              </div>
+          </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Protea Hotel Entebbe </p>
+                </div>
+                <hr className='my-5'/>
+
+
+              <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 2
+                </h1>
+                <p className='font-bold mb-2'>JINJA || White  Water Rafting </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Following breakfast, explore the charm of Entebbe City before embarking on a captivating scenic trip to Jinja town. Upon arrival, settle into the comfort of your lavish accommodation at Wildwaters Lodge, where you'll be based for the next two nights. 
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
+                </div>
+                <hr className='my-5'/>
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 3
+                </h1>
+                <p className='font-bold mb-2'>JINJA || Constant  explorations  </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Today, take advantage of the various activities available during your stay, such as quad biking, horseback riding, white-water rafting, and a guided village tour. You will also delight in a Nile boat expedition aboard the iconic and restored African Queen, renowned from the film featuring Humphrey Bogart.  
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 4
+                </h1>
+                <p className='font-bold mb-2'>MURCHISONS FALLS || Jewel of River Nile  </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Embark on an early morning journey to Murchison Falls, a picturesque site along the Nile and the setting for the iconic Humphrey Bogart film, The African Queen. En route, you'll make stops at points of interest before taking a ferry across the Nile directly to the lodge. Upon arrival, settle in before accompanying your guide to explore Murchison Falls, where a refreshing mist cascades down a narrow gorge.  
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 5
+                </h1>
+                <p className='font-bold mb-2'>MURCHISONS FALLS ||  Game viewing.   </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Spend this day indulging in wildlife observation along the banks of the Nile in Murchison Falls, where you'll encounter a rich array of animals including: elephants, giraffes, hippos, buffaloes, lions, antelopes, warthogs, and more. An ideal way to spend the day is by embarking on a morning game drive followed by an afternoon boat safari to the base of the falls and to the top. Additional activities to be explored include:  Chimpanzee tracking,  nature walks, rhino sanctuary visit, and a boat trip to the Nile Delta.                   
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 6
+                </h1>
+                <p className='font-bold mb-2'>KIBALE FOREST || Bunyaruguru Crater Exploration.   </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  After a substantial morning breakfast, catch a flight to Kibale and then proceed to your lodge. Dedicate the remainder of the day to unwinding and enjoying the amenities of the lodge. Alternatively, you can choose to partake in a nature walk along the summit of the Bunyaruguru Crater later in the day.                  
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 7
+                </h1>
+                <p className='font-bold mb-2'>KIBALE FOREST ||   Chimpanzee trek.   </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Rise early for the commencement of your chimpanzee trek, immersing yourself in the quietude of the forest as you traverse. The trek will guide you through Kibale Forest, offering promising encounters with red-tailed monkeys and grey-cheeked mangabeys along the path. If fortunate enough to join the company of chimpanzees, relish an hour observing their behaviors and capturing photographs to your satisfaction. Subsequently, experience a local-style journey by African canoe across a lake, keeping an eye out for wildlife and savoring the picturesque surroundings.                  
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 8
+                </h1>
+                <p className='font-bold mb-2'>QUEEN ELIZABETH || Wild Adventures  </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Today, we proceed southward towards Queen Elizabeth National Park. Upon arrival, make yourself comfortable in your accommodation at Mweya Safari Lodge, as you enjoy  the stunning parking  views from your  private deck. In the afternoon, embark on a game drive to venture into the nearby terrain, for an opportunity to encounter the "big five," hippos, baboons, buffaloes, and a variety of other wildlife.
+                   </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 9
+                </h1>
+                <p className='font-bold mb-2'>QUEEN ELIZABETH || Wild Adventures  </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Participate in a unique lion-tracking adventure led by the rangers of Queen Elizabeth National Park, for an opportunity to spot the rarely seen tree-climbing lions - a phenomenon uncommon elsewhere in Africa. Following lunch, return to the park for a boat safari along the Kazinga Channel. Here, you can witness numerous animals congregating to drink from the channel, such as hippos,  buffalo, crocodiles, as well as bird species like, fish eagles pied, pelicans, and kingfishers. Conclude your safari day with a picturesque sundowner celebration.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 10
+                </h1>
+                <p className='font-bold mb-2'>ISHASHA || Cruise the Kazinga Channel   </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Embark on a journey to the Ishasha sector of Queen Elizabeth National Park today, indulging in a game drive while appreciating the scenic views along the way. Your accommodation will be in the secluded Ishasha sector, characterized by candelabra trees that serve as the favored resting spots for the park's famous tree-climbing lions. In the evening,  take a breathtaking  along Cruise the Kazinga Channel for a chance  to spot  hippos, crocodiles and a variety  of  bird species.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 11
+                </h1>
+                <p className='font-bold mb-2'>ISHASHA ||  Constant explorations    </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  The Ishasha savannahs are famous for hosting tree-climbing lions. Furthermore, being located within the park, the camp allows wildlife to move freely, offering guests the chance to observe elephants bathing in the river, buffalo grazing, and frequent sightings of Black-and-White Colobus and vervet monkeys in the vicinity.
+                  <br/><br/>Dedicate this day to exploring the park through morning and afternoon game drives, remaining vigilant for captivating wildlife encounters. Conclude the safari day with a picturesque sundowner celebration.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 12
+                </h1>
+                <p className='font-bold mb-2'>BWINDI. || Up close with Mountain Gorillas    </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Indulge in a delicious morning breakfast before embarking on a picturesque journey to Bwindi Impenetrable National Park. Enjoy the scenic drive along the way, passing through the Rift Valley, Kigezi Highlands, and the mountains that lead to the national park. Upon reaching your camp in the afternoon, relish a Chef's Table experience.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 13 & 14
+                </h1>
+                <p className='font-bold mb-2'>BWINDI || Batwa tribe experiences and philanthropy tours     </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Dedicate the next two days to tracking endangered mountain gorillas, spending an hour each day observing them.  Other potential activities during this period include: community and philanthropy tours, birding and forest walks, and experiences with the Batwa tribe.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 15
+                </h1>
+                <p className='font-bold mb-2'>ENTEBBE || Wayward  connection  back home    </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Take a flight back to Entebbe and check into Protea Hotel, where a dayroom is reserved for your use until your departure for the international flight.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>  Protea Hotel Entebbe.   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
         </div>
 
         <Partners/>
