@@ -25,17 +25,17 @@ function UgandaFamily() {
         }
       <div>
       <div className='relative'>
-          <img alt='spirit of Uganda Safari' src='https://www.kideponationalpark.com/wp-content/uploads/2016/11/kidepooo-1350x500.jpg' className='w-full'/>
-          <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Spirit of Uganda</strong> </h1>
+          <img alt='spirit of Uganda Safari' src='https://mondsafaris.com/wp-content/uploads/2021/03/family.jpg' className='w-full'/>
+          <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Uganda family Safari</strong> </h1>
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white">15days/14 nights </p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">12days/11nights </p>
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white">From $ 17,567 per person</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">From $ 8,567 per person</p>
                 </div>
         </div>
         <div className=" p-5 lg:px-[300px]">
@@ -67,7 +67,7 @@ function UgandaFamily() {
                                     1
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Protea Hotel Entebbe 
+                                Boma Hotel Entebbe 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Bed and Breakfast
@@ -78,7 +78,7 @@ function UgandaFamily() {
                                     <a href="#maasaimara" className=" hover:text-red-900 md:text-xl">Jinja  </a>
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
-                                    2
+                                    3
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Wildwaters Lodge 
@@ -89,41 +89,13 @@ function UgandaFamily() {
                             </tr>
                             <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Murchison Falls</a>
+                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Queen Elizabeth </a>
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
                                     2
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Paraa Safari Lodge
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                    Full board
-                                </td>
-                            </tr>
-                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Kibale Forest </a> 
-                                </th>
-                                <td className="px-6 py-4 md:text-xl">
-                                    2
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                  Kyaninga Lodge
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                    Full board
-                                </td>
-                            </tr>
-                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Queen Elizabeth </a> 
-                                </th>
-                                <td className="px-6 py-4 md:text-xl">
-                                    2
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                Mweya Safari Lodge
+                                Mweya Safari Lodge 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Full board
@@ -137,7 +109,7 @@ function UgandaFamily() {
                                     2
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Ishasha Wilderness Camp
+                                Ishasha Wilderness Camp 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Full board
@@ -151,7 +123,7 @@ function UgandaFamily() {
                                     3
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Sunctuary Gorilla Forest Camp
+                                Mahogany Springs
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Full board
@@ -159,18 +131,20 @@ function UgandaFamily() {
                             </tr>
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Entebbe </a> 
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Boma Hotel Entebbe  </a> 
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
-                                    __
+                                    ___
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Protea Hotel Entebbe
+                                Boma Hotel Entebbe 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Day room
+                                    Day Room
                                 </td>
                             </tr>
+                           
+                           
                         </tbody>
                     </table>
                 </div>
@@ -185,32 +159,28 @@ function UgandaFamily() {
                             <li className="flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span> Prolific  game viewing at  Murchison Falls and Queen Elizabeth National Parks </span>
+                                <span> Classic game viewing in Queen Elizabeth National Park Parks </span>
                             </li>
                           
                             <li className=" flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Spot Tree-climbing lions in Queen Elizabeth National Park </span></li>
+                                <span>Stunning scenaries: Verdant woodlands, expansive grasslands, crater lakes, and snow-capped mountains. </span></li>
                            
                             <li className=" flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Stunning scenaries: Verdant woodlands, expansive grasslands, crater lakes, and snow-capped mountains. </span></li>
+                                <span>Mountain Gorilla and chimp tracking experiences </span></li>
                             
                             <li className=" flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Mountain Gorilla and chimp tracking experiencesk </span></li>
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
                                 <span>Up close and personal with hippo along the Kazinga Channel </span></li>
-
                             <li className=" flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>A wide variety of avian species, including several exclusive to the Albertine Rift region. </span></li>
+                                <span>Excellent accommodations </span></li>
+
                             
                         </ul>
                     </div>
@@ -327,8 +297,7 @@ function UgandaFamily() {
               <div className='lg:flex items-center justify-center'>
               
                 <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Upon your arrival at Entebbe Airport, we will meet you and transfer  you to your Hotel for a leisurely evening stay. 
-                </p>
+                Upon your arrival, your dedicated safari director/guide will be ready to meet you and facilitate your transfer to Boma hotel for a leisurely evening stay.                 </p>
               
                 <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                 
@@ -336,7 +305,7 @@ function UgandaFamily() {
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Protea Hotel Entebbe </p>
+                 <FaHotel className=' mr-3'/> <p>Boma Hotel Entebbe </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -345,13 +314,12 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 2
                 </h1>
-                <p className='font-bold mb-2'>JINJA || White  Water Rafting </p>
+                <p className='font-bold mb-2'>JINJA || Out and About. </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Following breakfast, explore the charm of Entebbe City before embarking on a captivating scenic trip to Jinja town. Upon arrival, settle into the comfort of your lavish accommodation at Wildwaters Lodge, where you'll be based for the next two nights. 
-                  </p>
+                  Following a delightful breakfast, take the opportunity to discover Entebbe City before setting out on a scenic afternoon journey to Jinja town. Upon reaching your destination, make yourself a comfortable home in the luxurious accommodations at Wildwaters Lodge, your fun base for the next three nights.                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
@@ -367,13 +335,12 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 3
                 </h1>
-                <p className='font-bold mb-2'>JINJA || Constant  explorations  </p>
+                <p className='font-bold mb-2'>JINJA || White-water rafting and Nile boat expedition   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Today, take advantage of the various activities available during your stay, such as quad biking, horseback riding, white-water rafting, and a guided village tour. You will also delight in a Nile boat expedition aboard the iconic and restored African Queen, renowned from the film featuring Humphrey Bogart.  
-                  </p>
+                  Wildwaters Lodge provides an array of activity choices. Today, you will  delight in a Nile boat expedition aboard the iconic and restored African Queen, renowned from the film featuring Humphrey Bogart.  You may also contemplate engaging in white-water rafting on the rapids of the Nile or immerse yourself in quad biking and horseback rides.                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
@@ -390,20 +357,19 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 4
                 </h1>
-                <p className='font-bold mb-2'>MURCHISONS FALLS || Jewel of River Nile  </p>
+                <p className='font-bold mb-2'>JINJA ||. Design your day.   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Embark on an early morning journey to Murchison Falls, a picturesque site along the Nile and the setting for the iconic Humphrey Bogart film, The African Queen. En route, you'll make stops at points of interest before taking a ferry across the Nile directly to the lodge. Upon arrival, settle in before accompanying your guide to explore Murchison Falls, where a refreshing mist cascades down a narrow gorge.  
-                  </p>
+                  Today, you have the freedom to structure your day as you wish. Options include  unwinding with some beach time on the serene shores of Lake Victoria or exploring the town and the local community markets to find unique and interesting souvenirs .Other exciting activities  to be explored on this day  include: sunset Nile boat cruises, golfing , and birding.                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
+                 <FaHotel className=' mr-3'/> <p>Wildwaters Lodge  </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -414,20 +380,19 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 5
                 </h1>
-                <p className='font-bold mb-2'>MURCHISONS FALLS ||  Game viewing.   </p>
+                <p className='font-bold mb-2'>QUEEN ELIZABETH || Wild ventures   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Spend this day indulging in wildlife observation along the banks of the Nile in Murchison Falls, where you'll encounter a rich array of animals including: elephants, giraffes, hippos, buffaloes, lions, antelopes, warthogs, and more. An ideal way to spend the day is by embarking on a morning game drive followed by an afternoon boat safari to the base of the falls and to the top. Additional activities to be explored include:  Chimpanzee tracking,  nature walks, rhino sanctuary visit, and a boat trip to the Nile Delta.                   
-                  </p>
+                  Today, following breakfast, you will journey to Kampala International Airport and catch a flight to Mweya Airport in Queen Elizabeth National Park. Upon arrival, your dedicated guide/driver will be ready to welcome you and facilitate your transfer to Mweya Safari Lodge, where you will spend two leisurely nights. Arrive in time for lunch and unwind in your room before embarking on a late afternoon game drive, offering the chance to witness extraordinary wildlife, including the renowned tree-climbing lions the park is celebrated for.                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
+                 <FaHotel className=' mr-3'/> <p>Mweya Safari Lodge.   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -437,20 +402,19 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 6
                 </h1>
-                <p className='font-bold mb-2'>KIBALE FOREST || Bunyaruguru Crater Exploration.   </p>
+                <p className='font-bold mb-2'>QUEEN ELIZABETH  || Chimpanzee trek in the Kyambura valley.   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  After a substantial morning breakfast, catch a flight to Kibale and then proceed to your lodge. Dedicate the remainder of the day to unwinding and enjoying the amenities of the lodge. Alternatively, you can choose to partake in a nature walk along the summit of the Bunyaruguru Crater later in the day.                  
-                  </p>
+                  This morning, embark on a chimpanzee trek in the Kyambura valley, which acts as a natural boundary alongside the Kyambura Wildlife Sanctuary to the east. This gorge creates an enclosed habitat for the chimpanzees, making the likelihood of encountering these animals quite high. After a rewarding  hike, enjoy a late afternoon boat excursion along the Kazinga Canal for a chance to spot hippos, crocodiles, as well as buffaloes, elephants, warthogs, and various bird species congregating near the shoreline to quench their thirst—a splendid opportunity to closely observe these animals from the boat and capture photographs. Wrap up your safari day with a scenic sundowner celebration.                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
+                 <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -461,20 +425,19 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 7
                 </h1>
-                <p className='font-bold mb-2'>KIBALE FOREST ||   Chimpanzee trek.   </p>
+                <p className='font-bold mb-2'>ISHASHA || Spot the tree climbing lions & Cruise the Kazinga Channel   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Rise early for the commencement of your chimpanzee trek, immersing yourself in the quietude of the forest as you traverse. The trek will guide you through Kibale Forest, offering promising encounters with red-tailed monkeys and grey-cheeked mangabeys along the path. If fortunate enough to join the company of chimpanzees, relish an hour observing their behaviors and capturing photographs to your satisfaction. Subsequently, experience a local-style journey by African canoe across a lake, keeping an eye out for wildlife and savoring the picturesque surroundings.                  
-                  </p>
+                  Set forth on a venture to the Ishasha sector of Queen Elizabeth National Park today, enjoying a game drive amidst picturesque landscapes. Your lodging will be situated in the secluded Ishasha sector, known for candelabra trees serving as preferred resting spots for the park's renowned tree-climbing lions. In the evening, embark on a captivating  boat cruise along the Kazinga Channel, a 32-kilometer waterway linking Lake George and Lake Edward. Perfect for bird enthusiasts and wildlife lovers, the channel attracts diverse animals, including hippos, crocodiles elephants and buffalos.                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
+                 <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -484,7 +447,7 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 8
                 </h1>
-                <p className='font-bold mb-2'>QUEEN ELIZABETH || Wild Adventures  </p>
+                <p className='font-bold mb-2'>ISHASHA ||  Constant explorations   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
@@ -497,7 +460,7 @@ function UgandaFamily() {
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
+                 <FaHotel className=' mr-3'/> <p>Ishasha Wilderness Camp.   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -507,20 +470,19 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 9
                 </h1>
-                <p className='font-bold mb-2'>QUEEN ELIZABETH || Wild Adventures  </p>
+                <p className='font-bold mb-2'>BWINDI. || Up close with Mountain Gorillas  </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Participate in a unique lion-tracking adventure led by the rangers of Queen Elizabeth National Park, for an opportunity to spot the rarely seen tree-climbing lions - a phenomenon uncommon elsewhere in Africa. Following lunch, return to the park for a boat safari along the Kazinga Channel. Here, you can witness numerous animals congregating to drink from the channel, such as hippos,  buffalo, crocodiles, as well as bird species like, fish eagles pied, pelicans, and kingfishers. Conclude your safari day with a picturesque sundowner celebration.
-                  </p>
+                  Savor a delightful breakfast to kickstart your day before embarking on a picturesque journey to Bwindi Impenetrable National Park. Enjoy the scenic drive, meandering through the Rift Valley, Kigezi Highlands, and the mountains leading to the national park.Indulge in a culinary delight upon your arrival at your camp in the afternoon                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
+                 <FaHotel className=' mr-3'/> <p> Mahogany Springs   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -530,7 +492,7 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 10
                 </h1>
-                <p className='font-bold mb-2'>ISHASHA || Cruise the Kazinga Channel   </p>
+                <p className='font-bold mb-2'>BWINDI || Batwa tribe experiences and philanthropy tours   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
@@ -543,7 +505,7 @@ function UgandaFamily() {
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
+                 <FaHotel className=' mr-3'/> <p>  Mahogany Springs</p>
                 </div>
                 <hr className='my-5'/>
 
@@ -553,13 +515,12 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 11
                 </h1>
-                <p className='font-bold mb-2'>ISHASHA ||  Constant explorations    </p>
+                <p className='font-bold mb-2'>BWINDI || Customize your day's  activities     </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  The Ishasha savannahs are famous for hosting tree-climbing lions. Furthermore, being located within the park, the camp allows wildlife to move freely, offering guests the chance to observe elephants bathing in the river, buffalo grazing, and frequent sightings of Black-and-White Colobus and vervet monkeys in the vicinity.
-                  <br/><br/>Dedicate this day to exploring the park through morning and afternoon game drives, remaining vigilant for captivating wildlife encounters. Conclude the safari day with a picturesque sundowner celebration.
+                  Today, when you're not immersed in the gorilla trekking adventure, take the opportunity to explore the lively local community surrounding the National Park through an enlightening village visit. In the evening, enjoy a stroll to the nearby village where Bwindi Bar awaits, offering an authentic and chic atmosphere along with tapas-style cuisine and lively cocktails.
                   </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
@@ -567,7 +528,7 @@ function UgandaFamily() {
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
+                 <FaHotel className=' mr-3'/> <p> Mahogany Springs.    </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -577,67 +538,24 @@ function UgandaFamily() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 12
                 </h1>
-                <p className='font-bold mb-2'>BWINDI. || Up close with Mountain Gorillas    </p>
+                <p className='font-bold mb-2'>ENTEBBE || Wayward  connection  back home   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Indulge in a delicious morning breakfast before embarking on a picturesque journey to Bwindi Impenetrable National Park. Enjoy the scenic drive along the way, passing through the Rift Valley, Kigezi Highlands, and the mountains that lead to the national park. Upon reaching your camp in the afternoon, relish a Chef's Table experience.
-                  </p>
+                  As your remarkable journey concludes, board your return flight to Entebbe. Make the most of your final day in Uganda by savoring a tranquil meal amidst the picturesque gardens of The Boma Hotel.                  </p>
                   <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
+                 <FaHotel className=' mr-3'/> <p>  Boma Hotel Entebbe    </p>
                 </div>
                 <hr className='my-5'/>
 
 
-                <div>
-                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
-                  Day 13 & 14
-                </h1>
-                <p className='font-bold mb-2'>BWINDI || Batwa tribe experiences and philanthropy tours     </p>
-                <hr/>
-                <div className='lg:flex items-center justify-center'>
-              
-                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Dedicate the next two days to tracking endangered mountain gorillas, spending an hour each day observing them.  Other potential activities during this period include: community and philanthropy tours, birding and forest walks, and experiences with the Batwa tribe.
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
-                  
-                </div>
-            </div>
-                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
-                </div>
-                <hr className='my-5'/>
-
-
-                <div>
-                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
-                  Day 15
-                </h1>
-                <p className='font-bold mb-2'>ENTEBBE || Wayward  connection  back home    </p>
-                <hr/>
-                <div className='lg:flex items-center justify-center'>
-              
-                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Take a flight back to Entebbe and check into Protea Hotel, where a dayroom is reserved for your use until your departure for the international flight.
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
-                  
-                </div>
-            </div>
-                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Protea Hotel Entebbe.   </p>
-                </div>
-                <hr className='my-5'/>
-
+               
 
 
 
