@@ -2,6 +2,8 @@ import React,{useState} from 'react';
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
+import Partners from '../Partners';
+import {FaHotel} from 'react-icons/fa';
 
 function Gorrilla() {
     const [colorChanged, setColorChanged]= useState(false);
@@ -17,10 +19,454 @@ function Gorrilla() {
     window.addEventListener('scroll', changeNavbarColor);
 
   return (
-    <div>
+    <div className='bg-white'>
         {
         colorChanged ? <Navreveal/> : <Navbar/>
         }
+    
+    <div className='relative '>
+          <img alt='spirit of Uganda Safari' src='https://www.lakenakurukenya.com/wp-content/uploads/2021/07/Congo-gorillas-1.jpg' className='w-full'/>
+          <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Rwanda Gorilla & Game Vacation.</strong> </h1>
+        </div>
+        <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
+                <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">9days/ 8nights </p>
+                </div>
+                <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">From  $ 12,873 per person</p>
+                </div>
+        </div>
+        <div className=" p-5 lg:px-[300px]">
+        <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
+                <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+                    <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                            <tr>
+                                <th scope="col" className="px-6 py-3 md:text-xl">
+                                    Destination
+                                </th>
+                                <th scope="col" className="px-6 py-3 md:text-xl">
+                                    Night
+                                </th>
+                                <th scope="col" className="px-6 py-3 md:text-xl">
+                                    Accomodation
+                                </th>
+                                <th scope="col" className="px-6 py-3 md:text-xl">
+                                    Meal plan
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Kigali</a>
+                                </th>
+                                <td className="px-6 py-4 md:text-xl">
+                                    2
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Kigali Serena Hotel 
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Bed, Breakfast and Lunch
+                                </td>
+                            </tr>
+                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#maasaimara" className=" hover:text-red-900 md:text-xl">Akagera National Park   </a>
+                                </th>
+                                <td className="px-6 py-4 md:text-xl">
+                                    3
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Magashi Camp 
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Full board
+                                </td>
+                            </tr>
+                            <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Volcanoes National Park</a>
+                                </th>
+                                <td className="px-6 py-4 md:text-xl">
+                                    3
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Bisate Lodge
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Full board
+                                </td>
+                            </tr>
+                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Kigali </a> 
+                                </th>
+                                <td className="px-6 py-4 md:text-xl">
+                                    ___
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                  Kigali Serena Hotel
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Day room
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+
+        <div className=" p-10 flex flex-col flex-2 lg:px-[300px]">
+                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Tour the poignant Genocide Memorial Site in Kigali.</span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Spend two daysTracking the majestic Mountain gorillas  and golden  monkeys at  Volcanoes National Park  </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Spot the 'Big fives' and learn  about conservation efforts at the Akagera National Park. </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Participate in conservation initiatives aimed at tracking and observing the 'Big fives.' </span></li>
+                            
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Excellent accommodations  at Rwanda's most luxurious tented  camps and lodges. </span></li>                            
+                        </ul>
+                    </div>
+
+
+              <div className=' p-10 flex flex-col flex-2 lg:px-[300px]'>
+              <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
+              <div className="lg:flex lg:justify-between p-5">
+                <ul className="lg:p-5 mb-8 space-y-4 text-left text-black">
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Meals as specified</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Airport and Airstrip transfers</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Road transfers as detailed in the itinerary using  4 × 4 vehicle with experienced English/French/Spanish speaking driver/guide.</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Park/conservancy entry fees </span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>All scheduled safari activities offered by the camps or lodges.</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Finnest accommodation in the most authentic  camps and lodges shown in the itinerary</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Mineral water on  game drives</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Gorilla tracking Permit.</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>24hour Lamlav Safaris on call support</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Optional activities  and excursions.</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Accommodation as specified</span>
+                  </li>
+
+                  
+                </ul>
+              </div>
+        </div>
+        <div>
+        </div>
+
+        <div className=' lg:px-[200px] px-[70px]'>
+          <h1 className=' text-2xl font-bold mb-5'>Itinerary</h1>
+          <div>
+              <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 1
+              </h1>
+              <p className='font-bold mb-2'>KIGALI RWANDA|| Arrival.</p>
+              <hr/>
+              <div className='lg:flex items-center justify-center'>
+              
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Arrive in Kigali and transfer to  your luxurious hotel                
+                </p>
+              
+                <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                
+              </div>
+          </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel </p>
+                </div>
+                <hr className='my-5'/>
+
+
+              <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 2
+                </h1>
+                <p className='font-bold mb-2'>KIGALI RWANDA|| Genocide Memorial and Exclusive Coffee Explorations  </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Start your day with a poignant visit to the Genocide Memorial Site, where you can gain insights into how Rwanda has confronted its history and emerged as a symbol of human resilience.
+<br/><br/>After a satisfying lunch at a nearby eatery, you'll have the opportunity to explore the coffee-making process in Kigali, from cultivating and harvesting the beans to roasting and brewing.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel  </p>
+                </div>
+                <hr className='my-5'/>
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 3
+                </h1>
+                <p className='font-bold mb-2'>AKAGERA || At the only 'Big Five' protected area.   </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  After your morning breakfast, you'll enjoy one last tour of Kigali city before setting off on a roughly two and a half-hour journey to the captivating Akagera National Park in eastern Rwanda. Upon arrival, you'll have the opportunity to check into your accommodation at the splendid Magashi Camp and enjoy a sumptuous  lunch thereafter. In the afternoon, you can choose to unwind in your room or explore the camp's surroundings at your leisure.As the day comes to an end, gather with your fellow travelers for a pleasant welcome dinner.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Magashi  Camp  </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 4
+                </h1>
+                <p className='font-bold mb-2'>AKAGERA || Game viewing. </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Explore the abundant wildlife in Akagera National Park on scheduled  morning ,afternoon  and night  game drives. Return to the camp  in between the drives for lunch and relaxation,  before  setting  out for another game  drive. 
+                  <br/><br/>Akagera is  home to various animals like elephants, giraffes, zebras, lions; and a host to over 500 bird species, including African fish eagles and shoebills. Keep your  eyes peeled  for  an  opportunity  to  spot  these incredible  creatures  during  the  game drives.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Magashi  Camp  </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 5
+                </h1>
+                <p className='font-bold mb-2'>AKAGERA || Design your day.   </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  This day, you will explore the park on an early  morning  game drive  and return  back to the camp  to sample the numerous  activities  that the camp provides. You can  choose  to:
+
+                  <br/><br/><li>Venture  out on a guided  boat safaris - or fishing expedition - on Lake Rwanyakazinga, for a unique opportunities to observe hippos, crocodiles, and a variety of water birds up close. OR,</li>
+                  <li>Set out on a guided  walking safaris  to explore the park on foot, accompanied by experienced rangers who provide insights into the park's ecosystem and wildlife.</li>
+                  <br/><br/>Head back to the camp in the evening to enjoy a cocktail while you reflect on the magnificent " a thousand hills" scenery during a peaceful Scenic Sundowner experience.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Magashi  Camp   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 6
+                </h1>
+                <p className='font-bold mb-2'>VOLCANOES NATIONAL PARK || At the foothills of Virunga Volcanoes    </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  This day you will savor a sumptuous bush breakfast  before embarking  on a scenic  drive to the Iconic Volcanoes National Park -  home to the endangered mountain gorillas. 
+                  <br/><br/>Upon your arrival, you'll check in and get comfortable at the iconic Bisate Lodge; where you'll have the early afternoon to unwind in this luxurious lodge with stunning views of the volcanic massif.
+                  <br/><br/> Later in the day, you can relax and cool off with an exclusive Lamlav canoe trip led by an experienced guide. This tranquil journey takes you down the gently flowing Mukungwa River, meandering through the foothills of the Virunga Volcanoes. Along the way, you'll enjoy breathtaking vistas of the towering volcanic cones in the distance, spot a variety of birds.
+                  <br/><br/>Conclude your adventure, with a stop on the riverbank for a refreshing sundowner. </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Bisate Lodge    </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 7
+                </h1>
+                <p className='font-bold mb-2'>VOLCANOES NATIONALPARK ||  Up close with Mountain Gorillas    </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  This day, embark on a trek through the thick park foliage, guided by experienced trackers, as you search for the elusive mountain gorillas and other primates. Upon encountering the gorillas, you'll have the privilege of spending an enchanting hour observing their daily activities, which include feeding, playing, resting, and caring for their young. Head back to your lodge for lunch, and the remainder of the day is yours to relax and unwind as you please.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Bisate Lodge   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 8
+                </h1>
+                <p className='font-bold mb-2'>VOLCANOES NATIONALPARK || Create  your  own day plan  </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  You will savor  a hearty  morning  breakfast and the rest of the day is for you to explore a range of activities that the lodge  offers, including tracking golden monkeys, going on hikes and nature walks, birdwatching, and engaging in conservation and community visits.
+                  </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Bisate Lodge   </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+                <div>
+                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                  Day 9
+                </h1>
+                <p className='font-bold mb-2'>KIGALI RWANDA|| Homeward connections   </p>
+                <hr/>
+                <div className='lg:flex items-center justify-center'>
+              
+                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                  Embark on a final morning trek to observe a different gorilla family, allowing you to witness the captivating behaviors of these remarkable primates once more. After your lunch, relax and enjoy  the lodge's amenities  before returning  to Kigali. Enjoy some downtime in a cozy dayroom before heading to the airport for your outbound flight.
+                   </p>
+                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  
+                </div>
+            </div>
+                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Kigali Serena Hotel     </p>
+                </div>
+                <hr className='my-5'/>
+
+              <div>
+                <h1 className='font-semibold text-xl mb-2'> End of Safari</h1>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>Each Lamlav Safari Itenerary is meticulously tailored to match your specific travel preferences. There are no pre-packaged tours or fixed departure dates. Our  skilled team is always available  initiate the process of crafting your personalized travel plan.</p>
+              </div>
+
+                
+        </div>
+
+        <Partners/>
+
+
+
         <div className=" bg-[#fff]">
                 <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
         </div>
