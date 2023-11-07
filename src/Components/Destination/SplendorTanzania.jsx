@@ -184,7 +184,7 @@ function SplendorTanzania() {
                 Warm reception  by your Lamlav Safari Director  upon touch-down at Arusha  International  Airport, and transfer  to Arusha Coffee  Lodge  for  a two night stay.
                 </p>
               
-                <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                <img alt='Arival' loading='lazy' src='https://www.elewanacollection.com/images/acl/ArushaCoffeeLodge---Restaurant-Exterior.jpg' className=' lg:w-1/2 ml-5'/>
                 
               </div>
           </div>
@@ -206,7 +206,7 @@ function SplendorTanzania() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   Take a moment, after  enduring  challenging long flights, to relax and unwind at the serene Arusha Coffee retreat, nestled within lush coffee plantations. Experience the beauty of the flower-filled surroundings, the gentle breeze, and the stunning sight of Mt. Meru from your suite's veranda. Afterwards, embark on a guided tour of the coffee plantations later in the day.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://www.andbeyond.com/wp-content/uploads/sites/5/Tea-Garden-at-Arusha-Coffee-Lodge.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
@@ -229,7 +229,7 @@ function SplendorTanzania() {
                   Begin your day with a satisfying breakfast, then embark on an incredible drive to Tarangire National Park. Arrive at the luxurious Tarangire Treetops Lodge, ingeniously constructed around a thousand-year-old baobab trees. 
 <br/><br/>From your tree house's balcony, you'll gaze upon the diverse landscapes of Tarangire — the wooden savannah adorned with acacias and baobabs, rocky formations, and undulating hills. This area hosts a rich array of African wildlife, including iconic species like elephants, alongside some rare additions such as oryx and kudu .
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/2240/33000774415_73bffb6d49_b.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
@@ -252,7 +252,7 @@ function SplendorTanzania() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   Embark on both morning and afternoon wildlife excursions to discover the captivating Tarangire National Park. Witness an impressive abundance of animals and numerous bird species frolicking amidst the trees. Keep an eye out for the telltale swaying tail of a leopard concealed in lofty branches, as well as the presence of notable creatures such as pythons, kudu, oryx, and other prominent wildlife.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://www.tarangirenationalparks.com/wp-content/uploads/2020/08/Game-Drives-in-Tarangire-National-Parkss-750x450.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
@@ -278,7 +278,7 @@ function SplendorTanzania() {
                   <br/><br/>Explore the Ngorongoro forest on a guided  walk with a Maasai Traditional Healer and learn about over 20 native plants and their traditional uses. 
                   <br/><br/>Enjoy a peaceful evening and spend the night at the lodge while indulging in a traditional high tea served on your private deck.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/9f/27.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
@@ -301,7 +301,7 @@ function SplendorTanzania() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   Descend to the floor of Ngorongoro Crater and explore its expansive grasslands teeming with wildlife. The crater's towering walls provide an extraordinary safari adventure. 
                   <br/><br/>Immerse yourself in an authentic "Lost World" where diverse and abundant wildlife roams freely. Encounter the entire Big Five in a single day—lions, elephants, black rhinos, and more—within this captivating UNESCO World Heritage Site. Enjoy a delightful outdoor lunch in this unique setting before returning to your lodge to unwind with serene sundowners on your private terrace, followed by a delightful dinner overlooking this enchanting destination.                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://www.tarangirenationalparks.com/wp-content/uploads/2021/12/Ngorongoro-Facts-750x450-1.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
@@ -326,7 +326,7 @@ function SplendorTanzania() {
                   Drive to Serengeti National Park, an expansive landscape in Tanzania renowned for hosting the remarkable annual event known as the Great Migration. During this spectacle, millions of herbivores journey across the Serengeti plains in search of water and lush grass. 
                   <br/><br/>Enjoy a three-night stay at Migration Camp, nestled amidst kopje-like rock formations above the Grumeti River. Each of the camp's 20 tents is surrounded by a deck, offering a personal retreat to observe the captivating natural show unfolding both below and in the distance.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/af/Floating_through_the_Serengeti_plains.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
@@ -348,7 +348,7 @@ function SplendorTanzania() {
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   During today's exploration, you might encounter the big fives and numerous other wildlife species during both morning and afternoon game drives.                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://c.pxhere.com/photos/7c/a8/tanzania_serengeti_national_park_animal_wildlife_wild_zoology_mammal_species-979082.jpg!d' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
@@ -370,8 +370,8 @@ function SplendorTanzania() {
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   Engage once again in the breathtaking environment, keeping your eye peeled for sudden encounters as you track game across the expansive, golden grasslands of the Serengeti. Experience the Great Wildebeest Migration firsthand.                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
-                  
+                  <img alt='Arival' loading='lazy' src='https://lp-cms-production.imgix.net/2021-10/GettyRF_545860943.jpg' className=' lg:w-1/2 ml-5'/>
+                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
@@ -394,7 +394,7 @@ function SplendorTanzania() {
                   You will have a concluding early  morning  game drive across  the vast plains  before  heading  back  to the Migration  Camp for a hearty   breakfast. 
                   <br/><br/>Afterwards, fly back to Arusha, relax in day rooms at  the Arusha  Coffee  Lodge as you prepare for your  homebound  plane in the evening.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://www.safari.co.za/images/arusha-national-park-01-590x390.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
