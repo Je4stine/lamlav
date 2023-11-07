@@ -25,17 +25,17 @@ function UltimateMigration() {
         
         <div>
         <div className='relative'>
-          <img alt='spirit of Uganda Safari' src='https://www.kideponationalpark.com/wp-content/uploads/2016/11/kidepooo-1350x500.jpg' className='w-full'/>
-          <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Spirit of Uganda</strong> </h1>
+          <img alt='spirit of Uganda Safari' loading='lazy' src='https://media.discoverafrica.com/wp-content/uploads/2021/11/sayari-camp-game-drive-migration-serengeti-safari.jpg?strip=all&lossy=1&ssl=1' className='w-full'/>
+          <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Ultimate Greate Migration Safari</strong> </h1>
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white">15days/14 nights </p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">13days/12 nights </p>
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white">From $ 17,567 per person</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">From $ 15,275 per person</p>
                 </div>
         </div>
         <div className=" p-5 lg:px-[300px]">
@@ -61,13 +61,13 @@ function UltimateMigration() {
                         <tbody>
                             <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Entebbe</a>
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Nairobi</a>
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
-                                    1
+                                    2
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Protea Hotel Entebbe 
+                                House of Waine  
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Bed and Breakfast
@@ -75,13 +75,13 @@ function UltimateMigration() {
                             </tr>
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#maasaimara" className=" hover:text-red-900 md:text-xl">Jinja  </a>
+                                    <a href="#maasaimara" className=" hover:text-red-900 md:text-xl">Amboseli  </a>
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
                                     2
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Wildwaters Lodge 
+                                    Ol Tukai Lodge 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Full board
@@ -89,88 +89,80 @@ function UltimateMigration() {
                             </tr>
                             <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Murchison Falls</a>
+                                    <a href="#serengeti" className=" hover:text-red-900 md:text-xl">Arusha</a>
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
-                                    2
+                                    1
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Paraa Safari Lodge
+                                Onsea House 
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Bed and Breakfast
+                                </td>
+                            </tr>
+                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Ngorongoro </a> 
+                                </th>
+                                <td className="px-6 py-4 md:text-xl">
+                                    1
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                Ngorongoro Crater Lodge 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Full board
                                 </td>
                             </tr>
+
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Kibale Forest </a> 
-                                </th>
-                                <td className="px-6 py-4 md:text-xl">
-                                    2
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                  Kyaninga Lodge
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                    Full board
-                                </td>
-                            </tr>
-                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Queen Elizabeth </a> 
-                                </th>
-                                <td className="px-6 py-4 md:text-xl">
-                                    2
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                Mweya Safari Lodge
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                    Full board
-                                </td>
-                            </tr>
-                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Ishasha </a> 
-                                </th>
-                                <td className="px-6 py-4 md:text-xl">
-                                    2
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                Ishasha Wilderness Camp
-                                </td>
-                                <td className="px-6 py-4 md:text-xl">
-                                    Full board
-                                </td>
-                            </tr>
-                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Bwindi </a> 
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Serengeti  </a> 
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
                                     3
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Sunctuary Gorilla Forest Camp
+                                Lemala Ewanjan 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
                                     Full board
                                 </td>
                             </tr>
+
                             <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Entebbe </a> 
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Maasai Mara  </a> 
                                 </th>
                                 <td className="px-6 py-4 md:text-xl">
-                                    __
+                                    3
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                Protea Hotel Entebbe
+                                Mara Plains  Camp 
                                 </td>
                                 <td className="px-6 py-4 md:text-xl">
-                                    Day room
+                                    Full board
                                 </td>
                             </tr>
+                            
+
+                            <tr className="border-b bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    <a href="#Nairobi" className=" hover:text-red-900 md:text-xl">Nairobi  </a> 
+                                </th>
+                                <td className="px-6 py-4 md:text-xl">
+                                    ___
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                House of Waine
+                                </td>
+                                <td className="px-6 py-4 md:text-xl">
+                                    Day Room
+                                </td>
+                            </tr>
+                            
+                            
                         </tbody>
                     </table>
                 </div>
@@ -181,36 +173,23 @@ function UltimateMigration() {
                         <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
                             <li className=" flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>White-water rafting on the Nile River</span></li>
+                                <span>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city</span></li>
                             <li className="flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span> Prolific  game viewing at  Murchison Falls and Queen Elizabeth National Parks </span>
+                                <span> Six  nights  at the epicentre  of great wildebeest  migration  spectacle:  the great Maasai Mara and Serengeti national parks </span>
                             </li>
                           
                             <li className=" flex items-center space-x-3"> 
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Spot Tree-climbing lions in Queen Elizabeth National Park </span></li>
+                                <span>Excellent accommodations  at East Africa’s  most luxurious tented  camps and lodges </span></li>
                            
                             <li className=" flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span>Stunning scenaries: Verdant woodlands, expansive grasslands, crater lakes, and snow-capped mountains. </span></li>
+                                <span>Three exhilarating  flights  to expedite  your  travel between  the camps. </span></li>
                             
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Mountain Gorilla and chimp tracking experiencesk </span></li>
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Up close and personal with hippo along the Kazinga Channel </span></li>
-
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>A wide variety of avian species, including several exclusive to the Albertine Rift region. </span></li>
                             
                         </ul>
                     </div>
@@ -224,7 +203,14 @@ function UltimateMigration() {
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
-                    <span>Meals and accommodations as shown in the itinerary.</span>
+                    <span>Spectacular Hot air balloon  safari</span>
+                  </li>
+
+                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
+                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Bush breakfast, Sundowner and all beverages  as provided </span>
                   </li>
 
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -238,14 +224,7 @@ function UltimateMigration() {
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
-                    <span>Game drives in camps 4x4 vehicles with roof hatches for game viewing.</span>
-                  </li>
-
-                  <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
-                    <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-                    </svg>
-                    <span>Transport using 4x4 vehicle with experienced English/French/Spanish speaking driver/guide.</span>
+                    <span>Unlimited game drives in camps 4  4 vehicles with roof hatches for game viewing</span>
                   </li>
 
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -280,21 +259,21 @@ function UltimateMigration() {
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
-                    <span>One chimpanzee tracking permit in Kibale National Park.</span>
+                    <span>Transport using  4  4 vehicle with experienced English/French/Spanish speaking driver/guide.</span>
                   </li>
 
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
-                    <span>One boat cruise on the Kazinga Channel, Queen Elizabeth National Park.</span>
+                    <span>Scheduled flights;maasai mara/serengeti/Nairobi</span>
                   </li>
 
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
-                    <span>2 x gorilla tracking permits in Bwindi National Park.</span>
+                    <span>Optional activities  and excursions.</span>
                   </li>
 
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -308,7 +287,7 @@ function UltimateMigration() {
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
-                    <span>Optional activities and excursions: Visit to Rhino Sanctuary, White Water Rafting, Boat ride on the Nile, Horseback Ride Experience, Batwa Cultural Experience, Telephone calls and laundry services.</span>
+                    <span>Telephone  calls and laundry services </span>
                   </li>
                 </ul>
               </div>
@@ -322,21 +301,21 @@ function UltimateMigration() {
               <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                 Day 1
               </h1>
-              <p className='font-bold mb-2'>ENTEBBE || Arrival.</p>
+              <p className='font-bold mb-2'>NAIROBI KENYA|| Grand arrival.</p>
               <hr/>
               <div className='lg:flex items-center justify-center'>
               
                 <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Upon your arrival at Entebbe Airport, we will meet you and transfer  you to your Hotel for a leisurely evening stay. 
+                Arrive in Nairobi and transfer to  your luxurious hotel.  
                 </p>
               
-                <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                <img alt='Arival' loading="lazy" src='https://i.natgeofe.com/n/fbc59cb3-1962-49e8-8d98-2743e0f98cdc/skyline-nairobi-kenya.jpg?w=2520&h=1324' className=' lg:w-1/2 ml-5'/>
                 
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Protea Hotel Entebbe </p>
+                 <FaHotel className=' mr-3'/> <p>House of Waine  </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -345,20 +324,23 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 2
                 </h1>
-                <p className='font-bold mb-2'>JINJA || White  Water Rafting </p>
+                <p className='font-bold mb-2'>NAIROBI || City explorations  </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Following breakfast, explore the charm of Entebbe City before embarking on a captivating scenic trip to Jinja town. Upon arrival, settle into the comfort of your lavish accommodation at Wildwaters Lodge, where you'll be based for the next two nights. 
+                  After a satisfying morning meal, you will embark on a journey to discover the wonders of Nairobi. You will:
+                    <li>Pay a visit to the residence of Karen Blixen.</li>
+                    <li>Encounter charming young elephants at the Daphne Sheldrick elephant orphanage, and  </li>
+                    <li>Commingle with the planet's tallest land mammals at the Giraffe Centre. </li>
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  <img loading='lazy' alt='Arival' src='https://media.tacdn.com/media/attractions-splice-spp-674x446/06/dd/de/17.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
+                 <FaHotel className=' mr-3'/> <p>House of Waine </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -367,20 +349,20 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 3
                 </h1>
-                <p className='font-bold mb-2'>JINJA || Constant  explorations  </p>
+                <p className='font-bold mb-2'>AMBOSELI || At the base of Mt.Kilimanjaro.  </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Today, take advantage of the various activities available during your stay, such as quad biking, horseback riding, white-water rafting, and a guided village tour. You will also delight in a Nile boat expedition aboard the iconic and restored African Queen, renowned from the film featuring Humphrey Bogart.  
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  This morning, embark on a journey to the enchanting Amboseli National Park, nestled at the foot of the majestic, snow-capped Mount Kilimanjaro; renowned as the tallest freestanding mountain globally. Begin your quest to witness the area's magnificent wildlife, with a particular focus on the impressive elephant herds that traverse the arid savannahs. As the day draws to a close, join your fellow travelers for a delightful welcome dinner
+                   </p>
+                  <img alt='Arival' loading="lazy" src='https://cdn.pixabay.com/photo/2019/06/15/14/40/elephants-4275741_1280.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
+                 <FaHotel className=' mr-3'/> <p> Ol Tukai  Lodge </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -390,20 +372,20 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 4
                 </h1>
-                <p className='font-bold mb-2'>MURCHISONS FALLS || Jewel of River Nile  </p>
+                <p className='font-bold mb-2'>AMBOSELI || Game viewing  </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Embark on an early morning journey to Murchison Falls, a picturesque site along the Nile and the setting for the iconic Humphrey Bogart film, The African Queen. En route, you'll make stops at points of interest before taking a ferry across the Nile directly to the lodge. Upon arrival, settle in before accompanying your guide to explore Murchison Falls, where a refreshing mist cascades down a narrow gorge.  
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  Discover the abundant wildlife in Amboseli National Park. Besides observing elephants up close, witnessing them march purposefully, you can also spot other remarkable creatures like zebras, hippos, giraffes, wildebeests, lions hyenas, and Cape buffaloes. Pause for lunch and  embark on another game drive, In the afternoon, unveiling further marvels of East Africa's natural beauty.
+                   </p>
+                  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/51209270682_ca12145045_b.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
+                 <FaHotel className=' mr-3'/> <p>Ol Tukai  Lodge  </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -414,20 +396,19 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 5
                 </h1>
-                <p className='font-bold mb-2'>MURCHISONS FALLS ||  Game viewing.   </p>
+                <p className='font-bold mb-2'>ARUSHA || Exploring the lovely Arusha coffee plantations    </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Spend this day indulging in wildlife observation along the banks of the Nile in Murchison Falls, where you'll encounter a rich array of animals including: elephants, giraffes, hippos, buffaloes, lions, antelopes, warthogs, and more. An ideal way to spend the day is by embarking on a morning game drive followed by an afternoon boat safari to the base of the falls and to the top. Additional activities to be explored include:  Chimpanzee tracking,  nature walks, rhino sanctuary visit, and a boat trip to the Nile Delta.                   
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  Today, you'll be flying to Arusha via Kilimanjaro International Airport. Upon arrival, a driver will be waiting for you at the arrivals area to take you to Onsea House. This charming accommodation is strategically located close to some of Tanzania's top national parks and Mount Kilimanjaro, making it a popular choice for adventurers. In the afternoon, embark on an exciting journey to explore Arusha on a walking tour.  Visit  Arusha's coffee plantations and the Shanga Workshop, with a private guide, to learn about the handmade jewelry and homeware created there. Return to your room, in the evening, for a delicious evening meal and drinks as you reflect on your safari experiences.                  </p>
+                  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/11854977/pexels-photo-11854977.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
+                 <FaHotel className=' mr-3'/> <p>Onsea House  </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -437,20 +418,22 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 6
                 </h1>
-                <p className='font-bold mb-2'>KIBALE FOREST || Bunyaruguru Crater Exploration.   </p>
+                <p className='font-bold mb-2'>NGORONGORO || Into the epic Caldera.   </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  After a substantial morning breakfast, catch a flight to Kibale and then proceed to your lodge. Dedicate the remainder of the day to unwinding and enjoying the amenities of the lodge. Alternatively, you can choose to partake in a nature walk along the summit of the Bunyaruguru Crater later in the day.                  
+                  This morning, you'll embark on a journey to the awe-inspiring Ngorongoro Crater, enjoying a scenic drive along the way. Your route will lead you to the peaceful Gibb's Farm, where you'll savor a sumptuous lunch .
+                  <br/><br/>Ngorongoro Crater is  a remarkable caldera plunging 2,000 feet deep. Inside, you'll discover a captivating microcosm of East African wildlife, including black rhinos, elephants, wildebeests, zebras, lions, leopards, buffalo, and flamingos. 
+                  <br/><br/>Finally, you'll arrive at the Ngorongoro Crater Lodge, that boasts elegant accommodations with cozy beds, crisp linens, and en-suite bathrooms. Relax on your private deck and take in the breathtaking panoramic views of this natural wonderland.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/e/e5/Ngorongoro_Crater%2C_Tanzania.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
+                 <FaHotel className=' mr-3'/> <p> Ngorongoro Crater Lodge.  </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -461,20 +444,21 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 7
                 </h1>
-                <p className='font-bold mb-2'>KIBALE FOREST ||   Chimpanzee trek.   </p>
+                <p className='font-bold mb-2'>SERENGETI NATIONAL PARK ||  Deep into the vast  plains    </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Rise early for the commencement of your chimpanzee trek, immersing yourself in the quietude of the forest as you traverse. The trek will guide you through Kibale Forest, offering promising encounters with red-tailed monkeys and grey-cheeked mangabeys along the path. If fortunate enough to join the company of chimpanzees, relish an hour observing their behaviors and capturing photographs to your satisfaction. Subsequently, experience a local-style journey by African canoe across a lake, keeping an eye out for wildlife and savoring the picturesque surroundings.                  
+                  We will venture down to the floor of the natural amphitheater of Ngorongoro crater for an incredibly rewarding game drive. This is where you'll have the opportunity to spot nearly all of East Africa's renowned wildlife. Descend into the crater during its most active time of day to observe the resident animals, all while enjoying a delicious lunch at the crater's base.                  
+                  <br/><br/>Afterwards, we'll take a flight to the legendary Serengeti National Park and make ourselves at home in the remote and authentic Lemala Ewanjan camp. Relax on your veranda and take in the sweeping views of the Serengeti plains.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  <img alt='Arival' loading="lazy" src='https://live.staticflickr.com/5225/5699832418_365b81c739_b.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
+                 <FaHotel className=' mr-3'/> <p> Lemala Ewanjan camp.   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -484,20 +468,21 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 8
                 </h1>
-                <p className='font-bold mb-2'>QUEEN ELIZABETH || Wild Adventures  </p>
+                <p className='font-bold mb-2'>SERENGETI NATIONAL PARK || Big five explorations  </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Today, we proceed southward towards Queen Elizabeth National Park. Upon arrival, make yourself comfortable in your accommodation at Mweya Safari Lodge, as you enjoy  the stunning parking  views from your  private deck. In the afternoon, embark on a game drive to venture into the nearby terrain, for an opportunity to encounter the "big five," hippos, baboons, buffaloes, and a variety of other wildlife.
+                  After a delightful  morning breakfast, you will set out on both morning and afternoon game drives across the vast Serengeti plains. Beyond sighting the renowned Big Five animals - Cape buffalo, elephants, rhinos lions, and leopards  -  you might witness the impressive Great Migration as vast herds of wildebeests and zebras journey through the Serengeti in search of food and water.Your highly experienced driver-guide will ensure you stay in the heart of the action for optimal game viewing. 
+                  <br/><br/>As the day winds down, return to the camp in the evening, where you can sip a cocktail and contemplate the grandeur of Africa during a tranquil Scenic Sundowner experience.
                    </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/61/Serengeti_National_Park%2C_Tanzania_-_panoramio_%288%29.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
+                 <FaHotel className=' mr-3'/> <p> Lemala Ewanjan Camp.   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -507,20 +492,19 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 9
                 </h1>
-                <p className='font-bold mb-2'>QUEEN ELIZABETH || Wild Adventures  </p>
+                <p className='font-bold mb-2'> SERENGETI NATIONAL PARK || Create  your  own day plan  </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Participate in a unique lion-tracking adventure led by the rangers of Queen Elizabeth National Park, for an opportunity to spot the rarely seen tree-climbing lions - a phenomenon uncommon elsewhere in Africa. Following lunch, return to the park for a boat safari along the Kazinga Channel. Here, you can witness numerous animals congregating to drink from the channel, such as hippos,  buffalo, crocodiles, as well as bird species like, fish eagles pied, pelicans, and kingfishers. Conclude your safari day with a picturesque sundowner celebration.
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  Set out for an early  morning  game drive and return  to the lodge  to sample  the various  activities  on offer which  includes: Guided  nature  walks,  bird watching,  riding  on horsebacks, cultural  visits  at the manyattas and the Spectacular  hot air  balloon  rides.                  </p>
+                  <img alt='Arival' src='https://images.pexels.com/photos/7280783/pexels-photo-7280783.jpeg?auto=compress&cs=tinysrgb&w=1600' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
+                 <FaHotel className=' mr-3'/> <p> Lemala Ewanjan Camp   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -530,20 +514,22 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 10
                 </h1>
-                <p className='font-bold mb-2'>ISHASHA || Cruise the Kazinga Channel   </p>
+                <p className='font-bold mb-2'>MAASAI MARA|| Deep into the wild    </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Embark on a journey to the Ishasha sector of Queen Elizabeth National Park today, indulging in a game drive while appreciating the scenic views along the way. Your accommodation will be in the secluded Ishasha sector, characterized by candelabra trees that serve as the favored resting spots for the park's famous tree-climbing lions. In the evening,  take a breathtaking  along Cruise the Kazinga Channel for a chance  to spot  hippos, crocodiles and a variety  of  bird species.
+                  This day, you'll embark on a private chartered flight to the  famed Masai Mara Game Reserve. 
+                  <br/><br/>Upon landing, settle into your luxurious camp and then dive into the vast Mara during an afternoon game drive. Your arrival here is strategically timed to coincide with the historical presence of the Great Migration in the Masai Mara, increasing your chances of witnessing this extraordinary natural phenomenon.
+                  <br/><br/>As night falls, unwind in your wonderfully appointed en-suite tent, where you can stargaze at the African night sky from your spacious wooden deck.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  <img alt='Arival' src='https://live.staticflickr.com/7827/46196374375_3a67240235_b.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
+                 <FaHotel className=' mr-3'/> <p> Mara Plains  Camp   </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -553,21 +539,21 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 11
                 </h1>
-                <p className='font-bold mb-2'>ISHASHA ||  Constant explorations    </p>
+                <p className='font-bold mb-2'>MAASAI MARA|| Inherent splendor in Mara's natural richness. </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  The Ishasha savannahs are famous for hosting tree-climbing lions. Furthermore, being located within the park, the camp allows wildlife to move freely, offering guests the chance to observe elephants bathing in the river, buffalo grazing, and frequent sightings of Black-and-White Colobus and vervet monkeys in the vicinity.
-                  <br/><br/>Dedicate this day to exploring the park through morning and afternoon game drives, remaining vigilant for captivating wildlife encounters. Conclude the safari day with a picturesque sundowner celebration.
+                  Get an early start to your day for an exhilarating hot air balloon journey that will have you gliding above the expansive and wildlife-filled Masai Mara, offering a unique and breathtaking view of the animals below. Afterward, land for a hearty bush breakfast in the wild.
+                  <br/><br/>In the afternoon, make sure your camera is ready for captivating moments like a cheetah chasing a group of speedy Thomson's gazelles during your game drive. As the day winds down, head back to the camp for a delightful dinner enjoyed around a warm and inviting campfire.
                   </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/52653899824_d04bef4c3a_b.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
+                 <FaHotel className=' mr-3'/> <p> Mara Plains  Camp    </p>
                 </div>
                 <hr className='my-5'/>
 
@@ -577,69 +563,42 @@ function UltimateMigration() {
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                   Day 12
                 </h1>
-                <p className='font-bold mb-2'>BWINDI. || Up close with Mountain Gorillas    </p>
+                <p className='font-bold mb-2'>MAASAI MARA|| Hot air ballooning & exclusive visits    </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Indulge in a delicious morning breakfast before embarking on a picturesque journey to Bwindi Impenetrable National Park. Enjoy the scenic drive along the way, passing through the Rift Valley, Kigezi Highlands, and the mountains that lead to the national park. Upon reaching your camp in the afternoon, relish a Chef's Table experience.
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  Begin your day early with a thrilling hot air balloon excursion, offering a unique perspective as you glide above the expansive and wildlife-filled Maasai Mara. Afterward, enjoy a bush breakfast upon landing. In the afternoon, immerse yourself in Maasai culture through an exclusive visit to their traditional homesteads, known as manyattas, and gain valuable insights into their harmonious coexistence with the park's wildlife.                  </p>
+                  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/18647898/pexels-photo-18647898/free-photo-of-colorful-hot-air-balloon-above-savannah.jpeg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
+                 <FaHotel className=' mr-3'/> <p>  Mara Plains  Camp   </p>
                 </div>
                 <hr className='my-5'/>
 
 
                 <div>
                 <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
-                  Day 13 & 14
+                  Day 13 
                 </h1>
-                <p className='font-bold mb-2'>BWINDI || Batwa tribe experiences and philanthropy tours     </p>
+                <p className='font-bold mb-2'> NAIROBI || Wayward  connection  back home     </p>
                 <hr/>
                 <div className='lg:flex items-center justify-center'>
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Dedicate the next two days to tracking endangered mountain gorillas, spending an hour each day observing them.  Other potential activities during this period include: community and philanthropy tours, birding and forest walks, and experiences with the Batwa tribe.
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
+                  After a hearty morning breakfast, you will depart for a flight to Kenya’s capital Nairobi and subsequent transfer to House of Waine  day room service and a meal before you catch a flight back.                  </p>
+                  <img alt='Arival' src='https://upload.wikimedia.org/wikipedia/commons/3/30/Nairobi_City_Aerial_view.jpg' className=' lg:w-1/2 ml-5'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
                 <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
+                 <FaHotel className=' mr-3'/> <p> House of Waine    </p>
                 </div>
                 <hr className='my-5'/>
-
-
-                <div>
-                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
-                  Day 15
-                </h1>
-                <p className='font-bold mb-2'>ENTEBBE || Wayward  connection  back home    </p>
-                <hr/>
-                <div className='lg:flex items-center justify-center'>
-              
-                  <p className='font-[SourceSerifPro-Regular] md:text-xl'>
-                  Take a flight back to Entebbe and check into Protea Hotel, where a dayroom is reserved for your use until your departure for the international flight.
-                  </p>
-                  <img alt='Arival' src='https://cdn.pixabay.com/photo/2012/03/04/00/09/lions-21787_640.jpg' className=' lg:w-1/2'/>
-                  
-                </div>
-            </div>
-                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Protea Hotel Entebbe.   </p>
-                </div>
-                <hr className='my-5'/>
-
-
-
 
         </div>
         </div>
