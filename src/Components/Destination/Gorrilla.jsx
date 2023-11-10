@@ -25,8 +25,8 @@ function Gorrilla() {
         }
     
     <div className='relative '>
-          <img alt='spirit of Uganda Safari' loading='lazy' src='https://www.lakenakurukenya.com/wp-content/uploads/2021/07/Congo-gorillas-1.jpg' className='w-full'/>
-          <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Rwanda Gorilla & Game Vacation.</strong> </h1>
+          <img alt='spirit of Uganda Safari' loading='lazy' src='https://www.lakenakurukenya.com/wp-content/uploads/2021/07/Congo-gorillas-1.jpg' className='w-full mt-[100px] lg:mt-[0px]'/>
+          <h1 className=" absolute bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Rwanda Gorilla & Game Vacation.</strong> </h1>
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
                 <div>
@@ -121,9 +121,9 @@ function Gorrilla() {
                 </div>
         </div>
 
-        <div className=" p-10 flex flex-col flex-2 lg:px-[300px]">
-                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
+        <div className=" lg:px-[300px] px-5">
+                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
                             <li className=" flex items-center space-x-3">
                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
                                 <span>Tour the poignant Genocide Memorial Site in Kigali.</span></li>
@@ -151,10 +151,10 @@ function Gorrilla() {
                     </div>
 
 
-              <div className=' p-10 flex flex-col flex-2 lg:px-[300px]'>
+              <div className=' lg:px-[300px] mt-10 px-5'>
               <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
-              <div className="lg:flex lg:justify-between p-5">
-                <ul className="lg:p-5 mb-8 space-y-4 text-left text-black">
+              <div className="lg:flex lg:justify-between ">
+                <ul className="mb-8 space-y-4 text-left text-black mt-10">
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
@@ -253,7 +253,7 @@ function Gorrilla() {
                 Arrive in Kigali and transfer to  your luxurious hotel                
                 </p>
               
-                <img alt='Arival' loading='lazy' src='https://cdn.audleytravel.com/798/570/79/261974-kigali-serena-hotel-kigali.jpg' className=' lg:w-1/2 ml-5'/>
+                <img alt='Arival' loading='lazy' src='https://cdn.audleytravel.com/798/570/79/261974-kigali-serena-hotel-kigali.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                 
               </div>
           </div>
@@ -276,7 +276,7 @@ function Gorrilla() {
                   Start your day with a poignant visit to the Genocide Memorial Site, where you can gain insights into how Rwanda has confronted its history and emerged as a symbol of human resilience.
 <br/><br/>After a satisfying lunch at a nearby eatery, you'll have the opportunity to explore the coffee-making process in Kigali, from cultivating and harvesting the beans to roasting and brewing.
                   </p>
-                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/0d/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_007.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/0d/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_007.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -298,7 +298,7 @@ function Gorrilla() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   After your morning breakfast, you'll enjoy one last tour of Kigali city before setting off on a roughly two and a half-hour journey to the captivating Akagera National Park in eastern Rwanda. Upon arrival, you'll have the opportunity to check into your accommodation at the splendid Magashi Camp and enjoy a sumptuous  lunch thereafter. In the afternoon, you can choose to unwind in your room or explore the camp's surroundings at your leisure.As the day comes to an end, gather with your fellow travelers for a pleasant welcome dinner.
                   </p>
-                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/65/Webp.net-compress-image-59.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/65/Webp.net-compress-image-59.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -322,7 +322,7 @@ function Gorrilla() {
                   Explore the abundant wildlife in Akagera National Park on scheduled  morning ,afternoon  and night  game drives. Return to the camp  in between the drives for lunch and relaxation,  before  setting  out for another game  drive. 
                   <br/><br/>Akagera is  home to various animals like elephants, giraffes, zebras, lions; and a host to over 500 bird species, including African fish eagles and shoebills. Keep your  eyes peeled  for  an  opportunity  to  spot  these incredible  creatures  during  the  game drives.
                   </p>
-                  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5705/22819687517_9305a08039_b.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5705/22819687517_9305a08039_b.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -350,7 +350,7 @@ function Gorrilla() {
                   <li>Set out on a guided  walking safaris  to explore the park on foot, accompanied by experienced rangers who provide insights into the park's ecosystem and wildlife.</li>
                   <br/><br/>Head back to the camp in the evening to enjoy a cocktail while you reflect on the magnificent " a thousand hills" scenery during a peaceful Scenic Sundowner experience.
                   </p>
-                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a9/Topi_in_Akagera_National_Park_1.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a9/Topi_in_Akagera_National_Park_1.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -375,7 +375,7 @@ function Gorrilla() {
                   <br/><br/>Upon your arrival, you'll check in and get comfortable at the iconic Bisate Lodge; where you'll have the early afternoon to unwind in this luxurious lodge with stunning views of the volcanic massif.
                   <br/><br/> Later in the day, you can relax and cool off with an exclusive Lamlav canoe trip led by an experienced guide. This tranquil journey takes you down the gently flowing Mukungwa River, meandering through the foothills of the Virunga Volcanoes. Along the way, you'll enjoy breathtaking vistas of the towering volcanic cones in the distance, spot a variety of birds.
                   <br/><br/>Conclude your adventure, with a stop on the riverbank for a refreshing sundowner. </p>
-                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a1/1-Virunga_Lodge_Aerila_ViewSinamatella_-_Rwanda_-_Virunga_-_20180915_-_1054.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a1/1-Virunga_Lodge_Aerila_ViewSinamatella_-_Rwanda_-_Virunga_-_20180915_-_1054.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -399,7 +399,7 @@ function Gorrilla() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   This day, embark on a trek through the thick park foliage, guided by experienced trackers, as you search for the elusive mountain gorillas and other primates. Upon encountering the gorillas, you'll have the privilege of spending an enchanting hour observing their daily activities, which include feeding, playing, resting, and caring for their young. Head back to your lodge for lunch, and the remainder of the day is yours to relax and unwind as you please.
                   </p>
-                  <img alt='Arival' loading='lazy' src='https://www.amboseliparkkenya.com/wp-content/uploads/2020/10/asasff-750x450.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://www.amboseliparkkenya.com/wp-content/uploads/2020/10/asasff-750x450.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -422,7 +422,7 @@ function Gorrilla() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   You will savor  a hearty  morning  breakfast and the rest of the day is for you to explore a range of activities that the lodge  offers, including tracking golden monkeys, going on hikes and nature walks, birdwatching, and engaging in conservation and community visits.
                   </p>
-                  <img alt='Arival' loading='lazy' src='https://ujuzitravel.com/wp-content/uploads/2022/01/rwanda-volcanoes-golden-monkey-shutterstock.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://ujuzitravel.com/wp-content/uploads/2022/01/rwanda-volcanoes-golden-monkey-shutterstock.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -445,7 +445,7 @@ function Gorrilla() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   Embark on a final morning trek to observe a different gorilla family, allowing you to witness the captivating behaviors of these remarkable primates once more. After your lunch, relax and enjoy  the lodge's amenities  before returning  to Kigali. Enjoy some downtime in a cozy dayroom before heading to the airport for your outbound flight.
                    </p>
-                  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-b9x7g9tddzlq2za9p0d8wto8c/hr-dsc-5630.jpg' className=' lg:w-1/2 ml-5'/>
+                  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-b9x7g9tddzlq2za9p0d8wto8c/hr-dsc-5630.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
