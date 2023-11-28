@@ -4,9 +4,15 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import {FaHotel} from 'react-icons/fa'
 import Partners from '../Partners';
+import { IoIosArrowDown } from "react-icons/io";
 
 function UgandaFamily() {
     const [colorChanged, setColorChanged]= useState(false);
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+      setDetailed(!detailed)
+    };
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -286,8 +292,85 @@ function UgandaFamily() {
         <div>
         </div>
 
+{
+  detailed === false ? 
+
+        
+        <div className=' lg:px-[200px] px-[70px] mt-10'>
+          <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary Summary</h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 1: ENTEBBE || Arrival.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 2: JINJA || Out and About.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 3: JINJA || White-water rafting and Nile boat expedition</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 4: JINJA ||. Design your day.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 5: QUEEN ELIZABETH || Wild ventures</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 6: QUEEN ELIZABETH || Chimpanzee trek in the Kyambura valley.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 7: ISHASHA || Spot the tree climbing lions & Cruise the Kazinga Channel</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 8: ISHASHA || Constant explorations</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 9: BWINDI. || Up close with Mountain Gorillas</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 10: BWINDI || Batwa tribe experiences and philanthropy tours</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 11: BWINDI || Customize your day's activities</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 12: ENTEBBE || Wayward connection back home</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>         
+        </div>
+
+:
+
         <div className=' lg:px-[200px] px-[70px]'>
-          <h1 className=' text-2xl font-bold mb-5'>Itinerary</h1>
+        <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+          </div>
           <div>
               <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                 Day 1
@@ -560,6 +643,7 @@ function UgandaFamily() {
 
 
         </div>
+}
       </div>
       <Partners/>
 

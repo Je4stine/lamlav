@@ -4,9 +4,15 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import {FaHotel} from 'react-icons/fa';
+import { IoIosArrowDown } from "react-icons/io";
 
 function SpiritOfUganda() {
     const [colorChanged, setColorChanged]= useState(false);
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+      setDetailed(!detailed)
+    };
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -315,9 +321,99 @@ function SpiritOfUganda() {
         <div>
         </div>
 
-        <div className=' lg:px-[200px] px-[70px]'>
-          <h1 className=' text-2xl font-bold mb-5'>Itinerary</h1>
-          <div>
+        {
+          detailed === false ? 
+        
+
+        <div className=' lg:px-[200px] px-[70px] mt-10'>
+          <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary Summary</h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 1: ENTEBBE || Arrival.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 2: JINJA || White Water Rafting</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 3: JINJA || Constant explorations.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 4: MURCHISONS FALLS || Jewel of River Nile</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 5: MURCHISONS FALLS || Game viewing.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 6: KIBALE FOREST || Bunyaruguru Crater Exploration.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 7: KIBALE FOREST || Chimpanzee trek.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 8: QUEEN ELIZABETH || Wild Adventures</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 9: QUEEN ELIZABETH || Wild Adventures</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 10: ISHASHA || Cruise the Kazinga Channel</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 11: ISHASHA || Constant explorations</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 12: BWINDI. || Up close with Mountain Gorillas</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 13 & 14: BWINDI || Batwa tribe experiences and philanthropy tours</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 15: ENTEBBE || Wayward connection back home.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+         
+        </div>
+
+          :
+
+        <>
+           <div className=' lg:px-[200px] px-[70px] mt-10'>
+          <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+          </div>
+         
+          <div >
               <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                 Day 1
               </h1>
@@ -636,11 +732,12 @@ function SpiritOfUganda() {
                  <FaHotel className=' mr-3'/> <p>  Protea Hotel Entebbe.   </p>
                 </div>
                 <hr className='my-5'/>
+          </div>
 
-
-
-
-        </div>
+          
+        </>
+       
+}
 
         <Partners/>
         <div className=" bg-[#fff]">

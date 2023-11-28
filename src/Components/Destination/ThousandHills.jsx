@@ -4,9 +4,16 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import {FaHotel} from 'react-icons/fa';
+import { IoIosArrowDown } from "react-icons/io";
 
 function ThousandHills() {
     const [colorChanged, setColorChanged]= useState(false);
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+      setDetailed(!detailed)
+    };
+
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -266,9 +273,72 @@ function ThousandHills() {
         </div>
         <div>
         </div>
+{
+  detailed === false ? 
+
+
+
+        <div className=' lg:px-[200px] px-[70px] mt-10'>
+          <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary Summary</h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 1: KIGALI RWANDA|| Arrival</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 2: KIGALI || Genocide Memorial & Silicon Valley Explorations.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 3: VOLCANOES NATIONAL PARK|| At the foothills of Virunga Volcanoes</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 4 & 5: VOLCANOES NATIONAL PARK || Up close with "Gorillas In the mist."</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 6: LAKE KIVU || Soaking up the shores of Lake Kivu</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 7: LAKE KIVU || Discover the greatest valleys, pristine peninsulas and island</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 8: NYUNGWE FOREST|| Up close with Mountain Gorillas</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 9 & 10: NYUNGWE FOREST || Create your own day plan</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 11: KIGALI RWANDA|| Homeward connections</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+         
+        </div>
+
+:
 
         <div className=' lg:px-[200px] px-[70px]'>
-          <h1 className=' text-2xl font-bold mb-5'>Itinerary</h1>
+        <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+          </div>
           <div>
               <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                 Day 1
@@ -469,11 +539,9 @@ Nyungwe Forest is an exceptional location for observing chimpanzees in their nat
                  <FaHotel className=' mr-3'/> <p> Kigali Serena Hotel    </p>
                 </div>
                 <hr className='my-5'/>
-
-
-
                 
         </div>
+        }
         </div>
         <Partners/>
         <div className=" bg-[#fff]">

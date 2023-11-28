@@ -2,10 +2,16 @@ import React,{useState} from 'react';
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
-import {FaHotel} from 'react-icons/fa'
+import {FaHotel} from 'react-icons/fa';
+import { IoIosArrowDown } from "react-icons/io";
 
 function UltimateMigration() {
     const [colorChanged, setColorChanged]= useState(false);
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+      setDetailed(!detailed)
+    };
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -295,8 +301,92 @@ function UltimateMigration() {
         <div>
         </div>
 
+        {
+          detailed === false ? 
+        
+
+        <div className=' lg:px-[200px] px-[70px] mt-10'>
+          <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary Summary</h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 1: NAIROBI KENYA|| Grand arrival.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 2: NAIROBI || City explorations</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 3: AMBOSELI || At the base of Mt.Kilimanjaro.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 4: AMBOSELI || Game viewing</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 5: ARUSHA || Exploring the lovely Arusha coffee plantations</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 6: NGORONGORO || Into the epic Caldera.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 7: SERENGETI NATIONAL PARK || Deep into the vast plains</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 8: SERENGETI NATIONAL PARK || Big five explorations</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 9: SERENGETI NATIONAL PARK || Create your own day plan</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 10: MAASAI MARA|| Deep into the wild</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 11: MAASAI MARA|| Inherent splendor in Mara's natural richness.</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 12: MAASAI MARA|| Hot air ballooning & exclusive visits</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 13: NAIROBI || Wayward connection back home</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+                   
+        </div>
+
+
+:
+
         <div className=' lg:px-[200px] px-[70px]'>
-          <h1 className=' text-2xl font-bold mb-5'>Itinerary</h1>
+        <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+          </div>
           <div>
               <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                 Day 1
@@ -601,6 +691,7 @@ function UltimateMigration() {
                 <hr className='my-5'/>
 
         </div>
+}
         </div>
 
 

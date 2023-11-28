@@ -4,9 +4,15 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import { FaHotel } from 'react-icons/fa';
+import { IoIosArrowDown } from "react-icons/io";
 
 function SplendorTanzania() {
     const [colorChanged, setColorChanged]= useState(false);
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+      setDetailed(!detailed)
+    };
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -168,10 +174,77 @@ function SplendorTanzania() {
                     </div>
 
 
+
+{
+  detailed === false ? 
+
+      <div className=' lg:px-[200px] px-[70px] mt-10'>
+          <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary Summary</h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 1: ARUSHA ||Touch - down</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 2:ARUSHA|| Coffee experiences</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 3: TARANGIRE || Into the Wilderness</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 4: TARANGIRE || Classic game viewing</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 5: NGORONGORO CRATER|| Into the "Lost World.".</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 6: NGORONGORO CRATER || Rewarding game drives</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 7: SERENGETI || Golden plains</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 8: SERENGETI || Explore the endless plains</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 9: SERENGETI || Awe-inspiring Great- Migration</h1>
+              <IoIosArrowDown/>
+          </div>
+          <hr/>
+          <div className='my-5 flex justify-between'>
+              <h1 className='font-bold mb-2'>Day 10: ARUSHA || Homeward connections</h1>
+              <IoIosArrowDown/>
+          </div>
+         <hr/>
+         
+        </div>
+
+:
               
 
-        <div className=' lg:px-[200px] px-[70px] '>
-          <h1 className=' text-2xl font-bold mb-5'>Itinerary</h1>
+        <div className=' lg:px-[200px] px-[70px] mt-10'>
+          <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+          </div>
           <div>
               <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
                 Day 1
@@ -410,6 +483,7 @@ function SplendorTanzania() {
 
 
         </div>
+}
         </div>
 
 
