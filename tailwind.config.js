@@ -3,10 +3,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",  "./node_modules/flowbite/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      // safelist: ['animate-[fade-in_1s_ease-in-out]', 'animate-[fade-in-down_1s_ease-in-out]']
+    },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    // require('tailwindcss-animated')
   ],
   animation: {
     scroll: 'scroll 10s linear infinite',

@@ -1,8 +1,8 @@
 import React from 'react';
-import Expert from '../Assets/PNG/expert.png';
-import Service from '../Assets/PNG/quality-service.png'
-import Travel from '../Assets/PNG/travel-and-tourism.png'
-import Customer from '../Assets/PNG/customer-service.png'
+import Expert from '../Assets/PNG/Local.jpg';
+import Service from '../Assets/PNG/Bespoke.jpg'
+import Travel from '../Assets/PNG/Responsible.jpg'
+import Customer from '../Assets/PNG/Trusted.jpg'
 
 import Birdlife from '../Assets/Logos/BirdLife_International_logo-700x520.png';
 import British from '../Assets/Logos/British_Airways-Logo.png'
@@ -107,22 +107,22 @@ function Partners() {
         <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 '>WHY LAMLAV</h1></div>
         <div className='lg:flex justify-around'>
             <div className=' flex flex-col items-center '>
-            <div className=' rounded-full bg-gray-300 p-3'><img src={Expert} alt='expert' className=' h-[80px]'/></div>
+            <div className="rounded-full bg-gray-300 p-3"><img src={Expert} alt='expert' className="w-[200px] h-[200px] border-white border-4 rounded-full shadow-md object-cover"/></div>
                 <p className=' font-bold font-[SourceSerifPro-Regular]'>Passionate Local Experts </p>
                 <p className=' text-center font-[SourceSerifPro-Regular]'> World class  specialists and local guides<br/> who have travelled extensively and<br/> reside in their specialist  regions</p>
             </div>
             <div className=' flex flex-col items-center '>
-                <div className=' rounded-full bg-gray-300 p-3'><img src={Service} alt='expert' className=' h-[80px]'/></div>
-                <p className=' font-bold font-[SourceSerifPro-Regular]'>Bespoke Services </p>
+                <div className=' rounded-full bg-gray-300 p-3'><img src={Service} alt='expert' className="w-[200px] h-[200px] border-white border-4 rounded-full shadow-md object-cover"/></div>
+                <p className=' font-bold font-[SourceSerifPro-Regular] '>Bespoke Services </p>
                 <p className=' text-center font-[SourceSerifPro-Regular]'>Customised Iteneraries crafted exclusively<br/>  for your travel needs, preferences and<br/> budget.</p>
             </div>
             <div className=' flex flex-col items-center'>
-                <div className=' rounded-full bg-gray-300 p-3'><img src={Travel} alt='expert' className=' h-[80px]'/></div>
+                <div className=' rounded-full bg-gray-300 p-3'><img src={Travel} alt='expert' className="w-[200px] h-[200px] border-white border-4 rounded-full shadow-md object-cover"/></div>
                 <p className=' font-bold font-[SourceSerifPro-Regular]'>Responsible Tourism </p>
                 <p className=' text-center font-[SourceSerifPro-Regular]'>Preserving biodiversity  and bolstering <br/>local communities </p>
             </div>
             <div className=' flex flex-col items-center'>
-                <div className=' rounded-full bg-gray-300 p-3'><img src={Customer} alt='expert' className=' h-[80px]'/></div>
+                <div className=' rounded-full bg-gray-300 p-3'><img src={Customer} alt='expert' className="w-[200px] h-[200px] border-white border-4 rounded-full shadow-md object-cover"/></div>
                 <p className=' font-bold'>Trusted Service </p>
                 <p className=' font-[SourceSerifPro-Regular]'>
                     <li>24/7 expert advise </li>

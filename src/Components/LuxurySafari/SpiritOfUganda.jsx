@@ -4,15 +4,28 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import {FaHotel} from 'react-icons/fa';
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 function SpiritOfUganda() {
     const [colorChanged, setColorChanged]= useState(false);
     const [detailed, setDetailed] = useState(false);
+    const [clicked, setClicked] = useState(false);
+    const [isActive, setIsActive] = useState(0);
 
     const toggleDetails =()=>{
       setDetailed(!detailed)
     };
+
+    const toggleArrow =(index)=>{
+      setClicked(true);
+      setIsActive(index);
+    };
+
+    const closeArrow =(index)=>{
+      setClicked(false);
+      setIsActive(index);
+    }
+
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -331,74 +344,130 @@ function SpiritOfUganda() {
             <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+              <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 1: ENTEBBE || Arrival.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
+              </div>
+              {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://z.cdrst.com/foto/hotel-sf/84a50/granderesp/protea-hotel-by-marriott-entebbe-general-ce05712.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 2: JINJA || White Water Rafting</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
+            </div>
+            {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://www.gorillatrips.net/wp-content/uploads/2018/05/White-Water-Rafting-in-Jinja-Uganda.png' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+              <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 3: JINJA || Constant explorations.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
+              </div>
+              {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://www.jinjatours.com/wp-content/uploads/2021/02/Source-of-the-nile-Bridge-2.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 4: MURCHISONS FALLS || Jewel of River Nile</h1>
-              <IoIosArrowDown/>
+                {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
+            </div>
+                {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/b/bb/Murchison_Falls_-_by_Boschlech.jpg' className=' w-full object-contain'/>:<div/>}
+
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 5: MURCHISONS FALLS || Game viewing.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
+            </div>
+              {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/8757/17973276409_434bf59cb5_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 6: KIBALE FOREST || Bunyaruguru Crater Exploration.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
+            </div>
+              {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/49424295957_e179727d0f_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 7: KIBALE FOREST || Chimpanzee trek.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
+           </div>
+              {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/3830/13774854724_348132af08_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 8: QUEEN ELIZABETH || Wild Adventures</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
+          </div>
+              {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://nowthendigital.com/wp-content/uploads/2022/09/queen-elizabeth-national-park-uganda.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 9: QUEEN ELIZABETH || Wild Adventures</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
+            </div>
+              {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/66/Lion_-_Queen_Elizabeth_National_Park%2C_Uganda_%283%29.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 10: ISHASHA || Cruise the Kazinga Channel</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===10 ? <div onClick={()=>closeArrow(10)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(10)}><IoIosArrowDown/></div>}
+            </div>
+              {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://www.insidequeenelizabethnationalpark.com/wp-content/uploads/2021/12/boat-cruise-3-1024x683.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 11: ISHASHA || Constant explorations</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===11 ? <div onClick={()=>closeArrow(11)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(11)}><IoIosArrowDown/></div>}
+            </div>
+              {clicked && isActive===11?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/2746/4504362858_56801a0680_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 12: BWINDI. || Up close with Mountain Gorillas</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===12 ? <div onClick={()=>closeArrow(12)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(12)}><IoIosArrowDown/></div>}
+            </div>
+              {clicked && isActive===12?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/7329/16372469599_0b2554cb0e_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 13 & 14: BWINDI || Batwa tribe experiences and philanthropy tours</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===13 ? <div onClick={()=>closeArrow(13)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(13)}><IoIosArrowDown/></div>}
+          </div>
+              {clicked && isActive===13?  <img alt='Arival' loading='lazy' src='https://cdn2.picryl.com/photo/2017/09/08/usaid-measuring-impact-conservation-enterprise-retrospective-uganda-international-b9dbb0-1024.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+            <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 15: ENTEBBE || Wayward connection back home.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===14 ? <div onClick={()=>closeArrow(14)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(14)}><IoIosArrowDown/></div>}
+           </div>
+              {clicked && isActive===14?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/e/e4/Entebbe_Airport_2009-08-27_13-30-48.JPG' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
          
