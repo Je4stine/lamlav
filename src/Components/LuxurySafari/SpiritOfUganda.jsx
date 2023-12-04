@@ -64,7 +64,11 @@ function SpiritOfUganda() {
                     <p className="font-[SourceSerifPro-Regular] text-white">From $ 17,567 per person</p>
                 </div>
         </div>
-
+        <div className=" lg:px-[300px] px-5 mb-5 mt-10">
+          <p className=" font-[SourceSerifPro-Regular] md:text-xl">
+            The Itinerary include visits to: Jinja, Murchison Falls , Bwindi Impenetrable Forest, Queen Elizabeth National Park, and Kibale National Park,  with accommodations at highly recommended lodges that are strategically positioned for your various activities.Guided by your personal expedition leader, you will traverse the Pearl of Africa,  from the shores of River Nile  to the heart of the rainforest. You'll forge a path through the veils of mist surrounding Uganda's waterfalls and lush rainforests, while tracking the endangered mountain gorillas,chimpanzees, and the tree-climbing lions of Queen Elizabeth National Park. 
+          </p>
+        </div>
 
         <div className=" lg:px-[300px] px-5 mt-5 mb-5">
                         <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>

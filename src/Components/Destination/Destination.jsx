@@ -105,7 +105,7 @@ const Destination =()=>{
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Spirit of Uganda</h1>
                     {/* <h2 className=' text-lg italic font-bold mb-10 text-red-900'> A truly compelling and quintessential  Kenyan Safari experience. </h2> */}
-                    <p className=' font-[SourceSerifPro-Regular]'>
+                    <p className=' text-lg italic font-bold mb-10 text-red-900'>
                     This expedition is customized specifically for safari enthusiasts seeking a thorough exploration of the diverse  landscapes  of Uganda and it's  amazing  game and/or  primates.  
                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 15days/14nights from $ 17,567 per person.</p>
