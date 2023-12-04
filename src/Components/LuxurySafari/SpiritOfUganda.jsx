@@ -5,6 +5,8 @@ import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import {FaHotel} from 'react-icons/fa';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { IoCheckmark } from "react-icons/io5";
+import { ImCheckmark } from "react-icons/im";
 
 function SpiritOfUganda() {
     const [colorChanged, setColorChanged]= useState(false);
@@ -47,6 +49,12 @@ function SpiritOfUganda() {
           <h1 className=" absolute bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Spirit of Uganda</strong> </h1>
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
+        <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Entebbe, Jinja, Murchison, Kibale Fores </p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Queen Elizabeth, Ishasha, Bwindi </p>
+
+                </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">15days/14 nights </p>
@@ -56,6 +64,47 @@ function SpiritOfUganda() {
                     <p className="font-[SourceSerifPro-Regular] text-white">From $ 17,567 per person</p>
                 </div>
         </div>
+
+
+        <div className=" lg:px-[300px] px-5 mt-5 mb-5">
+                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>White-water rafting on the Nile River</span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Prolific  game viewing at  Murchison Falls and Queen Elizabeth National Parks </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Spot Tree-climbing lions in Queen Elizabeth National Park </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Stunning scenaries: Verdant woodlands, expansive grasslands, crater lakes, and snow-capped mountains. </span></li>
+                            
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Mountain Gorilla and chimp tracking experiencesk </span></li>
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Up close and personal with hippo along the Kazinga Channel </span></li>
+
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>A wide variety of avian species, including several exclusive to the Albertine Rift region. </span></li>
+                            
+                        </ul>
+                    </div>
+
         <div className=" p-5 lg:px-[300px]">
         <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -194,48 +243,16 @@ function SpiritOfUganda() {
                 </div>
         </div>
 
-        <div className=" lg:px-[300px] px-5">
-                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>White-water rafting on the Nile River</span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span> Prolific  game viewing at  Murchison Falls and Queen Elizabeth National Parks </span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Spot Tree-climbing lions in Queen Elizabeth National Park </span></li>
-                           
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Stunning scenaries: Verdant woodlands, expansive grasslands, crater lakes, and snow-capped mountains. </span></li>
-                            
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Mountain Gorilla and chimp tracking experiencesk </span></li>
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Up close and personal with hippo along the Kazinga Channel </span></li>
-
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>A wide variety of avian species, including several exclusive to the Albertine Rift region. </span></li>
-                            
-                        </ul>
-                    </div>
+  
 
 
               <div className=' lg:px-[300px] mt-10 px-10'>
-              <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
+                <div className='flex flex-col items-center justify-center mb-10'>
+                  <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                  <hr/>
+                </div>
+              
               <div className="lg:flex lg:justify-between ">
                 <ul className="mb-8 space-y-4 text-left text-black">
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
