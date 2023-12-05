@@ -16,17 +16,69 @@ function SpiritOfUganda() {
     const [clicked, setClicked] = useState(false);
     const [isActive, setIsActive] = useState(0);
 
+    function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+    
+    function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+
     const settings = {
       dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        adaptiveHeight: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
     };
 
     const imageStyle = {
-      width: '70%', // Fixed width
-      height: '700px',
+      width: '100%', // Fixed width
+      height: '400px',
       objectFit: 'cover',
     };
 
@@ -391,7 +443,7 @@ function SpiritOfUganda() {
               <h1 className='font-bold mb-2'>Day 1: ENTEBBE || Arrival.</h1>
               {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
               </div>
-              {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://drive.google.com/file/d/12YGw9-w4I01F75SjkVyVhdjZ3hRJ_v79/view?usp=sharing' className=' w-full object-contain'/>:<div/>}
+              {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://drive.google.com/uc?export=view&id=12YGw9-w4I01F75SjkVyVhdjZ3hRJ_v79' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
@@ -508,7 +560,7 @@ function SpiritOfUganda() {
               <h1 className='font-bold mb-2'>Day 15: ENTEBBE || Wayward connection back home.</h1>
               {clicked && isActive===14 ? <div onClick={()=>closeArrow(14)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(14)}><IoIosArrowDown/></div>}
            </div>
-              {clicked && isActive===14?  <img alt='Arival' loading='lazy' src='https://drive.google.com/file/d/1m8aZAJan8shqpYTX7MV1hHz1ZdlnHPKM/view?usp=sharing' className=' w-full object-contain'/>:<div/>}
+              {clicked && isActive===14?  <img alt='Arival' loading='lazy' src='https://drive.google.com/uc?export=view&id=1m8aZAJan8shqpYTX7MV1hHz1ZdlnHPKM' className=' w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -536,7 +588,7 @@ function SpiritOfUganda() {
                   Upon your arrival at Entebbe Airport, we will meet you and transfer  you to your Hotel for a leisurely evening stay. 
                 </p>
               
-                <img alt='Arival' loading='lazy' src='https://drive.google.com/file/d/12YGw9-w4I01F75SjkVyVhdjZ3hRJ_v79/view?usp=sharing' className=' lg:w-1/3 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src='https://drive.google.com/uc?export=view&id=12YGw9-w4I01F75SjkVyVhdjZ3hRJ_v79' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                 
               </div>
           </div>
@@ -834,7 +886,7 @@ function SpiritOfUganda() {
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   Take a flight back to Entebbe and check into Protea Hotel, where a dayroom is reserved for your use until your departure for the international flight.
                   </p>
-                  <img alt='Arival' src='https://drive.google.com/file/d/1m8aZAJan8shqpYTX7MV1hHz1ZdlnHPKM/view?usp=sharing' className=' lg:w-1/3 lg:ml-5  object-contain'/>
+                  <img alt='Arival' src='https://drive.google.com/uc?export=view&id=1m8aZAJan8shqpYTX7MV1hHz1ZdlnHPKM' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
@@ -849,7 +901,7 @@ function SpiritOfUganda() {
         </>
        
 }
-        <div className="mt-10 mb-5 ml-[10%]">
+<div className="mt-10 mb-5">
           
           <div className="relative mt-20 z-[0] m-auto w-[80%]">
           <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
@@ -858,7 +910,7 @@ function SpiritOfUganda() {
                             <img style={imageStyle} alt="1" src="https://cache.marriott.com/content/dam/marriott-renditions/EBBEN/ebben-deluxe-0030-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*"/>
                             <h1 className="font-bold">Protea Hotel Entebbe</h1>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-1/2 ml-5">
                         <img style={imageStyle} src="https://theeye.ug/wp-content/uploads/2023/01/Lemala-Wildwaters-Lodge.jpg" alt="2"/>
                         <h1 className="font-bold">Wildwaters Lodge</h1>
                         </div>
@@ -866,19 +918,19 @@ function SpiritOfUganda() {
                         <img style={imageStyle} src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/465260172.jpg?k=32e6d935596e0ecf6f79e9db591e897ce52a461c52812828686e04104bcf1335&o=&hp=1" alt="3"/>
                         <h1 className="font-bold">Paraa Safari Lodge</h1>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-1/2 ml-5">
                         <img style={imageStyle}src="https://cdn.audleytravel.com/5222/3730/79/525208-kyaninga-lodge-fort-portal.jpg" alt="4"/>
                         <h1 className="font-bold">Kyaninga Lodge</h1>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-1/2 ">
                         <img style={imageStyle} src="https://www.africanmeccasafaris.com/wp-content/uploads/mweyasafarilodge3.jpg" alt="4"/>
                         <h1 className="font-bold">Mweya Safari Lodge</h1>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-1/2 ml-5 mr-5">
                         <img style={imageStyle} src="https://www.greatadventuresafaris.com/wp-content/uploads/Luxury-Ishasha-wilderness-Camp-1200x675.jpg" alt="4"/>
                         <h1 className="font-bold">Ishasha Wilderness Camp</h1>
                         </div>
-                        <div className="w-1/2">
+                        <div className="w-1/2 ">
                         <img style={imageStyle} src="https://www.africanwildlifesafaris.com/wp-content/uploads/sanctuary-gorilla-forest-camp-inset2.jpg" alt="4"/>
                         <h1 className="font-bold">Sunctuary Gorilla Forest Camp</h1>
                         </div>

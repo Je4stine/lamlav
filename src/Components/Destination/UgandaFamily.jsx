@@ -4,15 +4,103 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import {FaHotel} from 'react-icons/fa'
 import Partners from '../Partners';
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 function UgandaFamily() {
     const [colorChanged, setColorChanged]= useState(false);
     const [detailed, setDetailed] = useState(false);
+    const [isActive, setIsActive] = useState(0);
+    const [clicked, setClicked] = useState(false);
+
+    function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+    
+    function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+
+    const settings = {
+      dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        adaptiveHeight: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    };
+
+    const imageStyle = {
+      width: '100%', // Fixed width
+      height: '400px',
+      objectFit: 'cover',
+    };
+
+    const containerStyle ={
+      margin: 'auto'
+     
+    }
 
     const toggleDetails =()=>{
       setDetailed(!detailed)
     };
+
+    const toggleArrow =(index)=>{
+      setClicked(true);
+      setIsActive(index);
+    };
+
+    const closeArrow =(index)=>{
+      setClicked(false);
+      setIsActive(index);
+    }
+
+
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -36,6 +124,11 @@ function UgandaFamily() {
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
                 <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Entebbe, Jinja, Queen Elizabeth </p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Ishasha, Bwindi, Boma Hotel Entebbe </p>
+                </div>
+                <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">12days/11nights </p>
                 </div>
@@ -44,7 +137,50 @@ function UgandaFamily() {
                     <p className="font-[SourceSerifPro-Regular] text-white">From $ 8,567 per person</p>
                 </div>
         </div>
-        <div className=" p-5 lg:px-[300px]">
+        <div className=" lg:px-[300px] px-5 mb-5 mt-10">
+          <p className=" font-[SourceSerifPro-Regular] md:text-xl">Your adventure kicks - off with one night in Entebbe, at the exquisite Boma Hotel, followed by a three-night stay at WildWaters Lodge on the banks of the River Nile, in Jinja. Revel in a plethora of activities, from quad biking, bungee jumping, to white-water rafting. 
+
+            <br/><br/>Take a scenic flight to Queen Elizabeth National Park, where a two-part stay at Mweya Lodge and Ishasha Wilderness Camp offers diverse wildlife experiences, including a chance to spot tree-climbing lions.
+  
+            <br/><br/>At Mahogany Springs in Bwindi Impenetrable Forest, seasoned guides, trackers, and porters will accompany you into the dense forest as you track gorillas, providing an opportunity to observe these magnificent apes up close.</p>
+        </div>
+        
+
+        <div className=" lg:px-[300px] px-5">
+                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>White-water rafting on the Nile River</span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Classic game viewing in Queen Elizabeth National Park Parks </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Stunning scenaries: Verdant woodlands, expansive grasslands, crater lakes, and snow-capped mountains. </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Mountain Gorilla and chimp tracking experiences </span></li>
+                            
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Up close and personal with hippo along the Kazinga Channel </span></li>
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Excellent accommodations </span></li>
+
+                            
+                        </ul>
+                    </div>
+                    <div className=" p-5 lg:px-[300px]">
         <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -155,41 +291,6 @@ function UgandaFamily() {
                     </table>
                 </div>
         </div>
-
-        <div className=" lg:px-[300px] px-5">
-                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>White-water rafting on the Nile River</span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span> Classic game viewing in Queen Elizabeth National Park Parks </span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Stunning scenaries: Verdant woodlands, expansive grasslands, crater lakes, and snow-capped mountains. </span></li>
-                           
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Mountain Gorilla and chimp tracking experiences </span></li>
-                            
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Up close and personal with hippo along the Kazinga Channel </span></li>
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Excellent accommodations </span></li>
-
-                            
-                        </ul>
-                    </div>
 
 
               <div className=' mt-10 lg:px-[300px] px-5'>
@@ -302,64 +403,125 @@ function UgandaFamily() {
             <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 1: ENTEBBE || Arrival.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://www.boma.co.ug/wp-content/uploads/2018/10/MK1_9584.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 2: JINJA || Out and About.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
+
           </div>
+          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://i.ytimg.com/vi/zh4ntxmqsVw/maxresdefault.jpg' className=' w-full object-contain'/>:<div/>}
+
+          </div>
+
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 3: JINJA || White-water rafting and Nile boat expedition</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://www.jinjatours.com/wp-content/uploads/2021/02/rafting-in-jinja-1.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 4: JINJA ||. Design your day.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://www.africanmeccasafaris.com/wp-content/uploads/jinjanileriver4.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 5: QUEEN ELIZABETH || Wild ventures</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5531/14187737541_967d6500d7_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 6: QUEEN ELIZABETH || Chimpanzee trek in the Kyambura valley.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://www.queenelizabethparkuganda.com/wp-content/uploads/2021/11/kibale-chimps-1-1.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 7: ISHASHA || Spot the tree climbing lions & Cruise the Kazinga Channel</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://www.queenelizabethnationalpark.com/wp-content/uploads/2020/07/tree-climbing-lions-uganda.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 8: ISHASHA || Constant explorations</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://www.africanwildlifesafaris.com/wp-content/uploads/ishasha-wilderness-lodge-inset1.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 9: BWINDI. || Up close with Mountain Gorillas</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://image.jimcdn.com/app/cms/image/transf/none/path/sa42828d9880ea9d8/image/i788f317f4ba0f81f/version/1474648366/image.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
+          <div className='my-5'>
           <div className='my-5 flex justify-between'>
               <h1 className='font-bold mb-2'>Day 10: BWINDI || Batwa tribe experiences and philanthropy tours</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===10 ? <div onClick={()=>closeArrow(10)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(10)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/590/21909751398_3f4264b8a2_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 11: BWINDI || Customize your day's activities</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===11 ? <div onClick={()=>closeArrow(11)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(11)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===11?  <img alt='Arival' loading='lazy' src='https://destinationuganda.com/wp-content/uploads/2020/05/bwindi-impenetrable-uganda-treks.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 12: ENTEBBE || Wayward connection back home</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===12 ? <div onClick={()=>closeArrow(12)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(12)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===12?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/69/Entebbe_vue_du_ciel.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>         
         </div>
@@ -645,6 +807,41 @@ function UgandaFamily() {
         </div>
 }
       </div>
+
+
+        <div className="mt-10 mb-5 ">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} autoplay arrows style={containerStyle}>
+                        <div className="w-1/2">
+                            <img style={imageStyle} alt="1" src="https://www.boma.co.ug/wp-content/uploads/2018/10/MK1_8918.jpg"/>
+                            <h1 className="font-bold">Boma Hotel Entebbe</h1>
+                        </div>
+                        <div className="w-1/2 ml-5">
+                        <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/39/cf/fa/lemala-wildwaters-lodge.jpg?w=700&h=-1&s=1" alt="2"/>
+                        <h1 className="font-bold">Wildwaters Lodge</h1>
+                        </div>
+                        <div className="w-1/2">
+                        <img style={imageStyle} src="https://www.ugandabudgetsafaris.com/wp-content/uploads/2020/01/Mweya-Safari-LodgeS-750x450.jpg" alt="3"/>
+                        <h1 className="font-bold">Mweya Safari Lodge</h1>
+                        </div>
+                        <div className="w-1/2 ml-5">
+                        <img style={imageStyle}src="https://www.andbeyond.com/wp-content/uploads/sites/5/Dining-Area-at-Ishasha-Wilderness-Camp-Queen-Elizabeth-National-Park.jpg" alt="4"/>
+                        <h1 className="font-bold">Ishasha wildwaters Camp</h1>
+                        </div>
+                        <div className="w-1/2 ">
+                        <img style={imageStyle} src="https://www.bwindiforestgorillatrekking.com/wp-content/uploads/2020/01/Mahogany-springs-lodge.jpg" alt="4"/>
+                        <h1 className="font-bold">Mahogany Springs</h1>
+                        </div>
+                      
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
+        </div>
       <Partners/>
 
         <div className=" bg-[#fff]">

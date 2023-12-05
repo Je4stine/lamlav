@@ -121,7 +121,7 @@ const Destination =()=>{
                 <img src="https://i0.wp.com/www.allugandasafaris.com/wp-content/uploads/2022/05/Family-Safaris-Uganda.jpg?w=750&ssl=1" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Uganda Family Safari</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'>  </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
                     This journey is centered around three of Uganda's most iconic destinations: Jinja town, Queen Elizabeth National Park, and Bwindi Impenetrable Forest. Rest assured, you'll have the opportunity to witness the finest wildlife that Uganda has to offer  
                     </p>
