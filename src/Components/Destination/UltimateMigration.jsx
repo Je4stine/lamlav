@@ -3,15 +3,104 @@ import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import {FaHotel} from 'react-icons/fa';
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { ImCheckmark } from "react-icons/im";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import Partners from '../Partners';
 
 function UltimateMigration() {
     const [colorChanged, setColorChanged]= useState(false);
     const [detailed, setDetailed] = useState(false);
+    const [clicked, setClicked] = useState(false);
+    const [isActive, setIsActive] = useState(0);
+
+    function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+    
+    function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+
+    const settings = {
+      dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        adaptiveHeight: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    };
+
+    const imageStyle = {
+      width: '100%', // Fixed width
+      height: '400px',
+      objectFit: 'cover',
+    };
+
+    const containerStyle ={
+      margin: 'auto'
+     
+    }
 
     const toggleDetails =()=>{
       setDetailed(!detailed)
     };
+
+    const toggleArrow =(index)=>{
+      setClicked(true);
+      setIsActive(index);
+    };
+
+    const closeArrow =(index)=>{
+      setClicked(false);
+      setIsActive(index);
+    }
+
 
     const changeNavbarColor = () =>{
         if(window.scrollY >= 80){
@@ -32,9 +121,14 @@ function UltimateMigration() {
         <div>
         <div className='relative'>
           <img alt='spirit of Uganda Safari' loading='lazy' src='https://media.discoverafrica.com/wp-content/uploads/2021/11/sayari-camp-game-drive-migration-serengeti-safari.jpg?strip=all&lossy=1&ssl=1' className='w-full mt-[100px] lg:mt-[0px]'/>
-          <h1 className="absolute bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Ultimate Greate Migration Safari</strong> </h1>
+          <h1 className="absolute bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>KENYA & TANZANIA  GREAT MIGRATION HOLIDAY </strong> </h1>
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
+                <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Nairobi, Amboseli, Arusha, Ngorongoro </p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Serengeti, Maasai Mara </p>
+                </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">13days/12 nights </p>
@@ -44,6 +138,38 @@ function UltimateMigration() {
                     <p className="font-[SourceSerifPro-Regular] text-white">From $ 15,275 per person</p>
                 </div>
         </div>
+        
+        <div className=" lg:px-[300px] px-5 mb-5 mt-10">
+          <p className=" font-[SourceSerifPro-Regular] md:text-xl">
+          The East African adventure begins with wildlife excursions in the heart of Nairobi city, followed by a stay at Ol Tukai Lodge in Amboseli. The journey then takes you to Tanzania's Ngorongoro Crater Lodge. Continuing on, you'll explore the expansive Serengeti landscapes and spend three nights camping at the picturesque Lemala Ewanjan. Thereafter, you'll fly out of Tanzania to conclude your expedition at Kenya's renowned Maasai Mara. You'll enjoy three leisurely nights at Mara Plains camp, participating in thrilling game drives, nature walks, and even hot air balloon experiences.          </p>
+        </div>
+
+        <div className=" lg:px-[300px] px-5">
+                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city</span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Six  nights  at the epicentre  of great wildebeest  migration  spectacle:  the great Maasai Mara and Serengeti national parks </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Excellent accommodations  at East Africa’s  most luxurious tented  camps and lodges </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Three exhilarating  flights  to expedite  your  travel between  the camps. </span></li>
+                            
+                            
+                        </ul>
+        </div>
+
         <div className=" p-5 lg:px-[300px]">
         <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -174,34 +300,8 @@ function UltimateMigration() {
                 </div>
         </div>
 
-        <div className=" lg:px-[300px] px-5">
-                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Up close  with giraffes  and baby  elephants  at the heart  of Nairobi  city</span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span> Six  nights  at the epicentre  of great wildebeest  migration  spectacle:  the great Maasai Mara and Serengeti national parks </span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Excellent accommodations  at East Africa’s  most luxurious tented  camps and lodges </span></li>
-                           
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Three exhilarating  flights  to expedite  your  travel between  the camps. </span></li>
-                            
-                            
-                        </ul>
-                    </div>
-
-
-              <div className=' mt-10 lg:px-[300px] px-5'>
+        <div className=' mt-10 lg:px-[300px] px-5'>
               <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
               <div className="p-5">
                 <ul className="mb-8 space-y-4 text-left text-black">
@@ -311,69 +411,101 @@ function UltimateMigration() {
             <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 1: NAIROBI KENYA|| Grand arrival.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}          
+            </div>
+            {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://i.natgeofe.com/n/fbc59cb3-1962-49e8-8d98-2743e0f98cdc/skyline-nairobi-kenya.jpg?w=2520&h=1324' className=' w-full object-contain'/>:<div/>}
+          
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 2: NAIROBI || City explorations</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}          
+            </div>
+            {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://media.tacdn.com/media/attractions-splice-spp-674x446/06/dd/de/17.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 3: AMBOSELI || At the base of Mt.Kilimanjaro.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://cdn.pixabay.com/photo/2019/06/15/14/40/elephants-4275741_1280.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 4: AMBOSELI || Game viewing</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/51209270682_ca12145045_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 5: ARUSHA || Exploring the lovely Arusha coffee plantations</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/11854977/pexels-photo-11854977.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 6: NGORONGORO || Into the epic Caldera.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/e/e5/Ngorongoro_Crater%2C_Tanzania.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 7: SERENGETI NATIONAL PARK || Deep into the vast plains</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5225/5699832418_365b81c739_b.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 8: SERENGETI NATIONAL PARK || Big five explorations</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/61/Serengeti_National_Park%2C_Tanzania_-_panoramio_%288%29.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 9: SERENGETI NATIONAL PARK || Create your own day plan</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/7280783/pexels-photo-7280783.jpeg?auto=compress&cs=tinysrgb&w=1600' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 10: MAASAI MARA|| Deep into the wild</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===10 ? <div onClick={()=>closeArrow(10)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(10)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/7827/46196374375_3a67240235_b.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 11: MAASAI MARA|| Inherent splendor in Mara's natural richness.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===11 ? <div onClick={()=>closeArrow(11)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(11)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===11?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/52653899824_d04bef4c3a_b.jpg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 12: MAASAI MARA|| Hot air ballooning & exclusive visits</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===12 ? <div onClick={()=>closeArrow(12)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(12)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===12?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/18647898/pexels-photo-18647898/free-photo-of-colorful-hot-air-balloon-above-savannah.jpeg' className=' w-full object-contain'/>:<div/>}
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 13: NAIROBI || Wayward connection back home</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===13 ? <div onClick={()=>closeArrow(13)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(13)}><IoIosArrowDown/></div>}          </div>
+              {clicked && isActive===13?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/3/30/Nairobi_City_Aerial_view.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
                    
@@ -694,7 +826,45 @@ function UltimateMigration() {
 }
         </div>
 
+        <div className="mt-10 mb-5">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} autoplay arrows style={containerStyle}>
+                        <div className="w-1/2">
+                            <img style={imageStyle} alt="1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e5/40/c0/house-of-waine.jpg?w=700&h=-1&s=1"/>
+                            <h1 className="font-bold">House of Waine</h1>
+                        </div>
+                        <div className="w-1/2 ml-5">
+                        <img style={imageStyle} src="https://live.staticflickr.com/2679/32903032362_aa0ae1709a_b.jpg" alt="2"/>
+                        <h1 className="font-bold">Ol Tukai Lodge</h1>
+                        </div>
+                        <div className="w-1/2">
+                        <img style={imageStyle} src="https://media-cdn.tripadvisor.com/media/photo-s/1c/37/64/af/revamped-open-terrace.jpg" alt="3"/>
+                        <h1 className="font-bold">Onsea House</h1>
+                        </div>
+                        <div className="w-1/2 ml-5">
+                        <img style={imageStyle}src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/2e/6b/36/andbeyond-ngorongoro.jpg?w=700&h=-1&s=1" alt="4"/>
+                        <h1 className="font-bold">Ngorongoro Crater Lodge</h1>
+                        </div>
+                        <div className="w-1/2 ">
+                        <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/ea/73/22/lemala-ewanjan-tented.jpg?w=700&h=-1&s=1" alt="4"/>
+                        <h1 className="font-bold">Lemala Ewanjan</h1>
+                        </div>
+                        <div className="w-1/2 ml-5 mr-5">
+                        <img style={imageStyle} src="https://www.masaimara.com/assets/img/great-plains-mara-plains-camp.jpg" alt="4"/>
+                        <h1 className="font-bold">Mara Plains Camp</h1>
+                        </div>
+                        
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
+        </div>
 
+        <Partners/>
         <div className=" bg-[#fff]">
                 <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
         </div>

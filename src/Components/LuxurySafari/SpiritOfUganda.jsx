@@ -323,7 +323,7 @@ function SpiritOfUganda() {
   
 
 
-              <div className=' lg:px-[300px] mt-10 px-10'>
+      <div className=' lg:px-[300px] mt-10 px-10'>
                 <div className='flex flex-col items-center justify-center mb-10'>
                   <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
                   <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>

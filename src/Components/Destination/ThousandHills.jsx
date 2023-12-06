@@ -4,15 +4,102 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import {FaHotel} from 'react-icons/fa';
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 function ThousandHills() {
     const [colorChanged, setColorChanged]= useState(false);
     const [detailed, setDetailed] = useState(false);
+    const [clicked, setClicked] = useState(false);
+    const [isActive, setIsActive] = useState(0);
+
+    function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+    
+    function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+
+    const settings = {
+      dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        adaptiveHeight: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    };
+
+    const imageStyle = {
+      width: '100%', // Fixed width
+      height: '400px',
+      objectFit: 'cover',
+    };
+
+    const containerStyle ={
+      margin: 'auto'
+     
+    }
 
     const toggleDetails =()=>{
       setDetailed(!detailed)
     };
+
+    const toggleArrow =(index)=>{
+      setClicked(true);
+      setIsActive(index);
+    };
+
+    const closeArrow =(index)=>{
+      setClicked(false);
+      setIsActive(index);
+    }
+
 
 
     const changeNavbarColor = () =>{
@@ -36,6 +123,11 @@ function ThousandHills() {
           <h1 className=" absolute bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Treasures  Of a Thousand  Hills</strong> </h1>
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
+                
+                 <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Kigali, Volcanoes, Lake Kivu, Nyungwe Forest  </p>
+                </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">11days/ 10nights  </p>
@@ -45,6 +137,49 @@ function ThousandHills() {
                     <p className="font-[SourceSerifPro-Regular] text-white">From $ 14, 300 per person</p>
                 </div>
         </div>
+
+        <div className=" lg:px-[300px] px-5 mb-5 mt-10">
+          <p className=" font-[SourceSerifPro-Regular] md:text-xl">
+          Rwanda's landscape is truly awe-inspiring, ranging from the majestic Virunga volcanoes to mist-covered tea plantations and vast rainforests. Over the course of 11 days, explore Volcanoes National Park, Lake Kivu, and Nyungwe Forest. This itinerary offers a unique opportunity to observe magnificent silverback gorillas and their families with the guidance of skilled trackers, retracing the path of Dian Fossey, who dedicated her life to studying mountain gorillas in the Virunga Mountains. For those passionate about chimpanzees, this safari promises a once-in-a-lifetime experience in one of the world's most abundant primate-rich destinations.        
+          </p>
+          </div>
+  
+
+        <div className=" lg:px-[300px] px-5">
+                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Learn about Rwanda's tragic past with an expert guide in the capital, Kigali. </span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Trek and spend magical moments with gorilla family in the lush wilderness of Volcanoes National Park </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Witness the playful behavior of chimpanzees and troops of colombus monkeys  in Nyungwe Forest. </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Break from hiking and unwind on the shores of the crystal-clear waters of Lake Kivu. </span></li>
+                            
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Excellent accommodations  at Rwanda's most luxurious tented  camps and lodges.  </span></li>
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Explore the rich culture and history of Rwanda </span></li>
+
+                           
+                        </ul>
+        </div>
+
         <div className=" p-5 lg:px-[300px]">
         <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -143,43 +278,8 @@ function ThousandHills() {
                 </div>
         </div>
 
-        <div className=" lg:px-[300px] px-5">
-                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Learn about Rwanda's tragic past with an expert guide in the capital, Kigali. </span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
 
-                                <span> Trek and spend magical moments with gorilla family in the lush wilderness of Volcanoes National Park </span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Witness the playful behavior of chimpanzees and troops of colombus monkeys  in Nyungwe Forest. </span></li>
-                           
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Break from hiking and unwind on the shores of the crystal-clear waters of Lake Kivu. </span></li>
-                            
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Excellent accommodations  at Rwanda's most luxurious tented  camps and lodges.  </span></li>
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Explore the rich culture and history of Rwanda </span></li>
-
-                           
-                        </ul>
-                    </div>
-
-
-              <div className=' lg:px-[300px] mt-10 px-5'>
+        <div className=' lg:px-[300px] mt-10 px-5'>
               <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
               <div className="p-5">
                 <ul className="mb-8 space-y-4 text-left text-black">
@@ -284,49 +384,91 @@ function ThousandHills() {
             <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 1: KIGALI RWANDA|| Arrival</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-2w7ueb8np3077348kg8u539fy/hr-dsc-5646.jpg?width=1600&height=1066' className=' w-full object-contain'/>:<div/>}
+
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 2: KIGALI || Genocide Memorial & Silicon Valley Explorations.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/ae/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_021.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 3: VOLCANOES NATIONAL PARK|| At the foothills of Virunga Volcanoes</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
+
+          </div>
+          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/114/290786253_f798d07a53_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 4 & 5: VOLCANOES NATIONAL PARK || Up close with "Gorillas In the mist."</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/00/Gorillas_of_Volcanoes_National_park.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 6: LAKE KIVU || Soaking up the shores of Lake Kivu</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://www.safarisrwandasafari.com/wp-content/uploads/2023/03/lake-kivu-rwanda.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 7: LAKE KIVU || Discover the greatest valleys, pristine peninsulas and island</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://journeysbydesign.com/wp-content/uploads/2017/01/%C2%A9-Stella-Wadulo.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 8: NYUNGWE FOREST|| Up close with Mountain Gorillas</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/4080/4945696386_5d9dda6334_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 9 & 10: NYUNGWE FOREST || Create your own day plan</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://uniglobeletsgotravel.com/wp-content/uploads/2019/02/gorilla-group-1.jpg' className=' w-full object-contain'/>:<div/>}
+
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className='flex justify-between'>
               <h1 className='font-bold mb-2'>Day 11: KIGALI RWANDA|| Homeward connections</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://www.explorerwandatours.com/wp-content/uploads/2019/08/Kigali-City-750x450.jpg' className=' w-full object-contain'/>:<div/>}
+
+
           </div>
           <hr/>
          
@@ -542,6 +684,36 @@ Nyungwe Forest is an exceptional location for observing chimpanzees in their nat
                 
         </div>
         }
+        </div>
+
+        <div className="mt-10 mb-5">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} autoplay arrows style={containerStyle}>
+                        <div className="w-1/2">
+                            <img style={imageStyle} alt="1" src="https://image-tc.galaxy.tf/wijpeg-9mbxti86r9uj4nhjff35so37q/hr-dsc-5555.jpg?width=1600&height=1066"/>
+                            <h1 className="font-bold">Kigali Serena Hotel</h1>
+                        </div>
+                        <div className="w-1/2 ml-5">
+                        <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/d9/f5/f0/singita-kwitonda-lodge.jpg?w=700&h=-1&s=1" alt="2"/>
+                        <h1 className="font-bold">Singita Kwitonda Lodge</h1>
+                        </div>
+                        <div className="w-1/2">
+                        <img style={imageStyle} src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/322181831.jpg?k=d2c6350b50fc9308d582212adbce570b1424eaf5bb6706787d14a5d930542195&o=&hp=1" alt="3"/>
+                        <h1 className="font-bold">Cleo Lake Kivu</h1>
+                        </div>
+                        <div className="w-1/2 ml-5">
+                        <img style={imageStyle}src="https://travellermade.com/wp-content/uploads/2012/07/OneOnly_NyungweHouse_3.png" alt="4"/>
+                        <h1 className="font-bold">One & Only Nyungwe House</h1>
+                        </div>
+                       
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
         </div>
         <Partners/>
         <div className=" bg-[#fff]">

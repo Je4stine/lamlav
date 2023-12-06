@@ -19,11 +19,10 @@ const Destination =()=>{
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src={Destination1} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
-                    <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav  Mara Serengeti Deluxe</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience  a truly  memorable and  unapologetically  indulging Safari  in the Mara and Serengeti  ecosystems </h2>
+                    <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Mara Serengeti Great Migration Safari</h1>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Presenting an exceptionally memorable and unabashedly luxurious safari experience within the Mara and Serengeti ecosystems. </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                        An immersive  and most authentic  adventure  that begins  with amazing  wildlife  excursions  in the city, before  heading  to the two slum-dunk  destinations  at  the heart  of the world’s  most  important  animal  migration  corridors.                
-                    </p>
+                    The Great Migration safari epitomizes the essence of East Africa, introducing you to renowned locations and, more importantly, unveiling extraordinary places that are truly unparalleled elsewhere on the planet. Throughout your safari, immerse yourself in the authenticity of tented camps and partake in various experiences, including game drives, sundowners, hot air balloon rides, guided walking tours, and bush meals.                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9 nights from $ 9,700 per person.</p>
                     <a href='/migration' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -36,10 +35,9 @@ const Destination =()=>{
                 <img src={Destination3} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> GREAT MIGRATION  SAFARI - Kenyan  Edition</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Discover the wonders of Kenya with a touch of luxury </h2>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience the pulse of nature and the grandeur of wildlife in a seamless exploration of diverse landscapes. </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                        This is a high-end Kenyan safari that's very popular among those who want to experience Africa's renowned savannahs and witness the awe-inspiring wildebeest migrations up close. The safari covers three of Kenya's top wildlife sanctuaries: Nairobi National Park, Lewa Conservancy in the Laikipia Plateau, and the famous Maasai Mara game reserve, which is known for its incredible wildlife sightings. 
-                    </p>
+                    This is a high-end Kenyan safari that's very popular among those who want to experience Africa's renowned savannahs and witness the awe-inspiring wildebeest migrations up close. The safari covers three of Kenya's top wildlife sanctuaries: Nairobi National Park, Lewa Conservancy in the Laikipia Plateau, and the famous Maasai Mara game reserve, which is known for its incredible wildlife sightings.                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'>  10days/9nights, from $9,127 per person.</p>
                     <a href='/mara' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -54,8 +52,7 @@ const Destination =()=>{
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav Honeymoon Safari</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> An adventure  that feeds your Soul </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                        By commemorating your union in a grand fashion, at some of the finest honeymoon destinations in Kenya, Lamlav Honeymoon  Safari presents you an opportunity  to discover  and create  unforgettable  memories that you will forever  cherish. This safari package guarantees lavish stays at top-rated accommodations that includes: the Hemingways Hotel in Nairobi, Kicheche Safari Camp in the southern part of Laikipia's Ol Pejeta Conservancy, Ol Seki Hemingways in Maasai Mara, and the renowned Hemingway's Hotel in the beguiling Watamu. 
-                    </p>
+                    By commemorating your union in a grand fashion, at some of the finest honeymoon destinations in Kenya, Lamlav Honeymoon Safari presents you an opportunity to discover and create unforgettable memories that you will forever cherish. This safari package guarantees lavish stays at top-rated accommodations that includes: the Hemingways Hotel in Nairobi, Kicheche Safari Camp in the southern part of Laikipia's Ol Pejeta Conservancy, Ol Seki Hemingways in Maasai Mara, and the renowned Hemingway's Hotel in the beguiling Watamu                    </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'>  12days/11Nights from  from $ 13,055 per person.</p>
                     <a href='/honeymoon' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -68,11 +65,10 @@ const Destination =()=>{
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src={Destination4} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
-                    <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav Bush and Beach Safari</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> MARA -TSAVO –WATAMU. Explore the Kenyan  wildlife  havens  in Style. </h2>
+                    <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Kenya Safari and Beach Holiday</h1>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Explore the Kenyan  wildlife  havens  in Style. </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                        Bush and beach is one of Lamlav's  most  comprehensive  safari  package  that  matchlessly introduces you to the country's most  treasured  and exhilarating  savannahs:  the city's Nairobi  National  park,  the Iconic Maasai  Mara Game  Reserve and Tsavo West and East National  Parks. The adventure ends with five days relaxations and explorations  of the pristine Kenyan coastline and beaches, while enjoying luxurious  stays at the magnificent Medina  Palms  Resort,  in the  bewitching Watamu. 
-                    </p>
+                    Bush and beach is one of Lamlav's  most  comprehensive  safari  package  that  matchlessly introduces you to the country's most  treasured  and exhilarating  savannahs:  the city's Nairobi  National  park,  the Iconic Maasai  Mara Game  Reserve and Tsavo West and East National  Parks.                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'>  14Days/13Nights tour from $17,400 per person.</p>
                     <a href='/amboseli' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -87,10 +83,9 @@ const Destination =()=>{
                 <img src={Destination5} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'> Lamlav Great Wilderness Safari</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> A truly compelling and quintessential  Kenyan Safari experience. </h2>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> A truly indulgent  and quintessential  Kenyan Safari experience.   </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                    Great Wilderness  safari  package offers you a chance  to explore  the Kenyan legendary  savannahs in the Amboseli  National  Park ,  Lewa Conservancy  in the dramatic Laikipia  plateau, and the famed Maasai  Mara Game Reserve, all while  enjoying  leisurely  stays at the  most refined  and lavishly  elegant  resorts.  
-                    </p>
+                    Great Wilderness safari package offers you a chance to explore the Kenyan legendary savannahs in the Amboseli National Park , Lewa Conservancy in the dramatic Laikipia plateau, and the famed Maasai Mara Game Reserve, all while enjoying leisurely stays at the most refined and lavishly elegant resorts.                    </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights, from $13,241.00 per person.</p>
                     <a href='/wilderness' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -137,11 +132,10 @@ const Destination =()=>{
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src="https://www.naturaltoursandsafaris.com/wp-content/uploads/2020/01/Wildebeest-Migration-Maasai-Mara-Natural-World-Kenya-Safaris.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
-                    <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Ultimate Greate Migration Safari</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
+                    <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>KENYA & TANZANIA GREAT MIGRATION HOLIDAY</h1>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience the thrill of being at the epicenter of the Great Wildebeest Migration, surrounded by the untamed wilderness while enjoying all the refined comforts you desire. </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                    This expedition is  tailor-made  for safari  aficionados who wish to embark on an adventurous East Africa safari, flying between Kenya and Tanzania's top safari spots, for an incredible chance to witness the renowned wildebeest migration.   
-                    </p>
+                    This expedition is  tailor-made  for safari  aficionados who wish to embark on an adventurous East Africa safari, flying between Kenya and Tanzania's top safari spots, for an incredible chance to witness the renowned wildebeest migration.                     </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 13days/12 nights from $ 15,275 per person.</p>
                     <a href='/tanzania/ultimatemigration' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -155,10 +149,9 @@ const Destination =()=>{
                 <img src="https://secretafrica.com/wp-content/uploads/2021/10/Best-Time-To-Go-To-Tanzania-36.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Splendor of Tanzania</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> An iconic safari combining the perfect blend of adventure, cultural immersion, and relaxation. </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                        Experience the genuine and lasting safari adventures by Elewana collections in the heart of Tanzania's Northern wilderness.With this safari, you will greatly immerse yourself in the warm and authentic East African hospitality, top-tier cuisine, and exceptional comfort and service   
-                    </p>
+                    Experience the genuine and lasting safari adventures by Elewana collections in the heart of Tanzania's Northern wilderness.With this safari, you will greatly immerse yourself in the warm and authentic East African hospitality, top-tier cuisine, and exceptional comfort and service.                    </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights From $ 11,860 per person.</p>
                     <a href='/tanzania/splendoftz' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -172,10 +165,9 @@ const Destination =()=>{
                 <img src="https://live.staticflickr.com/8740/16298396774_e6d631a1e7_b.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Treasures of a thousand hills</h1>
-                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture. </h2>
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'> An adventure amidst the captivating allure of misty volcanoes densely cloaked in jungle foliage.</h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
-                    This adventure encompasses the finest aspects of Rwanda, including stops in the capital, Kigali, the high-altitude cloud forests of Volcanoes National Park, the ancient Lake Kivu, and the Afro montane forests of Nyungwe National Park. During your journey, you'll have the chance to encounter not only the endangered mountain gorillas but also chimpanzees, golden monkeys, and colobus monkeys.   
-                    </p>
+                    This adventure encompasses the finest aspects of Rwanda, including stops in the capital, Kigali, the high-altitude cloud forests of Volcanoes National Park, the ancient Lake Kivu, and the Afro montane forests of Nyungwe National Park. During your journey, you'll have the chance to encounter not only the endangered mountain gorillas but also chimpanzees, golden monkeys, and colobus monkeys.                    </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights From $ 11,860 per person.</p>
                     <a href='/rwanda/thousandhills' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
@@ -189,10 +181,10 @@ const Destination =()=>{
                 <img src="https://voyagesafriq.com/wp-content/uploads/2021/07/4N5A1011-scaled.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Rwanda Gorilla and Game Vacation</h1>
-          
+                    <h2 className=' text-lg italic font-bold mb-10 text-red-900'>An uplifting safari experience in Rwanda </h2>
+
                     <p className=' font-[SourceSerifPro-Regular]'>
-                    This exclusive itinerary effortlessly blends a gorilla tracking adventure within the breathtaking Volcanoes National Park with a classic safari in Akagera National Park, which happens to be Rwanda's sole protected area where you can encounter the Big Five.   
-                    </p>
+                    This exclusive itinerary effortlessly blends a gorilla tracking adventure within the breathtaking Volcanoes National Park with a classic safari in Akagera National Park, which happens to be Rwanda's sole protected area where you can encounter the Big Five.                    </p>
                     <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'> 10days/9nights From $ 11,860 per person.</p>
                     <a href='/rwanda/gorilla' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>

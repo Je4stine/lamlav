@@ -4,15 +4,103 @@ import Navreveal from "../Navbar/Navreveal";
 import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import {FaHotel} from 'react-icons/fa';
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { ImCheckmark } from "react-icons/im";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick"
+
 
 function Gorrilla() {
     const [colorChanged, setColorChanged]= useState(false);
     const [detailed, setDetailed] = useState(false);
+    const [clicked, setClicked] = useState(false);
+    const [isActive, setIsActive] = useState(0);
+
+    function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+    
+    function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      return (
+        <div
+          className={className}
+          style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+          onClick={onClick}
+        />
+      );
+    }
+
+    const settings = {
+      dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        adaptiveHeight: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    };
+
+    const imageStyle = {
+      width: '100%', // Fixed width
+      height: '400px',
+      objectFit: 'cover',
+    };
+
+    const containerStyle ={
+      margin: 'auto'
+     
+    }
 
     const toggleDetails =()=>{
       setDetailed(!detailed)
     };
+
+    const toggleArrow =(index)=>{
+      setClicked(true);
+      setIsActive(index);
+    };
+
+    const closeArrow =(index)=>{
+      setClicked(false);
+      setIsActive(index);
+    }
 
 
     const changeNavbarColor = () =>{
@@ -36,6 +124,12 @@ function Gorrilla() {
           <h1 className=" absolute bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] md:l-10 z-0"> <strong>Rwanda Gorilla & Game Vacation.</strong> </h1>
         </div>
         <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5"> 
+                
+                <div>
+                    <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Kigali, Akagera National Park  </p>
+                    <p className="font-[SourceSerifPro-Regular] text-white">Volcanoes National Park  </p>
+                </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">9days/ 8nights </p>
@@ -45,6 +139,44 @@ function Gorrilla() {
                     <p className="font-[SourceSerifPro-Regular] text-white">From  $ 12,873 per person</p>
                 </div>
         </div>
+
+
+        <div className=" lg:px-[300px] px-5 mb-5 mt-10">
+          <p className=" font-[SourceSerifPro-Regular] md:text-xl">
+            During a vacation in Rwanda, one cannot help but be deeply touched and motivated by witnessing the remarkable reconstruction efforts that have taken place since the tragic Rwandan genocide of 1994. This safari experience provides a unique opportunity to explore both the country's painful history and its hopeful present. Your journey will encompass visits to significant sites like the moving Rwandan Genocide Memorial in the bustling city of Kigali, as well as the unspoiled natural beauty of Volcanoes National Park and the captivating Akagera National Park. All of this will be complemented by stays in Rwanda's most innovative and exceptional hotels and lodges.          </p>
+        </div>
+
+
+
+        <div className=" lg:px-[300px] px-5">
+                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Tour the poignant Genocide Memorial Site in Kigali.</span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Spend two daysTracking the majestic Mountain gorillas  and golden  monkeys at  Volcanoes National Park  </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Spot the 'Big fives' and learn  about conservation efforts at the Akagera National Park. </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Participate in conservation initiatives aimed at tracking and observing the 'Big fives.' </span></li>
+                            
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Excellent accommodations  at Rwanda's most luxurious tented  camps and lodges. </span></li>                            
+                        </ul>
+        </div>
+
         <div className=" p-5 lg:px-[300px]">
         <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -127,35 +259,6 @@ function Gorrilla() {
                     </table>
                 </div>
         </div>
-
-        <div className=" lg:px-[300px] px-5">
-                        <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Tour the poignant Genocide Memorial Site in Kigali.</span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span> Spend two daysTracking the majestic Mountain gorillas  and golden  monkeys at  Volcanoes National Park  </span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Spot the 'Big fives' and learn  about conservation efforts at the Akagera National Park. </span></li>
-                           
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Participate in conservation initiatives aimed at tracking and observing the 'Big fives.' </span></li>
-                            
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Excellent accommodations  at Rwanda's most luxurious tented  camps and lodges. </span></li>                            
-                        </ul>
-                    </div>
 
 
               <div className=' lg:px-[300px] mt-10 px-5'>
@@ -255,49 +358,85 @@ function Gorrilla() {
             <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Detailed Itinerary</div>
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 1: KIGALI RWANDA|| Arrival.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://cdn.audleytravel.com/798/570/79/261974-kigali-serena-hotel-kigali.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 2: KIGALI RWANDA|| Genocide Memorial and Exclusive Coffee Explorations</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/0d/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_007.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 3: AKAGERA || At the only 'Big Five' protected area.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/65/Webp.net-compress-image-59.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 4: AKAGERA || Game viewing.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5705/22819687517_9305a08039_b.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 5: AKAGERA || Design your day.</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a9/Topi_in_Akagera_National_Park_1.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 6: VOLCANOES NATIONAL PARK || At the foothills of Virunga Volcanoes</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a1/1-Virunga_Lodge_Aerila_ViewSinamatella_-_Rwanda_-_Virunga_-_20180915_-_1054.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 7: VOLCANOES NATIONALPARK || Up close with Mountain Gorillas</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://www.amboseliparkkenya.com/wp-content/uploads/2020/10/asasff-750x450.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 8: VOLCANOES NATIONALPARK || Create your own day plan</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://ujuzitravel.com/wp-content/uploads/2022/01/rwanda-volcanoes-golden-monkey-shutterstock.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
-          <div className='my-5 flex justify-between'>
+          <div className='my-5'>
+          <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 9: KIGALI RWANDA|| Homeward connections</h1>
-              <IoIosArrowDown/>
+              {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
+          </div>
+          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-b9x7g9tddzlq2za9p0d8wto8c/hr-dsc-5630.jpg' className=' w-full object-contain'/>:<div/>}
+
           </div>
           <hr/>
          
@@ -533,6 +672,32 @@ function Gorrilla() {
                 
         </div>
         }
+
+<div className="mt-10 mb-5">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} autoplay arrows style={containerStyle}>
+                        <div className="w-1/2">
+                            <img style={imageStyle} alt="1" src="https://image-tc.galaxy.tf/wijpeg-b9x7g9tddzlq2za9p0d8wto8c/hr-dsc-5630.jpg"/>
+                            <h1 className="font-bold">Kigali Serena Hotel</h1>
+                        </div>
+                        <div className="w-1/2 ml-5">
+                        <img style={imageStyle} src="https://www.andbeyond.com/wp-content/uploads/sites/5/Magashi_40.jpg" alt="2"/>
+                        <h1 className="font-bold">Magashi Camp</h1>
+                        </div>
+                        <div className="w-1/2">
+                        <img style={imageStyle} src="https://www.gorillasafarirwanda.com/wp-content/uploads/2017/09/Bisate-Rooms-.jpeg" alt="3"/>
+                        <h1 className="font-bold">Bisate Lodge</h1>
+                        </div>
+                        
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
+        </div>
 
         <Partners/>
 
