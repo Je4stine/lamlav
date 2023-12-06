@@ -60,9 +60,9 @@ function ThousandHills() {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1
             }
           },
           {
@@ -390,7 +390,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 1: KIGALI RWANDA|| Arrival</h1>
               {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-2w7ueb8np3077348kg8u539fy/hr-dsc-5646.jpg?width=1600&height=1066' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-2w7ueb8np3077348kg8u539fy/hr-dsc-5646.jpg?width=1600&height=1066' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
 
           </div>
@@ -400,7 +400,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 2: KIGALI || Genocide Memorial & Silicon Valley Explorations.</h1>
               {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/ae/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_021.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/ae/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_021.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -411,7 +411,7 @@ function ThousandHills() {
               {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/114/290786253_f798d07a53_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/114/290786253_f798d07a53_b.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -420,7 +420,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 4 & 5: VOLCANOES NATIONAL PARK || Up close with "Gorillas In the mist."</h1>
               {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/00/Gorillas_of_Volcanoes_National_park.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/00/Gorillas_of_Volcanoes_National_park.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -429,7 +429,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 6: LAKE KIVU || Soaking up the shores of Lake Kivu</h1>
               {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://www.safarisrwandasafari.com/wp-content/uploads/2023/03/lake-kivu-rwanda.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://www.safarisrwandasafari.com/wp-content/uploads/2023/03/lake-kivu-rwanda.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -438,7 +438,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 7: LAKE KIVU || Discover the greatest valleys, pristine peninsulas and island</h1>
               {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://journeysbydesign.com/wp-content/uploads/2017/01/%C2%A9-Stella-Wadulo.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://journeysbydesign.com/wp-content/uploads/2017/01/%C2%A9-Stella-Wadulo.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -447,7 +447,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 8: NYUNGWE FOREST|| Up close with Mountain Gorillas</h1>
               {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/4080/4945696386_5d9dda6334_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/4080/4945696386_5d9dda6334_b.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -456,7 +456,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 9 & 10: NYUNGWE FOREST || Create your own day plan</h1>
               {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://uniglobeletsgotravel.com/wp-content/uploads/2019/02/gorilla-group-1.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://uniglobeletsgotravel.com/wp-content/uploads/2019/02/gorilla-group-1.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
 
           </div>
@@ -466,7 +466,7 @@ function ThousandHills() {
               <h1 className='font-bold mb-2'>Day 11: KIGALI RWANDA|| Homeward connections</h1>
               {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://www.explorerwandatours.com/wp-content/uploads/2019/08/Kigali-City-750x450.jpg' className=' w-1/2 object-contain'/>:<div/>}
+          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://www.explorerwandatours.com/wp-content/uploads/2019/08/Kigali-City-750x450.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
 
           </div>

@@ -61,9 +61,9 @@ function UltimateMigration() {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1
             }
           },
           {
@@ -416,7 +416,7 @@ function UltimateMigration() {
               <h1 className='font-bold mb-2'>Day 1: NAIROBI KENYA|| Grand arrival.</h1>
               {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}          
             </div>
-            {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://i.natgeofe.com/n/fbc59cb3-1962-49e8-8d98-2743e0f98cdc/skyline-nairobi-kenya.jpg?w=2520&h=1324' className=' w-1/2 object-contain'/>:<div/>}
+            {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://i.natgeofe.com/n/fbc59cb3-1962-49e8-8d98-2743e0f98cdc/skyline-nairobi-kenya.jpg?w=2520&h=1324' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           
           </div>
           <hr/>
@@ -425,21 +425,21 @@ function UltimateMigration() {
               <h1 className='font-bold mb-2'>Day 2: NAIROBI || City explorations</h1>
               {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}          
             </div>
-            {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://media.tacdn.com/media/attractions-splice-spp-674x446/06/dd/de/17.jpg' className=' w-1/2 object-contain'/>:<div/>}
+            {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://media.tacdn.com/media/attractions-splice-spp-674x446/06/dd/de/17.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 3: AMBOSELI || At the base of Mt.Kilimanjaro.</h1>
               {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://cdn.pixabay.com/photo/2019/06/15/14/40/elephants-4275741_1280.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://cdn.pixabay.com/photo/2019/06/15/14/40/elephants-4275741_1280.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 4: AMBOSELI || Game viewing</h1>
               {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/51209270682_ca12145045_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/51209270682_ca12145045_b.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -447,35 +447,35 @@ function UltimateMigration() {
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 5: ARUSHA || Exploring the lovely Arusha coffee plantations</h1>
               {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/11854977/pexels-photo-11854977.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/11854977/pexels-photo-11854977.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 6: NGORONGORO || Into the epic Caldera.</h1>
               {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/e/e5/Ngorongoro_Crater%2C_Tanzania.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/e/e5/Ngorongoro_Crater%2C_Tanzania.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 7: SERENGETI NATIONAL PARK || Deep into the vast plains</h1>
               {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5225/5699832418_365b81c739_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5225/5699832418_365b81c739_b.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 8: SERENGETI NATIONAL PARK || Big five explorations</h1>
               {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/61/Serengeti_National_Park%2C_Tanzania_-_panoramio_%288%29.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/61/Serengeti_National_Park%2C_Tanzania_-_panoramio_%288%29.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 9: SERENGETI NATIONAL PARK || Create your own day plan</h1>
               {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/7280783/pexels-photo-7280783.jpeg?auto=compress&cs=tinysrgb&w=1600' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/7280783/pexels-photo-7280783.jpeg?auto=compress&cs=tinysrgb&w=1600' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -483,28 +483,28 @@ function UltimateMigration() {
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 10: MAASAI MARA|| Deep into the wild</h1>
               {clicked && isActive===10 ? <div onClick={()=>closeArrow(10)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(10)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/7827/46196374375_3a67240235_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/7827/46196374375_3a67240235_b.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 11: MAASAI MARA|| Inherent splendor in Mara's natural richness.</h1>
               {clicked && isActive===11 ? <div onClick={()=>closeArrow(11)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(11)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===11?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/52653899824_d04bef4c3a_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===11?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/65535/52653899824_d04bef4c3a_b.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div className='my-5'>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 12: MAASAI MARA|| Hot air ballooning & exclusive visits</h1>
               {clicked && isActive===12 ? <div onClick={()=>closeArrow(12)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(12)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===12?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/18647898/pexels-photo-18647898/free-photo-of-colorful-hot-air-balloon-above-savannah.jpeg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===12?  <img alt='Arival' loading='lazy' src='https://images.pexels.com/photos/18647898/pexels-photo-18647898/free-photo-of-colorful-hot-air-balloon-above-savannah.jpeg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
           </div>
           <hr/>
           <div>
           <div className=' flex justify-between'>
               <h1 className='font-bold mb-2'>Day 13: NAIROBI || Wayward connection back home</h1>
               {clicked && isActive===13 ? <div onClick={()=>closeArrow(13)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(13)}><IoIosArrowDown/></div>}          </div>
-              {clicked && isActive===13?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/3/30/Nairobi_City_Aerial_view.jpg' className=' w-1/2 object-contain'/>:<div/>}
+              {clicked && isActive===13?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/3/30/Nairobi_City_Aerial_view.jpg' className=' lg:w-1/2 w-full object-contain'/>:<div/>}
 
           </div>
           <hr/>
