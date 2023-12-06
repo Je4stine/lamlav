@@ -409,7 +409,7 @@ function UgandaFamily() {
               <h1 className='font-bold mb-2'>Day 1: ENTEBBE || Arrival.</h1>
               {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://www.boma.co.ug/wp-content/uploads/2018/10/MK1_9584.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://www.boma.co.ug/wp-content/uploads/2018/10/MK1_9584.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -420,7 +420,7 @@ function UgandaFamily() {
               {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://i.ytimg.com/vi/zh4ntxmqsVw/maxresdefault.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://i.ytimg.com/vi/zh4ntxmqsVw/maxresdefault.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
 
@@ -430,7 +430,7 @@ function UgandaFamily() {
               <h1 className='font-bold mb-2'>Day 3: JINJA || White-water rafting and Nile boat expedition</h1>
               {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://www.jinjatours.com/wp-content/uploads/2021/02/rafting-in-jinja-1.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://www.jinjatours.com/wp-content/uploads/2021/02/rafting-in-jinja-1.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -440,7 +440,7 @@ function UgandaFamily() {
               {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://www.africanmeccasafaris.com/wp-content/uploads/jinjanileriver4.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://www.africanmeccasafaris.com/wp-content/uploads/jinjanileriver4.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -450,7 +450,7 @@ function UgandaFamily() {
               {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5531/14187737541_967d6500d7_b.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5531/14187737541_967d6500d7_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -460,7 +460,7 @@ function UgandaFamily() {
               {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://www.queenelizabethparkuganda.com/wp-content/uploads/2021/11/kibale-chimps-1-1.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://www.queenelizabethparkuganda.com/wp-content/uploads/2021/11/kibale-chimps-1-1.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -470,7 +470,7 @@ function UgandaFamily() {
               {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://www.queenelizabethnationalpark.com/wp-content/uploads/2020/07/tree-climbing-lions-uganda.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://www.queenelizabethnationalpark.com/wp-content/uploads/2020/07/tree-climbing-lions-uganda.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -480,7 +480,7 @@ function UgandaFamily() {
               {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://www.africanwildlifesafaris.com/wp-content/uploads/ishasha-wilderness-lodge-inset1.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://www.africanwildlifesafaris.com/wp-content/uploads/ishasha-wilderness-lodge-inset1.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -490,7 +490,7 @@ function UgandaFamily() {
               {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://image.jimcdn.com/app/cms/image/transf/none/path/sa42828d9880ea9d8/image/i788f317f4ba0f81f/version/1474648366/image.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://image.jimcdn.com/app/cms/image/transf/none/path/sa42828d9880ea9d8/image/i788f317f4ba0f81f/version/1474648366/image.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -500,7 +500,7 @@ function UgandaFamily() {
               {clicked && isActive===10 ? <div onClick={()=>closeArrow(10)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(10)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/590/21909751398_3f4264b8a2_b.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/590/21909751398_3f4264b8a2_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -510,7 +510,7 @@ function UgandaFamily() {
               {clicked && isActive===11 ? <div onClick={()=>closeArrow(11)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(11)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===11?  <img alt='Arival' loading='lazy' src='https://destinationuganda.com/wp-content/uploads/2020/05/bwindi-impenetrable-uganda-treks.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===11?  <img alt='Arival' loading='lazy' src='https://destinationuganda.com/wp-content/uploads/2020/05/bwindi-impenetrable-uganda-treks.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -520,7 +520,7 @@ function UgandaFamily() {
               {clicked && isActive===12 ? <div onClick={()=>closeArrow(12)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(12)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===12?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/69/Entebbe_vue_du_ciel.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===12?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/69/Entebbe_vue_du_ciel.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>         

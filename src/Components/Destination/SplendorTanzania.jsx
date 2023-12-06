@@ -288,7 +288,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 1: ARUSHA ||Touch - down</h1>
               {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
           </div>
-              {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://www.elewanacollection.com/images/acl/ArushaCoffeeLodge---Restaurant-Exterior.jpg' className=' w-full object-contain'/>:<div/>}
+              {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://www.elewanacollection.com/images/acl/ArushaCoffeeLodge---Restaurant-Exterior.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -298,7 +298,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 2:ARUSHA|| Coffee experiences</h1>
               {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
           </div>
-              {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://www.andbeyond.com/wp-content/uploads/sites/5/Tea-Garden-at-Arusha-Coffee-Lodge.jpg' className=' w-full object-contain'/>:<div/>}
+              {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://www.andbeyond.com/wp-content/uploads/sites/5/Tea-Garden-at-Arusha-Coffee-Lodge.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -308,7 +308,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 3: TARANGIRE || Into the Wilderness</h1>
               {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/2240/33000774415_73bffb6d49_b.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/2240/33000774415_73bffb6d49_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -318,7 +318,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 4: TARANGIRE || Classic game viewing</h1>
               {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://www.tarangirenationalparks.com/wp-content/uploads/2020/08/Game-Drives-in-Tarangire-National-Parkss-750x450.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://www.tarangirenationalparks.com/wp-content/uploads/2020/08/Game-Drives-in-Tarangire-National-Parkss-750x450.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -327,7 +327,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 5: NGORONGORO CRATER|| Into the "Lost World.".</h1>
               {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/9f/27.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/9f/27.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -336,7 +336,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 6: NGORONGORO CRATER || Rewarding game drives</h1>
               {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://www.tarangirenationalparks.com/wp-content/uploads/2021/12/Ngorongoro-Facts-750x450-1.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://www.tarangirenationalparks.com/wp-content/uploads/2021/12/Ngorongoro-Facts-750x450-1.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -345,7 +345,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 7: SERENGETI || Golden plains</h1>
               {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/af/Floating_through_the_Serengeti_plains.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/af/Floating_through_the_Serengeti_plains.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -354,7 +354,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 8: SERENGETI || Explore the endless plains</h1>
               {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://c.pxhere.com/photos/7c/a8/tanzania_serengeti_national_park_animal_wildlife_wild_zoology_mammal_species-979082.jpg!d' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://c.pxhere.com/photos/7c/a8/tanzania_serengeti_national_park_animal_wildlife_wild_zoology_mammal_species-979082.jpg!d' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -365,7 +365,7 @@ function SplendorTanzania() {
                 {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
 
           </div>
-          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://lp-cms-production.imgix.net/2021-10/GettyRF_545860943.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://lp-cms-production.imgix.net/2021-10/GettyRF_545860943.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -375,7 +375,7 @@ function SplendorTanzania() {
               <h1 className='font-bold mb-2'>Day 10: ARUSHA || Homeward connections</h1>
               {clicked && isActive===10 ? <div onClick={()=>closeArrow(10)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(10)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://www.safari.co.za/images/arusha-national-park-01-590x390.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===10?  <img alt='Arival' loading='lazy' src='https://www.safari.co.za/images/arusha-national-park-01-590x390.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
          <hr/>

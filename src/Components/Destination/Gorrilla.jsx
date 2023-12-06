@@ -363,7 +363,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 1: KIGALI RWANDA|| Arrival.</h1>
               {clicked && isActive===1 ? <div onClick={()=>closeArrow(1)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(1)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://cdn.audleytravel.com/798/570/79/261974-kigali-serena-hotel-kigali.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===1?  <img alt='Arival' loading='lazy' src='https://cdn.audleytravel.com/798/570/79/261974-kigali-serena-hotel-kigali.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -372,7 +372,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 2: KIGALI RWANDA|| Genocide Memorial and Exclusive Coffee Explorations</h1>
               {clicked && isActive===2 ? <div onClick={()=>closeArrow(2)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(2)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/0d/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_007.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===2?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/0/0d/Genocide_Memorial_site_of_Gisozi_Kigali_Genocide_Memorial_007.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -381,7 +381,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 3: AKAGERA || At the only 'Big Five' protected area.</h1>
               {clicked && isActive===3 ? <div onClick={()=>closeArrow(3)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(3)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/65/Webp.net-compress-image-59.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===3?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/6/65/Webp.net-compress-image-59.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -390,7 +390,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 4: AKAGERA || Game viewing.</h1>
               {clicked && isActive===4 ? <div onClick={()=>closeArrow(4)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(4)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5705/22819687517_9305a08039_b.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===4?  <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/5705/22819687517_9305a08039_b.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -399,7 +399,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 5: AKAGERA || Design your day.</h1>
               {clicked && isActive===5 ? <div onClick={()=>closeArrow(5)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(5)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a9/Topi_in_Akagera_National_Park_1.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===5?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a9/Topi_in_Akagera_National_Park_1.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -408,7 +408,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 6: VOLCANOES NATIONAL PARK || At the foothills of Virunga Volcanoes</h1>
               {clicked && isActive===6 ? <div onClick={()=>closeArrow(6)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(6)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a1/1-Virunga_Lodge_Aerila_ViewSinamatella_-_Rwanda_-_Virunga_-_20180915_-_1054.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===6?  <img alt='Arival' loading='lazy' src='https://upload.wikimedia.org/wikipedia/commons/a/a1/1-Virunga_Lodge_Aerila_ViewSinamatella_-_Rwanda_-_Virunga_-_20180915_-_1054.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -417,7 +417,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 7: VOLCANOES NATIONALPARK || Up close with Mountain Gorillas</h1>
               {clicked && isActive===7 ? <div onClick={()=>closeArrow(7)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(7)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://www.amboseliparkkenya.com/wp-content/uploads/2020/10/asasff-750x450.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===7?  <img alt='Arival' loading='lazy' src='https://www.amboseliparkkenya.com/wp-content/uploads/2020/10/asasff-750x450.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -426,7 +426,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 8: VOLCANOES NATIONALPARK || Create your own day plan</h1>
               {clicked && isActive===8 ? <div onClick={()=>closeArrow(8)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(8)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://ujuzitravel.com/wp-content/uploads/2022/01/rwanda-volcanoes-golden-monkey-shutterstock.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===8?  <img alt='Arival' loading='lazy' src='https://ujuzitravel.com/wp-content/uploads/2022/01/rwanda-volcanoes-golden-monkey-shutterstock.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
@@ -435,7 +435,7 @@ function Gorrilla() {
               <h1 className='font-bold mb-2'>Day 9: KIGALI RWANDA|| Homeward connections</h1>
               {clicked && isActive===9 ? <div onClick={()=>closeArrow(9)}><IoIosArrowUp/> </div> : <div onClick={()=>toggleArrow(9)}><IoIosArrowDown/></div>}
           </div>
-          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-b9x7g9tddzlq2za9p0d8wto8c/hr-dsc-5630.jpg' className=' w-full object-contain'/>:<div/>}
+          {clicked && isActive===9?  <img alt='Arival' loading='lazy' src='https://image-tc.galaxy.tf/wijpeg-b9x7g9tddzlq2za9p0d8wto8c/hr-dsc-5630.jpg' className=' w-1/2 object-contain'/>:<div/>}
 
           </div>
           <hr/>
