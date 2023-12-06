@@ -704,7 +704,7 @@ Nyungwe Forest is an exceptional location for observing chimpanzees in their nat
                         <h1 className="font-bold">Cleo Lake Kivu</h1>
                         </div>
                         <div className="w-1/2 ml-5">
-                        <img style={imageStyle}src="https://travellermade.com/wp-content/uploads/2012/07/OneOnly_NyungweHouse_3.png" alt="4"/>
+                        <img style={imageStyle}src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/462528510.jpg?k=9812832fde3690f7e2312e2cf38bf9185304241b1f115d0eed2e014b3dcea5d5&o=&hp=1" alt="4"/>
                         <h1 className="font-bold">One & Only Nyungwe House</h1>
                         </div>
                        
