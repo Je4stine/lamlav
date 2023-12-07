@@ -636,19 +636,19 @@ function SplendorTanzania() {
           <div className="relative mt-20 z-[0] m-auto w-[80%]">
           <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
                     <Slider {...settings} autoplay arrows style={containerStyle}>
-                        <div className="w-1/2">
+                        <a href='/tanzania/lodges/coffee' className="w-1/2 cursor-pointer hover:text-orange-500">
                             <img style={imageStyle} alt="1" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/34603553.jpg?k=dc9f54f42f3cdaa64e0d653937639162e83c6af9f6529ddaadb3db69f4b87adb&o=&hp=1"/>
                             <h1 className="font-bold">Arusha Coffee Lodge</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/tanzania/lodges/treetop' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/59/37/c6/tree-house-interior-at.jpg?w=700&h=-1&s=1" alt="2"/>
                         <h1 className="font-bold">Tarangire Treetops Lodge</h1>
-                        </div>
-                        <div className="w-1/2">
+                        </a>
+                        <a href='/tanzania/lodges/manor' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/375293886.jpg?k=e9310a0bb2d275e6770c52ac25a1f1070be917581b03966a47841896c8b184cb&o=&hp=1" alt="3"/>
                         <h1 className="font-bold">Manor At Ngorongoro</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <div className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle}src="https://www.micato.com/wp-content/uploads/2018/09/serengeti-migration-camp-1-2.jpg" alt="4"/>
                         <h1 className="font-bold">Migration Camp</h1>
                         </div>

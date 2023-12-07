@@ -302,8 +302,11 @@ function UltimateMigration() {
 
 
         <div className=' mt-10 lg:px-[300px] px-5'>
-              <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
-              <div className="p-5">
+            <div className='flex flex-col items-center justify-center mb-10'>
+                  <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                  <hr/>
+                </div>              <div className="p-5">
                 <ul className="mb-8 space-y-4 text-left text-black">
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -831,30 +834,30 @@ function UltimateMigration() {
           <div className="relative mt-20 z-[0] m-auto w-[80%]">
           <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
                     <Slider {...settings} autoplay arrows style={containerStyle}>
-                        <div className="w-1/2">
+                        <a href='/kenya/waine' className="w-1/2 cursor-pointer hover:text-500">
                             <img style={imageStyle} alt="1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e5/40/c0/house-of-waine.jpg?w=700&h=-1&s=1"/>
                             <h1 className="font-bold">House of Waine</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/kenya/amboseli/oltukai' className="w-1/2 ml-5 cursor-pointer hover:text-500">
                         <img style={imageStyle} src="https://live.staticflickr.com/2679/32903032362_aa0ae1709a_b.jpg" alt="2"/>
                         <h1 className="font-bold">Ol Tukai Lodge</h1>
-                        </div>
-                        <div className="w-1/2">
+                        </a>
+                        <a href='/tanzania/lodges/onsea' className="w-1/2 cursor-pointer hover:text-500">
                         <img style={imageStyle} src="https://media-cdn.tripadvisor.com/media/photo-s/1c/37/64/af/revamped-open-terrace.jpg" alt="3"/>
                         <h1 className="font-bold">Onsea House</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/tanzania/lodges/crater' className="w-1/2 ml-5 cursor-pointer hover:text-500">
                         <img style={imageStyle}src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/2e/6b/36/andbeyond-ngorongoro.jpg?w=700&h=-1&s=1" alt="4"/>
                         <h1 className="font-bold">Ngorongoro Crater Lodge</h1>
-                        </div>
-                        <div className="w-1/2 ">
+                        </a>
+                        <a href='/tanzania/lodges/lemala' className="w-1/2 cursor-pointer hover:text-500">
                         <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/ea/73/22/lemala-ewanjan-tented.jpg?w=700&h=-1&s=1" alt="4"/>
                         <h1 className="font-bold">Lemala Ewanjan</h1>
-                        </div>
-                        <div className="w-1/2 ml-5 mr-5">
+                        </a>
+                        <a href='/kenya/maraplains' className="w-1/2 ml-5 mr-5 cursor-pointer hover:text-500">
                         <img style={imageStyle} src="https://www.masaimara.com/assets/img/great-plains-mara-plains-camp.jpg" alt="4"/>
                         <h1 className="font-bold">Mara Plains Camp</h1>
-                        </div>
+                        </a>
                         
                         {/* <div>
                         <img src="" alt="4"/>

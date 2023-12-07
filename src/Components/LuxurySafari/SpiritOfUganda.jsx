@@ -906,34 +906,34 @@ function SpiritOfUganda() {
           <div className="relative mt-20 z-[0] m-auto w-[80%]">
           <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
                     <Slider {...settings} autoplay arrows style={containerStyle}>
-                        <div className="w-1/2">
+                        <a href="/uganda/lodges/protea" className="w-1/2 cursor-pointer hover:text-orange-500">
                             <img style={imageStyle} alt="1" src="https://cache.marriott.com/content/dam/marriott-renditions/EBBEN/ebben-deluxe-0030-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*"/>
                             <h1 className="font-bold">Protea Hotel Entebbe</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/uganda/lodges/wildwaters' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://theeye.ug/wp-content/uploads/2023/01/Lemala-Wildwaters-Lodge.jpg" alt="2"/>
                         <h1 className="font-bold">Wildwaters Lodge</h1>
-                        </div>
-                        <div className="w-1/2">
+                        </a>
+                        <a href='/uganda/lodges/wildwaters' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/465260172.jpg?k=32e6d935596e0ecf6f79e9db591e897ce52a461c52812828686e04104bcf1335&o=&hp=1" alt="3"/>
                         <h1 className="font-bold">Paraa Safari Lodge</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/uganda/lodges/kyaninga' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle}src="https://cdn.audleytravel.com/5222/3730/79/525208-kyaninga-lodge-fort-portal.jpg" alt="4"/>
                         <h1 className="font-bold">Kyaninga Lodge</h1>
-                        </div>
-                        <div className="w-1/2 ">
+                        </a>
+                        <a href='/uganda/lodges/mweya' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://www.africanmeccasafaris.com/wp-content/uploads/mweyasafarilodge3.jpg" alt="4"/>
                         <h1 className="font-bold">Mweya Safari Lodge</h1>
-                        </div>
-                        <div className="w-1/2 ml-5 mr-5">
+                        </a>
+                        <a href='/uganda/lodges/ishasha' className="w-1/2 ml-5 mr-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://www.greatadventuresafaris.com/wp-content/uploads/Luxury-Ishasha-wilderness-Camp-1200x675.jpg" alt="4"/>
                         <h1 className="font-bold">Ishasha Wilderness Camp</h1>
-                        </div>
-                        <div className="w-1/2 ">
+                        </a>
+                        <a href='/rwanda/lodges/forest' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://www.africanwildlifesafaris.com/wp-content/uploads/sanctuary-gorilla-forest-camp-inset2.jpg" alt="4"/>
                         <h1 className="font-bold">Sunctuary Gorilla Forest Camp</h1>
-                        </div>
+                        </a>
                         {/* <div>
                         <img src="" alt="4"/>
                         <h1 className="font-bold"></h1>

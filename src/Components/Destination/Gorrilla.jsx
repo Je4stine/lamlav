@@ -42,7 +42,7 @@ function Gorrilla() {
     const settings = {
       dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1500,
         slidesToShow: 2,
         slidesToScroll: 2,
         adaptiveHeight: true,
@@ -262,7 +262,11 @@ function Gorrilla() {
 
 
               <div className=' lg:px-[300px] mt-10 px-5'>
-              <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
+              <div className='flex flex-col items-center justify-center mb-10'>
+                  <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                  <hr/>
+                </div>
               <div className="lg:flex lg:justify-between ">
                 <ul className="mb-8 space-y-4 text-left text-black mt-10">
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -677,19 +681,19 @@ function Gorrilla() {
           
           <div className="relative mt-20 z-[0] m-auto w-[80%]">
           <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
-                    <Slider {...settings} autoplay arrows style={containerStyle}>
-                        <div className="w-1/2">
+                    <Slider {...settings} arrows style={containerStyle}>
+                        <a href='/rwanda/lodges/kigaliserena' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
                             <img style={imageStyle} alt="1" src="https://image-tc.galaxy.tf/wijpeg-b9x7g9tddzlq2za9p0d8wto8c/hr-dsc-5630.jpg"/>
                             <h1 className="font-bold">Kigali Serena Hotel</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/rwanda/lodges/magashi' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://www.andbeyond.com/wp-content/uploads/sites/5/Magashi_40.jpg" alt="2"/>
                         <h1 className="font-bold">Magashi Camp</h1>
-                        </div>
-                        <div className="w-1/2">
+                        </a>
+                        <a href='/rwanda/lodges/bisate' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://www.gorillasafarirwanda.com/wp-content/uploads/2017/09/Bisate-Rooms-.jpeg" alt="3"/>
                         <h1 className="font-bold">Bisate Lodge</h1>
-                        </div>
+                        </a>
                         
                         {/* <div>
                         <img src="" alt="4"/>

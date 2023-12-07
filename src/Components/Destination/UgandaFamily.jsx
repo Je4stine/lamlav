@@ -8,6 +8,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import {ImCheckmark} from 'react-icons/im'
 
 function UgandaFamily() {
     const [colorChanged, setColorChanged]= useState(false);
@@ -294,7 +295,11 @@ function UgandaFamily() {
 
 
               <div className=' mt-10 lg:px-[300px] px-5'>
-              <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
+              <div className='flex flex-col items-center justify-center mb-10'>
+                  <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                  <hr/>
+                </div>
               <div className="p-5">
                 <ul className="mb-8 space-y-4 text-left text-black">
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -814,26 +819,26 @@ function UgandaFamily() {
           <div className="relative mt-20 z-[0] m-auto w-[80%]">
           <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
                     <Slider {...settings} autoplay arrows style={containerStyle}>
-                        <div className="w-1/2">
+                        <a href='/uganda/lodges/boma' className="w-1/2 cursor-pointer hover:text-orange-500">
                             <img style={imageStyle} alt="1" src="https://www.boma.co.ug/wp-content/uploads/2018/10/MK1_8918.jpg"/>
                             <h1 className="font-bold">Boma Hotel Entebbe</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/uganda/lodges/wildwaters' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/39/cf/fa/lemala-wildwaters-lodge.jpg?w=700&h=-1&s=1" alt="2"/>
                         <h1 className="font-bold">Wildwaters Lodge</h1>
-                        </div>
-                        <div className="w-1/2">
+                        </a>
+                        <a href='/uganda/lodges/mweya' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://www.ugandabudgetsafaris.com/wp-content/uploads/2020/01/Mweya-Safari-LodgeS-750x450.jpg" alt="3"/>
                         <h1 className="font-bold">Mweya Safari Lodge</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/uganda/lodges/ishasha' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle}src="https://www.andbeyond.com/wp-content/uploads/sites/5/Dining-Area-at-Ishasha-Wilderness-Camp-Queen-Elizabeth-National-Park.jpg" alt="4"/>
                         <h1 className="font-bold">Ishasha wildwaters Camp</h1>
-                        </div>
-                        <div className="w-1/2 ">
+                        </a>
+                        <a href='/uganda/lodges/mahogany' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://www.bwindiforestgorillatrekking.com/wp-content/uploads/2020/01/Mahogany-springs-lodge.jpg" alt="4"/>
                         <h1 className="font-bold">Mahogany Springs</h1>
-                        </div>
+                        </a>
                       
                         {/* <div>
                         <img src="" alt="4"/>

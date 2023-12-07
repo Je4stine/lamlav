@@ -16,6 +16,8 @@ import Why from "../Why/Why";
 import Intro from "../Intro/Intro";
 import Callfor from "../Contact/Callfor";
 import Partners from "../Partners";
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import DATA from "../Testmonials/Data";
 import TestimonialsCarousel from "../Review/Review";

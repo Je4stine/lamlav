@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer';
 import Partners from '../Partners';
 import {FaHotel} from 'react-icons/fa';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { ImCheckmark} from 'react-icons/im'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -280,8 +281,12 @@ function ThousandHills() {
 
 
         <div className=' lg:px-[300px] mt-10 px-5'>
-              <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900">Included</h1>
-              <div className="p-5">
+              <div className='flex flex-col items-center justify-center mb-10'>
+                  <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                  <hr/>
+                </div>
+               <div className="p-5">
                 <ul className="mb-8 space-y-4 text-left text-black">
                   <li className="font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
                     <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -691,22 +696,22 @@ Nyungwe Forest is an exceptional location for observing chimpanzees in their nat
           <div className="relative mt-20 z-[0] m-auto w-[80%]">
           <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
                     <Slider {...settings} autoplay arrows style={containerStyle}>
-                        <div className="w-1/2">
+                        <a href='/rwanda/lodges/kigaliserena' className="w-1/2 cursor-pointer hover:text-orange-500">
                             <img style={imageStyle} alt="1" src="https://image-tc.galaxy.tf/wijpeg-9mbxti86r9uj4nhjff35so37q/hr-dsc-5555.jpg?width=1600&height=1066"/>
                             <h1 className="font-bold">Kigali Serena Hotel</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/rwanda/lodges/singita' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/d9/f5/f0/singita-kwitonda-lodge.jpg?w=700&h=-1&s=1" alt="2"/>
                         <h1 className="font-bold">Singita Kwitonda Lodge</h1>
-                        </div>
-                        <div className="w-1/2">
+                        </a>
+                        <a href='/rwanda/lodges/' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/322181831.jpg?k=d2c6350b50fc9308d582212adbce570b1424eaf5bb6706787d14a5d930542195&o=&hp=1" alt="3"/>
                         <h1 className="font-bold">Cleo Lake Kivu</h1>
-                        </div>
-                        <div className="w-1/2 ml-5">
+                        </a>
+                        <a href='/rwanda/lodges/nyungwe' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle}src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/462528510.jpg?k=9812832fde3690f7e2312e2cf38bf9185304241b1f115d0eed2e014b3dcea5d5&o=&hp=1" alt="4"/>
                         <h1 className="font-bold">One & Only Nyungwe House</h1>
-                        </div>
+                        </a>
                        
                         {/* <div>
                         <img src="" alt="4"/>

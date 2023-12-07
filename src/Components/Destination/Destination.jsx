@@ -6,6 +6,7 @@ import Destination4 from "../../Assets/ambo.jpg";
 import Destination5 from '../../Assets/wildness.jpg'
 
 import {useNavigate} from 'react-router-dom';
+import Bounce from 'react-reveal/Bounce';
 
 
 const Destination =()=>{
@@ -13,9 +14,12 @@ const Destination =()=>{
     
     return (
       <div className=" flex flex-col items-center m-auto p-5" id= 'Destination'>
-        <h1 className=" my-[50px] font-bold text-5xl max-[768px]:text-xl max-[768px]:my-10">Luxury Safaris</h1>
+        <h1 className=" my-[50px] font-bold text-5xl max-[768px]:text-xl max-[768px]:my-10">Luxury East African Safaris </h1>
+        
         
         <div className=" lg:flex lg:flex-wrap lg:justify-center">
+
+        <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src={Destination1} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -30,7 +34,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src={Destination3} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -45,7 +51,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src={Destination2} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -60,8 +68,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
-
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src={Destination4} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -76,9 +85,10 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
-
+          </Bounce>
 
             
+           <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src={Destination5} alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -93,8 +103,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
             
-
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src="https://cdn.kimkim.com/files/a/images/4ae80a4bbd736d119a07254e1b141c78a3c28341/original-791d0a79388bd3274678e278870f6d2b.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -110,8 +121,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
-
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src="https://i0.wp.com/www.allugandasafaris.com/wp-content/uploads/2022/05/Family-Safaris-Uganda.jpg?w=750&ssl=1" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -126,8 +138,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
-
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src="https://www.naturaltoursandsafaris.com/wp-content/uploads/2020/01/Wildebeest-Migration-Maasai-Mara-Natural-World-Kenya-Safaris.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -142,8 +155,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
-
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src="https://secretafrica.com/wp-content/uploads/2021/10/Best-Time-To-Go-To-Tanzania-36.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -158,8 +172,9 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
-
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
                 <img src="https://live.staticflickr.com/8740/16298396774_e6d631a1e7_b.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
@@ -174,10 +189,11 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
-
+            <Bounce top>
             <div className=' bg-white mb-3 lg:w-[400px] mr-4'>
-                <img src="https://voyagesafriq.com/wp-content/uploads/2021/07/4N5A1011-scaled.jpg" alt="Destination images" className=' w-full h-[300px] object-cover'/>
+                <img src="https://drive.google.com/uc?export=view&id=1UlAmCffzQ7pgYoRwUwB1LCaL588Jpsw5" alt="Destination images" className=' w-full h-[300px] object-cover'/>
                 <div className=' px-5 pb-5'>
                     <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Rwanda Gorilla and Game Vacation</h1>
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'>An uplifting safari experience in Rwanda </h2>
@@ -191,6 +207,7 @@ const Destination =()=>{
                     <p className=''> </p>
                 </div>
             </div>
+           </Bounce>
 
 
             
