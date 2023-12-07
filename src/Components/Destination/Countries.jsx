@@ -40,7 +40,7 @@ const Countries =()=>{
                 </Fade>
 
 
-                <Fade left>
+                <Fade right>
                 <a href='/tanzania' className='lg:flex lg:flex-row-reverse flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Tanzania} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                     <div className=' p-10 flex flex-col justify-center'> 
@@ -88,7 +88,7 @@ const Countries =()=>{
 
 
 
-                <Fade left>
+                <Fade right>
                 <a href='/rwanda' className='lg:flex lg:flex-row-reverse flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Rwanda} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                     <div className=' p-10 flex flex-col justify-center'> 

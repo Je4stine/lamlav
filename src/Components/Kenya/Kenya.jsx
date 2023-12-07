@@ -17,6 +17,7 @@ import Suncity from '../../Assets/sunsity.jpg';
 import Mombasani from '../../Assets/Mombasani.jpg';
 import Tatol from '../../Assets/Tatol.jpg';
 import Partners from "../Partners";
+import Fade from 'react-reveal/Fade';
 
 const Kenya = ()=>{
     const [colorChanged, setColorChanged]= useState(false);
@@ -63,15 +64,59 @@ const Kenya = ()=>{
                   <li>The iconic  Tsavo West and Tsavo  East wildlife  sanctuaries </li>
                 </p>
               </div>
-             
             </section>
-            <section className=" bg-white flex flex-col items-center pt-20 ">
-              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Kenya </h1>
+            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
+            <section className="my-10 lg:px-[80px] px-2">
+              <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
+                  <a href="/mara" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://live.staticflickr.com/65535/48543931301_2680b59709_b.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
+                    <div>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Mara Serengeti Safari</h1>
+                        <p className="font-[SourceSerifPro-Regular]"> <em>Presenting an exceptionally memorable and unabashedly luxurious safari experience within the Mara and Serengeti ecosystems.</em></p>
+                    </div>
+                  </a>
 
+                  <a href="/migration" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://www.asiliaafrica.com/media/kvmdsaks/ubuntu-migration-camp-game-drive.jpg?width=0&format=webp&quality=60&rnd=132271987049770000&mode=crop" className="lg:w-1/3 w-1/2 mr-3"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Great Migration Safari</h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em>Experience the pulse of nature and the grandeur of wildlife in a seamless exploration of diverse landscapes. </em></p>
+                    </div>
+                  </a>
+
+                  <a href="/honeymoon" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://www.kiwoitoafricasafaris.com/wp-content/uploads/2020/01/honeymoon-safaris.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">3. Lamlav Honeymoon Safari</h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em> An adventure that feeds your Soul</em></p>
+                    </div>
+                  </a>
+
+                  <a href="/amboseli" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://skyviewofafrica.com/wp-content/uploads/2020/08/kruger-national-park-pic.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">4. Kenya Bush and Beach Safari</h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em>Explore the Kenyan wildlife havens in Style.</em></p>
+                      </div>
+                  </a>
+                  <a href="/wilderness" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://peaksofafrica.co.za/wp-content/uploads/2016/11/Kenya-and-Tanzania-Great-Wilderness-Safari-1.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">5.Great Wilderness safari </h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em> A truly indulgent and quintessential Kenyan Safari experience.</em></p>
+                    </div>
+                  </a>
+              </div>              
+            </section>
+
+
+            <section className=" bg-white flex flex-col items-center pt-20 ">
+              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Black] text-center">Explore the Most  popular<br/>  spots in Kenya </h1>
+             <Fade left>
               <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
                   <img src={AmboseliN} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5 lg:justify-between lg:w-1/2">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Amboseli  National  Reserve </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Amboseli  National  Reserve </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         The name "Amboseli" means "salty dust" in reference to the ancient volcanic ash that creates shimmering mirages and dust devils in the dry season, especially around seasonal Lake Amboseli
                       </p>
@@ -81,11 +126,13 @@ const Kenya = ()=>{
                   </div>
               </div>
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+             <Fade right>
               <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Tsavo} alt=" Tsavo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Tsavo  National  park </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Tsavo  National  park </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         "It’s quite difficult to portray the magic of Tsavo in just a few words… It really grips your soul. Tremendous contrasts everywhere. Tsavo, in fact, has a greater bio-diversity than any other place on earth. The more you know about nature, the more you can learn" ~Dr Dame Daphne Sheldrick
                       </p>
@@ -96,11 +143,13 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+             <Fade left>
               <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Lewaco} alt=" Lewa Conservancy" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Lewa Conservancy </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Lewa Conservancy </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                       The Lewa Conservancy, also called the Lewa Downs, is a groundbreaking World Heritage Site, established by the Craig family in 1996. The 250-square-mile conservancy was originally established to protect Kenya's rhinos, which today make up 13% of the country's rhino population.
                       </p>
@@ -111,12 +160,15 @@ const Kenya = ()=>{
                   </div>
               </div>
 
-              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
 
+              <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
+
+             <Fade right>
               <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Olpe} alt=" Ol Pejeta" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Ol Pejeta  Conservancy  </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Ol Pejeta  Conservancy  </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         With a size of 36,400 hectares, Ol Pejeta is home to the world's largest population of black rhinos and the last two remaining white rhinos. This Conservancy is a non-profit wildlife organization located in Laikipia County, Central Kenya.
                       </p>
@@ -128,11 +180,13 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+             <Fade left>
               <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Game1} alt=" The game" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">The Maasai Mara National Reserve  </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">The Maasai Mara National Reserve  </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         With its diverse and attractive scenery and its well-known abundance of wild animals, Maasai Mara is the centerpiece of spectacular  wildlife  encounters and  is a perfect representation of what attracts people to Africa.
                       </p>
@@ -144,11 +198,13 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+             <Fade right>
               <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Chyulu} alt=" Chyullu hills" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Chyullu hills </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Chyullu hills </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         <em>"Green Hills of Africa" <br/> <br/></em>
                         The Chyulu Hills, a relatively new range in the world, extend across eastern Kenya, with a view of expansive grasslands. 
@@ -160,11 +216,12 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
-
+             </Fade >
+             <Fade left>
               <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Zebra} alt=" Zebra" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Meru National Park </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Meru National Park </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         <em>Home to Elsa the Lioness</em>
                       </p>
@@ -178,11 +235,13 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+             <Fade right>
               <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Naivasha} alt="Flamingo" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Lake Nakuru & Lake Naivasha </h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Lake Nakuru & Lake Naivasha </h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         <em>Tete-a- tete  with  the flamingos of Nakuru</em>
                       </p>
@@ -196,11 +255,14 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+
+             <Fade left>
               <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Dik} alt=" Dik Dik" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Samburu National Park</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Samburu National Park</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                       The Samburu region is characterized by the beautiful Ewaso Nyiro River and is known for its rugged and serene landscape, reminiscent of the traditional Africa.
                       </p>
@@ -211,11 +273,13 @@ const Kenya = ()=>{
                   </div>
               </div>
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+             <Fade right>
               <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Mount} alt=" Mt. Kenya" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mount Kenya</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Mount Kenya</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         The Lordly, "Majestic  and tender  Mountain"  in Africa that is visible from many parts of central Kenya. 
                       </p>
@@ -227,11 +291,14 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+
+             <Fade left>
               <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Suncity} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Nairobi</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Nairobi</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         <em>Around  and About the only "City in  the  Sun "<br/><br/></em>
                         Nairobi is not only known as the "Safari capital of the world," but it is also one of the most vibrant cities in Africa. It is definitely worth spending a few days exploring the "City in the Sun" of Kenya before or after your safari.
@@ -244,11 +311,14 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+
+             <Fade right>
               <div className=" lg:flex lg:flex-row-reverse lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Mombasani} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Mombasa</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Mombasa</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         Mombasa is a city with a rich history of cultural fusion, evident in its blend of Arab, Portuguese, and British influences that can still be seen in its cuisine, buildings, and the people. This stunning coastal region of Kenya,  is known for its pristine beaches, breathtaking coral reefs, and historic Swahili towns, some of which date back to the Middle Ages.
                       </p>
@@ -260,11 +330,13 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
+             <Fade left>
               <div className=" lg:flex lg:justify-around items-center mt-20 lg:px-[80px]">
                   <img src={Tatol} alt=" City under the sun" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">Watamu</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">Watamu</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         <em>
                         Beguiling,  tempting,  and  bewitching Watamu.
@@ -281,6 +353,7 @@ const Kenya = ()=>{
               </div>
 
               <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+             </Fade >
 
             </section>
 
