@@ -6,6 +6,8 @@ import Tz from '../../Assets/tanzania_safari.jpg';
 import DATA from './data';
 import { Link } from "react-router-dom";
 import Partners from "../Partners";
+import { FiArrowRight  } from "react-icons/fi";
+import Fade from 'react-reveal/Fade';
 
 const Tanzania =()=> {
   const [colorChanged, setColorChanged]= useState(false);
@@ -27,7 +29,7 @@ const Tanzania =()=> {
         <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
                   <img src={Tz} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5 lg:justify-between lg:w-1/2">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">{title}</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">{title}</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         {description}
                       </p>
@@ -77,22 +79,56 @@ const Tanzania =()=> {
                 </p>
               </div>
             </section>
+            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
+            <section className="my-10 lg:px-[80px] px-2">
+              <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
+                  <a href="/tanzania/splendoftz" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://secretafrica.com/wp-content/uploads/2021/10/Best-Time-To-Go-To-Tanzania-36.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Splendous of Tanzania</h1>
+                        <p className="font-[SourceSerifPro-Regular]"> <em>An iconic safari combining the perfect blend of adventure, cultural immersion, and relaxation.</em></p>
+                        <p className="font-[SourceSerifPro-Black] my-10">
+                            10days/9nights From $ 11,860 per person.
+                        </p>
+                        <div className="my-3 flex items-center">
+                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
+                          <FiArrowRight  />
+                        </div>
+                    </div>
+                  </a>
+
+                  <a href="/tanzania/ultimatemigration" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://www.naturaltoursandsafaris.com/wp-content/uploads/2020/01/Wildebeest-Migration-Maasai-Mara-Natural-World-Kenya-Safaris.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Kenya and Tanzania, great  migration safari</h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em> Experience the thrill of being at the epicenter of the Great Wildebeest Migration, surrounded by the untamed wilderness while enjoying all the refined comforts you desire.</em></p>
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                          13days/12 nights from $ 15,275 per person.
+                        </p>
+                        <div className="my-3 flex items-center">
+                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
+                          <FiArrowRight  />
+                        </div>
+                    </div>
+                  </a>
+              </div>              
+            </section>
 
             <section className=" bg-white flex flex-col items-center pt-20 ">
-              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Tanzania </h1>
+              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Black] text-center">Explore the Most  popular<br/>  spots in Tanzania </h1>
               {
                 DATA.map((item, index)=>{
                   const isEvenIndex = index % 2 === 0;
                   const itemClassName = isEvenIndex ? 'flex-row' : 'flex-row-reverse';
 
                   return (
-                     <div >
+                     <Fade left >
                       <div key={item.id} className={`lg:flex lg:justify-around items-center mt-20 lg:px-[80px] ${itemClassName}`}>
                    
                      
                         <img src={item.image} alt="Lion" className="lg:w-1/2 lg:h-3/4 m-auto" loading="lazy" />
                         <div className="p-5 lg:justify-between lg:w-1/2">
-                          <h1 className="font-[SourceSerifPro-Bold] mb-10 text-3xl">{item.title}</h1>
+                          <h1 className="font-[SourceSerifPro-Black] mb-10 text-3xl">{item.title}</h1>
                           <p className="font-[SourceSerifPro-Regular] text-lg">
                             {item.descripton}
                           </p>
@@ -108,7 +144,7 @@ const Tanzania =()=> {
                       </div>
                      
                       <hr className="h-px my-8 border-0 bg-gray-300 w-full" />
-                    </div>
+                    </Fade>
                   )
                 })
               }

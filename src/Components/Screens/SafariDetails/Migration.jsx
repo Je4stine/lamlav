@@ -53,11 +53,9 @@ const Migration =()=>{
                             <img src={Giraffe} alt="Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             <p className="font-[SourceSerifPro-Black]">Fascinating excursions and game viewing in the city </p>
-                            After a leisurely morning breakfast, you will drive to the David Shieldrick Wildlife Trust, located near the Nairobi National Park, where you will be accorded an opportunity to get up close with orphaned elephants and even adopt one baby elephant. 
-
-                            The David Shieldrick Wild Life Trust is a haven for elephant orphans, rhinos, and other animals, where they receive specialized treatment and care from a highly dedicated staff. It is managed by Daphine Shieldrick, the widow of one of Kenya’s best-known game wardens.
-
-                            Spend the rest of your afternoon interacting with the world’s tallest species at the famous Giraffe Center, home to the endangered Rothschild’s giraffe. It is the only wildlife sanctuary in the world that is located in a city—approximately 5 kilometers from the city center. Finish your day at the national museums of Kenya before your dinner and relaxation at the Norfolk hotel.<br/>
+                            Following a relaxed morning breakfast, journey to the David Sheldrick Wildlife Trust near Nairobi National Park. Here, you'll have the chance to intimately connect with orphaned elephants and potentially adopt a baby elephant.
+                            <br/><br/>In the afternoon, engage with the world's tallest species at the renowned Giraffe Center, which houses the endangered Rothschild's giraffe. Notably, this wildlife sanctuary is uniquely situated within a city, approximately 5 kilometers from the city center. Conclude your day with a visit to the National Museums of Kenya before enjoying dinner and unwinding at the Norfolk Hotel.
+                            <br/>
                             <br/>
                             <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
                             <strong>Meals:</strong> Breakfast, lunch & dinner 
@@ -71,7 +69,7 @@ const Migration =()=>{
                             <div >
                                 <em className=" p-5 font-[SourceSerifPro-Regular] "> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                After a leisurely breakfast, you will be transferred to Wilson airport to catch a morning flight to the Maasai Mara national reserve. Upon arrival, you will be warmly received by our representative, who will then transfer you to the Luxe Keekorok lodge for a three-night expedition. Set out for an afternoon game drive after a delicious lunch in the bush, and return back to the lodge as the sun sets.
+                                After a relaxed breakfast, you'll be transported to Wilson Airport for a morning flight to the Maasai Mara National Reserve. Upon arrival, our representative will warmly greet you and facilitate your transfer to the luxurious Keekorok Lodge for a three-night stay. Enjoy a delightful lunch in the bush before embarking on an afternoon game drive, returning to the lodge as the sun sets.
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a><br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
@@ -85,8 +83,8 @@ const Migration =()=>{
                             <img src={Keekorok} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Set out on early morning and afternoon game drives to discover an area that spans more than 600 square miles of savannas, woodlands, and rivers lined with trees. Keep your eye peeled during these drives to catch a plethora of animal species that will forever remain the most fascinating experience of your life. Experience the great migration of wildebeest and the breathless wildlife spectacles aboard comfy 4x4 vehicles. You will witness crocodiles soaking up the sun, vigilant hippos relaxing in the muddy water, and enjoy the playful activities of mischievous monkeys overhead. You'll also have the opportunity to watch African elephants moving along the edge of the forest and see giraffes stretching their necks to grab leaves from high branches                                <br/>
-                                <br/><br/>
+                                Embark on early morning and afternoon game drives to explore an expansive area spanning over 600 square miles, encompassing savannas, woodlands, and tree-lined rivers. Keep a keen eye out during these drives to witness a diverse array of animal species, creating an enduringly captivating experience. Encounter the awe-inspiring Great Migration of wildebeest and other breathtaking wildlife spectacles from the comfort of 4x4 vehicles. Observe sunbathing crocodiles, alert hippos in muddy waters, and playful antics of mischievous monkeys overhead. Marvel at African elephants gracefully moving along the forest's edge and giraffes extending their necks to reach leaves from lofty branches.
+                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner 
                                 </p>
@@ -99,8 +97,8 @@ const Migration =()=>{
                             <img src={Loudge} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Go for a morning game drive and then choose from one of the following activities: A spectacular hot air balloon ride across the Mara Plains, Join a guided bird walk to spot some of the many bird species in the area, learn the art of beading from the Maasai tribe and make your own jewelry, or test your skills with the Maasai warriors and throw their traditional hunting club. 
-                                Afterward, go on a late-afternoon game drive before enjoying a scenic sundowner with traditional cocktails while admiring the beautiful open plains at dusk. Share your experiences with other guests as you enjoy an evening capped with a sundowner followed by a leisurely dinner in the camp.
+                                Set out on an early morning game drive, and then, afterwards, sample some of the activities offered by the camp: You can take a breathtaking hot air balloon ride over the Mara Plains, join a guided bird walk to observe the diverse bird species in the area, engage in the art of beading with the Maasai tribe to craft your jewelry, or test your skills with Maasai warriors by trying your hand at their traditional hunting club. Later, participate in a late-afternoon game drive before relishing a scenic sundowner with traditional cocktails while appreciating the picturesque open plains at dusk.
+                                <br/>
                                 <br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Keekorok Lodge</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -113,10 +111,8 @@ const Migration =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Fours} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            We fly to Serengeti via Migori airstrip, then do a road connection to Tarime and fly express to Serengeti. On touch down, you will be transferred to the amazing four seasons safari lodge, for three night stay and expedition. 
-                            Spend the next two days adventuring the bush, with a series of activities ranging from classic game viewing on scheduled day and night game drives, to hot air balloon rides and cultural visits to the Manyattas. Return back to the lodge in the evening to enjoy a sundowner and an elegant dinner.
-                            Serengeti national park is iconic, vast and golden. It is a world heritage site located in the northern Tanzania and extends into southern Kenya where it connects with the great Maasai Mara. It is renowned for its large lion population, together with approximately over 70 mammals and 500 species of birds. At Serengeti, you will weather an epic spectacle of the great migration of millions of wildebeest, zebras, gazelles, buffalos, giraffes and other animal species crossing the Mara River in search of the sprouting pasture on the Kenyan Maasai Mara.
-                            <em>“No one can return from Serengeti  unchanged, for the lions will forever prowl our memory and great heard throng our imaginations’’.</em><br/>
+                            We will fly to the Serengeti through Nairobi and Arusha in Tanzania and arrive at the celebrated Four Seasons Safari Lodge, located on a beautiful set of kopjes and offering breathtaking views of the golden plains. The Serengeti is renowned for its large lion population, together with 500 bird species and over 70 mammals, including elephants, cheetahs, gazelles, wildebeests, zebras, giraffes, lions, rhinos, and many other species. At Serengeti, you will witness an epic spectacle of the great migration of millions of wildebeest, zebras, gazelles, buffalos, giraffes, and other animal species crossing the Mara River in search of the sprouting pasture on the Kenyan Maasai Mara.
+                            <br/>
                             <br/>
                             <stong>Accomodations:</stong><a href="/gour">Four Seasons Safari Lodge</a> <br/>
                             <strong>Meals:</strong> Breakfast, Lunch and Dinner 
@@ -129,7 +125,7 @@ const Migration =()=>{
                             <img src={Hot} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                    Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand. 
+                                Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand.                                 
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -143,7 +139,7 @@ const Migration =()=>{
                             <img src={Ngoro} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                    Spend this day on an excursion visit to the great wildlife haven of Ngorongoro Crater and the famed Mara River, to observe wildlife in their most active state. The crater floor, which spans over 100 square miles, is an ideal location for observing the numerous species that inhabit the area, including buffalo and elephants. You may also be lucky enough to spot flamingos (during their season) or the elusive black rhino.
+                                Spend this day on an excursion visit to the great wildlife haven of Ngorongoro Crater and the famed Mara River, to observe wildlife in their most active state. The crater floor, which spans over 100 square miles, is an ideal location for observing the numerous species that inhabit the area, including buffalo and elephants. You may also be lucky enough to spot flamingos (during their season) or the elusive black rhino
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -157,8 +153,8 @@ const Migration =()=>{
                             <img src={Ngoro1} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Set out for an early morning game drive and return to the lodge to sample the various activities on offer: guided nature walks, bird watching, riding on horseback, cultural visits at the manyattas, and the spectacular hot air balloon rides.                                <br/>
-                                <br/>
+                                Set out for an early morning game drive and return to the lodge to sample the various activities on offer: guided nature walks, bird watching, riding on horseback, cultural visits at the manyattas, and the spectacular hot air balloon rides.
+                                <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Four Seasons Safari Lodge</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
@@ -171,8 +167,7 @@ const Migration =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mara1} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a hearty morning breakfast, you will depart for a flight to Kenya’s capital, Nairobi, and a subsequent transfer to the Norfolk Hotel for day room service and a meal before you catch a flight back.                           
-                            ,<br /> <br/>
+                            After a hearty morning breakfast, you will depart for a flight to Kenya’s capital, Nairobi, and a subsequent transfer to the Norfolk Hotel for day room service and a meal before you catch a flight back.                            ,<br /> <br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Norfolk  hotel  Nairobi</a> <br/>
                             <strong>Meals:</strong>  Lunch and Dinner 
                              </p>
@@ -217,6 +212,10 @@ const Migration =()=>{
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">From $ 9,700 per person</p>
                 </div>
+            </div>
+
+            <div className=" p-5 lg:px-[300px] my-10">
+                <p className="font-[SourceSerifPro-Regular] lg:text-xl">This safari begins with an extraordinary wildlife excursions in Nairobi city, followed by visits to the famed Maasai Mara and Serengeti  parks - two pivotal locations within the world's significant animal migration routes. Witness the remarkable wildebeest migration  and encounter year-round resident wildlife, including the majestic big cats. In Tanzania, seize the opportunity to marvel at both the natural wonder of the Ngorongoro Crater and the vast and golden plains of the Serengeti National Park.This immersive and authentic adventure unfolds seamlessly with the convenience of three scheduled flights, ensuring swift and efficient travel between these extraordinary camps.</p>
             </div>
             <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>

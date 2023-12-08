@@ -59,7 +59,7 @@ const Mara =()=>{
                     <div> 
                         <p className=" p-5 font-[SourceSerifPro-Regular]">
                         Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.
-                        <br/> <strong>Norfolk hotel</strong> is a luxury hotel located in the heart of the city. It boasts of 27 signature suits and 147 rooms with heated outdoor swimming pool, a health club and sybaritic spa facilities- all to  combine classic elegance and modern design with discreet technology . The luxurious suits offer an excellent choice for guests seeking to experience luxury intertwined with the rich history of the city.
+                
                         <br/><br/>
                         <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
                         <strong>Meals:</strong> Breakfast, lunch & dinner 
@@ -87,7 +87,7 @@ const Mara =()=>{
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Catch a flight at Wilson airport and fly over the Laikipia plateau, enjoying the stunning view of the lordly Mt Kenya, to the Lewa wildlife conservancy. Upon touch down at Lewa airstrip, you will enjoy a game drive transfer to the famous Lewa Safari Camp, where you will spend three amazing nights. Arrive in time for lunch and have time to relax before setting out for an afternoon game drive to dusk.
-                                <br/><br/>
+                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Lewa Safari  Camp </a><br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
                                 </p>
@@ -101,8 +101,7 @@ const Mara =()=>{
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Spend this day exploring the landscapes on scheduled morning and afternoon game drives, returning to the camp In between the drives for lunch and relaxation, before setting out for another game drive.
-                                <br/>Lewa wildlife conservancy is a world heritage center and home to diverse array of game mammals and birds. It is a vital stronghold for the approximately 400 Grevy’s Zebras and more than 120 rhinos, and  second to Maasai Mara in terms of wildlife densities. Visitors to Lewa are privy to some of the most spectacular wildlife viewing that Kenya has to offer. Prides of lion, leopard and jackal thrive on the rich diversity of prey that inhabits the area.
-
+                                <br/><br/>Lewa wildlife conservancy is a world heritage center and home to diverse array of game mammals and birds. It is a vital stronghold for the approximately 400 Grevy’s Zebras and more than 120 rhinos, and  second to Maasai Mara in terms of wildlife densities. Visitors to Lewa are privy to some of the most spectacular wildlife viewing that Kenya has to offer. Prides of lion, leopard and jackal thrive on the rich diversity of prey that inhabits the area. 
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok"> Lewa Safari  Camp </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner 
@@ -116,8 +115,7 @@ const Mara =()=>{
                             <img src={Day5} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                This morning,  you  will enjoy a sumptuous Champaign breakfast in the bush, and then head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides, camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a warm campfire.
-                                <br/>
+                                This morning,  you  will enjoy a sumptuous Champaign breakfast in the bush, and then head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides, camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a warm campfire.                                <br/>
                                 <br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Lewa Safari Camp </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -130,8 +128,8 @@ const Mara =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day6} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Transfer to Lewa airstrip, this morning, for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip, and rrive in time for a hearty lunch and relaxation.
-                            <br/>Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
+                            Transfer to Lewa airstrip, this morning, for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip, and arrive in time for a hearty lunch and relaxation.
+                            <br/><br/>Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
 
                            <br/>
                             <br/>
@@ -146,9 +144,7 @@ const Mara =()=>{
                             <img src={Day7} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Maasai Mara National Reserve boasts of some the spectacular wildlife viewing in the word. More than 1.5 million wildebeest migrate annually from the expansive Serengeti in Tanzania to Kenya in search of fresh grass. This migration is known for the thrilling crossings of the Mara and Talek Rivers, where the wildebeest rush across in a frenzied manner, and crocodiles lurk in the water, ready to attack any unfortunate animal that makes a mistake. These events are always full of excitement and danger.  
                                 Spend this day exploring the Mara ecosystem on unlimited game drives, for a chance to experience these breathtaking and unforgettable spectacles that will always leave you breathless!
- 
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Mara Serena camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -176,7 +172,7 @@ const Mara =()=>{
                             <img src={Day9} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors)
+                                This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors).
                                 <br/>
                                 <br/>
                                 <strong>Accomodations:</strong> <a href="/gour"> Mara Serena Camp</a> <br/>
@@ -190,7 +186,7 @@ const Mara =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day10} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home.                           
+                            After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home..
                             <br /> <br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Norfolk  hotel  Nairobi</a> <br/>
                             <strong>Meals:</strong> Breakfast and Lunch 
@@ -236,6 +232,12 @@ const Mara =()=>{
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">From $ 9,127  per person</p>
                 </div>
+            </div>
+            <div className=" p-5 lg:px-[300px] my-10">
+                <p className="font-[SourceSerifPro-Regular] lg:text-xl">
+                During your safari adventure, you'll enjoy a comfortable and leisurely stay in top-notch accommodations, such as the Fairmont Norfolk Hotel in the heart of the city, the Elewana Lewa Safari Camp in Laikipia, and the beautifully luxurious Mara Serena Lodge in Maasai Mara.
+                <br/><br/>To make travel faster and more convenient, you'll take three thrilling flights between the luxurious camps and lodges, as well as back to the city.
+                </p>
             </div>
             <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>

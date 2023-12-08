@@ -42,9 +42,8 @@ const Wilderness =()=>{
                     <img src={Nairobi1} alt=" Mara1" className=" lg:w-1/2"/>
                     <div> 
                         <p className=" p-5 font-[SourceSerifPro-Regular]">
-                        Your expedition begins as you touch down at Jomo Kenyatta International Airport in Nairobi. You will be warmly met and received by your Safari  Director who will thereafter transfer to the elegant Hemmingways hotel, where you will spend  two leisurely nights.
-                        Hemmingways hotel is an elegant boutique  hotel  situated in the leafy suburbs of Nairobi   in the Karen area. Karen is named after Karen Christensen von Blixen -the author of the Oscar award winning film, ‘Out of Africa’, an account of her life while living in Kenya. 
-                        Hemingways hotel   is designed for leisure and offers the full facilities expected in a modern day luxury boutique hotel.
+                        Your expedition begins as you touch down at Jomo Kenyatta International Airport in Nairobi. 
+                        You will be warmly met and received by your Safari  Director who will thereafter facilitate your transfer to the elegant Hemmingways hotel.
                         <br/> <br/>
                         <strong>Accommodation:</strong> <a href="/nairobi">Hemingways hotel  Nairobi </a> <br/>
                         <strong>Meals:</strong> Lunch & dinner 
@@ -57,9 +56,8 @@ const Wilderness =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Giraf} alt="Mara1" className=" lg:w-1/2 "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Spend this day  touring the Karen  Blixen  Muesum,  Daphine Shieldrick Wildlife Trust and the famous Giraffe Center, which is the home of the highly endangered Rothchild giraffe, and the only wildlife sanctuary in the world located within a capital city. 
-                            The giraffe center started as a rehabilitation project to rescue the Rothschild giraffe,  original founded by  Jock Leslie Melville, the Kenyan grandson of a Scottish Earl, when he and his wife betty captured two baby giraffe to start a program of breeding giraffe on the Langata facility.  It is an amazing place to visit as offers visitors the opportunity to get up close and personal with these friendly giants.
-                            At giraffe center, you will get   a very unique opportunity to see, feed, handle and even kiss the tallest animal species. 
+                            Explore the Karen Blixen Museum, Daphne Sheldrick Wildlife Trust, and the renowned Giraffe Center on this day. The Giraffe Center is home to the endangered Rothschild giraffe and stands as the sole wildlife sanctuary situated within a capital city globally.It is an amazing place to visit as offers visitors the opportunity to get up close and personal with these friendly giants.
+                            <br/><br/>At giraffe center, you will get   a very unique opportunity to see, feed, handle and even kiss the tallest animal species.  
 
                             <br/>
                             <br/>
@@ -75,8 +73,9 @@ const Wilderness =()=>{
                             <div>
                                 <em className=" p-5 font-[SourceSerifPro-Regular]"> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Drive to Amboseli national park and check-in  at the Luxarious Tortilis camp, situated beneath Mount Kilimanjaro.  After lunch and relaxation, you will head out on a late afternoon game drive to explore the scrub brush, acacia woodland, freshwater swamps and open plains in search of wildlife.
-                                Amboseli is a Maasai word meaning ‘salty water’ and is best known for its unrivalled views of Kilimanjaro and the local Elephant population. You will have an opportunity to view the elephants up-close during the morning and afternoon game drives, as they abound forests and swamps, feeding on the lush papyrus
+                                        
+                                Embark on a journey to Amboseli National Park, where you'll settle into the lavish Tortilis Camp nestled beneath Mount Kilimanjaro. Following lunch and a period of relaxation, venture on a late afternoon game drive to traverse the scrub brush, acacia woodland, freshwater swamps, and open plains in pursuit of wildlife.
+                                <br/><br/>Amboseli is best known for its unrivalled views of Kilimanjaro and the local Elephant population. You will have an opportunity to view the elephants up-close during the morning and afternoon game drives, as they abound forests and swamps, feeding on the lush papyrus. 
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Tortilis  Camp</a><br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
@@ -91,7 +90,7 @@ const Wilderness =()=>{
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Full day (and night) adventure in the park, loaded with unlimited game viewing, cultural visits and guided park walks culminating to an evening capped with a sundowner.
-                                Keep your eyes peeled  for a spectacular watch of other games including; cheetah, hippos, lion, hyenas, giraffes, zebras and wildebeest among many others. You will also get a chance to visit the ‘manyattas’ and interact with the local Maasai community as well as experience their authentic culture.
+                                <br/><br/>Keep your eyes peeled  for a spectacular watch of other games including; cheetah, hippos, lion, hyenas, giraffes, zebras and wildebeest among many others. You will also get a chance to visit the ‘manyattas’ and interact with the local Maasai community as well as experience their authentic culture.
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Tortilis  Camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner 
@@ -106,8 +105,7 @@ const Wilderness =()=>{
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Fly over to Laikipia plateau, as you enjoy the captivating  view of Mt Kenya, to the Lewa conservancy. Upon arrival, you will be transferred Lewa Safari camp for a leisurely two night stay.
-                                Set out for an afternoon  game  drive  through  the conservancy and keep an eye out for various native species found in the northern region, such as the black/white rhinos,sitatunga, beisa oryx, Somali ostrich, reticulated giraffe, Grevy’s zebra, and the unique long-necked gerenuk that stands on its hind legs to eat. Also, be on the lookout for Grant’s gazelles, dik-diks, elands, and impala as they wander across the vast landscape alongside impressive leopards and lions. At night, stay in luxurious tents and listen to the sounds of Africa surrounding you for a peaceful slumber
-
+                                <br/><br/>Set out for an afternoon  game  drive  through  the conservancy and keep an eye out for various native species found in the northern region, such as the black/white rhinos,sitatunga, beisa oryx, Somali ostrich, reticulated giraffe, Grevy’s zebra, and the unique long-necked gerenuk that stands on its hind legs to eat. Also, be on the lookout for Grant’s gazelles, dik-diks, elands, and impala as they wander across the vast landscape alongside impressive leopards and lions. At night, stay in luxurious tents and listen to the sounds of Africa surrounding you for a peaceful slumber
                                 <br/>
                                 <br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Lewa Safari Camp</a> <br/>
@@ -121,8 +119,7 @@ const Wilderness =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Conserve1} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                                Today, you have the opportunity to spend the morning and afternoon exploring a beautiful wildlife reserve, on game drives,  horseback rides,  and guided bush-walks. Be on the lookout for various wild animals such as lions, black and white rhinoceroses, elephants, oryxes, and sitatungas. Return  to the camp after your adventure, to relax on your private deck while enjoying delicious  meals and drinks.
-                            <br/>
+                            Seize the day to explore a picturesque wildlife reserve with morning and afternoon activities like game drives, horseback rides, and guided bush-walks. Keep an eye out for a diverse array of wild animals including lions, black and white rhinoceroses, elephants, oryxes, and sitatungas. After your adventure, return to the camp to unwind on your private deck while savoring delectable meals and beverages.                            <br/>
                             <br/>
                             <stong>Accomodations:</stong><a href="/gour">Lewa Safari Camp</a> <br/>
                             <strong>Meals:</strong> Breakfast, Lunch and Dinner 
@@ -135,8 +132,9 @@ const Wilderness =()=>{
                             <img src={Palm} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Fly over the Great Rift Valley to the great maasai Mara national reserve and check  in at the elegant Plains Camp for a two night intimate  stay and relaxation. 
-The great migration is one of the most impressive natural events involving 2million wildebeest, 500000 Thomson gazelles, 200,000 Zebras, 97000 tupi and 18000 eland crossing the mara river from Serengeti in Tanzania to Kenya’s masai mara reserve, in search of greener pasture.Set out for an afternoon  game  drive for a chance  to spot some of these amazing  wildlife.                                 <br/><br/>
+                                Take a scenic flight over the Great Rift Valley to the Maasai Mara National Reserve and settle into the sophisticated Mara Plains Camp for an intimate two-night retreat. 
+                                <br/><br/>Witness, up-close, the remarkable Great Migration, a breathtaking natural spectacle featuring millions of wildlife, including wildebeest, Thomson gazelles, zebras, topi, and eland crossing the Mara River from Tanzania's Serengeti to Kenya's Maasai Mara in search of greener pastures. Embark on an afternoon game drive for an opportunity to observe these incredible wildlife in their natural habitat.                                 
+                                <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Mara Plains Camp </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
@@ -149,7 +147,7 @@ The great migration is one of the most impressive natural events involving 2mill
                             <img src={Maara} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Game viewing is never dull in the Maasai Mara, and you will spend this day  exploring the  mara eco-system on morning  and afternoon and night  game drives. Keep your  eyes  peeled  for  an opportunity  to spot the iconic " Big Fives" which includes: lions, rhinos,  elephants,  buffalos and leopards; as well as some  rare creatures  like the copper  tailed  monkeys, crested  porcupine, bushbaby etc.                                
+                                Witnessing wildlife in the Maasai Mara is always captivating, and on this day, engage in morning, afternoon, and night game drives to explore the Mara ecosystem. Stay vigilant for a chance to encounter the renowned "Big Five" – lions, rhinos, elephants, buffalos, and leopards – as well as rare creatures such as copper-tailed monkeys, crested porcupines, bushbabies, and more. Keep your eyes peeled for these fascinating animals during your safari adventures.
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Mara Plains Camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -163,9 +161,10 @@ The great migration is one of the most impressive natural events involving 2mill
                             <img src={Mara1} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Design  your day by sampling  some of the optional  activities that the camp provides. You may choose  to:
-                                Visit and interact  with the Maasai  community  in the manyattas, learning their  ways of life and traditions. AND/OR
-                                Set out on a hot air balloon  ride over the sprawling  mara Plains to explore  it's  scenic  beauty and wildlife, before you enjoin fellow guest for  an evening capped with a sundowner followed by an elegant dinner.
+                                Personalize your day by participating in optional activities offered by the camp. You have the option to:
+                                <br/><li>Engage with the Maasai community, visiting their manyattas to learn about their ways of life and traditions. AND/OR</li>
+                                <br/><li>Embark on a hot air balloon journey over the expansive Mara Plains, immersing yourself in its scenic beauty and wildlife. Later, join fellow guests for an evening featuring a sundowner and an elegant dinner. </li>
+                                    <br/>Tailor your experience with these choices to enhance your day at the camp.
                                 <br/>
                                 <br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Mara Plains Camp</a> <br/>
@@ -180,7 +179,8 @@ The great migration is one of the most impressive natural events involving 2mill
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Kanairo} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Return to Nairobi and enjoy some free time in the afternoon in the dayroom  reserved for you at the hemmingways  hotel  Nairobi. Afterwards, proceed to the  Jomo  Kenyatta  International  Airport for your international flight.                            <br /> <br/>
+                            Head back to Nairobi and savor some leisure time during the afternoon in the dayroom exclusively booked for you at the Hemingways Hotel Nairobi. Subsequently, make your way to Jomo Kenyatta International Airport for your international flight.
+                            <br/><br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Hemingways hotel Nairobi </a> <br/>
                             <strong>Meals:</strong>  Lunch and Dinner 
                              </p>
@@ -225,6 +225,12 @@ The great migration is one of the most impressive natural events involving 2mill
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">From $13,241 per person</p>
                 </div>
+            </div>
+            <div className=" p-5 lg:px-[300px] my-10">
+                <p className="font-[SourceSerifPro-Regular] lg:text-xl">The Great Wilderness Safari combines three of Kenya's most iconic wildlife regions: the Amboseli National Park, celebrated for its splendid elephant population and the stunning backdrop of snow-capped Mount Kilimanjaro; the Lewa Wildlife Conservancy, known for its innovative conservation efforts; and the world-renowned Maasai Mara Game Reserve, the crown jewel of Kenya's game viewing areas. 
+                <br/><br/>Luxuriate in the exquisite Hemingways Hotel in Nairobi and the Amboseli's eco-friendly Tortilis Camp, offering experiences such as sumptuous bush breakfasts, game drives, guided walking tours, birding, and sundowners. A scenic flight over the Laikipia plateau, north of Mount Kenya, takes you to Lewa Safari Camp in the Lewa Wildlife Conservancy - a globally recognized rhino conservation habitat. 
+                <br/><br/>Wrap up this memorable safari experience at Mara Plains Camp in the Maasai Mara, where you'll encounter a diverse array of resident and migrating wildlife, including the world-famous annual Great Migration phenomenon.
+            </p>
             </div>
             <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>

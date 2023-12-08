@@ -49,7 +49,6 @@ const Honeymoon =()=>{
                         <p className="p-5 font-[SourceSerifPro-Black]">Welcome to Africa’s 4th largest city </p>
                         <p className=" p-5 font-[SourceSerifPro-Regular]">
                             Your honeymoon begins as you touch down in Kenya’s capital Nairobi. You will be met and received by your Lamlaw Safari director, who will brief you on your safari as you transfer to the lavishly elegant and refined Hemingways hotel, for overnight stay.
-                            Hemingways hotel is an exclusive boutique in the peaceful and exclusive Nairobi’s Karen suburbs, just 40 minutes drive from Jomo kenyata International Airport, and is perfectly placed for trips to the Nairobi national park and the capital. It has 45 luxurious suites of generous size, each with a private terrace, from which you can make magnificent views of the iconic silhouette of the Ngong hills as you enjoy a sundowner. Arrive and relax while enjoying the Hotel's excellent amenities.
                             <br/>
                             <br/>
                         <strong>Accommodation:</strong> <a href="/nairobi">Hemingways hotel Nairobi </a> <br/>
@@ -64,7 +63,8 @@ const Honeymoon =()=>{
                             <img src={Kicheche} alt="Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
                             <p className="font-[SourceSerifPro-Black]"> </p>
-                                After enjoying a private morning breakfast, you will be transferred to the nearby Wilson aerodrome for a flight to Ol pejeta conservancy, in Laikipia south. Enjoy game drive en route to the amazing Kicheche safari camp, at the heart of Ol Pejeta conservancy, where you will spend four romantic nights! Spend the rest of the day relaxing in camp, while enjoying stunning views of the arresting sceneries and wildlife, all from the comfort of your tent. A late afternoon game drive around the conservancy will give you the first taste of safari, as you will get a chance to spot the lion, rhino, elephant, buffalo, cheetah and the elusive leopard.                            
+                            After enjoying a private morning breakfast, you will be transferred to the nearby Wilson aerodrome for a flight to Ol pejeta conservancy, in Laikipia south. Enjoy game drive en route to the amazing Kicheche safari camp, at the heart of Ol Pejeta conservancy, where you will spend four romantic nights! 
+                            <br/><br/>Spend the rest of the day relaxing in camp, while enjoying stunning views of the arresting sceneries and wildlife, all from the comfort of your tent. A late afternoon game drive around the conservancy will give you the first taste of safari, as you will get a chance to spot the lion, rhino, elephant, buffalo, cheetah and the elusive leopard.
                                 <br/>
                                 <br/>
                             <strong>Accommodation:</strong> <a href="/nairobi">Kicheche Safari Camp </a> <br/>
@@ -78,7 +78,8 @@ const Honeymoon =()=>{
                             <img src={Olpe} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Ol Pejeta, located in southern Laikipia, is a wildlife sanctuary that is home to a significant population of black rhinos, along with other animals such as elephants, cheetahs, lions, leopards, and some rare species like wild dogs, Grevy's zebras, and reticulated giraffes. This region is an ideal wildlife viewing destination, as it serves as a migration corridor for elephants and thousands of other wild animals. The day can be spent exploring the area on scheduled game drives to witness breathtaking wildlife encounters and scenic views, with breaks in between for meals and relaxation. In the evening, before a romantic dinner, guests can enjoy cocktails and local drinks while admiring the stunning sunset and starry skie                                
+                                Situated in southern Laikipia, Ol Pejeta is an excellent destination for wildlife viewing.This region functions as a migration corridor for elephants and numerous other wild animals, including a substantial number of black rhinos. It is also home to various wildlife, such as cheetahs, lions, leopards, as well as rare species like wild dogs, Grevy's zebras, and reticulated giraffes. 
+                                <br/><br/>Dedicate the day to exploring the region through planned game drives, providing opportunities for awe-inspiring wildlife sightings and enjoying picturesque landscapes. Take breaks for meals and relaxation. As evening falls, guests can indulge in cocktails and local beverages, savoring the breathtaking sunset and gazing at the starry skies before a romantic dinner.
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Kicheche Safari Camp</a><br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
@@ -92,8 +93,8 @@ const Honeymoon =()=>{
                             <img src={Rhino} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Today, you'll have the opportunity to enjoy a variety of activities offered at the camp. Begin with a delicious breakfast in the bush, then choose from guided walking safaris, camel rides, bird watching, canoeing, hiking, mountain biking, and wildlife tracking for a thrilling adventure. In the afternoon, engage in your preferred activity, and later in the evening, savor an elegant alfresco bush dinner around a cozy campfire.                                 <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Kicheche Safaric Camp</a> <br/>
+                                Indulge in a range of activities provided by the camp today. Commence your day with a delightful bush breakfast, followed by a selection of thrilling adventures such as guided walking safaris, camel rides, bird watching, canoeing, hiking, mountain biking, and wildlife tracking. In the afternoon, participate in your chosen activity, and as evening descends, relish a sophisticated open-air bush dinner by a warm campfire.
+                                <br/><br/>  <strong>Accomodations:</strong> <a href="/keekorok">Kicheche Safaric Camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner 
                                 </p>
                             </div>
@@ -101,7 +102,7 @@ const Honeymoon =()=>{
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5:  OL PEJETA CONSERVANCY || Armchair game viewing; day and night game drives; visit chimpanzee sanctuary </strong>,
-                content: <div className=" lg:flex lg:items-center">
+                content: <div className=" lg:flex lg:items-center"> 
                             <img src={Chipol} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
@@ -118,8 +119,8 @@ const Honeymoon =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Olseki} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                                After enjoying a leisurely champagne breakfast in the bush, you will have a chance to relax at the camp or set out on a fascinating tour of the surrounding, perhaps on a horse ride, before lunch. After lunch, you may indulge in the swimming pool or spa treatment, as you wait for your flight transfer to the magnificent Maasai Mara National Reserve.  Upon arrival, at Naboishio conservancy, you will be warmly received and driven to the exquisite Ol Seki Hemingway’s camp, in Mara north conservancy, where you will relax in your tent with refreshing cocktails, as you enjoy armchair viewing of wildlife gathering on the banks of Mara River to drink water. You will later set out on an exploration tour of the Mara ecosystem on a late afternoon game drive in the conservancy.
-                            <br/>
+                            Following a delightful champagne breakfast in the bush, take the opportunity to unwind at the camp or embark on an intriguing exploration of the surroundings, perhaps on a horse ride, before lunch. Post-lunch, enjoy the swimming pool or indulge in a spa treatment while awaiting your flight transfer to the magnificent Maasai Mara National Reserve. Upon arrival at Naboishio Conservancy, receive a warm welcome and be chauffeured to the exquisite Ol Seki Hemingway’s Camp in Mara North Conservancy. In the comfort of your tent, relish refreshing cocktails while enjoying wildlife gathering on the Mara River banks for a drink. Later, embark on a late afternoon game drive in the conservancy to explore the Mara ecosystem.
+                             <br/>
                             <br/>
                             <stong>Accomodations:</stong><a href="/gour"> Ol Seki Hemingways </a> <br/>
                             <strong>Meals:</strong> Breakfast, Lunch and Dinner 
@@ -132,8 +133,9 @@ const Honeymoon =()=>{
                             <img src={Naboisho} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Naboisho in mara north conservancy, boarders the great Maasai Mara national reserve to the south. The conservancy is an important migration corridor for hundred thousand animals between Maasai Mara game reserve and the Loita plains in the east.This region boasts of higher wildlife density than maasai mara and is home to the highest density of lion In Africa. Spend this day exploring the terrains of the Maasai Mara National Reserve and the Mara triangle, with a romantic picnic hamper.  Experience firsthand, the great wildebeest migration and some breathtaking wildlife spectacles that this region is famed for. Return back in time and enjoy an evening capped with   refreshing local drinks and sundowner, followed by a sumptuous al fresco dinner around an intimate camp fire.                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Ol Seki Hemingways</a> <br/>
+                                Spend this day exploring the terrains of the Maasai Mara National Reserve and the Mara triangle, with a romantic picnic hamper.  Experience firsthand, the great wildebeest migration and some breathtaking wildlife spectacles that this region is famed for. Return back in time and enjoy an evening capped with   refreshing local drinks and sundowner, followed by a sumptuous al fresco dinner around an intimate camp fire.
+                                <br/><br/>
+                                 <strong>Accomodations:</strong> <a href="/gour">Ol Seki Hemingways</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
                             </div>
@@ -145,7 +147,8 @@ const Honeymoon =()=>{
                             <img src={Watamu1} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                On this day, you will set out on an early morning exploration of this remarkable park on a sunrise hot air balloon ride and enjoy a stunning bird’s eye view of some of its arresting sceneries and wildlife. After a leisurely breakfast, you will have a chance to relax in your luxurious tent and later make a maasai cultural visit in the manyattas, for some enthralling camaraderie with the maasai community who live around this park.  After lunch, you will fly to Hemingways Watamu in Malindi, arriving in the evening to enjoy a sundowner on the pristine white sand beaches of Watamu.                                <br/><br/>
+                                On this day, you will set out on an early morning exploration of this remarkable park on a sunrise hot air balloon ride and enjoy a stunning bird’s eye view of some of its arresting sceneries and wildlife. After a leisurely breakfast, you will have a chance to relax in your luxurious tent and later make a maasai cultural visit in the manyattas, for some enthralling camaraderie with the maasai community who live around this park.  After lunch, you will fly to Hemingways Watamu in Malindi, arriving in the evening to enjoy a sundowner on the pristine white sand beaches of Watamu.
+                                <br/><br/>                                
                                 <strong>Accomodations:</strong> <a href="/gour">Hemingways Watamu</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
@@ -158,7 +161,8 @@ const Honeymoon =()=>{
                             <img src={Cruise} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Hemingways Watamu is an iconic tropical paradise on the Kenyan coast sitting right in the middle of the pristine Watamu Marine National Park with its idyllic white sand beach and turquoise waters. Spend this day on the immaculate white sand beaches of Watamu bay, unwinding and relaxing as you walk your way throughout the cocktail menu. In the evening, take a sunset dhow cruise on Mida Creek- a mangrove ecosystem that is a paradise for national waterfowls and migrating birds from Europe and Eurasia.                                <br/>
+                                Hemingways Watamu is an iconic tropical paradise on the Kenyan coast sitting right in the middle of the pristine Watamu Marine National Park with its idyllic white sand beach and turquoise waters. Spend this day on the immaculate white sand beaches of Watamu bay, unwinding and relaxing as you walk your way throughout the cocktail menu. In the evening, take a sunset dhow cruise on Mida Creek- a mangrove ecosystem that is a paradise for national waterfowls and migrating birds from Europe and Eurasia.
+                                <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Hemingways  Watamu </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
@@ -171,7 +175,8 @@ const Honeymoon =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Scuba} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            You will spend this day sampling some of the numerous activities offered by the resort including; snorkeling over the coral reef, master kite-surfing, diving and scuba diving. Another sunset dhow cruise on Mida Creek is another option you can revisit, as well as  golfing in the nearby world class golf course, vipingo ridge                            ,<br /> <br/>
+                            You will spend this day sampling some of the numerous activities offered by the resort including; snorkeling over the coral reef, master kite-surfing, diving and scuba diving. Another sunset dhow cruise on Mida Creek is another option you can revisit, as well as  golfing in the nearby world class golf course, vipingo ridge.
+                            <br/><br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Hemingways  Watamu</a> <br/>
                             <strong>Meals:</strong>  Lunch and Dinner 
                              </p>
@@ -183,7 +188,7 @@ const Honeymoon =()=>{
                             <img src={Arabuko} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                This morning, you will venture out on deep sea fishing, and humpback whale excursion, where you will watch the majestic humpbacks migrating along the coast of east Africa. If time allows, you may take an exhilarating trip to the extraordinary Arabuko Sokoke Forest - home to some of Kenya’s rarest mammals, elephant, brilliant butterflies and saltwater mangroves                                
+                                This morning, you will venture out on deep sea fishing, and humpback whale excursion, where you will watch the majestic humpbacks migrating along the coast of east Africa. If time allows, you may take an exhilarating trip to the extraordinary Arabuko Sokoke Forest - home to some of Kenya’s rarest mammals, elephant, brilliant butterflies and saltwater mangroves
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Hemingways  Watamu </a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -244,6 +249,13 @@ const Honeymoon =()=>{
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">From $13,055 per person</p>
                 </div>
+            </div>
+            <div className=" p-5 lg:px-[300px]">
+                <p className="font-[SourceSerifPro-Regular] lg:text-xl">
+                Experience the epitome of safari luxury with this unique combination of Ol Pejeta, Maasai Mara, and Kenya's coastal Safari. Your safari adventure begins with a leisurely one-night stay at the distinctive Hemingways Hotel. A picturesque flight over the rolling plains north of Mt. Kenya lands you at the exquisite Kicheche Safari Camp in the Ol Pejeta Conservancy, offering four thrilling nights filled with diverse experiences like game drives, horseback riding, guided nature walks, cultural encounters, and birding.
+                <br/><br/>The Maasai Mara National Reserve awaits with its abundance of buffalos, hippos, elephants, cheetahs, leopards, and the iconic wildebeest migration from July to October. In the North of Mara, the ultra-luxurious Ol Seki Hemingways in the Naboisho Conservancy provides unrivaled views in the Mara Triangle, complemented by first-class accommodation and activities. 
+                <br/><br/>Conclude your journey with four nights of sheer indulgence at Hemingways Watamu, nestled on the pristine Watamu Beaches on Kenya's north coast. Whether you choose to relax by the beach or pool, or engage in various activities like deep-sea fishing, golfing, biking, scuba diving, snorkeling, or a romantic sunset Dhow cruise on Mida Creek, this coastal retreat offers the perfect grand finale in style.
+                </p>
             </div>
             <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>

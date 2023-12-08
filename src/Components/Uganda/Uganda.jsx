@@ -7,6 +7,8 @@ import UDATA from './ugdata';
 import { Link } from "react-router-dom";
 import Ugim from '../../Assets/muurchison-750x429-1.jpg'
 import Partners from "../Partners";
+import Fade from 'react-reveal/Fade';
+import { FiArrowRight  } from "react-icons/fi";
 
 const Uganda =()=> {
   const [colorChanged, setColorChanged]= useState(false);
@@ -28,7 +30,7 @@ const Uganda =()=> {
         <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
                   <img src={Ugim} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
                   <div className="p-5 lg:justify-between lg:w-1/2">
-                      <h1 className=" font-[SourceSerifPro-Bold] mb-10 text-3xl">{title}</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">{title}</h1>
                       <p className=" font-[SourceSerifPro-Regular] text-lg">
                         {description}
                       </p>
@@ -74,22 +76,60 @@ const Uganda =()=> {
                 </p>
               </div>
             </section>
+            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
+            <section className="my-10 lg:px-[80px] px-2">
+              <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
+                  <a href="/uganda/familysafari" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://i0.wp.com/www.allugandasafaris.com/wp-content/uploads/2022/05/Family-Safaris-Uganda.jpg?w=750&ssl=1" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1.Uganda Familiy Safari</h1>
+                        <p className="font-[SourceSerifPro-Regular]"> <em>
+                            Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture
+                          </em>
+                        </p>
+                        <p className="font-[SourceSerifPro-Black] my-10">
+                          12days/11nights from $ 8,567 per person.
+                        </p>
+                        <div className="my-3 flex items-center">
+                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
+                          <FiArrowRight  />
+                        </div>
+                    </div>
+                  </a>
+
+                  <a href="/uganda/spiritofug" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://cdn.kimkim.com/files/a/images/4ae80a4bbd736d119a07254e1b141c78a3c28341/original-791d0a79388bd3274678e278870f6d2b.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Spirit of Uganda </h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em>Explore the marvels of Uganda witha a hint of indulgence </em></p>
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                         15days/14nights from $ 17,567 per person.
+                        </p>
+                        <div className="my-3 flex items-center">
+                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
+                          <FiArrowRight  />
+                        </div>
+                    </div>
+                  </a>             
+                  
+              </div>              
+            </section>
 
             <section className=" bg-white flex flex-col items-center pt-20 ">
-              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Uganda </h1>
+              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Black] text-center">Explore the Most  popular<br/>  spots in Uganda </h1>
               {
                 UDATA.map((item, index)=>{
                   const isEvenIndex = index % 2 === 0;
                   const itemClassName = isEvenIndex ? 'flex-row' : 'flex-row-reverse';
 
                   return (
-                     <div >
+                     <Fade left >
                       <div key={item.id} className={`lg:flex lg:justify-around items-center mt-20 lg:px-[80px] ${itemClassName}`}>
                    
                      
                         <img src={item.image} alt="Lion" className="lg:w-1/2 lg:h-3/4 m-auto" loading="lazy" />
                         <div className="p-5 lg:justify-between lg:w-1/2">
-                          <h1 className="font-[SourceSerifPro-Bold] mb-10 text-3xl">{item.title}</h1>
+                          <h1 className="font-[SourceSerifPro-Black] mb-10 text-3xl">{item.title}</h1>
                           <p className="font-[SourceSerifPro-Regular] text-lg">
                             {item.descripton}
                           </p>
@@ -105,7 +145,7 @@ const Uganda =()=> {
                       </div>
                      
                       <hr className="h-px my-8 border-0 bg-gray-300 w-full" />
-                    </div>
+                    </Fade>
                   )
                 })
               }

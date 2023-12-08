@@ -8,6 +8,9 @@ import Tz from '../../Assets/rwanda.jpg';
 import RWANDADATA from "./rwandadata";
 import { Link } from "react-router-dom";
 import Partners from "../Partners";
+import { FiArrowRight  } from "react-icons/fi";
+import Fade from 'react-reveal/Fade';
+
 
 const Rwanda =()=> {
   const [colorChanged, setColorChanged]= useState(false);
@@ -55,22 +58,56 @@ const Rwanda =()=> {
                 </p>
               </div>
             </section>
+            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
+            <section className="my-10 lg:px-[80px] px-2">
+              <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
+                  <a href="/rwanda/gorilla" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://drive.google.com/uc?export=view&id=1UlAmCffzQ7pgYoRwUwB1LCaL588Jpsw5" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Rwanda Gorilla & Game vacation</h1>
+                        <p className="font-[SourceSerifPro-Regular]"> <em>An uplifting safari experience in Rwanda</em></p>
+                        <p className="font-[SourceSerifPro-Black] my-10">
+                        10days/9nights From $ 11,860 per person.
+                        </p>
+                        <div className="my-3 flex items-center">
+                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
+                          <FiArrowRight  />
+                        </div>
+                    </div>
+                  </a>
+
+                  <a href="/rwanda/thousandhills" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://live.staticflickr.com/8740/16298396774_e6d631a1e7_b.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Treasures  of a thousand hills</h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em> An adventure amidst the captivating allure of misty volcanoes densely cloaked in jungle foliage.</em></p>
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                        10days/9nights From $ 11,860 per person.
+                        </p>
+                        <div className="my-3 flex items-center">
+                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
+                          <FiArrowRight  />
+                        </div>
+                    </div>
+                  </a>   
+              </div>              
+            </section>
 
             <section className=" bg-white flex flex-col items-center pt-20 ">
-              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Bold] text-center">Explore the Most  popular<br/>  spots in Rwanda </h1>
+              <h1 className=" lg:text-5xl text-3xl font-[SourceSerifPro-Black] text-center">Explore the Most  popular<br/>  spots in Rwanda </h1>
               {
                 RWANDADATA.map((item, index)=>{
                   const isEvenIndex = index % 2 === 0;
                   const itemClassName = isEvenIndex ? 'flex-row' : 'flex-row-reverse';
 
                   return (
-                     <div >
+                     <Fade left>
                       <div key={item.id} className={`lg:flex lg:justify-around items-center mt-20 lg:px-[80px] ${itemClassName}`}>
                    
                      
                         <img src={item.image} alt="Lion" className="lg:w-1/2 lg:h-3/4 m-auto" loading="lazy" />
                         <div className="p-5 lg:justify-between lg:w-1/2">
-                          <h1 className="font-[SourceSerifPro-Bold] mb-10 text-3xl">{item.title}</h1>
+                          <h1 className="font-[SourceSerifPro-Black] mb-10 text-3xl">{item.title}</h1>
                           <p className="font-[SourceSerifPro-Regular] text-lg">
                             {item.descripton}
                           </p>
@@ -83,7 +120,7 @@ const Rwanda =()=> {
                       </div>
                      
                       <hr className="h-px my-8 border-0 bg-gray-300 w-full" />
-                    </div>
+                    </Fade>
                   )
                 })
               }

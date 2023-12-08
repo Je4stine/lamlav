@@ -49,8 +49,7 @@ const Amboseli =()=>{
                     <img src={Heming} alt=" Mara1" className=" lg:w-1/2"/>
                     <div> 
                         <p className=" p-5 font-[SourceSerifPro-Regular]">
-                        Your safari expedition begins immediately you touch down in Kenya’s capital Nairobi. You will be received by our Safari  director who will brief you on your safari as you transfer you to Hemingways hotel, for overnight stay.
-                        Hemingways hotel is an exclusive boutique in the peaceful and exclusive Nairobi’s Karen suburbs, just 40 minutes’ drive from Jomo Kenyata International Airport, and perfectly placed for trips to the Nairobi national park and the capital. It has 45 luxurious suites of generous size, each with a private terrace, from which you can make magnificent views of the iconic silhouette of the Ngong hills as you enjoy a sundowner. 
+                        Your safari expedition begins immediately you touch down in Kenya’s capital Nairobi. You will be received by our Safari  director who will brief you on your safari as you transfer you to Hemingways hotel, for overnight stay. 
                         <br/>
                         <br/>
                         <strong>Accommodation:</strong> <a href="/nairobi">Hemingways hotel Nairobi </a> <br/>
@@ -64,8 +63,8 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Giraffe} alt="Mara1" className=" lg:w-1/2 "/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Take an exhilarating trip to Nairobi National park and spend a memorable morning with baby orphaned elephants at David Shieldrick wildlife trust.Join the endangered Rothschild’s giraffes for a mid-morning snack at the giraffe center and later head to the  Carnivore Restaurant for a leisurely lunch, before returning to Hemingway for  relaxation, dinner and overnight.
-                            <br/>
+                            Embark on an exciting journey to Nairobi National Park, where you can enjoy a memorable morning with baby orphaned elephants at the David Sheldrick Wildlife Trust. Join the endangered Rothschild’s giraffes for a mid-morning snack at the Giraffe Center, followed by a leisurely lunch at the Carnivore Restaurant. Afterward, return to Hemingway for relaxation, dinner, and an overnight stay
+                              <br/>
                             <br/>
                             <strong>Accommodation:</strong> <a href="/nairobi">Hemingways hotel Nairobi</a> <br/>
                             <strong>Meals:</strong> Breakfast, lunch & dinner 
@@ -77,10 +76,9 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Kicheche} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
-                                <em className=" p-5 font-[SourceSerifPro-Regular]"> There's no doubt that the Maasai Mara, which is also decorated with the great migration spectacle, is home to the highest concentration of savanna wildlife species.</em>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                After morning breakfast, drive to the magnificent Maasai Mara national reserve, through the scenic great rift valley, arriving at Narok town for lunch, before proceeding with safari. Upon arrival at Maasai Mara, Kicheche bush camp will be your enclave of luxury in the wildest terrains of Kenya. Spend the rest of the day in the camp relaxing while overlooking the Mara River and wildlife coming to drink water. The sounds and smells on Mara will keep you enthralled and enchanted.
-                                Kicheche Mara Camp is a classic tented camp hidden in a beautiful valley in a prime wildlife area of the Mara North Conservancy. The luxury tents are laid out alongside a seasonal stream (the Olare Orok stream) from where you can observe the resident birdlife and plains game beyond. Game viewing is excellent in this area.
+                                Following breakfast, journey towards the breathtaking Maasai Mara, traversing the picturesque Great Rift Valley. Arrive at Narok town for lunch before continuing the safari. Upon reaching, Kicheche Bush Camp awaits as your luxurious retreat in Kenya's untamed landscapes. Unwind in the camp throughout the day, enjoying a view of the Mara River and wildlife gathering at the watering hole. The captivating sounds and scents of the Mara will enchant and enthrall you.
+
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Mara Camp </a><br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
@@ -94,8 +92,9 @@ const Amboseli =()=>{
                             <img src={Mara1} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Maasai Mara is one of the best places in Africa to encounter big cats, and the endless plains are the setting for world’s ultimate spectacle - the great wildebeest migration. “Cheetahs and lions roam the plains, waiting for migrating wildebeest and leopards pose in its riverside fig trees” Spend full day exploring the Maasai Mara national reserve, and Mara triangle on game drives with picnic lunch hampers. Keep your eyes peeled throughout, and cameras charged for there so much to see!                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Mara Camp</a> <br/>
+                                    The Maasai Mara stands out as a premier location in Africa for encountering large felines, with its vast plains serving as the backdrop for the spectacular great wildebeest migration. Spend an entire day exploring the Maasai Mara National Reserve and the Mara Triangle through game drives, accompanied by picnic lunch hampers. Be vigilant and keep your cameras ready, as cheetahs and lions roam the plains, anticipating the migrating wildebeest, while leopards gracefully perch in riverside fig trees—there's an abundance of captivating scenes to witness!
+                                    <br/><br/>                                
+                                    <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Mara Camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner 
                                 </p>
                             </div>
@@ -107,7 +106,10 @@ const Amboseli =()=>{
                             <img src={Plan} alt="Mara1" className="lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Kicheche bush camp offers comprehensive activities that are designed to suit your taste and interest. This morning, enjoy a leisurely bush breakfast, and head out on a captivating walking safari around the park, with an opportunity to sight game, including the leopard and some rare species like gerenuk and beisa Oryx. Later  take a hot air balloon ride around the park and enjoy a fascinating aerial view of the park and it's abundant wildlife. A Maasai cultural visit in late afternoon, presents a chance for you to interact with the Maasai community and learn their heritage. Return to the camp in the evening for local drinks and refreshing sundowner followed by an elegant al fresco dinner around a camp fire.
+                                Kicheche bush camp offers comprehensive activities that are designed to suit your taste and interest. This morning, enjoy a leisurely bush breakfast, and head out on a captivating walking safari around the park, with an opportunity to sight game, including the leopard and some rare species like gerenuk and beisa Oryx. In the afternoon,  you can choose to:
+                                <br/><br/> Take a hot air balloon ride around the park and enjoy a fascinating aerial view of the park and it's abundant wildlife. OR 
+                                <br/><br/> Make a Maasai cultural visit in the manyattas a chance for you to interact with the Maasai community and learn their heritage. 
+                                Return to the camp in the evening for local drinks and refreshing sundowner followed by an elegant al fresco dinner around a camp fire.
                                 <br/>
                                 <br/>
                                 <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Mara Camp</a> <br/>
@@ -121,8 +123,8 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Tsavo1} alt=" Mara1" className="lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a champagne breakfast in the bush, you will have time to venture out on a final game drive for some classic views, before departing to Tsavo west national park in the afternoon via a scheduled flight. Upon arrival you will be transferred to the luxurious Finch Hatton’s Luxury Tented Camp and the rest of the day is for you to enjoy the Camp's comprehensive facilities, with a five star hospitality around.
-                            <br/>
+                            Following a champagne breakfast in the bush, you will have time to venture out on a final game drive for some classic views, before departing to Tsavo west national park in the afternoon via a scheduled flight. Upon arrival you will be transferred to the luxurious Finch Hatton’s Luxury Tented Camp and the rest of the day is for you to enjoy the Camp's comprehensive facilities, with a five star hospitality around.
+                                                        <br/>
                             <br/>
                             <stong>Accomodations:</stong><a href="/gour">Finch Hatton's</a> <br/>
                             <strong>Meals:</strong> Breakfast, Lunch and Dinner 
@@ -135,8 +137,9 @@ const Amboseli =()=>{
                             <img src={Lava} alt="Mara1" className=" lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Tsavo west national park is one of the largest parks in Kenya, famed for its striking geographical formations, animal and bird life. Spend this day exploring the landscapes on day long game drives, with visits to Shetani lava flow and Shiamu crater, returning to the camp in between the drives for lunch and relaxation, before setting out on another game drive. Big games that roam in this park include: large herds of various antelopes, zebras, lions, cheetahs, leopards, buffalos, rhinos, giraffes etcetera. After a game drive, stop in the wild for sundowner and cocktails with spectacular views of Mt. Kilimanjaro. A truly magical experience not to be missed!                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Finch Hatton’s Luxury Tented Camp</a> <br/>
+                                Tsavo west national park is one of the largest parks in Kenya, famed for its striking geographical formations, animal and bird life. Spend this day exploring the landscapes on day long game drives, with visits to Shetani lava flow and Shiamu crater, returning to the camp in between the drives for lunch and relaxation, before setting out on another game drive. Big games that roam in this park include: large herds of various antelopes, zebras, lions, cheetahs, leopards, buffalos, rhinos, giraffes etcetera. After a game drive, stop in the wild for sundowner and cocktails with spectacular views of Mt. Kilimanjaro. A truly magical experience not to be missed!
+                                <br/><br/>
+                                 <strong>Accomodations:</strong> <a href="/gour">Finch Hatton’s Luxury Tented Camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
                                 </p>
                             </div>
@@ -149,7 +152,8 @@ const Amboseli =()=>{
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
                                 Visit the renowned Mzima springs early in the morning to observe hippos and crocodiles from an underground chamber. This area of the park is lush and provides fresh water for wildlife to gather and drink, as well as a home for aquatic species. It's best to go in the morning as hippos tend to hide during the day. After a relaxing breakfast, take a walk through the fever-tree forest to observe the diverse birdlife and other animals.
-                                Next, explore the Chyulu and Ngulia hills using the park's animal trails while observing the over 600 bird species that inhabit the area, including the endangered corncrake and Basra reed warbler. Enjoy a picnic lunch before heading to the Ngulia wildlife sanctuary in the late afternoon. This sanctuary is home to endangered rhinos, and you can view them from a panoramic observation point while enjoying a sundowner at the roaring rocks.
+                                <br/><br/>Next, explore the Chyulu and Ngulia hills using the park's animal trails while observing the over 600 bird species that inhabit the area, including the endangered corncrake and Basra reed warbler. 
+                                <br/><br/>Enjoy a picnic lunch before heading to the Ngulia wildlife sanctuary in the late afternoon. This sanctuary is home to endangered rhinos, and you can view them from a panoramic observation point while enjoying a sundowner at the roaring r
                                 <br/><br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Finch Hatton’s Luxury Tented Camp</a> <br/>
                                 <strong>Meals:</strong> Breakfast, Lunch and dinner
@@ -163,8 +167,10 @@ const Amboseli =()=>{
                             <img src={Finch} alt="Mara1" className="lg:w-1/2"/>
                             <div>
                                 <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                In the morning, a campaign breakfast will be provided before embarking on a more daring bush walk with armed escort to explore the surrounding hinterland. After lunch, one can take advantage of the amenities offered by the camp for the remainder of the afternoon.
-                                Later in the evening, a night drive will provide the opportunity to experience the sounds of the night and gaze at the starry sky while observing the nocturnal wildlife in Tsavo. Keep a lookout for leopards, civet cats, genet cats, and bush babies throughout the drive.
+                                Start your day with a hearty bush breakfast before venturing into the hinterland on an adventurous bush walk, accompanied by an armed escort. Following lunch, make the most of the camp's amenities for the afternoon.
+
+                                <br/><br/>As evening falls, embark on a night drive to immerse yourself in the nocturnal sounds of Tsavo and marvel at the star-studded sky while observing creatures like leopards, civet cats, genet cats, and bush babies. Stay vigilant throughout the drive for these fascinating nocturnal encounters.
+
                                 <br/>
                                 <br/>
                                 <strong>Accomodations:</strong> <a href="/gour">Finch Hatton’s Luxury Tented Camp</a> <br/>
@@ -179,8 +185,7 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Medina} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a leisurely morning breakfast, you will game drive your way out of the park as you depart to Mombasa by road. Upon arrival in Mombasa town, you will enjoy a leisurely lunch, and spend some touring the old town, before heading to the airport for a short flight to Malindi. At Malindi airport, you will be met and transferred to the serene and exquisite medina palms resort where you will relax and unwind for the next four nights.                            
-                            <br /> <br/>
+                            Following a relaxed breakfast, embark on a scenic game drive while exiting the park en route to Mombasa. Upon reaching Mombasa town, savor a leisurely lunch and explore the historic old town before heading to the airport for a brief flight to Malindi. Upon arrival at Malindi airport, you'll be greeted and transferred to the tranquil Medina Palms Resort, where you can unwind and enjoy a four-night stay.                            <br /> <br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
                             <strong>Meals:</strong>  Lunch and Dinner 
                              </p>
@@ -192,8 +197,7 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Creek} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Spend this day relaxing and unwinding on the pristine white sand beaches of Watamu, while walking through the cocktail menu. In the evening, take a peaceful sun-downer cruise on Mida Creek, sailing peacefully on a romantic Swahili dhow, through a 32 sq. km tidal estuary lined with mangroves and beaches. There is abundant birdlife in this UNESCO biosphere and stunning views to enjoy along with your delicious cocktail and canopes while watching a spectacular sunset and twinkling skies                            
-                            <br/><br/>
+                            Spend this day relaxing and unwinding on the pristine white sand beaches of Watamu, while walking through the cocktail menu. In the evening, take a peaceful sun-downer cruise on Mida Creek, sailing peacefully on a romantic Swahili dhow, through a 32 sq. km tidal estuary lined with mangroves and beaches. There is abundant birdlife in this UNESCO biosphere and stunning views to enjoy along with your delicious cocktail and canopes while watching a spectacular sunset and twinkling skies                            <br/><br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
                             <strong>Meals:</strong>  Lunch and Dinner 
                              </p>
@@ -205,8 +209,8 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Surf} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            The Watamu Marine Reserve is home to some of East Africa’s best reefs for snorkeling or diving. Spend this day sampling the various sporting activities offered by medina palms, including water sports such as windsurfing, kayaking and body boarding. You can also go deep diving (if you’re an experienced diver) to explore the turtle reef and high spiking coral heads which attract large shoals of parrot fish. If you are lucky, you may catch sight of the harmless white-tip reef sharks. Big game sport fishing, with experienced fishermen is also available and you can take part in the big four catch, tag and release fishing of marlin, sailfish, swordfish and spearfish. 
-                             Alternatively you can visit the neighboring Arabuko Sokoke forest, a magical reserve of great natural beauty, and home to the rarest birds, mammals, elephant, brilliant butterflies, trees alive with monkeys and saltwater mangroves
+                            The Watamu Marine Reserve is home to some of East Africa’s best reefs for snorkeling or diving. Spend this day sampling the various sporting activities offered by medina palms, including water sports such as windsurfing, kayaking and body boarding. You can also go deep diving (if you’re an experienced diver) to explore the turtle reef and high spiking coral heads which attract large shoals of parrot fish. If you are lucky, you may catch sight of the harmless white-tip reef sharks. Big game sport fishing, with experienced fishermen is also available and you can take part in the big four catch, tag and release fishing of marlin, sailfish, swordfish and spearfish. 
+                            <br/><br/>Alternatively you can visit the neighboring Arabuko Sokoke forest, a magical reserve of great natural beauty, and home to the rarest birds, mammals, elephant, brilliant butterflies, trees alive with monkeys and saltwater mangroves.
                             <br/><br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
                             <strong>Meals:</strong>  Lunch and Dinner 
@@ -219,8 +223,8 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Gedi} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Take a mid-morning visit to Watamu turtle sanctuary, and the historical gede ruins in the afternoon. Gede ruins are a 12th Century Swahili village that was mysteriously abandoned some 600 years ago. A guided tour through the ruins and the museum will teach you a lot of interesting things about the fascinating culture of the Swahili people and the ancient town they constructed. Gede is heavily overgrown with beautiful indigenous forest trees, baobabs and tamarind. Take a guided walk along the nature trail network comprising 40 different species of plants and Look out for Syke's Monkeys, and the Golden Rumped Elephant Shrew that are common here.
-                            <br/><br/>
+                            Take a mid-morning visit to Watamu turtle sanctuary, and the historical gede ruins in the afternoon. Gede ruins are a 12th Century Swahili village that was mysteriously abandoned some 600 years ago. A guided tour through the ruins and the museum will teach you a lot of interesting things about the fascinating culture of the Swahili people and the ancient town they constructed. Gede is heavily overgrown with beautiful indigenous forest trees, baobabs and tamarind. Take a guided walk along the nature trail network comprising 40 different species of plants and Look out for Syke's Monkeys, and the Golden Rumped Elephant Shrew that are common here.
+                                                        <br/><br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
                             <strong>Meals:</strong>  Lunch and Dinner 
                              </p>
@@ -232,8 +236,8 @@ const Amboseli =()=>{
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Hemingways2} alt=" Mara1" className=" lg:w-1/2"/>
                             <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Spend this day enjoying the comprehensive facilities of the resort followed by a tour of the ancient Malindi town in the afternoon, before you catch an evening flight too Nairobi. Upon arrival at Wilson airport, you will be driven to Hemingway hotel for day room before you catch your homeward flight .                            
-                            <br/><br/>
+                            Dedicate the day to indulging in the resort's extensive amenities, and in the afternoon, explore the historic town of Malindi before taking an evening flight to Nairobi. Upon landing at Wilson Airport, you'll be transported to the Hemingway Hotel for a day room to relax before your departure flight home.
+                                                        <br/><br/>
                             <strong>Accomodations:</strong> <a href="#jhjh">Hemingways  hotel  Nairobi  </a> <br/>
                             <strong>Meals:</strong>  Brakfast and Lunch 
                              </p>
@@ -278,6 +282,11 @@ const Amboseli =()=>{
                     <h1 className="font-[SourceSerifPro-Black] text-white">PRICE</h1>
                     <p className="font-[SourceSerifPro-Regular] text-white">From $17,400 per person</p>
                 </div>
+            </div>
+            <div className=" p-5 lg:px-[300px] my-10">
+                <p className="font-[SourceSerifPro-Regular] lg:text-xl">
+                The adventure  is then crowned with five days relaxations and explorations  of the pristine Kenyan coastline and beaches, while enjoying luxurious  stays at the magnificent Medina  Palms  Resort,  in the  bewitching Watamu.
+                </p>
             </div>
             <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
