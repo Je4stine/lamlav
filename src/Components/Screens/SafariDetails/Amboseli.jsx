@@ -288,7 +288,53 @@ const Amboseli =()=>{
                 The adventure  is then crowned with five days relaxations and explorations  of the pristine Kenyan coastline and beaches, while enjoying luxurious  stays at the magnificent Medina  Palms  Resort,  in the  bewitching Watamu.
                 </p>
             </div>
-            <div className=" p-5 lg:px-[300px]">
+            
+            <div className=" flex flex-col items-center">
+                <div className=" lg:flex lg:justify-around">
+                    <div className=" p-10 flex flex-col flex-2">
+                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Three scheduled  flights to expedite your travel. </span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Visit   the giraffe  center  and  the David  shieldrick  wildlife  trust at the heart  of  Nairobi  city. </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Get up close  with  the great  wildebeest  migration  on a hot  air  balloon  ride  across  the maasai mara Plains </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Enjoy the thrill of "big five" classic  game  viewing at Tsavo West  and Tsavo east wildlife  sanctuaries </span></li>
+
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Excellent  accommodation  at Kenya's  crème  de  la  crème  luxury  camps  and  lodges  </span>
+                            </li>
+
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Unwind and enjoy a tranquil atmosphere on the picturesque, pure-white sandy shores of the Kenyan coastline in Watamu. </span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div className=" flex flex-col items-center text-2xl my-10">
+                        <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
+                        <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
+                    </div>
+                </div>
+
+                <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -383,49 +429,7 @@ const Amboseli =()=>{
                     </table>
                 </div>
             </div>
-            <div className=" flex flex-col items-center">
-                <div className=" lg:flex lg:justify-around">
-                    <div className=" p-10 flex flex-col flex-2">
-                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Three scheduled  flights to expedite your travel. </span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Visit   the giraffe  center  and  the David  shieldrick  wildlife  trust at the heart  of  Nairobi  city. </span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span> Get up close  with  the great  wildebeest  migration  on a hot  air  balloon  ride  across  the maasai mara Plains </span></li>
-                           
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Enjoy the thrill of "big five" classic  game  viewing at Tsavo West  and Tsavo east wildlife  sanctuaries </span></li>
-
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Excellent  accommodation  at Kenya's  crème  de  la  crème  luxury  camps  and  lodges  </span>
-                            </li>
-
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Unwind and enjoy a tranquil atmosphere on the picturesque, pure-white sandy shores of the Kenyan coastline in Watamu. </span>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                    <div className=" flex flex-col items-center text-2xl my-10">
-                        <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
-                        <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
-                    </div>
-                </div>
+            
                 <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
                 <div className=" lg:flex lg: justify-between p-5">
                         <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">

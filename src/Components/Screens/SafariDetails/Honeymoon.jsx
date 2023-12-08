@@ -257,7 +257,40 @@ const Honeymoon =()=>{
                 <br/><br/>Conclude your journey with four nights of sheer indulgence at Hemingways Watamu, nestled on the pristine Watamu Beaches on Kenya's north coast. Whether you choose to relax by the beach or pool, or engage in various activities like deep-sea fishing, golfing, biking, scuba diving, snorkeling, or a romantic sunset Dhow cruise on Mida Creek, this coastal retreat offers the perfect grand finale in style.
                 </p>
             </div>
-            <div className=" p-5 lg:px-[300px]">
+           
+            <div className=" flex flex-col items-center">
+                <div className=" lg:flex lg:justify-around">
+                    <div className=" p-10 flex flex-col flex-2">
+                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Experience the ultimate luxury by staying at Kenya's most opulent tented camps and lodges, the exquisite Hemmingways Collections in Nairobi, Ol Seki, and Watamu, and the magnificent Kicheche Safari Camp in Ol Pejeta</span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Spectacular  game viewing  in  Ol Pejeta and the Maasai mara </span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Down time at the prestine beaches and pleasantly  warm waters of Watamu </span></li>
+                           
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Exhilarating  flights  between  the camps  and lodges  with VIP transfers </span></li>
+                            
+                        </ul>
+                    </div>
+                    <div className=" flex flex-col items-center text-2xl my-10">
+                        <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
+                        <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
+                    </div>
+                </div>
+
+                <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -351,37 +384,6 @@ const Honeymoon =()=>{
                         </tbody>
                     </table>
                 </div>
-            </div>
-            <div className=" flex flex-col items-center">
-                <div className=" lg:flex lg:justify-around">
-                    <div className=" p-10 flex flex-col flex-2">
-                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Experience the ultimate luxury by staying at Kenya's most opulent tented camps and lodges, the exquisite Hemmingways Collections in Nairobi, Ol Seki, and Watamu, and the magnificent Kicheche Safari Camp in Ol Pejeta</span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span> Spectacular  game viewing  in  Ol Pejeta and the Maasai mara </span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Down time at the prestine beaches and pleasantly  warm waters of Watamu </span></li>
-                           
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Exhilarating  flights  between  the camps  and lodges  with VIP transfers </span></li>
-                            
-                        </ul>
-                    </div>
-                    <div className=" flex flex-col items-center text-2xl my-10">
-                        <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
-                        <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
-                    </div>
                 </div>
                 <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
                 <div className=" lg:flex lg: justify-between p-5">

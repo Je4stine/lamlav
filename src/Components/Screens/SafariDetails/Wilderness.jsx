@@ -232,7 +232,35 @@ const Wilderness =()=>{
                 <br/><br/>Wrap up this memorable safari experience at Mara Plains Camp in the Maasai Mara, where you'll encounter a diverse array of resident and migrating wildlife, including the world-famous annual Great Migration phenomenon.
             </p>
             </div>
-            <div className=" p-5 lg:px-[300px]">
+           
+            <div className=" flex flex-col items-center">
+                <div className=" lg:flex lg:justify-around">
+                    <div className=" p-10 flex flex-col flex-2">
+                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
+                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
+                            <li className=" flex items-center space-x-3">
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                <span>Accomodations  at the crème de la crème camps  and  lodges. </span></li>
+                            <li className="flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span>Three exhilarating flights between the camps  to expedite your  travel.</span>
+                            </li>
+                          
+                            <li className=" flex items-center space-x-3"> 
+                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+
+                                <span> Classic  game  viewing  thrill at Amboseli,  Lewa Conservancy  and Maasai Mara with spectacular hot air balloon  rides across  the mara plains</span></li>
+                                                       
+                        </ul>
+                    </div>
+                    <div className=" flex flex-col items-center text-2xl my-10">
+                        <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
+                        <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
+                    </div>
+                </div>
+
+                <div className=" p-5 lg:px-[300px]">
                 <h1 className=" font-[SourceSerifPro-Black] text-2xl mb-10 text-red-900">Accomodation Overview</h1>
                 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -313,32 +341,6 @@ const Wilderness =()=>{
                     </table>
                 </div>
             </div>
-            <div className=" flex flex-col items-center">
-                <div className=" lg:flex lg:justify-around">
-                    <div className=" p-10 flex flex-col flex-2">
-                        <h1 className="lg:px-[200px] text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Safari Highlights </h1>
-                        <ul className=" font-[SourceSerifPro-Regular] lg:px-[200px] list-none md:text-xl space-y-4 text-left text-black">
-                            <li className=" flex items-center space-x-3">
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                <span>Accomodations  at the crème de la crème camps  and  lodges. </span></li>
-                            <li className="flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span>Three exhilarating flights between the camps  to expedite your  travel.</span>
-                            </li>
-                          
-                            <li className=" flex items-center space-x-3"> 
-                                <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-
-                                <span> Classic  game  viewing  thrill at Amboseli,  Lewa Conservancy  and Maasai Mara with spectacular hot air balloon  rides across  the mara plains</span></li>
-                                                       
-                        </ul>
-                    </div>
-                    <div className=" flex flex-col items-center text-2xl my-10">
-                        <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
-                        <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
-                    </div>
-                </div>
                 <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
                 <div className=" lg:flex lg: justify-between p-5">
                         <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">
