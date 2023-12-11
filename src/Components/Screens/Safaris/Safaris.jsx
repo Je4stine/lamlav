@@ -30,7 +30,7 @@ const Safaris =()=>{
     window.addEventListener('scroll', changeNavbarColor);
 
     return (
-        <div className = " bg-white">
+        <div className = "">
            {
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
@@ -47,7 +47,7 @@ const Safaris =()=>{
            </div>
            <ChatBot/>
            <Partners/>
-           <div>
+           <div className="bg-white">
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             </div>
            <Footer/>

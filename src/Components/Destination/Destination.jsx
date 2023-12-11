@@ -61,7 +61,7 @@ const Destination =()=>{
                     <h2 className=' text-lg italic font-bold mb-10 text-red-900'> An adventure  that feeds your Soul </h2>
                     <p className=' font-[SourceSerifPro-Regular]'>
                     By commemorating your union in a grand fashion, at some of the finest honeymoon destinations in Kenya, Lamlav Honeymoon Safari presents you an opportunity to discover and create unforgettable memories that you will forever cherish. This safari package guarantees lavish stays at top-rated accommodations that includes: the Hemingways Hotel in Nairobi, Kicheche Safari Camp in the southern part of Laikipia's Ol Pejeta Conservancy, Ol Seki Hemingways in Maasai Mara, and the renowned Hemingway's Hotel in the beguiling Watamu                    </p>
-                    <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'>  12days/11Nights from  from $ 13,055 per person.</p>
+                    <p className=' my-5 text-lg font-[SourceSerifPro-Regular] text-red-900'>  12days/11Nights from $ 13,055 per person.</p>
                     <a href='/honeymoon' className=' flex border border-red-900 rounded-md p-3 my-5 w-[150px] items-center justify-center hover:text-white duration-500 hover:bg-red-900'>
                         <h1 className=' font-[SourceSerifPro-Black]'>Learn More</h1>
                     </a>

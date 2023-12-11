@@ -43,7 +43,10 @@ const Navbar =()=>{
                          <a href="/safaris" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Destinations</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/about" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Luxury Safaris</a> 
+                            <a href="/safaris" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Luxury Safaris</a> 
+                        </li>
+                        <li className=" mx-4 my-6 ">
+                         <a href="/about" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">About Us</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/faqs" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">FAQs</a> 
@@ -101,7 +104,7 @@ const Navbar =()=>{
                             </div>  
                         </li>
                         <li className=" mx-4 my-6 ">
-                            <a href="/about" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">Luxury Safaris</a> 
+                            <a href="/safaris" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">Luxury Safaris</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/faqs" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">FAQS</a> 

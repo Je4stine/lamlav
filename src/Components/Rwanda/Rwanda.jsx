@@ -61,35 +61,36 @@ const Rwanda =()=> {
             <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
             <section className="my-10 lg:px-[80px] px-2">
               <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
-                  <a href="/rwanda/gorilla" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
-                    <img alt="Safari" src="https://drive.google.com/uc?export=view&id=1UlAmCffzQ7pgYoRwUwB1LCaL588Jpsw5" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
-                    <div>
-                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Rwanda Gorilla & Game vacation</h1>
-                        <p className="font-[SourceSerifPro-Regular]"> <em>An uplifting safari experience in Rwanda</em></p>
-                        <p className="font-[SourceSerifPro-Black] my-10">
-                        10days/9nights From $ 11,860 per person.
-                        </p>
-                        <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
-                    </div>
-                  </a>
+                  
 
                   <a href="/rwanda/thousandhills" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
                     <img alt="Safari" src="https://live.staticflickr.com/8740/16298396774_e6d631a1e7_b.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
                     <div>
-                      <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Treasures  of a thousand hills</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Treasures  of a thousand hills</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em> An adventure amidst the captivating allure of misty volcanoes densely cloaked in jungle foliage.</em></p>
                       <p className="font-[SourceSerifPro-Black] my-10">
                         10days/9nights From $ 11,860 per person.
                         </p>
-                        <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
+                          
                     </div>
                   </a>   
+
+
+                  <a href="/rwanda/gorilla" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://drive.google.com/uc?export=view&id=1UlAmCffzQ7pgYoRwUwB1LCaL588Jpsw5" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Rwanda Gorilla & Game vacation</h1>
+                        <p className="font-[SourceSerifPro-Regular]"> <em>An uplifting safari experience in Rwanda</em></p>
+                        <p className="font-[SourceSerifPro-Black] my-10">
+                        10days/9nights From $ 11,860 per person.
+                        </p>
+                          
+                    </div>
+                  </a>
+
+                  <a href="/safaris" className="flex flex-col items-center text-orange-500 h-[50px] mt-[50px] lg:mt-[100px] p-3 border border-black rounded-md hover:bg-orange-500 hover:text-white hover:border-white duration-500 font-[SourceSerifPro-Black]">
+                    View All Itineraies     
+                  </a>
               </div>              
             </section>
 

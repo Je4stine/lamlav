@@ -54,7 +54,7 @@ const DetailsRwanda= () => {
     <div className=" bg-white">
       {colorChanged ? <Navreveal /> : <Navbar />}
       <section>
-        <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[100px]">
+        <div className=" flex flex-col justify-center items-center mt-[100px]">
           <h1 className="lg:text-6xl text-4xl font-serif">{item.title}</h1>
           <img src={item.image} alt="Roaring lion" className=" w-[100vw] h-[100vh] object-cover" />
         </div>

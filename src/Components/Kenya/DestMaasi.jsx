@@ -62,7 +62,7 @@ const DestMaasai =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
             <section>
-                <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
+                <div className=" flex flex-col justify-center items-center mt-[100px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">The Massai Mara National Reserve</h1>
                     <img src={Game1} alt="The Maasai Mara" className=" w-[100vw] h-[100vh] object-cover"/>
                 </div>

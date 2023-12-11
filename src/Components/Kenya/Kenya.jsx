@@ -74,10 +74,7 @@ const Kenya = ()=>{
                     <div>
                         <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Mara Serengeti Safari</h1>
                         <p className="font-[SourceSerifPro-Regular]"> <em>Presenting an exceptionally memorable and unabashedly luxurious safari experience within the Mara and Serengeti ecosystems.</em></p>
-                        <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
+                         
                     </div>
                   </a>
 
@@ -86,10 +83,7 @@ const Kenya = ()=>{
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Great Migration Safari</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em>Experience the pulse of nature and the grandeur of wildlife in a seamless exploration of diverse landscapes. </em></p>
-                      <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
+                       
                     </div>
                   </a>
 
@@ -98,10 +92,7 @@ const Kenya = ()=>{
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">3. Lamlav Honeymoon Safari</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em> An adventure that feeds your Soul</em></p>
-                      <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
+                       
                     </div>
                   </a>
 
@@ -110,10 +101,7 @@ const Kenya = ()=>{
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">4. Kenya Bush and Beach Safari</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em>Explore the Kenyan wildlife havens in Style.</em></p>
-                      <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
+                       
                       </div>
                   </a>
                   <a href="/wilderness" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
@@ -122,13 +110,13 @@ const Kenya = ()=>{
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">5.Great Wilderness safari </h1>
                       <p className="font-[SourceSerifPro-Regular]"><em> A truly indulgent and quintessential Kenyan Safari experience.</em></p>
                     
-                      <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div></div>
+                       </div>
                   </a>
-                  
-              </div>              
+                  <a href="/safaris" className="flex flex-col items-center text-orange-500 h-[50px] mt-[50px] lg:mt-[100px] p-3 border border-black rounded-md hover:bg-orange-500 hover:text-white hover:border-white duration-500 font-[SourceSerifPro-Black]">
+                    View All Itineraies     
+                  </a>   
+              </div> 
+                              
             </section>
 
 

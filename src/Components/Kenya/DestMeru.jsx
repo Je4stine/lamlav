@@ -62,7 +62,7 @@ const DestMeru =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
             <section>
-                <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
+                <div className=" flex flex-col justify-center items-center mt-[100px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Meru National Park</h1>
                     <img src={Zebra} alt="Roaring lion" className=" w-[100vw] h-[100vh] object-cover"/>
                 </div>

@@ -72,7 +72,7 @@ const Sabyinyo =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
             <secttion>
-                <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
+                <div className=" flex flex-col justify-center items-center mt-[100px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif"> Sabyinyo Silverback Lodge</h1>
                     <img src="https://www.africanwelcomesafaris.com/wp-content/uploads/2019/10/Sabyinyo-Silverback-Lodge-2.jpg" alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>

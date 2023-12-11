@@ -56,7 +56,7 @@ const Loldia =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
             <secttion>
-                <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
+                <div className=" flex flex-col justify-center items-center mt-[100px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Loldia House and Cottages  </h1>
                     <img src={Chyulu} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>

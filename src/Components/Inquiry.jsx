@@ -141,7 +141,7 @@ function Inquiry() {
               <Textbox placeholder=""/>
             </div>
             <div className=' mt-10'>
-              <h1 className=' font-bold'>Please provide information about yourself, and  free to ask me any question that you may have.*</h1>
+              <h1 className=' font-bold'>Please provide information about yourself, and feel free to ask me any question that you may have.*</h1>
               <div class="w-[70%]">
 
                 <div class="relative w-full lg:min-w-[500px] mt-10">

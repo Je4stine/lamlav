@@ -24,25 +24,25 @@ const Uganda =()=> {
   window.addEventListener('scroll', changeNavbarColor);
   
 
-  const renderItems =({ title, description, })=>{
-    return(
-      <div>
-        <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
-                  <img src={Ugim} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
-                  <div className="p-5 lg:justify-between lg:w-1/2">
-                      <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">{title}</h1>
-                      <p className=" font-[SourceSerifPro-Regular] text-lg">
-                        {description}
-                      </p>
-                      <a href='/kenya/destamboseli'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
-                                <span >Explore more</span>
-                    </div></a> 
-              </div>
-          </div>
-          <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
-      </div>
-    )
-  }
+  // const renderItems =({ title, description, })=>{
+  //   return(
+  //     <div>
+  //       <div className=" lg:flex lg:justify-around items-center  mt-20 lg:px-[80px]">
+  //                 <img src={Ugim} alt=" Lion" className=" lg:w-1/2 lg:h-3/4 m-auto" loading="lazy"/>
+  //                 <div className="p-5 lg:justify-between lg:w-1/2">
+  //                     <h1 className=" font-[SourceSerifPro-Black] mb-10 text-3xl">{title}</h1>
+  //                     <p className=" font-[SourceSerifPro-Regular] text-lg">
+  //                       {description}
+  //                     </p>
+  //                     <a href='/kenya/destamboseli'><div className=' mt-10 border-black border-[1px] rounded-md hover:bg-[#f15d30] hover:text-white h-[50px] w-[130px] flex items-center justify-center m-auto'>
+  //                               <span >Explore more</span>
+  //                   </div></a> 
+  //             </div>
+  //         </div>
+  //         <hr class="h-px my-8 border-0 bg-gray-300 w-full"></hr>
+  //     </div>
+  //   )
+  // }
  
 
     return (
@@ -79,10 +79,24 @@ const Uganda =()=> {
             <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
             <section className="my-10 lg:px-[80px] px-2">
               <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
-                  <a href="/uganda/familysafari" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                 
+
+                  <a href="/uganda/spiritofug" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                    <img alt="Safari" src="https://cdn.kimkim.com/files/a/images/4ae80a4bbd736d119a07254e1b141c78a3c28341/original-791d0a79388bd3274678e278870f6d2b.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
+                    <div>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Spirit of Uganda </h1>
+                      <p className="font-[SourceSerifPro-Regular]"><em>Explore the marvels of Uganda with a hint of indulgence </em></p>
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                         15days/14nights from $ 17,567 per person.
+                        </p>
+                         
+                    </div>
+                  </a>        
+
+                   <a href="/uganda/familysafari" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
                     <img alt="Safari" src="https://i0.wp.com/www.allugandasafaris.com/wp-content/uploads/2022/05/Family-Safaris-Uganda.jpg?w=750&ssl=1" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
                     <div>
-                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1.Uganda Familiy Safari</h1>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">2.Uganda Familiy Safari</h1>
                         <p className="font-[SourceSerifPro-Regular]"> <em>
                             Experience a family safari that combines gorillas, magnificent wildlife, adventure, and rich culture
                           </em>
@@ -90,28 +104,13 @@ const Uganda =()=> {
                         <p className="font-[SourceSerifPro-Black] my-10">
                           12days/11nights from $ 8,567 per person.
                         </p>
-                        <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
+                         
                     </div>
-                  </a>
-
-                  <a href="/uganda/spiritofug" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
-                    <img alt="Safari" src="https://cdn.kimkim.com/files/a/images/4ae80a4bbd736d119a07254e1b141c78a3c28341/original-791d0a79388bd3274678e278870f6d2b.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
-                    <div>
-                      <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Spirit of Uganda </h1>
-                      <p className="font-[SourceSerifPro-Regular]"><em>Explore the marvels of Uganda witha a hint of indulgence </em></p>
-                      <p className="font-[SourceSerifPro-Black] my-10">
-                         15days/14nights from $ 17,567 per person.
-                        </p>
-                        <div className="my-3 flex items-center">
-                          <p className="font-[SourceSerifPro-Black] text-orange-600">View All Itineraies</p>
-                          <FiArrowRight  />
-                        </div>
-                    </div>
-                  </a>             
+                  </a>     
                   
+                  <a href="/safaris" className="flex flex-col items-center text-orange-500 h-[50px] mt-[50px] lg:mt-[100px] p-3 border border-black rounded-md hover:bg-orange-500 hover:text-white hover:border-white duration-500 font-[SourceSerifPro-Black]">
+                    View All Itineraies     
+                  </a>  
               </div>              
             </section>
 

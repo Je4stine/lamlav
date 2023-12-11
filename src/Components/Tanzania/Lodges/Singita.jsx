@@ -72,7 +72,7 @@ const Singita2 =()=>{
                 colorChanged ? <Navreveal/> : <Navbar/>
             }
             <secttion>
-                <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
+                <div className=" flex flex-col justify-center items-center mt-[100px]">
                     <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Singita Mara River Tented Camp</h1>
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>

@@ -73,7 +73,7 @@ const Manyarasecrete =()=>{
             }
             <secttion>
                 <div className=" flex flex-col justify-center items-center mt-[60px] lg:mt-[120px]">
-                    <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Manyarasecrete</h1>
+                    <h1 className=" mb-20 lg:text-6xl text-4xl font-serif">Manyara's Secret</h1>
                     <img src={Lodge1} alt="Roaring lion" className=" lg:w-[70%]"/>
                 </div>
             </secttion>

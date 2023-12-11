@@ -17,7 +17,7 @@ import Loldia from '../Assets/Manya1.jpg';
 import Mara from '../Assets/lodge-and-pool-1200x900.jpg';
 import MaraPlains from '../Assets/Onsea.jpg';
 import Mbweha from '../Assets/mbweha.jpg';
-import Medina from '../Assets//kilindi-stone-town.jpg';
+import Medina from '../Assets/kilindi-stone-town.jpg';
 import Neptune from '../Assets/TarangireTreetops---Game-Drive.jpg';
 
 
@@ -169,14 +169,14 @@ function AllLodgesTz() {
 
                       <a href='/tanzania/lodges/manayarasecret' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Larsen} alt='All lodges' style={imageStyle}/>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Manyarasecret</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Lake Manyara's, Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Manyara's Secret</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Lake Manyara, Tanzania</h1>
                        </a>
 
                       <a href='/tanzania/lodges/manyaratree' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>
                            <img src={Loldia} alt='All lodges' style={imageStyle}/>
                            <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2 font-bold">Lake Manyara Tree Lodge</h1>
-                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Lake Manyara's , Tanzania</h1>
+                           <h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-lg text-md mt-2 text-gray-600 uppercase">Lake Manyara , Tanzania</h1>
                        </a>
                         
                       <a href='/tanzania/lodges/matemwe' className=' flex flex-col p-10 items-center justify-center cursor-pointer hover:text-orange-500'>

@@ -70,6 +70,7 @@ import Lamela from '../../Assets/250368-lemala-serengeti-camp1.jpg';
 import Beyond from '../../Assets/62893a29ff77c72ef4ab06cd_Kleins-Camp-1.jpg';
 import Singita from '../../Assets/Singitadodoma.jpeg';
 import Sasakwa from '../../Assets/Sasakwatz.jpg'
+import Medina from '../../Assets/kilindi-stone-town.jpg';
 
 //Tarangire
 import TaraSlider1 from '../../Assets/TarangireTreetops---Game-Drive.jpg';
@@ -222,6 +223,7 @@ const DETAILS =[
         "campId4":"/tanzania/lodges/singita",
         "camp1":"Lemala Ewanjan",
         "camp2":"Beyond Klein's Camp",
+
         "camp3": "Sasakwa Hill Lodge",
          "camp4": "Singita Mara River Tented Camp",
         "slider1":SereSlider1,
@@ -231,7 +233,7 @@ const DETAILS =[
         "campImg1":Lamela,
         "campImg2":Beyond,
         "campImg3":Sasakwa,
-        "campImg4":Singita,
+        "campImg4":Medina,
         "count": 4
     },
     {
