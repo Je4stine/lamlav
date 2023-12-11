@@ -457,9 +457,9 @@ const Migration =()=>{
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <div className='flex items-center'>
+                                <a href="/kenya/norfolk" className='flex items-center'>
                                 <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
-                                </div>
+                                </a>
                                 <hr className='my-5'/>
 
 
@@ -482,9 +482,9 @@ const Migration =()=>{
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <div className='flex items-center'>
+                            <a href="/kenya/norfolk" className='flex items-center'>
                                 <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
-                                </div>
+                                </a>
                                 <hr className='my-5'/>
 
 
@@ -506,9 +506,9 @@ const Migration =()=>{
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <div className='flex items-center'>
+                                <a href="/kenya/keekorok" className='flex items-center'>
                                 <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
-                                </div>
+                                </a>
                                 <hr className='my-5'/>
 
 
@@ -531,9 +531,9 @@ const Migration =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <div className='flex items-center'>
-                                    <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
-                                    </div>
+                                <a href="/kenya/keekorok" className='flex items-center'>
+                                <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
+                                </a>
                                     <hr className='my-5'/>
 
 
@@ -555,9 +555,9 @@ const Migration =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <div className='flex items-center'>
-                                    <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
-                                    </div>
+                                <a href="/kenya/keekorok" className='flex items-center'>
+                                <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
+                                </a>
                                     <hr className='my-5'/>
 
 
@@ -676,9 +676,9 @@ const Migration =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <div className='flex items-center'>
+                                    <a href="/kenya/norfolk" className='flex items-center'>
                                     <FaHotel className=' mr-3'/> <p>Norfolk  hotel  Nairobi </p>
-                                    </div>
+                                    </a>
                                     <hr className='my-5'/>
                                 
                     </div>

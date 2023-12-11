@@ -483,9 +483,9 @@ const Mara =()=>{
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <div className='flex items-center'>
+            <a href='/kenya/norfolk' className='flex items-center'>
             <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
-            </div>
+            </a>
             <hr className='my-5'/>
 
 
@@ -507,9 +507,9 @@ const Mara =()=>{
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <div className='flex items-center'>
+            <a href='/kenya/norfolk' className='flex items-center'>
             <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
-            </div>
+            </a>
             <hr className='my-5'/>
 
 
@@ -531,9 +531,9 @@ const Mara =()=>{
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <div className='flex items-center'>
+            <a href='/kenya/lewaconservancy' className='flex items-center'>
             <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
-            </div>
+            </a>
             <hr className='my-5'/>
 
 
@@ -558,9 +558,9 @@ const Mara =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
-                </div>
+            <a href='/kenya/lewaconservancy' className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
+            </a>
                 <hr className='my-5'/>
 
 
@@ -582,9 +582,9 @@ const Mara =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                <FaHotel className=' mr-3'/> <p>Lewa Safari Camp </p>
-                </div>
+            <a href='/kenya/lewaconservancy' className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
+            </a>
                 <hr className='my-5'/>
 
 
@@ -631,9 +631,9 @@ const Mara =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/kenya/marares' className='flex items-center'>
                 <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -655,9 +655,9 @@ const Mara =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+            <a href='/kenya/marares' className='flex items-center'>
                 <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -680,9 +680,9 @@ const Mara =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                <FaHotel className=' mr-3'/> <p>Mara Serena Camp </p>
-                </div>
+            <a href='/kenya/marares' className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -704,9 +704,9 @@ const Mara =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/kenya/norfolk" className='flex items-center'>
                 <FaHotel className=' mr-3'/> <p>Norfolk  hotel  Nairobi </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
             
     </div>
