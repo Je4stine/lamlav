@@ -532,9 +532,9 @@ function Gorrilla() {
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/rwanda/lodges/kigaliserena' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -555,9 +555,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel  </p>
-                </div>
+                <a href='/rwanda/lodges/kigaliserena' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -577,9 +577,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/rwanda/lodges/magashi" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Magashi  Camp  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -601,9 +601,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/rwanda/lodges/magashi" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Magashi  Camp  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -629,9 +629,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Magashi  Camp   </p>
-                </div>
+                <a href="/rwanda/lodges/magashi" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Magashi  Camp  </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -654,9 +654,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/rwanda/lodges/bisate' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Bisate Lodge    </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -678,9 +678,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Bisate Lodge   </p>
-                </div>
+                <a href='/rwanda/lodges/bisate' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Bisate Lodge    </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -701,9 +701,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Bisate Lodge   </p>
-                </div>
+                <a href='/rwanda/lodges/bisate' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Bisate Lodge    </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -724,9 +724,9 @@ function Gorrilla() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/rwanda/lodges/kigaliserena' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Kigali Serena Hotel     </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
               <div>

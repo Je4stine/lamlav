@@ -1,5 +1,5 @@
 
-import {FaFacebook, FaInstagramSquare} from 'react-icons/fa';
+import {FaFacebook, FaInstagramSquare, FaYoutube, FaLinkedin} from 'react-icons/fa';
 
 import {AiFillTwitterCircle} from 'react-icons/ai';
 
@@ -30,10 +30,10 @@ const Footer =()=>{
                 <div className=' flex flex-col flex-1'>
                     <div className=' flex flex-col items-center'>
                         <h2 className=' text-white max-[768px]:text-sm max-[768px]:mt-5 font-[SourceSerifPro-Black]'> Quick Links</h2>
-                        <a href='#1' className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular]'> Home</a>
-                        <a href="#1" className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular]'>About US</a>
-                        <a href='#1' className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular]'>Policies</a>
-                        <a href='#1' className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular]'>FAQs</a>
+                        <a href='/' className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'> Home</a>
+                        <a href="/about" className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>About US</a>
+                        <a href='/safaris' className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Luxury Safaris</a>
+                        <a href='/faqs' className=' no-underline text-gray-400 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>FAQs</a>
                     </div>
                 </div>
 
@@ -42,18 +42,26 @@ const Footer =()=>{
                 <hr className=' w-[1px] h-[200px] inline-block bg-white max-[768px]:hidden'/>
                 <div className=' flex flex-col flex-1 items-center'>
                     <h2 className=' text-white max-[768px]:text-sm max-[768px]:mt-5 font-[SourceSerifPro-Bold]'>Socials</h2>
-                    <div className='flex max-[768px]:items-center '>
+                    <a href='https://www.facebook.com' className='flex max-[768px]:items-center '>
                          <FaFacebook color='#fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular]'>Lamlav Leisure Safaris </p>
-                    </div>
-                    <div className='flex items-center '>
+                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                    </a>
+                    <a href='https://www.instagram.com/' className='flex items-center '>
                          <FaInstagramSquare color=' #fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular]'>Lamlav Leisure Safaris </p>
-                    </div>
-                    <div className='flex items-center '>
+                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                    </a>
+                    <a href='https://twitter.com/' className='flex items-center '>
                          <AiFillTwitterCircle color=' #fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular]'>Lamlav Leisure Safaris </p>
-                    </div>
+                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                    </a>
+                    <a href='https://www.youtube.com/' className='flex items-center '>
+                         <FaYoutube color=' #fff' size={25}/>
+                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                    </a>
+                    <a href='https://ke.linkedin.com/' className='flex items-center '>
+                         <FaLinkedin color=' #fff' size={25}/>
+                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                    </a>
                     
                   
                 </div>

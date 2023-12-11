@@ -564,9 +564,9 @@ function ThousandHills() {
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/rwanda/lodges/kigaliserena' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel.</p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -585,9 +585,9 @@ function ThousandHills() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel</p>
-                </div>
+                <a href='/rwanda/lodges/kigaliserena' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Kigali Serena Hotel.</p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -607,9 +607,9 @@ function ThousandHills() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/rwanda/lodges/singita" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Singita Kwitonda Lodge. </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -630,9 +630,9 @@ function ThousandHills() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Singta Kwitonda Lodge.   </p>
-                </div>
+                <a href="/rwanda/lodges/singita" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Singita Kwitonda Lodge. </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -654,9 +654,9 @@ function ThousandHills() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Cleo Lake Kivu </h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
-                </div>
+                <a href="/rwanda/lodges/kivu" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Cleo Lake Kivu  </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -676,9 +676,9 @@ function ThousandHills() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Cleo Lake Kivu    </p>
-                </div>
+                <a href="/rwanda/lodges/kivu" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Cleo Lake Kivu  </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -699,9 +699,9 @@ function ThousandHills() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/rwanda/lodges/nyungwe" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> One & Only Nyungwe House   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -722,9 +722,9 @@ Nyungwe Forest is an exceptional location for observing chimpanzees in their nat
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  One & Only Nyungwe House   </p>
-                </div>
+                <a href="/rwanda/lodges/nyungwe" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> One & Only Nyungwe House   </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -744,9 +744,9 @@ Nyungwe Forest is an exceptional location for observing chimpanzees in their nat
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/rwanda/lodges/kigaliserena" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Kigali Serena Hotel    </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
                 
         </div>
@@ -766,7 +766,7 @@ Nyungwe Forest is an exceptional location for observing chimpanzees in their nat
                         <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/d9/f5/f0/singita-kwitonda-lodge.jpg?w=700&h=-1&s=1" alt="2"/>
                         <h1 className="font-bold">Singita Kwitonda Lodge</h1>
                         </a>
-                        <a href='/rwanda/lodges/' className="w-1/2 cursor-pointer hover:text-orange-500">
+                        <a href='/rwanda/lodges/kivu' className="w-1/2 cursor-pointer hover:text-orange-500">
                         <img style={imageStyle} src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/322181831.jpg?k=d2c6350b50fc9308d582212adbce570b1424eaf5bb6706787d14a5d930542195&o=&hp=1" alt="3"/>
                         <h1 className="font-bold">Cleo Lake Kivu</h1>
                         </a>

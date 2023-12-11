@@ -601,9 +601,9 @@ function UltimateMigration() {
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/kenya/waine' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>House of Waine  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -626,9 +626,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>House of Waine </p>
-                </div>
+                <a href='/kenya/waine' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>House of Waine  </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -671,9 +671,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/kenya/amboseli/oltukai' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Ol Tukai  Lodge  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -694,9 +694,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/tanzania/lodges/onsea' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Onsea House  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -719,9 +719,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/tanzania/lodges/crater' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Ngorongoro Crater Lodge.  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -744,9 +744,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/tanzania/lodges/lemala' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Lemala Ewanjan camp.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -768,9 +768,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Lemala Ewanjan Camp.   </p>
-                </div>
+                <a href='/tanzania/lodges/lemala' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Lemala Ewanjan camp.   </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -790,9 +790,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Lemala Ewanjan Camp   </p>
-                </div>
+                <a href='/tanzania/lodges/lemala' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Lemala Ewanjan camp.   </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -815,9 +815,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/kenya/maraplains' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Mara Plains  Camp   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -839,9 +839,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Mara Plains  Camp    </p>
-                </div>
+                <a href='/kenya/maraplains' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Mara Plains  Camp   </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -861,9 +861,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Mara Plains  Camp   </p>
-                </div>
+                <a href='/kenya/maraplains' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Mara Plains  Camp   </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -882,9 +882,9 @@ function UltimateMigration() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/kenya/waine' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> House of Waine    </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
         </div>

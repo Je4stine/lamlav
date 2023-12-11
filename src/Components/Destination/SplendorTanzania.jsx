@@ -560,9 +560,9 @@ function SplendorTanzania() {
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/tanzania/lodges/coffee" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Arusha  Coffee  Lodge  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -582,9 +582,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/tanzania/lodges/coffee" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Arusha  Coffee  Lodge  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -598,16 +598,16 @@ function SplendorTanzania() {
               
                   <p className='font-[SourceSerifPro-Regular] md:text-xl'>
                   Begin your day with a satisfying breakfast, then embark on an incredible drive to Tarangire National Park. Arrive at the luxurious Tarangire Treetops Lodge, ingeniously constructed around a thousand-year-old baobab trees. 
-<br/><br/>From your tree house's balcony, you'll gaze upon the diverse landscapes of Tarangire — the wooden savannah adorned with acacias and baobabs, rocky formations, and undulating hills. This area hosts a rich array of African wildlife, including iconic species like elephants, alongside some rare additions such as oryx and kudu .
+                  <br/><br/>From your tree house's balcony, you'll gaze upon the diverse landscapes of Tarangire — the wooden savannah adorned with acacias and baobabs, rocky formations, and undulating hills. This area hosts a rich array of African wildlife, including iconic species like elephants, alongside some rare additions such as oryx and kudu .
                   </p>
                   <img alt='Arival' loading='lazy' src='https://live.staticflickr.com/2240/33000774415_73bffb6d49_b.jpg' className=' lg:w-1/3 lg:ml-5  object-contain'/>
                   
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/tanzania/lodges/treetop' className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Tarangire Treetops Lodge</p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -628,9 +628,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>Tarangire Treetops Lodge  </p>
-                </div>
+                <a href='/tanzania/lodges/treetop' className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Tarangire Treetops Lodge</p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -654,9 +654,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/tanzania/lodges/manor" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p>Manor At Ngorongoro  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -677,9 +677,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Manor At Ngorongoro   </p>
-                </div>
+                <a href="/tanzania/lodges/manor" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p>Manor At Ngorongoro  </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -702,9 +702,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Migration  Camp   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -724,9 +724,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p>  Migration  Camp   </p>
-                </div>
+                <a href="/" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Migration  Camp   </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -746,9 +746,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
-                 <FaHotel className=' mr-3'/> <p> Migration  Camp.   </p>
-                </div>
+                <a href="/" className='flex items-center'>
+                 <FaHotel className=' mr-3'/> <p> Migration  Camp   </p>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -770,9 +770,9 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href="/tanzania/lodges/coffee" className='flex items-center'>
                  <FaHotel className=' mr-3'/> <p> Arusha  Coffee  Lodge   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
