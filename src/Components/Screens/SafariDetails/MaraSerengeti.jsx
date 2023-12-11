@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 import { Carousel } from 'react-responsive-carousel';
 
@@ -44,6 +44,7 @@ import Faq from "react-faq-component";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Partners from "../../Partners";
+import { FaHotel, FaSadCry } from "react-icons/fa";
 
 const Mara =()=>{
     
@@ -54,143 +55,69 @@ const Mara =()=>{
                 title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1 ARRIVAL IN NAIROBI ||Grand Welcome to kenya</h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day1} alt=" Mara1" className=" lg:w-1/2"/>
-                       
-                    
-                    <div> 
-                        <p className=" p-5 font-[SourceSerifPro-Regular]">
-                        Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.
-                
-                        <br/><br/>
-                        <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
-                        <strong>Meals:</strong> Breakfast, lunch & dinner 
-                        </p>
-                    </div>
                 </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2:  NAIROBI || Commingle  with  giraffes  and baby  elephants </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day2} alt="Mara1" className=" lg:w-1/2 "/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                                Combine wildlife and culture with morning trips to the <strong>giraffe center, David Shieldrick Wildlife Trust,</strong> the <strong>Karen Blixen Muesum</strong> and later to the <strong>Kazuri bead factory</strong> where you will see how classic pottery beads are made, following the process from beginning to end. Return  to Norfolk  hotel  for evening  dinner  dinner  and relaxation. 
-                            <br/>
-                            <br/>
-                            <strong>Accommodation:</strong> <a href="/nairobi">Norfolk  hotel  Nairobi</a> <br/>
-                            <strong>Meals:</strong> Breakfast, lunch & dinner 
-                            </p>
+                            
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3 LEWA WILDLIFE CONSERVANCY || In the wilderness of Laikipia Plateau </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day3} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Catch a flight at Wilson airport and fly over the Laikipia plateau, enjoying the stunning view of the lordly Mt Kenya, to the Lewa wildlife conservancy. Upon touch down at Lewa airstrip, you will enjoy a game drive transfer to the famous Lewa Safari Camp, where you will spend three amazing nights. Arrive in time for lunch and have time to relax before setting out for an afternoon game drive to dusk.
-                                 <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Lewa Safari  Camp </a><br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
-                                </p>
-                            </div>
+                            
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: LEWA CONSERVANCY || Classic game viewing  </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day4} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Spend this day exploring the landscapes on scheduled morning and afternoon game drives, returning to the camp In between the drives for lunch and relaxation, before setting out for another game drive.
-                                <br/><br/>Lewa wildlife conservancy is a world heritage center and home to diverse array of game mammals and birds. It is a vital stronghold for the approximately 400 Grevy’s Zebras and more than 120 rhinos, and  second to Maasai Mara in terms of wildlife densities. Visitors to Lewa are privy to some of the most spectacular wildlife viewing that Kenya has to offer. Prides of lion, leopard and jackal thrive on the rich diversity of prey that inhabits the area. 
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok"> Lewa Safari  Camp </a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner 
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: LEWA CONSERVANCY || Plan your  day   </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day5} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                This morning,  you  will enjoy a sumptuous Champaign breakfast in the bush, and then head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides, camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a warm campfire.                                <br/>
-                                <br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Lewa Safari Camp </a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: MAASAI MARA || Face to face with the great migration!</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day6} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Transfer to Lewa airstrip, this morning, for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip, and arrive in time for a hearty lunch and relaxation.
-                            <br/><br/>Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
-
-                           <br/>
-                            <br/>
-                            <stong>Accomodations:</stong><a href="/gour">Mara Serena camp</a> <br/>
-                            <strong>Meals:</strong> Breakfast, Lunch and Dinner 
-                            </p>
+                            
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">  DAY 7: MAASAI MARA  || Breath- taking wildlife encounters</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day7} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Spend this day exploring the Mara ecosystem on unlimited game drives, for a chance to experience these breathtaking and unforgettable spectacles that will always leave you breathless!
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Mara Serena camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                            
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8: MAASAI MARA NATIONAL RESERVE || hippo pool bush breakfast, game drives, Maasai cultural visit  </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day8} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                This morning, you will crown your game viewing experience with a leisurely Bush Breakfast by the Mara River Hippo Pools, before heading out for a morning game drive. Return to the lodge for lunch and indulge in spa, or a muscle relieving massage, before making a grand visit (optional) to the maasai villages for an opportunity to learn their proud heritage and how they peacefully coexist with the wild animals.
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour"> Mara Serena camp </a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: MAASAI MARA NATIONAL RESERVE|| Hot air balloon safari, star –lit bush diner </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day9} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors).
-                                <br/>
-                                <br/>
-                                <strong>Accomodations:</strong> <a href="/gour"> Mara Serena Camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                            
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 10 NAIROBI</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Day10} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home..
-                            <br /> <br/>
-                            <strong>Accomodations:</strong> <a href="#jhjh">Norfolk  hotel  Nairobi</a> <br/>
-                            <strong>Meals:</strong> Breakfast and Lunch 
-                             </p>
+                            
                         </div>,
             },
         ],
@@ -210,6 +137,85 @@ const Mara =()=>{
         // arrowIcon: "V",
         // tabFocus: true
     };
+
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+        setDetailed(!detailed)
+      };
+
+      
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+      
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+  
+      const settings = {
+        dots: true,
+          infinite: true,
+          speed: 1500,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          adaptiveHeight: true,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+  
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      };
+  
+      const imageStyle = {
+        width: '100%', // Fixed width
+        height: '400px',
+        objectFit: 'cover',
+      };
+  
+      const containerStyle ={
+        margin: 'auto'
+       
+      }
+
 
 
     return (
@@ -266,10 +272,10 @@ const Mara =()=>{
                             
                         </ul>
                     </div>
-                    <div className=" flex flex-col items-center text-2xl my-10">
+                    {/* <div className=" flex flex-col items-center text-2xl my-10">
                         <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
                         <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className=" p-5 lg:px-[300px]">
@@ -441,16 +447,299 @@ const Mara =()=>{
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
                 <div className=" flex justify-center items-center flex-col ">
-                    
+                { detailed === false?
+
                     <div className=" p-5 lg:px-[200px]">
+                     <div onClick={toggleDetails} className='ml-auto w-[250px] font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>
+                        View Detailed Itinerary
+                    </div>
                         <Faq
                             data={data}
                             styles={styles}
                             config={config}
                         />
                     </div>
+:
+    <div className=' lg:px-[200px] px-[70px]'>
+
+        <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+        </div>
+        <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 1
+            </h1>
+            <p className='font-bold mb-2'> ARRIVAL IN NAIROBI ||Grand Welcome to kenya</p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
+            </div>
+            <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 2
+            </h1>
+            <p className='font-bold mb-2'>NAIROBI || Commingle  with  giraffes  and baby  elephants </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Combine wildlife and culture with morning trips to the <strong>giraffe center, David Shieldrick Wildlife Trust,</strong> the <strong>Karen Blixen Muesum</strong> and later to the <strong>Kazuri bead factory</strong> where you will see how classic pottery beads are made, following the process from beginning to end. Return  to Norfolk  hotel  for evening  dinner  dinner  and relaxation. 
+                 </p>
+            
+                <img alt='Arival' loading='lazy' src={Day2} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
+            </div>
+            <hr className='my-5'/>
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 3
+            </h1>
+            <p className='font-bold mb-2'>LEWA WILDLIFE CONSERVANCY || In the wilderness of Laikipia Plateau </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Catch a flight at Wilson airport and fly over the Laikipia plateau, enjoying the stunning view of the lordly Mt Kenya, to the Lewa wildlife conservancy. Upon touch down at Lewa airstrip, you will enjoy a game drive transfer to the famous Lewa Safari Camp, where you will spend three amazing nights. Arrive in time for lunch and have time to relax before setting out for an afternoon game drive to dusk.
+              
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day3} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
+            </div>
+            <hr className='my-5'/>
+
+
+
+            
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 4
+            </h1>
+            <p className='font-bold mb-2'>LEWA CONSERVANCY || Classic game viewing  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Spend this day exploring the landscapes on scheduled morning and afternoon game drives, returning to the camp In between the drives for lunch and relaxation, before setting out for another game drive.
+                      <br/><br/>Lewa wildlife conservancy is a world heritage center and home to diverse array of game mammals and birds. It is a vital stronghold for the approximately 400 Grevy’s Zebras and more than 120 rhinos, and  second to Maasai Mara in terms of wildlife densities. Visitors to Lewa are privy to some of the most spectacular wildlife viewing that Kenya has to offer. Prides of lion, leopard and jackal thrive on the rich diversity of prey that inhabits the area. 
+                                        
+                 </p>
+            
+                <img alt='Arival' loading='lazy' src={Day4} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
                 </div>
-            </div> 
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 5
+            </h1>
+            <p className='font-bold mb-2'>LEWA CONSERVANCY || Plan your  day </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                This morning,  you  will enjoy a sumptuous Champaign breakfast in the bush, and then head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides, camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a warm campfire.                                <br/>
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day5} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Lewa Safari Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 6
+            </h1>
+            <p className='font-bold mb-2'>MAASAI MARA || Face to face with the great migration! </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                            Transfer to Lewa airstrip, this morning, for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip, and arrive in time for a hearty lunch and relaxation.
+                            <br/><br/>Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day6} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 7
+            </h1>
+            <p className='font-bold mb-2'>MAASAI MARA  || Breath- taking wildlife encounters  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Spend this day exploring the Mara ecosystem on unlimited game drives, for a chance to experience these breathtaking and unforgettable spectacles that will always leave you breathless!
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day7} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 8
+            </h1>
+            <p className='font-bold mb-2'> MAASAI MARA NATIONAL RESERVE || hippo pool bush breakfast, game drives, Maasai cultural visit   </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                This morning, you will crown your game viewing experience with a leisurely Bush Breakfast by the Mara River Hippo Pools, before heading out for a morning game drive. Return to the lodge for lunch and indulge in spa, or a muscle relieving massage, before making a grand visit (optional) to the maasai villages for an opportunity to learn their proud heritage and how they peacefully coexist with the wild animals.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day8} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 9
+            </h1>
+            <p className='font-bold mb-2'>MAASAI MARA NATIONAL RESERVE|| Hot air balloon safari, star –lit bush diner  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors).
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day9} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Mara Serena Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 10
+            </h1>
+            <p className='font-bold mb-2'>NAIROBI  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home..
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Day10} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Norfolk  hotel  Nairobi </p>
+                </div>
+                <hr className='my-5'/>
+            
+    </div>
+}
+        </div>
+        
+    </div> 
+    <div className="mt-10 mb-5">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} arrows style={containerStyle}>
+                        <a href='/kenya/norfolk' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                            <img style={imageStyle} alt="1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/ee/89/aa/fairmont-the-norfolk.jpg?w=700&h=-1&s=1"/>
+                            <h1 className="font-bold">Norfolk hotel Nairobi</h1>
+                        </a>
+                        <a href='/kenya/lewaconservancy' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/96/41/3c/elewana-lewa-safari-camp.jpg?w=700&h=-1&s=1" alt="2"/>
+                        <h1 className="font-bold">Lewa Safari Camp</h1>
+                        </a>
+                        <a href='/kenya/marares' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://image-tc.galaxy.tf/wijpeg-8yfjmlr8n5lprgp07lfj0gxwj/240a1921-edita.jpg?width=1600&height=1066" alt="3"/>
+                        <h1 className="font-bold">Mara Serena lodge</h1>
+                        </a>
+                        
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
+        </div>
+
                 <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>

@@ -15,6 +15,7 @@ import ChatBot from '../../ChatBot/ChatBot';
 import {AiOutlineArrowDown} from 'react-icons/ai';
 
 import Partners from "../../Partners";
+import SafariDeets from "./SafariDeets";
 
 
 const Safaris =()=>{
@@ -43,7 +44,7 @@ const Safaris =()=>{
                 </div>
            </div>
            <div id="destinations" className=" m-auto">
-                <Destinations/>
+                <SafariDeets/>
            </div>
            <ChatBot/>
            <Partners/>

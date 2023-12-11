@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
@@ -31,6 +31,10 @@ import Maara from '../../../Assets/Maara.jpg';
 
 import Faq from "react-faq-component";
 import Partners from "../../Partners";
+import { FaHotel } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick"
 
 const Wilderness =()=>{
     const data = {
@@ -197,12 +201,93 @@ const Wilderness =()=>{
         // rowContentColor: 'grey',
         // arrowColor: "red",
     };
+
     
     const config = {
         // animate: true,
         // arrowIcon: "V",
         // tabFocus: true
     };
+
+    
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+        setDetailed(!detailed)
+      };
+
+      
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+      
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+  
+      const settings = {
+        dots: true,
+          infinite: true,
+          speed: 1500,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          adaptiveHeight: true,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+  
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      };
+  
+      const imageStyle = {
+        width: '100%', // Fixed width
+        height: '400px',
+        objectFit: 'cover',
+      };
+  
+      const containerStyle ={
+        margin: 'auto'
+       
+      }
+
 
 
     return (
@@ -254,10 +339,10 @@ const Wilderness =()=>{
                                                        
                         </ul>
                     </div>
-                    <div className=" flex flex-col items-center text-2xl my-10">
+                    {/* <div className=" flex flex-col items-center text-2xl my-10">
                         <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
                         <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className=" p-5 lg:px-[300px]">
@@ -409,16 +494,310 @@ const Wilderness =()=>{
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
                 <div className=" flex justify-center items-center flex-col ">
-                    
+                    { detailed===false?
                     <div className=" p-5 lg:px-[200px]">
+                    <div onClick={toggleDetails} className='ml-auto w-[250px] font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>
+                        View Detailed Itinerary
+                    </div>
                         <Faq
                             data={data}
                             styles={styles}
                             config={config}
                         />
                     </div>
+
+:
+                    <div className=' lg:px-[200px] px-[70px]'>
+
+<div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+        </div>
+        <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 1
+            </h1>
+            <p className='font-bold mb-2'> ARRIVE IN NAIROBI KENYA</p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Your expedition begins as you touch down at Jomo Kenyatta International Airport in Nairobi. 
+                        You will be warmly met and received by your Safari  Director who will thereafter facilitate your transfer to the elegant Hemmingways hotel.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Nairobi1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Hemingways hotel  Nairobi </p>
+            </div>
+            <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 2
+            </h1>
+            <p className='font-bold mb-2'>NAIROBI || Up-close Giraffes and baby  Elephants </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Explore the Karen Blixen Museum, Daphne Sheldrick Wildlife Trust, and the renowned Giraffe Center on this day. The Giraffe Center is home to the endangered Rothschild giraffe and stands as the sole wildlife sanctuary situated within a capital city globally.It is an amazing place to visit as offers visitors the opportunity to get up close and personal with these friendly giants.
+                            <br/><br/>At giraffe center, you will get   a very unique opportunity to see, feed, handle and even kiss the tallest animal species.  
+                 </p>
+            
+                <img alt='Arival' loading='lazy' src={Giraf} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Hemingways  hotel  Nairobi </p>
+            </div>
+            <hr className='my-5'/>
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 3
+            </h1>
+            <p className='font-bold mb-2'> AMBOSELI NATIONAL PARK || At the Snows of Mt Kilimanjaro </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Embark on a journey to Amboseli National Park, where you'll settle into the lavish Tortilis Camp nestled beneath Mount Kilimanjaro. Following lunch and a period of relaxation, venture on a late afternoon game drive to traverse the scrub brush, acacia woodland, freshwater swamps, and open plains in pursuit of wildlife.
+                                <br/><br/>Amboseli is best known for its unrivalled views of Kilimanjaro and the local Elephant population. You will have an opportunity to view the elephants up-close during the morning and afternoon game drives, as they abound forests and swamps, feeding on the lush papyrus.             
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Kilima} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Tortilis  Camp </p>
+            </div>
+            <hr className='my-5'/>
+
+
+
+            
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 4
+            </h1>
+            <p className='font-bold mb-2'>AMBOSELI NATIONAL PARK || Classic  game  viewing </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Full day (and night) adventure in the park, loaded with unlimited game viewing, cultural visits and guided park walks culminating to an evening capped with a sundowner.
+                                <br/><br/>Keep your eyes peeled  for a spectacular watch of other games including; cheetah, hippos, lion, hyenas, giraffes, zebras and wildebeest among many others. You will also get a chance to visit the ‘manyattas’ and interact with the local Maasai community as well as experience their authentic culture.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Game1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Tortilis  Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 5
+            </h1>
+            <p className='font-bold mb-2'>LEWA WILDLIFE CONSERVANCY || Home to the ‘Grand lady’  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Fly over to Laikipia plateau, as you enjoy the captivating  view of Mt Kenya, to the Lewa conservancy. Upon arrival, you will be transferred Lewa Safari camp for a leisurely two night stay.
+                                <br/><br/>Set out for an afternoon  game  drive  through  the conservancy and keep an eye out for various native species found in the northern region, such as the black/white rhinos,sitatunga, beisa oryx, Somali ostrich, reticulated giraffe, Grevy’s zebra, and the unique long-necked gerenuk that stands on its hind legs to eat. Also, be on the lookout for Grant’s gazelles, dik-diks, elands, and impala as they wander across the vast landscape alongside impressive leopards and lions. At night, stay in luxurious tents and listen to the sounds of Africa surrounding you for a peaceful slumber
+             </p>
+            
+                <img alt='Arival' loading='lazy' src={Lewa} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Lewa Safari Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 6
+            </h1>
+            <p className='font-bold mb-2'> LEWA WILDLIFE CONSERVANCY || Deep into the Laikipia  wilderness </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Seize the day to explore a picturesque wildlife reserve with morning and afternoon activities like game drives, horseback rides, and guided bush-walks. Keep an eye out for a diverse array of wild animals including lions, black and white rhinoceroses, elephants, oryxes, and sitatungas. After your adventure, return to the camp to unwind on your private deck while savoring delectable meals and beverages.                            <br/>
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Conserve1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Lewa Safari Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 7
+            </h1>
+            <p className='font-bold mb-2'>MAASAI MARA || a slum dunk destination  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Take a scenic flight over the Great Rift Valley to the Maasai Mara National Reserve and settle into the sophisticated Mara Plains Camp for an intimate two-night retreat. 
+                <br/><br/>Witness, up-close, the remarkable Great Migration, a breathtaking natural spectacle featuring millions of wildlife, including wildebeest, Thomson gazelles, zebras, topi, and eland crossing the Mara River from Tanzania's Serengeti to Kenya's Maasai Mara in search of greener pastures. Embark on an afternoon game drive for an opportunity to observe these incredible wildlife in their natural habitat.                                 
+               </p>
+            
+                <img alt='Arival' loading='lazy' src={Palm} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Mara Plains Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 8
+            </h1>
+            <p className='font-bold mb-2'>MAASAI MARA ||  Big game exploration   </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Witnessing wildlife in the Maasai Mara is always captivating, and on this day, engage in morning, afternoon, and night game drives to explore the Mara ecosystem. Stay vigilant for a chance to encounter the renowned "Big Five" – lions, rhinos, elephants, buffalos, and leopards – as well as rare creatures such as copper-tailed monkeys, crested porcupines, bushbabies, and more. Keep your eyes peeled for these fascinating animals during your safari adventures.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Maara} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Mara Plains Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 9
+            </h1>
+            <p className='font-bold mb-2'>MAASAI MARA || Plan your  day  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Personalize your day by participating in optional activities offered by the camp. You have the option to:
+                                <br/><li>Engage with the Maasai community, visiting their manyattas to learn about their ways of life and traditions. AND/OR</li>
+                                <br/><li>Embark on a hot air balloon journey over the expansive Mara Plains, immersing yourself in its scenic beauty and wildlife. Later, join fellow guests for an evening featuring a sundowner and an elegant dinner. </li>
+                                    <br/>Tailor your experience with these choices to enhance your day at the camp.
+                                          </p>
+            
+                <img alt='Arival' loading='lazy' src={Mara1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Mara Plains Camp</p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 10
+            </h1>
+            <p className='font-bold mb-2'>NAIROBI || Wayward  connection to other parts of the world </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Head back to Nairobi and savor some leisure time during the afternoon in the dayroom exclusively booked for you at the Hemingways Hotel Nairobi. Subsequently, make your way to Jomo Kenyatta International Airport for your international flight.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Kanairo} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
+                </div>
+                <hr className='my-5'/>
+            
+</div>
+}
                 </div>
             </div>
+
+            <div className="mt-10 mb-5">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} arrows style={containerStyle}>
+                        <a href='/kenya/hemingways' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                            <img style={imageStyle} alt="1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/96/6f/5b/hemingways-nairobi.jpg?w=700&h=-1&s=1"/>
+                            <h1 className="font-bold">Hemingways Hotel Nairobi</h1>
+                        </a>
+                        <a href='/kenya/amboseli/tortolis' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://www.elewanacollection.com/images/tca/tortilis-2.jpg" alt="2"/>
+                        <h1 className="font-bold">Elewana Tortilis camp</h1>
+                        </a>
+                        <a href='/kenya/lewa' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://www.andbeyond.com/wp-content/uploads/sites/5/Sitting-Area-at-Lewa-Safari-Camp.jpg" alt="3"/>
+                        <h1 className="font-bold">Lewa Safari Camp</h1>
+                        </a>
+
+                        <a href='/kenya/maraplains' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://www.masaimara.com/assets/img/great-plains-mara-plains-camp.jpg" alt="2"/>
+                        <h1 className="font-bold">Mara plains camp</h1>
+                        </a>
+                        
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
+        </div>
+
+
             <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>

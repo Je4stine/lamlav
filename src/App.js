@@ -196,6 +196,8 @@ function App() {
             <Route path ='/kenya/waine' element ={<Waine/>}/>
             <Route path ='/kenya/hemwatamu' element ={<Watamu/>}/>
             <Route path ='/kenya/kilanguni' element ={<Kilanguni/>}/>
+
+            
             <Route path ='/tanzania/:itemId' element={<DetailsTz/>}/>
             <Route path ='/tanzania/lodge/:campId' element={<Lodges/>}/>
             <Route path='/tanzania/lodges/kilindi' element={<Kilindi/>}/>

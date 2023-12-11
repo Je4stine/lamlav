@@ -5,6 +5,7 @@ import Destination3 from "../../Assets/migr.jpg";
 import Destination4 from "../../Assets/ambo.jpg";
 import Destination5 from '../../Assets/wildness.jpg'
 
+
 import {useNavigate} from 'react-router-dom';
 import Bounce from 'react-reveal/Bounce';
 

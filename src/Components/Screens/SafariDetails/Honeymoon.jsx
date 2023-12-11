@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
@@ -36,6 +36,10 @@ import HemNai from '../../../Assets/HemNai.jpg';
 
 import Arabuko from '../../../Assets/Arabuko.jpg';
 import Partners from "../../Partners";
+import { FaHotel } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick"
 
 const Honeymoon =()=>{
     const data = {
@@ -45,128 +49,63 @@ const Honeymoon =()=>{
                 title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1: ARRIVAL AT NAIROBI || City On the sun </h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
                     <img src={Kanairo} alt=" Mara1" className=" lg:w-1/2"/>
-                    <div> 
-                        <p className="p-5 font-[SourceSerifPro-Black]">Welcome to Africa’s 4th largest city </p>
-                        <p className=" p-5 font-[SourceSerifPro-Regular]">
-                            Your honeymoon begins as you touch down in Kenya’s capital Nairobi. You will be met and received by your Lamlaw Safari director, who will brief you on your safari as you transfer to the lavishly elegant and refined Hemingways hotel, for overnight stay.
-                            <br/>
-                            <br/>
-                        <strong>Accommodation:</strong> <a href="/nairobi">Hemingways hotel Nairobi </a> <br/>
-                        <strong>Meals:</strong> Breakfast, lunch & dinner 
-                        </p>
-                    </div>
+                    
                 </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2: OL PEJETA CONSERVANCY || Deep into the Laikipia wilderness </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Kicheche} alt="Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            <p className="font-[SourceSerifPro-Black]"> </p>
-                            After enjoying a private morning breakfast, you will be transferred to the nearby Wilson aerodrome for a flight to Ol pejeta conservancy, in Laikipia south. Enjoy game drive en route to the amazing Kicheche safari camp, at the heart of Ol Pejeta conservancy, where you will spend four romantic nights! 
-                            <br/><br/>Spend the rest of the day relaxing in camp, while enjoying stunning views of the arresting sceneries and wildlife, all from the comfort of your tent. A late afternoon game drive around the conservancy will give you the first taste of safari, as you will get a chance to spot the lion, rhino, elephant, buffalo, cheetah and the elusive leopard.
-                                <br/>
-                                <br/>
-                            <strong>Accommodation:</strong> <a href="/nairobi">Kicheche Safari Camp </a> <br/>
-                            <strong>Meals:</strong> Breakfast, lunch & dinner 
-                            </p>
+                          
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3: OL PEJETA CONSERVANCY || Excellent game viewing </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Olpe} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Situated in southern Laikipia, Ol Pejeta is an excellent destination for wildlife viewing.This region functions as a migration corridor for elephants and numerous other wild animals, including a substantial number of black rhinos. It is also home to various wildlife, such as cheetahs, lions, leopards, as well as rare species like wild dogs, Grevy's zebras, and reticulated giraffes. 
-                                <br/><br/>Dedicate the day to exploring the region through planned game drives, providing opportunities for awe-inspiring wildlife sightings and enjoying picturesque landscapes. Take breaks for meals and relaxation. As evening falls, guests can indulge in cocktails and local beverages, savoring the breathtaking sunset and gazing at the starry skies before a romantic dinner.
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Kicheche Safari Camp</a><br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: OL PEJETA CONSERVANCY || Plan your day  </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Rhino} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Indulge in a range of activities provided by the camp today. Commence your day with a delightful bush breakfast, followed by a selection of thrilling adventures such as guided walking safaris, camel rides, bird watching, canoeing, hiking, mountain biking, and wildlife tracking. In the afternoon, participate in your chosen activity, and as evening descends, relish a sophisticated open-air bush dinner by a warm campfire.
-                                <br/><br/>  <strong>Accomodations:</strong> <a href="/keekorok">Kicheche Safaric Camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner 
-                                </p>
-                            </div>
+                          
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5:  OL PEJETA CONSERVANCY || Armchair game viewing; day and night game drives; visit chimpanzee sanctuary </strong>,
                 content: <div className=" lg:flex lg:items-center"> 
                             <img src={Chipol} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                After morning bush breakfast, you will have a chance to relax in the camp, enjoying its amenities, stunning hospitality and spectacular views, from the comfort of your tent. Head out on a late afternoon scenic drive and excursion to the only chimpanzee sanctuary. Return to the camp in the evening to indulge in local drinks and a delightful dinner at the camp, followed by an optional night time game drive to catch a glimpse of the elusive leopard and other nocturnal creatures like bush babies, aardvarks, and servals
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Safari  Camp </a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                            
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: NABOISHO CONSERVANCY || within the wilderness of Maasai Mara north conservancy</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Olseki} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Following a delightful champagne breakfast in the bush, take the opportunity to unwind at the camp or embark on an intriguing exploration of the surroundings, perhaps on a horse ride, before lunch. Post-lunch, enjoy the swimming pool or indulge in a spa treatment while awaiting your flight transfer to the magnificent Maasai Mara National Reserve. Upon arrival at Naboishio Conservancy, receive a warm welcome and be chauffeured to the exquisite Ol Seki Hemingway’s Camp in Mara North Conservancy. In the comfort of your tent, relish refreshing cocktails while enjoying wildlife gathering on the Mara River banks for a drink. Later, embark on a late afternoon game drive in the conservancy to explore the Mara ecosystem.
-                             <br/>
-                            <br/>
-                            <stong>Accomodations:</stong><a href="/gour"> Ol Seki Hemingways </a> <br/>
-                            <strong>Meals:</strong> Breakfast, Lunch and Dinner 
-                            </p>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7. NABOISHO CONSERVANCY || Ultimate wildlife spectacle  </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Naboisho} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Spend this day exploring the terrains of the Maasai Mara National Reserve and the Mara triangle, with a romantic picnic hamper.  Experience firsthand, the great wildebeest migration and some breathtaking wildlife spectacles that this region is famed for. Return back in time and enjoy an evening capped with   refreshing local drinks and sundowner, followed by a sumptuous al fresco dinner around an intimate camp fire.
-                                <br/><br/>
-                                 <strong>Accomodations:</strong> <a href="/gour">Ol Seki Hemingways</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                          
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8.WATAMU BAY|| Commingle with the maasai culture and later fly to watamu bay. </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Watamu1} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                On this day, you will set out on an early morning exploration of this remarkable park on a sunrise hot air balloon ride and enjoy a stunning bird’s eye view of some of its arresting sceneries and wildlife. After a leisurely breakfast, you will have a chance to relax in your luxurious tent and later make a maasai cultural visit in the manyattas, for some enthralling camaraderie with the maasai community who live around this park.  After lunch, you will fly to Hemingways Watamu in Malindi, arriving in the evening to enjoy a sundowner on the pristine white sand beaches of Watamu.
-                                <br/><br/>                                
-                                <strong>Accomodations:</strong> <a href="/gour">Hemingways Watamu</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: WATAMU BAY || Romantic sunset dhow to Mida Creek!</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Cruise} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Hemingways Watamu is an iconic tropical paradise on the Kenyan coast sitting right in the middle of the pristine Watamu Marine National Park with its idyllic white sand beach and turquoise waters. Spend this day on the immaculate white sand beaches of Watamu bay, unwinding and relaxing as you walk your way throughout the cocktail menu. In the evening, take a sunset dhow cruise on Mida Creek- a mangrove ecosystem that is a paradise for national waterfowls and migrating birds from Europe and Eurasia.
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Hemingways  Watamu </a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
@@ -174,40 +113,21 @@ const Honeymoon =()=>{
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Scuba} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            You will spend this day sampling some of the numerous activities offered by the resort including; snorkeling over the coral reef, master kite-surfing, diving and scuba diving. Another sunset dhow cruise on Mida Creek is another option you can revisit, as well as  golfing in the nearby world class golf course, vipingo ridge.
-                            <br/><br/>
-                            <strong>Accomodations:</strong> <a href="#jhjh">Hemingways  Watamu</a> <br/>
-                            <strong>Meals:</strong>  Lunch and Dinner 
-                             </p>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 11. MALINDI ||game viewing at Arabuko Sokoke Forest, deep sea fishing and humpback whale excursion</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Arabuko} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                This morning, you will venture out on deep sea fishing, and humpback whale excursion, where you will watch the majestic humpbacks migrating along the coast of east Africa. If time allows, you may take an exhilarating trip to the extraordinary Arabuko Sokoke Forest - home to some of Kenya’s rarest mammals, elephant, brilliant butterflies and saltwater mangroves
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Hemingways  Watamu </a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 12 NAIROBI || Departure</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={HemNai} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Spend this morning visiting the nearby National Marine Park and Watamu turtle sanctuary, before you catch a late afternoon flight to Wilson airport Nairobi. Upon arrival, you will be transferred to hemingways hotel for day room, and later transferred to Jomo Kenyatta international airport for onward connection abroad. 
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Hemingways Nairobi</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                            
                         </div>,
             }
         ],
@@ -227,6 +147,86 @@ const Honeymoon =()=>{
         // arrowIcon: "V",
         // tabFocus: true
     };
+
+    
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+        setDetailed(!detailed)
+      };
+
+      
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+      
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+  
+      const settings = {
+        dots: true,
+          infinite: true,
+          speed: 1500,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          adaptiveHeight: true,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+  
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      };
+  
+      const imageStyle = {
+        width: '100%', // Fixed width
+        height: '400px',
+        objectFit: 'cover',
+      };
+  
+      const containerStyle ={
+        margin: 'auto'
+       
+      }
+
 
 
     return (
@@ -284,10 +284,10 @@ const Honeymoon =()=>{
                             
                         </ul>
                     </div>
-                    <div className=" flex flex-col items-center text-2xl my-10">
+                    {/* <div className=" flex flex-col items-center text-2xl my-10">
                         <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
                         <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className=" p-5 lg:px-[300px]">
@@ -475,16 +475,348 @@ const Honeymoon =()=>{
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
                 <div className=" flex justify-center items-center flex-col ">
-                    
+                    { detailed===false?
                     <div className=" p-5 lg:px-[200px]">
+                    <div onClick={toggleDetails} className='ml-auto w-[250px] font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>
+                        View Detailed Itinerary
+                    </div>
                         <Faq
                             data={data}
                             styles={styles}
                             config={config}
                         />
                     </div>
+
+:
+    <div className=' lg:px-[200px] px-[70px]'>
+    <div className=' flex justify-between'>
+            <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+            <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+        </div>
+        <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 1
+            </h1>
+            <p className='font-bold mb-2'>ARRIVAL AT NAIROBI || City On the sun</p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Your honeymoon begins as you touch down in Kenya’s capital Nairobi. You will be met and received by your Lamlaw Safari director, who will brief you on your safari as you transfer to the lavishly elegant and refined Hemingways hotel, for overnight stay.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Kanairo} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
+            </div>
+            <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 2
+            </h1>
+            <p className='font-bold mb-2'>OL PEJETA CONSERVANCY || Deep into the Laikipia wilderness </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                After enjoying a private morning breakfast, you will be transferred to the nearby Wilson aerodrome for a flight to Ol pejeta conservancy, in Laikipia south. Enjoy game drive en route to the amazing Kicheche safari camp, at the heart of Ol Pejeta conservancy, where you will spend four romantic nights! 
+                            <br/><br/>Spend the rest of the day relaxing in camp, while enjoying stunning views of the arresting sceneries and wildlife, all from the comfort of your tent. A late afternoon game drive around the conservancy will give you the first taste of safari, as you will get a chance to spot the lion, rhino, elephant, buffalo, cheetah and the elusive leopard.
+                                  </p>
+            
+                <img alt='Arival' loading='lazy' src={Kicheche} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
+            </div>
+            <hr className='my-5'/>
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 3
+            </h1>
+            <p className='font-bold mb-2'>OL PEJETA CONSERVANCY || Excellent game viewing </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Situated in southern Laikipia, Ol Pejeta is an excellent destination for wildlife viewing.This region functions as a migration corridor for elephants and numerous other wild animals, including a substantial number of black rhinos. It is also home to various wildlife, such as cheetahs, lions, leopards, as well as rare species like wild dogs, Grevy's zebras, and reticulated giraffes. 
+                                <br/><br/>Dedicate the day to exploring the region through planned game drives, providing opportunities for awe-inspiring wildlife sightings and enjoying picturesque landscapes. Take breaks for meals and relaxation. As evening falls, guests can indulge in cocktails and local beverages, savoring the breathtaking sunset and gazing at the starry skies before a romantic dinner.
+                                         
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Olpe} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+        </div>
+        <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+            <div className='flex items-center'>
+            <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
+            </div>
+            <hr className='my-5'/>
+
+
+
+            
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 4
+            </h1>
+            <p className='font-bold mb-2'>OL PEJETA CONSERVANCY || Plan your day </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Indulge in a range of activities provided by the camp today. Commence your day with a delightful bush breakfast, followed by a selection of thrilling adventures such as guided walking safaris, camel rides, bird watching, canoeing, hiking, mountain biking, and wildlife tracking. In the afternoon, participate in your chosen activity, and as evening descends, relish a sophisticated open-air bush dinner by a warm campfire.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Rhino} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 5
+            </h1>
+            <p className='font-bold mb-2'>OL PEJETA CONSERVANCY || Armchair game viewing; day and night game drives; visit chimpanzee sanctuary </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                After morning bush breakfast, you will have a chance to relax in the camp, enjoying its amenities, stunning hospitality and spectacular views, from the comfort of your tent. Head out on a late afternoon scenic drive and excursion to the only chimpanzee sanctuary. Return to the camp in the evening to indulge in local drinks and a delightful dinner at the camp, followed by an optional night time game drive to catch a glimpse of the elusive leopard and other nocturnal creatures like bush babies, aardvarks, and servals
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Chipol} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Kicheche  Safari  Camp </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 6
+            </h1>
+            <p className='font-bold mb-2'>NABOISHO CONSERVANCY || within the wilderness of Maasai Mara north conservancy </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Following a delightful champagne breakfast in the bush, take the opportunity to unwind at the camp or embark on an intriguing exploration of the surroundings, perhaps on a horse ride, before lunch. Post-lunch, enjoy the swimming pool or indulge in a spa treatment while awaiting your flight transfer to the magnificent Maasai Mara National Reserve. Upon arrival at Naboishio Conservancy, receive a warm welcome and be chauffeured to the exquisite Ol Seki Hemingway’s Camp in Mara North Conservancy. In the comfort of your tent, relish refreshing cocktails while enjoying wildlife gathering on the Mara River banks for a drink. Later, embark on a late afternoon game drive in the conservancy to explore the Mara ecosystem.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Olseki} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 7
+            </h1>
+            <p className='font-bold mb-2'>NABOISHO CONSERVANCY || Ultimate wildlife spectacle </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand.                                 
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Naboisho} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Ol Seki Hemingways </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 8
+            </h1>
+            <p className='font-bold mb-2'>WATAMU BAY|| Commingle with the maasai culture and later fly to watamu bay.   </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                On this day, you will set out on an early morning exploration of this remarkable park on a sunrise hot air balloon ride and enjoy a stunning bird’s eye view of some of its arresting sceneries and wildlife. After a leisurely breakfast, you will have a chance to relax in your luxurious tent and later make a maasai cultural visit in the manyattas, for some enthralling camaraderie with the maasai community who live around this park.  After lunch, you will fly to Hemingways Watamu in Malindi, arriving in the evening to enjoy a sundowner on the pristine white sand beaches of Watamu.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Watamu1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 9
+            </h1>
+            <p className='font-bold mb-2'>WATAMU BAY || Romantic sunset dhow to Mida Creek!  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Hemingways Watamu is an iconic tropical paradise on the Kenyan coast sitting right in the middle of the pristine Watamu Marine National Park with its idyllic white sand beach and turquoise waters. Spend this day on the immaculate white sand beaches of Watamu bay, unwinding and relaxing as you walk your way throughout the cocktail menu. In the evening, take a sunset dhow cruise on Mida Creek- a mangrove ecosystem that is a paradise for national waterfowls and migrating birds from Europe and Eurasia.
+                </p>
+            
+                <img alt='Arival' loading='lazy' src={Cruise} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Hemingways  Watamu </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+            <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 10
+            </h1>
+            <p className='font-bold mb-2'>WATAMDAYU BAY || Snorkeling, scuba diving and Golfing  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                You will spend this day sampling some of the numerous activities offered by the resort including; snorkeling over the coral reef, master kite-surfing, diving and scuba diving. Another sunset dhow cruise on Mida Creek is another option you can revisit, as well as  golfing in the nearby world class golf course, vipingo ridge.
+                 </p>
+            
+                <img alt='Arival' loading='lazy' src={Scuba} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Hemingways  Watamu </p>
+                </div>
+                <hr className='my-5'/>
+
+
+                <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 11
+            </h1>
+            <p className='font-bold mb-2'>MALINDI ||game viewing at Arabuko Sokoke Forest, deep sea fishing and humpback whale excursion  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                This morning, you will venture out on deep sea fishing, and humpback whale excursion, where you will watch the majestic humpbacks migrating along the coast of east Africa. If time allows, you may take an exhilarating trip to the extraordinary Arabuko Sokoke Forest - home to some of Kenya’s rarest mammals, elephant, brilliant butterflies and saltwater mangroves
+                 </p>
+            
+                <img alt='Arival' loading='lazy' src={Arabuko} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Hemingways  Watamu </p>
+                </div>
+                <hr className='my-5'/>
+
+
+
+
+                <div>
+            <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                Day 12
+            </h1>
+            <p className='font-bold mb-2'> NAIROBI || Departure  </p>
+            <hr/>
+            <div className='lg:flex items-center justify-center'>
+            
+                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                Spend this morning visiting the nearby National Marine Park and Watamu turtle sanctuary, before you catch a late afternoon flight to Wilson airport Nairobi. Upon arrival, you will be transferred to hemingways hotel for day room, and later transferred to Jomo Kenyatta international airport for onward connection abroad. 
+                 </p>
+            
+                <img alt='Arival' loading='lazy' src={Scuba} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                
+            </div>
+            </div>
+            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                <div className='flex items-center'>
+                <FaHotel className=' mr-3'/> <p>Hemingways  Nairobi </p>
+                </div>
+                <hr className='my-5'/>
+            
+            </div>
+}
+
                 </div>
             </div> 
+            <div className="mt-10 mb-5">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} arrows style={containerStyle}>
+                        <a href='/kenya/hemingways' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                            <img style={imageStyle} alt="1" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/96/6f/5b/hemingways-nairobi.jpg?w=700&h=-1&s=1"/>
+                            <h1 className="font-bold">Hemingways Nairobi</h1>
+                        </a>
+                        <a href='/kenya/kicheche' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://kicheche.com/wp-content/uploads/2023/01/kicheche-valley-triple-tent.jpg" alt="2"/>
+                        <h1 className="font-bold">Kicheche Safari Camp</h1>
+                        </a>
+                        <a href='/kenya/hemwatamu' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://yellowzebrasafaris.com/media/42611/ol-seki-hemingways-kenya-yellow-zebra-safaris-view.jpg" alt="3"/>
+                        <h1 className="font-bold">Ol Seki Hemingways</h1>
+                        </a>
+                        <a href='/kenya/hemwatamu' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/96/90/cf/hemingways-watamu.jpg?w=700&h=-1&s=1" alt="3"/>
+                        <h1 className="font-bold">Hemingways Watamu</h1>
+                        </a>
+                        
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
+        </div>
                 <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>

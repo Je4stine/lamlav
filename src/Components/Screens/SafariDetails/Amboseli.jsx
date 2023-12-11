@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import Navbar from "../../Navbar/Navreveal";
 
@@ -38,6 +38,10 @@ import Surf from '../../../Assets/Surf.jpg';
 
 import Lava from '../../../Assets/Day8.1.jpg';
 import Partners from "../../Partners";
+import { FaHotel } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick"
 
 const Amboseli =()=>{
     const data = {
@@ -47,136 +51,63 @@ const Amboseli =()=>{
                 title: <strong> <h1 className="  font-[SourceSerifPro-Regular]">DAY 1: ARRIVAL IN NAIROBI || Hemingways Hotel </h1></strong>,
                 content: <div className=" lg:flex lg:items-center">
                     <img src={Heming} alt=" Mara1" className=" lg:w-1/2"/>
-                    <div> 
-                        <p className=" p-5 font-[SourceSerifPro-Regular]">
-                        Your safari expedition begins immediately you touch down in Kenya’s capital Nairobi. You will be received by our Safari  director who will brief you on your safari as you transfer you to Hemingways hotel, for overnight stay. 
-                        <br/>
-                        <br/>
-                        <strong>Accommodation:</strong> <a href="/nairobi">Hemingways hotel Nairobi </a> <br/>
-                        <strong>Meals:</strong> Breakfast, lunch & dinner 
-                        </p>
-                    </div>
+                   
                 </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 2: NAIROBI NATIONAL PARK|| David Shieldrick wildlife trust |giraffe center </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Giraffe} alt="Mara1" className=" lg:w-1/2 "/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Embark on an exciting journey to Nairobi National Park, where you can enjoy a memorable morning with baby orphaned elephants at the David Sheldrick Wildlife Trust. Join the endangered Rothschild’s giraffes for a mid-morning snack at the Giraffe Center, followed by a leisurely lunch at the Carnivore Restaurant. Afterward, return to Hemingway for relaxation, dinner, and an overnight stay
-                              <br/>
-                            <br/>
-                            <strong>Accommodation:</strong> <a href="/nairobi">Hemingways hotel Nairobi</a> <br/>
-                            <strong>Meals:</strong> Breakfast, lunch & dinner 
-                            </p>
+                     
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 3: MAASAI MARA NATIONAL RESERVE || A slum-dunk destination </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Kicheche} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Following breakfast, journey towards the breathtaking Maasai Mara, traversing the picturesque Great Rift Valley. Arrive at Narok town for lunch before continuing the safari. Upon reaching, Kicheche Bush Camp awaits as your luxurious retreat in Kenya's untamed landscapes. Unwind in the camp throughout the day, enjoying a view of the Mara River and wildlife gathering at the watering hole. The captivating sounds and scents of the Mara will enchant and enthrall you.
-
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Mara Camp </a><br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner <br/>
-                                </p>
-                            </div>
+                          
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: MAASAI MARA NATIONAL RESERVE|| Game drives with ultimate wildlife spectacles </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mara1} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                    The Maasai Mara stands out as a premier location in Africa for encountering large felines, with its vast plains serving as the backdrop for the spectacular great wildebeest migration. Spend an entire day exploring the Maasai Mara National Reserve and the Mara Triangle through game drives, accompanied by picnic lunch hampers. Be vigilant and keep your cameras ready, as cheetahs and lions roam the plains, anticipating the migrating wildebeest, while leopards gracefully perch in riverside fig trees—there's an abundance of captivating scenes to witness!
-                                    <br/><br/>                                
-                                    <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Mara Camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner 
-                                </p>
-                            </div>
+                        
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: MAASAI MARA NATIONAL PARK|| Plan  your  day   </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Plan} alt="Mara1" className="lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Kicheche bush camp offers comprehensive activities that are designed to suit your taste and interest. This morning, enjoy a leisurely bush breakfast, and head out on a captivating walking safari around the park, with an opportunity to sight game, including the leopard and some rare species like gerenuk and beisa Oryx. In the afternoon,  you can choose to:
-                                <br/><br/> Take a hot air balloon ride around the park and enjoy a fascinating aerial view of the park and it's abundant wildlife. OR 
-                                <br/><br/> Make a Maasai cultural visit in the manyattas a chance for you to interact with the Maasai community and learn their heritage. 
-                                Return to the camp in the evening for local drinks and refreshing sundowner followed by an elegant al fresco dinner around a camp fire.
-                                <br/>
-                                <br/>
-                                <strong>Accomodations:</strong> <a href="/keekorok">Kicheche  Mara Camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                         
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: TSAVO WEST NATIONAL PARK|| Face to face with man eaters of Tsavo </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Tsavo1} alt=" Mara1" className="lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Following a champagne breakfast in the bush, you will have time to venture out on a final game drive for some classic views, before departing to Tsavo west national park in the afternoon via a scheduled flight. Upon arrival you will be transferred to the luxurious Finch Hatton’s Luxury Tented Camp and the rest of the day is for you to enjoy the Camp's comprehensive facilities, with a five star hospitality around.
-                                                        <br/>
-                            <br/>
-                            <stong>Accomodations:</stong><a href="/gour">Finch Hatton's</a> <br/>
-                            <strong>Meals:</strong> Breakfast, Lunch and Dinner 
-                            </p>
+                          
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 7: TSAVO WEST NATIONAL PARK|| Day long game drives| Shetani lava flows| Shiamu crater</strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Lava} alt="Mara1" className=" lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Tsavo west national park is one of the largest parks in Kenya, famed for its striking geographical formations, animal and bird life. Spend this day exploring the landscapes on day long game drives, with visits to Shetani lava flow and Shiamu crater, returning to the camp in between the drives for lunch and relaxation, before setting out on another game drive. Big games that roam in this park include: large herds of various antelopes, zebras, lions, cheetahs, leopards, buffalos, rhinos, giraffes etcetera. After a game drive, stop in the wild for sundowner and cocktails with spectacular views of Mt. Kilimanjaro. A truly magical experience not to be missed!
-                                <br/><br/>
-                                 <strong>Accomodations:</strong> <a href="/gour">Finch Hatton’s Luxury Tented Camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                           
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 8: TSAVO WEST NATIONAL PARK|| Mzima springs | Ngulia Wildlife Sanctuary </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Mzima} alt="Mara1" className="lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Visit the renowned Mzima springs early in the morning to observe hippos and crocodiles from an underground chamber. This area of the park is lush and provides fresh water for wildlife to gather and drink, as well as a home for aquatic species. It's best to go in the morning as hippos tend to hide during the day. After a relaxing breakfast, take a walk through the fever-tree forest to observe the diverse birdlife and other animals.
-                                <br/><br/>Next, explore the Chyulu and Ngulia hills using the park's animal trails while observing the over 600 bird species that inhabit the area, including the endangered corncrake and Basra reed warbler. 
-                                <br/><br/>Enjoy a picnic lunch before heading to the Ngulia wildlife sanctuary in the late afternoon. This sanctuary is home to endangered rhinos, and you can view them from a panoramic observation point while enjoying a sundowner at the roaring r
-                                <br/><br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Finch Hatton’s Luxury Tented Camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                            
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 9: TSAVO NATIONAL PARK|| bush walks| night game drives </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Finch} alt="Mara1" className="lg:w-1/2"/>
-                            <div>
-                                <p className=" p-5 font-[SourceSerifPro-Regular]">
-                                Start your day with a hearty bush breakfast before venturing into the hinterland on an adventurous bush walk, accompanied by an armed escort. Following lunch, make the most of the camp's amenities for the afternoon.
-
-                                <br/><br/>As evening falls, embark on a night drive to immerse yourself in the nocturnal sounds of Tsavo and marvel at the star-studded sky while observing creatures like leopards, civet cats, genet cats, and bush babies. Stay vigilant throughout the drive for these fascinating nocturnal encounters.
-
-                                <br/>
-                                <br/>
-                                <strong>Accomodations:</strong> <a href="/gour">Finch Hatton’s Luxury Tented Camp</a> <br/>
-                                <strong>Meals:</strong> Breakfast, Lunch and dinner
-                                </p>
-                            </div>
+                            
                         </div>,
             },
             {
@@ -184,11 +115,7 @@ const Amboseli =()=>{
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Medina} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Following a relaxed breakfast, embark on a scenic game drive while exiting the park en route to Mombasa. Upon reaching Mombasa town, savor a leisurely lunch and explore the historic old town before heading to the airport for a brief flight to Malindi. Upon arrival at Malindi airport, you'll be greeted and transferred to the tranquil Medina Palms Resort, where you can unwind and enjoy a four-night stay.                            <br /> <br/>
-                            <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
-                            <strong>Meals:</strong>  Lunch and Dinner 
-                             </p>
+                          
                         </div>,
             },
             {
@@ -196,11 +123,7 @@ const Amboseli =()=>{
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Creek} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Spend this day relaxing and unwinding on the pristine white sand beaches of Watamu, while walking through the cocktail menu. In the evening, take a peaceful sun-downer cruise on Mida Creek, sailing peacefully on a romantic Swahili dhow, through a 32 sq. km tidal estuary lined with mangroves and beaches. There is abundant birdlife in this UNESCO biosphere and stunning views to enjoy along with your delicious cocktail and canopes while watching a spectacular sunset and twinkling skies                            <br/><br/>
-                            <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
-                            <strong>Meals:</strong>  Lunch and Dinner 
-                             </p>
+                            
                         </div>,
             },
             {
@@ -208,13 +131,7 @@ const Amboseli =()=>{
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Surf} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            The Watamu Marine Reserve is home to some of East Africa’s best reefs for snorkeling or diving. Spend this day sampling the various sporting activities offered by medina palms, including water sports such as windsurfing, kayaking and body boarding. You can also go deep diving (if you’re an experienced diver) to explore the turtle reef and high spiking coral heads which attract large shoals of parrot fish. If you are lucky, you may catch sight of the harmless white-tip reef sharks. Big game sport fishing, with experienced fishermen is also available and you can take part in the big four catch, tag and release fishing of marlin, sailfish, swordfish and spearfish. 
-                            <br/><br/>Alternatively you can visit the neighboring Arabuko Sokoke forest, a magical reserve of great natural beauty, and home to the rarest birds, mammals, elephant, brilliant butterflies, trees alive with monkeys and saltwater mangroves.
-                            <br/><br/>
-                            <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
-                            <strong>Meals:</strong>  Lunch and Dinner 
-                             </p>
+                           
                         </div>,
             },
             {
@@ -222,12 +139,7 @@ const Amboseli =()=>{
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Gedi} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Take a mid-morning visit to Watamu turtle sanctuary, and the historical gede ruins in the afternoon. Gede ruins are a 12th Century Swahili village that was mysteriously abandoned some 600 years ago. A guided tour through the ruins and the museum will teach you a lot of interesting things about the fascinating culture of the Swahili people and the ancient town they constructed. Gede is heavily overgrown with beautiful indigenous forest trees, baobabs and tamarind. Take a guided walk along the nature trail network comprising 40 different species of plants and Look out for Syke's Monkeys, and the Golden Rumped Elephant Shrew that are common here.
-                                                        <br/><br/>
-                            <strong>Accomodations:</strong> <a href="#jhjh">Medina  Palms  Resort </a> <br/>
-                            <strong>Meals:</strong>  Lunch and Dinner 
-                             </p>
+                          
                         </div>,
             },
             {
@@ -235,12 +147,7 @@ const Amboseli =()=>{
                 </strong>,
                 content: <div className=" lg:flex lg:items-center">
                             <img src={Hemingways2} alt=" Mara1" className=" lg:w-1/2"/>
-                            <p className=" p-5  font-[SourceSerifPro-Regular]">
-                            Dedicate the day to indulging in the resort's extensive amenities, and in the afternoon, explore the historic town of Malindi before taking an evening flight to Nairobi. Upon landing at Wilson Airport, you'll be transported to the Hemingway Hotel for a day room to relax before your departure flight home.
-                                                        <br/><br/>
-                            <strong>Accomodations:</strong> <a href="#jhjh">Hemingways  hotel  Nairobi  </a> <br/>
-                            <strong>Meals:</strong>  Brakfast and Lunch 
-                             </p>
+                          
                         </div>,
             },
         ],
@@ -261,13 +168,91 @@ const Amboseli =()=>{
         // tabFocus: true
     };
 
+    const [detailed, setDetailed] = useState(false);
+
+    const toggleDetails =()=>{
+        setDetailed(!detailed)
+      };
+
+      
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black", borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+      
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, display: "block", background: "black",borderRadius:50 }}
+            onClick={onClick}
+          />
+        );
+      }
+  
+      const settings = {
+        dots: true,
+          infinite: true,
+          speed: 1500,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          adaptiveHeight: true,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
+  
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+      };
+  
+      const imageStyle = {
+        width: '100%', // Fixed width
+        height: '400px',
+        objectFit: 'cover',
+      };
+  
+      const containerStyle ={
+        margin: 'auto'
+       
+      }
+
 
     return (
         <div className=" bg-white">
             <Navbar/>
             <div className=" relative bg-[#3c0008]">
                 <img src={Mara1} alt=" Mara Camping" className=" m-auto w-full"/>
-                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">LAMLAV BUSH AND BEACH SAFARI </h1>
+                <h1 className=" md:absolute md:bottom-0 text-white text-3xl lg:text-7xl font-[SourceSerifPro-Regular] z-0">KENYA SAFARI AND BEACH HOLIDAY </h1>
             </div>
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div className=" md:mr-10 md:py-20">
@@ -328,10 +313,10 @@ const Amboseli =()=>{
                         </ul>
                     </div>
 
-                    <div className=" flex flex-col items-center text-2xl my-10">
+                    {/* <div className=" flex flex-col items-center text-2xl my-10">
                         <h1 className=" font-[SourceSerifPro-Black] text-red-900">Site map</h1>
                         <img src={Site1} alt="Sample site maps" className=" lg:h-[500px] lg:w-[1200px]"/>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className=" p-5 lg:px-[300px]">
@@ -507,16 +492,416 @@ const Amboseli =()=>{
                 </div>
                 <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
                 <div className=" flex justify-center items-center flex-col ">
+                    {
+                        detailed===false?
                     
                     <div className=" p-5 lg:px-[200px]">
+                    <div onClick={toggleDetails} className='ml-auto w-[250px] font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>
+                        View Detailed Itinerary
+                    </div>
                         <Faq
                             data={data}
                             styles={styles}
                             config={config}
                         />
                     </div>
+
+:
+                    <div className=' lg:px-[200px] px-[70px]'>
+
+                    <div className=' flex justify-between'>
+                                <h1 className=' text-2xl font-bold mb-5'>Itinerary </h1>
+                                <div onClick={toggleDetails} className='font-bold text-lg cursor-pointer bg-orange-500 text-white p-3 rounded-md mb-5'>View Summary Itinerary</div>
+                            </div>
+                            <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 1
+                                </h1>
+                                <p className='font-bold mb-2'> ARRIVAL IN NAIROBI || Hemingways Hotel</p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Your safari expedition begins immediately you touch down in Kenya’s capital Nairobi. You will be received by our Safari  director who will brief you on your safari as you transfer you to Hemingways hotel, for overnight stay. 
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Heming} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                            </div>
+                            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                <div className='flex items-center'>
+                                <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
+                                </div>
+                                <hr className='my-5'/>
+
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 2
+                                </h1>
+                                <p className='font-bold mb-2'>NAIROBI NATIONAL PARK|| David Shieldrick wildlife trust |giraffe center </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Embark on an exciting journey to Nairobi National Park, where you can enjoy a memorable morning with baby orphaned elephants at the David Sheldrick Wildlife Trust. Join the endangered Rothschild’s giraffes for a mid-morning snack at the Giraffe Center, followed by a leisurely lunch at the Carnivore Restaurant. Afterward, return to Hemingway for relaxation, dinner, and an overnight stay
+                                  </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Giraffe} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                            </div>
+                            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                <div className='flex items-center'>
+                                <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
+                                </div>
+                                <hr className='my-5'/>
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 3
+                                </h1>
+                                <p className='font-bold mb-2'>MAASAI MARA NATIONAL RESERVE || A slum-dunk destination</p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Following breakfast, journey towards the breathtaking Maasai Mara, traversing the picturesque Great Rift Valley. Arrive at Narok town for lunch before continuing the safari. Upon reaching, Kicheche Bush Camp awaits as your luxurious retreat in Kenya's untamed landscapes. Unwind in the camp throughout the day, enjoying a view of the Mara River and wildlife gathering at the watering hole. The captivating sounds and scents of the Mara will enchant and enthrall you.
+                                  
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Kicheche} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                            </div>
+                            <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                <div className='flex items-center'>
+                                <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
+                                </div>
+                                <hr className='my-5'/>
+
+
+
+                                
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 4
+                                </h1>
+                                <p className='font-bold mb-2'> MAASAI MARA NATIONAL RESERVE|| Game drives with ultimate wildlife spectacles </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    The Maasai Mara stands out as a premier location in Africa for encountering large felines, with its vast plains serving as the backdrop for the spectacular great wildebeest migration. Spend an entire day exploring the Maasai Mara National Reserve and the Mara Triangle through game drives, accompanied by picnic lunch hampers. Be vigilant and keep your cameras ready, as cheetahs and lions roam the plains, anticipating the migrating wildebeest, while leopards gracefully perch in riverside fig trees—there's an abundance of captivating scenes to witness!
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Mara1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Kicheche Mara Camp </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 5
+                                </h1>
+                                <p className='font-bold mb-2'> MAASAI MARA NATIONAL PARK|| Plan  your  day </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Kicheche bush camp offers comprehensive activities that are designed to suit your taste and interest. This morning, enjoy a leisurely bush breakfast, and head out on a captivating walking safari around the park, with an opportunity to sight game, including the leopard and some rare species like gerenuk and beisa Oryx. In the afternoon,  you can choose to:
+                                <br/><br/> Take a hot air balloon ride around the park and enjoy a fascinating aerial view of the park and it's abundant wildlife. OR 
+                                <br/><br/> Make a Maasai cultural visit in the manyattas a chance for you to interact with the Maasai community and learn their heritage. 
+                                Return to the camp in the evening for local drinks and refreshing sundowner followed by an elegant al fresco dinner around a camp fire.
+                                <br/>
+                                 </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Plan} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 6
+                                </h1>
+                                <p className='font-bold mb-2'>TSAVO WEST NATIONAL PARK|| Face to face with man eaters of Tsavo  </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Following a champagne breakfast in the bush, you will have time to venture out on a final game drive for some classic views, before departing to Tsavo west national park in the afternoon via a scheduled flight. Upon arrival you will be transferred to the luxurious Finch Hatton’s Luxury Tented Camp and the rest of the day is for you to enjoy the Camp's comprehensive facilities, with a five star hospitality around.
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Tsavo1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 7
+                                </h1>
+                                <p className='font-bold mb-2'>TSAVO WEST NATIONAL PARK|| Day long game drives| Shetani lava flows| Shiamu crater  </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Tsavo west national park is one of the largest parks in Kenya, famed for its striking geographical formations, animal and bird life. Spend this day exploring the landscapes on day long game drives, with visits to Shetani lava flow and Shiamu crater, returning to the camp in between the drives for lunch and relaxation, before setting out on another game drive. Big games that roam in this park include: large herds of various antelopes, zebras, lions, cheetahs, leopards, buffalos, rhinos, giraffes etcetera. After a game drive, stop in the wild for sundowner and cocktails with spectacular views of Mt. Kilimanjaro. A truly magical experience not to be missed!
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Lava} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Finch Hatton’s Luxury Tented Camp </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 8
+                                </h1>
+                                <p className='font-bold mb-2'>TSAVO WEST NATIONAL PARK|| Mzima springs | Ngulia Wildlife Sanctuary   </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Visit the renowned Mzima springs early in the morning to observe hippos and crocodiles from an underground chamber. This area of the park is lush and provides fresh water for wildlife to gather and drink, as well as a home for aquatic species. It's best to go in the morning as hippos tend to hide during the day. After a relaxing breakfast, take a walk through the fever-tree forest to observe the diverse birdlife and other animals.
+                                <br/><br/>Next, explore the Chyulu and Ngulia hills using the park's animal trails while observing the over 600 bird species that inhabit the area, including the endangered corncrake and Basra reed warbler. 
+                                <br/><br/>Enjoy a picnic lunch before heading to the Ngulia wildlife sanctuary in the late afternoon. This sanctuary is home to endangered rhinos, and you can view them from a panoramic observation point while enjoying a sundowner at the roaring r
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Mzima} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/><p> Finch Hatton’s Luxury Tented Camp </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 9
+                                </h1>
+                                <p className='font-bold mb-2'>TSAVO NATIONAL PARK|| bush walks| night game drives  </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Start your day with a hearty bush breakfast before venturing into the hinterland on an adventurous bush walk, accompanied by an armed escort. Following lunch, make the most of the camp's amenities for the afternoon.
+
+                                    <br/><br/>As evening falls, embark on a night drive to immerse yourself in the nocturnal sounds of Tsavo and marvel at the star-studded sky while observing creatures like leopards, civet cats, genet cats, and bush babies. Stay vigilant throughout the drive for these fascinating nocturnal encounters.
+                                        </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Finch} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Finch Hatton’s Luxury Tented Camp </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 10
+                                </h1>
+                                <p className='font-bold mb-2'>WATAMU|| Medina palms  </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Following a relaxed breakfast, embark on a scenic game drive while exiting the park en route to Mombasa. Upon reaching Mombasa town, savor a leisurely lunch and explore the historic old town before heading to the airport for a brief flight to Malindi. Upon arrival at Malindi airport, you'll be greeted and transferred to the tranquil Medina Palms Resort, where you can unwind and enjoy a four-night stay.                            <br /> <br/>
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Medina} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+
+                                    <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 11
+                                </h1>
+                                <p className='font-bold mb-2'>WATAMU|| Mida Creek </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Spend this day relaxing and unwinding on the pristine white sand beaches of Watamu, while walking through the cocktail menu. In the evening, take a peaceful sun-downer cruise on Mida Creek, sailing peacefully on a romantic Swahili dhow, through a 32 sq. km tidal estuary lined with mangroves and beaches. There is abundant birdlife in this UNESCO biosphere and stunning views to enjoy along with your delicious cocktail and canopes while watching a spectacular sunset and twinkling skies                            <br/><br/>
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Creek} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+                                    <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 12
+                                </h1>
+                                <p className='font-bold mb-2'>WATAMU||ArabukoSokoke forest| big game sport fishing|snorkeling|windsurfing|diving  </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Following a relaxed breakfast, embark on a scenic game drive while exiting the park en route to Mombasa. Upon reaching Mombasa town, savor a leisurely lunch and explore the historic old town before heading to the airport for a brief flight to Malindi. Upon arrival at Malindi airport, you'll be greeted and transferred to the tranquil Medina Palms Resort, where you can unwind and enjoy a four-night stay.                            <br /> <br/>
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Surf} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+
+                                
+                                
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 13
+                                </h1>
+                                <p className='font-bold mb-2'> WATAMU|| Watamu Turtle sunctuary|Gede ruins  </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                            Take a mid-morning visit to Watamu turtle sanctuary, and the historical gede ruins in the afternoon. Gede ruins are a 12th Century Swahili village that was mysteriously abandoned some 600 years ago. A guided tour through the ruins and the museum will teach you a lot of interesting things about the fascinating culture of the Swahili people and the ancient town they constructed. Gede is heavily overgrown with beautiful indigenous forest trees, baobabs and tamarind. Take a guided walk along the nature trail network comprising 40 different species of plants and Look out for Syke's Monkeys, and the Golden Rumped Elephant Shrew that are common here.
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Gedi} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
+                                    </div>
+                                    <hr className='my-5'/>
+
+
+                                
+                                
+                                
+                                <div>
+                                <h1 className=' font-semibold text-xl mb-5 text-orange-500'>
+                                    Day 14
+                                </h1>
+                                <p className='font-bold mb-2'> DEPARTURE||Day room at Hemingways Nairobi  </p>
+                                <hr/>
+                                <div className='lg:flex items-center justify-center'>
+                                
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    Dedicate the day to indulging in the resort's extensive amenities, and in the afternoon, explore the historic town of Malindi before taking an evening flight to Nairobi. Upon landing at Wilson Airport, you'll be transported to the Hemingway Hotel for a day room to relax before your departure flight home.
+                                    </p>
+                                
+                                    <img alt='Arival' loading='lazy' src={Hemingways2} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    
+                                </div>
+                                </div>
+                                <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
+                                    <div className='flex items-center'>
+                                    <FaHotel className=' mr-3'/> <p>Hemingways  hotel  Nairobi </p>
+                                    </div>
+                                    <hr className='my-5'/>
+                                
+                    </div>
+                    }
                 </div>
+            
             </div> 
+            <div className="mt-10 mb-5">
+          
+          <div className="relative mt-20 z-[0] m-auto w-[80%]">
+          <h1 className='font-[SourceSerifPro-Black] text-2xl'>Hotels & Lodges</h1>
+                    <Slider {...settings} arrows style={containerStyle}>
+                        <a href='/kenya/hemingways' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                            <img style={imageStyle} alt="1" src="https://www.kenyawildlifetours.com/wp-content/uploads/2021/11/01-hemingways_nairobi-lobby_stairway_entrance_day-kenya.jpg.1920x500_q70_crop-scale.jpg"/>
+                            <h1 className="font-bold">Hemingways hotel</h1>
+                        </a>
+                        <a href='/kenya/kicheche' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://kicheche.com/wp-content/uploads/2018/07/kbc-inside-tent.jpg" alt="2"/>
+                        <h1 className="font-bold">Kicheche Safari Camp</h1>
+                        </a>
+                        <a href='/kenya/finch' className="w-1/2 mr-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://finchhattons.com/wp-content/uploads/2023/02/A-Tour-of-our-Luxury-Tented-Suites.png" alt="3"/>
+                        <h1 className="font-bold">Finch Hattons Luxury Tented Camp</h1>
+                        </a>
+
+                        <a href='/kenya/medina' className="w-1/2 ml-5 cursor-pointer hover:text-orange-500">
+                        <img style={imageStyle} src="https://www.medinapalms.com/uploads/files/_1200x630_crop_center-center_82_none/26079/Medina-Palms-Home.png?mtime=1693206149" alt="2"/>
+                        <h1 className="font-bold">Medina palms</h1>
+                        </a>
+                        
+                        {/* <div>
+                        <img src="" alt="4"/>
+                        <h1 className="font-bold"></h1>
+                        </div> */}
+                    </Slider>
+                </div>
+        </div>
+
+
+
+
+
             <Partners/>
                 <img src={require('../../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
             <Footer/>
