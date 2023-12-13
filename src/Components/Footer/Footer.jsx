@@ -46,7 +46,7 @@ const Footer =()=>{
                          <FaFacebook color='#fff' size={25}/>
                          <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
                     </a>
-                    <a href='https://www.instagram.com/' className='flex items-center '>
+                    <a href='https://www.instagram.com/lamlavsafaris/' className='flex items-center '>
                          <FaInstagramSquare color=' #fff' size={25}/>
                          <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
                     </a>
@@ -54,11 +54,11 @@ const Footer =()=>{
                          <AiFillTwitterCircle color=' #fff' size={25}/>
                          <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
                     </a>
-                    <a href='www.youtube.com/@LamlavLeisureSafaris' className='flex items-center '>
+                    <a href='https://www.youtube.com/@LamlavLeisureSafaris' className='flex items-center '>
                          <FaYoutube color=' #fff' size={25}/>
                          <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
                     </a>
-                    <a href='www.linkedin.com/in/lamlav-leisure-safaris-4a7a422a4' className='flex items-center '>
+                    <a href='https://www.linkedin.com/in/lamlav-leisure-safaris-4a7a422a4' className='flex items-center '>
                          <FaLinkedin color=' #fff' size={25}/>
                          <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
                     </a>
