@@ -617,7 +617,7 @@ function UgandaFamily() {
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/boma' className='flex items-center underline'>
+                <a href='/uganda/lodges/boma' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Boma Hotel Entebbe </p>
                 </a>
                 <hr className='my-5'/>
@@ -638,7 +638,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/wildwaters' className='flex items-center underline'>
+                <a href='/uganda/lodges/wildwaters' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
                 </a>
                 <hr className='my-5'/>
@@ -659,7 +659,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/wildwaters' className='flex items-center underline'>
+                <a href='/uganda/lodges/wildwaters' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
                 </a>
                 <hr className='my-5'/>
@@ -681,7 +681,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/wildwaters' className='flex items-center underline'>
+                <a href='/uganda/lodges/wildwaters' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
                 </a>
                 <hr className='my-5'/>
@@ -704,7 +704,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/mweya' className='flex items-center underline'>
+                <a href='/uganda/lodges/mweya' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Mweya Safari Lodge.   </p>
                 </a>
                 <hr className='my-5'/>
@@ -726,7 +726,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/mweya' className='flex items-center underline'>
+                <a href='/uganda/lodges/mweya' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Mweya Safari Lodge.   </p>
                 </a>
                 <hr className='my-5'/>
@@ -749,7 +749,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/ishasha' className='flex items-center underline'>
+                <a href='/uganda/lodges/ishasha' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
                 </a>
                 <hr className='my-5'/>
@@ -772,7 +772,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/ishasha' className='flex items-center underline'>
+                <a href='/uganda/lodges/ishasha' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
                 </a>
                 <hr className='my-5'/>
@@ -794,7 +794,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/mahogany' className='flex items-center underline'>
+                <a href='/uganda/lodges/mahogany' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Mahogany Springs   </p>
                 </a>
                 <hr className='my-5'/>
@@ -817,7 +817,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/mahogany' className='flex items-center underline'>
+                <a href='/uganda/lodges/mahogany' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Mahogany Springs   </p>
                 </a>
                 <hr className='my-5'/>
@@ -840,7 +840,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/mahogany' className='flex items-center underline'>
+                <a href='/uganda/lodges/mahogany' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Mahogany Springs   </p>
                 </a>
                 <hr className='my-5'/>
@@ -862,7 +862,7 @@ function UgandaFamily() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/uganda/lodges/boma' className='flex items-center underline'>
+                <a href='/uganda/lodges/boma' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>  Boma Hotel Entebbe    </p>
                 </a>
                 <hr className='my-5'/>

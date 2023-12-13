@@ -513,7 +513,7 @@ const Honeymoon =()=>{
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemingways' className='flex items-center underline'>
+            <a href='/kenya/hemingways' className='flex items-center underline decoration-orange-500'>
             <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
             </a>
             <hr className='my-5'/>
@@ -538,7 +538,7 @@ const Honeymoon =()=>{
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/kicheche' className='flex items-center underline'>
+            <a href='/kenya/kicheche' className='flex items-center underline decoration-orange-500'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
             <hr className='my-5'/>
@@ -563,7 +563,7 @@ const Honeymoon =()=>{
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-        <a href='/kenya/kicheche' className='flex items-center underline'>
+        <a href='/kenya/kicheche' className='flex items-center underline decoration-orange-500'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
             <hr className='my-5'/>
@@ -588,7 +588,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/kicheche' className='flex items-center underline'>
+            <a href='/kenya/kicheche' className='flex items-center underline decoration-orange-500'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
                 <hr className='my-5'/>
@@ -612,7 +612,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/kicheche' className='flex items-center underline'>
+            <a href='/kenya/kicheche' className='flex items-center underline decoration-orange-500'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
                 <hr className='my-5'/>
@@ -636,7 +636,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/' className='flex items-center underline'>
+                <a href='/' className='flex items-center underline decoration-orange-500'>
                 <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
                 </a>
                 <hr className='my-5'/>
@@ -660,7 +660,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/kenya/hemwatamu' className='flex items-center underline'>
+                <a href='/kenya/hemwatamu' className='flex items-center underline decoration-orange-500'>
                 <FaHotel className=' mr-3'/> <p>Ol Seki Hemingways </p>
                 </a>
                 <hr className='my-5'/>
@@ -684,7 +684,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/kenya/hemwatamu' className='flex items-center underline'>
+                <a href='/kenya/hemwatamu' className='flex items-center underline decoration-orange-500'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -709,7 +709,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemwatamu' className='flex items-center underline'>
+            <a href='/kenya/hemwatamu' className='flex items-center underline decoration-orange-500'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -733,7 +733,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemwatamu' className='flex items-center underline'>
+            <a href='/kenya/hemwatamu' className='flex items-center underline decoration-orange-500'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -756,7 +756,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemwatamu' className='flex items-center underline'>
+            <a href='/kenya/hemwatamu' className='flex items-center underline decoration-orange-500'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -781,7 +781,7 @@ const Honeymoon =()=>{
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/kenya/hemingways' className='flex items-center underline'>
+                <a href='/kenya/hemingways' className='flex items-center underline decoration-orange-500'>
                 <FaHotel className=' mr-3'/> <p>Hemingways  Nairobi </p>
                 </a>
                 <hr className='my-5'/>

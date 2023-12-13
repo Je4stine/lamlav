@@ -533,7 +533,7 @@ const Amboseli =()=>{
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/hemingways' className='flex items-center underline'>
+                                <a href='/kenya/hemingways' className='flex items-center underline decoration-orange-500'>
                                 <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -557,7 +557,7 @@ const Amboseli =()=>{
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                            <a href='/kenya/hemingways' className='flex items-center underline'>
+                            <a href='/kenya/hemingways' className='flex items-center underline decoration-orange-500'>
                                 <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -581,7 +581,7 @@ const Amboseli =()=>{
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/kicheche' className='flex items-center underline'>
+                                <a href='/kenya/kicheche' className='flex items-center underline decoration-orange-500'>
                                 <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -606,7 +606,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/kicheche' className='flex items-center underline'>
+                                <a href='/kenya/kicheche' className='flex items-center underline decoration-orange-500'>
                                 <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
                                 </a>
                                     <hr className='my-5'/>
@@ -634,7 +634,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/kicheche' className='flex items-center underline'>
+                                <a href='/kenya/kicheche' className='flex items-center underline decoration-orange-500'>
                                 <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
                                 </a>
                                     <hr className='my-5'/>
@@ -658,7 +658,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <a href='/kenya/finch' className='flex items-center underline'>
+                                    <a href='/kenya/finch' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -682,7 +682,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/finch' className='flex items-center underline'>
+                                <a href='/kenya/finch' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -708,7 +708,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/finch' className='flex items-center underline'>
+                                <a href='/kenya/finch' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -735,7 +735,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/finch' className='flex items-center underline'>
+                                <a href='/kenya/finch' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -759,7 +759,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <a href='/kenya/medina' className='flex items-center underline'>
+                                    <a href='/kenya/medina' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -784,7 +784,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/medina' className='flex items-center underline'>
+                                <a href='/kenya/medina' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -808,7 +808,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/medina' className='flex items-center underline'>
+                                <a href='/kenya/medina' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -834,7 +834,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/medina' className='flex items-center underline'>
+                                <a href='/kenya/medina' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -860,7 +860,7 @@ const Amboseli =()=>{
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <a href='/kenya/hemingways' className='flex items-center underline'>
+                                    <a href='/kenya/hemingways' className='flex items-center underline decoration-orange-500'>
                                     <FaHotel className=' mr-3'/> <p>Hemingways  hotel  Nairobi </p>
                                     </a>
                                     <hr className='my-5'/>

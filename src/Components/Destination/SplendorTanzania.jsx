@@ -560,7 +560,7 @@ function SplendorTanzania() {
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/tanzania/lodges/coffee" className='flex items-center underline'>
+                <a href="/tanzania/lodges/coffee" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Arusha  Coffee  Lodge  </p>
                 </a>
                 <hr className='my-5'/>
@@ -582,7 +582,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/tanzania/lodges/coffee" className='flex items-center underline'>
+                <a href="/tanzania/lodges/coffee" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Arusha  Coffee  Lodge  </p>
                 </a>
                 <hr className='my-5'/>
@@ -605,7 +605,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/tanzania/lodges/treetop' className='flex items-center underline'>
+                <a href='/tanzania/lodges/treetop' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Tarangire Treetops Lodge</p>
                 </a>
                 <hr className='my-5'/>
@@ -628,7 +628,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/tanzania/lodges/treetop' className='flex items-center underline'>
+                <a href='/tanzania/lodges/treetop' className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Tarangire Treetops Lodge</p>
                 </a>
                 <hr className='my-5'/>
@@ -654,7 +654,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/tanzania/lodges/manor" className='flex items-center underline'>
+                <a href="/tanzania/lodges/manor" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Manor At Ngorongoro  </p>
                 </a>
                 <hr className='my-5'/>
@@ -677,7 +677,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/tanzania/lodges/manor" className='flex items-center underline'>
+                <a href="/tanzania/lodges/manor" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p>Manor At Ngorongoro  </p>
                 </a>
                 <hr className='my-5'/>
@@ -702,7 +702,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/" className='flex items-center underline'>
+                <a href="/" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Migration  Camp   </p>
                 </a>
                 <hr className='my-5'/>
@@ -724,7 +724,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/" className='flex items-center underline'>
+                <a href="/" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Migration  Camp   </p>
                 </a>
                 <hr className='my-5'/>
@@ -746,7 +746,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/" className='flex items-center underline'>
+                <a href="/" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Migration  Camp   </p>
                 </a>
                 <hr className='my-5'/>
@@ -770,7 +770,7 @@ function SplendorTanzania() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/tanzania/lodges/coffee" className='flex items-center underline'>
+                <a href="/tanzania/lodges/coffee" className='flex items-center underline decoration-orange-500'>
                  <FaHotel className=' mr-3'/> <p> Arusha  Coffee  Lodge   </p>
                 </a>
                 <hr className='my-5'/>
