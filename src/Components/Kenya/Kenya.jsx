@@ -69,10 +69,10 @@ const Kenya = ()=>{
             <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays to Kenya </h1>
             <section className="my-10 lg:px-[80px] px-2">
               <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
-                  <a href="/mara" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                  <a href="/migration" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
                     <img alt="Safari" src="https://live.staticflickr.com/65535/48543931301_2680b59709_b.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
                     <div>
-                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Mara Serengeti Safari</h1>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Mara Serengeti Great Migration Safari</h1>
                         <p className="font-[SourceSerifPro-Regular]"> <em>Presenting an exceptionally memorable and unabashedly luxurious safari experience within the Mara and Serengeti ecosystems.</em></p>
                         <p className="font-[SourceSerifPro-Black] my-10">
                           10days/9 nights from $ 9,700 per person
@@ -80,7 +80,7 @@ const Kenya = ()=>{
                     </div>
                   </a>
 
-                  <a href="/migration" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
+                  <a href="/mara" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
                     <img alt="Safari" src="https://www.asiliaafrica.com/media/kvmdsaks/ubuntu-migration-camp-game-drive.jpg?width=0&format=webp&quality=60&rnd=132271987049770000&mode=crop" className="lg:w-1/3 w-1/2 mr-3"/>
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Great Migration Safari</h1>
@@ -105,7 +105,7 @@ const Kenya = ()=>{
                   <a href="/amboseli" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
                     <img alt="Safari" src="https://skyviewofafrica.com/wp-content/uploads/2020/08/kruger-national-park-pic.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
                     <div>
-                      <h1 className=" font-[SourceSerifPro-Black] mb-10">4. Kenya Bush and Beach Safari</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">4. Kenya Safari & Beach Holiday</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em>Explore the Kenyan wildlife havens in Style.</em></p>
                       <p className="font-[SourceSerifPro-Black] my-10">
                         14Days/13Nights tour from $17,400 per person.

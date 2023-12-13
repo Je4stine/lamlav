@@ -240,7 +240,7 @@ const Honeymoon =()=>{
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div className=" md:mr-10 md:py-20">
                     <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white md:flex-wrap">Kenya: Nairobi, Maasai Mara Game reserve, Serengeti National Park, Watamu</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white md:flex-wrap">Kenya: Nairobi, Ol Pejeta, Maasai Mara Game reserve, Serengeti National Park, Watamu</p>
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
