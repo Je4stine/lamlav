@@ -108,7 +108,7 @@ function SafariDeets() {
             <img src="https://cdn.kimkim.com/files/a/images/4ae80a4bbd736d119a07254e1b141c78a3c28341/original-791d0a79388bd3274678e278870f6d2b.jpg" alt="Destination images" className=' lg:w-1/2 object-cover'/>
             <div className=' px-5 pb-5 lg:w-1/2'>
                 <h1 className=' font-[SourceSerifPro-Black] text-xl my-5 text-red-900'>Spirit of Uganda</h1>
-                <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Explore the marvels of Uganda witha a hint of indulgence </h2>
+                <h2 className=' text-lg italic font-bold mb-10 text-red-900'> Explore the marvels of Uganda with a hint of indulgence </h2>
                 <p className=' font-[SourceSerifPro-Regular]'>
                 This expedition is customized specifically for safari enthusiasts seeking a thorough exploration of the diverse  landscapes  of Uganda and it's  amazing  game and/or  primates.  
                 </p>

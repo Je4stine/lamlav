@@ -32,6 +32,7 @@ import { FaHotel } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"
+import {ImCheckmark} from 'react-icons/im';
 
 const Migration =()=>{
     const data = {
@@ -344,7 +345,9 @@ const Migration =()=>{
                     </table>
                 </div>
             </div>
-                <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
+            <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                 
                 <div className=" lg:flex lg: justify-between p-5">
                         <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -448,16 +451,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Arrival and transfer to one of Kenya’s most luxurious hotels in the city, the Norfolk Hotel Nairobi, for a leisurely two-night stay.               
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Kanairo} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Kanairo} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href="/kenya/norfolk" className='flex items-center'>
+                                <a href="/kenya/norfolk" className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -472,17 +475,17 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Following a relaxed morning breakfast, journey to the David Sheldrick Wildlife Trust near Nairobi National Park. Here, you'll have the chance to intimately connect with orphaned elephants and potentially adopt a baby elephant.
                                     <br/><br/>In the afternoon, engage with the world's tallest species at the renowned Giraffe Center, which houses the endangered Rothschild's giraffe. Notably, this wildlife sanctuary is uniquely situated within a city, approximately 5 kilometers from the city center. Conclude your day with a visit to the National Museums of Kenya before enjoying dinner and unwinding at the Norfolk Hotel.
                                     <br/>                                    </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Giraffe} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Giraffe} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                            <a href="/kenya/norfolk" className='flex items-center'>
+                            <a href="/kenya/norfolk" className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -496,17 +499,17 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     After a relaxed breakfast, you'll be transported to Wilson Airport for a morning flight to the Maasai Mara National Reserve. Upon arrival, our representative will warmly greet you and facilitate your transfer to the luxurious Keekorok Lodge for a three-night stay. Enjoy a delightful lunch in the bush before embarking on an afternoon game drive, returning to the lodge as the sun sets.
                                   
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Mara1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Mara1} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href="/kenya/keekorok" className='flex items-center'>
+                                <a href="/kenya/keekorok" className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -522,16 +525,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Embark on early morning and afternoon game drives to explore an expansive area spanning over 600 square miles, encompassing savannas, woodlands, and tree-lined rivers. Keep a keen eye out during these drives to witness a diverse array of animal species, creating an enduringly captivating experience. Encounter the awe-inspiring Great Migration of wildebeest and other breathtaking wildlife spectacles from the comfort of 4x4 vehicles. Observe sunbathing crocodiles, alert hippos in muddy waters, and playful antics of mischievous monkeys overhead. Marvel at African elephants gracefully moving along the forest's edge and giraffes extending their necks to reach leaves from lofty branches.                                  
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Keekorok} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Keekorok} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href="/kenya/keekorok" className='flex items-center'>
+                                <a href="/kenya/keekorok" className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
                                 </a>
                                     <hr className='my-5'/>
@@ -546,16 +549,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Set out on an early morning game drive, and then, afterwards, sample some of the activities offered by the camp: You can take a breathtaking hot air balloon ride over the Mara Plains, join a guided bird walk to observe the diverse bird species in the area, engage in the art of beading with the Maasai tribe to craft your jewelry, or test your skills with Maasai warriors by trying your hand at their traditional hunting club. Later, participate in a late-afternoon game drive before relishing a scenic sundowner with traditional cocktails while appreciating the picturesque open plains at dusk.
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Loudge} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Loudge} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href="/kenya/keekorok" className='flex items-center'>
+                                <a href="/kenya/keekorok" className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Keekorok Lodge </p>
                                 </a>
                                     <hr className='my-5'/>
@@ -570,16 +573,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     We will fly to the Serengeti through Nairobi and Arusha in Tanzania and arrive at the celebrated Four Seasons Safari Lodge, located on a beautiful set of kopjes and offering breathtaking views of the golden plains. The Serengeti is renowned for its large lion population, together with 500 bird species and over 70 mammals, including elephants, cheetahs, gazelles, wildebeests, zebras, giraffes, lions, rhinos, and many other species. At Serengeti, you will witness an epic spectacle of the great migration of millions of wildebeest, zebras, gazelles, buffalos, giraffes, and other animal species crossing the Mara River in search of the sprouting pasture on the Kenyan Maasai Mara.
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Fours} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Fours} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <div className='flex items-center'>
+                                    <div className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
                                     </div>
                                     <hr className='my-5'/>
@@ -594,16 +597,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand.                                 
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Hot} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Hot} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <div className='flex items-center'>
+                                    <div className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
                                     </div>
                                     <hr className='my-5'/>
@@ -618,16 +621,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Spend this day on an excursion visit to the great wildlife haven of Ngorongoro Crater and the famed Mara River, to observe wildlife in their most active state. The crater floor, which spans over 100 square miles, is an ideal location for observing the numerous species that inhabit the area, including buffalo and elephants. You may also be lucky enough to spot flamingos (during their season) or the elusive black rhino
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Ngoro} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Ngoro} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <div className='flex items-center'>
+                                    <div className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
                                     </div>
                                     <hr className='my-5'/>
@@ -643,16 +646,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Set out for an early morning game drive and return to the lodge to sample the various activities on offer: guided nature walks, bird watching, riding on horseback, cultural visits at the manyattas, and the spectacular hot air balloon rides.
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Ngoro1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Ngoro1} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <div className='flex items-center'>
+                                    <div className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
                                     </div>
                                     <hr className='my-5'/>
@@ -667,16 +670,16 @@ const Migration =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     After a hearty morning breakfast, you will depart for a flight to Kenya’s capital, Nairobi, and a subsequent transfer to the Norfolk Hotel for day room service and a meal before you catch a flight back.                            ,<br /> <br/>
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Hot} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Hot} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <a href="/kenya/norfolk" className='flex items-center'>
+                                    <a href="/kenya/norfolk" className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Norfolk  hotel  Nairobi </p>
                                     </a>
                                     <hr className='my-5'/>

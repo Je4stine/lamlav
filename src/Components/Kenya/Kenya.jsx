@@ -66,7 +66,7 @@ const Kenya = ()=>{
                 </p>
               </div>
             </section>
-            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
+            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays to Kenya </h1>
             <section className="my-10 lg:px-[80px] px-2">
               <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
                   <a href="/mara" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
@@ -74,7 +74,9 @@ const Kenya = ()=>{
                     <div>
                         <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Mara Serengeti Safari</h1>
                         <p className="font-[SourceSerifPro-Regular]"> <em>Presenting an exceptionally memorable and unabashedly luxurious safari experience within the Mara and Serengeti ecosystems.</em></p>
-                         
+                        <p className="font-[SourceSerifPro-Black] my-10">
+                          10days/9 nights from $ 9,700 per person
+                        </p>
                     </div>
                   </a>
 
@@ -83,7 +85,9 @@ const Kenya = ()=>{
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Great Migration Safari</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em>Experience the pulse of nature and the grandeur of wildlife in a seamless exploration of diverse landscapes. </em></p>
-                       
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                          10days/9nights, from $9,127 per person.
+                        </p>
                     </div>
                   </a>
 
@@ -92,7 +96,9 @@ const Kenya = ()=>{
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">3. Lamlav Honeymoon Safari</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em> An adventure that feeds your Soul</em></p>
-                       
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                          12days/11Nights from $ 13,055 per person.
+                        </p>
                     </div>
                   </a>
 
@@ -101,7 +107,10 @@ const Kenya = ()=>{
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">4. Kenya Bush and Beach Safari</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em>Explore the Kenyan wildlife havens in Style.</em></p>
-                       
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                        14Days/13Nights tour from $17,400 per person.
+                        </p>
+                     
                       </div>
                   </a>
                   <a href="/wilderness" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
@@ -109,7 +118,9 @@ const Kenya = ()=>{
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">5.Great Wilderness safari </h1>
                       <p className="font-[SourceSerifPro-Regular]"><em> A truly indulgent and quintessential Kenyan Safari experience.</em></p>
-                    
+                      <p className="font-[SourceSerifPro-Black] my-10">
+                          10days/9nights, from $13,241.00 per person.
+                        </p>
                        </div>
                   </a>
                   <a href="/safaris" className="flex flex-col items-center text-orange-500 h-[50px] mt-[50px] lg:mt-[100px] p-3 border border-black rounded-md hover:bg-orange-500 hover:text-white hover:border-white duration-500 font-[SourceSerifPro-Black]">

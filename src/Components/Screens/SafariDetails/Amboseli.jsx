@@ -42,6 +42,7 @@ import { FaHotel } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"
+import {ImCheckmark} from 'react-icons/im'
 
 const Amboseli =()=>{
     const data = {
@@ -71,21 +72,21 @@ const Amboseli =()=>{
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 4: MAASAI MARA NATIONAL RESERVE|| Game drives with ultimate wildlife spectacles </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Mara1} alt="Mara1" className=" lg:w-1/2"/>
+                            <img src="https://www.maasaimarakenyapark.com/wp-content/uploads/2019/12/Game-Drives-in-Masai-Mara-National-Reserve.jpg" alt="Mara1" className=" lg:w-1/2"/>
                         
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 5: MAASAI MARA NATIONAL PARK|| Plan  your  day   </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Plan} alt="Mara1" className="lg:w-1/2"/>
+                            <img src="https://kicheche.com/wp-content/uploads/2018/06/mara-3-nights.jpg" alt="Mara1" className="lg:w-1/2"/>
                          
                         </div>,
             },
             {
                 title: <strong className="  font-[SourceSerifPro-Regular]">DAY 6: TSAVO WEST NATIONAL PARK|| Face to face with man eaters of Tsavo </strong>,
                 content: <div className=" lg:flex lg:items-center">
-                            <img src={Tsavo1} alt=" Mara1" className="lg:w-1/2"/>
+                            <img src="https://www.tsavonationalparkkenya.com/wp-content/uploads/2022/02/35.jpg" alt=" Mara1" className="lg:w-1/2"/>
                           
                         </div>,
             },
@@ -415,7 +416,9 @@ const Amboseli =()=>{
                 </div>
             </div>
             
-                <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
+            <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                 
                 <div className=" lg:flex lg: justify-between p-5">
                         <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -521,16 +524,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Your safari expedition begins immediately you touch down in Kenya’s capital Nairobi. You will be received by our Safari  director who will brief you on your safari as you transfer you to Hemingways hotel, for overnight stay. 
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Heming} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Heming} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/hemingways' className='flex items-center'>
+                                <a href='/kenya/hemingways' className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -545,16 +548,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Embark on an exciting journey to Nairobi National Park, where you can enjoy a memorable morning with baby orphaned elephants at the David Sheldrick Wildlife Trust. Join the endangered Rothschild’s giraffes for a mid-morning snack at the Giraffe Center, followed by a leisurely lunch at the Carnivore Restaurant. Afterward, return to Hemingway for relaxation, dinner, and an overnight stay
                                   </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Giraffe} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Giraffe} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                            <a href='/kenya/hemingways' className='flex items-center'>
+                            <a href='/kenya/hemingways' className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -568,17 +571,17 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Following breakfast, journey towards the breathtaking Maasai Mara, traversing the picturesque Great Rift Valley. Arrive at Narok town for lunch before continuing the safari. Upon reaching, Kicheche Bush Camp awaits as your luxurious retreat in Kenya's untamed landscapes. Unwind in the camp throughout the day, enjoying a view of the Mara River and wildlife gathering at the watering hole. The captivating sounds and scents of the Mara will enchant and enthrall you.
                                   
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Kicheche} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Kicheche} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                             </div>
                             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/kicheche' className='flex items-center'>
+                                <a href='/kenya/kicheche' className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
                                 </a>
                                 <hr className='my-5'/>
@@ -594,16 +597,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     The Maasai Mara stands out as a premier location in Africa for encountering large felines, with its vast plains serving as the backdrop for the spectacular great wildebeest migration. Spend an entire day exploring the Maasai Mara National Reserve and the Mara Triangle through game drives, accompanied by picnic lunch hampers. Be vigilant and keep your cameras ready, as cheetahs and lions roam the plains, anticipating the migrating wildebeest, while leopards gracefully perch in riverside fig trees—there's an abundance of captivating scenes to witness!
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Mara1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src="https://www.maasaimarakenyapark.com/wp-content/uploads/2019/12/Game-Drives-in-Masai-Mara-National-Reserve.jpg" className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/kicheche' className='flex items-center'>
+                                <a href='/kenya/kicheche' className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
                                 </a>
                                     <hr className='my-5'/>
@@ -618,7 +621,7 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Kicheche bush camp offers comprehensive activities that are designed to suit your taste and interest. This morning, enjoy a leisurely bush breakfast, and head out on a captivating walking safari around the park, with an opportunity to sight game, including the leopard and some rare species like gerenuk and beisa Oryx. In the afternoon,  you can choose to:
                                 <br/><br/> Take a hot air balloon ride around the park and enjoy a fascinating aerial view of the park and it's abundant wildlife. OR 
                                 <br/><br/> Make a Maasai cultural visit in the manyattas a chance for you to interact with the Maasai community and learn their heritage. 
@@ -626,12 +629,12 @@ const Amboseli =()=>{
                                 <br/>
                                  </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Plan} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src="https://kicheche.com/wp-content/uploads/2018/06/mara-3-nights.jpg" className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/kicheche' className='flex items-center'>
+                                <a href='/kenya/kicheche' className='flex items-center underline'>
                                 <FaHotel className=' mr-3'/> <p>Kicheche  Mara Camp </p>
                                 </a>
                                     <hr className='my-5'/>
@@ -646,16 +649,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Following a champagne breakfast in the bush, you will have time to venture out on a final game drive for some classic views, before departing to Tsavo west national park in the afternoon via a scheduled flight. Upon arrival you will be transferred to the luxurious Finch Hatton’s Luxury Tented Camp and the rest of the day is for you to enjoy the Camp's comprehensive facilities, with a five star hospitality around.
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Tsavo1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src="https://www.tsavonationalparkkenya.com/wp-content/uploads/2022/02/35.jpg" className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <a href='/kenya/finch' className='flex items-center'>
+                                    <a href='/kenya/finch' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -670,16 +673,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Tsavo west national park is one of the largest parks in Kenya, famed for its striking geographical formations, animal and bird life. Spend this day exploring the landscapes on day long game drives, with visits to Shetani lava flow and Shiamu crater, returning to the camp in between the drives for lunch and relaxation, before setting out on another game drive. Big games that roam in this park include: large herds of various antelopes, zebras, lions, cheetahs, leopards, buffalos, rhinos, giraffes etcetera. After a game drive, stop in the wild for sundowner and cocktails with spectacular views of Mt. Kilimanjaro. A truly magical experience not to be missed!
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Lava} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Lava} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/finch' className='flex items-center'>
+                                <a href='/kenya/finch' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -694,18 +697,18 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Visit the renowned Mzima springs early in the morning to observe hippos and crocodiles from an underground chamber. This area of the park is lush and provides fresh water for wildlife to gather and drink, as well as a home for aquatic species. It's best to go in the morning as hippos tend to hide during the day. After a relaxing breakfast, take a walk through the fever-tree forest to observe the diverse birdlife and other animals.
                                 <br/><br/>Next, explore the Chyulu and Ngulia hills using the park's animal trails while observing the over 600 bird species that inhabit the area, including the endangered corncrake and Basra reed warbler. 
                                 <br/><br/>Enjoy a picnic lunch before heading to the Ngulia wildlife sanctuary in the late afternoon. This sanctuary is home to endangered rhinos, and you can view them from a panoramic observation point while enjoying a sundowner at the roaring r
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Mzima} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Mzima} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/finch' className='flex items-center'>
+                                <a href='/kenya/finch' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -721,18 +724,18 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Start your day with a hearty bush breakfast before venturing into the hinterland on an adventurous bush walk, accompanied by an armed escort. Following lunch, make the most of the camp's amenities for the afternoon.
 
                                     <br/><br/>As evening falls, embark on a night drive to immerse yourself in the nocturnal sounds of Tsavo and marvel at the star-studded sky while observing creatures like leopards, civet cats, genet cats, and bush babies. Stay vigilant throughout the drive for these fascinating nocturnal encounters.
                                         </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Finch} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Finch} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/finch' className='flex items-center'>
+                                <a href='/kenya/finch' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Finch Hatton's </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -747,16 +750,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Following a relaxed breakfast, embark on a scenic game drive while exiting the park en route to Mombasa. Upon reaching Mombasa town, savor a leisurely lunch and explore the historic old town before heading to the airport for a brief flight to Malindi. Upon arrival at Malindi airport, you'll be greeted and transferred to the tranquil Medina Palms Resort, where you can unwind and enjoy a four-night stay.                            <br /> <br/>
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Medina} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Medina} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <a href='/kenya/medina' className='flex items-center'>
+                                    <a href='/kenya/medina' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -772,16 +775,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Spend this day relaxing and unwinding on the pristine white sand beaches of Watamu, while walking through the cocktail menu. In the evening, take a peaceful sun-downer cruise on Mida Creek, sailing peacefully on a romantic Swahili dhow, through a 32 sq. km tidal estuary lined with mangroves and beaches. There is abundant birdlife in this UNESCO biosphere and stunning views to enjoy along with your delicious cocktail and canopes while watching a spectacular sunset and twinkling skies                            <br/><br/>
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Creek} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Creek} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/medina' className='flex items-center'>
+                                <a href='/kenya/medina' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -796,16 +799,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Following a relaxed breakfast, embark on a scenic game drive while exiting the park en route to Mombasa. Upon reaching Mombasa town, savor a leisurely lunch and explore the historic old town before heading to the airport for a brief flight to Malindi. Upon arrival at Malindi airport, you'll be greeted and transferred to the tranquil Medina Palms Resort, where you can unwind and enjoy a four-night stay.                            <br /> <br/>
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Surf} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Surf} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/medina' className='flex items-center'>
+                                <a href='/kenya/medina' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -822,16 +825,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                             Take a mid-morning visit to Watamu turtle sanctuary, and the historical gede ruins in the afternoon. Gede ruins are a 12th Century Swahili village that was mysteriously abandoned some 600 years ago. A guided tour through the ruins and the museum will teach you a lot of interesting things about the fascinating culture of the Swahili people and the ancient town they constructed. Gede is heavily overgrown with beautiful indigenous forest trees, baobabs and tamarind. Take a guided walk along the nature trail network comprising 40 different species of plants and Look out for Syke's Monkeys, and the Golden Rumped Elephant Shrew that are common here.
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Gedi} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Gedi} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                <a href='/kenya/medina' className='flex items-center'>
+                                <a href='/kenya/medina' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Medina  Palms  Resort </p>
                                     </a>
                                     <hr className='my-5'/>
@@ -848,16 +851,16 @@ const Amboseli =()=>{
                                 <hr/>
                                 <div className='lg:flex items-center justify-center'>
                                 
-                                    <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                                    <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                                     Dedicate the day to indulging in the resort's extensive amenities, and in the afternoon, explore the historic town of Malindi before taking an evening flight to Nairobi. Upon landing at Wilson Airport, you'll be transported to the Hemingway Hotel for a day room to relax before your departure flight home.
                                     </p>
                                 
-                                    <img alt='Arival' loading='lazy' src={Hemingways2} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                                    <img alt='Arival' loading='lazy' src={Hemingways2} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                                     
                                 </div>
                                 </div>
                                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                                    <a href='/kenya/hemingways' className='flex items-center'>
+                                    <a href='/kenya/hemingways' className='flex items-center underline'>
                                     <FaHotel className=' mr-3'/> <p>Hemingways  hotel  Nairobi </p>
                                     </a>
                                     <hr className='my-5'/>

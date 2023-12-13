@@ -76,7 +76,7 @@ const Uganda =()=> {
                 </p>
               </div>
             </section>
-            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
+            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays to Uganda </h1>
             <section className="my-10 lg:px-[80px] px-2">
               <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
                  

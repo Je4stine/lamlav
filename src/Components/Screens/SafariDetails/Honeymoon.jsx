@@ -40,6 +40,7 @@ import { FaHotel } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"
+import { ImCheckmark } from "react-icons/im";
 
 const Honeymoon =()=>{
     const data = {
@@ -239,7 +240,7 @@ const Honeymoon =()=>{
             <div className=" w-full bg-red-900 md:h-[100px] h-[300px] md:flex md:flex-row flex flex-col md:justify-around justify-center md:items-center px-5">
                 <div className=" md:mr-10 md:py-20">
                     <h1 className="font-[SourceSerifPro-Black] text-white">DESTINATION</h1>
-                    <p className="font-[SourceSerifPro-Regular] text-white md:flex-wrap">Kenya: Nairobi, Maasai Mara Game reserve, Serengeti National Park</p>
+                    <p className="font-[SourceSerifPro-Regular] text-white md:flex-wrap">Kenya: Nairobi, Maasai Mara Game reserve, Serengeti National Park, Watamu</p>
                 </div>
                 <div>
                     <h1 className="font-[SourceSerifPro-Black] text-white">DURATION</h1>
@@ -385,7 +386,9 @@ const Honeymoon =()=>{
                     </table>
                 </div>
                 </div>
-                <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
+                <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
+                 
                 <div className=" lg:flex lg: justify-between p-5">
                         <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -501,16 +504,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Your honeymoon begins as you touch down in Kenya’s capital Nairobi. You will be met and received by your Lamlaw Safari director, who will brief you on your safari as you transfer to the lavishly elegant and refined Hemingways hotel, for overnight stay.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Kanairo} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Kanairo} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemingways' className='flex items-center'>
+            <a href='/kenya/hemingways' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Hemingways hotel Nairobi </p>
             </a>
             <hr className='my-5'/>
@@ -525,17 +528,17 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 After enjoying a private morning breakfast, you will be transferred to the nearby Wilson aerodrome for a flight to Ol pejeta conservancy, in Laikipia south. Enjoy game drive en route to the amazing Kicheche safari camp, at the heart of Ol Pejeta conservancy, where you will spend four romantic nights! 
                             <br/><br/>Spend the rest of the day relaxing in camp, while enjoying stunning views of the arresting sceneries and wildlife, all from the comfort of your tent. A late afternoon game drive around the conservancy will give you the first taste of safari, as you will get a chance to spot the lion, rhino, elephant, buffalo, cheetah and the elusive leopard.
                                   </p>
             
-                <img alt='Arival' loading='lazy' src={Kicheche} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Kicheche} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/kicheche' className='flex items-center'>
+            <a href='/kenya/kicheche' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
             <hr className='my-5'/>
@@ -549,18 +552,18 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Situated in southern Laikipia, Ol Pejeta is an excellent destination for wildlife viewing.This region functions as a migration corridor for elephants and numerous other wild animals, including a substantial number of black rhinos. It is also home to various wildlife, such as cheetahs, lions, leopards, as well as rare species like wild dogs, Grevy's zebras, and reticulated giraffes. 
                                 <br/><br/>Dedicate the day to exploring the region through planned game drives, providing opportunities for awe-inspiring wildlife sightings and enjoying picturesque landscapes. Take breaks for meals and relaxation. As evening falls, guests can indulge in cocktails and local beverages, savoring the breathtaking sunset and gazing at the starry skies before a romantic dinner.
                                          
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Olpe} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Olpe} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-        <a href='/kenya/kicheche' className='flex items-center'>
+        <a href='/kenya/kicheche' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
             <hr className='my-5'/>
@@ -576,16 +579,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Indulge in a range of activities provided by the camp today. Commence your day with a delightful bush breakfast, followed by a selection of thrilling adventures such as guided walking safaris, camel rides, bird watching, canoeing, hiking, mountain biking, and wildlife tracking. In the afternoon, participate in your chosen activity, and as evening descends, relish a sophisticated open-air bush dinner by a warm campfire.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Rhino} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Rhino} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/kicheche' className='flex items-center'>
+            <a href='/kenya/kicheche' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
                 <hr className='my-5'/>
@@ -600,16 +603,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 After morning bush breakfast, you will have a chance to relax in the camp, enjoying its amenities, stunning hospitality and spectacular views, from the comfort of your tent. Head out on a late afternoon scenic drive and excursion to the only chimpanzee sanctuary. Return to the camp in the evening to indulge in local drinks and a delightful dinner at the camp, followed by an optional night time game drive to catch a glimpse of the elusive leopard and other nocturnal creatures like bush babies, aardvarks, and servals
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Chipol} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Chipol} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/kicheche' className='flex items-center'>
+            <a href='/kenya/kicheche' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Kicheche Safari Camp </p>
             </a>
                 <hr className='my-5'/>
@@ -624,16 +627,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Following a delightful champagne breakfast in the bush, take the opportunity to unwind at the camp or embark on an intriguing exploration of the surroundings, perhaps on a horse ride, before lunch. Post-lunch, enjoy the swimming pool or indulge in a spa treatment while awaiting your flight transfer to the magnificent Maasai Mara National Reserve. Upon arrival at Naboishio Conservancy, receive a warm welcome and be chauffeured to the exquisite Ol Seki Hemingway’s Camp in Mara North Conservancy. In the comfort of your tent, relish refreshing cocktails while enjoying wildlife gathering on the Mara River banks for a drink. Later, embark on a late afternoon game drive in the conservancy to explore the Mara ecosystem.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Olseki} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Olseki} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/' className='flex items-center'>
+                <a href='/' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
                 </a>
                 <hr className='my-5'/>
@@ -648,16 +651,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Enjoy the real safari experience today by searching for the Big Five animals, as well as other animals like giraffes, gazelles, and zebras. Explore the rivers, plains, and rocky areas to spot some of the smaller inhabitants of the Serengeti, such as leopard tortoises and rhinoceros beetles. Crown your day by witnessing the great migration firsthand.                                 
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Naboisho} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Naboisho} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/kenya/hemwatamu' className='flex items-center'>
+                <a href='/kenya/hemwatamu' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Ol Seki Hemingways </p>
                 </a>
                 <hr className='my-5'/>
@@ -672,16 +675,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 On this day, you will set out on an early morning exploration of this remarkable park on a sunrise hot air balloon ride and enjoy a stunning bird’s eye view of some of its arresting sceneries and wildlife. After a leisurely breakfast, you will have a chance to relax in your luxurious tent and later make a maasai cultural visit in the manyattas, for some enthralling camaraderie with the maasai community who live around this park.  After lunch, you will fly to Hemingways Watamu in Malindi, arriving in the evening to enjoy a sundowner on the pristine white sand beaches of Watamu.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Watamu1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Watamu1} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/kenya/hemwatamu' className='flex items-center'>
+                <a href='/kenya/hemwatamu' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -697,16 +700,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Hemingways Watamu is an iconic tropical paradise on the Kenyan coast sitting right in the middle of the pristine Watamu Marine National Park with its idyllic white sand beach and turquoise waters. Spend this day on the immaculate white sand beaches of Watamu bay, unwinding and relaxing as you walk your way throughout the cocktail menu. In the evening, take a sunset dhow cruise on Mida Creek- a mangrove ecosystem that is a paradise for national waterfowls and migrating birds from Europe and Eurasia.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Cruise} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Cruise} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemwatamu' className='flex items-center'>
+            <a href='/kenya/hemwatamu' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -721,16 +724,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 You will spend this day sampling some of the numerous activities offered by the resort including; snorkeling over the coral reef, master kite-surfing, diving and scuba diving. Another sunset dhow cruise on Mida Creek is another option you can revisit, as well as  golfing in the nearby world class golf course, vipingo ridge.
                  </p>
             
-                <img alt='Arival' loading='lazy' src={Scuba} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Scuba} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemwatamu' className='flex items-center'>
+            <a href='/kenya/hemwatamu' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -744,16 +747,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 This morning, you will venture out on deep sea fishing, and humpback whale excursion, where you will watch the majestic humpbacks migrating along the coast of east Africa. If time allows, you may take an exhilarating trip to the extraordinary Arabuko Sokoke Forest - home to some of Kenya’s rarest mammals, elephant, brilliant butterflies and saltwater mangroves
                  </p>
             
-                <img alt='Arival' loading='lazy' src={Arabuko} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Arabuko} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/hemwatamu' className='flex items-center'>
+            <a href='/kenya/hemwatamu' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Hemingways Watamu </p>
                 </a>
                 <hr className='my-5'/>
@@ -769,16 +772,16 @@ const Honeymoon =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Spend this morning visiting the nearby National Marine Park and Watamu turtle sanctuary, before you catch a late afternoon flight to Wilson airport Nairobi. Upon arrival, you will be transferred to hemingways hotel for day room, and later transferred to Jomo Kenyatta international airport for onward connection abroad. 
                  </p>
             
-                <img alt='Arival' loading='lazy' src={Scuba} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Scuba} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/kenya/hemingways' className='flex items-center'>
+                <a href='/kenya/hemingways' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Hemingways  Nairobi </p>
                 </a>
                 <hr className='my-5'/>

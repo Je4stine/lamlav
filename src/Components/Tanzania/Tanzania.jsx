@@ -60,7 +60,7 @@ const Tanzania =()=> {
                 </p>
               </div>
             </section>
-            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays Kenya </h1>
+            <h1 className="lg:px-[100px] px-2 font-[SourceSerifPro-Black] text-2xl mt-20">Inspirational Safaris Holidays to Tanzania </h1>
             <section className="my-10 lg:px-[80px] px-2">
               <div className="lg:flex lg:justify-around lg:flex-wrap my-10">
                  
@@ -68,7 +68,7 @@ const Tanzania =()=> {
                   <a href="/tanzania/ultimatemigration" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
                     <img alt="Safari" src="https://www.naturaltoursandsafaris.com/wp-content/uploads/2020/01/Wildebeest-Migration-Maasai-Mara-Natural-World-Kenya-Safaris.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
                     <div>
-                      <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Kenya and Tanzania, great  migration safari</h1>
+                      <h1 className=" font-[SourceSerifPro-Black] mb-10">1. Kenya & Tanzania Great Migration Holiday</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em> Experience the thrill of being at the epicenter of the Great Wildebeest Migration, surrounded by the untamed wilderness while enjoying all the refined comforts you desire.</em></p>
                       <p className="font-[SourceSerifPro-Black] my-10">
                           13days/12 nights from $ 15,275 per person.
@@ -80,7 +80,7 @@ const Tanzania =()=> {
                   <a href="/tanzania/splendoftz" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
                     <img alt="Safari" src="https://secretafrica.com/wp-content/uploads/2021/10/Best-Time-To-Go-To-Tanzania-36.jpg" className="lg:w-1/3 w-1/2 mr-3 object-cover"/>
                     <div>
-                        <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Splendous of Tanzania</h1>
+                        <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Splendor of Tanzania</h1>
                         <p className="font-[SourceSerifPro-Regular]"> <em>An iconic safari combining the perfect blend of adventure, cultural immersion, and relaxation.</em></p>
                         <p className="font-[SourceSerifPro-Black] my-10">
                             10days/9nights From $ 11,860 per person.

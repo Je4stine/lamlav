@@ -104,7 +104,7 @@ function Partners() {
 
   return (
     <div className=' py-5 px-2 bg-[#fff] flex flex-col justify-center'>
-        <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 text-center'>Compelling reason why you should travel with Lamlav Leisure Safaris</h1></div>
+        <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 text-center'>Compelling reasons why you should travel with Lamlav Leisure Safaris</h1></div>
         <div className='lg:flex justify-around'>
             <div className=' flex flex-col items-center '>
             <div className="rounded-full bg-gray-300 p-3"><img src={Expert} alt='expert' className="w-[200px] h-[200px] border-white border-4 rounded-full shadow-md object-cover"/></div>

@@ -655,9 +655,9 @@ function SpiritOfUganda() {
               </div>
           </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/protea' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>Protea Hotel Entebbe </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -677,9 +677,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/wildwaters' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -699,9 +699,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/wildwaters' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>Wildwaters Lodge </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -722,9 +722,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='#' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -746,9 +746,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='#' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>Paraa Safari  Lodge  </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -769,9 +769,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/kyaninga' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -793,9 +793,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/kyaninga' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p> Kyaninga Lodge   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -816,9 +816,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/mweya' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -839,9 +839,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/mweya' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p> Mweya Safari Lodge.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -862,9 +862,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/ishasha' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -886,9 +886,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/ishasha' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p> Ishasha Wilderness Camp.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -909,9 +909,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/rwanda/lodges/forest' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -931,9 +931,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/rwanda/lodges/forest' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>  Sunctuary Gorilla Forested Camp.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
 
 
@@ -953,9 +953,9 @@ function SpiritOfUganda() {
                 </div>
             </div>
                 <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <a href='/uganda/lodges/protea' className='flex items-center underline'>
                  <FaHotel className=' mr-3'/> <p>  Protea Hotel Entebbe.   </p>
-                </div>
+                </a>
                 <hr className='my-5'/>
           </div>
 

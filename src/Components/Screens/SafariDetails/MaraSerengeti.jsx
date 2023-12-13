@@ -44,6 +44,7 @@ import Faq from "react-faq-component";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Partners from "../../Partners";
+import { ImCheckmark } from "react-icons/im";
 import { FaHotel, FaSadCry } from "react-icons/fa";
 
 const Mara =()=>{
@@ -359,7 +360,8 @@ const Mara =()=>{
                     </table>
                 </div>
                 </div>
-                <h1 className="text-2xl mb-10 font-[SourceSerifPro-Black] text-red-900">Included</h1>
+                <div className="h-[80px] w-[80px] rounded-full bg-orange-500 flex flex-col items-center justify-center"><ImCheckmark size={20} /></div>
+                  <h1 className="text-2xl font-[SourceSerifPro-Black] text-red-900 mt-10 mb-5">Included</h1>
                 <div className=" lg:flex lg: justify-between p-5">
                         <ul className=" lg:p-5 mb-8 space-y-4 text-left text-black">
                             <li className=" font-[SourceSerifPro-Regular] mb-3 md:text-xl flex items-center space-x-3">
@@ -474,16 +476,16 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Upon arrival at Jomo Kenyatta International Airport, you will be warmly received by your Lamlav  Safari Director who will brief you on the safari and transfer you to Norfolk hotel for overnight stay.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day1} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day1} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/norfolk' className='flex items-center'>
+            <a href='/kenya/norfolk' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
             </a>
             <hr className='my-5'/>
@@ -498,16 +500,16 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Combine wildlife and culture with morning trips to the <strong>giraffe center, David Shieldrick Wildlife Trust,</strong> the <strong>Karen Blixen Muesum</strong> and later to the <strong>Kazuri bead factory</strong> where you will see how classic pottery beads are made, following the process from beginning to end. Return  to Norfolk  hotel  for evening  dinner  dinner  and relaxation. 
                  </p>
             
-                <img alt='Arival' loading='lazy' src={Day2} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day2} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/norfolk' className='flex items-center'>
+            <a href='/kenya/norfolk' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Norfolk hotel Nairobi </p>
             </a>
             <hr className='my-5'/>
@@ -521,17 +523,17 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Catch a flight at Wilson airport and fly over the Laikipia plateau, enjoying the stunning view of the lordly Mt Kenya, to the Lewa wildlife conservancy. Upon touch down at Lewa airstrip, you will enjoy a game drive transfer to the famous Lewa Safari Camp, where you will spend three amazing nights. Arrive in time for lunch and have time to relax before setting out for an afternoon game drive to dusk.
               
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day3} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day3} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
         </div>
         <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/lewaconservancy' className='flex items-center'>
+            <a href='/kenya/lewaconservancy' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
             </a>
             <hr className='my-5'/>
@@ -547,18 +549,18 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Spend this day exploring the landscapes on scheduled morning and afternoon game drives, returning to the camp In between the drives for lunch and relaxation, before setting out for another game drive.
                       <br/><br/>Lewa wildlife conservancy is a world heritage center and home to diverse array of game mammals and birds. It is a vital stronghold for the approximately 400 Grevy’s Zebras and more than 120 rhinos, and  second to Maasai Mara in terms of wildlife densities. Visitors to Lewa are privy to some of the most spectacular wildlife viewing that Kenya has to offer. Prides of lion, leopard and jackal thrive on the rich diversity of prey that inhabits the area. 
                                         
                  </p>
             
-                <img alt='Arival' loading='lazy' src={Day4} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day4} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/lewaconservancy' className='flex items-center'>
+            <a href='/kenya/lewaconservancy' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
             </a>
                 <hr className='my-5'/>
@@ -573,16 +575,16 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 This morning,  you  will enjoy a sumptuous Champaign breakfast in the bush, and then head out to explore the beautiful terrains on a fascinating guided walk, with an armed escort. Horse rides, camel rides and cultural visits are some exciting activities that you will also have a chance to explore on this day. Your day ends with a sundowner and a delicious al fresco dinner around a warm campfire.                                <br/>
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day5} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day5} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/lewaconservancy' className='flex items-center'>
+            <a href='/kenya/lewaconservancy' className='flex items-center underline'>
             <FaHotel className=' mr-3'/> <p>Lewa Safari  Camp </p>
             </a>
                 <hr className='my-5'/>
@@ -597,17 +599,17 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                             Transfer to Lewa airstrip, this morning, for a flight to the great Maasai Mara National Park. While airborne,  you  will enjoy  a captivating  aerial  view of the beautiful scenery of the Great Rift Valley and the expansive park. Upon touch down, you will be transferred to the indulgent and lush Mara Serena camp for a three night stay. Enjoy game drive en route to the camp from keekorock airstrip, and arrive in time for a hearty lunch and relaxation.
                             <br/><br/>Depart for a thrilling afternoon game drive to dusk, around the park, for a chance to view the big cats; lion, cheetah, leopard and other games like rhino, elephant, buffalo, gazelle etcetera. Return to the lodge for a comprehensive dinner around a cozy camp fire or lounge.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day6} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day6} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <div className='flex items-center'>
+                <div className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Four Seasons Safari Lodge </p>
                 </div>
                 <hr className='my-5'/>
@@ -622,16 +624,16 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 Spend this day exploring the Mara ecosystem on unlimited game drives, for a chance to experience these breathtaking and unforgettable spectacles that will always leave you breathless!
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day7} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day7} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href='/kenya/marares' className='flex items-center'>
+                <a href='/kenya/marares' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
                 </a>
                 <hr className='my-5'/>
@@ -646,16 +648,16 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 This morning, you will crown your game viewing experience with a leisurely Bush Breakfast by the Mara River Hippo Pools, before heading out for a morning game drive. Return to the lodge for lunch and indulge in spa, or a muscle relieving massage, before making a grand visit (optional) to the maasai villages for an opportunity to learn their proud heritage and how they peacefully coexist with the wild animals.
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day8} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day8} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/marares' className='flex items-center'>
+            <a href='/kenya/marares' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
                 </a>
                 <hr className='my-5'/>
@@ -671,16 +673,16 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 This day, you will embark on an early morning game drive and later set out on a fascinating sunrise hot air balloon ride across the park, for a chance to get a stunning aerial view of the park and its game. The rest of the day is for you to enjoy the comprehensive amenities of the lodge with a five star service around you. This evening you will enjoy a star–lit bush dinner, enlivened by the presence of scarlet-clad Maasai Morans (warriors).
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day9} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day9} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-            <a href='/kenya/marares' className='flex items-center'>
+            <a href='/kenya/marares' className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Mara Serena camp </p>
                 </a>
                 <hr className='my-5'/>
@@ -695,16 +697,16 @@ const Mara =()=>{
             <hr/>
             <div className='lg:flex items-center justify-center'>
             
-                <p className='font-[SourceSerifPro-Regular] md:text-xl'>
+                <p className='font-[SourceSerifPro-Regular] md:text-xl lg:w-1/2'>
                 After a hearty morning breakfast, you will get a chance to relax and enjoy armchair viewing of the arresting scenery and wildlife. Later in the afternoon, you will be driven to the airstrip  for a flight to Nairobi, where you will have a day room at Norfolk hotel and a meal before you are transferred to the airport for a flight back home..
                 </p>
             
-                <img alt='Arival' loading='lazy' src={Day10} className=' lg:w-1/2 lg:ml-5  object-contain'/>
+                <img alt='Arival' loading='lazy' src={Day10} className=' lg:w-1/2 lg:ml-5  object-cover'/>
                 
             </div>
             </div>
             <h1 className='font-semibold text-xl mb-2'>Accomodation</h1>
-                <a href="/kenya/norfolk" className='flex items-center'>
+                <a href="/kenya/norfolk" className='flex items-center underline'>
                 <FaHotel className=' mr-3'/> <p>Norfolk  hotel  Nairobi </p>
                 </a>
                 <hr className='my-5'/>
