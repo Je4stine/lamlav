@@ -233,7 +233,7 @@ const DETAILS =[
         "campImg1":Lamela,
         "campImg2":Beyond,
         "campImg3":Sasakwa,
-        "campImg4":Medina,
+        "campImg4":Singita,
         "count": 4
     },
     {

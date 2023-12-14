@@ -52,6 +52,12 @@ const DetailsTz = () => {
     slidesToScroll: 1
   };
 
+  const imageStyle = {
+    width: '100%', // Fixed width
+    height: '300px',
+    objectFit: 'cover',
+  };
+
   return (
     <div className=" bg-white">
       {colorChanged ? <Navreveal /> : <Navbar />}
@@ -109,7 +115,7 @@ const DetailsTz = () => {
           
           <div className=" lg:flex ">
             <div className='lg:w-1/2 mr-10'>
-              <img src={item.campImg1} alt="Tortolis Camp" loading="lazy" />
+              <img src={item.campImg1} alt="Tortolis Camp" loading="lazy" className=" object-cover" />
               <a href={item.campId1}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp1}</h1></a>
               <a href={item.campId1}><div className='hover:text-[#f15d30] lg:text-lg'>
                 <span>{item.title}, Tanzania</span>
@@ -119,7 +125,7 @@ const DetailsTz = () => {
             {
               item.campId2 == null ? <div/>:
               <div className='lg:w-1/2 mr-10'>
-                <img src={item.campImg2} alt="Ol Tukai" loading="lazy" />
+                <img src={item.campImg2} alt="Ol Tukai" loading="lazy" className=" object-cover"/>
                 <a href={item.campId2}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp2}</h1></a>
                 <a href={item.campId2}><div className=' hover:text-[#f15d30] lg:text-lg'>
                   <span>{item.title}, Tanzania</span>
@@ -131,7 +137,7 @@ const DetailsTz = () => {
             {
               item.campId3 == null ? <div/> :
                   <div div className='lg:w-1/2 mr-10'>
-                    <img src={item.campImg3} alt="Ol Tukai" loading="lazy" />
+                    <img src={item.campImg3} alt="Ol Tukai" loading="lazy" className=" object-cover" />
                     <a href={item.campId3}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp3}</h1></a>
                     <a href={item.campId3}><div className=' hover:text-[#f15d30] lg:text-lg'>
                       <span>{item.title}, Tanzania</span>
@@ -142,7 +148,7 @@ const DetailsTz = () => {
             {
               item.campId4 == null ? <div/> :
                   <div div className='lg:w-1/2 mr-10'>
-                    <img src={item.campImg4} alt="Ol Tukai" loading="lazy" />
+                    <img src={item.campImg4} alt="Ol Tukai" loading="lazy" className=" object-cover"/>
                     <a href={item.campId4}><h1 className="font-[SourceSerifPro-Regular] text-lg lg:text-2xl mt-2" >{item.camp4}</h1></a>
                     <a href={item.campId4}><div className=' hover:text-[#f15d30] lg:text-lg'>
                       <span>{item.title}, Tanzania</span>

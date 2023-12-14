@@ -17,8 +17,9 @@ import Loldia from '../Assets/Manya1.jpg';
 import Mara from '../Assets/lodge-and-pool-1200x900.jpg';
 import MaraPlains from '../Assets/Onsea.jpg';
 import Mbweha from '../Assets/mbweha.jpg';
-import Medina from '../Assets/kilindi-stone-town.jpg';
+import Medina from '../Assets/Singitadodoma.jpeg';
 import Neptune from '../Assets/TarangireTreetops---Game-Drive.jpg';
+
 
 
 
@@ -80,9 +81,9 @@ function AllLodgesTz() {
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                initialSlide: 1
               }
             },
             {
