@@ -43,24 +43,19 @@ const Footer =()=>{
                 <div className=' flex flex-col flex-1 items-center'>
                     <h2 className=' text-white max-[768px]:text-sm max-[768px]:mt-5 font-[SourceSerifPro-Bold]'>Socials</h2>
                     <a target="_blank" rel='noreferrer' href='https://www.facebook.com/lamlavleisuresafris' className='flex max-[768px]:items-center '>
-                         <FaFacebook color='#fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                         <FaFacebook color='#fff' size={25}/>                         
                     </a>
                     <a target="_blank" rel='noreferrer' href='https://www.instagram.com/lamlavsafaris/' className='flex items-center '>
-                         <FaInstagramSquare color=' #fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                         <FaInstagramSquare color=' #fff' size={25}/>                         
                     </a>
                     <a target="_blank" rel='noreferrer' href='https://x.com/Lamlavsafaris?s=20' className='flex items-center '>
-                         <AiFillTwitterCircle color=' #fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                         <AiFillTwitterCircle color=' #fff' size={25}/>                      
                     </a>
                     <a target="_blank" rel='noreferrer' href='https://www.youtube.com/@LamlavLeisureSafaris' className='flex items-center '>
-                         <FaYoutube color=' #fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
+                         <FaYoutube color=' #fff' size={25}/>                       
                     </a>
                     <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/lamlav-leisure-safaris-4a7a422a4' className='flex items-center '>
                          <FaLinkedin color=' #fff' size={25}/>
-                         <p className=' text-gray-400 m-2 max-[768px]:text-sm font-[SourceSerifPro-Regular] hover:text-orange-500'>Lamlav Leisure Safaris </p>
                     </a>
                     
                   
