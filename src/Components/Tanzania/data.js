@@ -53,7 +53,7 @@ const DATA = [
     },
     {
         "id":6,
-        "title":"Ngorongoro conservation area",
+        "title":"Ngorongoro Conservation Area",
         "descripton":"The Lost World of  Ngorongoro is a captivating  realm of nature that must be experienced firsthand to truly comprehend its magical allure. Its lush and vibrant landscape is beyond description and cannot be fully captured through mere words or photographs. ",
         "image":Ngorongoro,
         "link":"/tanzania/ngorongoro"

@@ -15,7 +15,7 @@ const Countries =()=>{
 
             <div className=' flex flex-col items-center justify-center'>
                 
-            <Fade left>
+            <div>
                 <a href='/kenya' className='lg:flex flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Kenya} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                         <div className=' p-10 flex flex-col justify-center'> 
@@ -37,10 +37,10 @@ const Countries =()=>{
                             </a>
                         </div>
                 </a>
-                </Fade>
+                </div>
 
 
-                <Fade right>
+                <div>
                 <a href='/tanzania' className='lg:flex lg:flex-row-reverse flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Tanzania} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                     <div className=' p-10 flex flex-col justify-center'> 
@@ -61,9 +61,9 @@ const Countries =()=>{
                             </a>
                     </div>
                 </a>
-                </Fade>
+                </div>
 
-                <Fade left>
+                <div>
                 <a href='/uganda' className='lg:flex flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Uganda} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                         <div className=' p-10 flex flex-col justify-center'> 
@@ -84,11 +84,11 @@ const Countries =()=>{
                             </a>
                         </div>
                 </a>
-                </Fade>
+                </div>
 
 
 
-                <Fade right>
+                <div>
                 <a href='/rwanda' className='lg:flex lg:flex-row-reverse flex-1 mb-5 lg:w-[98%] bg-white'>
                     <img src={Rwanda} alt="Kenya" className='lg:w-1/2 lg:h-[50vh]' loading='lazy'/>
                     <div className=' p-10 flex flex-col justify-center'> 
@@ -110,7 +110,7 @@ const Countries =()=>{
                             </a>
                     </div>
                 </a>
-                </Fade>
+                </div>
 
 
             </div>

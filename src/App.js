@@ -123,7 +123,9 @@ import SplendorTanzania from './Components/Destination/SplendorTanzania';
 import UltimateMigration from './Components/Destination/UltimateMigration';
 import UgandaFamily from './Components/Destination/UgandaFamily';
 import SpiritOfUganda from './Components/LuxurySafari/SpiritOfUganda';
-
+import Blog from './Components/Screens/Blog/Blog'
+import Chatbot from './Components/ChatBot/ChatBot'
+import BlogDetails from './Components/Screens/Blog/BlogDetails';
 
 function App() {
   
@@ -145,6 +147,8 @@ function App() {
             <Route path ="/about" element={<AboutUs/>}/>
             <Route path ="/safaris" element={<Safaris/>}/>
             <Route path ="/contacts" element={<Inquiry/>}/>
+            <Route path="/blog" element={<Blog/>}/>
+            <Route path="/blogdetails/ngorongoro-crater" element={<BlogDetails/>}/>
             <Route path ="/faqs" element={<FAQs/>}/>
             <Route path ="/inquiry" element={<Inquiry/>}/>
             <Route path ='/mara' element={<Mara/>}/>

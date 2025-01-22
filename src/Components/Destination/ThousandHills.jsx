@@ -142,7 +142,7 @@ function ThousandHills() {
 
         <div className=" lg:px-[300px] px-5 mb-5 mt-10">
           <p className=" font-[SourceSerifPro-Regular] md:text-xl">
-          Rwanda's landscape is truly awe-inspiring, ranging from the majestic Virunga volcanoes to mist-covered tea plantations and vast rainforests. Over the course of 11 days, explore Volcanoes National Park, Lake Kivu, and Nyungwe Forest. This itinerary offers a unique opportunity to observe magnificent silverback gorillas and their families with the guidance of skilled trackers, retracing the path of Dian Fossey, who dedicated her life to studying mountain gorillas in the Virunga Mountains. For those passionate about chimpanzees, this safari promises a once-in-a-lifetime experience in one of the world's most abundant primate-rich destinations.        
+          Rwanda's landscape is truly awe-inspiring, ranging from the majestic Virunga volcanoes to mist-covered tea plantations and vast rainforests. Over the course of 11 days, explore Volcanoes National Park, Lake Kivu, and Nyungwe Forest. This itinerary offers a unique opportunity to observe the magnificent <u>silverback gorillas</u> and their families with the guidance of skilled trackers, retracing the path of Dian Fossey, who dedicated her life to studying mountain gorillas in the Virunga Mountains. For those passionate about chimpanzees, this safari promises a once-in-a-lifetime experience in one of the world's most abundant primate-rich destinations.        
           </p>
           </div>
   

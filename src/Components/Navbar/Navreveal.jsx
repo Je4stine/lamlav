@@ -55,6 +55,9 @@ const Navbar =()=>{
                             <a href="/contacts" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Contacts/Inquiry</a> 
                         </li>
                         <li className=" mx-4 my-6 ">
+                            <a href="/blog" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Blogs</a> 
+                        </li>
+                        <li className=" mx-4 my-6 ">
                             <a href="https://wa.me/+254716251932" className=" hover:text-[#f15d30] duration-500 lg:text-black font-[SourceSerifPro-Black]">Plan for a trip call +254716251932</a> 
                         </li>
                     </ul> 
@@ -111,6 +114,10 @@ const Navbar =()=>{
                         </li>
                         <li className=" mx-4 my-6 ">
                             <a href="/contacts" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">Contacts/Inquiry</a> 
+                        </li>
+                    
+                        <li className=" mx-4 my-6 ">
+                            <a href="/blog" className=" hover:text-yellow-400 duration-500 text-white font-[SourceSerifPro-Black] lg:text-black">Blogs</a> 
                         </li>
                       
                     </ul>

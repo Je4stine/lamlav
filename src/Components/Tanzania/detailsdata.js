@@ -191,7 +191,7 @@ const DETAILS =[
         "id":6,
         "image":Ngorongoro,
         "title":"Ngorongoro Conservation Area",
-        "p1":"The Eighth Wonder of the World is a remarkable experience for any traveler exploring the forested slopes of the ancient volcano, leading to the magnificent rim of the Ngorongoro Crater. Suddenly, a breathtaking sight awaits, as you gaze 2,000 feet below at the astonishing and unparalleled view of the immense caldera, a hidden gem until its discovery in 1892. ",
+        "p1":"The Eighth Wonder of the World is a remarkable experience for any traveler exploring the forested slopes of the ancient volcano, leading to the magnificent rim of the Ngorongoro Crater. Suddenly, a breathtaking sight awaits as you gaze 2,000 feet below at the astonishing and unparalleled view of the immense caldera- a hidden gem until its discovery in 1892. ",
         "p2":" While Ngorongoro's geological past is fascinating, its present state as a tranquil haven for flora and fauna offers an unmatched opportunity for travelers to immerse themselves in Africa's finest safari adventures. Ascending to the rim of the Ngorongoro Crater and beholding the breathtaking vista below is a truly unforgettable experience. The sheer size and natural beauty of the crater, combined with its abundant wildlife, makes it a safari destination of unparalleled excellence.",
         "campId1":"/tanzania/lodges/manor",
         "campId2":"/tanzania/lodges/crater",

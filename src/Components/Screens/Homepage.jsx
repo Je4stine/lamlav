@@ -1,7 +1,5 @@
-import React,{ useState} from "react";
-import GetInTouch from '../Contact/Contacts'
-import ChatBot from "../ChatBot/ChatBot";
-// import ControlledCarousel from "../Carousel/Carousel";
+import React, { useState, useEffect } from "react";
+import GetInTouch from "../Contact/Contacts";
 
 import Countries from "../Destination/Countries";
 import Destination from "../Destination/Destination";
@@ -11,54 +9,56 @@ import Hero from "../Hero/Here";
 import Navbar from "../Navbar/Navbar";
 import Navreveal from "../Navbar/Navreveal";
 import Testimonials from "../Testmonials/Testimonials";
-import Top from "../Top/Top";
 import Why from "../Why/Why";
 import Intro from "../Intro/Intro";
 import Callfor from "../Contact/Callfor";
 import Partners from "../Partners";
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import DATA from "../Testmonials/Data";
-import TestimonialsCarousel from "../Review/Review";
 
-const Homepage =()=>{
-    const [colorChanged, setColorChanged]= useState(false);
+const Homepage = () => {
+  const [colorChanged, setColorChanged] = useState(false);
 
-    const changeNavbarColor = () =>{
-        if(window.scrollY >= 80){
-          setColorChanged(true);
-        }
-        else{
-          setColorChanged(false);
-        }
-     };
-    window.addEventListener('scroll', changeNavbarColor);
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorChanged(true);
+    } else {
+      setColorChanged(false);
+    }
+  };
 
-    return (
-        <div className=" relative" >
-            {/* <Top/> */}
-            {/* <Top/> */}
-            {
-                colorChanged ? <Navreveal/> : <Navbar/>
-            }
-            <Hero/>
-            <Intro/>
-            <Why/> 
-            <Countries/>
-            <Destination/>
-            <Callfor/>
-            <Testimonials testimonials={DATA}/>
-            {/* <TestimonialsCarousel/> */}
-            <GetInTouch/>
-            <Partners/>
-            <ChatBot/>
-            <div className=" bg-[#fff]">
-                <img src={require('../../Assets/kanairo-black.svg').default } alt="Kanairo"/>
-            </div>
-            <Footer/>
+  useEffect(() => {
+    window.addEventListener("scroll", changeNavbarColor);
+    return () => {
+      window.removeEventListener("scroll", changeNavbarColor);
+    };
+  }, []);
+
+  return (
+    <>
+      <div className=" ">
+        {colorChanged ? <Navreveal /> : <Navbar />}
+        <Hero />
+        <Intro />
+        <Why />
+        <Countries />
+        <Destination />
+        <Callfor />
+        <Testimonials testimonials={DATA} />
+        {/* <TestimonialsCarousel/> */}
+        <GetInTouch />
+        <Partners />
+        <div className=" bg-[#fff]">
+          <img
+            src={require("../../Assets/kanairo-black.svg").default}
+            alt="Kanairo"
+          />
         </div>
-    )
-}
+        <Footer />
+      </div>
+    </>
+  );
+};
 
 export default Homepage;

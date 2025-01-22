@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b57a3e14.css",
-    "main.js": "/static/js/main.c5e0d34b.js",
-    "static/js/787.0002ab42.chunk.js": "/static/js/787.0002ab42.chunk.js",
+    "main.css": "/static/css/main.611a7858.css",
+    "main.js": "/static/js/main.179f52de.js",
+    "static/js/496.d859c035.chunk.js": "/static/js/496.d859c035.chunk.js",
     "static/media/Pool2.jpg": "/static/media/Pool2.0e91b0069f3b90d96895.jpg",
     "static/media/Banda Plunge Pool.jpg": "/static/media/Banda Plunge Pool.743067fabfb2d27ade6d.jpg",
     "static/media/serengeti-national-park.jpg": "/static/media/serengeti-national-park.61ae9d0eac9b191a2049.jpg",
@@ -654,6 +654,7 @@
     "static/media/323483079.jpg": "/static/media/323483079.8c821920b47da57ed0ee.jpg",
     "static/media/74650347.jpg": "/static/media/74650347.1d2922705d703be14fd9.jpg",
     "static/media/7998643-ishasha-wilderness-camp-ishasha.jpg": "/static/media/7998643-ishasha-wilderness-camp-ishasha.b89ab8e08e6c53292664.jpg",
+    "static/media/avatart.png": "/static/media/avatart.bc3d6d18601626026415.png",
     "static/media/FR.-Loldia-House-16-992x695.jpg": "/static/media/FR.-Loldia-House-16-992x695.2bada63537aeb10b4979.jpg",
     "static/media/FR.-Loldia-House-11-992x695.jpg": "/static/media/FR.-Loldia-House-11-992x695.28c081a00af7ae949015.jpg",
     "static/media/Mgahinga-Gorilla-National-Park-landscape-1024x683.jpeg": "/static/media/Mgahinga-Gorilla-National-Park-landscape-1024x683.347974fb5c76322e6732.jpeg",
@@ -734,7 +735,6 @@
     "static/media/images (24).jpeg": "/static/media/images (24).ddd957b41e620ed8f43e.jpeg",
     "static/media/British_Airways-Logo.png": "/static/media/British_Airways-Logo.e6599a098b31208a0095.png",
     "static/media/sitemap1.png": "/static/media/sitemap1.1e0d889c4ee281613a8f.png",
-    "static/media/profile.jpg": "/static/media/profile.475619cac078c65e4301.jpg",
     "static/media/ugwildlife.png": "/static/media/ugwildlife.89495be5f68b0721bf80.png",
     "static/media/RWCA.png": "/static/media/RWCA.d6e0f391ecf13ca94be7.png",
     "static/media/lewa.png": "/static/media/lewa.b5a26d15e3a2c8c18687.png",
@@ -744,12 +744,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.b57a3e14.css.map": "/static/css/main.b57a3e14.css.map",
-    "main.c5e0d34b.js.map": "/static/js/main.c5e0d34b.js.map",
-    "787.0002ab42.chunk.js.map": "/static/js/787.0002ab42.chunk.js.map"
+    "main.611a7858.css.map": "/static/css/main.611a7858.css.map",
+    "main.179f52de.js.map": "/static/js/main.179f52de.js.map",
+    "496.d859c035.chunk.js.map": "/static/js/496.d859c035.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b57a3e14.css",
-    "static/js/main.c5e0d34b.js"
+    "static/css/main.611a7858.css",
+    "static/js/main.179f52de.js"
   ]
 }

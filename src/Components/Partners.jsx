@@ -132,7 +132,7 @@ function Partners() {
             </div>
         </div>
         <hr className='mt-10'/>
-        <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 mt-10'>Our Prefered Partners</h1></div>
+        <div className=' m-auto'><h1 className=' font-bold lg:text-3xl text-xl mb-10 mt-10'>Our Preferred Partners</h1></div>
         <div >
                 <Slider {...settings}>
                 {logos.map((item, index) => {

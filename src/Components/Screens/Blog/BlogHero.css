@@ -1,0 +1,9 @@
+.blogs{
+    background-image: url('https://luxeadventuretraveler.com/wp-content/uploads/2019/02/Luxe-Adventure-Traveler-Hot-Air-Balloon-Masai-Mara-2.jpg');
+    min-height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+  }
+

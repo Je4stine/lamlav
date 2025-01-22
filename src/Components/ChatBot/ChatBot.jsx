@@ -1,79 +1,72 @@
+import React,{useState}from 'react';
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
+import Avatar from '../../Assets/PNG/avatart.png'; 
 
- 
-const steps = [
-    {
-        id: '0',
-        message: 'Hey there!',
-        trigger: '1',
-    }, 
-    {
-        id: '1',
-        message: 'Please write your Name',
-        trigger: '2'
-    }, {
-        id: '2',
- 
-        // Here we want the user
-        // to enter input
-        user: true,
-        trigger: '3',
-    }, {
-        id: '3',
-        message: " hi {previousValue}, how can I help you?",
-        trigger: 4
-    }, {
-        id: '4',
-        options: [
-             
-            // When we need to show a number of
-            // options to choose we create alist
-            // like this
-            { value: 1, label: 'Book a Safari' },
-            { value: 2, label: 'Speak to us' },
- 
-        ],
-        end: true
-    }
-];
- 
-// Creating our own theme
-const theme = {
-    background: '#ffffff',
-    fontFamily: 'Arial, sans-serif',
-    headerBgColor: '#075e54',
-    headerFontColor: '#ffffff',
-    headerFontSize: '20px',
-    botBubbleColor: '#DCF8C6',
-    botFontColor: '#000000',
-    userBubbleColor: '#ECE5DD',
-    userFontColor: '#000000',
-  };
-  
- 
-// Set some properties of the bot
-const config = {
-    // botAvatar: {imBot},
-    floating: true,
-};
- 
-function Bot() {
+
+
+const Bot =()=> {
+	
+	const steps = [
+		{
+			id: '0',
+			message: 'Hello there! How are you today? What is your name?',
+			trigger: '2',
+		},
+		{
+			id: '2',
+			user: true,
+			trigger: '3',
+		}, 
+		{
+			id: '3',
+			message: "Hello {previousValue}, how can I help you?",
+			trigger: '4'
+		}, 
+		{
+			id: '4',
+			options: [
+				{ value: 1, label: 'Book a Safari', trigger: () => window.open('https://wa.me/+254716251932') },
+				{ value: 2, label: 'Talk to our agent', trigger: () => window.open('https://wa.me/+254716251932') },
+			],
+			end: true
+		}
+	];
+	
+	const theme = {
+		background: '#C9FF8F',
+		headerBgColor: '#197B22',
+		headerFontSize: '20px',
+		botBubbleColor: '#197B22',
+		headerFontColor: 'white',
+		botFontColor: 'white',
+		userBubbleColor: '#FF5733',
+		userFontColor: 'white',
+	};
+	
+	const config = {
+		botAvatar: Avatar,
+		floating: true,
+	};
+
+	const logs =()=>{
+		console.log("Rendering...")
+	}
+
+	logs()
     return (
-        <div className="App">
+        <div className="">
             <ThemeProvider theme={theme}>
                 <ChatBot
- 
-                    // This appears as the header
-                    // text for the chat bot
-                    headerTitle="Lamalav Safaris"
+                    headerTitle="LamLav Leisure Safaris"
+					recognitionEnable={true}
+	//				speechSynthesis={{ enable: true, lang: 'en' }}
                     steps={steps}
                     {...config}
- 
                 />
             </ThemeProvider>
         </div>
     );
 }
- 
+
 export default Bot;

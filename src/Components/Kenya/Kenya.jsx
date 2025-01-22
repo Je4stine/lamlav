@@ -81,7 +81,7 @@ const Kenya = ()=>{
                   </a>
 
                   <a href="/mara" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
-                    <img alt="Safari" src="https://www.asiliaafrica.com/media/kvmdsaks/ubuntu-migration-camp-game-drive.jpg?width=0&format=webp&quality=60&rnd=132271987049770000&mode=crop" className="lg:w-1/3 w-1/2 mr-3"/>
+                    <img alt="Safari" src="https://www.travelandleisure.com/thmb/RgmWBwot1U8ucDBPw--EdJRvlQ4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wildebeest-great-migration-tanzania-africa-GREATMIG0315-42f970fe37744ee49bb88cd1eb542b1b.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">2. Great Migration Safari</h1>
                       <p className="font-[SourceSerifPro-Regular]"><em>Experience the pulse of nature and the grandeur of wildlife in a seamless exploration of diverse landscapes. </em></p>
@@ -114,7 +114,7 @@ const Kenya = ()=>{
                       </div>
                   </a>
                   <a href="/wilderness" className="lg:w-1/2 my-5 bg-white shadow-md flex hover:shadow-xl hover:cursor-pointer">
-                    <img alt="Safari" src="https://peaksofafrica.co.za/wp-content/uploads/2016/11/Kenya-and-Tanzania-Great-Wilderness-Safari-1.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
+                    <img alt="Safari" src="https://cdn.britannica.com/13/5513-050-4F04D980/Zebras-Amboseli-National-Park-Kenya.jpg" className="lg:w-1/3 w-1/2 mr-3"/>
                     <div>
                       <h1 className=" font-[SourceSerifPro-Black] mb-10">5.Great Wilderness safari </h1>
                       <p className="font-[SourceSerifPro-Regular]"><em> A truly indulgent and quintessential Kenyan Safari experience.</em></p>
